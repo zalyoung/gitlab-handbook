@@ -1,0 +1,33 @@
+{{- /* To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml */}}
+<table>
+  <thead>
+    <tr>
+        <th>Group</th>
+        <th>Support Counterpart</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ range site.Data.public.stages.stages }}
+    {{ $.Scratch.Set "display_name" .display_name }}
+    {{ range .groups }}
+      {{ if .support }}
+        <tr>
+          <td>{{ $.Scratch.Get "display_name" }} : {{ .name }}</td>
+          <td>{{- if reflect.IsSlice .support }}
+                {{- range .support}}
+                  {{- with (index (where site.Data.public.team "name" "eq" .) 0) }}
+                  <div class="mb-2">{{ partial "member/with-team-link" . }}</div>
+                  {{- end }}
+                {{- end }}
+              {{- else }}
+                {{- with (index (where site.Data.public.team "name" "eq" .support) 0) }}
+                  {{ partial "member/with-team-link" . }}
+                {{- end }}
+              {{- end }}
+          </td>
+        </tr>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  </tbody>
+</table>

@@ -11,7 +11,13 @@ For an in depth overview of Opportunity Approval Booking Requirements, please re
 
 ### What We Do
 
-The GitLab Order Management team owns the Opportunity Approval and Booking Process, oversees Initial License Delivery, and handles order and subscription reconciliations. This team is the DR for all questions related to Opportunity Booking requirements, questions regarding our bookings policy, and processes related to fulfilling an order.
+The GitLab **Order Management** team is supported by several key internal teams, including **Deal Desk**, **Billing**, and **Fulfillment**:
+
+- **Deal Desk** is responsible for the *Opportunity Approval* and *Booking Process*.
+- **Fulfillment** manages the *Initial License Delivery* process.
+- **Billing** and **Deal Desk** collaborate on *Order* and *Subscription reconciliations*.
+
+This cross functional team serves as the primary point of contact for any inquiries related to opportunity booking requirements, our bookings policy, and the processes involved in fulfilling an order.
 
 **Daily Tasks:**
 
@@ -58,10 +64,12 @@ The GitLab Order Management team owns the Opportunity Approval and Booking Proce
 
 Order Management is focused on Opportunity Approvals, License Fulfillment and Subscription Management. The following tasks are outside the role and responsibility of our team. Please reach out to Deal Desk for assistance with the following:
 
-- Quote Creation
-- RFPs / Vendor Forms
+- Assistance with building non-standard Quotes
+- Troubleshooting Quote Configuration
+- Complex/Non-standard Deal Structure
+- Deal Structure Approval Guidance
+- Month End / Quarter End Reconciliation
 - Discount / Payment Term Approval Guidance
-- Quote Approval Guidance
 - Opportunities below Stage-5
 
 Please review our [Job Family](/job-families/sales/order-management/) for more information regarding the scope of this team.
@@ -86,30 +94,25 @@ Our regional teams do not operate on a 24/7 support model. If your opportunity o
 
 #### Regional Structure
 
-As of 2022-02-01, the Order Management team is structured as follows:
-
-**AMER Team:**
-
-- Manager, Deal Desk (AMER)
-  - Order Management Specialist (AMER)
-  - Order Management Specialist (AMER)
-
-**EMEA/APAC TEAM:**
-
-- Manager, Deal Desk (EMEA/APAC)
-  - Order Management Specialist (APAC)
-  - Order Management Specialist (EMEA)
-  - Order Management Specialist (EMEA)
+As noted above, the GitLab **Order Management** team is supported by several key internal teams, including **Deal Desk**, **Billing**, and **Fulfillment**. For more information on the regional structure of each of those teams, pleae refer to their respective Handbook pages.
 
 ### Communicating with the Order Management Team
 
-The Order Management team's primary communication is Salesforce chatter. When you chatter `@Sales-Support`, it will automatically create a case in the Deal Desk/Order Management queue.
+- If support for an Opportunity or a Quote is required *prior* to submitting for Approval, always use the “Request Support” workflow on the Opportunity Object to create a Case for the team you require support from (e.g. Deal Desk, Billing Ops, etc.) For general questions, please use the `#sales-support` Slack channel.
+- Please note that Cases are *not* required when submitting an Opportunity or a Quote for Approval. Once an Opportunity or Quote is submitted for Approval, the approving team is notified and an Approval Queue is managed by the team to support processing the Approval.
+- If a Quote or an Opportunity is submitted for approval and additional information or action is required by the Order Management team, the supporting team will Chatter the rep on the Opportunity and leave any necessary notes in the Approval Comment.
 
-- Always use `@Sales-Support` for SFDC requests or post `#sales-support` in Slack for general questions.** This ensures our team is working as efficiently as possible and that you are covered in case the Order Management team member who replied first is unavailable.
-  - Please do not tag Order Management team members directly in chatter or make a request through Slack direct message. This ensures our team is working as efficiently as possible and that you are covered in case the DD team member who replied first is unavailable.
-- If someone is working on a case, they will continue to support until the case is closed.  If an issue has been resolved, please chatter @Sales-Support to reopen a case.
-- If you tag @Sales-Support on an existing Chatter post/comment by editing it, that action won`t generate a request to Order Management and we will not receive a notification. Please make sure to tag Sales Support on an original post or on a new comment to the original post.
-- Order Management team members monitor the case queue throughout the day.
+If support for an Opportunity or a Quote is required *prior* to submitting for Approval, this can be requested on the Opportunity Object in SFDC, by clicking on the “Request Support” button in the top right hand side of the page layout. Please reference the [Requesting Internal Support](https:/handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support) section in the Handbook for detailed instructions.
+
+For enablement on how to request support by creating a SFDC Case for Deal Desk or Billing, please reference the [New Internal Support Request + Quote Approval Processes - 2024-11-21](https://gitlab.highspot.com/items/673f8c8deaa0ddae6c0b99f8) in HighSpot.
+
+## Communication Best Practices
+
+- Only @mention someone directly on a SFDC Case where they are the Case Owner. This ensures our team is working as efficiently as possible and that you are covered in Case the DD team member who replied first is unavailable.
+- Direct Chatters on Account or Opportunities to team members will not create a Case in the Order Management teams' Queues, and therefore will not be prioritized. You may experience a significant delay in response, or no response at all. Please always use the “Request Support” workflow on the Opportunity Object to create a Case for the team you require support from when a Case is required.
+- If someone is working on a Case, they will continue to support until the Case is closed. If a Case has been resolved but needs further support from the supporting team, use the “Request Support” workflow on the Opportunity Object to create a new Case. The owning team will determine if the resolved Case should be reopened, or if the newly created Case will be used instead.
+- If you add any @ mention tag on an existing Chatter post on a Case by editing it, that action may not generate a notification. If you fail to @ mention someone in your comment, just @ them in the thread instead of editing the comment. Please always use the “Request Support” workflow on the Opportunity Object to create a new Case when your request is not related to an existing open Case.
+- Order Management team members monitor their respective Case Queues throughout the day.
 
 ### Key Performance Indicators
 
@@ -146,7 +149,7 @@ Order Management Specialists will be responsible for taking action on feedback r
 
 ### Key Performance Indicators: Results
 
-To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/sales-operations/Deal-Desk-Order-Mgmt-KPIs/)
+To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/sales-operations/deal-desk-order-mgmt-kpis/)
 
 ### Opportunity Approval Process
 
@@ -154,7 +157,7 @@ Order Management reviews every Sales Assisted opportunity prior to booking. All 
 
 #### Opportunity Prioritization
 
-All opportunities in the approval queue are prioritized based on the following:
+All opportunities in the Approval Queue are prioritized based on the following:
 
 1. Start Date
 2. Revenue Generation
@@ -164,7 +167,7 @@ The Order Management team will make every effort to ensure all opportunities sub
 
 #### Escalation Path for Opportunity Review
 
-Approvals that are urgent, customer impacting, or critical to buisness may be prioritized upon request. If the opportunity has been submitted after Standard Support hours, you may escalated the opp for a different regional team to review in the #sales-support Slack channel. You may also tag regional Deal Desk Managers for review and assist in delegating the case.
+Approvals that are urgent, customer impacting, or critical to buisness may be prioritized upon request. If the opportunity has been submitted after Standard Support hours, you may escalate the opp for a different regional team to review in the #sales-support Slack channel. You may also tag regional Deal Desk Managers for review and assist in delegating the case.
 
 Opportunities raised for urgent review must be business critical. Opportunities that are routinely escalated out of individual convenience instead of legitimate urgency will be addressed with Sales Management.
 
@@ -184,7 +187,7 @@ graph LR;
 
 ### License Delivery Review Process
 
-Beginning in FY23, the Order Management team will confirm license delivery on all newly Closed Won self-managed deals.
+As of FY23, the Order Management team confirms license delivery on all newly Closed Won self-managed deals.
 
 #### Background
 
@@ -220,7 +223,7 @@ For assistance with Out of Scope license requests, please [open an Issue](/handb
 
 ### Subscription/Renewal Management Process
 
-Beginning in FY23, the Order Management team will proactively review and correct bad renewal data.
+As of FY23, the Order Management team proactively reviews and corrects bad renewal data.
 
 #### Background
 

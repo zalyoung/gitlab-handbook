@@ -19,7 +19,7 @@ All GitLab Product Designers can (and are encouraged to) perform design and code
 
 To perform a review, you should familiarize yourself with and follow:
 
-- Our general [Code Review guidelines](https://docs.gitlab.com/ee/development/code_review.html).
+- Our general [Code Review guidelines](https://docs.gitlab.com/development/code_review/).
 - Our general [MR review guidelines for Product Designers](/handbook/product/ux/product-designer/mr-reviews/).
 - The contribution guidelines for the [Pajamas projects](#overview).
 
@@ -29,7 +29,7 @@ Note that while all designers can review all MRs, the ability to accept MRs is r
 
 Maintainers are GitLab designers who:
 
-- Are experts at design and [code review](https://docs.gitlab.com/ee/development/code_review.html), including reviewing commit messages.
+- Are experts at design and [code review](https://docs.gitlab.com/development/code_review/), including reviewing commit messages.
 - Know the GitLab product, design guidelines, and code base very well.
 - Are empowered to accept MRs in one or several of the [Pajamas projects](#overview).
 

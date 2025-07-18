@@ -4,13 +4,13 @@ status: ongoing
 creation-date: "2022-10-27"
 authors: [ "@pedropombeiro", "@tmaczukin" ]
 coach: "@ayufan"
-approvers: [ "@erushton" ]
+approvers: [ "@nicolewilliams" ]
 owning-stage: "~devops::verify"
 participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -78,7 +78,7 @@ graph TD
 
 <!-- vale gitlab.Spelling = NO -->
 In this proposal, runners created in the GitLab UI are assigned
-[authentication tokens](https://docs.gitlab.com/ee/security/token_overview.html#runner-authentication-tokens)
+[authentication tokens](https://docs.gitlab.com/ee/security/tokens/index.html#runner-authentication-tokens)
 prefixed with `glrt-` (**G**it**L**ab **R**unner **T**oken).
 <!-- vale gitlab.Spelling = YES -->
 The prefix allows the existing `register` command to use the authentication token _in lieu_
@@ -97,8 +97,8 @@ token in the `--registration-token` argument:
 
 | Token type | Behavior |
 | ---------- | -------- |
-| [Registration token](https://docs.gitlab.com/ee/security/token_overview.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners` REST endpoint to create a new runner, creating a new entry in `config.toml` and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
-| [Runner authentication token](https://docs.gitlab.com/ee/security/token_overview.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners/verify` REST endpoint to ensure the validity of the authentication token. Creates an entry in `config.toml` file and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
+| [Registration token](https://docs.gitlab.com/ee/security/tokens/index.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners` REST endpoint to create a new runner, creating a new entry in `config.toml` and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
+| [Runner authentication token](https://docs.gitlab.com/ee/security/tokens/index.html#runner-authentication-tokens) | Leverages the `POST /api/v4/runners/verify` REST endpoint to ensure the validity of the authentication token. Creates an entry in `config.toml` file and a `system_id` value in a sidecar file if missing (`.runner_system_id`). |
 
 ### Transition period
 
@@ -438,14 +438,16 @@ scope.
 
 ### Stage 7 - Removals
 
+Prior to March 2025, the removal plan called for the removal of the Runner registration token capability in GitLab 18.0, the May 2025 release. After careful consideration, we have decided not to remove the Runner Registration Token capability from GitLab in the 18.0 release - May 2025. We may revisit this in the future, so for now, we are not targeting any specific milestone for removal. We recommend that customers who still rely on the runner registration token method, discontinue the use of that method for registering new runners, and adopt the runner creation flow instead.
+
 | Component        | Milestone | Changes                                                                                                                                                                                                                                                                                            |
 |------------------|----------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| GitLab Rails app |    `18.0` | Remove UI enabling registration tokens on the group and instance levels.                                                                                                                                                                                                                           |
-| GitLab Rails app |    `18.0` | Remove legacy UI showing registration with a registration token.                                                                                                                                                                                                                                   |
-| GitLab Runner    |    `18.0` | Remove runner model arguments from `register` command (for example `--run-untagged`, `--tag-list`, etc.)                                                                                                                                                                                           |
-| GitLab Rails app |    `18.0` | Create database migrations to drop `allow_runner_registration_token` setting columns from `application_settings` and `namespace_settings` tables.                                                                                                                                                  |
-| GitLab Rails app |    `18.0` | Create database migrations to drop:<br/>- `runners_registration_token`/`runners_registration_token_encrypted` columns from `application_settings`;<br/>- `runners_token`/`runners_token_encrypted` from `namespaces` table;<br/>- `runners_token`/`runners_token_encrypted` from `projects` table. |
-| GitLab Rails app |    `18.0` | Remove `GITLAB_SHARED_RUNNERS_REGISTRATION_TOKEN`.                                                                                                                                                                                                                                                 |
+| GitLab Rails app |    N/A | Remove UI enabling registration tokens on the group and instance levels.                                                                                                                                                                                                                           |
+| GitLab Rails app |    N/A | Remove legacy UI showing registration with a registration token.                                                                                                                                                                                                                                   |
+| GitLab Runner    |    N/A | Remove runner model arguments from `register` command (for example `--run-untagged`, `--tag-list`, etc.)                                                                                                                                                                                           |
+| GitLab Rails app |    N/A | Create database migrations to drop `allow_runner_registration_token` setting columns from `application_settings` and `namespace_settings` tables.                                                                                                                                                  |
+| GitLab Rails app |    N/A | Create database migrations to drop:<br/>- `runners_registration_token`/`runners_registration_token_encrypted` columns from `application_settings`;<br/>- `runners_token`/`runners_token_encrypted` from `namespaces` table;<br/>- `runners_token`/`runners_token_encrypted` from `projects` table. |
+| GitLab Rails app |    N/A | Remove `GITLAB_SHARED_RUNNERS_REGISTRATION_TOKEN`.                                                                                                                                                                                                                                                 |
 
 ## FAQ
 

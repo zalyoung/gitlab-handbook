@@ -6,14 +6,15 @@ title: "Application Security - Capacity Indicators, Classifications, and Workflo
 
 AppSec manages [a wide range of tasks with a high volume of work](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team#team-capacity-planning-and-operational-work). This page outlines how we measure the team's capacity to ensure we can effectively handle current workloads and plan for future needs.
 
+Consult our [FAQ](#faq) if you have questions or need to engage with the Application Security team for more specific asks.
+
 ### What decisions does this data help us make?
 
 Collecting this data helps inform decisions involving the team's capacity and headcount needs. These metrics are only analyzed in aggregate and are __not__ utilized or referenced for evaluating individual team member performance. They are solely used to understand overall team dynamics and requirements.
 
 ### Where are the charts that are based on this data?
 
-TBD
-<!-- TODO: Add tableau link -->
+Capacity metrics can be consulted on this [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSecGeneralDashboard?:iid=1)(Internal)
 
 ### How often are these metrics reviewed?
 
@@ -27,7 +28,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 
 | Label    | Description |
 | -------- | ------- |
-| AppSecWorkType::stable counterpart  | Indicates the work was associated to the AppSec stable counterpart duties |
+| AppSecWorkType::stable counterpart  | Indicates the work was associated to the AppSec stable counterpart duties. MR security reviews are not concerned by this label, use AppSecWorkType::SecurityMRReview instead. |
 | AppSecWorkType::ThreatModel | Indicates the work was associated to the AppSec threat model duties |
 | AppSecWorkType::JihuMRreview | Indicates the work was associated to the AppSec JiHu merge request reviews duties |
 | AppSecWorkType::AppSecReview | Indicates the work was associated to the AppSec reviews duties |
@@ -38,20 +39,24 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::FieldSecurity | Indicates the work was associated to the request from Field Security (example: customer scan review requests) |
 | AppSecWorkType::VATRotation | Indicates the work was associated to the AppSec Federal AppSec VAT duties |
 | AppSecWorkType::FedAppSecRelCert | Indicates the work was associated to the AppSec Federal AppSec release certification and merge monitor review duties |
-| AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (non stable counterpart MR reviews) duties |
+| AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (including stable counterpart MR reviews) duties |
 | AppSecWorkType::TriageRotation | Indicates the work was associated to the AppSec Triage Rotation |
 | AppSecWorkType::CustomerEscalation | Indicates the work was associated to a customer escalating a security issue |
 | AppSecWorkType::SIRTandSecurityComms | Indicates the work was associated to a SIRT incidents and/or Security communications work |
 | AppSecWorkType::ToolingsAndMaintenance | Indicates the work was associated to our tools and automation |
 | AppSecWorkType::CrossTeamCollaboration | Indicates the work was associated to cross-team help/collaboration |
-| AppSecWorkType::TeamProjects | Indicates the work was associated to team projects |
+| AppSecWorkType::TeamProjects | Indicates the work was associated to team projects.|
 | AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](/handbook/security/critical-projects/) |
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 
 ### Work impacted by SIRT incidents
 
-When SIRT incidents happen, this has an impact on our capacity. To evalute that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
+When SIRT incidents happen, this has an impact on our capacity. To evaluate that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
+
+### Dogfooding
+
+Apply `Dogfooding` label on each feature that we enable through a MR or issue.
 
 #### Who assigns this label and when?
 
@@ -68,7 +73,7 @@ The effort classification is an estimate of the level of effort required to reso
 | AppSecWeight::trivial | 1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
 | AppSecWeight::small  | 2 | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
 | AppSecWeight::medium | 3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
-| AppSecWeight::large | 5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
+| AppSecWeight::large | 5 | Large | Significant investigation and collaboration needed | ~3-5 days | |
 | AppSecWeight::XLarge | 8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
 | AppSecWeight::Needs Refinement | 13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A | |
 
@@ -83,10 +88,17 @@ These labels indicate the current status of the issue.
 ### Table
 
 | Label    | Description |
-| AppSecWorkflow::planned| Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
-|AppSecWorkflow::in-progress|Indicates the issue is actively being worked on, or the rotation is in progress.|
-|AppSecWorkflow::complete|Indicates the work is done, or the rotation has finished.|
+| -------- | ----------- |
+| AppSecWorkflow::planned | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone. |
+| AppSecWorkflow::in-progress |Indicates the issue is actively being worked on, or the rotation is in progress. |
+| AppSecWorkflow::complete | Indicates the work is done, or the rotation has finished. |
 
 #### Who assigns this label and when?
 
 The AppSec Engineer responsible for the task is expected to assign this label to an issue when work on the issue is started or completed.
+
+## FAQ
+
+### What labels should I add to have my work considered in the capacity metrics?
+
+You need to have the `Application Security Team`, `AppSecWorkType::`, `AppSecWorkFlow::` labels along with the corresponding `AppSecWeight::` label and a milestone assigned to the issue.

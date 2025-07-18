@@ -58,7 +58,7 @@ Pay special attention to the [**coffee chats**](/handbook/company/culture/all-re
 |  1. [GitLab communication overview](/handbook/communication/)  |  tbd  |
 |  2. [GitLab Slack tips](/handbook/communication/#slack)  |  tbd |
 |  3. [Markdown 101](/handbook/product/ux/technical-writing/) | [Recording](https://www.youtube.com/watch?v=Ix416lAYRSg)  |
-|  4. [GitLab project management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/index.html) | [Recording](https://drive.google.com/open?id=1CSUvzrPhWtP7082e0iTCfjVsPU8U6WTR)  |
+|  4. [GitLab project management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/) | [Recording](https://drive.google.com/open?id=1CSUvzrPhWtP7082e0iTCfjVsPU8U6WTR)  |
 |  5. [Working Remotely to update the website with Git](/handbook/about/editing-handbook/) | [Recording](https://drive.google.com/open?id=1lPxAJsq9k4GN_d3H4zCGVzlNcDKVgqrm)  |
 
 ### **Messaging and Go-To-Market (GTM)**
@@ -110,7 +110,7 @@ Pay special attention to the [**coffee chats**](/handbook/company/culture/all-re
 
 | **Get to know the competition:**  | Recordings  |
 | ------ | ------ |
-|   1. [Walkthrough of DevOps tools landscape page](https://about.gitlab.com/competition/)  | [Recording](https://drive.google.com/open?id=1G95CzcxvxmWHU-PRJ8BjoC9h3ZGmzJfM) |
+|   1. [Walkthrough of DevOps tools landscape page](https://about.gitlab.com/why-gitlab/)  | [Recording](https://drive.google.com/open?id=1G95CzcxvxmWHU-PRJ8BjoC9h3ZGmzJfM) |
 
 ### **Analyst Relations**
 

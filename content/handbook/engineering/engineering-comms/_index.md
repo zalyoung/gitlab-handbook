@@ -25,8 +25,21 @@ The Engineering Divison has a Google Group, [`engineering@gitlab.com`](https://g
 
 ### Synchronous meetings
 
-- [**Engineering All-Hands**](/handbook/cto-staff/#engineering-all-hands).
+- [**Engineering All-Hands**](/handbook/engineering/cto-leadership-team/#engineering-all-hands).
 - **CTO Office Hours**: Each week the CTO holds open office hours on Zoom for questions, feedback, and handbook changes. Check the CTO's calendar and look for EMEA and APAC-friendly time slots.
+- **Principal+ Engineering Demo**: this call is an opportunity for sync discussions between
+  Principal+ ICs across the Engineering Division to highlight current ongoing efforts underway in the groups they support.
+  - Focuses for the call include:
+    - Technical roadmap planning: dependencies, cross-departmental upstream requirements,
+      opportunities for downstream improvements based on current projects. Future initiatives.
+    - Opportunities for cross-department alignment, reuse of tooling, modules, processes,
+      standards, technology, documentation.
+    - Discussions on improving the career development resources for Engineering ICs at all levels
+  - All team members are welcome to join the call,
+    but the emphasis is on Principal+ ICs in the Engineering Division to present
+    and discuss the work they’re focused on, the problems they’re experiencing,
+    and solutions they’re considering.
+  - The call is recorded and available in [Google Drive](https://drive.google.com/drive/search?q=in:0APOeuCQrsm4KUk9PVA%20type:video%20title:principal).
 
 ### Asynchronous updates
 
@@ -71,10 +84,10 @@ Treat questions or requests from production team for immediate urgency with high
 - [`#cto`](https://gitlab.enterprise.slack.com/archives/C9X79MNJ3)
 - [`#development`](https://gitlab.enterprise.slack.com/archives/C02PF508L)
 - [`#production`](https://gitlab.enterprise.slack.com/archives/C101F3796)
-- [`#test-platform`](https://gitlab.enterprise.slack.com/archives/C3JJET4Q6)
-- [`#incident-management`](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1)
+- [`#incidents`](https://gitlab.enterprise.slack.com/archives/C02HF90ME66)
+- [`#s_developer_experience`](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H)
 - [`#support_gitlab-com`](https://gitlab.enterprise.slack.com/archives/C4XFU81LG)
 - [`#support_self-managed`](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK)
-- [`#s_platforms`](https://gitlab.enterprise.slack.com/archives/C02D1HQRTKQ)
+- [`#infrastructure_platforms`](https://gitlab.enterprise.slack.com/archives/C02D1HQRTKQ)
 
 There is no requirement to join all of these channels. It is up to the person sharing to ensure that the same message is shared across all channels. Ideally, this message should be a one sentence summary with a link to an issue to allow for a single source of truth for any feedback.

@@ -47,7 +47,7 @@ Trust and Safety
 
 *Incident issues are the SSoT for any incident. Be sure to include any significant incident updates within the incident summaries.*
 
-SIRT is using the self-developed tool [Handogotchi](https://gitlab.com/gitlab-com/gl-security/security-operations/gitlab-sirt-public/automated-incident-response/-/blob/main/tines-stories/handogotchi.json) (check [promotion of Handogotchi on Tine](https://www.tines.com/library/stories/1208015/manage-shift-turnover-with-handogotchi)) for written handover summaries. Handogotchi reminds the SIRT engineer on call to update incidents and add additional information one hour before handoff time. It will automatically send links to open incidents half an hour before handoff times.
+SIRT is using the self-developed tool [Handogotchi](https://gitlab.com/gitlab-com/gl-security/security-operations/gitlab-sirt-public/automated-incident-response/-/blob/main/tines-stories/handogotchi.json) (check [promotion of Handogotchi on Tine](https://www.tines.com/library/stories/1208015/?name=manage-shift-turnover-with-handogotchi)) for written handover summaries. Handogotchi reminds the SIRT engineer on call to update incidents and add additional information one hour before handoff time. It will automatically send links to open incidents half an hour before handoff times.
 
 Written handoffs are required to be completed at least half an hour before the end of every shift and are the basis for warm handoffs.
 
@@ -111,11 +111,12 @@ When scheduled for the Weekend On-Call Security shift, team members should:
 
 The SIRT On-Call paging workflow is currently designed to follow this escalation path:
 
-1. The first page goes to our incident slack channel.
-1. All Security Engineers in the sunny region are paged after 5 minutes of no response, with one designated On-Call Security Engineer per region during the week. During the weekend, one person will have volunteered for sole responsibility of weekend coverage. The on-call page will occur either all at once, or in a round-robin fashion. Team members not designated as the On-Call Security Engineer can and should provide assistance if the On-Call Security Engineer misses the page. When weekend assistance is provided, team members should request taking time off in lieu with their manager, and target 1:1 (hour for hour) time off, immediately following the weekend as long as proper coverage is available.
-1. The Security Operations manager in the sunny region is paged as a backup if the team members don't acknowledge the pages.
-1. Security Managers who volunteer as backups are paged if SIRT does not acknowledge the previous pages.
-1. The Security Operations Director is paged if Security Managers don't acknowledge the pages.
+1. The first notification goes to our incident slack channel.
+1. The designated Security Engineer On-Call in the sunny region is paged after 5 minutes of no response.
+1. All Security Engineers in the sunny region are paged after 10 minutes of no response. During the weekend, one person will have volunteered for sole responsibility of weekend coverage. Team members not designated as the Security Engineer On-Call can and should provide assistance if the Security Engineer On-Call misses the page. When weekend assistance is provided, team members should request taking time off in lieu with their manager, and target 1:1 (hour for hour) time off, immediately following the weekend as long as proper coverage is available.
+1. The Security Operations manager in the sunny region is paged as a backup after 15 minutes if the team members don't acknowledge the pages.
+1. Security Managers who volunteer as backups are paged if SIRT does not acknowledge the previous pages after 15 minutes.
+1. The VP of Security Operations is paged if Security Managers don't acknowledge the pages after 15 minutes.
 
 ### SIRT On-Call Paging Duties
 
@@ -193,7 +194,3 @@ Being the responsible person does not imply being the sole person to perform inc
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
-
-## References
-
-- Parent Policy: [Information Security Policy]({{< ref "_index.md" >}})

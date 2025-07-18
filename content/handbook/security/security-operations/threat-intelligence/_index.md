@@ -2,17 +2,17 @@
 title: Threat Intelligence Team
 ---
 
-## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging Threat Intelligence
+## Engaging Threat Intelligence
 
 Please follow our [RFI process](#requests-for-information-rfi) to contact the team.
 
 For a less formal discussion, you can find us in Slack in the `#sd_security_threat_intel` channel.
 
-## <i class="fas fa-rocket" id="biz-tech-icons"></i> Our Vision
+## Our Vision
 
 Empower GitLab to make informed, intelligence-driven decisions that keep our company and customers secure, while setting a new standard for transparency and collaboration across the industry.
 
-## <i class="fas fa-compass" id="biz-tech-icons"></i> Our Mission Statement
+## Our Mission Statement
 
 Our mission is to provide actionable intelligence that empowers GitLab to make informed, proactive decisions about security.
 
@@ -20,22 +20,22 @@ We monitor the threat landscape with a focus on identifying the most relevant ri
 
 By staying vigilant and sharing targeted intelligence, we strive to help GitLab anticipate challenges, move swiftly, and protect our customers and our platform.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
+## The Team
 
 ### Current Structure
 
-The Threat Intelligence initiative is driven by cross-functional participants from SIRT and the Red Team, who dedicate 10-20% of their time to the program while still prioritizing their primary roles. They focus on building capabilities, delivering actionable intelligence, and demonstrating early results.
+We are in the early stages of our Threat Intelligence journey, and currently have one dedicated engineer. This is augmented by cross-functional participants from SIRT and the Red Team, who dedicate 10-20% of their time to the program while still prioritizing their primary roles. They focus on building capabilities, delivering actionable intelligence, and demonstrating early results.
 
 ### Current Priorities
 
-The initiative's current priorities are:
+The teams's current priorities are:
 
 1. **Delivering actionable intelligence**: Preparing and presenting concise, actionable reports that inform GitLab of relevant threats, their potential impact, and recommended actions.
 1. **Building meaningful connections**: Establishing relationships with industry peers, government entities, and other experts who specialize in the top threats most impactful to GitLab.
 
-As the program matures, we will also include automation and AI as top priorities.
+As the program matures, we will focus on program efficiencies using data correlation, automation, and AI.
 
-## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
+## Services We Provide
 
 ### Threat Intelligence Reports
 
@@ -66,20 +66,20 @@ Recommendations linked to Flash Reports are often time-sensitive and critical. T
 
 Flash Reports use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/flash_report.md?ref_type=heads).
 
-#### Threat Insights
+#### Threat Briefings
 
-Threat Insights offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
+Threat Briefings offer regular, higher-level updates on the evolving threat landscape by aggregating Flash Reports and other Security Operations activities over each month. Threat Briefings aim to provide on ongoing view into the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
 
 These reports help team members stay informed, vigilant, and prepared.
 
-Recommendations linked to Threat Insights are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
+Recommendations linked to Threat Briefings are not as time-sensitive as those from a Flash Report. Threat Briefing recommendations are leveraged for more strategic activities like:
 
 - Product roadmap and prioritization
 - Standard iterations to security controls and detection capabilities
 - Training on security awareness and job-specific skills
 - Purchasing decisions and vendor evaluations
 
-Threat Insights are produced monthly using [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_insights.md?ref_type=heads) and include a live presentation with a Q&A session.
+Threat Briefings are produced monthly using [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_briefings.md?ref_type=heads) and include a live presentation with a Q&A session.
 
 ### Threat Actor Tracking
 
@@ -95,15 +95,16 @@ RFIs allow GitLab team members to request our help in analyzing threats and maki
 
 Some examples where an RFI can provide value:
 
-- Investigating active security incidents
+- Investigating active security incidents and exposure to third-party breaches
 - Decisions on product security features and functionality
+- Helping draft threat-informed communications about GitLab security decisions
 - Third-party vendor and product evaluations
 
 Supporting S1 incidents will always take priority over all other work.
 
 Requests for Information use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/rfi.md?ref_type=heads).
 
-## <i class="fas fa-chart-simple" id="biz-tech-icons"></i> How We Measure Success
+## How We Measure Success
 
 We measure the success of our threat intelligence program using three key metrics: Impact, Adoption Rate, and Attribution. We track these metrics using GitLab.com issues and custom labels.
 
@@ -123,6 +124,7 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 - Threat Hunting (`TIRec::Hunting`)
 - Communications (`TIRec::Comms`)
 - Training (`TIRec::Training`)
+- Purple Team Operations (`TIRec::PurpleTeamOp`)
 
 **Recommendation Outcome Labels:**
 
@@ -136,7 +138,7 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 
 **Attribution Labels (source of validated intelligence):**
 
-- Threat Insights (`TIAttribution::ThreatInsights`)
+- Threat Briefings (`TIAttribution::ThreatBriefings`)
 - Flash Reports (`TIAttribution::FlashReport`)
 - Threat Actor Tracking (`TIAttribution:ThreatActorTracking`)
 - Request for Information (`TIAttribution::RFI`)
@@ -147,6 +149,7 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 - Intelligence allowed us to identify an attempted attack (`TIImpact::Detection`)
 - Intelligence allowed us to respond to an incident (`TIImpact::Response`)
 
-## <i class="fas fa-link" id="biz-tech-icons"></i> Additional Resources
+## Additional Resources
 
 - [Threat Intelligence Templates](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates): Public template repository for reports, RFIs, etc.
+- [Annual Threat Intelligence Reports](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence/threat-intelligence-resources/awesome-annual-security-reports): Internal mirror of publicly-available annual threat intelligence reports - team members can subscribe for updates.

@@ -1,12 +1,13 @@
 ---
 title: "Still a Startup"
-description: "GitLab elevates others through knowledge sharing, job access, and our software platform.."
-canonical_path: "/company/still-a-startup/"
+description: "GitLab elevates others through knowledge sharing, job access, and our software platform."
 ---
 
 ### Still a Startup Overview
 
-In the "Letter From Our CEO" in [GitLab's S-1](https://www.sec.gov/Archives/edgar/data/0001653482/000162828021018818/gitlab-sx1.htm) (filed with the Securities and Exchange Commission on September 17, 2021), GitLab's CEO, Sid Sijbrandij, documented some of the ways that GitLab plans to avoid the stagnation experienced by most early stage companies as they mature. This was the inspiration for this page.
+In the "Letter From Our CEO" in [GitLab's S-1](https://www.sec.gov/Archives/edgar/data/0001653482/000162828021018818/gitlab-sx1.htm) (filed with the Securities and Exchange Commission on September 17, 2021), GitLab's then CEO, Sid Sijbrandij, documented some of the ways that GitLab plans to avoid the stagnation experienced by most early stage companies as they mature. This was the inspiration for this page.
+
+A senior candidate once referenced the letter and said, "your letter is good at reminding everyone that you are still a startup and need to retain that mindset. It's super hard, as you know. When I reflect upon all the amazing things I experienced at [Company X], it is a poorly managed company. The systems (legal, procurement, security) that grow with success are also designed to manage the downside. I see the same thing here at [Company Y]. I'm fighting to re-create the challenger mindset to reflect our market position outside of virtualization and networking. Cruft everywhere. You have an opportunity to minimize this as you scale."
 
 Most companies regress to the mean and slow down over time. We plan to maintain our startup ethos by doing the following:
 
@@ -48,7 +49,7 @@ We have introduced a new, enhanced version of our software [every month](/handbo
 
 ### Individual innovation
 
-We empower individuals to innovate. For example, we have designated coaches who support contributors from the wider community in getting their contributions to the point where they can be merged by GitLab. We also have an [incubation department](/handbook/engineering/incubation/) dedicated to quickly turning ideas into viable features and products.
+We empower individuals to innovate. For example, we have designated coaches who support contributors from the wider community in getting their contributions to the point where they can be merged by GitLab. We also have an [incubation department](/handbook/engineering/) dedicated to quickly turning ideas into viable features and products.
 
 ### Dogfooding
 

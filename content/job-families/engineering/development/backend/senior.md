@@ -19,7 +19,6 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
-- Encouraged to complete [Interview Training](/hiring/conducting-a-gitlab-interview/#interviewer-training-requirements) in support of hiring efforts for the department. Participation as either a technical interviewer or part of their team's interview panel may be expected from hiring managers, given ongoing hiring needs.
 
 ## Requirements
 
@@ -45,7 +44,6 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 - [Intermediate](/job-families/engineering/development/backend/intermediate/)
 - Senior
 - [Staff](/job-families/engineering/development/backend/staff/)
-- [Backend Engineering Manager](/job-families/engineering/backend-engineer/#backend-engineering-manager)
 
 ### Senior
 
@@ -60,10 +58,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 - Provide mentorship for Junior and Intermediate Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship moderately sized features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Improves the [engineering projects](/handbook/engineering/projects/) at GitLab as a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#senior-maintainers).
-
-#### Senior Requirements
-
-- TBD
+- Encouraged to complete [Interview Training](/handbook/hiring/conducting-a-gitlab-interview/#interviewer-training-requirements) in support of hiring efforts for the department. Participation as either a technical interviewer or part of their team's interview panel may be expected from hiring managers, given ongoing hiring needs.
 
 ### Distribution:Build
 
@@ -142,9 +137,9 @@ Runner engineers are primarily responsible for the [GitLab-Runner](https://gitla
 - Desirable: DevOps experience, working with Linux, GCP/AWS, Chef/Ansible/Terraform, Helm/Kubernetes, or similar products.
 - Desirable: Strong experience with observability tools, including metrics (Prometheus is a plus), structured logging and distributed tracing.
 
-### Govern
+### Software Supply Chain Security
 
-Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Govern Engineering Manager.
+Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Software Supply Chain Security Engineering Manager.
 
 #### Requirements
 
@@ -238,7 +233,7 @@ The CI/CD Engineering Manager also does weekly stand-up with a team and product 
 - Work with the Product Manager to carefully assess technical feasibility of feature requests.
 - Deliver proof-of-concept proposals to help guide technical discussions.
 - Identify ways to deliver complex technical projects in an iterative fashion.
-- Take [ownership](/handbook/engineering/infrastructure/core-platform/systems/geo/process.html#epic-ownership) of feature implementation.
+- Take [ownership](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/process/#work-ownership) of feature implementation.
 - Respond quickly to customer requests for support.
 
 #### Requirements
@@ -322,7 +317,7 @@ to understand what is working and what is not.
 - Experience using Continuous Integration systems (e.g., GitLab CI, Jenkins, Travis).
 - Experience using Docker and containerized architectures (e.g. Kubernetes).
 
-See the description of the [Quality team](/handbook/engineering/quality/) for more details. The position also involves working with the community as [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and address issues from the community.
+See the description of the [Developer Experience stage](/handbook/engineering/infrastructure-platforms/developer-experience/) for more details. The position also involves working with the community as [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with other [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and address issues from the community.
 
 ### Application Performance
 
@@ -342,7 +337,7 @@ An ideal engineer candidate -
 
 - Expert of Ruby on Rails.
 - Experience of performance tuning and/or architecture, [Example](https://rubykaigi.org/2018/presentations/tenderlove.html).
-- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
+- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/https://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
 
 Alternatively, some of the following qualifications, may not necessarily be all -
 
@@ -542,7 +537,7 @@ Elasticsearch engineers are focused on delivering a first class global search ex
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - As part of the application, candidates are asked to complete a short technical questionnaire, with a possibility of additional technical questions being asked if needed after the application is submitted.
-- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters.
+- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters.
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers.
 - Next, candidates will be invited to schedule a 60 minute interview with one of our Backend Engineering Managers.
 - Next, candidates will be invited to schedule a 60 minute interview with our Director of Engineering

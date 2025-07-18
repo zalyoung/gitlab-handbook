@@ -222,7 +222,7 @@ The Senior Director, Sales Development Operations is a [grade 11](/handbook/tota
 - Ensures we efficiently and effectively qualify inbound demand, follow our SLAs and respect our KPIs Defines success metrics for SDR team and works with cross functional partners to ensure the team is exceeding their goals
 - Plans, forecasts, and understands ramp adjusted capacity to ensure the team is grown effectively, in tandem with the needs of our sales organization and the supply of inbound demand from marketing
 - Manages SDR headcount plan for optimized capacity and productivity, ensuring our talent and organizational design strategy is aligned to our business strategy
-- Recruit, onboard, coach and develop top talent towards career development and advancement within the SDR function 
+- Recruit, onboard, coach and develop top talent towards career development and advancement within the SDR function
 - Identifies and champions new technologies with the SDR teams to optimize sales development in the world of Artificial Intelligence
 
 #### Senior Director, Global Sales Development Operations Requirements
@@ -247,7 +247,7 @@ The next step in the Sales Development Marketing Operations job family is yet to
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with the hiring manager.
 - Candidates will then be invited to schedule an interview with 2 - 4 team members.
 

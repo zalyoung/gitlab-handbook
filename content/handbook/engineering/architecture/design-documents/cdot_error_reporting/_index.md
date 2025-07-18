@@ -1,8 +1,5 @@
 ---
-# This is the title of your design document. Keep it short, simple, and descriptive. A
-# good title can help communicate what the design document is and should be considered
-# as part of any review.
-title: CustomersDot revenue impacting error monitoring & improvements
+title: CustomersDot revenue impacting and Salesforce error monitoring & improvements
 status: proposed
 creation-date: "2024-09-02"
 authors: [ "@shreyasagarwal", "@aish.sub", "@vshumilo" ]
@@ -15,7 +12,7 @@ toc_hide: true
 ---
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -56,18 +53,19 @@ To improve efficiency and results, we need to automate this process.
 
 ## Design and implementation details
 
-### Proposed DB schema
+### DB schema
 
 ```mermaid
 erDiagram
-
   "ErrorMonitorings" {
     integer id PK
-    string message "null:false"
+    type string "null:false"
+    text message "null:false"
     string code
-    string error_type
+    string error_type "limit: 1000"
     string status "null:false"
-    string gitlab_issue_link
+    string gitlab_issue_iid
+    string detailed_gitlab_issue_iid
     text backtrace
     jsonb payload
     text notes
@@ -79,14 +77,18 @@ erDiagram
 The `error_monitorings` table is designed to store meaningful errors that are valuable for monitoring as they occur. Most of the columns are self explanatory. Taking an example of the [current logging in google cloud](https://console.cloud.google.com/logs/query;query=resource.type%3D%22gce_instance%22%0Aseverity%3DERROR%0AinsertId%3D%22va7ahf34wc3i%22;cursorTimestamp=2024-09-06T03:18:44.840Z;aroundTime=2024-09-06T03:18:44.840Z;duration=PT24H?project=gitlab-subscriptions-prod).
 
 * `code` -> VALIDATION_ERROR
-* `error_type` -> Subscription update failed
-* `message` -> This code is not valid. Try re-entering the code from your email.
+* `error_type` -> This code is not valid. Try re-entering the code from your email.
+* `message` -> Subscription update failed
 
-Currently, we are tagging error messages with `fulfillment_job_monitoring` within the codebase and using GCloud to look up and resolve them individually. Moving forward, the plan remains the same: we will begin by logging errors with the `fulfillment_job_monitoring` tag into the database.
+The `error_monitorings` table uses [Single Table Inheritance (STI)](https://martinfowler.com/eaaCatalog/singleTableInheritance.html) to store different types of errors. In Rails, the type column enables this STI pattern, allowing multiple error types to be stored in the same table.
 
-Errors will continue to be addressed individually. As soon as an error is encountered, we will send an immediate notification to the designated Slack channel, probably through the background job, to ensure timely resolution.
+Currently, we are using two types: 'RevenueImpact' and 'SalesforceErrors', both of which inherit from the base `ErrorMonitoring` model.
 
-Right now, most of the errors being tagged are considered noise. In the future, once the error list is addressed, unnecessary noise will be filtered out and not saved in the database.
+We are tagging error messages with `fulfillment_job_monitoring` to store the Revenue Impact errors within the codebase and using GCloud to look up and resolve them individually.
+
+We are tagging Salesforce error messages with `salesforce_error_monitoring` to store the errors related to Salesforce within the codebase.
+
+Errors will continue to be addressed individually. As soon as an error is encountered, we send an immediate notification to the designated Slack channel, through the background job, to ensure timely resolution.
 
 #### Error states
 
@@ -94,12 +96,11 @@ The status column stores the state of the error encountered.
 
 ```mermaid
 flowchart TD
-    A[Error encounterd] -->|Save it in database| B(State - open)
-    B --> |Nothing needs to be done| D[Resolved]
-    B --> E[State - Needs attention]
-    E --> |Needs to look into the error| C[Create/Link GitLab Issue, optional]
-    C --> |Issue being worked on| F[State - In Progress]
-    F --> |Issue Closed| D
+    A[Error encounterd] -->|Save it in database| B(State - Needs Attention)
+    B --> |Nothing needs to be done| D[Ignored]
+    B --> |Error being looked into| F[State - In Progress]
+    F --> C[Create/Link GitLab Issue, optional]
+    F --> |Issue Closed| G[State - Resolved]
 ```
 
 ### Workflow
@@ -129,23 +130,3 @@ sequenceDiagram
     G->>ER: Auto-updates error_monitoring record on resolution
   end
 ```
-
-### Places of interest to add entries within `error_monitorings` table?
-
-1. When a customer is purchasing a subscription.
-    * [SubscriptionController's create action](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/controllers/subscriptions_controller.rb#L304)
-1. When a customer is updating a subscription.
-    * [SubscriptionController's update action](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/controllers/subscriptions_controller.rb#L304)
-1. When a customer upgrades the subscription.
-    * [SubscriptionUpgradesController create action](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/controllers/subscription_upgrades_controller.rb#L59)
-1. When syncing the product catalog to local cache
-    * [Zuora::SyncProductCatalogLocalCacheJob](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/jobs/zuora/sync_product_catalog_local_cache_job.rb)
-    * [Zuora::EvictMissingProductCatalogEntitiesJob](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/jobs/zuora/evict_missing_product_catalog_entities_job.rb)
-    * [Zuora::SyncProductResourceJob](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/jobs/zuora/sync_product_resource_job.rb)
-1. When the reconciliation is being performed
-    * [ReconciliationService](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/services/reconciliation_service.rb)
-    * [Reconciliations::UpdateSaasUserCountService](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/services/reconciliations/update_saas_user_count_service.rb)
-1. When Salesforce entities are getting created/updated
-    * [Salesforce::CreateAccountWorker](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/workers/salesforce/create_account_worker.rb)
-1. When the subscription is getting auto renewed
-    * [AutoRenewService](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/services/auto_renew_service.rb)

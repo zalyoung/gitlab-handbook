@@ -5,17 +5,17 @@ category: Handling tickets
 subcategory: Triaging
 ---
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 ## Purpose of this page
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Assuming a ticket has:
 
-- been [triaged]({{< ref "ticket_triage" >}}), and
+- been [triaged](/handbook/support/workflows/ticket_triage/), and
 - has the correct org associated,
 
 then we need to ensure the ticket:
@@ -25,7 +25,7 @@ then we need to ensure the ticket:
 
 ## Appropriate SLA by plan
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Tickets should have the appropriate SLA according to the [support service levels](https://about.gitlab.com/support/#gitlab-support-service-levels).
@@ -40,25 +40,9 @@ Consider contacting the Account Owner (Manager) to clarify the customer's status
 
 ![Checking the value of GitLab Plan](/images/support/zendesk_check_org_fields.gif)
 
-### Organization exists in SFDC but support level does not match Zendesk
-
-> ⚠️ **Warning**  
-> This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
-
-Note that we have [an ongoing issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/634)
-that causes a lot of accounts to be incorrectly shown as `Expired` in SFDC.
-See the [Handling customers with incorrect expired support](#handling-customers-with-incorrect-expired-support) section for these cases.
-
-In other cases where there is a mismatched `Support Level` in SFDC and `GitLab Plan` in Zendesk,
-you can follow a similar process as the [expired support process](#handling-customers-with-incorrect-expired-support).
-
-However, if you're unsure, it may indicate a potential problem with the SFDC -> ZD sync.
-Open an issue in the
-[sync project](/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync/).
-
 ### Handling customers with incorrect expired support
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 If you believe a customer marked as `Expired` support and `Former Customer` is in fact a current paying customer,
@@ -103,7 +87,7 @@ using our generic `Support Admin` account.
 This part should be done in combination with the above section to fix future tickets.
 
 If data in SFDC or
-[CustomersDot]({{< ref "looking_up_customer_account_details#within-customersgitlabcom" >}}) show
+[CustomersDot](/handbook/support/workflows/looking_up_customer_account_details/#within-customersgitlabcom) show
 that the customer has a valid subscription you should update the ticket in Zendesk side.
 
 For the specific ticket:
@@ -133,7 +117,7 @@ and verify that it is associated with the appropriate organization and SLA.
 #### Example: full sequence of actions that should be done to fix incorrectly expired organization
 
 - A ticket comes to Zendesk and you spot that `GitLab Plan` is shown as `Expired`.
-- First, search for [any info about this organization]({{ ref "looking_up_customer_account_details" >}}) in SFDC and CustomersDot.
+- First, search for [any info about this organization](looking_up_customer_account_details.md) in SFDC and CustomersDot.
 - If you found that they have a valid license or subscription i.e. it is not expired, you are likely facing [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/634).
 - Fix SFDC side first by following [the steps above](#handling-customers-with-incorrect-expired-support).
   Sales Support will usually reply to your message in SFDC, and you will be able to see it in the feed at the organization's page there.
@@ -145,7 +129,7 @@ and verify that it is associated with the appropriate organization and SLA.
 
 ## No SLA
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Check the [SLA by plan](#appropriate-sla-by-plan) for a list of types that do not receive SLA.
@@ -162,7 +146,7 @@ When a customer responds to a ticket from an email address that is not included 
 There is a [trigger](https://gitlab.zendesk.com/agent/admin/triggers/360019008340/revisions/3)
 which sends an internal note to remind people to add the user to CC and reply, see [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/1581) for more details.
 
-If the email is obviously the original requester, you can [merge the users](https://support.zendesk.com/hc/en-us/articles/203690896-Merging-a-user-s-duplicate-account).
+If the email is obviously the original requester, you can [merge the users](https://support.zendesk.com/hc/en-us/articles/4408887695898-Merging-a-user-s-duplicate-account).
 
 Alternatively, add the email of the customer to CC.
 
@@ -174,43 +158,14 @@ After that, the cc'ed user's next replies will not be marked as internal anymore
 
 ## Ticket views
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
-Tickets should show in the [appropriate view(s)](/handbook/support/readiness/operations/docs/zendesk/views/).
-
-### Organizations with multiple subscriptions
-
-When a ticket is initially created or an org is first tied, the ticket will receive all tags associated with the org.
-
-This means that orgs with multiple subscription related SLA tags (such as `silver` and `premium`),
-the ticket will show up in multiple views.
-
-Remove the [SLA tag](/handbook/support/readiness/operations/docs/zendesk/tags/) that does not apply for the ticket.
-
-If you find an org with multiple active subscriptions and it's missing the appropriate tag(s):
-
-1. File an issue to [report the inaccuracy](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/zd-sfdc-sync-global).
-1. Manually change the ticket's tags to have the correct [SLA tag](/handbook/support/readiness/operations/docs/zendesk/tags/).
-1. Link the support ops issue and note the manual change as an internal note on the ticket.
-
-### Priority prospects showing in multiple views
-
-By default, `priority_prospect` tagged tickets will be shown in both SM and GitLab.com views.
-
-To make it visible only in the appropriate view, add either `prospect_saas` or `prospect_sm` tag to the ticket.
+Tickets should show in the appropriate view(s).
 
 ### Wrong queue
 
-In cases where a ticket is showing in the wrong queue:
-
-1. Ensure that the ticket has [the correct form]({{< ref "ticket_triage" >}}).
-1. If the [priority prospect tag is present, follow instructions above](#priority-prospects-showing-in-multiple-views).
-1. If it looks to be a valid customer or there are multiple [SLA tags](/handbook/support/readiness/operations/docs/zendesk/tags/),
-follow the [multiple subscription org instructions](#organizations-with-multiple-subscriptions).
-1. If the customer only has a single subscription and *not* one related to the form they selected:
-1. Remove the [SLA tag](/handbook/support/readiness/operations/docs/zendesk/tags/).
-1. Follow the identifying customers instructions and treat as a `prospect`.
+In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.
 
 ## Get help
 

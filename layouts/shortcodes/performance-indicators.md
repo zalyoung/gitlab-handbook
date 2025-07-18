@@ -1,14 +1,14 @@
-<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
+{{- /* To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators */}}
 {{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
 {{- $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/performance_indicators/%s.yml" $publicHandbookRef (.Get 0) }}
-{{- with resources.GetRemote $dataURL }}
-  {{- with .Err}}
+
+{{- $resource := resources.GetRemote $dataURL }}
+{{- if not $resource }}
     <h2>Unable to fetch performance indicator Data</h2>
-  {{- else }}
-      {{ $data = . | transform.Unmarshal }}
-  {{- end }}
+{{- else }}
+    {{ $data = $resource | transform.Unmarshal }}
 {{- end }}
 
 {{- $kpiData := where $data "is_key" "eq" true }}

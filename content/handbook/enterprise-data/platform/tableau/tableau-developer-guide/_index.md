@@ -5,6 +5,44 @@ description: "GitLab's Tableau Developer guide"
 ## Quick Links
 
 - [Tips and Tricks](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/)
+- [Tableau Style Guide](handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)
+
+## Data Source Types in Tableau
+
+There are a few different options for what kind of data source you can use in Tableau, and which option you pick could impact the performance & end-user experience of your dashboard. Let’s get some terms defined:
+
+- Extract vs. Live: An extracted data source has an extract of the data set that lives in Tableau. A live data source will query the underlying data source (Snowflake, Google Sheets) every time you change a filter or navigate to a new dashboard tab. Extracts will almost always perform faster.
+
+- Local, Embedded, and Published: In the context of this tip, a ‘local’ and ‘embedded’ data source are the same thing. These are connections where the data source lives “inside of” or “with” the workbook. The only way to view or edit this data source is to open the workbook. This connection type can only connect to / live inside of one workbook at a time.
+
+- Published: A published data source is published separately from the workbook. So in Tableau Cloud, you could navigate to a link for the data source, and separately a link for the workbook. You can connect one published data source to as many workbooks as you want, as it exists independently from the workbook.
+
+A workbook’s data source can be Local + Live, Local + Extracted, Published + Live, or Published + Extracted.
+
+### Tips Regarding Connection Types
+
+You may find that developing a workbook in Tableau Desktop that uses a Published Data Source can be a slow and clunky experience. For whatever reason, a published data source connection can work slowly. To get around this problem while still using a published data source, you can work on a local copy.
+
+[This video](https://www.youtube.com/watch?v=KcxtXmzS4mk) described the process. It is an old video, so the user interface is a little outdated, but the process of creating a local copy is the same.
+
+The written instructions are as follows: Open the workbook in Desktop and navigate to any worksheet. Then right click on the data source and select "create local copy". Next, right click on the original published data source, and select "Replace data source" from the dropdown. In the pop-up, replace your original data source (published) with the new one (local copy).
+
+Then you can develop as you normally would. When you are finished, you can publish the data source back to Tableau Cloud, and it will turn the local copy back into a published data source connection. Finally, publish the workbook.
+
+Be mindful that you do not publish over someone else's existing data source, with changes that may disrupt the workings of their workbook.
+
+#### Editing Fields In A Published Data Source
+
+If you are developing in a workbook (in Tableau Cloud or Desktop) which is connected to a Published Data Source, you cannot make any changes to the published data source. This means:
+
+1. If you want to make any edits to a calculated field, you will not be able to. You will have to create a copy of the calculated field.
+1. If you use the "[replace references](https://www.thedataschool.co.uk/gregg-rimmer/tableaus-replace-references-feature/)" function it will only replace the instances where the field is on a worksheet independently. It will not replace any instances of that field that are contained within another calculated field (see point number 1, you cannot edit a calculated field in a published data source)
+1. If you change any of the parameters in the workbook, Tableau will create a duplicate copy of your parameter and replace your parameter with the copy in the published version. If a stakeholder comes to you and says "this dashboard is broken! The dropdown does not work!", it is probable that there are two versions of the 'broken' parameter.
+1. You cannot add a Table Calculation onto a pre-existing calculated field. You have to make a copy of the calculated field, and then you can use a table calculation with the copy.
+
+If you find yourself in the scenario where you do need to do any of the above, it is possible. There are two options - you can either follow the instructions in the section above to create a local copy of the data source, make your adjustments, and then republish the data source.
+
+Or, you can navigate to the published data source in Tableau Cloud, open it in "edit" mode, make your changes, and republish the data source.
 
 ## Data Source Approach
 
@@ -38,21 +76,21 @@ The way to make sure users can always access the data within a workbook, is to c
 
 If you are publishing a data source from Desktop to the Cloud/Online to be a Tableau Published Data Source, you will get the following window:
 
-![data window](images/data-window.png)
+![data window](/images/data-window.png)
 
 Select the "Edit" button it/data-team/ "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
 
-![authentication](images/authentication.png)
+![authentication](/images/enterprise-data/platform/tableau/tableau-developer-guide/authentication.png)
 
 **Publishing a Workbook With a Local Connection**
 
 A workbook with a local connection is one whose data source is living inside of the workbook, and is not a separately published Tableau Data Source which you can search Tableau Online for. When you try to publish a workbook with a local connection, you will see the following window:
 
-![local window](images/window-local.png)
+![local window](/images/enterprise-data/platform/tableau/tableau-developer-guide/window-local.png)
 
 Select "Edit" it/data-team/ "Data Sources" and find "Authentication". Choose to embed your <rolename>.
 
-![local authentication](images/auth-local.png)
+![local authentication](/images/enterprise-data/platform/tableau/tableau-developer-guide/auth-local.png)
 
 </details>
 
@@ -64,11 +102,11 @@ Select "Edit" it/data-team/ "Data Sources" and find "Authentication". Choose to 
 
 If you are editing a data source in Cloud/ Tableau Online/ your web browser (all the same thing), in order to make sure your credentials are embedded, find "Publish As":
 
-![''](images/publish-as.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/publish-as.png)
 
 In the following window, be sure to check the box for 'Embed Credentials'.
 
-![''](images/cloud-embed.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/cloud-embed.png)
 
 </details>
 
@@ -81,11 +119,11 @@ This is the process for ensuring that your rolename is properly embedded into yo
 
 The first place that you get the option to embed your rolename is when you first form a connection to your datasource. It looks like this:
 
-![Connection](images/initial_connection_rolename.png)
+![Connection](/images/enterprise-data/platform/tableau/tableau-developer-guide/initial_connection_rolename.png)
 
 If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
 
-From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](.../tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook.
+From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](/tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook.
 
 If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
 
@@ -95,61 +133,112 @@ Using a published connection, or a local extracted connection in your workbook w
 
 In the niche use-case that you want an Explorer without Snowflake access to be able to make small edits to your workbook, ensure you use only pulished, live connections, or extract the data.
 
- ![sign in screen](images/singin.png)
+ ![sign in screen](/images/enterprise-data/platform/tableau/tableau-developer-guide/singin.png)
+
+## Common Connection Errors and How to Solve Them
+
+ Are you or one of your users experiencing an error screen when trying to access Tableau? See if the issue is on this list, and how to resolve it.
+
+### 1. Issue: Authentication
+
+**Error**:
+> `"Confirm that you have provided valid credentials for this data source. Tableau detected that your OAuth refresh token is expired. Reauthenticate with new credentials. Ask your Tableau admin if you need help" and "This sheet uses data that's on a Snowflake database. You need to sign into that server".`
+
+This error message can be challenging to diagnose, as it can be the result of numerous causes. Unfortunately, there is no easy way to diagnose which possible cause is the reason you are seeing this message when it occurs.
+
+  | Cause                     | Solution/Prevention             |
+  |---------------------------|----------------------|
+  |The developer used a local, live connection         | [Follow these steps.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
+  | The last person to publish changes to the workbook/data source forgot to embed their credentials when publishing.                | [Follow these steps when publishing.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)|
+  | The credential is truly expired (it was published weeks ago) | Have the data source owner refresh their credentials following these [steps](/handbook/enterprise-data/platform/tableau/#snowflake-oauth-data-source-connection-expiration-period). |
+
+### 2. Issue: Insufficent Data Access
+
+**Error**:
+> `Upon trying to sign in to view a dashboard, you receive the error message "invalid consent request".`
+
+![invalid consent embedded from other location](/images/handbook/enterprise-data/platform/tableau/invalidconsent.png)
+
+This generally occurs because you do not have access to something you are trying to view. This can be:
+
+- The a database or table the view is built off of.
+- The credentials the developer embedded into the workbook. [See here.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)
+
+**Solution:** If the last person to publish the data source / workbook followed the steps linked above for correctly embedding their credentials, then it is likely an access issue. The simplest solution would be for the developer to publish the connection as a published and extracted data source.
+
+If you need access and using an extracted connection is not suitable, you can check with the developer if they used a "large" warehouse which you do not have access to, or if there are non-standard tables used in the workbook that have restricted access.
+
+### 3. Issue: Missing Columns in Data
+
+**Error**:
+> `"An unexpected error occurred. If you continue to receive this error please contact your Tableau Server Administrator" combined with "TableauException: ERROR: The field '[name]' in the datasource 'sqlproyx._______' does not exist in your database. It was either modified or removed. Would you like to reset the view?".`
+
+This indicates that the connection is looking for a column that does not exist/ is broken. It may have been dropped or modified in Snowflake, and now those changes are causing a breakage in Tableau.
+
+**Solution:** Contact the owner of the workbook for assistance. The easiest way to resolve errors like this is by downloading a local copy of the data source or workbook to Tableau Desktop and deleting or replacing the fields there.
 
 ## Embedding in the Handbook
 
-In order for views from workbooks to be embedded and viewable in the handbook, public or internal, the workbook and their data sources must be prepared in a specific way. To be embedded in the public handbook the workbook and relevant datasource must be copied from the [internal GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) site to the [public GitLab Tableau](https://us-west-2b.online.tableau.com/#/site/gitlabpublic) site. To facilitate correct viewing of embedded views and the synchronization of content to the public site, workbooks must be set up in a specific way and given a specific tag.  Views that are meant to be embedded on the internal site do not need to be in a specific project, but should still meet the set up guidelines.
+[GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) (internal site only) charts and dashboards can be embedded in the GitLab Handbook to share visual content with teams on documentation pages. 
 
-Instructions for how to embed a Tableau chart can be found on the [Handbook Embedding Demonstration](/handbook/enterprise-data/platform/tableau/embed-demo/) page.
+**Important:** Users must have a Tableau license to view embedded content. Dashboards will not load for users without proper licensing.
 
-### Workbook Set Up
+For detailed instructions on embedding Tableau charts, see the [Handbook Embedding Demonstration](/handbook/enterprise-data/platform/tableau/embed-demo/) page.
 
-For embedding in the handbook, views will embed better than dashboards will, so each view that is meant to be embedded should be designed to function without user selected inputs.  Filters and parameters can be preset during the embedding process, but will not be changeable by the viewer. Additionally, the view must meet the following criteria:
+### Design Considerations
 
-- The view cannot be hidden
-- For embedding in the public handbook each datasource must connect to Snowflake with a Data Team Service Account username and password or use an extract
-- For embedding in the public handbook each workbook must have the `Public` tag.
+- **Use views over dashboards** - Views embed more reliably than dashboards
+- **Design for static viewing** - Each embedded view should function without user inputs
+- **Preset filters and parameters** - These can be configured during embedding but won't be changeable by viewers
+- **Ensure visibility** - Views cannot be hidden in embedded format
 
-#### Data Source
+#### Data Source Configuration
 
-If you are not using an extract, like when your extract is going to be over 10 million rows, then you will need to use the Data Team Service Account's credentials. Reach out to the data team to get set up with those credentials.
+**For extracts under 10 million rows:**
 
-Be mindful when you are embedding your credentials in the data source while publishing either internal or external views. Using an extract with your role embedded will be the clearest way to make sure that users can always view the data and will not experience an authorization expiration error.
+- Use an extract with your role credentials embedded
+- This ensures consistent access and prevents authorization expiration errors
 
-Make sure that if you do use the Data Team's credentials to publish the workbook, when you make any changes to the workbook it retains those credentials. You will need to embed passwords in the data source for the views to show correctly. This box may come unchecked when you are making changes. ![The box that needs checking](box-checking.png)
+**For large datasets (over 10 million rows):**
 
-#### Public Tag
+- Contact the Data Team to obtain Service Account credentials
+- Use these credentials instead of creating an extract
 
-If your view is public and embedded in the public handbook (aka, people do not need to sign-in to view it), then it needs to be on the Public GitLab Tableau Cloud site due to the viewer license agreements. To tag a workbook as public, click on the workbook. On the main page for the workbook where you can see each of the views, next to the name, there is a "more settings" option '...'. Select that, and find "Tag...". Here, you can add "Public" as a tag.
+#### Publishing Requirements
 
-It will take about a day for the URL to show up in [this list](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding). Once it does, copy that URL and use it in the embedding information. If your view has not shown up after a day or so, it is likely because one of your data sources is not following the guidelines of A\) being an extracted connection or B\) using the data team's service account's credentials.
+When publishing workbooks for embedding:
 
-### Workbook Synchronization
+1. **Embed credentials in the data source** - This is essential for proper view functionality
+2. **Verify credential retention** - When making changes to published workbooks, ensure they retain the correct credentials
+3. **Check the embed passwords option** - This box may become unchecked during updates
 
-Each workbook with views that are meant to be embedded in the public handbook must be tagged with the `Public` tag. This will ensure that the workbook, and their datasources are copied to the public GitLab Tableau site.  Only Creators and Explorers who can access the workbook can tag the workbook, see the Tableau [documentation](https://help.tableau.com/current/pro/desktop/en-us/tags.htm#add-tags) for more information.  The individual tagging must it/data-team/stand if the data should be shared publicly and if there is any question please work with the BI team to check and apply the tag.  Removing this tag from a workbook will delete the workbook from the public GitLab Tableau site, this will cause handbook pages trying to load a view from that workbook to display an error. It should be noted that it can currently take up to 48 hours for the synchronized workbook to show up in the list of [views available for embedding](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding).
+![The box that needs checking](/images/enterprise-data/platform/tableau/tableau-developer-guide/box-checking.png)
+
+> **Note:** Always verify that the "Embed passwords" option remains selected when republishing workbooks to prevent authentication issues.
+
+## Publishing Tableau Workbooks
 
 ### Workbook Naming Convention
 
 When publishing workbooks to our Tableau Cloud site for the first time please name the workbook with their intended / official title, so that the resulting URL will capture just this title (this will allow us to keep the same URL when the workbook is published to the Production spaces):
 
-![''](images/naming_tableau_workbook.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/naming_tableau_workbook.png)
 
-![''](images/workbook_url.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/workbook_url.png)
 
 Publishing to the [Development](https://10az.online.tableau.com/#/site/gitlab/projects/300844) project:
 
 All workbooks published to the Development project will be attached the *Draft* and their department tags to indicate that they are in development mode and not a workbook that has been peer reviewed and intended to serve as the single source of truth (SSOT) for a use case. The BI team will leverage the Tags functionality available in Tableau Cloud to better organize workbooks by department and publishing status. For example, this workbook below is assigned the *Draft* and *Data Team* tags:
 
-![''](images/tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/tags.png)
 
 To add tags to the workbook select on the ellipse symbol to the right of that workbook and click on *Tag...*:
 
-![''](images/to_tag.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/to_tag.png)
 
 Once in the Tag window, add in the *Draft* and department tags for the workbook:
 
-![''](images/add_tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/add_tags.png)
 
 ## Publishing to Tableau Cloud
 
@@ -186,11 +275,11 @@ There are two environments for publishing: Development and Production.
 
 Applying tags allows us to provide more information on the workbook, so that we can easily discern them by their business function / department and distinguish draft content that is still in development. To filter workbooks by their tags, please click on the search box in the upper right-hand corner of the project. it/data-team/ **Content types** select **Workbooks**:
 
-![''](images/search_tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/search_tags.png)
 
 Once in the Workbooks section, click on the **Tags** dropdown to filter content by tags:
 
-![''](images/filter_tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/filter_tags.png)
 
 ## Workbook and Data Source Descriptions
 
@@ -203,7 +292,7 @@ How to add a description:
 1. In the Edit Details page, find the Description field. Enter the description you want to associate with the workbook or data source.
 1. Once you've added the description, click Save to apply the changes.
 
-![''](images/edit_content_description.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/edit_content_description.png)
 
 ## Performance Indicators
 
@@ -219,20 +308,18 @@ To find this file, you are going to go to the GitLab-com repository, which is a 
 
 This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views.
 
-Two reminders, first - *make sure that any public views (does not need login access) that are embedded into the public handbook are coming from the public Tableau site*. This means that the workbook they come from has been tagged "Public", and you are getting the URL from the [views available for embedding](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) page. More information on this process can be found on the [Handbook Embedding Demonstration Page](/handbook/enterprise-data/platform/tableau/embed-demo/).
-
-Second, *if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page*.
+Reminder: *When embedding a view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page. Embedding Tableau charst are for the internal GitLab handbook only.*
 
 ### YML
 
-The `data/performance_indicators.yml` file in the handbook repositories is the basis for a system that automatically generates handbook pages with performance indicator content on them.  The structure can take a list of charts and each chart can take a list of filters and parameters.  Only charts not tagged as public should be included on internal handbook pages. The following is an example of how to add the needed information to the data file:
+The `data/performance_indicators.yml` file in the handbook repositories is the basis for a system that automatically generates handbook pages with performance indicator content on them.  The structure can take a list of charts and each chart can take a list of filters and parameters. The following is an example of how to add the needed information to the data file:
 
 ```yml
 - name: MR Rate
   description: MR Rate is a monthly evaluation of how MRs on average an Development engineer performs.
   tableau_data:
     charts:
-      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OKR4_7EngKPITest/PastDueSecurityIssues
+      - url: https://10az.online.tableau.com/t/gitlab/views/OKR4_7EngKPITest/PastDueSecurityIssues
         height: 300px
         toolbar: hidden
         hide_tabs: true
@@ -273,25 +360,25 @@ To use Row Level Security within Tableau the developer will need to use an entit
 
 Find the correct entitlement table for the table you are using.  The entitlement table should be named similar to the table you wish to join it to.
 
-![''](images/find_entitlemnet.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/find_entitlemnet.png)
 
 Perform a direct inner join, not a relationship, between the source table and the entitlement table.
 
-![''](images/open_table_for_join.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/open_table_for_join.png)
 
-![''](images/join_entitlement_table.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/join_entitlement_table.png)
 
 Create a Data Source filter using the `USERNAME()` function and the `tableau_user` field in the entitlement table.  This is the step that will ensure that only rows visible to the current user will be retrieved.
 
-![''](images/create_filter_filed.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/create_filter_filed.png)
 
-![''](images/create_filter_calc.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/create_filter_calc.png)
 
-![''](images/data_source_filter.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/data_source_filter.png)
 
 ### Geo-Based Row-Level Security
 
-Implementing RLS based on GEO data in Tableau ensures that users access only the data pertinent to their assigned GEO. This is facilitated through the [ent_sfdc_geo](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.ent_sfdc_geo) table which integrates SFDC user roles with Tableau.
+Implementing RLS based on GEO data in Tableau ensures that users access only the data pertinent to their assigned GEO. This is facilitated through the [ent_sfdc_geo_pubsec_segment](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.ent_sfdc_geo_pubsec_segment) table which integrates SFDC user roles with Tableau.
 
 This Geo based entitlement table is designed to manage user access to specific GEOs by combining information from SFDC user roles and Tableau's SAFE access groups. The table's logic determines access based on the following criteria:
 
@@ -299,7 +386,7 @@ This Geo based entitlement table is designed to manage user access to specific G
 
 - **SAFE and SFDC Role Users**: Users who are part of both the Tableau SAFE access group and specific Salesforce roles gain global access. (e.g. Executive)
 
-- **Non-Pubsec Roles**: Certain roles are granted global access excluding the 'PUBSEC' GEO (e.g. Executive - Global Minus Pubsec)
+- **Non-Pubsec Roles**: Certain roles are granted global access excluding the 'AMER-PUBSEC' GEO (e.g. Executive - Global Minus Pubsec)
 
 - **Non-SFDC SAFE Users**: Tableau SAFE users without corresponding Salesforce roles are granted access based on their Tableau entitlements.
 
@@ -346,7 +433,7 @@ driver to keep their session alive.
 To do this the developer needs to edit the `odbc.ini` file
 and set the `CLIENT_SESSION_KEEP_ALIVE` flag to `True`. Typical locations for the file can be found in the [Snowflake documentation](https://docs.snowflake.com/en/developer-guide/odbc/odbc-mac#step-2-configure-the-odbc-driver)
 
-![''](images/snowflake-odbc-ini.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/snowflake-odbc-ini.png)
 
 ## Replacing Datasources in Tableau Desktop
 
@@ -384,13 +471,13 @@ There are some key lessons that the Data Team learned about testing our MR datab
 
 Once you have a local development copy of the data source, open up the data source connection pane where you would normally edit a data source.
 
-![''](images/connection_pane.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/connection_pane.png)
 
 On the left side is where you add new connections, and in the middle is where the tables that make up the workbook are visualized.
 
 If you have been granted access to query the MR database which is attached to the merge request you are looking for, then you will be able to see it as an option it/data-team/ the dropdown for "**Database**".
 
-![''](images/dropdown_database.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/dropdown_database.png)
 
 Search this MR database for your desired tables. Create your data source as you normally would - either replacing exiting tables with a test version, or bringing out new tables into the model and creating a join or relationship.
 
@@ -412,11 +499,11 @@ This is why it is recommended to work on a development copy of the data source o
 
 *Even if you are 'searching for' the MR database (pictured below) but not using this connection for any of the tables in the workbook, you will encounter errors.*
 
-![''](images/searching.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/searching.png)
 
 Below is the error you will get if any leftover connections to the dropped database still exist in your data source. There is no workaround for this, you will need to replace the data source with an identical data source or, if you do not have an identical version, you will need to rebuild it and then 'Replace References' on most of the fields.
 
-![''](images/error_message.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/error_message.png)
 
 ### Final Testing Notes
 
@@ -456,3 +543,11 @@ Relationships are a feature in Tableau that allow you to combine data from multi
 When working with multi-table data sources in Tableau, consider using relationships as your default approach for combining tables, reserving joins for specific scenarios where more precise control over table combinations is required.
 
 If you would like to see a simple example demonstrating how relationships work - with the SQL queries that the example produced, you can find an in-depth writeup [here](https://anniesanalytics.com/what-are-relationships-in-tableau-really).
+
+## Snowflake & Tableau Settings Rolename Embedding
+
+In order to properly embed your credentials in connections (as described [here](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)), you will need to have two prerequisites:
+
+1. You have set a 'default role' in Snowflake. You can follow [the instructions here](/handbook/enterprise-data/platform/#logging-in-and-using-the-correct-role) on how to set your default role if you have not done so already.
+
+1. You have embedded your rolename into your Tableau settings. To do this, navigate to your Tableau homepage and look to the top right corner. Click on your profile dropdown (usually a cirlce with your initials), and click 'My Account Settings. In the "Saved Credentials for Data Sources" section, scroll until you find Snowflake, and add your default role there.

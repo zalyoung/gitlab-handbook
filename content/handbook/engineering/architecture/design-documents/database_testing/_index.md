@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 **Notice:** This blueprint has been partially implemented. We still plan to
 iterate on the tooling. The content below is a historical version of the
@@ -70,7 +70,7 @@ Today, we have gained experience with working on a thin-cloned production
 database (more on this below) and already use it to provide developers with
 access to production query plans, automated query feedback and suggestions with
 optimizations. This is built around [Database Lab](https://gitlab.com/postgres-ai/database-lab)
-and [Joe](https://gitlab.com/postgres-ai/joe), both available through Slack 
+and [Joe](https://gitlab.com/postgres-ai/joe), both available through Slack
 (using ChatOps) and [postgres.ai](https://postgres.ai/).
 
 ## Vision

@@ -1,18 +1,16 @@
 ---
-title: "Jetbrains IDEs"
-no_list: true
+title: "JetBrains IDEs"
+simple_list: true
 ---
 
 ## Sub-pages
 
-See the following sub-pages for information on configuration and usage of
-Jetbrains IDEs in general, and for specific usage of IDEs.
-
-{{< subpages >}}
+See the sub-pages for information on configuration and usage of
+JetBrains IDEs in general, and for specific usage of IDEs.
 
 ## Overview
 
-Jetbrains offers a [suite of powerful integrated development environments(IDEs)](https://www.jetbrains.com/products/)
+JetBrains offers a [suite of powerful integrated development environments(IDEs)](https://www.jetbrains.com/products/)
 for all major software development ecosystems.
 
 While they have a somewhat steep learning curve, JetBrains IDEs have many benefits which can make the investment worth it:
@@ -26,9 +24,9 @@ While they have a somewhat steep learning curve, JetBrains IDEs have many benefi
    need to find, install, or configure any custom plugins or extensions. For example, ESLint and RuboCop have native
    support, with no plugins required. However, "power users" or complex projects
    will often want to customize their configurations.
-1. **Curated plugin ecosystem** The Jetbrains plugin ecosystem is (subjectively) more "curated" than other editor ecosystems.
+1. **Curated plugin ecosystem** The JetBrains plugin ecosystem is (subjectively) more "curated" than other editor ecosystems.
    Most important tools which are not built into the IDE have officially supported plugins provided by JetBrains
-   (e.g. VueJS, Prettier, NodeJS, etc.), and most popular non-Jetbrains plugins only have one or a small number to choose from.
+   (e.g. VueJS, Prettier, NodeJS, etc.), and most popular non-JetBrains plugins only have one or a small number to choose from.
    This is in contrast to plugin ecosystems such as VS Codes, where there can be dozens of different plugins for each key tool
    or library, without a clear way to choose between them, and sometimes they will conflict with each other in keybindings or
    behavior.
@@ -40,7 +38,7 @@ a rough estimate is that about 15% of professional software developers today use
 
 ## Setup and Configuration
 
-See the [Common Jetbrains Setup and Configuration](setup-and-config) page for instructions on installing and configuring JetBrains IDEs.
+See the [Common JetBrains Setup and Configuration](setup-and-config) page for instructions on installing and configuring JetBrains IDEs.
 
 ## Recommendation
 
@@ -76,7 +74,7 @@ One of the powerful and productivity-enhancing features of JetBrains IDEs is
 
 See more details at [Code Inspection](code-inspection)
 
-## Tracked Jetbrains Issues
+## Tracked JetBrains Issues
 
 We keep a list of all JetBrains issues which are relevant to GitLab, and we want to follow/upvote
 in hopes that they eventually get fixed.

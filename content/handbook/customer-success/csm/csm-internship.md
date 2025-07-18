@@ -9,7 +9,7 @@ Internships are a great way for a GitLab team member to learn about being a Cust
 
 ## How to find a mentor in the CSM team
 
-The first step you will need to take in order to start an internship in Customer Success is to find a mentor from the [CSM team](/company/team/?department=csm). Feel free to reach out to any CSMs, particularly ones who are in a similar timezone to you to discuss an internship, or to reach out to a CSM Manager for guidance.
+The first step you will need to take in order to start an internship in Customer Success is to find a mentor from the [CSM team](/handbook/company/team/?department=csm). Feel free to reach out to any CSMs, particularly ones who are in a similar timezone to you to discuss an internship, or to reach out to a CSM Manager for guidance.
 
 If you're not sure who to reach out to, you can also post in the [#customer-success](https://gitlab.enterprise.slack.com/archives/C5D346V08) Slack channel and express your interest in an internship and that you are looking for a mentor.
 
@@ -51,14 +51,11 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Solutions Architect and CSM overlap](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
    1. [Support team overview](/handbook/support/)
    1. [Professional Services offerings](https://about.gitlab.com/services/)
-1. Learn about Git & GitLab
-   1. [GitLab 101 course](/handbook/people-group/learning-and-development/gitlab-101/)
-   1. [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
    1. [What is Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
-   1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
+   1. [Start using Git on the command line](https://docs.gitlab.com/ee/topics/git/commands.html)
    1. [Learn Git Branching](https://learngitbranching.js.org/)
-   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/))
+   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)/)
 
 #### Week 2
 
@@ -151,13 +148,13 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. Present the deck to your mentor, with them acting as the customer
    1. After you finish roleplaying, self-reflect and get feedback from your mentor
    1. If available, shadow your mentor or another CSM as they prepare for and give a kick-off call, including follow ups
-   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/customer-success/csm/account-handoff/))
+   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/handbook/customer-success/csm/account-handoff/))
 
 #### Week 8
 
 1. Shadow other CSMs on customer calls, team calls, & account team calls,  helping with follow ups and questions as needed
-1. Review one stage of the DevSecOps lifecycle in depth every week: Secure & Govern
-   1. Read through the [Govern Product Categories](https://about.gitlab.com/stages-devops-lifecycle/govern/)
+1. Review one stage of the DevSecOps lifecycle in depth every week: Secure & Software Supply Chain Security
+   1. Read through the [Software Supply Chain Security Product Categories](https://about.gitlab.com/stages-devops-lifecycle/govern/)
    1. Continue working on the [GitLab Certified Security Specialist Learning Path](https://levelup.gitlab.com/learning-paths/certified-security-specialist-learning-path) (lessons 6-10 in GitLab Security Essentials)
    1. Be prepared to discuss with your mentor:
       1. Any modules/topics you struggled with understanding in the learning path

@@ -5,6 +5,14 @@ title: "Searching GitLab like a pro"
 There are a few tricks you can do to make searching GitLab and the web faster than usual.
 This page lists a few of these tricks.
 
+## Searching the handbook using Claude by Anthropic
+
+As a part of our enterprise agreement with Anthropic, all GitLab team members have access to use [Claude.ai](/handbook/tools-and-tips/ai/claude/).
+
+With Claude's ability to search the web, using this powerful tool to search for information in the GitLab Handbook and to advise on various topics based on guidance in the handbook is a helpful way to both find and interpret content that is available in the handbook.
+
+Using a simple prompt like, "Based on the GitLab Handbook, 'insert question'..." is a great way to find the information you're looking for.
+
 ## Searching using "site:"
 
 Many search engines allow you to search only a specific website.
@@ -37,35 +45,33 @@ You can find instructions on how to set up keyword searches in Chrome and Firefo
 
 ### Setting up keyword searches on Chrome
 
-Keyword searches are created as new `Site searches` in Chrome under the [Search engine](chrome://settings/searchEngines) Settings. By default, typing the keyword in [Chrome's Omnibox](https://developer.chrome.com/docs/extensions/reference/omnibox/) (address bar) then tapping on <kbd>space</kbd> or <kbd>tab</kbd>, then entering the query and hitting <kbd>return</kbd> will use this keyword search.
+Keyword searches are created as new `Site searches` in Chrome under the [Search engine](chrome://settings/searchEngines) Settings. By default, typing the keyword in [Chrome's Omnibox](https://developer.chrome.com/docs/extensions/reference/api/omnibox) (address bar) then tapping on <kbd>space</kbd> or <kbd>tab</kbd>, then entering the query and hitting <kbd>return</kbd> will use this keyword search.
 
-The steps below show you how to set up a keyword search for searching the GitLab handbook.
+The steps below show you how to set up a keyword search for searching the GitLab documentation.
 
 | Step | Image |
 |---|---|
-| 1. Right-click on the address bar in Chrome and select `Manage Search Engines...` | ![Manage search engine](/handbook/tools-and-tips/images/1_manage_search_engine.png) |
-| 2. In the `Site search` section, click the `Add` button | ![Add search engine](/handbook/tools-and-tips/images/2_add_search_engine.png) |
-| 3. In the new `Add search engine` dialog, enter the following then click `Add`: <br> a. `GitLab handbook` in *Search Engine* <br> b. `hb` in *Shortcut* <br> c. `https://handbook.gitlab.com/?search=%s` in *URL* | ![Enter search engine details](/handbook/tools-and-tips/images/3_enter_search_engine_details.png) |
+| 1. Right-click on the address bar in Chrome and select `Manage Search Engines...` | ![Manage search engine](/images/tools-and-tips/1_manage_search_engine.png) |
+| 2. In the `Site search` section, click the `Add` button | ![Add search engine](/images/tools-and-tips/2_add_search_engine.png) |
+| 3. In the new `Add search engine` dialog, enter the following then click `Add`: <br> a. `GitLab documentation` in *Search Engine* <br> b. `gd` in *Shortcut* <br> c. `https://docs.gitlab.com/search/?q=%s` in *URL* |  |
 
-**Alternative:** The above adds the GitLab Handbook site search function to Chrome.  If you would prefer to continue to use Google search engine to site search the Handbook, in step 3.c. above you can add `https://www.google.com/search?q=site:handbook.gitlab.com %s` in *URL*
-
-To test this, open a new tab and in the address bar type: `hb` <kbd>Tab</kbd> `iteration` and press enter.
-The GitLab handbook page should load with the search results for `iteration` showing.  If you use the alternative approach with the search site: method, the Google search results page should load with results exclusively from the Handbook.
+To test this, open a new tab and in the address bar type: `gd` <kbd>Tab</kbd> `merge requests` and press enter.
+The GitLab documentation page should load with the search results for `merge requests` showing.
 
 ### Setting up keyword searches in Firefox
 
 Keyword searches are created as new bookmarks in Firefox.
-The steps below show you how to set up a keyword search for searching the GitLab handbook.
+The steps below show you how to set up a keyword search for searching the GitLab documentation.
 
 | Step | Image |
 |---|---|
-| 1. Click on `Bookmarks` on the menu bar, then click `Show All Bookmarks` | ![Firefox Searching](/handbook/tools-and-tips/images/ff_1_library_menu.png) |
-| 2. Select `Bookmarks Menu` on the left | ![Firefox Searching](/handbook/tools-and-tips/images/ff_2_select_bookmarks_menu.png) |
-| 3. Click on the gear icon and select `New Bookmark...` | ![Firefox Searching](/handbook/tools-and-tips/images/ff_3_new_bookmark.png) |
-| 4. In the new popup dialog, enter the following then click `Add`: <br> a. `Search GitLab handbook` in *Name* <br> b. `https://handbook.gitlab.com/handbook/?search=%s` in *Location* <br> c. `hb` in *Keyword* | ![Firefox Searching](/handbook/tools-and-tips/images/ff_4_bookmark_details.png) |
+| 1. Click on `Bookmarks` on the menu bar, then click `Show All Bookmarks` | ![Firefox Searching](/images/tools-and-tips/ff_1_library_menu.png) |
+| 2. Select `Bookmarks Menu` on the left | ![Firefox Searching](/images/tools-and-tips/ff_2_select_bookmarks_menu.png) |
+| 3. Click on the gear icon and select `New Bookmark...` | ![Firefox Searching](/images/tools-and-tips/ff_3_new_bookmark.png) |
+| 4. In the new popup dialog, enter the following then click `Add`: <br> a. `Search GitLab documentation` in *Name* <br> b. `https://docs.gitlab.com/search/?q=%s` in *Location* <br> c. `hb` in *Keyword* |  |
 
-To test this, open a new tab and in the address bar type `hb iteration` and press enter.
-The GitLab handbook page should load with the search results for `iteration` showing.
+To test this, open a new tab and in the address bar type `gd merge requests` and press enter.
+The GitLab documentation search results page should load with the search results for `merge requests` showing.
 
 #### Import keyword searches in Firefox
 
@@ -75,11 +81,11 @@ The steps below show you how to import the keyword searches described below in [
 | Step | Image |
 |---|---|
 | 1. Download the [keyword search Firefox bookmarks file](/handbook/tools-and-tips/searching/gitlab-keyword-search-firefox-bookmarks/) | |
-| 2. Go to the Bookmarks window, click on the import-export icon, then click on `Import Bookmarks from HTML...` | ![Firefox Import Bookmark](/handbook/tools-and-tips/images/ff_import_bookmarks.png) |
+| 2. Go to the Bookmarks window, click on the import-export icon, then click on `Import Bookmarks from HTML...` | ![Firefox Import Bookmark](/images/tools-and-tips/ff_import_bookmarks.png) |
 | 3. In the new popup dialog, select the file you downloaded in step 1 to import the keyword searches into your Firefox bookmarks | |
 
-To test this, open a new tab and in the address bar type `hb iteration` and press enter.
-The GitLab handbook page should load with the search results for `iteration` showing.
+To test this, open a new tab and in the address bar type `gd merge requests` and press enter.
+The GitLab documentation search results page should load with the search results for `merge requests` showing.
 
 ### Examples of keyword search URLs
 
@@ -88,8 +94,9 @@ Instructions for adding keyword searches in Chrome and Firefox can be found abov
 
 | Action | Keyword example | Keyword search URL |
 | --- | --- | --- |
-| Search GitLab handbook | gh | ***Google search:*** `https://www.google.com/search?q=(site:about.gitlab.com OR site:handbook.gitlab.com) %s` <br><br> ***GitLab search (about.gitlab.com):*** `https://about.gitlab.com/#stq=%s` <br><br> ***GitLab search (handbook.gitlab.com):*** `https://handbook.gitlab.com/?search=%s` |
-|Search GitLab inhouse - internal handbook | gi | `https://internal.gitlab.com/handbook/?search=%s` |
+| Search GitLab handbook | gh | ***Google search:*** `https://www.google.com/search?q=(site:handbook.gitlab.com) %s` |
+| Search GitLab website | gw | ***Google search:*** `https://www.google.com/search?q=(site:about.gitlab.com) %s` <br><br> ***GitLab search (about.gitlab.com):*** `https://about.gitlab.com/#stq=%s` |
+| Search GitLab inhouse - internal handbook | gi | `https://internal.gitlab.com/handbook/?search=%s` |
 | Search GitLab docs | gd | `https://docs.gitlab.com/search/?q=%s` |
 | Search GitLab docs, handbook and forum | gl | `https://google.com/search?q=site:*.gitlab.com %s` |
 | Search GitLab issues | gi | ***GitLab.org project***: `https://gitlab.com/search?search=%s&group_id=9970&project_id=278964&scope=issues` <br><br> ***GitLab.com project***: `https://gitlab.com/search?search=%s&group_id=6543&project_id=7764&scope=issues` |
@@ -100,7 +107,7 @@ Instructions for adding keyword searches in Chrome and Firefox can be found abov
 | Go to specific MR | mr | ***GitLab.org project***: `https://gitlab.com/gitlab-org/gitlab/merge_requests/%s` <br><br> ***GitLab.com project***: `https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/%s` |
 | Search open issues by author | iauthor | ***GitLab.org project***: `https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&author_username=%s` <br><br> ***GitLab.com project***: `https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=%E2%9C%93&state=opened&author_username=%s` |
 | Search open MRs by author | mrauthor | ***GitLab.org project***: `https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&author_username=%s` <br><br> ***GitLab.com project***: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&author_username=%s` |
-| Search Google Docs files | dv | `https://drive.google.com/drive/search?q=%s` |
+| Search Google Drive files | dv | `https://drive.google.com/drive/search?q=%s` |
 | Search Wikipedia | w | `https://en.wikipedia.org/w/index.php?search=%s` |
 
 Keyword search URLs have a `%s` in the URL to indicate where your search query goes.
@@ -118,8 +125,8 @@ If you prefer to search by selecting a search engine in the address bar instead 
 | Step | Image |
 |---|---|
 | 1. Install the [Add custom search engine extension](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/) | |
-| 2. Once installed, click the addon icon in the toolbar or click "Preferences" from the addon manager | ![Add custom search engine extension](/handbook/tools-and-tips/images/1_add_search_engine_firefox.png) |
-| 3. Enter the following then click `Add custom search engine`: <br> a. `GitLab handbook` in *Name* <br> b. `https://handbook.gitlab.com/?search=%s` in *Search URL* <br> c. `https://about.gitlab.com/ico/favicon.ico` in *Icon* | ![Search engine form](/handbook/tools-and-tips/images/2_add_search_engine_firefox.png) |
+| 2. Once installed, click the addon icon in the toolbar or click "Preferences" from the addon manager | ![Add custom search engine extension](/images/tools-and-tips/1_add_search_engine_firefox.png) |
+| 3. Enter the following then click `Add custom search engine`: <br> a. `GitLab handbook` in *Name* <br> b. `https://handbook.gitlab.com/?search=%s` in *Search URL* <br> c. `https://about.gitlab.com/ico/favicon.ico` in *Icon* | ![Search engine form](/images/tools-and-tips/2_add_search_engine_firefox.png) |
 
 To test this, go to a new tab, enter some text into the address bar, and you will now see an icon for your new search engine at the bottom of the suggestions list.
 
@@ -137,8 +144,8 @@ Link to add keyword search to Alfred
 - [author](alfred://customsearch/GitLab%20Issues%20Author/author/utf8/nospace/https%3A%2F%2Fgitlab.com%2Fdashboard%2Fissues%3Fscope%3Dall%26utf8%3D%25E2%259C%2593%26state%3Dopened%26author_username%3D%7Bquery%7D)
 - [issue](alfred://customsearch/GitLab%20issue/issue/utf8/nospace/https%3A%2F%2Fgitlab.com%2Fgitlab-org%2Fgitlab%2Fissues%2F%7Bquery%7D)
 
-You can add a favicon by dragging and dropping the GitLab favicon ![favicon](/ico/favicon-32x32.png) to the Alfred custom search:
-![Alfred favicon](/handbook/tools-and-tips/images/AF_add_icon.png)
+You can add a favicon by dragging and dropping the GitLab favicon ![favicon](/images/ico/favicon-32x32.png) to the Alfred custom search:
+![Alfred favicon](/images/tools-and-tips/AF_add_icon.png)
 
 GitLab team member [Simon M.](https://gitlab.com/simon_mansfield) also recorded the following video to walk through the process of searching GitLab like a pro using Alfred and Firefox.
 
@@ -173,7 +180,7 @@ Now, you can use Raycast to search:
 
 Your search will open in your chosen browser.
 
-![An example of a Raycast search](/handbook/tools-and-tips/images/raycast_docs_search.png)
+![An example of a Raycast search](/images/tools-and-tips/raycast_docs_search.png)
 
 ## Searching recorded events using GitLab Unfiltered
 
@@ -194,7 +201,7 @@ To search for recorded events in [GitLab Unfiltered via our YouTube Channel](htt
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren M. walks through a brief tutorial on using Git file history and Git blame to track down a handbook change.*
 
-You can search repositories in GitLab for changes using [Git file History](https://docs.gitlab.com/ee/user/project/repository/git_history.html) and [Git blames](https://docs.gitlab.com/ee/user/project/repository/git_blame.html).
+You can search repositories in GitLab for changes using [Git file History](https://docs.gitlab.com/ee/user/project/repository/files/git_history.html) and [Git blames](https://docs.gitlab.com/ee/user/project/repository/files/git_blame.html).
 
 Git file History provides information about the commit history associated with a file, while a blame provides more information about every line in a file, including the last modified time, author, and commit hash.
 

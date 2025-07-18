@@ -7,7 +7,8 @@ description: This Hands-On Guide walks you through managing GitLab logs on a vir
 
 ## Objectives
 
-The objective of this lab is to guide you on managing your GitLab logs via the `gitlab-ctl` and `sed` commands. For more information on GitLab logging, click [here](https://docs.gitlab.com/ee/administration/logs/).
+The objective of this lab is to guide you on managing your GitLab logs by using the `gitlab-ctl` and `sed` commands. For more information, see the
+[GitLab logging documentation](https://docs.gitlab.com/administration/logs/).
 
 ### Task A. View active logs
 

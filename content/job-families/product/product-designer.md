@@ -22,13 +22,13 @@ A Product Designer reports to a [Product Design Manager](/job-families/product/p
 
 - Ability to use GitLab.
 - Several years professional experience designing for complex products.
-- Visual and interaction skills with experience designing responsively.
+- Demonstration of design craft through visual and interaction skills, attention to detail, and commitment to creating high-quality work.
 - Thoughtful decision making motivated by data and research.
 - Familiarity with accessibility best practices and WCAG guidelines.
 - Comfort working in highly agile, iterative product development process.
 - Design systems knowledge, understanding, and practice.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- Strong [bias for action](/handbook/values/#bias-for-action) and ability to develop daily priorities to achieve goals ([manager of one](/handbook/values/#managers-of-one)).
+- Strong [bias for action](/handbook/values/#operate-with-a-bias-for-action) and ability to develop daily priorities to achieve goals ([manager of one](/handbook/values/#managers-of-one)).
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
 - Working knowledge of HTML/CSS, and familiarity with JavaScript.
 - General knowledge of Git (for example, branching, push/pulling, committing, squashing) and DevOps (for example, pipelines, deployments, security) flows.
@@ -103,16 +103,17 @@ The Staff Product Designer is a [grade 8](/handbook/total-rewards/compensation/c
 Everything in the Senior Product Designer role, plus:
 
 - **Product knowledge:** Have deep knowledge of the technology and capabilities in your [group](/handbook/product/categories/#hierarchy). Proactively learn and have working knowledge of _the end-to-end product._
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. _Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs._
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. _Collaborate on [problem validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs._
 - **Deliverables:** Create tactical deliverables for your group that solve user problems. Define strategic outputs that connect vision to product outcomes. _Shape the deliverables with a focus on long-term vision and execution._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. _Exemplify frequent and effective asynchronous communication._
 - **Iteration:** Practice design iteration and [break down designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence. [Review merge requests](/handbook/product/ux/product-designer/mr-reviews/) with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices _across the company._
+- **Craft:** Demonstrate mastery in design execution through detail, refinement, and implementation. Set quality standards and provide constructive critiques that elevate other designers' work.
 - **Thought leadership:** Promote best practices and support others in advocating for them.
 - **Recruiting:** Evaluate design portfolios, and interview product design and product management candidates. _Help identify top product design talent._
 - **Cross-stage collaboration:** Note dependencies and advocate for cross-stage collaboration when needed to promote a holistic UX. _Help others navigate the organization and consider overlaps._
 - **Mentoring:** Provide impactful feedback to UX department members and mentor them throughout product development.
 - **Vision:** Collaborate with your group on a user-centric vision and long-term roadmap that is connected to company goals.
-- **UX process:** Expose operational needs (for example, in [design](/handbook/product-development-flow/#validation-phase-3-design) and [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation)), and address them through experimentation and change management.
+- **UX process:** Expose operational needs (for example, in [design](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design) and [solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation)), and address them through experimentation and change management.
 - **Open source:** Create a welcoming community for design contributors and drive engagement.
 
 #### Staff Requirements
@@ -132,10 +133,11 @@ The Principal Product Designer is a [grade 9](/handbook/total-rewards/compensati
 Everything in the Staff Product Designer role, plus:
 
 - **Product knowledge:** Have deep knowledge of the technology and capabilities in your _projects_. Proactively learn and have working knowledge of the end-to-end product.
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. Collaborate on [problem validation](/handbook/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs. _Help connect research efforts, and cultivate accountability and learning through research._
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. Collaborate on [problem validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs. _Help connect research efforts, and cultivate accountability and learning through research._
 - **Deliverables:** Create tactical deliverables for your _project_ that solve user problems. Define strategic outputs that connect vision to product outcomes. Shape the deliverables with a focus on long-term vision and execution. _Reduce the scope, complexity, and ambiguity of projects to a more manageable state._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. Exemplify frequent and effective asynchronous communication. _Unblock conversations and encourage collaboration across teams._
 - **Iteration:** Practice design iteration and break down designs to fit the release cadence of your _projects_. Review merge requests with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices across the company. _Help others break down solutions into actionable steps, aligned with long-term goals._
+- **Craft:** Drive design proficiency across teams through innovation and strategic vision. Model the application of design criteria and principles while creating frameworks that embed design quality throughout the organization.
 - **Deferred UX:** Identify, track, and make recommendations to address [deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) in your _projects_. Mitigate the risk for deferred UX with [MVCs](/handbook/product/product-principles/#the-minimal-valuable-change-mvc). Help prioritize such issues in your _projects_.
 - **Thought leadership:** Promote best practices and support others in advocating for them. _Bring a UX voice to complex scenarios and build trust with other disciplines. Enable designers to engage on large-scale initiatives._
 - **Recruiting:** Evaluate design portfolios, and interview product design and product management candidates. Help identify top product design talent. _Coach others to find and interview design candidates. Help attract and retain a world-class product design team._
@@ -155,7 +157,7 @@ A Principal Product Designer is expected to meet the [base requirements](#base-r
 
 In addition to embedding in [groups](/handbook/product/categories/#hierarchy) that focus on a specific product area, we also have a Foundations team that works on building a cohesive and consistent user experience across platform experiences like navigation, both visually and functionally. You'll be responsible for leading the direction of the experience design, visual style, and technical tooling of the GitLab product. You'll act as a centralized resource, helping to triage large-scale experience problems as the need arises.
 
-You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), implementing our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams are designing and building products. A breakdown of the vision you'll be helping to deliver within the UX Foundation category can be found on our [product direction page](https://about.gitlab.com/direction/manage/foundations/).
+You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), implementing our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams are designing and building products. A breakdown of the vision you'll be helping to deliver within the UX Foundation category can be found on our [product direction page](https://about.gitlab.com/direction/foundations/personal_productivity/).
 
 ## UX Paper Cuts Specialty
 
@@ -203,7 +205,7 @@ Everything in the various levels of product designer roles, plus:
 
 Candidates for this position can expect the hiring process to follow the order below, although it can change depending on calendar availability. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who is conducting your interview, you can find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/interviewing/#screening-call) with a member of our hiring team. In this call, we will discuss your experience, understand what you are looking for in a product design role, talk about your work and approach to product design, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
+- Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with a member of our hiring team. In this call, we will discuss your experience, understand what you are looking for in a product design role, talk about your work and approach to product design, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
 - Next, if a candidate successfully passes the screening call, they will have two 1-hour interviews: One with a product designer and another with the hiring product design manager.
   - During these interviews you'll be asked several situational questions to help us learn how you have responded or would respond in certain scenarios.
   - You should be prepared to discuss your design and research process, details about how you collaborate, and how you approach your role.

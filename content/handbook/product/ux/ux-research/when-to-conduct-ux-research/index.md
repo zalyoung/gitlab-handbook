@@ -20,11 +20,11 @@ The British Design Council developed the [Double Diamond model](https://www.desi
 - Phase 1: Design the right thing
 - Phase 2: Design things right
 
-![Double-Diamond-Model](Double-Diamond-Model.png)
+![Double-Diamond-Model](/images/product/ux/ux-research/when-to-conduct-ux-research/Double-Diamond-Model.png)
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model))
 
-These two phases map to [GitLab's product development flow, specifically the Validation track](/handbook/product-development-flow/#workflow-summary), where "Phase 1: Design the right thing" equals "[Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)" and "Phase 2: Design things right" equals "[Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)".
+These two phases map to [GitLab's product development flow, specifically the Validation track](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary), where "Phase 1: Design the right thing" equals "[Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)" and "Phase 2: Design things right" equals "[Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)".
 
 - In theory, you should do research to fit wherever you are in the product development workflow. However, in practice, if you already have a solution in place, but haven't done any research, there's still time to learn from your users.
 - Conduct research often because you can improve the product many times over whenever research is utilized. The goals for any research will evolve as the product begins to take shape.
@@ -47,9 +47,9 @@ The goals of solution validation align with these goals: *"**High confidence in 
 
 ### Don't stop here - there's more UX Research to do
 
-Once the feature is released to users, it's important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the "Improve Phase" of GitLab's Development workflow, specifically the [Build track](/handbook/product-development-flow/#build-track), encapsulates.
+Once the feature is released to users, it's important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the "Improve Phase" of GitLab's Development workflow, specifically the [Build track](/handbook/product-development/how-we-work/product-development-flow/#build-track), encapsulates.
 
-![Product-Development-Workflow](Product-Development-Workflow.png)
+![Product-Development-Workflow](/images/product/ux/ux-research/when-to-conduct-ux-research/Product-Development-Workflow.png)
 
 Goals of the Improve Phase:
 
@@ -71,7 +71,7 @@ When considering the level of confidence you may have on a solution or any found
 Some questions to ask yourself to help gauge your level of confidence:
 
 - Can you demonstrate why you have a high level of confidence? (ex: This could be the result of a Solution Validation study, looking at past related research, etc. Mainly, you'll want to identify some concrete justification vs. a gut feeling. Referring to competitor solutions as a justification can be tempting, yet risky, as it's unclear to what extent competitors conducted research themselves to inform their solution.)
-- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
+- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/development/contributing/design/#checklist)?
 - Have you conducted a [UX Scorecard](/handbook/product/ux/ux-scorecards/)? If so, what was the outcome and what was done as a result of it?
 - Why do you think your design won't result in a negative user experience?
 

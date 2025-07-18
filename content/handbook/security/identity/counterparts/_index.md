@@ -33,7 +33,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - disla
   gitlab_saas_tag: '@gitlab-com/it/compliance'
   slack_channel: '#it_help'
-  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/it-compliance/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/it-compliance/'
   issue_tracker: 'https://gitlab.com/gitlab-com/business-technology/change-management/-/issues'
 - it_ops_leader:
   team_name: 'IT Ops Leadership'
@@ -57,7 +57,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - malkobaisy
   gitlab_saas_tag: '@gitlab-com/it/security @gitlab-com/it/engops'
   slack_channel: '#it_security_help'
-  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/it/security/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/security/corporate/'
   issue_tracker: 'https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues'
 - infra_platforms_leader:
   team_name: 'Infrastructure SaaS Platforms Leadership'
@@ -78,8 +78,8 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
   counterparts:
     - sabrams
   gitlab_saas_tag: '@sabrams'
-  slack_channel: '#g_infra_foundations'
-  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure/team/reliability/foundations.html'
+  slack_channel: '#g_foundations'
+  handbook_page: 'https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/production-engineering/foundations/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues'
 - infra_ops:
   team_name: 'Production Engineering Ops'
@@ -296,7 +296,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - mjozenazemian
     - sgillespie
   gitlab_saas_tag: '@gitlab-com/gl-security/security-operations/sirt'
-  slack_channel: '#security-department'
+  slack_channel: '#security-division'
   handbook_page: 'https://handbook.gitlab.com/handbook/security/security-operations/sirt/'
   issue_tracker: '/security'
 ```

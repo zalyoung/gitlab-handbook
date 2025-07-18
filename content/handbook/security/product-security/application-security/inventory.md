@@ -28,7 +28,7 @@ The following categories can be used to decorate the projects we want to monitor
 | `deploy` | Used to deploy GitLab.com |
 | `website` | Deployed to a website (URL will be required) |
 | `api/service` | |
-| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/data-classification-standard.html) |
+| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/standards/data-classification-standard/) |
 | `3rdparty` | Interaction with 3rd parties |
 | `demo/test/poc` | |
 | `temporary` | Temporary projects (should be removed at some point) |
@@ -41,35 +41,14 @@ The following categories can be used to decorate the projects we want to monitor
 | `tooling` | Engineering tooling  |
 | `container` | A Docker image is built |
 | `fork` | Fork of another project (on gitlab.com or somewhere else) |
-
-### Rules
-
-Rules define actions to take, based on the project categories. These actions are performed by the GitLab Inventory Builder and are currently hard coded. We plan to make them dynamic in the future.
-
-| Categories | Actions |
-| -------- | ----------- |
-|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/ce/api/protected_branches.html), [Approvals](https://docs.gitlab.com/ee/api/merge_request_approvals.html), [Approval Rules](https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules) |
-| `product`, `library`, `red_data` | Download [CI/CD configuration](https://docs.gitlab.com/ee/api/lint.html) |
-| `product`, `secrets_monitoring`  | Download [Vulnerabilities]     |
+| `secrets_monitoring` | Monitor secrets in groups (see this [confidential issue](https://gitlab.com/gitlab-com/gl-security/product-security/gib/-/issues/64)) |
+| `security_policy_project` | [GitLab security policy projects](https://docs.gitlab.com/user/application_security/policies/#security-policy-project) |
 
 ### Policies
 
-| Categories | Policies |
-| -------- | ----------- |
-| `red_data`, `product`, `library` | [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/), and [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
-| `red_data`, `product`, `library` | *Default branch* must be `protected` (Allowed to merge: `Maintainers`, Allowed to push: `No one`) |
-| `use_pat`, `website`+`external` | [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) and [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
-| `website`+`external` + `yellow/orange/red_data` | [DAST](https://docs.gitlab.com/ee/user/application_security/dast/) must be enabled. Overall SSL grade must be 'A' or 'A+' |
-| `product` + `container` | [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) must be enabled |
-| `keep_private` | Project `visibility` must be `private` |
-| `docs` | [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
-| `marked_for_deletion` | Project will be deleted |
-| `deprecated` | Project will be archived |
-| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/user/public_access.html#internal-projects-and-groups) visibility |
-| all | *Default branch* must be `protected` |
-| all | [`SECRET_DETECTION_HISTORIC_SCAN`](https://docs.gitlab.com/ee/user/application_security/secret_detection/#full-history-secret-detection) must not be set in the CI/CD configuration |
+We apply several policies depending on the categories defined above. These policies, which include security requirements, are available [here](https://gitlab.com/gitlab-com/gl-security/product-security/gib/-/tree/main/policies) and in our (internal only) [inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory).
 
-These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
+They are used are controls for our [GitLab Projects Baseline Requirements](/handbook/security/standards/gitlab_projects_baseline_requirements/).
 
 ### How to categorize projects
 

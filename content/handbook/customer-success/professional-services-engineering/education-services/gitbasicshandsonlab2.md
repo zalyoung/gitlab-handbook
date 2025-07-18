@@ -41,14 +41,14 @@ Please take time to understand any code that you are asked to copy and paste in 
 2. Create a public and private key pair by running this command in your terminal or PowerShell.
 
    ```bash
-   ssh-keygen
+   ssh-keygen -t ed25519
    ```
 
-3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press <kbd>Enter</kbd> to accept the default key location and name.
+3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`. Press **Enter** to accept the default key location and name.
 
    > If preferred, you can also provide a custom file path and key name for this step.
 
-4. The second prompt will ask you to set a password for the key file. Press <kbd>Enter</kbd> to use a blank passphrase for the local key file.
+4. The second prompt will ask you to set a password for the key file. Press **Enter** to use a blank passphrase for the local key file.
 
    > To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
 
@@ -77,14 +77,14 @@ Please take time to understand any code that you are asked to copy and paste in 
 
    > By default, the key will be saved in the `~/.ssh` directory. If you saved the key to a different directory, you will need to `cd` to that directory instead.
 
-1. You should see two key files: a public key (ex. `id_rsa.pub`) and a private key (ex. `id_rsa`). The public key ends with `.pub` and is what you need to share with GitLab.
+1. You should see two key files: a public key (ex. `id_ed25519.pub`) and a private key (ex. `id_ed25519`). The public key ends with `.pub` and is what you need to share with GitLab.
 
    > **Security Warning:** You should never share your private key or paste it into any website form field. Only your public key should be shared.
 
-1. Display the contents of your public key by using the `cat id_rsa.pub` command as seen below.
+1. Display the contents of your public key by using the command as seen below.
 
    ```bash
-   cat id_rsa.pub
+   cat id_ed25519.pub
    ```
 
    > If you used a different file name, you command will be `cat <filename>.pub`
@@ -125,11 +125,11 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 If the command completes with a welcome message instead of an error, your SSH key is set up correctly.
 
-> If you receive an error stating the connection is refused or the command does not work, this may be becuase your network is blocking connections via SSH. If that is the case, continue onto the next task.
+> If you receive an error stating the connection is refused or the command does not work, this may be because your network is blocking connections via SSH. If that is the case, continue onto the next task.
 
 ## Task D. Clone a GitLab project repository to your local computer
 
-> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
+> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/topics/git/commands.html#clone-a-repository).
 
 1. Navigate back to the `Top Level` project that you created in Lab 1.
 
@@ -146,7 +146,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
    In Windows:
 
-   ```bash
+   ```cmd
    mkdir ~\training
    cd ~\training
    ```
@@ -158,6 +158,8 @@ If the command completes with a welcome message instead of an error, your SSH ke
    ```
 
 > If you receive an error stating that the connection has timed out or has been refused, it may be because your network blocks connections on port 22 due to a firewall. If this happens, repeat the steps in Task D, but use the **Clone with HTTPS** selection in the **Code** button instead.
+
+On a Mac, to locate your cloned project on your machine, you may need to navigate to the home directory. From Finder, click Go > Go to Folder > search by machine username to open your home directory. Or, in Finder, hold down the **Option** key (Alt) and select your machine username from the menu that appears in the bottom left.
 
 1. Move into the repository you just cloned via the `cd` command. All files in this directory will be tracked by Git, and any Git commands you run in this lab should be run from this directory.
 
@@ -327,6 +329,8 @@ You will now see that the `README` file has a green font color. This indicates t
    a third line added on the remote copy of temporary_branch
    ```
 
+1. Click the **Commit Changes** button on the upper-right side of the page.
+
 1. Enter an appropriate commit message.
 
 1. Set the target branch to **temporary_branch**.
@@ -363,7 +367,7 @@ You will see that your branch is one commit behind in the `git status` output.
    git pull
    ```
 
-1. View the updated contents of the file by typing in the `cat README.md` command. You should see the fourth line that you added in the GitLab Web IDE.
+1. View the updated contents of the file by typing in the `cat README.md` command. You should see the third line that you added in the GitLab Web IDE.
 
    ```bash
    cat README.md

@@ -128,7 +128,7 @@ This requires both external and internal LBs for all front-end-services.
 ### Monitoring
 
 - Dependencies: [Eliminate X% Chef dependencies in Infra by moving infra away from Chef](zonal.md#eliminate-x-chef-dependencies-in-infra-by-moving-infra-away-from-chef) (migrate Prometheus infra to Kubernetes)
-- Teams: Scalability:Observability, Ops, Foundations
+- Teams: Observability, Ops, Foundations
 
 Setup an alternate ops Kubernetes cluster in a different region that is scaled down to zero replicas.
 

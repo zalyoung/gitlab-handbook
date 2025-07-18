@@ -184,12 +184,12 @@ For more details on the engineering career ladders, please review the [engineeri
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 
 For Individual Contributors:
 
 - As part of the application, candidates are asked to complete a short technical questionnaire, with a possibility of additional technical questions being asked if needed after the application is submitted.
-- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers
 - Next, candidates will be invited to schedule a 60 minute interview with one of our Backend Engineering Managers
 - Next, candidates will be invited to schedule a 60 minute interview with our Director of Engineering
@@ -198,7 +198,7 @@ For Individual Contributors:
 
 For Managers:
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
 - Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team

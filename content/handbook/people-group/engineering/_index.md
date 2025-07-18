@@ -21,9 +21,8 @@ Quick navigation to some of our other pages.
 
 | **Page** | **Description** |
 |---|---|
-| [Career Mobility](/handbook/people-group/engineering/career-mobility) | Our automation flow on how we streamile on processes. |
+| [Organization Change](/handbook/people-group/engineering/organization-change) | Our automation flow on how we streamile on processes. |
 | [Employment Issues](/handbook/people-group/engineering/employment-issues) | Information regarding our onboarding and offboarding issue automations. |
-| [GH <=> BHR Sync](/handbook/people-group/engineering/gh-bhr-sync) | Our automation for syncing Greenhouse candidates to our HRIS system. |
 | [Nominator Bot](/handbook/people-group/engineering/nominatorbot) | Information regarding our custom Slack app, how to use it, FAQ's, and engineer guides. |
 | [Offboarding](/handbook/people-group/engineering/offboarding) | Our `offboarding` automation flow and everything you may need to know regarding this. |
 | [Onboarding](/handbook/people-group/engineering/onboarding) | Our `onboarding` automation flow and everything you may need to know regarding this. |
@@ -47,7 +46,6 @@ If you are looking to bring the People Group Engineering team into a discussion/
 If you want to report bugs about existing integrations, you can use any of the following templates:
 
 - [Bug with a /pops command](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/issues/new?issuable_template=bug_pops_command)
-- [Bug with the Greenhouse <> BambooHR sync](https://gitlab.com/gitlab-com/people-group/peopleops-eng/conservatory/-/issues/new?issuable_template=bug_with_sync)
 - [Bug with Nominations](https://gitlab.com/gitlab-com/people-group/peopleops-eng/nominatorbot/-/issues/new?issuable_template=general_bug)
 
 #### Urgent attention
@@ -83,7 +81,7 @@ Ops Engineer always adds the reason why an issue is moved to blocked.
 
 #### Triaging new tickets
 
-We have a [performance indicator]({{< ref "people-success-performance-indicators#people-group-engineering-new-requests-are-triaged" >}})
+We have a [performance indicator](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-new-requests-are-triaged)
 set to having new tickets being triaged within 7 working days. Everyone in the People Engineering team can triage new tickets. What we do when a new ticket comes in:
 
 - check if everything in the template is filled in, if not ask the author to fill it in and add the label `Workflow::Waiting`
@@ -94,7 +92,7 @@ set to having new tickets being triaged within 7 working days. Everyone in the P
 - determine if it is a new project `~PopsEng::New Project` or a bug `~PopsEng::Bug` or an addition to an existing project or integration `~PopsEng::Addition`
 - when we have all the information needed to start working on the ticket, label it with either `Workflow::Ready for Development` or `Workflow::Next Up`
 
-Note: for bugs, we have another [performance indicator]({{< ref "people-success-performance-indicators#people-group-engineering-bug-to-first-action" >}})
+Note: for bugs, we have another [performance indicator](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-bug-to-first-action)
 that requires us to take action within one working day. This is because often a bug in any of the integrations would lead to inefficiences and manual work
 for the People Group.
 
@@ -147,17 +145,16 @@ We've build several automations and tools to support our People Group. In the fo
 
 ### Team member's employment
 
-- [Greenhouse <> BambooHR Sync]({{< ref "gh-bhr-sync" >}})
 - [Onboarding Automations](/handbook/people-group/engineering/onboarding)
-- [Career Mobility Automations](/handbook/people-group/engineering/career-mobility)
+- [Organization Change Automations](/handbook/people-group/engineering/organization-change)
 - [Offboarding Automations](/handbook/people-group/engineering/offboarding)
 
 ### Supportive tools for People Group
 
-- [Nominator Bot]({{< ref "nominatorbot" >}})
+- [Nominator Bot](/handbook/people-group/engineering/nominatorbot/)
 - [Compensation Calculator](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/)
 - [Inclusive Language Check on Job Families](/handbook/hiring/job-families/#inclusive-language-check)
-- [People Ops Internal Handbook]({{< ref "pops-internal-handbook" >}})
+- [People Ops Internal Handbook](/handbook/people-group/engineering/pops-internal-handbook/)
 
 ### Uncategorized
 

@@ -18,19 +18,17 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 | Role | Name |
 |--|--|
 | Senior Product Designer | [Tina Lise Ng](https://gitlab.com/Tinaliseng) |
-| Senior Product Designer |[Trevor Storey](https://gitlab.comtrevor-storey) |
-| Product Design | [Carrie Tsang](https://gitlab.com/ctsang-ext) |
-| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
+| Senior Product Designer |[Trevor Storey](https://gitlab.com/trevor-storey) |
+| Product Designer |[Sylvie Le](https://gitlab.com/s.le) |
 | Frontend Engineer | [Javi Garcia](https://gitlab.com/jgarc)|
+| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
 | Senior Frontend Engineer | [Laura Duggan](https://gitlab.com/lduggan) |
 | Senior Frontend Engineer | [Marg Mañunga](https://gitlab.com/mmanunga-ext) |
-| Frontend Engineer | [Miguel Duque](https://gitlab.com/mduque-ext) |
-| Senior Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) |
-| Fullstack Engineer | [Miracle Banks](https://gitlab.com/miraclebanks) |
+| Staff Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) |
 | Senior Fullstack Engineer | [John Arias](https://gitlab.com/jariasc-ext) |
 | Senior Fullstack Engineer | [Mateo Penagos](https://gitlab.com/mpenagos-ext) |
-| Senior Product Manager | [Filza Qureshi](https://gitlab.com/fqureshi)|
-| Engineering Manager | [Lauren Barker](https://gitlab.com/laurenbarker) |
+| Engineering Manager | [Chris Frazer](https://gitlab.com/de_fraz) |
+| Director | [Filza Qureshi](https://gitlab.com/fqureshi)|
 
 ## Scope
 
@@ -44,7 +42,7 @@ Our team leads the GitLab's digital marketing platform, or simply the "Marketing
 
 **Our team strengths & core capabilities:**
 
-- Engineering and UX desing for about.gitlab.com
+- Engineering and UX design for about.gitlab.com
 - Cross collaboration
 - Speed and delivery
 - Customer journey maps
@@ -62,7 +60,7 @@ Our team leads the GitLab's digital marketing platform, or simply the "Marketing
 
 - [Handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 - [Internal handbook](https://gitlab.com/gitlab-com/content-sites/internal-handbook)
-- Content copwriting or edits
+- Content copywriting or edits
 - Cloudflare server infrastructure
 
 **Teams we work closely with:**
@@ -70,13 +68,13 @@ Our team leads the GitLab's digital marketing platform, or simply the "Marketing
 - SEO
 - Analytics
 - Product Marketing
-- Content Moarketing
+- Content Marketing
 - Brand Strategy
 - Marketing Ops
 - Blog
 - Globalization
 - Events
-- Competitve Intelligence
+- Competitive Intelligence
 
 ## OKRs
 
@@ -109,7 +107,7 @@ The Digital Experience team uses the following labels for tracking merge request
 
 | What & Current Issues | Label                   |
 | ----------    | -----------             |
-| [Work to be triaged](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Atriage&first_page_size=100)| `~"dex-status::traige"`   |
+| [Work to be triaged](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Atriage&first_page_size=100)| `~"dex-status::triage"`   |
 | [Refinement on issue is needed](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Arefinement&first_page_size=100)| `~"dex-status::refinement"`   |
 | [Issues in the backlog](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Abacklog&first_page_size=100) | `~"dex-status::backlog"`   |
 | [Issues to be worked on](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Atodo&first_page_size=100)| `~"dex-status::to-do"`   |
@@ -117,7 +115,7 @@ The Digital Experience team uses the following labels for tracking merge request
 | [Work in review](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Areview&first_page_size=100)| `~"dex-status::review"`  |
 | [Unplanned work](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-unplanned&first_page_size=100)| `~"dex-unplanned"`  |
 | [Issue for Conversion team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Aconversion&first_page_size=100) |  `~"dex-group::conversion"` |
-| [Issue for Optmization team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Aoptimization&first_page_size=100) |  `~"dex-group::optimization"` |
+| [Issue for Optimization team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Aoptimization&first_page_size=100) |  `~"dex-group::optimization"` |
 | [Issue for product designer to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex%3A%3Aux&first_page_size=100) |  `~"dex::ux"` |
 | [Issue for engineer to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex%3A%3Aengineering&first_page_size=100) |  `~"dex::engineering"` |
 
@@ -160,7 +158,7 @@ Iteration planning is an event that kicks off the start of an iteration. The pur
 
 **What:**
 
-- Capcity Discussion
+- Capacity Discussion
 - Review Iteration Board
 
 ### Iteration Release: Retrospective and Feedback
@@ -192,7 +190,7 @@ The retrospective is an event held at the end of each quarter, used to discuss w
 
 ### Iteration Changelogs
 
-At the end of every iteration we run a scheduled pipeline job that generates a [changelog for the Buyer Expeirence repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/CHANGELOG.md). It shows all the chnages made to the project with semanitc commits.
+At the end of every iteration we run a scheduled pipeline job that generates a [changelog for the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/CHANGELOG.md). It shows all the changes made to the project with semantic commits.
 
 ## **FAQ:**
 
@@ -206,7 +204,7 @@ An iteration is 2 weeks, running from Monday to the following Thursday.
 
 Iteration boards are created at the [team level](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3804720?iteration_id=Current), and the individual level:
 
-[Digital Experience](https://gitlab.com/gitlab-com/marketing/digital-experience) > Issues - Boards > Then selecting an individual's name or group from the dropdown.
+[Digital Experience](https://gitlab.com/gitlab-com/marketing/digital-experience) > Issues - Boards > Then selecting an individual's name or group from the dropdown list.
 
 **What are the iteration boards used for?**
 
@@ -269,11 +267,11 @@ Each member of the Digital Experience team should be listed as a participant in 
 
 ## Production Change Lock (PCL)
 
-Similar to [the engineering department](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), we sometimes temporarily halt production changes to [the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) when team availability is reduced, or we expect atypical user behavior (such as during high-visibility public events).
+Similar to [the engineering department](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl), we sometimes temporarily halt production changes to [the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) when team availability is reduced, or we expect atypical user behavior (such as during high-visibility public events).
 
 Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called Production Change Lock (PCL). We are listing the events here so that teams are aware of the PCL periods.
 
-The following dates are currently scheduled PCLs. Times for the dates below begin at 09:00 UTC and end the next day at 09:00 UTC.
+The following dates are currently scheduled PCL periods. Times for the dates below begin at 09:00 UTC and end the next day at 09:00 UTC.
 
 | Dates | Reason |
 | --- | --- |
@@ -319,9 +317,9 @@ For any Digital Experience analytics request, please create an issue within the 
 4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
 5. Accept the invite and review any supplied material when you add it to your calendar.
 6. When joining the call, remember:
-    1. You're there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
-    2. Keep your camera on.
-    3. Have a notes doc prepared and take notes on your observations and insights.
+   1. You're there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
+   2. Keep your camera on.
+   3. Have a notes doc prepared and take notes on your observations and insights.
 7. After the call, review your notes, and synthesize and create action items.
 8. Send a thank you message to the Sales team members who hosted you.
 9. Once all shadows are completed, share your notes and insights with the team.
@@ -342,7 +340,7 @@ Whoever gets closest to the customer wins. With this in mind, the Digital Experi
 
 ### Slack Application
 
-We have created a Slack application called Dex Bot to notify our team about important CMS changes, read more about it [here](/handbook/marketing/digital-experience/dexbot/)
+We have created a Slack application called Dex Bot to notify our team about important CMS changes, [read more about it here](/handbook/marketing/digital-experience/dexbot/)
 
 ## GitLab Unfiltered Playlist
 
@@ -355,8 +353,8 @@ Watch our team in action on YouTube!
 ### Things we don't do
 
 1. **Content changes**. You can do these yourself using our CMS, Contentful:
-    1. [Here's a quick video](https://www.youtube.com/embed/6pdXijDzYkg?si=8JbdUBmzPHcWgzTk) on how to search for and edit existing content for the marketing site. For completely new pages, please fill out an [issue](/handbook/marketing/digital-experience/#issue-template-to-submit-an-idea-to-drive-our-business-goals)
-    1. Want to learn more about our Contentful CMS? [Here's the documentation](/handbook/marketing/digital-experience/contentful-cms)
+   1. [Here's a quick video](https://www.youtube.com/embed/6pdXijDzYkg?si=8JbdUBmzPHcWgzTk) on how to search for and edit existing content for the marketing site. For completely new pages, please fill out an [issue](/handbook/marketing/digital-experience/#issue-template-to-submit-an-idea-to-drive-our-business-goals)
+   1. Want to learn more about our Contentful CMS? [Here's the documentation](/handbook/marketing/digital-experience/contentful-cms)
 2. **Create content**. You can collaborate with our excellent [Global Content team](/handbook/marketing/brand-and-product-marketing/content/) for these needs.
 3. **Create branded assets, custom graphics, illustrations**. Our [Brand design team](/handbook/marketing/brand-and-product-marketing/design/) is so good at this, you definitely want their expertise.
 
@@ -377,8 +375,6 @@ We love collaborating on work that drives our North Star and supporting metrics.
     <li>@lduggan</li>
     <li>@mpenagos-ext</li>
     <li>@meganfilo</li>
-    <li>@mpreuss</li>
-    <li>@miraclebanks</li>
     <li>@ndubord</li>
 </details>
 
@@ -390,7 +386,7 @@ From the repositories we own, the [Buyer Experience](https://gitlab.com/gitlab-c
 - [BE Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/scripts/deploy).
 - [GitLab Blog Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/blob/main/scripts/deploy).
 
-![Mermaid diagram](Dex-pipeline.png)
+![Mermaid diagram](/images/marketing/digital-experience/Dex-pipeline.png)
 
 To maintain our bucket clean, we run a scheduled pipeline with a delete flag in these repositories, which deletes outdated files from the cloud bucket (such as pages removed from the marketing site and old JS bundles).
 

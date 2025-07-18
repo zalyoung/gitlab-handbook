@@ -17,7 +17,7 @@ This section of the handbook is a collection of processes that a required to be 
 Documentation on how to make changes to stages, groups, and categories, as well as what approvals are required, can be found in our [website handbook page](/handbook/marketing/digital-experience/).
 
 As GitLab grows we will need to create new groups, stages, and categories. During this transition period
-we need to [globally optimize](/handbook/values/#global-optimization), and ensure that important issues are not blocked during the creation of a new group.
+we need to [globally optimize](/handbook/values/#efficiency-for-the-right-group), and ensure that important issues are not blocked during the creation of a new group.
 
 There are three common scenarios which may encounter these transition periods:
 
@@ -96,22 +96,22 @@ When the categories change, we should:
 
 #### Adding a new Stage
 
-When GitLab decides to address additional needs within the single application, a new Stage may need to be created. For example, `Govern` may be created to
+When GitLab decides to address additional needs within the single application, a new Stage may need to be created. For example, `Software Supply Chain Security` may be created to
 address additional needs beyond what `Secure` focuses on.
 
 When a new Stage is added, and its Group has yet to be formed, we should:
 
-1. Ensure all issues for the new Stage are assigned with the Stage labels, like `devops::govern` and `Govern`
+1. Ensure all issues for the new Stage are assigned with the Stage labels, like `devops::software-supply-chain-security` and `Software Supply Chain Security`.
 1. Create a "Label change" issue in [Triage Ops](https://gitlab.com/gitlab-org/quality/triage-ops) listing affected label to have the change reflected retroactively in Engineering Dashboards.
 1. Identify an existing Group, like `Secure`, which will be initially responsible for the new Stage
-1. The existing Group will prioritize across a common backlog of both Stages, in this example `devops::govern` and `devops::secure`
+1. The existing Group will prioritize across a common backlog of both Stages, in this example `devops::software-supply-chain-security` and `devops::secure`
 1. Update `categories.yml` and `stages.yml`, listing the new Stage with the members of the existing responsible Group. Update `_categories.erb` with the member name, if necessary.
 
 Once the first PM or EM is hired, a new Group for the Stage should be formed:
 
 1. The other PM/EM's will need to continue working across both groups. For example if a backend EM is hired, the frontend EM and PM will continue to work across both groups until additional hires are made.
 1. EM's and engineers should work together to staff the new Group, like `govern`. Each Group should have at least two backend engineers.
-1. Now that the new Group is formed, both Groups can focus on their respective Stages. In this case, `Secure` on Secure and `Govern` on Govern.
+1. Now that the new Group is formed, both Groups can focus on their respective Stages. In this case, `Secure` on Secure and `Software Supply Chain Security` on Software Supply Chain Security.
 1. Update `stages.yml` to reflect the new Group and its members. Update `_categories.erb` with the member name, if necessary.
 
 As the rest of the EM/PM's are hired, they take over that role for the new Group.
@@ -218,7 +218,7 @@ Once the resolution criteria have been satisfied:
 1. Host a retrospective to understand what about the rapid action process could be improved. (Note: there could also be other retros that happen related to more specific sub-efforts of the rapid action, this retro should act as a touch point to ensure collaboration + communication worked.)
 1. Consider making the epic public. If the problem is related to security, ask `@gitlab-com/gl-security/secops` to determine when the epic can be made public.
 1. Communicate the resolution to stakeholders.
-1. Consider awarding [discretionary bonuses](../../incentives/#sts=discretionary%20bonuses) to the people who stepped in to help resolve the problem.
+1. Consider awarding [discretionary bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses) to the people who stepped in to help resolve the problem.
 
 ### Borrow
 

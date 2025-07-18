@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 GitLab Pages is an important component of the GitLab product. It is mostly
 being used to serve static content, and has a limited set of well defined
@@ -55,7 +55,7 @@ described in this blueprint.
 
 In 2017, we experienced serious problems of scaling our NFS infrastructure. We
 even tried to replace NFS with
-[CephFS](https://docs.ceph.com/docs/master/cephfs/) - unsuccessfully.
+[CephFS](https://docs.ceph.com/en/latest/cephfs/) - unsuccessfully.
 
 Since that time it has become apparent that the cost of operations and
 maintenance of a NFS cluster is significant and that if we ever decide to

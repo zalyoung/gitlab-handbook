@@ -9,7 +9,7 @@ You can also [watch the sales enablement session](/handbook/customer-success/pro
 Please remember to follow the [Rules of Engagement for Selling Professional Services](/handbook/sales/selling-professional-services) with the following highlights:
 
 - Always start by finding out if your customer/prospect has a qualified and preferred professional services partner and start by engaging with that partner to explore a solution for your customer/prospect
-- **SMB** clients are welcome to purchase [SKU offerings](/services/catalog/). Please route all custom **SMB** needs through professional services Channel Partners as outlined in the [ROE](/handbook/sales/selling-professional-services). Please see additional detail in the FAQ below.
+- **SMB** clients are welcome to purchase [SKU offerings](https://about.gitlab.com/services/catalog/). Please route all custom **SMB** needs through professional services Channel Partners as outlined in the [ROE](/handbook/sales/selling-professional-services). Please see additional detail in the FAQ below.
 - Remember to update the SFDC Professional Services Opportunity to **"closed lost"** if for any reason after you have created a GitLab Professional Services Opportunity in SFDC the work is transitioned to being sold and delivered by a partner.  Then make sure that any Services Attach Registration that the partner registers for that work is attached to the relevant Licensing Opportunity in SFDC.  Please work with the Channel Account Manager for the partner (found in SFDC account for the partner) if you have any questions about this process.
 
 ## Workflow for GitLab selling Professional Services
@@ -17,23 +17,23 @@ Please remember to follow the [Rules of Engagement for Selling Professional Serv
 There are 4 main steps for selling GitLab Professional Services:
 
 1. Identify the right services needed.
-1. Create the GitLab Professional Services opportunity in SFDC.
+1. Create the GitLab Professional Services opportunity in SFDC (for non-SKUs).
 1. Generate the SOW / Service Description Docs
 1. Close the opportunity
 
 ```mermaid
 graph LR;
-  a["1. Identify services needed "]-->b["Create the PS opportunity in SFDC"];
-  b--custom-->c["Services Calculator"];
-  b--standard-->d["SKU Catalog in Zuora/SFDC"];
-  c-->e["3. Generate SOW or Service Desc. Docs"];
-  d-->e;
-  e-->f["4. Close the opportunity"];
+  a["Standard services?"]-- Yes ---b["Add SKU to quote"];
+  a-- No ---c["AE/SA auto creates PS epic with Create Services Opportunity button"];
+  c-->d["AE/SA works w/PS to finalize SOW"];
+  z["Send customer proposal"];
+  d-->z;
+  b-->z;
 ```
 
 ### Step 1: Identify the right service
 
-The SAE/ISR can find the general services the PS team offers on the [services page](/services/) or for more details specific SKU offerings, on the [full catalog](/services/catalog/). The SAE/ISR can pull the SA/CSM in for help selecting services needed based on customer requirements.
+The SAE/ISR can find the general services the PS team offers on the [full catalog](https://about.gitlab.com/professional-services/catalog/). The SAE/ISR can pull the SA/CSM in for help selecting services needed based on customer requirements.
 
 ### Step 2: Create the opportunity in SFDC
 
@@ -53,7 +53,7 @@ After following the above process steps, click `Generate PDF` to obtain an Order
 
 ### Custom-Scoped Services
 
-If the account team (SAE/ISR/SA/CSM) determines that the customer requires additional services outside of those listed in the [full catalog](/services/catalog/), they should initiate a scoping engagement with the PS team by opening the [Services Calculator](http://services-calculator.gitlab.io/) and submitting with the information required (customer name, GitLab username and email address). If you don't know the specifics, you can submit with the defaults. This will add an issue to the  PS Engagement Manager's queue to follow up with you on next steps. Check out the [detailed steps below](#custom-scoped-services-detailed-workflow) for custom-scoped engagements for more details.
+If the account team (SAE/ISR/SA/CSM) determines that the customer requires additional services outside of those listed in the [full catalog](https://about.gitlab.com/services/catalog/), they should initiate the creation of a PS epic and associated scoping issue by using the `Create Services Opportunity` button from a standard parent license or subscription opportunity to create a child PS Opportunity. This will add an issue to [your assigned PS Engagement Manager's](https://docs.google.com/document/d/1bdVOf3jL6aJF79qRMFLQsmMxIgQh5ZQ-WiLuNgsWB08/edit?tab=t.0#heading=h.qzgxpwqxme5) queue to follow up with you on next steps. Check out the [detailed steps below](#custom-scoped-services-detailed-workflow) for custom-scoped engagements for more details.
 
 ### Instructions for creating a Professional Services Quote
 
@@ -63,7 +63,7 @@ Deal Desk with require a quote for either Service option above.  How to create a
 
 For standard SKUs, the Order Form is generated directly from SFDC via the quote object [here](/handbook/sales/field-operations/sales-operations/deal-desk/#professional-services-quote). Upload the signed version of this document when you receive it from the customer.
 
-For custom scoped SOWs, once you receive the SOW from the Sr. Engagement Manager and have gotten it back from the customer with signature, attach it to the SOW doc to the SFDC PS opportunity.
+For custom scoped SOWs, once you receive the SOW from your assigned Engagement Manager and have gotten it back from the customer with signature, attach it to the SOW doc to the SFDC PS opportunity.
 
 ### Step 4: Close the opportunity
 
@@ -79,8 +79,8 @@ Remember to update the SFDC Professional Services Opportunity to **"closed lost"
 
 ### Custom-Scoped Services Detailed Workflow
 
-1. Account team: Create scoping issue from Services Calculator
-1. SA/CSM: Add initial scoping details to the issue around customer requirements
+1. Account team: Create a child PS Opportunity from a standard license or subscription parent opportunity using the `Create Services Opportunity` button.
+1. SA/CSM: Add initial scoping details to the automatically generated scoping issue around customer requirements
 1. SA/CSM & PS Engagement Manager: Conduct detailed scoping call with the customer
 1. PSEM: Develop Custom SoW and pricing for customer
 1. Account team: Deliver SoW to the customer, add to the Salesforce (SFDC) opportunity
@@ -110,7 +110,7 @@ Remember to update the SFDC Professional Services Opportunity to **"closed lost"
 
 ### Do we have set SKUs I can use?
 
-Yes - for off the shelf items, we have [SKUs](/services/catalog/).
+Yes - for off the shelf items, we have [SKUs](https://about.gitlab.com/services/catalog/).
 
 ### What are our daily or hourly rates?
 
@@ -120,11 +120,11 @@ In the future, we may have a daily rate or a daily rate for on-site support.  Ho
 
 ### What if the customer only wants training?
 
-If the customer is an EE customer, we can offer training.  However, training will need to be scoped out by the Customer Success department before quoting a price.  The account executive will also be required to provide the use case for the need for just training.
+If the customer is an EE customer, we can offer training. We have training SKUs also listed in the SKU link above. However, custom training will need to be scoped out by the Customer Success department before quoting a price. The account executive will also be required to provide the use case for the need for just training.
 
 Example use case might be:
 
-Customer is under license utilization and we need to prevent churn, help expand usage into additional groups and other business units.
+- Customer is under license utilization and we need to prevent churn, help expand usage into additional groups and other business units.
 
 ### What options exist for CE Customers?
 
@@ -134,6 +134,6 @@ If a customer is upgrading from CE to EE, Professional Services should be engage
 
 ### What options exist for SMB Customers?
 
-SMB customers often do not have sufficient budget for our professional services offerings, and we traditionally try to meet their needs through [channel partners](https://about.gitlab.com/partners/). If your client had budget for one or more of our [SKUs](/services/catalog/), you are welcome to attach the SKU and do not need to create a scoping issue with the professional services team.
+SMB customers often do not have sufficient budget for our professional services offerings, and we traditionally try to meet their needs through [channel partners](https://about.gitlab.com/partners/). If your client had budget for one or more of our [SKUs](https://about.gitlab.com/professional-services/catalog/), you are welcome to attach the SKU and do not need to create a scoping issue with the professional services team.
 
 Please note: Migrations to GitLab SaaS currently require the use of an admin token, which is unavailable to partners. Therefore, these migrations **must** run through our GitLab professional services team currently.

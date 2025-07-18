@@ -1,6 +1,6 @@
 ---
 title: "Retrieval Augmented Generation (RAG) for GitLab Duo on self-managed"
-status: proposed
+status: implemented
 creation-date: "2024-01-25"
 authors: [ "@shinya.maeda", "@mikolaj_wawrzyniak" ]
 coach: [ "@stanhu" ]
@@ -10,7 +10,7 @@ participating-stages: ["~devops::data stores", "~devops::create"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 RAG is an application architecture used to provide knowledge to a large language model that doesn't exist in its training set, so that it can use that knowledge to answer user questions. To learn more about RAG, see [RAG for GitLab](../gitlab_rag/).
 

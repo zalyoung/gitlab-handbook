@@ -4,10 +4,6 @@ title: "Country Sales Manager for Italy"
 
 ## Country Sales Manager for Italy
 
-The Country Sales Manager for Italy reports to an [Area Sales Manager](/job-families/sales/area-sales-manager/#area-sales-manager).
-
-## Country Sales Manager for Italy Job Grade
-
 The Country Sales Manager for Italy is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Country Sales Manager for Italy Responsibilities
@@ -66,15 +62,11 @@ The Country Sales Manager for Italy is a [grade 9](/handbook/total-rewards/compe
 
 - [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary)
 
-## Career Ladder
-
-The next steps in the Country Sales Manager for Italy job family is the [Area Sales Manager](/job-families/sales/area-sales-manager/#area-sales-manager) job family.
-
 ## Hiring Plan
 
 Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, candidates will be invited to interview with 2-5 team members
 - There may be a final executive interview

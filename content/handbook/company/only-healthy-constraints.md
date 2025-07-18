@@ -9,9 +9,7 @@ Many companies regress to the mean and slow down over time. While some changes a
 
 ## Importance of choosing to stay a startup
 
-A senior candidate once referenced the "Letter From Our CEO" in [GitLab's S-1](https://www.sec.gov/Archives/edgar/data/0001653482/000162828021018818/gitlab-sx1.htm) (filed with the Securities and Exchange Commission on September 17, 2021). In it GitLab's CEO, Sid Sijbrandij, documented some of the ways that GitLab plans to avoid the stagnation experienced by most early stage companies as they mature. The person said, "your letter is good at reminding everyone that you are still a startup and need to retain that mindset. It's super hard, as you know. When I reflect upon all the amazing things I experienced at [Company X], it is a poorly managed company. The systems (legal, procurement, security) that grow with success are also designed to manage the downside. I see the same thing here at [Company Y]. I'm fighting to re-create the challenger mindset to reflect our market position outside of virtualization and networking. Cruft everywhere. You have an opportunity to minimize this as you scale."
-
-We try to avoid the downside of maturation, because this better enables us to achieve results and [mitigate many of our concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). It also helps us to dodge many of the [coordination headwinds](https://komoroske.com/slime-mold/) that often plague more established companies.
+We try to avoid the downside of maturation, because this better enables us to achieve results and [mitigate many of our concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). It also helps us to dodge many of the [coordination headwinds](https://komoroske.com/slime-mold/) that often plague more established companies. See the [Still a startup page](/handbook/company/still-a-startup/) for more.
 
 ## Resisting unhealthy constraints
 
@@ -45,7 +43,7 @@ We try to avoid the downside of maturation, because this better enables us to ac
         1. To what extent do Finance/Legal/People/Security help you to do things more quickly?
 1. Propose to stop a project or initiative if you feel it is no longer providing value
 1. Suggest ways to improve a project or initiatives efficiency if it is [inefficient](/handbook/values/#efficiency)
-1. "Because we've always done it" is not a valid answer when someone challenges a decision or direction. Avoid [sacred cows](/handbook/ceo/#no-sacred-cows)
+1. "Because we've always done it" is not a valid answer when someone challenges a decision or direction. Avoid [sacred cows](https://www.britannica.com/dictionary/sacred-cow)
 1. We hire folks who are dedicated to GitLab's [mission](/handbook/company/mission/) and [vision](/handbook/company/vision). [Pournelle's Iron Law of Bureaucracy](https://en.wikipedia.org/wiki/Jerry_Pournelle#Pournelle's_iron_law_of_bureaucracy) explains why this is important:
 
 >In any bureaucratic organization there will be two kinds of people:

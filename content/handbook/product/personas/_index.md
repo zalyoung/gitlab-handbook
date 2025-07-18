@@ -20,7 +20,7 @@ We are iterating on updates to buyer personas on this [Buyer Persona](/handbook/
 
 User personas are people who actually use GitLab. They may or may not be the person in
 the organization who has the authority and budget to purchase GitLab, but they
-are heavy influencers in the buying process. Users personas are created from data gathered from UX research studies. If a new user persona is needed, or an existing persona has to be updated, see our handbook guide on [How to Create a User Persona](/handbook/product/ux/persona-creation/index.html).
+are heavy influencers in the buying process. Users personas are created from data gathered from UX research studies. If a new user persona is needed, or an existing persona has to be updated, see our handbook guide on [How to Create a User Persona](/handbook/product/ux/persona-creation/).
 
 #### How do user personas interact?
 
@@ -282,7 +282,7 @@ I maintain and scale our infrastructure and configurations, and my priority is t
 
 ##### My role
 
-I'm a software engineer in my organization with a keen interest in quality and the skills necessary to promote it. My objective is to **help build quality into the development process** and **promote ownership of quality across every team**. To accomplish this, I develop tooling to support test processes and quality reporting. I also write tests at every level in the [test pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html). I groom my organization's tests to make them both efficient and effective as well as help grow a quality mindset across departments.
+I'm a software engineer in my organization with a keen interest in quality and the skills necessary to promote it. My objective is to **help build quality into the development process** and **promote ownership of quality across every team**. To accomplish this, I develop tooling to support test processes and quality reporting. I also write tests at every level in the [test pyramid](https://docs.gitlab.com/development/testing_guide/testing_levels/). I groom my organization's tests to make them both efficient and effective as well as help grow a quality mindset across departments.
 
 ##### Jobs to be done
 

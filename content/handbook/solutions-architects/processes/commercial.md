@@ -1,23 +1,22 @@
 ---
-title: Commercial SA Engagement Model
+title: High Velocity SA Engagement Model
 ---
 
 ## Vision
 
-The Commercial SA team is the best place for demonstrating technical talent and product passion motivating the commercial customer to establish their unified DevOps strategy.
+The High Velocity SA team is the best place for demonstrating technical talent and product passion motivating the commercial customer to establish their unified DevOps strategy.
 
 ## Structure
 
-The Commercial Solutions Architecture team is a part of the global [SA Organization](/handbook/solutions-architects/) that focuses on primarily Mid-Market customers aiming to lead technical evaluation efforts in an efficient and effective manner. The team is divided into two main geographical regions: AMER and EMEA. Each region has its own team of Solutions Architects (SAs) who are responsible for supporting customers in their respective areas.
+The High Velocity Solutions Architecture team is a part of the global [SA Organization](/handbook/solutions-architects/) that focuses on primarily Mid-Market customers aiming to lead technical evaluation efforts in an efficient and effective manner. The team is divided into two main geographical regions: AMER and EMEA. Each region has its own team of Solutions Architects (SAs) who are responsible for supporting customers in their respective areas.
 
 ### Team Roles
 
 1. [Solutions Architects (SAs)](/job-families/sales/solutions-architect/)
 2. [Demo Architects](/job-families/sales/demo-architect/)
 3. [Solutions Architecture Managers](/job-families/sales/solutions-architect/#manager-solutions-architects)
-4. [Director of Commercial Solutions Architecture](/job-families/sales/solutions-architect/#director-solutions-architects)
 
-## Commercial Solutions Architecture Engagement Model
+## High Velocity Solutions Architecture Engagement Model
 
 ### SA Engagement Considerations
 
@@ -29,7 +28,7 @@ The Commercial Solutions Architecture team is a part of the global [SA Organizat
 
 ### Segment-Specific Engagement Models
 
-The SA team’s engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
+The SA team's engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
 
 #### Mid-Market
 
@@ -39,7 +38,7 @@ The SA team’s engagement is segmented by the AE role, so that the SA engagemen
 
 ### SA Request Triage Process
 
-The Commercial SA Triage Process is a structured approach to managing and prioritizing incoming Solutions Architect (SA) requests. This process ensures efficient allocation of SA resources and timely response to customer needs. The key steps in the triage process are:
+The High Velocity SA Triage Process is a structured approach to managing and prioritizing incoming Solutions Architect (SA) requests. This process ensures efficient allocation of SA resources and timely response to customer needs. The key steps in the triage process are:
 
 1. Request Submission:
    - All SA requests are submitted through the SA Request button on the Salesforce Opportunity.
@@ -115,7 +114,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
   - Goal: AEs to hold off on scheduling the next customer meetings until the SA Team has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
     - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments. GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
-    - Sometimes, a lot of runaway is not possible. We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Team 
+    - Sometimes, a lot of runaway is not possible. We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Team
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.
   - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will have a chance to learn with the support of the wider team
@@ -138,7 +137,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
 
 _Customer Success Manager assignment is not available for the majority of Commercial Accounts_
 
-As an opportunity enters into either the [Negotiating or Awaiting Signature](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) stage, the Solutions Architect and Account Executive ought to begin introducing the customer to a Customer Success Manager following the [Commercial CSM Transition Process](/handbook/customer-success/pre-sales-post-sales-transition/#commercial-csm-transition-process).
+As an opportunity enters into either the [Negotiating or Awaiting Signature](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) stage, the Solutions Architect and Account Executive ought to begin introducing the customer to a Customer Success Manager following the [High Velocity CSM Transition Process](/handbook/customer-success/pre-sales-post-sales-transition).
 
 Solutions Architects ought to be primarily engaged with accounts that have active opportunities in Salesforce.  When we work with customers, it's easy to build a trusted advisor relationship with them that persists past the end of the sale.  In these cases, SAs must use their judgment in determining when to redirect a customer to the proper support channel for follow-up questions.
 
@@ -210,7 +209,7 @@ To facilitate the review process, the following information should be provided b
 
 This review process aims to help ensure on-site engagements have the highest level of professionalism and that they deliver the intended value to the customer.
 
-## Commercial SA Processes
+## High Velocity SA Processes
 
 ### Async Slack support
 
@@ -219,13 +218,13 @@ In some cases SA support might be required in early stage or not fully qualified
 - AMER: `#cs-commercial-amer-support`
 - EMEA: `#sa-commercial-emea-support`
 
-These Slack channels are considered to be a safe harbor for all Commercial AE <-> SA communication. When asking questions, please ensure you always provide as much context as possible; including the SFDC URL, and type of subscription (SaaS or Self-Managed). Solutions Architecture will monitor and provide best effort support on these requests.
+These Slack channels are considered to be a safe harbor for all Mid-market AE <-> SA communication. When asking questions, please ensure you always provide as much context as possible; including the SFDC URL, and type of subscription (SaaS or Self-Managed). Solutions Architecture will monitor and provide best effort support on these requests.
 Avoid using these Slack channels for cases that require technical discovery and solutioning. These have to be handled via standard SA Request process.
 
 ### Demo Jam
 
 With the continuous iteration and releases of GitLab, it's important to stay up to date on the newest capabilities while staying sharp on existing use-cases to best serve customers.
-The Commercial Demo Jam serves as a safe forum for the Commercial SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
+The High Velocity Demo Jam serves as a safe forum for the High Velocity SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
 
 **Structure**:
 
@@ -235,47 +234,18 @@ The Commercial Demo Jam serves as a safe forum for the Commercial SA team to pra
 
 ### Peer Review
 
-Commercial SA team recognizes [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
+High Velocity SA team recognizes [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
 
 **Structure**:
 
 - Peer Reviews are hosted twice a quarter as a part of Global Bi-Weekly Meeting as a 15-25 minutes secondary agenda
 - Duration: 25 minutes (assuming two presenters)
 - Two opportunities are reviewed during the session (10 minutes each)
-- Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
-
-### Solutions Architect Judgment Indicator
-
-The Solutions Architect Judgment Indicator (SA Judgment) is a metric used to assess the technical perception and feedback regarding current opportunities. It aids in making informed decisions and effectively managing sales pipelines. This indicator enhances the precision of forecasting by providing a means to validate AE judgment based on the technical seller's assumptions. It also facilitates discussions during deal reviews and pipeline analysis by highlighting potential misalignments more easily.
-
-The key aspects to take into consideration:
-
-1. Technical statement
-   1. Customer knowledge: current state well documented (internal)
-   1. Clear use cases. Identified pains.
-   1. Product-match. Identified capabilities to close the gap.
-1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
-   1. Access to development, information security and operations. Technical/lead developer involved with the right skills
-   1. Connection to the technical validator/buyer
-   1. Established communication channel and responsiveness
-
-The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] Initials Date: One line qualitative comment` with `[COLOR]` equals to:
-
-- `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
-- `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
-- `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
-
-> Example: _[RED] VD 17/10: No access to technical buyers, no clear use case_.
-
-Solutions Architects are required to fill out in their judgment on all opportunities meeting these criteria:
-
-- EMEA COMM Business Unit
-- Net ARR >$50K
-- Stage: 3+ (potentially 2+)
+- Outcomes are documented and are stored in [High Velocity SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
 
 ## Team Meetings
 
-Commercial SA team meetings are held on a regular basis to ensure alignment, share knowledge, and discuss important topics. The following meetings are part of the Commercial SA team's schedule:
+High Velocity SA team meetings are held on a regular basis to ensure alignment, share knowledge, and discuss important topics. The following meetings are part of the High Velocity SA team's schedule:
 
 ### Global Team Meeting
 
@@ -283,8 +253,8 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
 - Duration: 50 minutes
 - Purpose: Discuss global initiatives, share best practices, and align on cross-regional topics
 - Second half of the Global Team Meeting is dedicated to specific topics:
-  - [Commercial Demo Jam](#demo-jam) (twice a quarter)
-  - [Commercial SA Peer Review](#peer-review) (twice a quarter)
+  - [High Velocity](#demo-jam) (twice a quarter)
+  - [High Velocity SA Peer Review](#peer-review) (twice a quarter)
   - Strategy (once a quarter)
   - Team Retrospective (last week of a quarter)
   - Open Topic (once a quarter)
@@ -301,7 +271,7 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
   - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
 
 ### Manager Sync
- 
+
 - Frequency: Weekly
 - Duration: 25 minutes
 - Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters
@@ -316,7 +286,7 @@ All team meetings are facilitated to be asynchronous friendly. Therefore, all me
 
 ## Paid Time Off
 
-Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
+High Velocity SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
 
 1. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
@@ -332,7 +302,7 @@ To best support our customers, consider the following:
   - [COMM EMEA SA Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000012gc52AA/view)
 - [Solutions Architect GitLab Group](https://gitlab.com/gitlab-com/customer-success/solutions-architecture) - Used to share things across Solutions Architects such as links to demos, snippets, training, etc.
 - [Customer Success Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) - Used to store customer success automation and migration tools.
-- [Commercial SA Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/initiatives/)- Initiatives specific for Commercial Solutions Architecture Organization.
+- [High Velocity SA Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/initiatives/)- Initiatives specific for High Velocity Solutions Architecture Organization.
 - [SA Leadership Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/)- Initiatives by the wider Solutions Architecture Organization.
 - [FIRE Collaborations](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/field-cto-team/firecollaborations) - Used to track collaborations.
 - [Guided Explorations on GitLab](https://gitlab.com/guided-explorations) - Used to create and store example production projects with customers.

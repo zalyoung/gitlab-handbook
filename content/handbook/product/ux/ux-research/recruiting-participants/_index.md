@@ -48,7 +48,7 @@ It's best to think of tasks and responsibilities instead of job titles, because 
 
 ### Craft your screener
 
-The screener has a specific function - it's meant to identify the people who are your target demographic, so that you can ask them the things you really want to know in the study. A best practice is to copy the [Screener Template](https://docs.google.com/document/d/1hMchH7C7Af2jCLeV9SK89F0ajT3m-hojJ0MmZnV5wmE/edit) (internal link only) in Google Docs and collaborate with your stakeholders until all questions are finalized. For tips on how to write an effective screener, check out [this page](/handbook/product/ux/ux-research/write-effective-screener/). Then, you'll create a screener in Qualtrics that includes the questions. If you don't have access to Qualtrics, [request it](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). Recruiting will not begin until the finalized screener is created in Qualtrics and shared with the UX Research Operations Coordinators.
+The screener has a specific function - it's meant to identify the people who are your target demographic, so that you can ask them the things you really want to know in the study. A best practice is to copy the [Screener Template](https://docs.google.com/document/d/1hMchH7C7Af2jCLeV9SK89F0ajT3m-hojJ0MmZnV5wmE/edit) (internal link only) in Google Docs and collaborate with your stakeholders until all questions are finalized. For tips on how to write an effective screener, check out [this page](/handbook/product/ux/ux-research/write-effective-screener/). Then, you'll create a screener in Qualtrics that includes the questions. If you don't have access to Qualtrics, [request it](/handbook/security/corporate/end-user-services/access-requests/access-requests/). Recruiting will not begin until the finalized screener is created in Qualtrics and shared with the UX Research Operations Coordinators.
 
 Your questions on the screener *must* match your participant criteria. This allows the UX Research Operations Coordinator to review your desired criteria and know which answers you want to see on the screener. The more abstract or open-ended you get in the screener, the harder it is for UX Research Operations Coordinators to parse which answer it is you're looking for. A best practice is to avoid using open-ended questions in screeners.
 
@@ -59,7 +59,7 @@ Participants must agree to each of these questions to take part in moderated stu
 
 Determine if you need the IP Assignment and/or GitLab's Individual Contributor License Agreement
 
-- Learn more about the [IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/IP-Assignment/#when-to-show-the-ip-assignment)
+- Learn more about the [IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/ip-assignment/#when-to-show-the-ip-assignment)
 
 Common questions we include are:
 
@@ -180,7 +180,7 @@ In all cases, the UX Research Operations Coordinator will keep you updated on th
 
 ### Promotional games
 
-If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Amazon Gift cards), please review the following information in the [handbook](/handbook/legal/ux-research-pilot/) and consult with legal. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional game or contests.
+If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Amazon Gift cards), please review the following information in the [handbook](/handbook/legal/process-for-ux-research-prize-draws/) and consult with legal. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional game or contests.
 
 #### Respondent.io process and strategy
 

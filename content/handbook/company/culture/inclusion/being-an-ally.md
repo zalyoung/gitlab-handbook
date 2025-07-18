@@ -79,7 +79,7 @@ To be an effective ally it is important to understand some of the skills and beh
 1. Allies try to understand Perception vs. Reality
 1. Allies don't stop with their power they also leverage others powers of authority
 
-See our [Ally Resources Page]({{< ref "ally-resources" >}}) for more resources on being an ally.
+See our [Ally Resources Page](/handbook/communication/ally-resources/) for more resources on being an ally.
 
 ## Allyship & Empathy
 
@@ -193,12 +193,12 @@ What you will do:
 1. **Session 1:** Async ally training and courses. Synchronous meeting to discuss what you have learned.
     1. [Explore Ally Allyship](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
     1. [Cultivate Equality at Work](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals)
-    1. [Communicating with Empathy](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations?u=2255073)
-    1. [Effective Listening](https://www.linkedin.com/learning/improving-your-listening-skills/welcome?autoplay=true&resume=false&u=2255073)
-    1. [Building Trust](https://www.linkedin.com/learning/building-trust-6/building-trust?u=2255073)
-    1. [The importance of trust](https://www.linkedin.com/learning/why-trust-matters-with-rachel-botsman/the-importance-of-trust?u=2255073)
-    1. [How to engage meaningfully in allyship and anti-racism - OPTIONAL](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
-    1. [Inclusive mindset of committed allies - OPTIONAL](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally?u=2255073)
+    1. [Communicating with Empathy](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations)
+    1. [Effective Listening](https://www.linkedin.com/learning/improving-your-listening-skills-19238090)
+    1. [Building Trust](https://www.linkedin.com/learning/building-trust-14841538)
+    1. [The importance of trust](https://www.linkedin.com/learning/why-trust-matters-with-rachel-botsman/the-importance-of-trust)
+    1. [How to engage meaningfully in allyship and anti-racism - OPTIONAL](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism)
+    1. [Inclusive mindset of committed allies - OPTIONAL](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally)
 1. **Session 2:** The importance of being an ally and why you want to be an ally.
 1. **Session 3:** Work as a group to discuss a number of scenarios and how to tackle them as an ally.
 1. **Session 4:** Together, write a commitment to allyship and the values you will abide by to be an ally.
@@ -214,7 +214,7 @@ Once completed you now have a safe group to discuss allyship with, either to get
 
 ## Ally Training
 
-We held a 50 minute [Live Learning](/handbook/people-group/learning-and-development#live-learning) Ally Training on 2020-01-28. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/18Qyn2mBJu0Loq3x_RT5bL2lnL-3YHvac1sQhmqqZNso/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1lGPImuahahjDejI5-9cNNCg-NMQJ4GCHO6n0fcntjs8/edit?usp=sharing).
+We held a 50 minute [Live Learning](/handbook/people-group/learning-and-development/#learning-delivery-methods---definitions) Ally Training on 2020-01-28. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/18Qyn2mBJu0Loq3x_RT5bL2lnL-3YHvac1sQhmqqZNso/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1lGPImuahahjDejI5-9cNNCg-NMQJ4GCHO6n0fcntjs8/edit?usp=sharing).
 
 {{< youtube "wwZeFjDc4zE" >}}
 
@@ -228,11 +228,11 @@ There are some essential skills that are required to be an ally, here are a numb
 
 - [Equality Ally Strategies](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
 - [Champion Workplace Equality](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/put-allyship-practices-into-play-external)
-- [Effective Listening](https://www.linkedin.com/learning/effective-listening/improve-your-listening-skills?u=2255073)
-- [How to engage meaningfully in Allyship](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
-- [Becoming a true ally](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally?u=2255073)
-- [Building Trust](https://www.linkedin.com/learning/building-trust-6/building-trust?u=2255073)
-- [Why trust matters](https://www.linkedin.com/learning/why-trust-matters-with-rachel-botsman/the-importance-of-trust?u=2255073)
+- [Effective Listening](https://www.linkedin.com/learning/effective-listening/improve-your-listening-skills)
+- [How to engage meaningfully in Allyship](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism)
+- [Becoming a true ally](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally)
+- [Building Trust](https://www.linkedin.com/learning/building-trust-14841538)
+- [Why trust matters](https://www.linkedin.com/learning/why-trust-matters-with-rachel-botsman/the-importance-of-trust)
 
 ## Ally Learning Activity and Scenarios
 
@@ -242,14 +242,14 @@ Allies familiarize themselves with GitLab's general DIB content
 
 - [Diversity, Inclusion & Belonging page](/handbook/company/culture/inclusion/)
 - [Gender and Sexual Orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity)
-- [DIB training resources]({{< ref "inclusion#diversity-inclusion--belonging-training-and-learning-opportunities" >}})
-- [Unconscious bias]({{< ref "unconscious-bias" >}})
+- [DIB training resources](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-learning--development)
+- [Unconscious bias](/handbook/company/culture/inclusion/unconscious-bias/)
 
 ## Ally Resources
 
 Here are additional resources on being an ally
 
-- [Guide to allyship](https://www.guidetoallyship.com)
+- [Guide to allyship](https://guidetoallyship.com/)
 - [5 Tips For Being An Ally](https://www.youtube.com/watch?v=_dg86g-QlM0)
 - [Ally skills workshop](https://frameshiftconsulting.com/ally-skills-workshop/). Check out the materials section with [a handout PDF](https://docs.google.com/document/d/1B0zNV4WKVtIB2Rsret_kbZNjtxRrewk8vbg1HAhLzCU/export?format=pdf) (linking to many more resources), [slides PDF](https://docs.google.com/presentation/d/1ApXtF-9gQEE9XFH7LEAlxcF0W4HP0z-8WXDWul2KHZs/export/pdf), [videos](https://www.youtube.com/watch?v=wob68Nl2440), and more.
 - [Why cisgender allies should put pronouns on their name tag](https://medium.com/@mrsexsmith/dear-cis-people-who-put-your-pronouns-on-your-hello-my-name-is-nametags-78c047ed7af1)

@@ -13,8 +13,6 @@
       url: mission
     - name: Vision
       url: vision
-    - name: Strategy
-      url: /handbook/company/strategy
     - name: Communication
       url: communication
       links:
@@ -48,16 +46,10 @@
         url: offsite
       - name: KPIs
         url: kpis
-      - name: OKRs
-        url: /handbook/company/okrs
       - name: Pricing Model
         url: /handbook/company/pricing
     - name: Office of the CEO
       url: office-of-the-ceo
-    - name: Key Reviews
-      url: key-review
-    - name: Group Conversations
-      url: group-conversations
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
@@ -71,7 +63,7 @@
   - name: Handbook Changelog
     url: changelog
   - name: Handbook Escalation
-    url: /handbook/about/on-call.md
+    url: /handbook/about/escalation.md
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
@@ -157,28 +149,21 @@
     url: /handbook/engineering/development/
     links:
     - name: Dev Sub-department
-      url: /handbook/engineering/development/dev/
+      url: /handbook/engineering/devops/dev/
     - name: Fulfillment Sub-department
       url: /handbook/engineering/development/fulfillment/
     - name: Ops Sub-department
-      url: /handbook/engineering/development/ops/
-    - name: Govern Sub-department
-      url: /handbook/engineering/development/sec/govern/
+      url: /handbook/engineering/devops/ops/
+    - name: Software Supply Chain Security Sub-department
+      url: /handbook/engineering/development/sec/software-supply-chain-security/
     - name: Secure Sub-department
       url: /handbook/engineering/development/sec/secure/
-  - name: Incubation Engineering Department
-    url: /handbook/engineering/development/incubation
   - name: Infrastructure Department
     url: /handbook/engineering/infrastructure/
-  - name: Quality Department
-    url: /handbook/engineering/quality/
-    links:
-    - name: Test Platform
-      url: /handbook/engineering/infrastructure/test-platform/
-    - name: Engineering Productivity
-      url: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/
-    - name: Engineering Analytics
-      url: /handbook/engineering/quality/engineering-analytics
+  - name: Developer Experience
+    url: /handbook/engineering/infrastructure-platforms/developer-experience/
+  - name: Engineering Productivity
+    url: /handbook/engineering/infrastructure/engineering-productivity/
   - name: Security Practices
     url: /handbook/security/
   - name: Open Source
@@ -187,6 +172,8 @@
   icon: fa-solid fa-shield-halved
   url: /handbook/security
   links:
+  - name: Security Standards
+    url: /handbook/security/standards
   - name: Product Security
     url: /handbook/security/product-security/
   - name: Security Operations
@@ -357,11 +344,11 @@
   - name: Product sections, stages, groups, and categories
     url: /handbook/product/categories
   - name: Product Development Flow
-    url: /handbook/product-development-flow
+    url: /handbook/product-development/how-we-work/product-development-flow
   - name: Product Development Timeline
     url: /handbook/engineering/workflow/#product-development-timeline
   - name: Data for Product Managers
-    url: /handbook/enterprise-data/programs/data-for-product-managers
+    url: /handbook/enterprise-data/organization/programs/data-for-product-managers
   - name: Product Pricing Model
     url: /handbook/company/pricing
   - name: Corporate Development / Acquisitions

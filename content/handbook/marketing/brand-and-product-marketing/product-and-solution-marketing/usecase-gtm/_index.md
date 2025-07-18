@@ -18,7 +18,7 @@ Relevant solutions will differ by audience.
 
 A picture may help convey the **Solution Framework**.
 
-![Solution Framework](Solution-framework.png)
+![Solution Framework](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/Solution-framework.png)
 
 One of the most common of these sweeping initiatives is **Digital Transformation**. The Enterprise Project provides a useful [definition of Digital Transformation](https://enterprisersproject.com/what-is-digital-transformation): "Digital transformation is the integration of digital technology into all areas of a business, fundamentally changing how you operate and deliver value to customers.".
 
@@ -63,7 +63,7 @@ Understanding which solution to apply where requires consideration of the person
 | **TMM** | Itzik | Fern | Fern |  William Arias |
 | **PM** | Jackie Porter | Hillary Benson | Hillary Benson | Mike Flouton / Justin Farris |
 | **Resource page** | [Automated Software Delivery](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/) | [DevSecOps page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/) | [Compliance](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/compliance/) | [Platform](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/) |
-| **Solution page** | [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/) | [DevSecOps solution](https://about.gitlab.com/solutions/dev-sec-ops/) | [Compliance solution](https://about.gitlab.com/solutions/compliance)  | [GitLab home page](https://about.gitlab.com/platform) |
+| **Solution page** | [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/) | [DevSecOps solution](https://about.gitlab.com/solutions/security-compliance/) | [Compliance solution](https://about.gitlab.com/solutions/compliance/)  | [GitLab home page](https://about.gitlab.com/platform/) |
 | **Highspot page** | Automated Software Delivery | Software Security | Software Compliance | DevSecOps Platform |
 
 ## Use cases
@@ -73,7 +73,7 @@ Within the core DevOps solutions, are use cases. These topics may be hot in the 
 Examples include:
 
 - **[Source Code Management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/) (SCM)**.
-- **[Continuous integration](https://about.gitlab.com/features/continuous-integration/)**
+- **[Continuous integration](https://about.gitlab.com/solutions/continuous-integration/)**
 - **[GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/)**
 
 The Customer Success Managers (CSMs) are goaled on expanding an existing customer's adoption of GitLab use cases, as measured by use case adoption. Mapping use cases to stages helps the CSMs know which use case material to apply.
@@ -129,7 +129,7 @@ As a prospect is determining that they have a specific problem to solve, they ty
 
 In addition the **buyer's journey**, there are also different audiences in an organization with different needs at different times. The general model for the buyer's journey outlines kinds of collateral that is needed at different stages of the buying cycle. It is incredibly important to understand the needs of the audience when creating collateral. Executives, managers, and individual contributors will need different information to support their specific work.
 
-![Buyer's Journey](buyers-cycle-journey.png)
+![Buyer's Journey](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/buyers-cycle-journey.png)
 
 - **Executives** will need information about business value, risk, cost, and impact to support strategic objectives
 - **Managers** will need more detailed information to drive planning, justification, and migration details.
@@ -141,13 +141,13 @@ The Buyer's journey can also start when developers and the team start to look fo
 
 To this model, we need to add ideal customer profiles to better inform marketing on types of companies to target for campaigns and to help sales qualify opportunities.
 
-![GTM-bom](../images/BOM-Activation.png)
+![GTM-bom](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/BOM-Activation.png)
 
 ## Market Requirements
 
 Solution "Market Requirements" are the broad capabilities that a solution (product or multiple products) would need to support. Each GitLab DevOps solution should have roughly 8-12 market requirements defined.
 
-In product terminology, Market Requirements are similar to concept of [Jobs to be Done (JTBD)](/handbook/product/ux/ux-resources/#jobs-to-be-done-jtbd). Both represent something the end user or customer wants to accomplish. Like JTBD, Market Requirements are <i>**not**</i> features but instead a set of higher level capabilities that indicate what's "required" for a given solution to include in order to be successful in the market. For example, specific products do contain features that help to meet Market Requirements but the features themselves don't qualify as Market Requirements. JTBD tend to be very granular and specific. The [list of JTBD for a particular stage](/handbook/engineering/development/ops/package/jtbd/#jobs-to-be-done) can be long and is theoretically endless. Market Requirements are intentionally broad in an effort to keep the list of total requirements small and consumable. We expect that a given **Market Requirement** would consist of many **jobs to be done**
+In product terminology, Market Requirements are similar to concept of [Jobs to be Done (JTBD)](/handbook/product/ux/ux-resources/#jobs-to-be-done-jtbd). Both represent something the end user or customer wants to accomplish. Like JTBD, Market Requirements are <i>**not**</i> features but instead a set of higher level capabilities that indicate what's "required" for a given solution to include in order to be successful in the market. For example, specific products do contain features that help to meet Market Requirements but the features themselves don't qualify as Market Requirements. JTBD tend to be very granular and specific. The [list of JTBD for a particular stage](/handbook/engineering/devops/ops/package/jtbd/#jobs-to-be-done) can be long and is theoretically endless. Market Requirements are intentionally broad in an effort to keep the list of total requirements small and consumable. We expect that a given **Market Requirement** would consist of many **jobs to be done**
 
 In [Command of the Message terminology](https://internal.gitlab.com/handbook/sales/command-of-the-message/) (internal-only) used by Sales, these are **NOT** the same thing as "Required Capabilities". COTM "Required Capabilities" are very narrow and focused on a specific value driver aligned with GitLab. **"Market Requirements"** are intended to be comprehensive for a given use case and defined by the market (analysts, vendors, etc), not GitLab specific features), as well as seen through an 'outside-in' paradigm of the market.
 
@@ -159,7 +159,7 @@ The downstream impacts of market requirements are
 - Comparisons across the market (multiple vendors, multiple products) can be driven from market requirements
 - ROI models can be built highlighting the value of specific market requirements.
 
-![Market Requirements](../images/market-requirements.png)
+![Market Requirements](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/market-requirements.png)
 
 <!--
 ### Solution GTM Bill of Material Priorities & Tracking (needs updating so commented out for now)

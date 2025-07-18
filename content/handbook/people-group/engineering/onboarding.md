@@ -5,7 +5,7 @@ description: "Information on the automations we have in place to support the Peo
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
 
-Everything on this page, assumes the team member is already present in Workday. To read more about how they get synced to Workday, you can read [this handbook section](/handbook/people-group/engineering/gh-bhr-sync).
+Everything on this page, assumes the team member is already present in Workday.
 
 ## Onboarding
 
@@ -15,14 +15,12 @@ Note: this section only discusses items in the onboarding where People Engineeri
 
 ```mermaid
 graph TD
-  A[4 Days before: PEA triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
+  A[2 Weeks before: People Connect triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
   K[1 day before: Team member is invited to gitlab-com and gitlab-org] --> I
   I[Start date: onboarding and swag email is send to the team member] --> C
   C[Day 2: Access Request issue is created and team page sync readiness is checked.] --> CA
-  CA[Day 3: Team page entry is created] --> E
-  E[Day 6: Team members receive a Slack reminder about the anti-harrassment training] --> J
-  J[Day 7: Manager and Interview training issues are opened if people manager] --> L
-  L[Day 15: Team member is pinged if they have open compliance task on their onboarding issue] --> F
+  CA[Day 3: Team page entry is created] --> J
+  J[Day 7: Manager and Interview training issues are opened if people manager] --> F
   F[Day 60: Onboarding issue is closed if it wasn't closed already] --> N{Probation?}
   N -->|Yes| D[One month before contract end: send email]
   N --> |No| B{Netherlands team member}
@@ -62,14 +60,6 @@ The invite email is send to their `GitLab` email address which they will get acc
 
 > These invites are set to expire one month after their start date.
 
-## Enable self-service
-
-Our team members are expected to update their BambooHR profile on their first day at GitLab. To be able to do that they need to have `self-service` access level enable on BambooHR. We run a scheduled pipeline every day that enables this for team members starting the following day.
-
-In the event we failed to enable a particular team members account, a PEA can use the `activateselfservice` Slack command to re-trigger this automation for the team member.
-
-This will attempt to enable the Self Service feature of their BambooHR profile.
-
 ## Onboarding Email
 
 This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/email_templates) that is sent to our team members on the morning of their first day of employment (based upon the onboarding date in the issue title). The email is cc'd to `people-connect@domain`.
@@ -78,11 +68,11 @@ Every day we run 3 scheduled pipelines. They are each set up for a specific regi
 
 - Americas at 10 AM UTC
 - EMEA at 4 AM UTC
-- JAPAC at 6 PM UTC
+- APJ at 6 PM UTC
 
-For the **JAPAC** pipeline, it will fetch the team members with a start date for the next day (timezones).
+For the **APJ** pipeline, it will fetch the team members with a start date for the next day (timezones).
 
-For the **EMEA** and **Americas** pipeline, it will fetch all the team members that have a start day equal
+For the **EMEA** and **Americas** pipelines, it will fetch all the team members that have a start day equal
 to the current day (so who is starting today). The pipeline then filters out the ones for the region
 they need to send the email to. This all is to ensure we don't send out the email too late or too early.
 The region of the team member is determined from the region that is on their Workday profile. This is the
@@ -104,7 +94,7 @@ This  triggers the following flow:
 ```mermaid
 graph TD
     A[PEA triggers the automation via Slack] -->B(Finds the open onboarding issue)
-    B --> C(Finds the BHR profile from the onboarding issue description)
+    B --> C(Finds the Workday profile from the onboarding issue description)
     C --> D(Sends the e-mail to the team member)
 ```
 
@@ -120,18 +110,6 @@ If changes are required to the onboarding email template, follow these steps to 
 - Copy and pasted the MJML version from the browser to the MJML template.
 - Submit Merge Request like normal with the updates.
 
-## Swag Email
-
-This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/swag_email.md) that is sent on the first day of a new team member so they receive the instructions to redeem their new hire swag. The email is cc'd to `people-connect@domain`.
-
-Every day at 9 AM UTC we run a scheduled pipeline. This pipeline will fetch all the eligible team members. An eligible team
-member means:
-
-- Team member who is on their first day of employment at GitLab
-
-The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody
-monitors replies to `onboarding@domain`. The email address is strictly used for automation.
-
 ## Access Request issue creation
 
 To get access to the tools our team members need for their job, an Access Request (AR)
@@ -143,9 +121,9 @@ Every day we run 3 scheduled pipelines. They are each set up for a specific regi
 
 - Americas at 10 AM UTC
 - EMEA at 4 AM UTC
-- JAPAC at 6 PM UTC
+- APJ at 6 PM UTC
 
-For the JAPAC pipeline, it will fetch the team members with a start date for the current day (timezones).
+For the APJ pipeline, it will fetch the team members with a start date for the current day (timezones).
 For the EMEA and Americas pipeline, it will fetch all the team members that have a start day equal
 to the previous day (so who started yesterday). The pipeline then filters out the ones for the region
 they need to send the email to. This all is to ensure we don't create the issue too late or too early.
@@ -192,6 +170,10 @@ Every day at 09AM UTC, we have a pipeline running that syncs our new team member
 We fetch all the new team members with a start date of the day before yesterday and check if they opted-in on
 being synced to the team page. Opt-in happens by setting `Export Name Location to Team Page` to `Yes` on their Workday profile. This is a task on day one for the new team member.
 
+{{% alert title="Note" color="primary" %}}
+You can find a Howto guide for setting the Opt-in mentioned above by searching for a doc titled, "How to: Set Team Page Export Preferences" in Google drive.
+{{% /alert %}}
+
 If they selected yes, we grab some data (name, job title, start date, department and country) and format it,
 so it can be added to the team page entry. If they did not opt-in, we still add an entry to the team page.
 However that entry is anonymous. For every new team member, we commit a new file in the `data/team_members` directory.
@@ -212,11 +194,6 @@ This will spin up a pipeline and fetch the details. Note that if the team member
 If the **entire** group of team members was missed, in the event of a failed pipeline or another error, a People Connect Team member can re-run the sync by using the `teampageweek` Slack command.
 
 This will trigger a new pipeline and fetch the new team members of the provided week and create a new merge request adding them to the Team page.
-
-## Slack reminder for the anti-harrassment training
-
-We have a daily pipeline that checks everyday who started 6 days ago. For those team members, we send a reminder
-that they have to complete the anti-harrassment training.
 
 ## Manager and Interview training issues
 
@@ -241,12 +218,6 @@ We also consider the person a people manager when the job title **ends** with:
 
 We create the Interview Training and Becoming a Manager issues in the
 [People Group Training project](https://gitlab.com/gitlab-com/people-group/Training).
-
-## Onboarding compliance checks
-
-We run a scheduled pipeline every day that fetches our team members that are on their 15th day of employment at GitLab. We look on their onboarding issue if they have any compliance tasks open.
-
-A compliance task is marked with the `:red-circle` icon. If they have any open tasks the onboarding bot will tag the user asking to finish the open tasks.
 
 ## Onboarding issue closing
 

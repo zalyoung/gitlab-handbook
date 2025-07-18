@@ -23,9 +23,8 @@ These are the expected competencies of team members at GitLab by Job Title and j
 ## Development Sub-departments
 
 - [Dev](/handbook/engineering/careers/matrix/development/dev/)
-- [Core Platform](/handbook/engineering/careers/matrix/infrastructure/core-platform/)
 - <span class="colour" style="color: rgb(51, 51, 51);">Fulfillment</span>
 - Growth
 - Ops
-- Govern
+- Software Supply Chain Security
 - Secure

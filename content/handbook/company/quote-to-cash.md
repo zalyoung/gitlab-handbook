@@ -19,7 +19,7 @@ An efficient Quote-to-Cash system makes purchasing, activating, and managing Git
 
 ## Teams
 
-Quote-to-Cash system projects and initiatives often require close collaboration across functions and teams. The teams most often involved include: [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Fulfillment](https://about.gitlab.com/direction/fulfillment/), [Field Operations](/handbook/sales/field-operations/), [Support](/handbook/support/readiness/operations/), and [Data](/handbook/enterprise-data/).
+Quote-to-Cash system projects and initiatives often require close collaboration across functions and teams. The teams most often involved include: [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Fulfillment](https://about.gitlab.com/direction/fulfillment/), [Field Operations](/handbook/sales/field-operations/), [Support](/handbook/support/), and [Data](/handbook/enterprise-data/).
 
 ## Systems
 
@@ -66,7 +66,7 @@ The Q2C systems consists of several systems including Salesforce, Zuora (CPQ, 36
 
 ## Architecture
 
-![ltc-landscape](/handbook/company/ltc-landscape.png)
+![ltc-landscape](/images/company/ltc-landscape.png)
 
 ## Data Objects
 
@@ -86,8 +86,6 @@ This table shows the equivalent data objects across systems:
 Note: In SFDC, a [SFDC BillingAccount](https://help.salesforce.com/s/articleView?id=sf.blng_billing_accounts.htm&type=5) is not the same as a SFDC Account. A [SFDC Account can have many BillingAccounts](https://architect.salesforce.com/diagrams/framework/data-model-notation#Record_Type_Entity).
 
 Note: The Order object in CustomersDot is not the same as the Order object in Zuora, they have different definitions. Orders in CustomerDot are more like subscriptions in Zuora than they are Orders in Zuora. More architecture and definition work needs to be done on the Order object in CustomersDot.
-
-More information about the User and Contact objects shown in the table above, and how they interact together, can be found in [this workflow documentation](../flows/user_contact_flows.md).
 
 ### CustomerDot Object Model
 
@@ -273,17 +271,17 @@ erDiagram
 
 ### Zuora Billing Object Model
 
-Zuora provides a diagram of the relationships of [Zuora's Billing Object Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/A_Zuora_Billing_business_object_model)
+Zuora provides a diagram of the relationships of [Zuora's Billing Object Model](https://knowledgecenter.zuora.com/Get_Started/Zuora_business_object_model)
 
-![Zuora Billing Object Model](/handbook/company/zuora_billing_object_model.png)
+![Zuora Billing Object Model](/images/company/zuora_billing_object_model.png)
 
 To reduce the amount of data issues across our systems, our goal is to try to ensure we have a 1:1 mapping between Zuora Billing Object Model and CustomersDot.
 
 ### Zuora and Salesforce Integrated Object Model
 
-[Zuora CPQ](https://knowledgecenter.zuora.com/CPQ/A_Zuora_CPQ/A2_Zuora4Salesforce_Object_Model) is used to connect Zuora with Salesforce.
+[Zuora CPQ](https://knowledgecenter.zuora.com/Zuora_CPQ/Zuora_CPQ_Object_Model/Zuora_CPQ_Object_Model) is used to connect Zuora with Salesforce.
 
-![Zuora Salesforce ERD](/handbook/company/zuora_salesforce_erd.jpeg)
+![Zuora Salesforce ERD](/images/company/zuora_salesforce_erd.jpeg)
 
 ### Billing Account Master Data Object
 
@@ -308,7 +306,7 @@ The Fulfillment Team is re-architecting our Quote 2 Cash Systems, in particular 
 
 Zuora serves as the source of truth for `Zuora Account` and `Zuora Contact` data once a Subscription is purchased. Prior to a purchase, a user can register for CDot which creates a `CustomersDot User` record that isn't associated with an `CustomersDot BillingAccount` (because it doesn't exist yet).  Once purchased, the `CustomersDot BillingAccount` record is created along with the related `CustomersDot BillingAccountMembership`.
 
-Given that `CustomersDot User`/`Zuora Contact` and `CustomersDot BillingAccount`/`Zuora Account` information can be edited by users directly in CDot or directly in Zuora (or indirectly via SFDC), we need to be mindful of syncing this data between CDot and Zuora.  In particular, if we can't use Zuora callouts to keep the `CustomersDot BillingAccount` and `CustomersDot User` records in sync, we will explore [Zuora Custom Events](https://knowledgecenter.zuora.com/Central_Platform/Events_and_Notifications/A_Z_Custom_Events).
+Given that `CustomersDot User`/`Zuora Contact` and `CustomersDot BillingAccount`/`Zuora Account` information can be edited by users directly in CDot or directly in Zuora (or indirectly via SFDC), we need to be mindful of syncing this data between CDot and Zuora.  In particular, if we can't use Zuora callouts to keep the `CustomersDot BillingAccount` and `CustomersDot User` records in sync, we will explore [Zuora Custom Events](https://knowledgecenter.zuora.com/Zuora_Platform/Extensibility/Events_and_Notifications/AB_Custom_Events).
 
 A `CustomersDot User` record in CDot is tied to one email address.  This email address can be associated with multiple `Zuora Account`s, and therefore have multiple `Zuora Contact`s.  Each of these `Zuora Contact`s could be modified independently.  For instance, a billing admin may choose to change the address for Contact A for the billing entity in the US, but not choose to change the address for Contact B (associated with the same email address) for the billing entity in Europe.  For this reason, contact metadata could eventually be stored on the `CustomersDot BillingAccountMembership` model, but we are choosing to keep this lightweight to begin with to reduce scope. We will start by fetching this data from Zuora.
 
@@ -334,7 +332,7 @@ Currently CustomersDot (CDot) has a data object for `Customer` (e.g. `customers`
 - Contact information related to a physical person within a Company with metadata like first and last name, email, mailing address, etc.
 - Company information that is associated with a Zuora Account with company name.
 
-It is important to note that a Zuora Account maps to a company/customer account which can have many users or contacts. It should not map to one user in particular.  In the current architecture, a `zuora_account_id` can be shared with more than one Customer but this isn't ideal.  We need to have an architecture that accurately reflects the data structure from Zuora and our business model.  In CustomersDot, we need to have a data architecture that accurately reflects [Zuora's Billing Objects Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/A_Zuora_Billing_business_object_model).
+It is important to note that a Zuora Account maps to a company/customer account which can have many users or contacts. It should not map to one user in particular.  In the current architecture, a `zuora_account_id` can be shared with more than one Customer but this isn't ideal.  We need to have an architecture that accurately reflects the data structure from Zuora and our business model.  In CustomersDot, we need to have a data architecture that accurately reflects [Zuora's Billing Objects Model](https://knowledgecenter.zuora.com/Get_Started/Zuora_business_object_model).
 
 #### Examples of issues this could benefit
 
@@ -377,7 +375,7 @@ Update: CDot has added `BillingAccount`, `BillingAccountMembership` and `Billing
 
 Zuora serves as the source of truth for `Zuora Account` and `Zuora Contact` data once a Subscription is purchased. Prior to a purchase, a user can register for CDot which creates a `CustomersDot User` record that isn't associated with an `CustomersDot BillingAccount` (because it doesn't exist yet).  Once purchased, the `CustomersDot BillingAccount` record is created along with the related `CustomersDot BillingAccountMembership`.
 
-Given that `CustomersDot User`/`Zuora Contact` and `CustomersDot BillingAccount`/`Zuora Account` information can be edited by users directly in CDot or directly in Zuora (or indirectly via SFDC), we need to be mindful of syncing this data between CDot and Zuora.  In particular, if we can't use Zuora callouts to keep the `CustomersDot BillingAccount` and `CustomersDot User` records in sync, we will explore [Zuora Custom Events](https://knowledgecenter.zuora.com/Central_Platform/Events_and_Notifications/A_Z_Custom_Events).
+Given that `CustomersDot User`/`Zuora Contact` and `CustomersDot BillingAccount`/`Zuora Account` information can be edited by users directly in CDot or directly in Zuora (or indirectly via SFDC), we need to be mindful of syncing this data between CDot and Zuora.  In particular, if we can't use Zuora callouts to keep the `CustomersDot BillingAccount` and `CustomersDot User` records in sync, we will explore [Zuora Custom Events](https://knowledgecenter.zuora.com/Zuora_Platform/Extensibility/Events_and_Notifications/AB_Custom_Events).
 
 A `CustomersDot User` record in CDot is tied to one email address.  This email address can be associated with multiple `Zuora Account`s, and therefore have multiple `Zuora Contact`s.  Each of these `Zuora Contact`s could be modified independently.  For instance, a billing admin may choose to change the address for Contact A for the billing entity in the US, but not choose to change the address for Contact B (associated with the same email address) for the billing entity in Europe.  For this reason, contact metadata could eventually be stored on the `CustomersDot BillingAccountMembership` model, but we are choosing to keep this lightweight to begin with to reduce scope.  We will start by fetching this data from Zuora.
 

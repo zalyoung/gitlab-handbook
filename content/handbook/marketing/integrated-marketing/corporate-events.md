@@ -23,9 +23,9 @@ twitter_creator: gitlab
   * A handful of smaller events that we handle due to the nature of the audience, product specific, and the awareness and thought leadership positions we are trying to build out as a company.
   * The primary goal is always driving brand awareness but that cannot be the only result.
 * Owned events
-  * [GitLab DevSecOps World Tour](https://about.gitlab.com/events/commit/), our User & Customer Conference
+  * [GitLab DevSecOps World Tour](https://about.gitlab.com/events/), our User & Customer Conference
 * Internal events
-  * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
+  * GitLab Summit, our internal company and core community event
   * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
 
 ## Meet the Corporate Events Team and How to Reach Us
@@ -36,7 +36,7 @@ twitter_creator: gitlab
 * Marina Conrad - Senior Corporate Events Manager - `@marinaconrad`
 * Amanda Shen - Corporate Events Manager - `@amandawshen`
 * Suli King - Corporate Events Content Manager -`@sstuelp`
-* Lauren Roberts - Corporate Events Coordinator - `@lroberts`
+* Lauren Roberts - Corporate Events Manager - `@lroberts`
 
 ### Current Slack Corporate Event Channels
 
@@ -135,17 +135,16 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 Content DRI’s will be in charge of creating their presentations based off of the template guidelines for any of the sessions. Presentations will be built in Google Slides. Once the presentation is final it will then be converted to either Keynote or PPT.
 
 1. The Corporate Events Content Manager will provide a Google Slides template specific to the content DRI’s session.
-2. The content DRI will create their content using the template that was provided to them. 
-3. The content DRI will provide a draft of the presentation to the overall track DRI to review and provide feedback.
-4. The content DRI will make any suggested changes to the presentation and then provide the presentation to the track DRI to review. Steps 3 & 4 will repeat until the track DRI approves of the presentation. 
-    * If the content DRI is not the same as the presenter then at this point the main presenter will review the content - this will be the case for any E-Group presenters. The content DRI will address any feedback that the main presenter has. 
-5. The presentation will then go into the review process and you will lose editing access to the presentation. You will still have commenting privileges. After each point in the review process (brand, copy editing, legal), you will gain editing access back if necessary. 
-6. The presentation will then go to the Brand Team or designated agency for clean up & review. 
-    * **Note:** Brand will not be doing major design work for these presentations. They should come for review as a final presentation that will only need to be cleaned up in terms of brand consistency and messaging. 
-7. Next, the Corporate Events Content Manager will [create a content marketing issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/new?issuable_template=editing-request) for presentations to be reviewed from a copy editing standpoint and the content DRI will address any feedback that they have. 
-8. **If needed**, based on the [materials legal review process in the handbook](/handbook/legal/materials-legal-review-process/), the presentation will then go to legal review. The content DRI will address any feedback that legal has.
-9. If the presentation does not need legal review, it will then go to the overall content DRI/speaker and track DRI for a final review before the presentation is deemed final.
-10. Once the presentation is deemed final, it will be converted to either Keynote or PPT for event execution.
+2. The Overall Content DRI will create their content using the template that was provided to them.
+3. The Overall Content DRI will provide a draft of the presentation to the overall track DRI (if there is one for the project) to review and provide feedback.
+4. The Overall Content DRI will make any suggested changes to the presentation and then provide the presentation to the track DRI (if there is one for the project) to review. Steps 3 & 4 will repeat until the track DRI approves of the presentation.
+    * If the Overall Content DRI is not the same as the presenter then at this point the main presenter will review the content - this will be the case for any E-Group presenters. The content DRI will address any feedback that the main presenter has.
+5. The presentation will then be handed off to the Corporate Events Content Manager DRI to start the creative & copy edit review process **_having already been reviewed by the legal team_**, based on the [materials legal review process in the handbook](/handbook/legal/materials-legal-review-process/), if deemed necessary by the Overall Content DRI.
+6. **For Brand Creative review:** The Corporate Events Content Manager will [create a presentation request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request) issue and work with the Brand Team or designated agency for clean up & review.
+    * **Note:** Brand will not be doing major design work for these presentations. They should come for review as a final presentation that will only need to be cleaned up in terms of brand consistency and messaging.
+7. **For Copy Edit review:** the Corporate Events Content Manager will [create a content marketing issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/new?issuable_template=editing-request) for presentations to be reviewed from a copy editing standpoint and the content DRI will address any feedback that they have.
+8. The presentation will then go to the overall content DRI/speaker and track DRI for a final review before the presentation is deemed final.
+9. Once the presentation is deemed final, it will be converted to either Keynote or PPT for event execution.
 
 ## Third Party Sponsored Events
 
@@ -259,8 +258,8 @@ If the event we are sponsoring is not on the Developer Advocate team's radar to 
     * For each GitLab lightning talk the Corporate Events Content Manager will provide a GitLab branded slide template for each session. For Partner lightning talks, the partner can create their lightning talk on their own company's branded template.
     * [Issue template for GitLab Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-gitlab-speaker)
     * [Issue template for Partner Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-partner-speaker)
-4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review, Brand Compliance DRI Review, and Legal Review (only if necessary). Reviewers will leave feedback as comments in the slide presentation to be addressed.
-5. Once Parter content is created, it will then go through the review process which will entail: Overall Content DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed.
+4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review and Brand Compliance DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed.
+5. Once Partner content is created, it will then go through the review process which will entail: Overall Content DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed.
 6. Once the content has gone through the review process and all reviewer comments have been addressed the content will then be deemed final.
 
 ## GitLab DevSecOps World Tour
@@ -461,7 +460,7 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
 
 ## Virtual Events at GitLab
 
-At GitLab, the Corporate Events team owns events that meet specific criteria (link), including those events that have a global hybrid or virtual element. By design, virtual events at GitLab are not a simple video call nor are they a static playlist. GitLab virtual events aim to retain the same [brand personality](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/), engagement, inclusivity, and fun as our in-person events.
+At GitLab, the Corporate Events team owns events that meet specific criteria (link), including those events that have a global hybrid or virtual element. By design, virtual events at GitLab are not a simple video call nor are they a static playlist. GitLab virtual events aim to retain the same [brand personality](https://design.gitlab.com/brand-overview/resources/), engagement, inclusivity, and fun as our in-person events.
 
 ### Lead time
 

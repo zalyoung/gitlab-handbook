@@ -1,5 +1,5 @@
 ---
-title: SME Operations - Collaboration Project, Groups, Slack Channels 
+title: SME Operations - Collaboration Project, Groups, Slack Channels
 
 description: Describe SME Collaboration Projects, Google Groups and Slack Channels necessary for SME Program Operations
 
@@ -7,7 +7,7 @@ description: Describe SME Collaboration Projects, Google Groups and Slack Channe
 
 ## StackOverflow (TBD)
 
-The preferred channel is our [StackOverFlow for Teams](/handbook/solutions-architects/tools-and-resources/#stack-overflow-for-teams) via #cs-questions.
+The preferred channel is our [StackOverFlow for Teams](/handbook/solutions-architects/tools-and-resources/#stack-overflow-for-teams) within #cs-questions.
 
 * Maintain List of SMEs (also in StackOverFlow) and SME Associates
 
@@ -21,21 +21,28 @@ TODO: Need to detail what exactly is the process to add SMEs to StackOverFlow
 
 ## SME Google Groups
 
-Each SA Area Lead should set up SA and CS SME Google Groups for calendars. Have also both SA program Leads owners also, as a backup in case SA Area Lead is OOO 
+Each SA Area Lead should set up SA and CS SME Google Groups for calendars. Have also both SA program Leads owners also, as a backup in case SA Area Lead is OOO
 
-Use list of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list) and [CS SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on) to form Groups
+Use list of [SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on) to form Groups
 
 | SME Area                | SME Group                                                    |
 |-------------------------|--------------------------------------------------------------|
-| SME Area Leads Group    | cs-sme-leaders<br>sa-sme-leaders<br>     |
-| AI                      | sme-ai                                   |
-| App Security            | cs-sme-appsec<br>sa-sme-appsec<br>       |
-| Dedicated               | cs-sme-dedicated<br>sa-sme-dedicated<br> |
-| Plan                    | cs-sme-plan<br>sa-sme-plan<br>           |
-| CICD/Runner             | cs-sme-ci<br>sa-sme-ci<br>               |
-| Metrics & Observability | cs-sme-metrics<br>sa-sme-metrics<br>     |
-| Security                | cs-sme-security<br>sa-sme-security<br>   |
-| Support                 | cs-sme-support<br>sa-sme-support<br>     |
+| SME Area Leads Group    | sme-leaders    |
+| AI                      | sme-ai         |
+| Security & Compliance   | sme-appsec     |
+| Dedicated               | sme-dedicated  |
+| Plan                    | sme-plan       |
+| CICD/Runner             | sme-ci         |
+| Metrics & Observability | sme-metrics    |
+
+**Vertical SME Google Groups**
+
+| Vertical           | SME Group           |
+|--------------------|---------------------|
+| Embedded DevOps    | sme-embedded-devops |
+| Financial Services | sme-finserv        |
+| Healthcare         | sme-healthcare     |
+| Telecommunications | sme-telco          |
 
 ## **SME Slack Channels** {#sme-slack}
 
@@ -43,11 +50,11 @@ To facilitate effective communication and collaboration between Subject Matter E
 
 ### SME Program Leadership Channel
 
-Purpose: Async Coordination among SME Area Lead on any changes or decisions made concerning the SME program.
+Purpose: Async Coordination among SME Area Leaders on any changes or decisions made concerning the SME program.
 
-| SME Area                       | Slack Channel That Currently Exists            | Slack Channels Created to be used Going Forward |
-|--------------------------------|------------------------------------------------|-------------------------------------------------|
-| SME Program Leadership Channel |  #sme-program-launch-planning<br> |  #sme-program-leaders<br>          |
+| SME Area                       |  Slack Channels        |
+|--------------------------------|------------------------|
+| SME Program Leadership Channel |  #sme-program-leaders  |
 
 ### Channel for all SMEs in All Areas
 
@@ -60,115 +67,97 @@ Purpose: This is the main channel for all SME-related discussions and announceme
 
 | SME Area | Slack Channel             |
 |----------|---------------------------|
-| All SMEs | cs-subject-matter-experts |
+| All SMEs | #subject-matter-experts   |
 
-### SME Area Slack Channels
+### SME Area Internal Slack Channels {#sme-internal}
 
-Purpose: These channels are mainly for SME Program Leads, SME Area Leads, SMEs and SME Associates. They are used for:
+Purpose: These SME Pod channels are mainly for SME Program Leads, SME Area Leads, SMEs and SME Associates. They are used for:
 
 * Asynchronous meetings
 * Discussions on architectural challenges
 * Competitive analysis
 * Identifying and addressing enablement needs
-
-| SME Area                  | Slack Channel That Currently Exists                 | Slack Channels Created to be used Going Forward |
-|---------------------------|-----------------------------------------------------|-------------------------------------------------|
-| AI                        | #sa-ai-sme-team<br>#cs-sme-ai                       | #sme-ai                                         |
-| App Security & Compliance | #appsec-sme-team<br>#cs-sme-security-compliance     | #sme-appsec                                     |
-| Dedicated                 |                                                     | #sme-dedicated                                  |
-| Plan                      | #cs-sme-plan                                        | #sme-plan                                       |
-| CICD/Runner               | #cs-sme-ci                                          | #sme-ci                                         |
-| Metrics & Observability   | #cs-sme-metrics                                     | #sme-metrics                                    |
-
-### SME Request Channels
-
-Purpose: These channels are used for:
-
-* Submitting SME requests for specific opportunities
-* Coordinating SME involvement in customer engagements
 * Tracking and managing SME requests
 
-| SME Area                  | Slack Channel          |
-|---------------------------|------------------------|
-| AI                        | #ai-sme-request        |
-| App Security & Compliance | #appsec-sme-request    |
-| Dedicated                 | #dedicated-sme-request |
-| Plan                      | #plan-sme-request      |
-| CICD/Runner               |                        |
-| Metrics & Observability   |                        |
+| SME Area                  | Slack Channel           |
+|---------------------------|-------------------------|
+| AI                        | #sme-ai-internal        |
+| Security & Compliance     | #sme-appsec-internal    |
+| Dedicated                 | #sme-dedicated-internal |
+| Plan                      | #sme-plan-internal      |
+| CICD/Runner               | #sme-ci-internal        |
+| Metrics & Observability   | #sme-metrics-internal   |
 
-### SME Field Technical Channels
+### SME Public Channels {#sme-channels}
 
-Purpose: These channels are open to all SMEs, Product Managers (PMs), and interested Solutions Architects (SAs) and Account Executives (AEs). They serve to:
+These channels are open to all SMEs, Product Managers (PMs), and all field members. They serve to:
 
-* A place for team members supporting customer evaluations of GitLab features.
+* A place for team members supporting customer evaluations of GitLab features
+* Submitting SME requests for specific opportunities
+* Coordinating SME involvement in customer engagements
+* Asking product questions pertaining to specific subject matters
 
-| SME Area                  | Slack Channel That Currently Exists |
-|---------------------------|-------------------------------------|
-| AI                        | #ai-field-technical                 |
-| App Security & Compliance | TBD                                 |
-| Dedicated                 | TBD                                 |
-| Plan                      | TBD                                 |
-| CICD/Runner               | TBD                                 |
-| Metrics & Observability   | TBD                                 |
+| SME Area                  | Slack Channel        |
+|---------------------------|----------------------|
+| AI                        | #sme-ai              |
+| App Security & Compliance | #sme-appsec          |
+| Dedicated                 | #sme-dedicated       |
+| Plan                      | #sme-plan            |
+| CICD/Runner               | #sme-ci              |
+| Metrics & Observability   | #sme-metrics         |
+
+**Vertical SME Public Slack Channels**
+
+| Vertical              | Slack Channel           |
+|-----------------------|-------------------------|
+| Embedded DevOps       | #sme-embedded-devops    |
+| Financial Services    | #v_finserve_global      |
+| Telecommunications    | #sme-telecommunications |
+| Healthcare            | #sme-healthcare         |
 
 ## SME Collaboration Projects
 
-Each SA Area Lead should set up SME Collaboration project (See [App Security Example)](https://gitlab.com/gitlab-com/customer-success/sa-sme-team-appsec-and-compliance)
+Each SME Area Lead should set up SME Collaboration project (See [AppSec Example)](https://gitlab.com/gitlab-com/customer-success/sa-sme-team-appsec-and-compliance)
 
-| SME Area                | Collaboration Project Link                                                                                   |
-|-------------------------|--------------------------------------------------------------------------------------------------------------|
-| AI                      |                                                                                                              |
-| App Security            | [App Security SME Project](https://gitlab.com/gitlab-com/customer-success/sa-sme-team-appsec-and-compliance) |
-| Dedicated               |                                                                                                              |
-| Plan                    |                                                                                                              |
-| CICD/Runner             |                                                                                                              |
-| Metrics & Observability | <br>                                                                                                         |
+| SME Area                    | Collaboration Project   |
+|-----------------------------|-------------------------|
+| SME Program Logistics       | [SME Program Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts) |
+| AI                          | [AI SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/ai-sme)                       |
+| AppSec                      | [App Security SME Project](https://gitlab.com/gitlab-com/customer-success/sa-sme-team-appsec-and-compliance)         |
+| Dedicated                   | [Dedicated SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/sa-sme-team-dedicated) |
+| Plan                        | [Plan SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/agile-planning-sme)         |
+| CICD/Runner                 | [CI/CD SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-sme-ci)                    |
+| Metrics & Observability     | [Metrics SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/metrics-analytics-and-observability-sme)  |
+| Aerospace Vertical          | [Aerospace SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/aerospace-sme)        |
+| Automotive Vertical         | [Automotive SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/automotive-sme)|
+| Embedded DevOps Vertical    | [Embedded DevOps SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/embedded-devops-sme) |
+| Healthcare Vertical         | [Healthcare SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/healthcare-sme) |
+| Financial Services Vertical | [Financial Services SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/financial-services-sme) |
+| Telecommunications Vertical | [Telecommunications SME PRoject](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/telecommunications-sme)|
 
-### SME Metrics (TBD)
+### SME Metrics {#sme-metrics}
 
 To effectively measure the impact and success of the SME program, we will track the following metrics:
 
 1. Technical Win Rate:
-   * Metric: Percentage of wins in opportunities with SME involvement
+   * Metric: Percentage of wins in opportunities with SME involvement using SA Activity type SA Assistance - Subject Matter
    * Calculation: (Number of won opportunities with SME engagement / Total number of opportunities with SME engagement) * 100
    * Goal: Increase win rate by 10% compared to baseline within 12 months
-2. Product Feedback Loop Effectiveness:
-   * Metric: Number of actionable feedback items provided to and received from product teams
-   * Calculation: Track feedback items submitted by SMEs and product updates based on SME input
-   * Goal: Implement at least 5 product improvements based on SME feedback per quarter
-3. Pipeline Growth:
-   * Metric: Percentage increase in pipeline value for opportunities with SME involvement
-   * Calculation: ((Current quarter pipeline with SME involvement - Previous quarter pipeline with SME involvement) / Previous quarter pipeline with SME involvement) * 100
-   * Goal: 15% quarter-over-quarter growth in pipeline value
-4. Opportunity Stage Progression:
-   * Metric: Percentage of opportunities moving from Stage 2 to Stage 3 and Stage 3 to Stage 4 with SME involvement
-   * Calculation: (Number of opportunities progressing to next stage / Total number of opportunities at current stage) * 100
-   * Goal: 25% improvement in stage progression rate compared to non-SME involved opportunities
-5. SME Engagement Efficiency:
-   * Metric: Average time to SME assignment and initial engagement
-   * Calculation: Sum of (SME assignment date - Request submission date) / Total number of SME requests
-   * Goal: Reduce average time to SME engagement by 20% within 6 months
-6. Customer Satisfaction:
-   * Metric: Net Promoter Score (NPS) for opportunities with SME involvement
-   * Calculation: Standard NPS calculation based on customer surveys
-   * Goal: Achieve and maintain an NPS of 50 or higher for SME-involved opportunities
-7. Knowledge Transfer Effectiveness:
-   * Metric: Number of SME-led training sessions and knowledge base articles created
-   * Calculation: Sum of training sessions conducted and articles published by SMEs
-   * Goal: Minimum of 4 training sessions and 10 knowledge base articles per SME per quarter
-8. Stack Overflow Engagement:
+2. Knowledge Transfer Effectiveness:
+   * Metric: Number of SME-led training sessions, knowledge base articles created and shared, and training session survey results
+   * Calculation: Sum of training sessions conducted, articles published by SMEs, and session survey results average rating
+   * Goal: Minimum of 4 training sessions and 10 knowledge base articles per quarter
+3. Stack Overflow Engagement:
    * Metric: Response rate and quality of SME answers on Stack Overflow
    * Calculation: (Number of SME responses / Total number of relevant questions) * 100; Average upvotes per SME answer
    * Goal: 90% response rate to relevant questions; Average of 5 upvotes per SME answer
 
 Reporting and Analysis:
 
-* Generate monthly reports on these metrics to track progress and identify trends
-* Conduct quarterly reviews to assess SME program effectiveness and make necessary adjustments
-* Use data visualization tools to create dashboards for easy monitoring of key metrics
+* Generate quarterly reports to track progress and identify trends using visualization tools
+* Based on reports and survey data, conduct quarterly reviews to assess SME program effectiveness and make necessary adjustments
 
-By consistently tracking and analyzing these metrics, we can ensure the SME program's continuous improvement and demonstrate its value to the organization.
+By consistently tracking and analyzing these metrics, we can ensure the SME program's continuous improvement and show its value to the organization.
 
 ## New SME Area of Expertise Process
 
@@ -180,7 +169,7 @@ These are the differences between SMEs Areas of Interest and Formal SME Programs
 |---|---|---|
 | <br><br> | 1. CICD/ Runners<br>2. Metrics & Observability<br>3. Embedded Systems | 1. AI<br>2. App Security<br>3. Dedicated<br>4. Plan |
 | Leadership Structure | No official SME Area Leader, or SMEs.<br>Can be a pool of interested folks of SME Associates.<br>One person driving program | [x] SME Area Leads<br>[x] SMEs<br>[x] SME Associates |
-| Operations | [ ] Formal List of SA and CS SMEs<br>[x] List of SME Associates or Interested Folks<br>[ ] SME Google Groups<br>[x] Slack Channels - General<br>[ ] Slack Channel - Request a SME<br>[ ] Collab Project<br>[ ] StackOverFlow | [x] Formal List of SA and CS SMEs<br>[x] List of SME Associates<br>[x] SME Google Groups<br>[x] Slack Channels - General<br>[x] Slack Channel - Request a SME<br>[x] Collab Project<br>[x] StackOverFlow |
+| Operations | [ ] Formal List of SA and CS SMEs<br>[x] List of SME Associates or Interested Folks<br>[ ] SME Google Groups<br>[x] Slack Channels - General<br>[ ] Slack Channel - Request a SME<br>[ ] Collaboration Project<br>[ ] StackOverFlow | [x] Formal List of SA and CS SMEs<br>[x] List of SME Associates<br>[x] SME Google Groups<br>[x] Slack Channels - General<br>[x] Slack Channel - Request a SME<br>[x] Collaboration Project<br>[x] StackOverFlow |
 | Cadences | [ ] ARR Driver<br>[ ] SME Area Leads Meetings<br>[x] SME Area Pod Cadences<br>[ ] PM/ SME Area Cadences<br>[x] PM Roadmaps<br>[x] Technical Skills Exchange<br>Meetings can be in the form of trainings, async, office hours etc<br> | [x] ARR Driver<br>[x] SME Area Leads Meetings<br>[x] SME Area Pod Cadences<br>[x] PM/ SME Area Cadences<br>[x] PM Roadmaps<br>[x] Technical Skills Exchange |
 | Process to Request a SME | No | Yes |
 | Customer Feedback Mechanisms | No | Yes (with Issue Boards etc) |
@@ -192,12 +181,16 @@ Once a SMEs Ares of Interest becomes a formal SME Programs These are the tasks n
 * Who decides on new SME Area
 * Rollout to SA and CS Community
 * Enrolling PMs
-* Maintain List of SA SME Participants - Confirm List of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list) and [CS SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on)
+* Maintain List of SA SME Participants - Confirm List of [SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on)
 * Maintain list of potential SMEs (SME Associates) as a pool for each area
 * Create the necessary SME google groups for calendar purposes
+   1. Open an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) with IT to have the Google Group created.
+   2. Use the same naming convention as other SME areas, provide the DRI's as Group Owner and Group Manager. You can clone this [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/34007) as an example.
+   3. Once the Google Group has been created by IT the group owner/manager can navigate to the Google Groups page to add SME's as group members.
 * Set up Stack OverFlow with SMEs to answer questions.
 * Set up SME Collaboration project
-* Set up SME Google Groups
-* Set up SME Slack Channels for all SME Areas
-* Set up SME Slack Channels for SME Requests
+   1. Navigate to the [SME Subgroup](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts)
+   2. Click **New Project**
+   3. Create your project using the same naming nomenclature as the other projects in the subgroup
+* Set up both a public SME Slack Channel for the field and a private internal channel for the SME pod using the naming conventions outlined above (example *#sme-(area)* and *#sme-(area)-internal*)
 * Update Handbook on SME Operations

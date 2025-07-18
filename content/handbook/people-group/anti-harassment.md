@@ -9,7 +9,7 @@ Per the stated [Roles & Responsibilities](/handbook/people-group/anti-harassment
 
 ## Introduction
 
-Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values](/handbook/values/), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) immediately for thorough investigation.
+Everyone at GitLab has a responsibility to prevent and stop harassment. Working remotely means that the majority of our interactions are by video call or written communication, such as email or shared documents. The exceptions to this are team summits, attending conferences together, and local team meetups. No matter the method of communication, it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times. Team member behavior is not limited to internal interactions with each other.  Our Anti-harassment policy applies to GitLab team members interaction with customers, vendors and community members. Should you become aware of or witness any form of harassment or behavior that violates this policy or our [company values](/handbook/values/), please report the incident directly to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) immediately for thorough investigation.
 
 ## Perspective
 
@@ -59,7 +59,7 @@ We do not tolerate discrimination against anyone, including team members, custom
 
 Report suspected discrimination right away and never retaliate against anyone who raises a good faith belief that unlawful discrimination has occurred.
 
-If you believe you have been discriminated against or witnessed discriminatory practices, please contact the Chief People Officer, a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division), or the [Team Member Relations Specialist](/handbook/people-group/team-member-relations/) to initiate an investigation into the behavior. GitLab has also engaged Lighthouse Services to provide anonymous reporting methods, as described in the [How to Report Violations](/handbook/people-group/#how-to-report-violations) section.
+If you believe you have been discriminated against or witnessed discriminatory practices, please contact the Chief People Officer, a [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments), or the [Team Member Relations Specialist](/handbook/people-group/team-member-relations/) to initiate an investigation into the behavior. GitLab has also engaged Lighthouse Services to provide anonymous reporting methods, as described in the [How to Report Violations](/handbook/people-group/#how-to-report-violations) section.
 
 ### Bullying / Workplace Violence
 
@@ -67,7 +67,7 @@ GitLab does not tolerate violent acts or threats of violence. The company will n
 
 ### Retaliation
 
-Retaliation of any sort for filing a claim of harassment will not be tolerated. If you believe you have been retaliated against, please contact the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns) or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) to initiate an investigation.
+Retaliation of any sort for filing a claim of harassment will not be tolerated. If you believe you have been retaliated against, please contact the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns) or a [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) to initiate an investigation.
 
 ## Speaking up during a public situation
 
@@ -82,20 +82,20 @@ This does not ensure there will be no consequences. However, it will greatly red
 If a threat is made against you or someone else that makes you or another team member question their safety due to an issue, merge request, email or other work related matters do not hesitate to initiate the following process:
 
 1. Contact local law enforcement. Note the proper number to contact in your locality and whether the emergency, or non-emergency number should be called.
-1. Notify the People Connect Team via a HelpLab request. A private slack channel may then be opened with your People Business Partner, People Connect Team member, Team Member Relations, Manager, and the security team helping with the situation.
+1. Notify the People Operations Team via a HelpLab request. A private slack channel may then be opened with your People Business Partner, People Operations Team member, Team Member Relations, Manager, and the security team helping with the situation.
 1. The following steps may be taken based on the threat:
     - Internal threat assessment
     - Temporary accommodation (friends, family, hotel, etc.)
     - Transportation to alternate location (stay with family/friends for example)
     - Time off from work/LOA
     - Personal Security Detail
-1. The above can be triggered by the People Connect Team, Manager, Team Member Relations, or People Business Partner based on their knowledge of the threat.  Whenever it is safe to do so, please go through the normal permissions work flow, however if a threat is credible and potentially imminent, immediate action may be taken before the approvals have been put in place.
+1. The above can be triggered by the People Operations Team, Manager, Team Member Relations, or People Business Partner based on their knowledge of the threat.  Whenever it is safe to do so, please go through the normal permissions work flow, however if a threat is credible and potentially imminent, immediate action may be taken before the approvals have been put in place.
 1. The Sr. Director of Security will advise when it is best to halt any of the above tasks.
 
 ## Reporting Alleged Harassment
 
 1. Any individual who believes they have been the target of harassment of any kind is encouraged to immediately and directly address the harasser, letting them know that their behavior is unwelcome, offensive, and must stop immediately.
-1. If they do not wish to address the harasser directly or the behavior doesn't cease, they should report the misconduct to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns) or a [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+1. If they do not wish to address the harasser directly or the behavior doesn't cease, they should report the misconduct to the Chief People Officer, [Team Member Relations](/handbook/people-group/team-member-relations/#discussing-private-concerns) or a [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 1. Once reported, an impartial investigation will be conducted by a People Business Partner or by an independent third party, depending on the severity and circumstances of the complaint.
 1. Individual(s) reporting an incident or pattern of behavior will be asked to provide a written account, including any action(s) causing concern, the dates and times such actions occurred, and the names of anyone involved, including the participants and witnesses. All complaints or concerns of alleged harassment or discrimination will be taken seriously and handled confidentially.
 
@@ -167,7 +167,7 @@ Serious cases, including any criminal offence.
 
 ## Training & Guidance
 
-Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. The courses and the related enrollment logic can be found [here](https://handbook/legal/legalops/navex/#courses). This training will be provided on a regular cadence, consistent with local requirements, and/or when new legal requirements are introduced. 
+Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. The courses and the related enrollment logic can be found [here](/handbook/legal/legalops/navex/#courses). This training will be provided on a regular cadence, consistent with local requirements, and/or when new legal requirements are introduced.
 
 ## Country & US State-Specific Requirements
 
@@ -345,7 +345,7 @@ If the a team member who resides in Vermont is dissatisfied with this employer's
 We are continuously gathering country specific references to review regulation and obtain guidance on the management of harassment or misconduct at work. Here are a few authorities we referred to in the creation of this policy:
 
 - [Equal Employer Opportunity Commission (EEOC)](https://www.eeoc.gov/eeoc-guidance)
-  - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
+  - Contact [EEOC](https://www.eeoc.gov/filing-charge-discrimination): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
 - [Society of Human Resource Management (SHRM)](https://www.shrm.org/topics-tools#verticalTabs-39c94d1460-item-e2208bcacd-tab)
 
 ## Further Guidance (Country-Specific)

@@ -24,7 +24,7 @@ twitter_creator: "@gitlab"
 
 * For about.gitlab.com pages: The H1/page title will be the slug of the URL
 * The H1 should be concise and focus on keywords for the campaign
-* For Marketo landing pages, follow the landing page naming convention.
+* For Marketo and PathFactory landing pages, follow the landing page naming convention. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
 
 ## Resources and related issues
 
@@ -48,16 +48,22 @@ The following section point to more detailed processes for Marketo landing pages
 
 > To build the most advanced and efficient landing page processes in Marketo, we utilize `My Tokens` in our Marketo program templates along with character limits based on conversion best practices to write copy.
 
+**Graphics**  
+Our current Marketo landing page template uses a charcoal background with a small image on the right side of the header. A custom image can be used by putting the link to the design studio image in the `Hero1 Image` variable when editing the landing page. You can change the background to white by entering `highlight-white` in the `Hero1 Color` variable.
+
+If you require a custom header (one that cannot use the charcoal or white background), the approximate dimensions required are `1920 x 600 px`; the graphic dimensions are 500 x 250 px, centered vertically and with 100 px padding along the right edge. You will put the link to the design studio image in the `Nav Background Image Path` variable. There should be no entry in the `Hero1 Image` variable. To remove the black line below the custom image, change `Hero1 Color` to "highlight-white".
+
 ### Marketo landing page instructions, character limits, and workback timelines
 
-_Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).*
+Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).
 
 * Gated content (in-house content, analyst content, and competitive content)
+  * [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787)
   * [Handbook page to reference process and details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
   * [Workback schedule calculator](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1648326617)
   * [Character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
 * Webcast registration page
-  * [Handbook page to reference process and details](/handbook/marketing/virtual-events/webcasts/#step-3c-create-the-landing-page)
+  * [Handbook page to reference process and details](/handbook/marketing/virtual-events/webcasts/)
   * [Workback schedule calculator](https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=666473040)
   * [Character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
 * Event meeting request or general info pages
@@ -87,7 +93,7 @@ _Curious how to estimate when a landing page due date should be set? We've tried
 
 * Event landing pages (events yml) - [See Events Handbook Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) (for now)
 * Gated content landing pages - [See Gated Content Handbook Page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
-* Webcast landing pages - [See Webcast Handbook Page](/handbook/marketing/virtual-events/webcasts/#step-3c-create-the-landing-page)
+* Webcast landing pages - [See Webcast Handbook Page](/handbook/marketing/virtual-events/webcasts/)
 
 ## Landing page naming convention
 
@@ -95,7 +101,7 @@ Marketo landing pages should use the following naming convention:
 
 * `**type-monthdd-shortcampaignname-region**` (no region for global)
 * For joint partner events, include `partner` in the short name
-* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off.
+* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
 
 The 'type' is outlined in the table below. If your type is not listed, please use `program-`.
 
@@ -109,13 +115,13 @@ This standardizes our page names for use in reporting and systems such as our AB
 | Workshops | /workshop-  |
 | Owned, in-person events | /event- |
 | Owned, virtual events (that don't fall under webcasts - like wine tastings, cooking, etc) | /event- |
-| Gated content - ebook | /ebook- |
-| Gated content - demo | /demo- |
+| Gated content - ebook | /ebook_ |
+| Gated content - demo | /demo_ |
 | Gated content - video | /video- |
-| Gated content - all others | /resources- |
+| Gated content - all others | /resources_ |
 | Meeting requests | /event- |
 | Executive roundtables | /event- |
-| Survey | /survey- |
+| Survey | /survey_ |
 | Interest forms | /interest- |
 |Contact us forms (localized, for example) | /contact- |
 | Direct Mail | /direct- |
@@ -140,3 +146,13 @@ This standardizes our page names for use in reporting and systems such as our AB
 * Check that [conversion best practices](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-conversion-best-practices) are met
 * Fill out the form and ensure all flow steps in Marketo trigger appropriately (i.e. you receive confirmation email, interesting moment applied, program membership updated, alert sent if applicable, etc.)
 * Confirm correct location is arrived at post-form submit (i.e. correct form success message or a resulting thank you page)
+
+## Reporting: Why URL Structure Is Important
+
+### Automated Content Reporting
+
+The [Content Performance dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ContentPerformance/GatedContent) in Tableau reports on web and pipeline metrics from multiple sources: Google Analytics, Marketo Measure (Bizible), and Salesforce. A single piece of content may have several associated web pages & Salesforce campaigns, including Marketo form pages and multiple PathFactory tracks. A consistent URL structure enables the dashboard to automatically map pages across page.gitlab.com, about.gitlab.com, & learn.gitlab.com as well as Content Syndication. This process lets the dashboard accurately show Content Name and Type variables. To ensure your page and content are automatically captured in Tableau reporting, please use the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787).
+
+### Manual Process
+
+For legacy content where URLs don't follow the current structure, the Marketing Analytics team manually maps content, web, and campaign variables using this [content_keystone.yaml](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/gitlab_data_yaml/content_keystone.yaml) file.

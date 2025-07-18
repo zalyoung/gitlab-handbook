@@ -17,11 +17,11 @@ GitLab is the leading DevSecOps Platform that empowers organizations to deliver 
 
 As the GitLab Marketing team puts customers at the center of everything we do, the marketing strategy aligns with the customer journey. The journey's purpose is to provide a clear and cohesive experience to a prospect/customer from the minute they become **Aware** of GitLab, to **Considering** the platform and **Converting** into a happy customer, and then of course **Expanding** over time and becoming an **Evangelist**.
 
-![marketing customer journey](mktgcustomerjourney.png)
+![marketing customer journey](/images/marketing/mktgcustomerjourney.png)
 
 Each stage has a purpose which is the guiding indicator for the marketing team to measure our success. Everything the team plans and executes in the short and long term will revolve around the customer journey, and we will also measure our success along each step to hold ourselves accountable.
 
-![marketing customer journey stages](mktgcustomerjourneystages1.png)
+![marketing customer journey stages](/images/marketing/mktgcustomerjourneystages1.png)
 
 ## Marketing Strategy
 
@@ -29,7 +29,7 @@ Our FY25 Marketing Strategy and Plan can be found in [the internal handbook](htt
 
 ## Marketing OKRs
 
-Each quarter, the Marketing team creates OKRs (Objectives and Key Results) that cascade from the [CEO's OKRs](/handbook/company/okrs/#most-recent-okrs).
+Each quarter, the Marketing team creates [OKRs (Objectives and Key Results)](/handbook/company/okrs/).
 
 Each department within the Marketing team manages their own cascading OKRs. Team members can access the [filtered OKR search](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=division%3A%3AMarketing&label_name%5B%5D=OKR&search=marketing&search=okr&first_page_size=20).
 
@@ -101,6 +101,7 @@ Weekly Direct Reports Meetings (Each manager with their direct reports)
 | External PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities | `#external-comms` | [Corporate Communications](/handbook/marketing/corporate-communications/) |
 | Anything regarding the marketing website and website development | `#digital-experience-team` | [Digital experience](/handbook/marketing/digital-experience/) |
 | Questions about tools in the [marketing tech stack](/handbook/marketing/marketing-operations/), evaluating new marketing tools, marketing system process improvement | `#mktgops` | Marketing Operations |
+| Rules on [legally compliant language](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language) for marketing communications (_internal only_) | `#mktgops` | Marketing Ops |
 | Salesforce | `#sfdc-users` | Sales Operations (not marketing) |
 
 A complete list of marketing slack channels can be found [here](/handbook/marketing/#marketing-slack-channels).
@@ -186,12 +187,12 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 - `#digital-experience-team`: Channel for connecting with the [website development and design teams](/handbook/marketing/digital-experience/)
 - `#digital-marketing`: Channel for all advertising, website analytic and general digital programs.
 - `#external-comms`: To collaborate with our external PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities.
-- `#fieldmarketing`: Discuss, ask questions, stay up-to-date on events that are being organized by Field Marketing
 - `#marketing-design`: Discuss, feedback, and share ideas on [Marketing Design](/handbook/marketing/brand-and-product-marketing/design/) here.
 - `#marketing-campaigns`: Discuss, ask questions, stay up-to-date on [campaigns](/handbook/marketing/demand-generation/campaigns/) and events that are being organized by the Marketing Program Managers
 - `#mktgops`: [Marketing Ops](/handbook/marketing/marketing-operations/) communication channel for questions and project updates
 - `mktg-budget-holders`: (Private) Discussion among all Marketing team members with budget responsibility
 - `#product-marketing`: Discuss, feedback related to product news, features and vision
+- `#regional-partner-marketing`: Discuss, ask questions, stay up-to-date on events that are being organized by Regional Field Marketing, and Channel Marketing
 - `#remote`: Discuss and share impressions on remote work experience, playbook and strategy.
 - `#sales_dev_global`: Place for the sales development team to brainstorm amd share ideas. Please refer to the [regional Slack channel list](/handbook/marketing/sales-development/#reaching-the-sales-development-organization-internally) to reach SDR/BDR teams in AMER, EMEA, APAC.
 - `#sfdc-users`: Having issues with SFDC? Ask here first.
@@ -325,7 +326,7 @@ Handbook Links
 - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Community Programs](/handbook/marketing/developer-relations/community-programs/)
   - [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
-  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/opensource-program/)
+  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/open-source-program/)
 
 ### Corporate Communications
 
@@ -355,7 +356,7 @@ The marketing team utilizes a [single all-marketing calendar](https://internal.g
 
 Please do not filter the entire doc. Instead, you may use pre-set filter views (click down arrow selector next to the filter icon on the bookmark bar) to see activities grouped by GTM Motion, segment, region, team, language, and more.
 
-*If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a similar filter view, and clicking on the top right gear icon, then selecting `Duplicate`.*
+_If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a similar filter view, and clicking on the top right gear icon, then selecting `Duplicate`._
 
 For more information about adding events to All-Marketing SSoT Calendar, please [click here](/handbook/marketing/marketing-team-processes/#marketing-calendar-inputs).
 

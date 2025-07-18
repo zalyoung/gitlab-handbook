@@ -43,7 +43,7 @@ GitLab is the DevOps Platform, made possible by contributions from the community
 
 * [GitLab's strategy & open core model](/handbook/company/stewardship/#how-open-source-benefits-from-open-core)
 * Dual flywheel strategy and the value of community
-  * [Dual Flywheel strategy](/handbook/company/strategy/#dual-flywheels)
+  * Dual Flywheel strategy
   * [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr)
   * [Percent of MRs from Community](/handbook/engineering/infrastructure/performance-indicators/#percent-of-mrs-from-community)
   * [Unique Wider Community Contributors Per Month](/handbook/engineering/infrastructure/performance-indicators/#unique-wider-community-contributors-per-month)
@@ -60,12 +60,10 @@ Ensuring everyone can contribute requires a conscious effort to ensure the commu
 #### Community Programs
 
 * Free community programs:
-  * [OSS](/handbook/marketing/developer-relations/community-programs/opensource-program/)
+  * [OSS](/handbook/marketing/developer-relations/community-programs/open-source-program/)
   * [Developer Evangelism](/handbook/marketing/developer-relations/developer-advocacy/)
   * [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
   * [StartUps Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
-* Meetups and evangelism
-  * [Evangelist Program](/handbook/marketing/developer-relations/evangelist-program/)
 * [GitLab Diversity Scholarship program](https://about.gitlab.com/community/sponsorship/)
 
 #### Education Program at GitLab
@@ -81,9 +79,9 @@ Building an inclusive and transparent community is a top-most priority for the C
 * [Fostering DIB in our community](/handbook/values/#diversity-inclusion)
 * [Transparency and openness](/handbook/values/#transparency)
 * [Kubernetes Community Values](https://www.kubernetes.dev/community/values/#inclusive-is-better-than-exclusive)
-* [Building Leadership in an Open SOurce Community](https://www.linuxfoundation.org/resources/open-source-guides/building-leadership-in-an-open-source-community/)
-* [Participating in Open Source Communities](https://www.linuxfoundation.org/resources/open-source-guides/participating-in-open-source-communities/)
-* [Measuring your Open source Program success](https://www.linuxfoundation.org/tools/tools-managing-open-source-programs/)
+* [Building Leadership in an Open SOurce Community](https://www.linuxfoundation.org/resources/open-source-guides/building-leadership-in-an-open-source-community)
+* [Participating in Open Source Communities](https://www.linuxfoundation.org/resources/open-source-guides/participating-in-open-source-communities)
+* [Measuring your Open source Program success](https://www.linuxfoundation.org/resources/open-source-guides/tools-managing-open-source-programs)
 * [The Value of Open Source](https://www.redhat.com/en/blog/value-open-source)
 * [Mozilla Community Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
 

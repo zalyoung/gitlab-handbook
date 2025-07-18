@@ -165,13 +165,14 @@ sqlfluff fix models/path/to/file/file-to-lint.sql  # lint the file and apply fix
 
 Here is the agenda from a [dbt working session](https://docs.google.com/document/d/1Fqp-IsJDTNf6o8Veyo31CJSRk7yBe8_dhEkQc9a4XC8/edit?usp=sharing)
 with the Data team and functional analysts. You can view the [recording here](https://youtu.be/MSOhgHVjB90),
-the live demo of updating and testing a model starts at ~30:00.
+the live demo of updating and testing a model starts at ~30:00. (Agenda and recording are
+internal only).
 
 ## Updating dbt documentation
 
 There is one main file used to generate dbt Docs: schema.yml (ex:
 [`transform/snowflake-dbt/models/common_mart/schema.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart/schema.yml)).
-You can read the dbt docs on dbt Docs [here](https://docs.getdbt.com/docs/collaborate/documentation) 🐢️🐢️🐢️.
+You can read the dbt docs on dbt Docs [here](https://docs.getdbt.com/docs/build/documentation) 🐢️🐢️🐢️.
 
 **TL; DR:** Our dbt docs work by setting the model description in `schema_name.md`, setting
 the column definitions in `common_columns.md`, then referencing those files in `schema.yml`.

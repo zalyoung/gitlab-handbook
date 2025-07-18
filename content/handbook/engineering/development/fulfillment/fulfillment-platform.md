@@ -17,7 +17,7 @@ The Platform group manages the [Platform category](/handbook/product/categories/
 
 ## Stable counterparts
 
-{{< stable-counterparts manager="Manager, Fulfillment:Fulfillment Platform" role="(?i)Fulfillment Platform|(?i)Fulfillment section" >}}
+{{< engineering/stable-counterparts manager="Manager, Fulfillment:Fulfillment Platform" role="(?i)Fulfillment Platform|(?i)Fulfillment section" >}}
 
 ## Performance indicators
 
@@ -37,13 +37,13 @@ The Platform group manages the [Platform category](/handbook/product/categories/
   {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
 {{< /tableau >}}
 
-You can find the centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
+You can find the centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 For Product Performance Indicators please visit the [internal handbook](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/).
 
 ## OKRs
 
-The Engineering Manager will report on the progress of projects rolling up to CEO [OKRs](/handbook/company/okrs/) every week. Current OKRs: [FY25-Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573)
+The Engineering Manager will report on the progress of projects rolling up to higher level [OKRs](/handbook/company/okrs/) every week. Current OKRs: [FY25-Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573)
 
 ## Architecture review sync meeting
 

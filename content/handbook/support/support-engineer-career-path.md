@@ -27,6 +27,25 @@ Familiarize yourself with what it means to plan your career path, and how leader
 - Review and use the templates and resources available in the [Career Development, Promotion, Performance, etc. Docs Templates folder](https://drive.google.com/drive/search?role=writer&q=type:folder%20title:%22Career%20Development,%20Promotion,%20Performance%20etc%20Docs%20and%20Templates%22%20in:0AEeARMMpt4eDUk9PVA) to track your performance, career development, and path to promotion.
 - As you begin to track and document your path to promotion document, use meaningful examples that highlight the relevant competencies and the type of work the promotion document asks for. See each section below for some specific conditions.
 
+## Path to Promotion: Intermediate Support Engineering
+
+An Intermediate-level Support engineer uses strong communication techniques to understand customer situations, manage customer expectations, produce high quality ticket resolutions and create a consistently excellent customer experience. They demonstrate a personal growth mindset by initiating pairings, completing learning modules, and building product and troubleshooting knowledge. 
+
+### Considerations and Recommendations
+
+Recommendations to explore this path:
+
+- Read about the [Support Engineer role criteria](/job-families/engineering/support-engineer/#support-engineer).
+- Read about the [Intermediate level competencies and framework requirements](/handbook/engineering/careers/matrix/support/intermediate/).
+- Watch or listen to the [Ask Us Anything - Being/Becoming a Senior Support Engineer sesssions from 2021-12](https://www.youtube.com/watch?v=jwjPvzz_f5g&list=PL05JrBw4t0KrQVEIzmhhQMR68JGBl3dDy).
+- Watch or listen to the [Async Staff Support Engineer AMA 2024](https://www.youtube.com/playlist?list=PL05JrBw4t0KrWFkNej77kXspfjem_UA1J).
+
+Considerations when building your path:
+
+- You consistently collaborate with the team and resolve tickets via email and customer calls.
+- You create and update documentation based on customer interactions.
+- You are willing to stretch yourself with new challenges, and learn to improve from setbacks versus settle for mediocrity.
+
 ## Path to Promotion: Senior Support Engineering
 
 A Senior-level Support engineer is a natural leader who has championed multiple areas of technical skillsets required to resolve both intermediate and complex customer issues. Senior engineers are direct mentors of Support Engineers, and extend their contributions to other areas, such as contributing to documentation, bug fixes, workflow improvements, or engaging as the next point of escalation for technical issues.
@@ -38,6 +57,7 @@ Recommendations to explore this path:
 - Read about the [Senior Support Engineer role criteria](/job-families/engineering/support-engineer/#senior-support-engineer).
 - Read about the [Senior level competencies and framework requirements](/handbook/engineering/careers/matrix/support/senior/).
 - Watch or listen to the [Ask Us Anything - Being/Becoming a Senior Support Engineer sesssions from 2021-12](https://www.youtube.com/watch?v=jwjPvzz_f5g&list=PL05JrBw4t0KrQVEIzmhhQMR68JGBl3dDy).
+- Watch or listen to the [Async Staff Support Engineer AMA 2024](https://www.youtube.com/playlist?list=PL05JrBw4t0KrWFkNej77kXspfjem_UA1J).
 
 Considerations when building your path:
 
@@ -83,10 +103,10 @@ Recommendations to explore this path:
 - Read about [what you can expect in a Support Engineering Manager role](/job-families/engineering/support-management/#what-you-can-expect-in-a-manager-support-engineering-role-at-gitlab).
 - Read about the [Support Engineering Manager Responsibilities](/handbook/support/managers/manager-responsibilities).
 - Read about why [candidates should apply for a Support Manager role](/job-families/engineering/support-management/#you-should-apply-if) to understand general expectations of this role.
-- Read [Transitioning from Individual Contributor to Manager](/handbook/engineering/development/dev/training/ic-to-manager/).
+- Read [Transitioning from Individual Contributor to Manager](/handbook/engineering/training/ic-to-manager/).
 - Read about [Individual Contribution vs. Management](/handbook/engineering/careers/#individual-contribution-vs-management) and [Trying the Management Track](/handbook/engineering/careers/#trying-the-management-track).
 - Read about the [Interim Manager](/handbook/engineering/careers/#interim-manager) role.
-- Read about [Elevate](/handbook/people-group/learning-and-development/elevate/) and consider participating.
+- Read about [Elevate](/handbook/people-group/learning-and-development/elevate-programs/) and consider participating.
 
 Considerations when building your path:
 

@@ -12,10 +12,17 @@ description: Information and guidelines about community pairing sessions
 The community pairing sessions are community-driven sessions, usually 1 hour long,
 that anyone from the GitLab community (team members and not) can attend. We cover:
 
-- Live coding (may be the GitLab project, a satellite project, or something loosely related,
-  and may be backend, frontend, database, documentation, etc.).
-- Triaging issues.
-- Brainstorming ideas.
+- How to contribute to GitLab   
+- [GitLab Development Kit](https://gitlab.com/gitlab-community/gitlab-org/gitlab-development-kit#installation) (GDK) set up   
+- Live coding including but not limited to
+  - the [GitLab](https://gitlab.com/gitlab-community/gitlab) project
+  - a satellite/related project
+  - Backend
+  - Frontend
+  - Database
+  - Documentation
+- How to triage issues
+- Brainstorming
 
 These sessions are livestreamed on [our Community Coders YouTube channel](https://www.youtube.com/@communitycodersforgitlab)
 and are thought to be a friendly and informal environment, where everyone is free
@@ -23,7 +30,13 @@ to express their thoughts (in accordance to the [GitLab Code of Conduct](https:/
 
 ## When do they happen?
 
-Community pairing sessions usually happen every Tuesday at 10:15 UTC.
+We typically have two weekly pairing sessions. 
+
+|Day | Local time | UTC Time |
+| --------- | ----------------- | ----------- |
+| Tuesdays  | 12:15 PM CET/CEST | 10:15/11:15 |
+| Thursdays | 3:00 PM EDT/EST   | 19:00/20:00 |
+
 On rare occasions, a scheduled session might be skipped if none of the [organizers](#organizers)
 can attend.
 Keep an eye on the `#contribute` channel of the GitLab [Discord server](https://discord.gg/gitlab)
@@ -67,7 +80,7 @@ the organizers must attend in order to be able to livestream to [our YouTube cha
 | Organizer       | GitLab handle         | Discord handle  |
 | ---             | ---                   | ---             |
 | Lee Tickett     | `@leetickett-gitlab`  | `@leetickett`   |
+| Arianna Haradon | `@aharadon`           | `@aharadon`     |
 | Raimund Hook    | `@stingrayza`         | `@stingrayza`   |
-| James Rushford  | `@jrushford`          | `@jrushford`    |
-| Andrew Smith    | `@espadav8`           | `@espadav8`     |
+| Daniel Murphy   | `@daniel-murphy`      | `@daniel-murphy`|
 | Marco Zille     | `@zillemarco`         | `@zillemarco`   |

@@ -85,10 +85,10 @@ Our Gente members are proud to be contributing externally to the following chari
 Learn more about the Gente community
 
 - [Renaming TMRG issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/40)
-- [Why Latinx?](https://www.merriam-webster.com/words-at-play/word-history-latinx)
+- [Why Latinx?](https://www.merriam-webster.com/wordplay/word-history-latinx)
 - [LTX Fest On-Demand](https://my.ltxconnect.org/ltx-fest-on-demand/) – The largest gathering of Latinx folks in tech, advocacy, and entrepreneurship.
 - Contribute to GitLab by [translating GitLab](https://translate.gitlab.com/) the product to promote inclusivity.
-- [LinkedIn Learning - Leadership in Tech](https://www.linkedin.com/learning/leadership-in-tech/) – Erica Lockheimer successfully rose through the ranks at LinkedIn to become a VP of engineering. In this course, she interviews other leaders—all of whom inspired her own professional journey—about what it takes to carve out a lasting career in the lively, challenging world of tech.
+- [LinkedIn Learning - Leadership in Tech](https://www.linkedin.com/learning/leadership-in-tech) – Erica Lockheimer successfully rose through the ranks at LinkedIn to become a VP of engineering. In this course, she interviews other leaders—all of whom inspired her own professional journey—about what it takes to carve out a lasting career in the lively, challenging world of tech.
 
 ## Learning & Development Resources
 
@@ -96,3 +96,12 @@ Learn more about the Gente community
 2. [Growth and Development](/handbook/people-group/learning-and-development/growth-and-development/) - Access external resources to develop their career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year. Could include Academic Study, 4th Trimester Coaching, Professional Coaching, English Language Courses.
 3. [Mentoring at GitLab](/handbook/people-group/learning-and-development/mentor/) - Mentorship is an opportunity to learn from personal experience, background, and perspective. Mentorship builds trust, provides a safe space to make mistakes, and encourages growth for both the mentor and mentee. Reach out in the `#mentoring` Slack channel with questions or feedback.
 4. [GitLab Company-Wide Mentorship Program](/handbook/people-group/learning-and-development/mentor/company-program/) - Applications are currently closed. Fill out [this](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform) Google form to be notified of mentorship programs happening in FY24!
+
+## Organizing a Cafecito 
+
+- Make a calendar event. We need to define the process regarding making sure we have the budget to start the event. Usually, this involves reaching out to Liam on the DIB Team and asking if we have enough budget for this. For now, we use Pilar Mejia as a proxy for that, but we should improve this process to be Pilar independent. 
+  - When creating the invigation, invite `latinxtmrg@gitlab.com` which is an alias for the folks registered into the Google Group. Depending on the visibility of the event, you can add `GitLab Team Meetings` if we want to silently add to the company-wide calendar without pinging folks. For our cases, this has only been relevant for Hispanic Heritage Month.  
+- Update [TMRG Budget Forecast](https://docs.google.com/spreadsheets/d/1-BZrH1KsRBYl9r0EYEy6VXlKyvGGf585mwoj9Vz5rgA/edit?gid=1940877369#gid=1940877369)
+- We recommend 2 time zones to cover different folks around the world - We don’t have specific guidelines on picking. Gente team members tend to be located in AMER and EMEA, so prioritize those times. If possible, try to accommodate time zones that may not be as friendly for that. Logistically speaking, however, that may not be possible.  You may check people’s calendars to see if folks are generally free across different countries and time zones. 
+- Make an event with the following issue template with this link to [create an issue](https://gitlab.com/gitlab-com/gente-tmrg/-/issues/new?issuable_template=event-cafecito&issue[title]=New%20Cafecito%20Event). You can [view the template here](https://gitlab.com/gitlab-com/gente-tmrg/-/blob/master/.gitlab/issue_templates/event-cafecito.md?ref_type=heads) and suggest changes if you would like to
+- Make sure to post in #gente to make sure that people are aware that this is happening! Try to give ideally at least a week time in advance so that people are aware that this is going on.

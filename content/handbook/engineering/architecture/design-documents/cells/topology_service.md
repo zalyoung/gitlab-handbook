@@ -134,47 +134,217 @@ Topology Service will make sure that the given range is not overlapping with oth
 #### Logic to compute the range
 
 ```mermaid
-graph TD
+flowchart TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
-  A -->|6 bits| C[Intentionally reserved]
-  A -->|16 bits| D[Cell's Leased ID]
-  A -->|41 bits| E[Sequence]
+  A -->|6 bits| C[Reserved]
+  A -->|57 bits| D[Sequence]
+  D --> E{Legacy Cell?}
+  E --> |Yes| F[min = 1, max = 10^12 - 1]
+  E --> |"No (new cells)"| G[min = currentMaxId + 1, max >= min + 10^11]
+  G -.- N["min 100 billion IDs validation can be skipped for short-lived cells"]
+  style N fill:none
 ```
 
-The provisioning service (it's not yet decided where/how this service will be), will assign unique auto-incrementing
-lease ID for each cell, starting with `zero` for the Legacy Cell. It will use the above bit allocation to compute
-sequence's `minval` and `maxval` for each cell and this data will be captured in TS's `config.toml`.
+- **Sign**: Always 0 for positive numbers.
+- **Reserved**: Currently always `0`, reserved for 2 purposes.
+  1. To increase the number of cells, if needed.
+  1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
+   ULID based ID allocator will have the `timestamp` value in the most significant bits,
+   reserving only one bit would have been sufficient but
+   more bits are reserved to have the sequence bits at minimum.
+- **Sequence**:
+  - Legacy cell gets the first trillion IDs and each new instance will get 100 billion IDs each. See the [Sequence Saturation](#sequence-saturation) section for how we arrived at this number.
+  - Excluding the legacy cell, this will support 1,441,141 cells (using 57 bits) in production.
+
+Example `config.toml` of Topology Service:
 
 ```toml
-[[cells]]
-id = 0
-address = "cell-us-1.gitlab.com"
-sequence_range = [0, 4398046511103]
+env = "production"
 
 [[cells]]
 id = 1
-address = "cell-us-2.gitlab.com"
-sequence_range = [4398046511104, 8796093022207]
+address = "legacy.gitlab.com"
+[[cells.sequence_ranges]]
+minval = 1
+maxval = 999999999999 # 1 trillion
+
+[[cells]]
+id = 2
+address = "cell-2-example.gitlab.com"
+session_prefix = "cell-2"
+[[cells.sequence_ranges]]
+minval = 1000000000000
+maxval = 1099999999999 # 100 billion
+
+[[cells]]
+id = 3
+address = "cells-3-test.gitlab.com"
+session_prefix = "cell-3"
+[[cells.sequence_ranges]]
+minval = 1100000000000
+maxval = 1199999999999 # 100 billion
 ```
 
-41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence). At the time of writing, the largest ID is
-11,098,430,930 (primary key of _security_findings_ table), so it's 200 times the current largest ID, which should be (more than) sufficient.
+```toml
+env = "staging"
 
-6 MSBs are intentionally `reserved` for 2 purposes
+[[cells]]
+id = 2
+address = "cell-2.gitlab-cells.dev"
+session_prefix = "cell-2"
+minval = 1000000000000
+maxval = 1099999999999 # 100 billion
 
-1. To increase the number of cells, if needed.
-1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
-   ULID based ID allocator will have the `timestamp` value in the MSBs, reserving only one bit would have been sufficient but
-   more bits are reserved to have the sequence bits at minimum.
+[[cells]]
+id = 3
+address = "cell-3.gitlab-cells.dev"
+session_prefix = "cell-3"
+[[cells.sequence_ranges]]
+minval = 1100000000000
+maxval = 1101000000000
+skip_range_validation = true # For short lived cells, min 100 billion IDs validation can be skipped
+```
 
-More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md)
-and the reasoning behind choosing the logic to generate sequence ranges can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/465809).
+##### Cell Bootstrap Sequence Altering Process
+
+1. **Database Preparation Stage**
+
+   During cell provisioning, the database preparation consists of these steps, which
+are automatically executed:
+
+   - Execute Ansible task to create the database as part of Instrumentor `configure` script
+   - Execute `/scripts/db-migrate` script during Helm Chart installation
+   - Within this script, run `/srv/gitlab/bin/rake gitlab:db:configure` command
+
+1. **The `gitlab:db:configure` Rake Task**
+
+   This is the main entry point that alters sequence ranges. The task:
+
+   - Runs `db:migrate` or `db:schema:load` depending on database state
+   - Calls `configure_pg_databases` for each PostgreSQL database
+   - Executes `alter_cell_sequences_range` function **only during bootstrap**
+
+1. **Bootstrap Detection Logic**
+
+   The key condition that determines if sequence altering happens is in the `configure_pg_database` method:
+
+   ```ruby
+   # Only alter sequences during bootstrap (when database is empty)
+   return false if database_loaded # Skip if tables already exist
+   ```
+
+   The system checks if there are existing tables in the `public` schema. If tables exist, it skips sequence altering entirely.
+
+1. **Sequence Range Fetching**
+
+   When conditions are met (bootstrap scenario), the system:
+
+   - Fetches sequence ranges from Topology Service via gRPC: `Gitlab::TopologyServiceClient::CellService.new.cell_sequence_ranges`
+   - Retrieves the configured ranges (e.g., `minval: 500000000000, maxval: 599999999999`)
+
+1. **Sequence Alteration Execution**
+
+   The `alter_cell_sequences_range` function:
+
+   - Logs: `"Running gitlab:db:alter_cell_sequences_range rake task with (minval, maxval)"`
+   - Calls `Gitlab::Database::AlterCellSequencesRange.new` to actually modify the PostgreSQL sequences
+   - Updates all relevant sequences to use the ranges fetched from Topology Service
+
+1. **Configuration Requirements**
+
+   For this to work, the cell must be configured with:
+
+   ```yaml
+   cell:
+     enabled: true
+     id: 6
+     database:
+       skip_sequence_alteration: false
+     topology_service_client:
+       address: "topology-grpc.staging.runway.gitlab.net:443"
+   ```
+
+1. **One-Time Bootstrap Limitation**
+
+   **Important**: This sequence altering only happens **once during bootstrap**. If you try to run `gitlab:db:configure` again on an already-initialized database, it will skip the sequence altering because tables already exist and they can have sequences consumed.
+
+1. **Final Result**
+
+   After successful bootstrap, running `SELECT sequencename, min_value, max_value FROM pg_sequences LIMIT 10;` shows the sequences configured with the ranges from Topology Service instead of default PostgreSQL ranges.
+
+   This design ensures that each cell gets its unique, non-overlapping sequence ranges during initial provisioning.
+
+##### Sequence Saturation
+
+At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table).
+
+- With trillion IDs, this should allow the legacy cell to grow ~91 times.
+- Given the aim of cells architecture is to keep new instance's database growth in control, 100 billions IDs should give them enough space as well.
+
+###### Bumping sequence range for saturating sequences
+
+This is a critical part for working of Gitlab.com, so we have introduced saturation monitoring for each sequence in [merge_requests/8630](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/8630).
+
+On finding saturating sequences, the range can be bumped by following the below process.
+
+1. Update TS config.toml to add an extra range to `cells.sequence_ranges` array.
+2. Run `gitlab:db:increase_sequences_range` rake in the particular cell, by passing saturating sequences names as the param.
+
+Example:
+
+1. Let's say `security_findings_id_seq` and `web_hook_logs_id_seq` of `cell-2` have reached the hard SLO (of 90%) on [pg_id_sequences](https://gitlab.com/gitlab-com/runbooks/-/blob/d1491099e52037cd23cc5d871b5c11dacce08888/libsonnet/saturation-monitoring/pg_id_sequences.libsonnet) monitoring.
+2. We have to update its `sequence_ranges` in the config.toml, with an extra range.
+
+   ```toml
+    env = "production"
+
+    [[cells]]
+    id = 1
+    address = "legacy.gitlab.com"
+    [[cells.sequence_ranges]]
+    minval = 1
+    maxval = 999999999999 # 1 trillion
+
+    [[cells]]
+    id = 2
+    address = "cell-2-example.gitlab.com"
+    session_prefix = "cell-2"
+    [[cells.sequence_ranges]]
+    minval = 1000000000000
+    maxval = 1099999999999 # 100 billion
+    [[cells.sequence_ranges]]
+    minval = 1200000000000
+    maxval = 1299999999999 # 100 billion
+
+    [[cells]]
+    id = 3
+    address = "cells-3-test.gitlab.com"
+    session_prefix = "cell-3"
+    [[cells.sequence_ranges]]
+    minval = 1100000000000
+    maxval = 1199999999999 # 100 billion
+   ```
+
+3. Open a CR to run `gitlab:db:increase_sequence_range['security_findings_id_seq', 'web_hook_logs_id_seq']` on the cell-2 instance.
+
+The above manual process is adopted as a boring solution, since this should occur very rare.
+And [Issue#540801](https://gitlab.com/gitlab-org/gitlab/-/issues/540801) will automate this process,
+by having a cron running within the cell, which will auto increment the sequence ranges when needed.
+
+NOTE:
+
+- The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
+  - To support Cells 2.0 (i.e: allow moving organizations from
+  Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
+  This effort is tracked in the epic [Convert all integer IDs to bigint in the primary cell (#15591)](https://gitlab.com/groups/gitlab-org/-/epics/15591).
+
+More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
 ```proto
 // sequence_request.proto
 
 message GetCellSequenceInfoRequest {
-  optional string cell_name = 1; // if missing, it is deduced from the current context
+  optional string cell_id = 1; // if missing, it is deduced from the current context
 }
 
 message SequenceRange {
@@ -280,74 +450,122 @@ for the Classify Service. This is a simplified version of the API Interface.
 ```proto
 message ClaimRecord {
   enum Bucket {
-    Unknown = 0;
-    Routes = 1;
+    UNSPECIFIED = 0;
+    NAMESPACE = 1;
+    EMAIL = 2;
+    KEY = 3;
+    PACKAGE = 4;
+    IMAGE = 5;
   };
 
   Bucket bucket = 1;
   string value = 2;
 }
 
-message ParentRecord {
-  enum ApplicationModel {
-    Unknown = 0;
-    Group = 1;
-    Project = 2;
-    UserNamespace = 3;
+message OwnerRecord {
+  enum Bucket {
+    UNSPECIFIED = 0;
+    GROUP = 1;
+    PROJECT = 2;
+    USER = 3;
   };
 
-  ApplicationModel model = 1;
+  Bucket bucket = 1;
   int64 id = 2;
-};
+}
 
-message OwnerRecord {
-  enum Table {
-    Unknown = 0;
-    routes = 1;
-  }
-
-  Table table = 1;
-  int64 id = 2;
-};
-
-message ClaimDetails {
-  ClaimRecord claim = 1;
-  ParentRecord parent = 2;
-  OwnerRecord owner = 3;
+message ClaimRequest {
+  OwnerRecord owner = 1;
+  repeated ClaimRecord claims = 2;
 }
 
 message ClaimInfo {
-  int64 id = 1;
-  ClaimDetails details = 2;
-  optional CellInfo cell_info = 3;
+  string uuid = 1;
+  ClaimRecord record = 2;
+  CellInfo cell_info = 3;
+}
+
+message OwnerInfo {
+  string uuid = 1;
+  OwnerRecord record = 2;
+  CellInfo cell_info = 3;
+}
+
+message CreateClaimRequest {
+  ClaimRequest request = 1;
+}
+
+message CreateClaimResponse {
+  OwnerInfo owner = 1;
+  repeated ClaimInfo claims = 2;
+}
+
+message GetClaimRequest {
+  ClaimRecord record = 1;
+}
+
+message GetClaimResponse {
+  ClaimInfo claim = 1;
+}
+
+message GetOwnerRequest {
+  OwnerRecord record = 1;
+}
+
+message GetOwnerResponse {
+  OwnerInfo owner = 1;
 }
 
 service ClaimService {
     rpc CreateClaim(CreateClaimRequest) returns (CreateClaimResponse) {}
-    rpc GetClaims(GetClaimsRequest) returns (GetClaimsResponse) {}
+    rpc GetClaim(GetClaimRequest) returns (GetClaimResponse) {}
+    rpc GetOwner(GetOwnerRequest) returns (GetOwnerResponse) {}
     rpc DestroyClaim(DestroyClaimRequest) returns (DestroyClaimResponse) {}
 }
 ```
 
-The purpose of this service is to provide a way to enforce uniqueness (ex. usernames, e-mails,
-tokens) within the cluster.
+The purpose of this service is to provide a way to ensure an identity is never
+ambiguous and only belonging to a specific resource in a specific cell in a
+specific time (resources can be migrated to another cell later).
 
-Cells can claim unique attribute by sending the Claim Details. Where
-each Claim Details consist of 3 main components:
+By this definition, a claim also means a route in an abstract way, because
+we will be able to classify which cell it belongs to.
 
-1. **ClaimRecord**: Consists of both the Claim bucket and value. Where
-each value can only be claimed once per bucket. A bucket represents a uniqueness
-scope for the claims. For example an
-route like `gitlab-org/gitlab` can be claimed only once for the bucket
-`routes`. No two similar values can be claimed within the same bucket.
-1. **OwnerRecord**: Represents the database record that owns this claim
-on the Cell side. For example, for the Route `gitlab-org/gitlab` value,
-it will be table `routes` and some `id` that represents the primary key
-of the `route` record that has this value `gitlab-org/gitlab`.
-1. **ParentRecord**: Represents the GitLab object that owns the
-`OwnerRecord`. For example, for Emails claims, they are usually belong
-to `User` objects. While `Route` records can belong to `Group`, `UserNamespace`
-or `Project`.
+Take users as an example. A user here is a resource that it should claim:
+
+- The top-level namespace belonging to the user, and in this case, the username
+- The emails associated with the user
+- The keys associated with the user
+- Others
+
+So that we can route to the cell owning the user correctly via:
+
+- User profile page: https://gitlab.com/ghost1
+  - Claim `ghost1` as the top-level namespace, which is the username
+- REST API: https://gitlab.com/api/v4/users/1243277
+  - Claim `1243277` as a resource id, which is the user id
+- Authenticating the user via:
+  - Username (Note that we plan to re-scope username to an organization later)
+  - Primary email (Note that we might not have a public route for this but to be future proof we should also claim unique resources)
+  - Various keys
+
+In effects, the claims must be unique within the cluster, therefore unambiguous.
+
+To make claims, a cell can send a `CreateClaimRequest`, which contains a
+`ClaimRequest` consisting of 2 components:
+
+1. **OwnerRecord**: Represents the resource that owns the claims on the cell.
+   For example, for the group `gitlab-org`, the bucket would be `GROUP` and
+   the `id` would be the group id.
+1. **repeated ClaimRecord**: Consists of bucket and value, where each value
+   can only be claimed once per bucket. A bucket represents a unique scope for
+   the claim. For example, for the group `gitlab-org` it should claim
+   `gitlab-org` as a top-level namespace, and once that's claimed, no other
+   resources can claim the same again. This is repeated so it can make
+   multiple claims at once in a request for a resource.
+
+The request must be atomic in a transaction so it'll either success for all
+or fail for all.
 
 It's worth noting that the list of the enums is not final, and it can be
 expanded over time.
@@ -592,16 +810,16 @@ sequenceDiagram
 The cons of using Spanners are:
 
 1. Vendor lock-in, our data will be hosted in a proprietary data.
-    - How to prevent this: Topology Service will use generic SQL.
+    - How to prevent this: Use generic SQL.
 1. Not self-managed friendly, when we want to have Topology Service available for self-managed customers.
-    - How to prevent this: Spanner supports PostgreSQL dialect.
+    - How to prevent this: Support actual PostgreSQL as well. We will run this for local development by default for developers.
 1. Brand new data store we need to learn to operate/develop with.
 
 ### GoogleSQL vs PostgreSQL dialects
 
 Spanner supports two dialects one called [GoogleSQL](https://cloud.google.com/spanner/docs/reference/standard-sql/overview) and [PostgreSQL](https://cloud.google.com/spanner/docs/reference/postgresql/overview).
-The dialect [doesn't change the performance characteristics of Spanner](https://cloud.google.com/spanner/docs/postgresql-interface#choose), it's mostly how the Database schemas and queries are written.
-Choosing a dialect is a one-way door decision, to change the dialect we'll have to go through a data migration process.
+It is claimed that both dialects [offer the same core features, performance, and scalability](https://cloud.google.com/spanner/docs/choose-googlesql-or-postgres).
+However, they should be treated as two different databases because the dialect has to be decided upfront when creating the database, and there's no way to change the dialect beside going through a [complex migration process](https://cloud.google.com/spanner/docs/migration-overview).
 
 We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanner](https://github.com/googleapis/go-sql-spanner) to connect to it, because:
 
@@ -609,6 +827,13 @@ We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanne
 1. GoogleSQL [data types](https://cloud.google.com/spanner/docs/reference/standard-sql/data-types) are narrower and don't allow to make mistakes for example choosing int32 because it only supports int64.
 1. New features seem to be released on GoogleSQL first, for example, <https://cloud.google.com/spanner/docs/ml>. We don't need this feature specifically, but it shows that new features support GoogleSQL first.
 1. A more clear split in the code when we are using Google Spanner or native PostgreSQL, and won't hit edge cases.
+
+We will not use `PostgreSQL` dialect but actual PostgreSQL for local development because:
+
+1. [`PGAdapter`](https://cloud.google.com/spanner/docs/pgadapter) only works with the `PostgreSQL` dialect based Spanner database, so we cannot use it against a `GoogleSQL` dialect based Spanner database.
+1. [`PostgreSQL` dialect](https://cloud.google.com/spanner/docs/reference/postgresql/overview) differs significantly from actual `PostgreSQL`. It is not a strict subset, so code written for the dialect might not work as expected on real `PostgreSQL`.
+1. Although actual `PostgreSQL` may not scale as well as `Spanner`, it is suitable for local development and likely sufficient for self-managed environments.
+1. Running emulated Spanner locally requires Docker or compatible container engine, which is not strictly required for all developers using GDK at the moment. [Emulated Spanner only stores data in memory](https://cloud.google.com/spanner/docs/emulator), all state, including data, schema, and configs, is lost on restart, which is not convenient and can cause data inconsistency with cells' own data. Developers can use it for developing and debugging the implementation for `GoogleSQL` dialect Spanner, but this cannot be the default for most developers especially for those who are not working on Topology service directly. On CI we run tests against both the actual PostgreSQL database and emulated `GoogleSQL` Spanner.
 
 Citations:
 
@@ -619,37 +844,37 @@ Citations:
 
 Running Multi-Regional read-write is one of the biggest selling points of Spanner.
 When provisioning an instance you can choose single Region or Multi-region.
-After provisioning you can [move an instance](https://cloud.google.com/spanner/docs/move-instance) whilst is running but this is a manual process that requires assistance from GCP.
+After provisioning you can [move an instance](https://cloud.google.com/spanner/docs/move-instance) whilst it is running but this is a a cautious process that requires careful planning and manual execution.
 
 We will provision a Multi-Regional Cloud Spanner instance because:
 
 1. Won't require migration to Multi-Regional in the future.
 1. Have Multi Regional on day 0 which cuts the scope of multi region deployments at GitLab.
 
-This will however increase the cost considerably, using public facing numbers from GCP:
+Cloud Spanner has a list of pre-defined [instance configurations](https://cloud.google.com/spanner/docs/instance-configurations) and we will be using `nam11` as detailed in [Cloud Spanner Region Configuration for Topology Service](decisions/015_spanner_multiregional.md).
 
-1. [Regional](https://cloud.google.com/products/calculator?hl=en&dl=CiRlMjU0ZDQyMy05MmE5LTRhNjktYjUzYi1hZWE2MjQ4N2JkNDcQIhokOTlGQUM4RjUtNjdBRi00QTY1LTk5NDctNThCODRGM0ZFMERC): $1,716
-1. [Multi Regional](https://cloud.google.com/products/calculator?hl=en&dl=CiQzNjc2ODc5My05Y2JjLTQ4NDQtYjRhNi1iYzIzODMxYjRkYzYQIhokOTlGQUM4RjUtNjdBRi00QTY1LTk5NDctNThCODRGM0ZFMERC): $9,085
+For data security, we will use Google's default encryption for data at rest, which is automatically enabled with Cloud Spanner. As noted in Google's documentation: "By default, Spanner encrypts customer content at rest. Spanner handles encryption for you without any additional actions on your part." This eliminates the need to implement custom encryption in the Topology Service with CMEK while ensuring data security compliance.
 
-Citations:
-
-1. Google (n.d.). _Regional and multi-region configurations._ Google Cloud. Retrieved April 1, 2024, from <https://cloud.google.com/spanner/docs/instance-configurations>
-1. Google (n.d.). FeedbackReplication. Google Cloud. Retrieved April 1, 2024, from <https://cloud.google.com/spanner/docs/replication>
+An [estimated cost](https://cloud.google.com/products/calculator?hl=en&dl=CjhDaVJpWldSalpUVmxOeTAxWXprekxUUTBPR1l0T1RJeU5DMW1PVEUwTnpVMVpXTXpZVEFRQVE9PRAOGiRDRENBM0ZENy0zQ0Y5LTQ1MkQtQkJBMi04NUZGNjU1RUVBM0U) for this configuration is approximately $11,838.94 per month, based on a hypothetical compute usage of 5 nodes, 1 TB of storage, and Enterprise Plus Edition.
 
 #### Architecture of multi-regional deployment of Topology Service
 
+The Topology Service and its storage (Cloud Spanner) are deployed in two regions, providing resilience in case of a regional outage and reducing latency for users in those areas. The HTTP Router Service connects to the Topology Service through a public load balancer, while internal cells use Private Service Connect for communication. This setup helps minimize ingress and egress costs.
+
 ```mermaid
 graph TD;
-    user_eu((User in EU));
-    user_us((User in US));
+    user_us_central((User in US Central));
+    user_us_east((User in US East));
     gitlab_com_gcp_load_balancer[GitLab.com GCP Load Balancer];
-    topology_service_gcp_load_balancer[Topology Service GCP Load Balancer];
+    topology_service_gcp_load_balancer[Topology Service Public GCP Load Balancer];
     http_router[HTTP Routing Service];
-    topology_service_eu[Topology Service in EU];
-    topology_service_us[Topology Service in US];
-    cell_us{Cell US};
-    cell_eu{Cell EU};
-    spanner[Google Cloud Spanner];
+    topology_service_us_central[Topology Service in US Central];
+    topology_service_us_east[Topology Service in US East];
+    cell_us_east{Cell US East};
+    cell_us_central{Cell US Central};
+    spanner_us_central[Google Cloud Spanner US Central];
+    spanner_us_east[Google Cloud Spanner US East];
+
     subgraph Cloudflare
         http_router;
     end
@@ -658,32 +883,44 @@ graph TD;
         gitlab_com_gcp_load_balancer;
         topology_service_gcp_load_balancer;
       end
-      subgraph Europe
-        topology_service_eu;
-        cell_eu;
+      subgraph US Central
+        subgraph Cloud Run US Central
+            topology_service_us_central;
+        end
+        cell_us_central;
       end
-      subgraph US
-        topology_service_us;
-        cell_us;
+      subgraph US East
+        subgraph Cloud Run US East
+            topology_service_us_east;
+        end
+        cell_us_east;
       end
-      subgraph Multi-regional Cloud Spanner
-        spanner;
+      subgraph Multi-regional Cloud Spanner Cluster
+        spanner_us_central;
+        spanner_us_east;
       end
     end
 
-    user_eu--HTTPS-->http_router;
-    user_us--HTTPS-->http_router;
+    user_us_central--HTTPS-->http_router;
+    user_us_east--HTTPS-->http_router;
     http_router--REST/mTLS-->topology_service_gcp_load_balancer;
     http_router--HTTPS-->gitlab_com_gcp_load_balancer;
-    gitlab_com_gcp_load_balancer--HTTPS-->cell_eu;
-    gitlab_com_gcp_load_balancer--HTTPS-->cell_us;
-    topology_service_gcp_load_balancer--HTTPS-->topology_service_eu;
-    topology_service_gcp_load_balancer--HTTPS-->topology_service_us;
-    cell_eu--gRPC/mTLS-->topology_service_eu;
-    cell_us--gRPC/mTLS-->topology_service_us;
-    topology_service_eu--gRPC-->spanner;
-    topology_service_us--gRPC-->spanner;
+    gitlab_com_gcp_load_balancer--HTTPS-->cell_us_central;
+    gitlab_com_gcp_load_balancer--HTTPS-->cell_us_east;
+    topology_service_gcp_load_balancer--HTTPS-->topology_service_us_central;
+    topology_service_gcp_load_balancer--HTTPS-->topology_service_us_east;
+    cell_us_central--gRPC/mTLS via Private Service Connect-->topology_service_us_central;
+    cell_us_east--gRPC/mTLS via Private Service Connect-->topology_service_us_east;
+    topology_service_us_central--gRPC-->spanner_us_central;
+    topology_service_us_east--gRPC-->spanner_us_east;
+    spanner_us_east<--Replication-->spanner_us_central;
 ```
+
+Citations:
+
+1. Google (n.d.). Using private service connect with cloudrun services. Google Cloud. Retrieved Nov 11, 2024, from <https://cloud.google.com/vpc/docs/private-service-connect>
+1. Google (n.d.). How multi-region with cloud spanner works. Google Cloud. Retrieved Nov 11, 2024,<https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations>
+1. [ADR for private service connect](decisions/004_vpc_subnet_design.md)
 
 ### Performance
 

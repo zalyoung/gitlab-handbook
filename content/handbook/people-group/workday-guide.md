@@ -16,7 +16,7 @@ title: Workday Guide
 
 Workday will be accessible to all GitLab team members through Okta SSO. Go to [gitlab.okta.com](https://gitlab.okta.com/app/UserHome) and click on the **'Workday SSO'** tile to login. You can search your apps for quick access.
 
-![Accesing Workday through Okta](../okta-wd.png)
+![Accesing Workday through Okta](/images/people-group/okta-wd.png)
 
 **Important:** Please note that Workday will be temporarily unavailable due to scheduled weekly maintenance each Friday between 11:00 PM - 3:00 AM PST (Saturday between 6am UTC to 9am UTC).
 
@@ -49,6 +49,10 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Team Members|correct time off|[Link](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit)|-|
 |Team Members|request time off through Slack|[Link](https://docs.google.com/document/d/1co0-_8YEV2iS7YIFsDdsSqw7ohCd1nNd3HCQU7jTQMo/edit)|-|
 |Team Members|request a leave of absence|[Link](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit)|-|
+|Team Members|upload benefit form|[Link](https://docs.google.com/document/d/1tMaBHith3vYmuLrWt6gnVsTnkcbTiCY7_lJn0G4G69k/edit)|-|
+|Team Members|add GitLab username|[Link](https://docs.google.com/document/d/1VKZGkYdpgnFcF9ddoJdxOyocpNqHiUM1uBeGqX_eYlg/edit)|-|
+|Team Members|upload expression of wishes form|[Link](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit)|-|
+|Team Members|change visa information|[Link](https://docs.google.com/document/d/1ojp3APFZw-iLDgzxSXQqcubiUr7r8SmHfgxDg9ODjks/edit)|-|
 |Managers|request a one-time payment|[Link](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit)|-|
 |Managers|terminate team members (voluntary)|[Link](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit)|-|
 |Managers|view team information|[Link](https://docs.google.com/document/d/1HlvaxIvmUPL6GLB3z6TqHWMf95RrDD7aOaeZPE0Hm7Q/edit)|-|
@@ -56,11 +60,14 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Managers|delegate|[Link](https://docs.google.com/document/d/1BDME_47-mif1ZihO5Id-wejbjAU_-PLIr1dJ46z1F_c/edit)|-|
 |Managers|access and use reports|[Link](https://docs.google.com/document/d/19Isxod-o2CJ9GkurkVPqK8dCxbkQO743LoJ12OonOHY/edit)|-|
 |Managers|move team member to another manager|[Link](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit)|-|
+|Managers|request job change - full time/part time|[Link](https://docs.google.com/document/d/1phYEgjrhkuMreQU-teMk2tSG50VXg4AYFizjd8D_TcA/edit)|-|
+|Managers|review probation periods|[Link](https://docs.google.com/document/d/1NSIaigEqFnouax9s_NGB_nXGA1y_8zJB5aZUW63bvog/edit)|-|
+|Managers|Change job title specialty|[Link](https://docs.google.com/document/d/19o4Xe_Me4GZqxYsZaTjfgT19Qwb8E9BF7rzs0pCjxSU/edit)|-|
 |Managers|view job history of a report prior to the HRIS migration|under that team member: `Job -> Worker History -> Worker History by Category -> Staffing & Compensation from Prior System`|-|
 
 ## Job Title Speciality Creation/Update
 
-If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please submit a Job Title Specialty request in HelpLab for assistance.
+If you require a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please submit a Job Title Specialty request in HelpLab for assistance.
 
 ## How is Workday being implemented?
 
@@ -79,16 +86,18 @@ Modules/functionality being implemented:
 
 | Workday will replace | Workday will enhance |Workday will integrate with |What remains the same in this phase|
 | ------ | ------ |------ |------ |
-| BambooHR (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Connect bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check,Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
+| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Connect bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check, Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
+
+- _BambooHR is no longer in use at GitLab as of 2024-12-15._
 
 #### Phase 1 Integrations
 
 | Application | Description | Frequency | Business Owner | Support Contact |
 | ------ | ------ | ------ | ------ | ------ |
 | ADP WorkForce Now | Employee Demographic feed from Workday to ADP Workforce Now via SFTP delivery of inbound file. | Daily (9am PST) | @vlaughlan | @droystang @Laura-Janssen @demina |
-| Employment Automations | - *Announcements*: Slack integrated messaging services, which are responsible for sending DM's or announcing to a channel on a certain matter.<br> - *Audit*: Audits collected on our team members data, we usually are constructing a certain data type (CSV) and then sending this off to the desired party.<br> - *E-mailing*: E-Mails are responsible for sending out our e-mails and replacing keywords from the template documents to include the relevant information. For example, one automation in this group handles the creation of a Letter of Employment and then attaches it to the e-mail prior to sending.<br> - *Issue Handling*: This is the main logic behind our onboardings, offboardings, employment templates, access requests, and anything else GitLab issue related.<br> - *Syncing*: Syncs regarding our HR data and external services. For example, we sync with GitLab to ensure our team page entries are staying up to date depending on if the team members current role specialty differs from that of the team page entry. | N/A | @mpatel8 | @ajrom |
+| Employment Automations | - **Announcements** : Slack integrated messaging services, which are responsible for sending DM's or announcing to a channel on a certain matter.<br> - **Audit**: Audits collected on our team members data, we usually are constructing a certain data type (CSV) and then sending this off to the desired party.<br> - **E-mailing**: E-Mails are responsible for sending out our e-mails and replacing keywords from the template documents to include the relevant information. For example, one automation in this group handles the creation of a Letter of Employment and then attaches it to the e-mail prior to sending.<br> - **Issue Handling**: This is the main logic behind our onboardings, offboardings, employment templates, access requests, and anything else GitLab issue related.<br> - **Syncing**: Syncs regarding our HR data and external services. For example, we sync with GitLab to ensure our team page entries are staying up to date depending on if the team members current role specialty differs from that of the team page entry. | N/A | @mpatel8 | @ajrom |
 | Culture Amp | Daily feed that sends new hires and terminations from Workday over to Culture Amp. | Daily (1am PST) |  @mpatel8 | @Laura-Janssen @demina |
-| E-Trade | - *E-Trade User Account File*: Used to provide demographic information for new participants and to maintain this information for existing participants.<br> - *E-Trade User Termination File*: Used to provide termination dates and termination codes to EEO (Equal Employment Opportunity).<br> - *E-Trade Rehires File*: Used to provide rehire information for previously terminated participants. Rehire date provided will replace the current hire date on EEO (Equal Employment  | Daily (4:30am PST) | @rhark @sguillory | @droystang @Laura-Janssen @demina |
+| E-Trade | - **E-Trade User Account File**: Used to provide demographic information for new participants and to maintain this information for existing participants.<br> - **E-Trade User Termination File**: Used to provide termination dates and termination codes to EEO (Equal Employment Opportunity).<br> - **E-Trade Rehires File**: Used to provide rehire information for previously terminated participants. Rehire date provided will replace the current hire date on EEO (Equal Employment  | Daily (4:30am PST) | @rhark @sguillory | @droystang @Laura-Janssen @demina |
 | EdCast | Automatically adds and removes team members to EdCast to avoid manual work for the team and streamline the onboarding process. | Real Time | @jallen16 | @droystang |
 | Navan Expense<>NetSuite | Utilizing Workato to automatically synchronize team members and their managers from Workday into the correct Navan Expense policy as well as creating a vendor record in NetSuite. | Real Time | @edelongpre @mbrown6 | @droystang |
 | Greenhouse (New Hires) | Creates new hires in Workday when a new applicant is marked as hired in Greenhouse | Real Time | @anechan @MarissaFerber @mpatel8 | @droystang @Laura-Janssen @demina |
@@ -103,7 +112,7 @@ Modules/functionality being implemented:
 
 ### Phase 2
 
-*Subject to change*
+_Subject to change_
 
 **Go live date:** 2022-10-01
 
@@ -121,7 +130,7 @@ Modules/functionality being implemented:
 
 ### Phase 3
 
-*Subject to change*
+_Subject to change_
 
 **Go live date:** 2022-12-01
 

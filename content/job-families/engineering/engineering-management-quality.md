@@ -71,7 +71,7 @@ Please keep in mind that candidates can be declined from the position at any sta
 As a result an interview can be canceled at any time even if the interviews are very close (e.g. a few hours apart).
 
 - A short questionnaire from our Recruiting team
-- 30 minute [Screening call](/handbook/hiring/#screening-call) with a recruiter
+- 30 minute [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter
 - 1 hour interview with the hiring manager
 - 1 hour technical Interview with a Software Engineer in Test
 - 1 hour direct report interview with two Software Engineers in Test
@@ -119,7 +119,7 @@ Please keep in mind that candidates can be declined from the position at any sta
 As a result an interview can be canceled at any time even if the interviews are very close (e.g. a few hours apart).
 
 - A short questionnaire from our Recruiting team
-- 30 minute [Screening call](/handbook/hiring/#screening-call) with a recruiter
+- 30 minute [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter
 - 1 hour interview with the hiring manager
 - 1 hour technical Interview with a Software Engineer in Test
 - 1 hour direct report interview with two Software Engineers in Test

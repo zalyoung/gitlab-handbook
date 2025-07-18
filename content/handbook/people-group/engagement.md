@@ -13,7 +13,7 @@ Seeking inputs from team members by surveying people is a key part of [GitLab's 
 
 There are different survey types that we run at different times throughout the year, each with different intended outcomes:
 
-- *Employer Award surveys:* we ask team members to complete employer award surveys (i.e. Great Place to Work) to understand how GitLab compares against our talent competitors and to give future candidates insight into what it would look like to work here. The process for selecting and participating in [employer award surveys]({{< ref "awards-process" >}}) is outlined in the Talent Brand section of the handbook.
+- *Employer Award surveys:* we ask team members to complete employer award surveys (i.e. Great Place to Work) to understand how GitLab compares against our talent competitors and to give future candidates insight into what it would look like to work here. The process for selecting and participating in [employer award surveys](/handbook/people-group/employment-branding/awards-process/) is outlined in the Talent Brand section of the handbook.
 - *Engagement survey:* We partner with CultureAmp to host and run our engagement surveys. We ask all team members to complete this survey at least once a year to understand how engagement is tracking over time.
 - *Organizational Health survey:* we will sometimes run a survey to understand our company and culture more fully (i.e. McKinsey OHI survey) and classify these efforts as Organizational Health surveys.
 
@@ -28,6 +28,17 @@ There are different survey types that we run at different times throughout the y
 1. 61 Statements
 1. 14 On-Survey Demographic Questions
 1. 2 Open-Ended Questions
+
+<details><summary>FY26 Great Place to Work Survey Results</summary>
+
+GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 5th year in a row in the US in April 2025 and was recognized as a top employer where team members are proud to work.
+
+1. 87% average of all statements
+1. 92% of team members say GitLab is a Great Place to Work
+
+[Read more about the survey results](https://docs.google.com/presentation/d/1jZhf2Sx1cYQ2mdQL_0Ley2Bl27nIAf60WJTcIat9Wfk/edit?slide=id.g123a13deda8_0_405#slide=id.g123a13deda8_0_405).
+
+</details>
 
 <details><summary>FY25 Great Place to Work Survey Results</summary>
 
@@ -74,7 +85,7 @@ Feedback from the survey in turn allows Leadership within GitLab to gain insight
 
 ### Survey Confidentiality
 
-In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/hc/en-us/articles/204529829-Survey-participant-FAQs).
+In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants).
 
 ### Survey Participation
 
@@ -97,13 +108,31 @@ The survey factors we primarily focus on:
 
 Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected 'agree' and 'strongly agree'.
 
+## FY'26 Engagement Survey
+
+Our Engagement Survey for FY'26 is scheduled to run from 2025-06-16 to 2025-06-27. The survey will be open to all team members with start dates before 2025-05-31.
+
+### FY'26 Annual Engagement Survey Timeline
+
+- 2025-06-16: Survey launch @ 8am PT/3pm UTC
+- 2025-06-27: Survey close @ 5pm PT/2025-06-28 12am UTC
+- 2025-07-01: High-level summary shared with People Leadership Team
+- 2025-07-03: High-level summary & Culture Amp reports shared with E-Group
+- Week of 7th July: Functional Leaders level reports shared in CultureAmp*
+- Week of 7th July: All People Managers level reports shared in CultreAmp*
+- Week of 14th July : High-level summary release (company-wide) and followed by handbook updates
+- Week of 14th July: Division-level results summary shared by division leaders
+- Week of 1st August - Finalize company wide action plans
+
+*Only leaders with 5 or more respondents will receive a report in CultreAmp
+
 ## FY'25 Engagement Survey
 
 Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-28. Survey will be open to all team members hired before 2024-05-31.
 
 ### FY'25 Annual Engagement Survey Timeline
 
-- 202-06-17: Survey launch @ 8am PT
+- 2024-06-17: Survey launch @ 8am PT
 - 2024-06-28: Survey close @ 5pm PT
 - 2024-07-08: High-level summary shared with People Leadership Team
 - 2024-07-10: High-level summary shared with E-Group
@@ -172,7 +201,7 @@ In addition to Engagement, we asked questions about other factors regarding our 
 
 All divisions are recommended to create an Epic to store Engagement Survey Action Issues. Every Division should create an Epic that gives an overview of the engagement survey results that includes: highlights, lowlights, recommended actions, and resources. Epics can be created in division issue boards or projects that are applicable to the organization.
 
-In addition, Managers can create an Engagement Survey Action Issue that links to the division wide Epic. In the Issue, managers can link team wide actions to the division. Here is the recommended [action planning tips](https://docs.google.com/document/d/17C41zQRSRBfI-8_mzHYu91svF94b00DMNCfy6gW-hFI/edit#heading=h.cbt5f5ipulcx) for managers. 
+In addition, Managers can create an Engagement Survey Action Issue that links to the division wide Epic. In the Issue, managers can link team wide actions to the division. Here is the recommended [action planning tips](https://docs.google.com/document/d/17C41zQRSRBfI-8_mzHYu91svF94b00DMNCfy6gW-hFI/edit#heading=h.cbt5f5ipulcx) for managers.
 
 #### FY25 Engagement Survey Action Planning Epics
 
@@ -185,6 +214,9 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [People](https://gitlab.com/groups/gitlab-com/-/epics/2420)
 - [LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/work_items/2399)
+
+<details>
+  <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>
 
 ### Summit Pulse Surveys Overview
 
@@ -315,9 +347,6 @@ In an effort to ensure team member confidentiality is upheld, only managers with
 
 Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
 
-<details>
-  <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>
-
 ### FY'23 Pulse Engagement Survey
 
 #### FY'23 Pulse Engagement Survey Timeline
@@ -337,7 +366,7 @@ Once the GitLab Team Member Engagement Survey has been closed out, reports will 
 
 ##### Timeline for Action Planning
 
-- Each E-Group member will in collaboration with their respective People Business Partner (PBP) to identify one or two acton items to initiate coming out of the results review - these will be tracked and managed via a dedicated [Epic in GitLab per Division]({{< ref "engagement#using-epics-and-issues-to-create-an-action-plan" >}}).
+- Each E-Group member will in collaboration with their respective People Business Partner (PBP) to identify one or two acton items to initiate coming out of the results review - these will be tracked and managed via a dedicated [Epic in GitLab per Division](/handbook/people-group/engagement/#using-epics-and-issues-to-create-an-action-plan).
 - After action items have been identified at the E-Group level, all managers who received an engagement survey result report (AKA: managers with 5+ direct reports who responded to the survey) will also be asked to create an action plan in Culture Amp.
 - A manager may choose to align their action planning to their leader or division or they may choose to add a specific and separate action for their team. This will likely depend on the size/structure of the organization.
 
@@ -347,7 +376,7 @@ For the FY23 Engagement Survey, all divisions are recommended to create an Epic 
 
 In addition, Managers can create an Engagement Survey Action Issue that links to the division wide epic. In the Issue, managers can link team wide actions to the division.
 
-See the [example epics]({{< ref "engagement#taking-action" >}}) from FY22 for inspiration.
+See the [example epics](/handbook/people-group/engagement/#taking-action) from FY22 for inspiration.
 
 ##### FY23 Division-Wide Engagement Survey Action Epics
 
@@ -363,9 +392,9 @@ See the [example epics]({{< ref "engagement#taking-action" >}}) from FY22 for in
 
 [Engagement Survey Manager Toolkit - GitLab Learn pathway](https://gitlab.edcast.com/pathways/engagement-survey-manager-toolkit)
 
-[Managers Guide to Taking Action](https://academy.cultureamp.com/hc/en-us/articles/207302419-Manager-s-guide-to-taking-action-on-Engagement-survey-results)
+[Managers Guide to Taking Action](https://support.cultureamp.com/en/articles/7048670-manager-s-guide-to-taking-action-on-engagement-survey-results)
 
-[Take Action with Action Framework](https://academy.cultureamp.com/hc/en-us/articles/115005387945-Take-action-with-action-framework)
+[Take Action with Action Framework](https://support.cultureamp.com/en/articles/7048673-take-action-with-the-action-framework)
 
 ## FY'23 Q2 Pulse Engagement Survey Results
 
@@ -438,7 +467,7 @@ Per CultureAmp's insights related to the Great Resignation, we added questions r
 
 Culture Amp determines which questions are "focus recommendations" based on: impact on overall, favorable score, comparison to benchmarks. [Here](https://support.cultureamp.com/en/articles/7048700-focus-agent-feature-in-survey-analytics) is more information on how Culture Amp determines "focus" recommendations.
 
-"Impact" is a word we use to refer to a statistical technique called a driver analysis. People Intelligence relies on a lot of data and analysis techniques, and one of the most powerful is Driver Analysis. Driver Analysis lets you focus on the most important drivers of outcomes for your culture. The questions that are identified as the top drivers are the questions that are most likely having the biggest impact on Engagement (or whatever measure you have set up as your outcome). So if you were able to improve your scores on these questions, you are likely to improve your Engagement score. You can find more information on how "impact" is determined [here](https://support.cultureamp.com/hc/en-us/articles/208026545-Impact-and-driver-analysis-FAQs).
+"Impact" is a word we use to refer to a statistical technique called a driver analysis. People Intelligence relies on a lot of data and analysis techniques, and one of the most powerful is Driver Analysis. Driver Analysis lets you focus on the most important drivers of outcomes for your culture. The questions that are identified as the top drivers are the questions that are most likely having the biggest impact on Engagement (or whatever measure you have set up as your outcome). So if you were able to improve your scores on these questions, you are likely to improve your Engagement score. You can find more information on how "impact" is determined [here](https://support.cultureamp.com/en/articles/7048590-impact-and-driver-analysis-faqs).
 
 In addition to leveraging insights from our Engagement Survey tool, Culture Amp, the People Group may add in a couple of additional questions particularly relevant to current business priorities, changes, and/or challenges.
 
@@ -466,7 +495,7 @@ Once the GitLab Team Member Engagement Survey has been closed out, reports will 
 
 ##### Timeline for Action Planning
 
-- Each E-Group member will in collaboration with their respective People Business Partner (PBP) to identify one or two acton items to initiate coming out of the results review - these will be tracked and managed within CultureAmp moving forward using the [Action Framework](https://academy.cultureamp.com/hc/en-us/articles/115005387945-Take-action-with-action-framework).
+- Each E-Group member will in collaboration with their respective People Business Partner (PBP) to identify one or two acton items to initiate coming out of the results review - these will be tracked and managed within CultureAmp moving forward using the [Action Framework](https://support.cultureamp.com/en/articles/7048673-take-action-with-the-action-framework).
 - After action items have been identified at the E-Group level, all managers who received an engagement survey result report (AKA: managers with 5+ direct reports who responded to the survey) will also be asked to create an action plan in Culture Amp.
 - A manager may choose to align their action planning to their leader or division or they may choose to add a specific and separate action for their team. This will likely depend on the size/structure of the organization.
 
@@ -492,9 +521,9 @@ See the examples from FY21' for the [Product](https://gitlab.com/gitlab-com/Prod
 
 [Engagement Survey Manager Toolkit - GitLab Learn pathway](https://gitlab.edcast.com/pathways/engagement-survey-manager-toolkit)
 
-[Managers Guide to Taking Action](https://academy.cultureamp.com/hc/en-us/articles/207302419-Manager-s-guide-to-taking-action-on-Engagement-survey-results)
+[Managers Guide to Taking Action](https://support.cultureamp.com/en/articles/7048670-manager-s-guide-to-taking-action-on-engagement-survey-results)
 
-[Take Action with Action Framework](https://academy.cultureamp.com/hc/en-us/articles/115005387945-Take-action-with-action-framework)
+[Take Action with Action Framework](https://support.cultureamp.com/en/articles/7048673-take-action-with-the-action-framework)
 
 ## FY' 22 Q4 Pulse Engagement Survey Results
 
@@ -554,9 +583,9 @@ GitLab scored 1-2% below the industry benchmark i.e. New Tech +1,000 2021 for th
 
 For the FY'22 Q4 Pulse Engagement Survey results, we will be leaning into epics and issues for tracking and planning.
 
-You can find full detail on the process and guidance [here]({{< ref "engagement#taking-action" >}}).
+You can find full detail on the process and guidance [here](/handbook/people-group/engagement/#taking-action).
 
-All links should be added by 2022-01-21 aligned with our [timeline]({{< ref "engagement#fy22-pulse-engagement-survey-timeline" >}}).
+All links should be added by 2022-01-21 aligned with our [timeline](/handbook/people-group/engagement#fy22-pulse-engagement-survey-timeline).
 
 #### Actions taken since the last survey
 
@@ -590,7 +619,7 @@ All links should be added by 2022-01-21 aligned with our [timeline]({{< ref "eng
 
 #### Questions and Support
 
-The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
+The GitLab Team Member Engagement Survey is managed by the People Operations Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
 
 ## Previous Engagement Survey Results
 
@@ -648,10 +677,6 @@ GitLab scored 5% below the industry benchmark i.e. New Tech +1,000 2020 for the 
 - Growth & Development
 - Compensation
 - Resource Allocations
-
-#### Questions and Support
-
-The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
 
 ### FY' 20 Engagement Survey
 

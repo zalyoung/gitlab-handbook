@@ -27,8 +27,6 @@ The following applies to GitLab artifacts that have product and specific feature
 | Topic | Disclaimer | Legal Review Required (Y/N) | Other Considerations |
 | ----- | ----------- | --- | --- |
 | [3 year direction videos](https://www.youtube.com/watch?v=2By7ipuQk1o) | Y | Y |  |
-|[Company wide kickoff video](/handbook/product/product-processes/#kickoff-meetings) | Y | N | |
-|[Group Kickoff videos](/handbook/product/product-processes/#kickoff-meetings) | N | N | |
 | [Product demos, walk-through videos](/handbook/product/product-processes/#recording-videos-to-showcase-features) | N | N | |
 |Meeting recordings (e.g. Team calls, PM Weekly, Retrospectives) | N | N | |
 |[Direction pages](/handbook/product/product-processes/#managing-your-product-direction) | Y | N | |
@@ -49,7 +47,7 @@ The following applies to GitLab artifacts that have product and specific feature
 |References to revenue| Y | Y |
 |User confidentiality | Y | Y |
 
-### Materially Non-Public Information
+### Materially Non-Public Information (MNPI)
 
 Product managers often need access to MNPI to do their job. As GitLab is now a publicly-traded company, it is important we all understand what MNPI is so we manage information/data appropriately. Here are some examples of MNPI:
 

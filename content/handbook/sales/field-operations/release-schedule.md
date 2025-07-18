@@ -66,7 +66,7 @@ Creators have six custom images to choose from to use when building Spotlights i
    1. Tool Update
    1. Incident Report
 
-In addition, a [Canva template](https://www.canva.com/design/DAGOCmVEVoI/-J-pk80dtxI59EyYqIp5Eg/edit?utm_content=DAGOCmVEVoI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) is available to custom-create a text-based image that is inline with our Brand guidelines if one of the three pre-existing images is not applicable. If you do not have access to Canva, please open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+In addition, a [Canva template](https://www.canva.com/design/DAGOCmVEVoI/-J-pk80dtxI59EyYqIp5Eg/edit?utm_content=DAGOCmVEVoI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) is available to custom-create a text-based image that is inline with our Brand guidelines if one of the three pre-existing images is not applicable. If you do not have access to Canva, please open an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 ### Phase 2: GitLab Spekit Experts for Field Updates
 

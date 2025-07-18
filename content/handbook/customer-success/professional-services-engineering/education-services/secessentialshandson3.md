@@ -3,7 +3,7 @@ title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Containe
 description: "This Hands-On Guide walks you through enabling and using Container Scanning in a GitLab project."
 ---
 
-> Estimated time to complete: 15 to 20 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -15,7 +15,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL if you are in Self-Paced Training, or https://ilt.gitlabtraining.cloud if you are in Instructor-Lead Training, and the project should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL, and the project should appear in your history.
 
 1. Before beginning this lab and all later labs, you should disable any scanners that you enabled in previous labs to speed up pipeline runtime. You should have already completed this in Lab 2.
 
@@ -27,25 +27,23 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Above the repository file list, click **(+) > This directory > New file**.
 
-1. In the **File name** field, type `Dockerfile`.
-
-    > It is important that the first letter is capitalized for industry standards.
+1. In the **File name** field, type `Dockerfile`. It is important that the first letter is capitalized for industry standards.
 
 1. The `Dockerfile` must specify which Linux image to install your application on. For this lab you'll use an old version of Python that has security vulnerabilities for the Container Scanner to find. Paste this into `Dockerfile`:
 
-    ```dockerfile
+    ```Dockerfile
     FROM python:3.4-alpine
     ```
 
 1. The Dockerfile must add your application to the Linux image specified above. Paste this at the bottom of `Dockerfile`:
 
-    ```dockerfile
+    ```Dockerfile
     ADD main.py .
     ```
 
 1. Your completed `Dockerfile` should look like this. Make any corrections necessary.
 
-    ```dockerfile
+    ```Dockerfile
     FROM python:3.4-alpine
     ADD main.py .
     ```
@@ -201,10 +199,19 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     include:
     - template: Security/SAST.gitlab-ci.yml
     - template: Security/Secret-Detection.gitlab-ci.yml
+    - template: Security/Dependency-Scanning.gitlab-ci.yml
     - template: Security/Container-Scanning.gitlab-ci.yml
     ```
 
     > This can be added anywhere in the list of templates.
+
+1. You will also need to tell the Container Scanning tool about which image to scan. Add the following code beneath the `secret_detection` job:
+
+```yaml
+container_scanning:
+  variables:
+    CS_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+```
 
 1. Commit the changes with an appropriate commit message.
 
@@ -226,43 +233,15 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Edit the `.gitlab-ci.yml` file.
 
-1. Copy and paste this to overwrite all of the contents of your `.gitlab-ci.yml` file. This has commented out sections of jobs and scanners that we won't be using for the rest of the class to speed up our pipeline.
+1. Copy and paste this to overwrite all of the contents of your `.gitlab-ci.yml` file. This is to ensure that we do not have any unnessescary scanners running that would slow down our pipeline. We are keeping the SAST job in order to maintain the `.gitlab-ci.yml` file's formatting.
 
     ```yml
     stages:
-    # - build
     - test
-    # - dast
 
     include:
     - template: Security/SAST.gitlab-ci.yml
-    # - template: Security/Secret-Detection.gitlab-ci.yml
-    # - template: DAST.gitlab-ci.yml
-    # - template: Security/Container-Scanning.gitlab-ci.yml
-
-    # variables:
-    #  SAST_EXCLUDED_PATHS: venv/
-    #  DAST_WEBSITE: https://example.com
-
-    #secret_detection:
-    #  variables:
-    #    SECRET_DETECTION_EXCLUDED_PATHS: tests/
-
-    #build-and-push-docker-image:
-    #  stage: build
-    #  image: docker:20.10.17
-    #  services:
-    #    - docker:20.10.17-dind
-    #  variables:
-    #    IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-    #    DOCKER_TLS_CERTDIR: ""
-    #  script:
-    #    - docker build --tag $IMAGE .
-    #    - docker login --username $CI_REGISTRY_USER --password $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    #    - docker push $IMAGE
     ```
-
-    > Note that we need to keep at least one job enabled for the pipeline to succeed. In this example, the SAST job is left enabled since it is the quickest to complete.
 
 1. Set the commit message to `Lab 3 pipeline reset` and commit your changes to the `main` branch.
 

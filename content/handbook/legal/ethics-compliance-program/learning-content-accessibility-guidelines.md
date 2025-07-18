@@ -69,8 +69,8 @@ A text alternative for images is important for conveying non-text content to a u
 
 A simple image is one that can be described in a few words or a short sentence. Examples might include a product screenshot or a photograph of people having a conversation. Simple images are most commonly described with “alt text,” which gets its name from the alt image attribute in code. Alt text looks like this: <img alt=“text alternative”>. The “text alternative” describes the image in a text-based format that screen readers can read out loud, which helps the user understand what the image is meant to convey. Writing the text alternative can be challenging and sometimes subjective. Compare the following examples to understand how to make alt text more descriptive:
 
-- Poorly-written alt text: `<img src="team.jpg" alt="image">`
-- Well-written alt text: `<img src="team.jpg" alt="Four team members discussing a project around a conference table.">`
+- Poorly-written alt text: `<img src="/images/legal/ethics-compliance-program/team.jpg" alt="image">`
+- Well-written alt text: `<img src="/images/legal/ethics-compliance-program/team.jpg" alt="Four team members discussing a project around a conference table.">`
 
 In both examples, the alt text alerts the user to the use of an image but the first does not describe the image, while the second describes what the image is meant to convey (“four team members discussing a project … “). Here is another example:
 
@@ -83,7 +83,7 @@ Both examples mention a “dog” but the poorly-written alt text does not descr
 
 A complex image is a visual that is more informational in nature and requires more than just a simple explanation. Examples might include a flow chart or data visualization. Similar to a simple image, a complex image requires alt text, which serves as a brief description, but also a long description that explains, in more detail and using more text (aka “long text”), the essential information contained in the image. If the complex image consists of data, consider using a text table of the data rather than long-form text. [Learn more about the W3C's long description methods here](https://www.w3.org/WAI/tutorials/images/complex/).
 
-Data visualization, which is the graphical representation of information and data, should use colors with sufficient contrast and labels within the chart, so that the user does not have to rely solely on color to understand what is being conveyed. Look at the [data visualization color palette](https://design.gitlab.com/data-visualization/color) documented in the Pajamas Design System for GitLab or read [An Accessibility-First Approach To Chart Visual Design](https://www.smashingmagazine.com/2022/07/accessibility-first-approach-chart-visual-design/), by Kent Eisenhuth and Kai Chang, to understand other ways to consider data visualization while creating accessible learning experiences.
+Data visualization, which is the graphical representation of information and data, should use colors with sufficient contrast and labels within the chart, so that the user does not have to rely solely on color to understand what is being conveyed. Look at the [data visualization color palette](https://design.gitlab.com/data-visualization/color/) documented in the Pajamas Design System for GitLab or read [An Accessibility-First Approach To Chart Visual Design](https://www.smashingmagazine.com/2022/07/accessibility-first-approach-chart-visual-design/), by Kent Eisenhuth and Kai Chang, to understand other ways to consider data visualization while creating accessible learning experiences.
 
 ### Decorative images
 
@@ -128,7 +128,7 @@ Text should have sufficient contrast against the background. If it’s meaningfu
 
 Charts in videos should utilize patterns and textures ( such as lines, dots, or crosshatching) instead of relying solely on color. Here, as an example, is a chart that uses patterns and textures:
 
-![Data-Visualization-Example](/handbook/legal/ethics-compliance-program/data-visualization-example.png)
+![Data-Visualization-Example](/images/legal/ethics-compliance-program/data-visualization-example.png)
 
 This helps viewers distinguish different segments or lines in a chart, even if they cannot differentiate the colors. During the video, consider highlighting or enlarging specific areas of the chart when discussing them to focus attention and help all viewers, particularly those who might struggle with smaller, detailed graphics. Provide a verbal description of the key elements of the chart as they appear in the video. This description should accompany the visual display, explaining what is being shown, including any patterns or textures used.
 
@@ -178,4 +178,4 @@ If content is interactive (separately from the learning management system contro
 
 Web accessibility is becoming increasingly important as more and more business, learning, and communication takes place online. Accessibility is especially important for GitLab and its [mission](/handbook/company/mission/#:~:text=GitLab%20has%20a%20contributor%20code,members%20strive%20to%20conduct%20themselves.), as universal access to information (especially learning content) helps ensure that everyone can contribute. When we start by considering accessibility, we are also more likely to deliver a more inclusive and engaging experience for all users.
 
-By doing a bit of learning ourselves, we hope that GitLab and its team members will be better prepared to consider the various ways that people consume the information we provide, and whether or not we’re creating the best experience possible. In addition to these guidelines, which should be used by team members to create more accessible learning experiences, we also encourage team members to explore the links provided throughout this document in order to better understand and comply with the underlying WCAG guidelines. 
+By doing a bit of learning ourselves, we hope that GitLab and its team members will be better prepared to consider the various ways that people consume the information we provide, and whether or not we’re creating the best experience possible. In addition to these guidelines, which should be used by team members to create more accessible learning experiences, we also encourage team members to explore the links provided throughout this document in order to better understand and comply with the underlying WCAG guidelines.

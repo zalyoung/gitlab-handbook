@@ -1,5 +1,5 @@
 ---
-title: Laptop VPN Troubleshooting Guide
+title: NordLayer VPN Troubleshooting Guide
 ---
 
 ## Overview

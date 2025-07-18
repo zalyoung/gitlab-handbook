@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -27,16 +27,40 @@ Some keywords accumulated a number of responsibilities, and some ambiguous overl
 keywords and subtle differences in behavior were introduced over time.
 The current implementation and YAML syntax also make it challenging to implement new features.
 
-In this design document, we will discuss the problems and propose
-a new architecture for pipeline processing. Most of these problems have been discussed before in the
-["Restructure CI job when keyword"](https://gitlab.com/groups/gitlab-org/-/epics/6788) epic.
+In this design document, we will outline a streamlined approach to improve pipeline behavior predictability
+and reduce the configuration burden on users, ultimately strengthening GitLab's product competitiveness.
 
 ## Goals
 
-- We want to make the pipeline processing more understandable, predictable and consistent.
-- We want to unify the behaviors of DAG and STAGE. STAGE can be written as DAG and vice versa.
-- We want to decouple the manual jobs' blocking behavior from the `allow_failure` keyword.
-- We want to clarify the responsibilities of the `when` keyword.
+### Business Goals
+
+- Enhance Product Competitiveness: By reducing configuration complexity and improving pipeline predictability,
+  GitLab will offer a more intuitive and robust CI/CD experience. This positions GitLab as the preferred choice
+  for both new and existing users, helping to attract and retain customers, including those with highly complex workflows.
+- Increase Development Efficiency: Clarifying keyword responsibilities and simplifying the pipeline model
+  reduces code complexity, which improves maintainability and decreases the time and resources needed for future enhancements.
+  The development teams will have greater agility to implement new features and address issues quickly.
+
+### Product Goals
+
+- Provide a clear, consistent pipeline configuration model that reduces ambiguity and allows users to more accurately control pipeline behavior.
+- Create a cohesive, predictable model for DAG and STAGE configurations, enabling users to seamlessly integrate both without risk of unexpected behavior.
+- Simplify GitLab CI's codebase to make future improvements more manageable and reduce the maintenance burden on GitLab's engineering team.
+- Facilitate a migration path for existing customers without introducing any breaking changes.
+
+### Problem Statement
+
+- **Ambiguity and Overlapping Keyword Roles**: Some keywords, like `when` and `allow_failure`, have multiple roles that overlap,
+  leading to unpredictable behavior. Users find it difficult to anticipate outcomes, especially in complex pipelines.
+  This ambiguity increases support cases and frustrates users, who may seek alternative solutions.
+  - *Related Issues*: [#233876](https://gitlab.com/gitlab-org/gitlab/-/issues/233876), [#382179](https://gitlab.com/gitlab-org/gitlab/-/issues/382179),
+    [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6788#note_2202988134),
+    [#17759](https://gitlab.com/gitlab-org/gitlab/-/issues/17759), [#17397](https://gitlab.com/gitlab-org/gitlab/-/issues/17397).
+- **Inconsistent Pipeline Models**: The STAGE and DAG models do not always behave consistently,
+  making it challenging for users to configure pipelines that use both models without unintended side effects.
+  This inconsistency adds a learning curve and reduces GitLab's appeal for complex pipeline needs.
+  - *Related Issues*: [#233712](https://gitlab.com/gitlab-org/gitlab/-/issues/233712), [#219371](https://gitlab.com/gitlab-org/gitlab/-/issues/219371),
+    [#388866](https://gitlab.com/gitlab-org/gitlab/-/issues/388866), [#20237](https://gitlab.com/gitlab-org/gitlab/-/issues/20237).
 
 ## Non-Goals
 
@@ -45,6 +69,8 @@ We will not discuss how to avoid breaking changes for now.
 ## Motivation
 
 The list of problems is the main motivation for this design document.
+Most of these problems have been discussed before in the
+["Restructure CI job when keyword"](https://gitlab.com/groups/gitlab-org/-/epics/6788) epic.
 
 ### Problem 1: The responsibility of the `when` keyword
 
@@ -73,7 +99,7 @@ For example; publishing failures to dedicated page or dedicated external service
 ### Problem 2: Abuse of the `allow_failure` keyword
 
 We control the blocker behavior of a manual job by the [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/index.html#allow_failure) keyword.
-Actually, it has other responsibilities; _"determine whether a pipeline should continue running when a job fails"_.
+Actually, it has other responsibilities; *"determine whether a pipeline should continue running when a job fails"*.
 
 Currently, a [manual job](https://docs.gitlab.com/ee/ci/jobs/job_control.html#create-a-job-that-must-be-run-manually);
 
@@ -374,7 +400,6 @@ Let's define their differences first;
   - It is not a finished job.
   - Canceled is a user requested interruption of the job. The intent is to abort the job or stop pipeline processing as soon as possible.
   - We don't know the result, there is no artifacts, etc.
-  - Since it's never run, the `after_script` is not run.
   - Its eventual state is "canceled" so no job can run after it.
     - There is no `when: on_canceled`.
     - Even `when: always` is not run.
@@ -383,7 +408,6 @@ Let's define their differences first;
   - It is equal answer of the system to success. The fact that something is failed is relative,
     and might be desired outcome of CI execution, like in when executing tests that some are failing.
   - We know the result and [there can be artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifactswhen).
-  - `after_script` is run.
   - Its eventual state is "failed" so subsequent jobs can run depending on their `when` values.
     - `when: on_failure` and `when: always` are run.
 
@@ -488,4 +512,9 @@ N/A
 
 ## Design and implementation details
 
-N/A
+This will be determined after the proposal is approved.
+Breaking changes, implementation details, and migration paths will be discussed in this phase.
+
+## Feedback
+
+Please share your feedback at [the feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/420616).

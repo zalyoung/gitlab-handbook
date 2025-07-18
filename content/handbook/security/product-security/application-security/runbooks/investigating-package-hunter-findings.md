@@ -18,7 +18,7 @@ Package Hunter detected that a package opened a network connection.
 - We can look at the destination IP address and see if gives any interesting information
   - In this example, it's a an AWS IP address but it gives us no information
   about what package might have contacted this IP
-- **Attention: This step requries to checkout the branch for which the finding was made.
+- **Attention: This step requires to checkout the branch for which the finding was made.
 Please proceed with caution when analyzing potentially malicious code on your local computer.
 We recommend to checkout the code into a dedicated VM.
 If there are any questions or you require assistance, please reach out to `@gitlab-com/gl-security/product-security/appsec`.**
@@ -68,11 +68,11 @@ the alert and that there is no malicious intent.
 - If we discover that the package was malicious all along (typosquatting for example),
 [security on-call should be engaged] for further investigation and an MR should be
 opened to replace the package with the legitimate one. Consider [reporting](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software)
-the malicious package to the registry operator ([NPM](https://www.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
+the malicious package to the registry operator ([NPM](https://docs.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
 - If we discover that a legitimate package was compromised,
-[security on-call should be engaged]({{< ref "engaging-security-on-call" >}}) for further investigation and an MR should be
+[security on-call should be engaged](/handbook/security/security-operations/sirt/engaging-security-on-call/) for further investigation and an MR should be
 opened to roll back to a previous version of the package that is known to be secure.
-Consider [reporting](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software)  the malicious package to the registry operator ([NPM](https://www.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
+Consider [reporting](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software)  the malicious package to the registry operator ([NPM](https://docs.npmjs.com/policies/security#reporting-security-problems-to-npm) or [RubyGems](https://guides.rubygems.org/security/#reporting-security-vulnerabilities))
 and to the maintainer of the package
 - If we discover that the network connection is used to fetch a legitimate resource,
 we should look into the possibility of self-hosting the resource or verifying its

@@ -10,7 +10,7 @@ participating-stages: [ "~section::ops", "~section::dev" ]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Table of Contents
 
@@ -187,7 +187,7 @@ Therefore, we intend to develop an abstraction that can enable an application to
 
 ### Architecture
 
-![Architecture](clickhouse_dbwriter.png)
+![Architecture](/images/engineering/architecture/design-documents/clickhouse_ingestion_pipeline/clickhouse_dbwriter.png)
 
 Having an abstraction around writing data help client-side instrumentation to stay backend-agnostic allowing them to switch code paths depending on where it runs.
 
@@ -260,7 +260,7 @@ With a backend-agnostic abstraction becoming the ingestion interface a client in
   - Self-managed backends:
     - [CHProxy](https://www.chproxy.org/)
     - [Kafka](https://kafka.apache.org/)
-    - [RedPanda](https://redpanda.com/)
+    - [RedPanda](https://www.redpanda.com/)
     - [Vector](https://vector.dev/)
     - [RabbitMQ](https://www.rabbitmq.com/)
 

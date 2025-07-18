@@ -19,15 +19,15 @@ This policy applies to anyone developing, reviewing, and merging code at GitLab 
 
 ## Policy
 
-In-scope development activities are performed in accordance with GitLab's [product development flow](/handbook/product-development-flow/). (SA-3)
+In-scope development activities are performed in accordance with GitLab's [product development flow](/handbook/product-development/how-we-work/product-development-flow/). (SA-3)
 
 Development activities are performed with security, confidentiality, and availability principles in mind. (PL-8, SA-8)
 
-Test data used throughout the development process is subject to GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/) (SA-3(2))
+Test data used throughout the development process is subject to GitLab's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) (SA-3(2))
 
 ## Standard
 
-For further details, please review GitLab's [Software Development Lifecycle Standard](/handbook/security/software-development-lifecycle-standard).
+For further details, please review GitLab's [Software Development Lifecycle Standard](/handbook/security/standards/software-development-lifecycle-standard).
 
 ## Exceptions
 

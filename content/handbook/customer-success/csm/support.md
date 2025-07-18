@@ -12,7 +12,7 @@ Define the process for how the CSM interacts with the systems and processes desi
 
 ## Establishing Customers in Support Systems
 
-During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers' purchase of products that include support.
+During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances/). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers' purchase of products that include support.
 
 Though automation exists, the CSM must still ensure customers take additional steps to fully establish their personnel in Zendesk. Specifically, the CSM must work with the customer to establish specific Zendesk users under the Zendesk Account so that tickets submitted by the customer's personnel are guided by the GitLab support team's [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#gitlab-support-service-levels).
 
@@ -64,7 +64,7 @@ Once done and the AM id was updated, the link itself will be visible within ZD i
 
 ## Support Ticket Notifications
 
-When a CSM is assigned to an account in Salesforce, any time that a user from that account submits a support ticket, the CSM will receive an email to let them know, which includes a link to the Zendesk ticket and an [automatically-created](/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync/) Salesforce case. The email will also include the account name, contact name and email, and the date the ticket was opened. CSMs should receive the email within 1-2 hours of the ticket being opened.
+When a CSM is assigned to an account in Salesforce, any time that a user from that account submits a support ticket, the CSM will receive an email to let them know, which includes a link to the Zendesk ticket and a Salesforce case. The email will also include the account name, contact name and email, and the date the ticket was opened. CSMs should receive the email within 1-2 hours of the ticket being opened.
 
 In the email notifying CSMs of new tickets, the included Zendesk ticket link currently leads directly to the ticket. In the past, it has been a .json file which is difficult to read and sometimes doesn't load. If you encounter this, there are a few ways to work around this:
 
@@ -100,17 +100,17 @@ In the email notifying CSMs of new tickets, the included Zendesk ticket link cur
 
 ## Provide Customer Feedback on Support Tickets
 
-Sometimes CSMs receive feedback on a support ticket from a customer via email. This feedback can be positive or negative. You can feed back that information to the support management team by following the instructions under points 3 and 4 in the [Sources of feedback](/handbook/support/workflows/how-to-respond-to-feedback.html#sources-of-feedback) section of the Support Satisfaction (SSAT) workflow documentation. The SSAT Reviewing Manager will pick up and action the feedback.
+Sometimes CSMs receive feedback on a support ticket from a customer via email. This feedback can be positive or negative. You can feed back that information to the support management team by following the instructions under points 3 and 4 in the [Sources of feedback](/handbook/support/workflows/how-to-respond-to-feedback/#sources-of-feedback) section of the Support Satisfaction (SSAT) workflow documentation. The SSAT Reviewing Manager will pick up and action the feedback.
 
 As described at that link, support already collects feedback via an automatic email survey and a mid-ticket feedback link. It can be helpful to remind customers about these options from time to time. You'll still see the feedback when reviewing a customer's support tickets prior to cadence calls.
 
 ## Support Contact Management Projects
 
-CSM guidance on [contact management projects](/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
+CSM guidance on [contact management projects](https://support.gitlab.com/hc/en-us/articles/14142703050396-Contact-Management-Projects).
 
 Who has access to a Contact Management Projects?
 
-- Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
+- Due to their sensitive nature for our customers, only Customer Support Operations and the customers' chosen users have access to a contact management project.
 
 How do I know if my customer has a contacts management project?
 

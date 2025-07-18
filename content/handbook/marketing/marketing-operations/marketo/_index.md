@@ -5,7 +5,7 @@ description: "Marketo is our marketing automation platform used for email market
 
 ## About Marketo
 
-[Marketo](https://business.adobe.com/products/marketo/adobe-marketo.html) is our marketing automation platform used for email marketing, lead management, and program management.
+[Marketo](https://business.adobe.com/products/marketo.html) is our marketing automation platform used for email marketing, lead management, and program management.
 
 ## Marketo Tech Stack Guide
 
@@ -73,7 +73,7 @@ To enable, you must [create an issue](https://gitlab.com/gitlab-com/marketing/ma
 
 We do have a sandbox to work in for Marketo. The sandbox is used for training, creation of API links and overall testing before we move to production. There is not a way to `promote` a program from the sandbox to Prod, so building programs in the sandbox first is not always required. Guidelines for when to build in the sandbox is TBD, but for custom API and webhook integrations, it is highly recommended.
 
-If you'd like access to the sandbox, please fill out an [AR](/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/).
+If you'd like access to the sandbox, please fill out an [AR](/handbook/security/corporate/end-user-services/access-requests/#application-specific-templates).
 
 To limit the number of leads that pass from SFDC staging to Marketo Sandbox, we have instituted a custom rule that will only allow leads to sync from SFDC Staging to Marketo Sandbox IF `Marketo Sync` = TRUE. This is opposite logic than what we have for production.
 
@@ -107,7 +107,7 @@ Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1c
 
 Localized forms require special hidden fields to properly capture `Preferred Language`. Refer to [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10025) for detailed set-up instructions.
 
-If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request).
+If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/) and then [request help](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
 
 All forms should follow these guidelines:
 
@@ -119,7 +119,7 @@ All forms should follow these guidelines:
   - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
 - Generally `City` is only visible when `Country` = `Ukraine`
 - Forms should all contain a checkbox to obtain consent to `opting in` to communications via email
-- When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of the Ukraine
+- When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of Ukraine
 - Country should not include [embargoed countries](/handbook/legal/trade-compliance/)
 - All forms should have hidden fields for `gclid` and google analytics tracking
 
@@ -185,7 +185,7 @@ The process runs through [this smart campaign](https://engage-ab.marketo.com/?mu
 
 Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page.
 
-Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
+Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events/) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
 
 ### Product data in Marketo
 
@@ -223,9 +223,9 @@ For additional information, visit the [lead lifecycle page](/handbook/marketing/
 
 A Lead/Contact will be allowed to re-MQL if they are in a `Recycle` status and reach the [MQL threshold](/handbook/marketing/marketing-operations/) again.
 
-The number of times they `MQL` will be counted with the `MQL Counter` field.  The `Initial MQL DateTime` contains the very first time a prospect reached the [MQL threshold](/handbook/marketing/marketing-operations/#lead-scoring-lead-lifecycle-and-mql-criteria).  `MQL Date` will be overwritten to be the most recent date that a lead has reached the MQL threshold.
+The number of times they `MQL` will be counted with the `MQL Counter` field.  The `Initial MQL DateTime` contains the very first time a prospect reached the [MQL threshold](/handbook/marketing/marketing-operations/#lead-scoring-lead-lifecycle-and-mql-criteria). `MQL Date` will be overwritten to be the most recent date that a lead has reached the MQL threshold.
 
-When a lead is set to `Recycle`, their `Behavior Score` is reset to 0. Their `Person Score` is reset to the value of the `Demographic Score`. Additionally, a person who has reached `MQL` in the past, is given an additional score of `+20` when they are reset to `Recycle` and take an action to increase their behaviour score. If a lead was `Accepted` before it reached the MQL threshold, and is then set to `Recycle` within 30 days, the lead's `Behavior Score` will reset to the value it was while in `Inquiry` when they take an action, the `Demographic Score` will be re-run and their overall `Person Score` will be the sum of those two values.
+When a lead is set to `Recycle`, their `Behavior Score` is reset to 0. Their `Person Score` is reset to the value of the `Demographic Score`. Additionally, a person who has reached `MQL` in the past, is given an additional score of `+20` when they are reset to `Recycle` and take an action to increase their behavior score. If a lead was `Accepted` before it reached the MQL threshold, and is then set to `Recycle` within 30 days, the lead's `Behavior Score` will reset to the value it was while in `Inquiry` when they take an action, the `Demographic Score` will be re-run and their overall `Person Score` will be the sum of those two values.
 
 When a lead `Re-MQLs` from `Recycle` to `MQL`, their `Recycle Reason` field is set to `Null`, but that `Recycle Reason` value is preserved in the field `Previous Recycle Value` on the lead or contact. That field is set by Marketo only. The `Recycle DateTime` only updates the first time. When a lead re-reaches an `MQL` status, they are not re-routed by LeanData for round-robin, they stay in their original owners name.
 
@@ -252,7 +252,19 @@ Some leads are exluded from scoring if they:
 
 A slide deck of the "why" we use a scoring model, along with a few pointers, can be found [here](https://docs.google.com/presentation/d/1Xl1xcrOeFsDar2B9kTmMH1Hrw5WKsNx7mDL9xtVeBMs/edit#slide=id.g1d24c3e4ddd_5_252). Note, this is the slide deck used in the LevelUp course.
 
-#### Scoring Revamp FY25Q1
+#### Scoring Model Updates
+
+Working with the Sales Development and Marketing Analytics teams, Marketing Operations updates our lead scoring model during Q4 each fiscal year. Restricting the time we update our model allows us to compare our MQL year-over-year volume fairly. Instead of needing to account for changes throughout the year, we condense them to a smaller timeframe that we can note in our reporting.
+
+To share feedback on our Lead Scoring model during the year, please leave a comment in [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10872). We review this issue often and consider each item when updating our Lead Scoring model.
+
+When leaving feedback, it is important to provide effective details regarding why the change is being requested. Without those details, changes will take longer to research and may over time lose the needed context behind their validity. At the minimum, please include:
+
+- A link to an affected SFDC lead - OR for multiple leads a Google sheet including columns useful for analysis OR a SFDC report 
+- A summary of the perceived problem and how it is influencing workflows
+- If applicable, list a recent campaign that should have scored more/less
+
+##### Scoring Revamp FY25Q1
 
 For details on the data driven changes made to lead scoring at the beginning of FY25, refer to [this slide deck](https://docs.google.com/presentation/d/14bTq_KOyG7jHJR7vghcUVAZ_tMSOgbAN7hI8auI49eU/edit#slide=id.g1d24c3e4ddd_5_252) and [this slide deck](https://docs.google.com/presentation/d/1B8Q3Rq6O7-641rFoGOJOG6TxKHM_uAU29Ejbzqr2KMI/edit#slide=id.g1d24c3e4ddd_5_252) to review the data set findings.
 
@@ -322,7 +334,7 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 |Function - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |   Once|
 |Function - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|+15|   Once|
 |Function - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +10 |    Once|
-|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/#priority-countries)|    +5   |Once|
+|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/)|    +5   |Once|
 
 #### Score Decay
 
@@ -341,19 +353,17 @@ Please note that score decay also applies to scores frozen by the lead being in 
 
 ### Lead Score Classification
 
+A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect to convert to an SAO - with the score being modeled after the lead's current `demographic` and `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`.
+
 The Lead Classification Matrix and the Lead Classification Definitions Table [exist in Figma](https://www.figma.com/file/U4GBe693vvyyrXZnMGGjS7/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=PZBNGKUfGQo8Ocvn-1), if the handbook page ever becomes broken.
 
-To streamline prospecting with lead scoring, as of January 2024 Salesforce now displays a `lead score classification` on all `new` leads moving forward and all leads Marketing has tracked as `active` since Jan 2023. Leads that do not meet this criteria may not feature a classification, but eventually more leads _may_ have the field populated. The field can be found in the `Person Status` section of leads and `Contact Detail` section of contacts.
-
-A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`.
-
-![Lead Classification Matrix](/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
+![Lead Classification Matrix](/images/marketing/marketing-operations/marketo/lead_classification_matrix.png)
 
 #### How to use the Lead Classification Matrix and read the Lead Classification
 
-The lead classification score --and its visual companion matrix-- is designed to appropriately rank how to approach a lead based on two primary criteria: the `demographic` and `behavior` scores. The `demographic fit` of a lead is associated with letters/columns `A`, `B`, `C` and `D`. The `behavior level` of a lead is associated with rows `1`, `2`, `3` and `4`. Both `A` and  `1` are the highest designations while `D` and `4` are the lowest. When looking at the matrix, the lowest classification is the bottom left, `D4`, and the highest classification is the top right, `A1`. Total, there are `16` lead classification scores and each of the `16` scores has a specific definition.
+The lead classification score --and its visual companion matrix-- is designed to help prioritize lead follow-up based on both profile fit and engagement levels. The `demographic fit` of a lead is associated with letters/columns `A`, `B`, `C` and `D`. The `behavior level` of a lead is associated with rows `1`, `2`, `3` and `4`. Both `A` and  `1` are the highest designations while `D` and `4` are the lowest. When looking at the matrix, the lowest classification is the bottom left, `D4`, and the highest classification is the top right, `A1`.
 
-In order to best utilize the lead score classification, read the definition provided on the matrix or via the definitions table below and act appropriately. For instance, a lead classified as `B2` or `A2` is more likely to produce a closed-won opportunity than a lead classified as `D2`. A `D2` lead can still lead to a closed-won opporunity due to interest being shown, but due to a low `demographic` fit it's less likely to be worth the time.
+In order to best utilize the lead score classification, read the definition provided on the matrix or via the definitions table below and act appropriately. For instance, a lead classified as `B2` or `A2` is more likely to produce a closed-won opportunity than a lead classified as `D2` because attributes within categories `A` and `B` fit the ideal buyer profile defined by GitLab. A `D2` lead can still lead to a closed-won opporunity due to interest being shown, but with a low `demographic` fit it's likely missing the ideal buyer attributes that often lead to higher conversion and opportunities. As pointed out in [the Lead Scoring educational slide deck](https://docs.google.com/presentation/d/1Xl1xcrOeFsDar2B9kTmMH1Hrw5WKsNx7mDL9xtVeBMs/edit#slide=id.g2b1545a7631_0_1), classification squares green in color signify the _range_ in which a person with ideal buyer persona attributes will `MQL`, with `A1` signifying a definitive `MQL`. 
 
 |  | D <br> (Demographic - Low) | C | B | A <br> (Demographic - High) |
 | ------ | ------ | ------ | ------ | ------ |
@@ -441,7 +451,7 @@ Recommended for email lists. `Person Region` uses the country of the lead/contac
 - INQ > MQL - `Status = MQL, Accepted or Qualifying` OR (`Status = Recycle` AND `Person Score > 74`)
 - MQL > SAO - `Status = Qualified` OR `1 Open Opportunity` OR `Has an Open Opportunity`
 - Customer - `Current Customer = TRUE` OR `Status = Web Portal Purchase` OR `Is Paid Tier = True`
-- Disqualified - Status is `Disqualified or Bad Data`
+- Disqualified - Status is `Disqualified` or `Ineligible`
 
 </details>
 
@@ -520,9 +530,26 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 
 </details>
 
+<details><summary>[Education Sector](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1033A1)</summary>
+Documentation describing this segment can be found [here](https://docs.google.com/spreadsheets/d/1Q_TwMimeBOR3rJ8CK4EM6DJ9YWYO56bTLNYevCS8UA0/edit?gid=0#gid=0)
+
+- Students
+- Teachers
+- Faculty
+- Unrelated Faculty
+- Edu Domain
+
+</details>
+
 ### Snippets
 
-[Localized email footer](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsusbcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
+[Localized email footer (unsubscribe language only)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsubcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
+
+[Localized footer, gray full footer - LOC-Full footer(gray)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/138/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a gray footer.
+
+[Localized footer, charcoal full footer - Footer - LOC - Charcoal](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/143/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a charcoal footer.
+
+[Localized footer, blue full footer - Footer - LOC - Blue](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/145/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a blue footer.
 
 {{% details summary="How to use the localized email footer snippet" %}}
 To use the Localized email footer snippet in an email:
@@ -530,7 +557,7 @@ To use the Localized email footer snippet in an email:
 1. select the "Body Text 1 Column" module from the email modules template in the right sidebar. Drag this section below the existing unsubscribe language.
 1. Click on the generic copy, then click on the gear that appears. Note that there are two things you can select here - the copy and the module itself. Be sure to select the gear for the copy.
 1. Select `Replace with Snippet`, then select `Localized email footer` and click Save.
-1. You can then select the module with the existing unsubscribe language, click the gear, and click, `Delete`. You should only see the unsubscribe language once now.
+1. You can then select the module with the existing unsubscribe language, click the gear, and click, `Delete`. You should only see the unsubscribe language/footer once now.
 
 To test the snippet, click `Preview`, then select `View by: Segmentation`. Select "Language Preference", then the language you would like to preview. You will see that the unsubscribe language changes based on the language you select.
 {{% /details %}}
@@ -546,9 +573,9 @@ The instructions below are for MOps Admin users.
 1. We have a [TEST trust logo snippet](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/40/overview/details) available. It is advised that you should make your changes on the test snippet first to view them and gain approval from the customer advocacy team before making changes to the live snippet. Changes on the live snippet will be applied to all live landing pages. You can view how the changes look on [this](https://page.gitlab.com/TestHopinEvent_Thankyoupage.html) test thank you page. The editing instructions below are for both the test snippet and the live snippet.
 1. Create a draft of the [Trust Logo snippet](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/8/overview/details) (or the test snippet if you are just getting started on the updates). Click on HTML to edit the snippet. The formatting for the snippet is controlled by the landing page template, so the snippet itself doesn't look good.
 1. Click on "HTML" to make your edits. Copy this code:
-`<a href="INSERT LINK TO CUSTOMER CASE STUDY" target="_blank"> <img src="INSERT LINK FROM DESIGN STUDIO" alt="ENTER NAME OF COMPANY logo" /></a>`
+`<a href="INSERT LINK TO CUSTOMER CASE STUDY" target="_blank"> <img src="/images/marketing/marketing-operations/marketo/INSERT LINK FROM DESIGN STUDIO" alt="ENTER NAME OF COMPANY logo" /></a>`
 1. Place it just before the `</div>` at the bottom of the html and replace the text in caps as instructed. The alt text should not be all caps. This will add the new logo to the end of the list. If you would like it in another location, place the code where you would like the logo to appear.
-1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/253609) can be found in the Marketo documentation.
+1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/300799) can be found in the Marketo documentation.
 {{% /details %}}
 
 ### Other Field Documentation and Definitions
@@ -607,7 +634,7 @@ There are a few main components to MSI:
 
 This tab shows a timeline of the most recent activity of a person. It shows `ALL` upcoming email campaigns and events (NOTE: This contains ALL upcoming emails/events, not just the ones sent to that prospect). In the timeline you can see web activity, email opens/clicks, and intersting moments. You can click into the lead timeline to see the specifics of each action. You will also see their overall score and a graph of the changes in the last 30 days. See screenshot below:
 
-![Marketo Sales Insight](/handbook/marketing/marketing-operations/marketo/MSI.png)
+![Marketo Sales Insight](/images/marketing/marketing-operations/marketo/MSI.png)
 
 ### Interesting Moments
 

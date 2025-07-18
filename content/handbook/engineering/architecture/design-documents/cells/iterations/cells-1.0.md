@@ -242,17 +242,257 @@ The table below is a comparison between the existing GitLab.com features, and no
 | Cross-organization downstream pipelines | Private organizations are in Cells 1.0 only and downstream pipelines would be unable to see public organizations. |
 | Any feature dependent on Clickhouse | Clickhouse is not supported on Dedicated, which is the underlying provisioning tool for Cells. Clickhouse is also not supported in any of our other tooling such as Geo, Org Mover, Backup/Restore, etc. |
 | Any feature dependent on [incoming email](https://docs.gitlab.com/ee/administration/incoming_email.html) (`mail_room`) | Cut scope. While we have a [proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/442161#note_1828026768) to have ingest email per cell, we are yet to figure out how to have stable email addresses that can be used even when an organizations moves to a different cell. |
+| Global search | Each cell will have an isolated search cluster. With Cells 1.0, global search will only work within the cell. See the [Cells: Global Search design document](../impacted_features/global-search.md) for more details. |
+| Paid subscription flows | CustomersDot relies on [path based](https://gitlab.com/gitlab-org/gitlab/-/issues/466369) and [OAuth token](https://gitlab.com/gitlab-org/gitlab/-/issues/465811) routing for Single Sign-On and fetching/updating data on GitLab. Without these, all requests from CustomersDot will go to the legacy Cell. |
+| Legacy CI_JOB_TOKEN | The legacy CI_JOB_TOKEN cannot be routed because it does not contain routing information, and can be passed in the request body. Customers will need use the JWT format in order to be able to utilise CI_JOB_TOKEN outside of the legacy cell. |
+| [OAuth Provider](https://docs.gitlab.com/integration/oauth_provider/) [OIDC Provider](https://docs.gitlab.com/integration/openid_connect_provider/) | OAuth/OIDC application provide a mechanism for third party and first party services to integrate to Gitlab. Since cross cell communication is limited in cells 1.0, we can not reliably implement Oauth applications |
+| Group SAML | Group SAML will not be available outside legacy cell [open issue for cell 1.5](https://gitlab.com/gitlab-org/gitlab/-/issues/443478)|
+
+## Phases
+
+All Cells 1.0 work is tracked under the [Cells 1.0 Epic](https://gitlab.com/groups/gitlab-org/-/epics/12383).
+The Epic is split into multiple phases where each one represents a iteration to achieve Cells 1.0.
+Some of these phases have dependencies over one another, and some can be run in parallel.
+
+### Phase 1: PreQA Cell
+
+Exit Criteria:
+
+- New GCP organizations created.
+- Break glass procedure.
+- Ring definition exists.
+- Cell provisioned using dedicated stack.
+- Able to do configuration changes to Cell.
+- Cell available at `xxx.cells.gitlab.com`.
+- Cell doesn't handle data uniqueness.
+
+![phase-1](/images/cells/phase-1.png)
+
+[source](https://excalidraw.com/#json=DuwGFqR2LcS6k2TZlYu9u,LKDzUCdkiHLO11c3rgFVeQ)
+
+Unblocks:
+
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): To provision runway deployment for Topology Service
+- Delivery team: Start testing deploys on rings
+
+Dependencies:
+
+- None
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293>)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_1)
+
+### Phase 2: GitLab.com HTTPS Passthrough Proxy
+
+Exit Criteria:
+
+- 100% of API traffic goes through router using passthrough proxy rule.
+- 100% of Web traffic goes through router using passthrough proxy rule.
+- 100% of Git HTTPS traffic goes through router using passthrough proxy rule.
+- Requests meet [latency target](https://docs.gitlab.com/ee/architecture/blueprints/cells/http_routing_service.html#low-latency)
+- registry.gitlab.com not proxied.
+
+![phase-2](/images/cells/phase-2.png)
+
+[source](https://excalidraw.com/#json=ymWufV5324javtKSrYiZW,5S-bkgtFS_yEIRxmVZ1rag)
+
+Unblocks:
+
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): Router to be configured with additional rules in phase 3.
+
+Dependencies:
+
+- None
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12775)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_2)
+
+### Phase 3: GitLab.com HTTPS Session Routing
+
+Exit Criteria:
+
+- PreQA Cell configured to generate `_gitlab_session` with prefix using rails config.
+- Route `_gitlab_session` with matching prefix to PreQA Cell using TopologyService::Classify (REST only) with static config file.
+- Continuous Delivery on Ring 0 with no rollback capabilities and doesn't block production deployments.
+- Topology Service [Readiness Review](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/topology-service) for [Experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment)
+- Topology Service gRPC endpoint not implemented.
+
+Unblocks:
+
+- [Phase 4](#phase-4-gitlabcom-https-token-routing)
+
+Before/After:
+
+![phase-3](/images/cells/phase-3.png)
+
+[source](https://excalidraw.com/#json=z7-ihTQ69trj5vdpXZ-7V,k0NtksWZMRdaR-lHoH3JMQ)
+
+Dependencies:
+
+- [Phase 2](#phase-2-gitlabcom-https-passthrough-proxy): Passthrough proxy needs to be deployed.
+- [Phase 1](#phase-1-preqa-cell): GCP organizations, Ring definition exists.
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14509)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_3)
+
+### Phase 4: GitLab.com HTTPS Token Routing
+
+Exit Criteria:
+
+- Framework to generate routable tokens in Rails.
+- Framework to classify routable tokens in HTTP Router.
+- Topology Service being able to classify based on more criteria.
+- Route Personal Access Tokens to different Cells using TopologyService::Classify.
+- Support `PRIVATE-TOKEN:` and `Authorization:` HTTP headers for Personal Access Tokens, create issues for other to be solved in following phases.
+- Each routing rule added should be covered with relevant e2e tests.
+- Route Job Tokens and Runner Registration to different Cells using TopologyService::Classify.
+
+Dependencies:
+
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): Topology Service and Router need to running in production.
+
+Before/After:
+
+![phase-4](/images/cells/phase-4.png)
+
+[source](https://excalidraw.com/#json=rWNPd77fLEhwZpERiUYLA,Tb-v5Hen6NomaopcmE9_mw)
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14510)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_4)
+
+### Phase 5: Cluster Awareness
+
+Exit Criteria:
+
+- Topology Service Production Readiness Review for Beta.
+- Framework to claim resources globally using TopologySerivce::Claims storing them in Google Spanner.
+- Following resources are claimable; Username, E-Mail, Top level Group Name, Routes
+- All resources that need to be claimed identified.
+- Unique indexes are audited, to not break any uniqueness required by application, and allows data migration.
+- Lease a sequence to a Cell using ToplogyService::Sequence.
+- Rails application able to send requests to TopologyService using internal network.
+- mTLS communication between TopologyService and HTTP Router.
+- mTLS communication between TopologyService and Rails.
+- mTLS communication between HTTP Router and Cell.
+- PreQA Cell can start claiming resources, still detached from Legacy Cell.
+- Claims done by PreQA Cell will be deleted.
+
+Dependencies:
+
+- [Phase 3](#phase-3-gitlabcom-https-session-routing): Topology Service Deployed.
+
+Before/After:
+
+![phase-5](/images/cells/phase-5.png)
+
+[source](https://excalidraw.com/#json=UpWQ_mQElSNOnEtOx3ZcI,MsAdeBL_6-CFH0c4P0BeZA)
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14511)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_5,groups_Phase_5_1_mTLS,groups_Phase_5_2_Sequence,groups_Phase_5_3_Claim,groups_Phase_5_4_Deploy)
+
+### Phase 6: Monolith Cell
+
+Exit Criteria:
+
+- Topology Service Production Readiness GA.
+- Legacy Cell configured as a Cell in TopologyService.
+- All new resources in Legacy Cell are claimed using TopologyService::Claims.
+- Legacy Cell claimed all existing resources.
+- Sequence leased to Legacy Cell.
+- Capacity Planning for sequences leased.
+- Latency increase for creating globally unique resources up to 20ms.
+
+Dependencies:
+
+- [Phase 5](#phase-5-cluster-awareness): Cluster Awareness
+
+Before/After:
+
+![phase-6](/images/cells/phase-6.png)
+
+[source](https://excalidraw.com/#json=b5JgJCXAldtsXx6iSzAdq,4A2TRSwU9WI19zbOn09gaA)
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14513)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_6)
+
+### Phase 7: Cell Initialization
+
+Exit Criteria:
+
+- TBD
+
+Before/After:
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14514)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_7)
+
+### Phase 8: Organization Onboarding
+
+Exit Criteria:
+
+- TBD
+
+Before/After:
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14749)
+- [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_8)
+
+### Phase 10: Production Readiness
+
+Exit Criteria:
+
+- Cell-Level Observability (Logs, Metrics, Alerts, Dashboard).
+- Integration with existing Incident Management tooling.
+- Compliance with GitLab.com security standards.
+- Regional and Zonal Disaster Recovery capabilities.
+- Operational tooling independence from GitLab.com/dev.gitlab.org availability.
+- Centralized WAF management for GitLab.com domain.
+- Cell-level Application Rate Limits with synchronization.
+- Least-privileged access implementation with SRE escalation path.
+- Progressive rollout of infrastructure changes across Cells with rollback support.
+- Progressive deployment capabilities across Legacy Cell and Cells with rollback support.
+- Support for toggling Feature Flags across Legacy Cell and Cells.
+
+Dependencies:
+
+- [Phase 1](#phase-1-preqa-cell): GCP organizations, Ring definition exists.
+
+Before/After:
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14807)
 
 ## Questions
 
-1. How do we create new Organizations with the user on additional Cells?
+1. How will we onboard users to an Organization on additional Cells?
 
-    To be defined.
+    An Admin will perform the following tasks:
 
-1. How do we register new users for the existing Organization on additional Cell?
+    1. Create an Organization on the additional cell.
+    1. Create a new user with the Owner role in the Organization.
+    1. Remove the Admin from the Organization. Optional, depending on feature set.
+    1. The new Owner will import data for this group. This would create users, add them to the groups/projects, and add them to the Organization.
 
-    If an Organization is already created, users can be invited.
-    We can then serve the registration flow from additional Cell.
+1. How do we register new users for the existing Organization on an additional Cell?
+
+    The standard [group](https://docs.gitlab.com/ee/user/group/#add-users-to-a-group) and [project](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) invite flows can be used. This means a user with [adequate permissions](https://docs.gitlab.com/ee/user/permissions.html#user-management) can invite users by email to any group or project in the Organization. After the user registers they will be added to the group or project _and_ the Organization.
 
 1. How would users log in?
 
@@ -449,7 +689,7 @@ The table below is a comparison between the existing GitLab.com features, and no
       or when we migrate the organization to another Cell.
     - For the following reason this is why we don't want to force particular paths, or use of subdomains.
     - If we choose the path to force to use `relative_path` it would break all cell-wide endpoints
-      This seems to be longer and more complex that approaching this by making existing to be shareded.
+      This seems to be longer and more complex that approaching this by making existing to be shared.
     - If we choose to fix existing not sharded [can be made](https://gitlab.com/gitlab-org/gitlab/-/issues/430330)
       at later point we will achieve much better API consistency, and likely much less amount of the work.
 

@@ -10,7 +10,7 @@ participating-stages: ["~section::ops", "~section::dev"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 

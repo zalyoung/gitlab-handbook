@@ -81,7 +81,7 @@ The Senior Engineering Analyst role extends the [Engineering Analyst](#engineeri
 - An expert in data domain of assigned Engineering Department.
 - Attend and ensure key-review readiness of assigned Engineering Department.
 - Occasionally represent Engineering Analytics in broad company communication and announcements.
-- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/enterprise-data/#data-job-families).
+- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/enterprise-data/).
 - Influence the overall objectives and long-range goals of the Engineering Analytics team.
 
 ### Staff Engineering Analyst
@@ -166,7 +166,7 @@ The Staff Engineering Analyst role extends the [Senior Engineering Analyst](#sen
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Selected candidates will be invited to fill out a short questionnaire.
-- Next, candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Next, candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with the hiring manager.
 - Next, candidates will be invited to schedule a second technical interview with an Engineering Analyst.
 - Next, candidates will be invited to schedule a third interview with am additional member of the Engineering Analytics Team.

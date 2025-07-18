@@ -15,7 +15,7 @@ The *Engineering Manager* role is a [grade 8](/handbook/total-rewards/compensati
 
 ## Responsibilities
 
-- Manage a [team](/handbook/engineering/starting-new-teams/#team-construction) of engineers.
+- Manage a team of engineers.
 - Help your engineers grow their skills and experience
 - Author project plans for epics
 - Run agile project management processes
@@ -30,7 +30,7 @@ The *Engineering Manager* role is a [grade 8](/handbook/total-rewards/compensati
 - Foster technical decision making on the team, but make final decisions when necessary
 - Draft quarterly OKRs and [Engineering KPIs](/handbook/company/kpis/#engineering-kpis)
 - Improve product quality, security, and performance
-- May have more than one specialty on their team, per our [shared manager team](/handbook/engineering/starting-new-teams/#team-construction) concept
+- May have more than one specialty on their team
 - Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
 ## Requirements
@@ -84,7 +84,7 @@ Engineering Managers have the following job-family performance indicators. Perfo
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to a 60 minute interview with the Hiring Manager.
 - Candidates will then be invited to a 60 minute peer interview with another Engineering Manager
 - Candidates may then be invited to a 60 minute product manager interview

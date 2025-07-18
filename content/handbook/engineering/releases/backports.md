@@ -4,7 +4,7 @@ title: "Backports"
 
 ## Backports overview
 
-This section seeks to remove confusion around backports at GitLab. Please raise an MR to this page or reach out to the [Delivery Group](/handbook/engineering/infrastructure/team/delivery) if you have questions. Also remember to check the [Backports FAQ](/handbook/engineering/releases/backports/#backports-faq)
+This section seeks to remove confusion around backports at GitLab. Please raise an MR to this page or reach out to the [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) if you have questions. Also remember to check the [Backports FAQ](/handbook/engineering/releases/backports/#backports-faq)
 
 ### What kind of release do I need for my backport?
 
@@ -12,14 +12,12 @@ This flowchart can be used to guide you on what process you need. The ends of th
 
 ```mermaid
 graph TD
-    A[Bug Fix] -->|Raise MR| C{Is my MR is targeting the current version?}
+    A[Bug Fix] -->|Raise MR| C{Is my MR is targeting a maintained stable branch?}
     C -->|No| E[Backport Exception Request]
-    C -->|Yes| D{Is my MR a security fix?}
-    D -->|No| G[Patch Release]
-    D -->|Yes| F[Security Release]
+    C -->|Yes| F[Patch Release]
+    click C "https://docs.gitlab.com/policy/maintenance/#maintained-versions"
     click E "/handbook/engineering/releases/backports/#what-if-my-backport-is-not-covered-by-the-maintenance-policy"
-    click F "https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#non-critical-security-releases"
-    click G "/handbook/engineering/releases/#patch-releases-overview"
+    click F "/handbook/engineering/releases/#patch-releases-overview"
 
 ```
 
@@ -49,11 +47,11 @@ Backporting can be a very involved process requiring many cycles of back and for
 
 ### How do I know if my backport is covered by the maintenance policy?
 
-You can check the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) to see what is covered
+You can check the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) to see which GitLab versions are covered.
 
 ### What if my backport is not covered by the maintenance policy?
 
-If your backport is not covered by the maintenance policy then it is not guaranteed. However, we realize that there is sometimes a need to backport a fix to more than one stable release, depending on the severity of the bug. Backports that are outside of the maintenance policy are performed at the sole discretion of the [Release Managers](/handbook/engineering/infrastructure/team/delivery/#delivery-domain-ownership-between-delivery-teams) .
+If your backport is not covered by the maintenance policy then it is not guaranteed. However, we realize that there is sometimes a need to backport a fix to more than one stable release, depending on the severity of the bug. Backports that are outside of the maintenance policy are performed at the sole discretion of the [Release Managers](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#delivery-domain-ownership-between-delivery-teams) .
 
 You can request a backport by:
 
@@ -65,7 +63,7 @@ You can request a backport by:
     1. Estimated severity of the bug
     1. Estimated priority of the bug
     1. Potentially incurring data loss and/or security breach.
-    1. Potentially affecting one or more strategic accounts due to a proven inability by the user to upgrade to the current stable version.
+    1. Potentially affecting one or more strategic accounts due to a proven inability by the user to upgrade to a [maintained version](https://docs.gitlab.com/policy/maintenance/#maintained-versions).
     1. Impact to other planned release tasks
 1. Wait for confirmation and approval from the RMs
 1. Communicate to your stakeholders if/when the release is available on our [releases blog](https://about.gitlab.com/releases/categories/releases/)
@@ -84,13 +82,11 @@ At GitLab, we backport security fixes and bug fixes according to the [Maintenanc
 
 ### Is that the same as a Patch Release?
 
-No it's not. Backporting is a catch-all term for any activity that applies updates or patches from a newer version of software to an older version. At GitLab we have a specific [Patch Release process](/handbook/engineering/releases/#patch-releases-overview) that is applied according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html). This is one of the release methods we use to ship self-managed, along with the security release and regular monthly release. There is a separate [exception process](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for backports that are outside the scope of our maintenance policy and these are delivered on a best effort basis and not guaranteed.
+No it's not. Backporting is a catch-all term for any activity that applies updates or patches from a newer version of software to an older version. At GitLab we have a specific [Patch Release process](/handbook/engineering/releases/#patch-releases-overview) that is applied according to the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html). There is a separate [exception process](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for backports that are outside the scope of our maintenance policy and these are delivered on a best effort basis and not guaranteed.
 
 ### How do I get a backport for my bugfix/security issues?
 
-If your backport is a bug fix and covered by the maintenance policy, please follow the [Patch Release Process](/handbook/engineering/releases/#patch-release-process).
-
-If your backport is a security fix and covered by the maintenance policy, please follow the [Security Release Process](https://docs.gitlab.com/ee/policy/maintenance.html#security-releases).
+If your backport is a bug or a security fix and covered by the maintenance policy, please follow the [Patch Release Process](/handbook/engineering/releases/#patch-release-process).
 
 For anything outside of the maintenance policy, please follow [the exception process](/handbook/engineering/releases/backports/#what-if-my-backport-is-not-covered-by-the-maintenance-policy)
 

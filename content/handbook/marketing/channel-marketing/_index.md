@@ -15,7 +15,7 @@ This team is responsible for the development of channel marketing campaigns that
 
 The Global Channel marketing team provides support to partners by creating different campaign assets into leverageable go-to-market programs called Instant Campaigns that partners can easily pick up and run with their customer or prospect lists.  GitLab channel marketing is also responsible for the development, rollout and management of trial enablement programs by which partners can generate trials of GitLab directly from their website, and passing or providing trial leads generated from GitLab's own website to be worked and converted by partners.
 
-Our Channel Marketing Managers support the channel go-to-market efforts through our [MDF funding and management program](/handbook/resellers/Channel-Program-Guide/MDF/) and are responsible for ensuring they are building a strategic marketing plan with our [marketing-ready partners](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=Channel_Mktg_Ready) ([up-to-date SF report of marketing-ready partners - internal](https://gitlab.my.salesforce.com/00OPL0000003UhV)).
+Our Channel Marketing Managers support the channel go-to-market efforts through our [MDF funding and management program](/handbook/resellers/channel-program-guide/mdf/) and are responsible for ensuring they are building a strategic marketing plan with our [marketing-ready partners](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=Channel_Mktg_Ready) ([up-to-date SF report of marketing-ready partners - internal](https://gitlab.my.salesforce.com/00OPL0000003UhV)).
 
 ### Marketing-Ready
 
@@ -51,7 +51,6 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
   - Support requests for inclusion in third party publications
 - Support the web team in maintaining GitLab's marketing website [partner pages](https://about.gitlab.com/partners/)
 - Working with Sales Ops and Marketing Ops improve attribution and reporting of [partner sourced leads (CQLs), and partner sourced opportunities](/handbook/sales/field-operations/channel-operations/).
-- [Partner Concierge Program](https://gitlab.com/gitlab-com/marketing/demand-generation/fy24-integrated-marketing-planning/-/issues/8#pre-pilot-launch) is starting a pilot program with a list of select partners approved for participation. Partner accepted into the program will have monthly meetings with Program's Manager as well as a customer [content calendar](https://docs.google.com/presentation/d/1vdR-FhJFltPfCijO43L2as-HAlw8zEgUUCk6687CDWg/edit#slide=id.g123a13deda8_0_405) to track all social campaigns scheduled. Participants of the Concierge Program will not be able to participate in the MDF Program.
 
 ## 6 Month Planning Cycle with quarterly reviews: Channel Marketing Managers
 
@@ -121,21 +120,7 @@ Channel Marketing communicates with Partners through two online platforms and vi
 
 Partners who create a profile in the [GitLab Partner Portal](https://partners.gitlab.com/) are automatically included in our broad communications and marketing announcements through our Partner Flash newsletter and custom program and marketing announcements.  This is our default method of communication.  Partners may alter their preferences, such as the frequency of communications, preferred topics and declination of receiving messages, in the My Profile section of the portal.
 
-For more information about Partner Flash/News On Demand and process to become a contributor, please see the [Channel Program Operations handbook page](/handbook/sales/channel/channel-programs-ops/#partner-communications).
-
-#### Webinars to Channel Partners
-
-Global Channel Marketing hosts various webinars for our partner community.  Our goal is to provide updates and general marketing program news, as well as highlight one to three larger marketing program topics for a deeper dive.  Invitations are sent via our Partner Flash and News on Demand platform.  We target the global list of marketing contacts (those who have chosen a "marketing" role in their profile) as well as those in GitLab Channel roles, including our sales and program operations teams.  Invites are sent 30 days in advance of the event with a follow up at two weeks out and one day prior.  Those who register will receive a reminder email the day before the event. Members of our global channel marketing team attend and speak during the webinar, along with special guests from other GitLab organizations, depending on the topics we are covering.  Thank You and Sorry We Missed You emails will be sent post-event and provide access to webinar recordings, assets and resources.
-
-Visit our [partner portal page](https://partners.gitlab.com/prm/English/c/ptnrmktgwebinars) for registration links for future webinars, access to past recordings, assets and resources.
-
-##### Technical platform used to host
-
-Our team hosts the Channel Partner webinar using On24. Details on how this operationally set up can be found [here](/handbook/marketing/virtual-events/webcasts/#on24-webcast-setup).
-
-- [Epic Code for To Partners webinars](/handbook/marketing/channel-marketing/channel-marketing-epics/)
-
-- [Marketo Program set up](/handbook/marketing/marketing-operations/on24/#connecting-on24-web-events-to-marketo-programs)
+For more information about Partner Flash/News On Demand and process to become a contributor, please see the [Ecosystem Operations Handbook Page anchor link](/handbook/sales/field-operations/channel-operations/#external-partner-support-and-communication).
 
 ## MDF Program Introduction
 
@@ -163,44 +148,19 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
 
 ## Requesting MDF funds
 
-- Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/English/Partner/SFDC/MDF2/Request/Create), and GitLab approvers will be notified of the request via email.
-  - The MDF proposal will go through 2 levels of approvals
-    - Level 1 approval - Channel Marketing Manager
-    - Level 2 approval - Sr Partner Program Manager
+- Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/prm/English/s/add-mdf-request), and GitLab approvers will be notified of the request through email.
+  - The MDF proposal from the Regional Channel Marketing Manager
   - Once the MDF request has been either approved or declined the partner will be notified:
-          - If declined, the Channel Marketing DRI will reach out to the partner and let them know. We will copy the PAM/PTM on the notification
-          - If approved, the MDF Operation's team will [open an epic](/handbook/marketing/channel-marketing/channel-marketing-epics/) and correlating sub-issues defined therein.
-  - Once Epic has been created, the following sub-issues are created automatically and are linked to the Epic (links are to templates):
-    - Campaign Creation
-      - List Upload
-      - MDF POP
-        - For POP issues add labels
-          - `MDF-POP` and use the scoped labels below to work through the approval process:
-          - `MDF::POP Pending`: issues created but POP has not yet been received
-          - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
-          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisition can be created
-          - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
-  - Once all sub-issues are completed, close out the epic.
+          - If declined, the partner will receive a notification informing that their request has been denied.
+          - If approved, the MDF Operation's team will [open an issue](/handbook/marketing/channel-marketing/channel-marketing-epics/)
 
 ### PTO Process for MDF Request Approvers
 
-Prior to your PTO, as an MDF request approver, you will need to update the `Delegated Approver` to your reporting manager so they have access to approve MDF requests while you are away. When you return, please remember to remove the `Delegated Approver`.
-
-When an approval request email is sent to the assigned approver, the delegated approver also receives an email notification that there is an approval request to review. Delegated approvers can't reassign approval requests; they can only approve or reject approval requests.
-
-Following the steps to update your Delegated Approver:
-
-1. Log into Salesforce
-1. On the top right of the page, click on the your name to drop down a menu, then select `My Settings`
-1. On the left column, click on `Personal` > `Approver Settings`
-1. In the settings:
-   1. Select the `Delegated Approver` (This would be your manager)
-   1. Select `If I am an approver or delegated approver`
-   1. Save.
+Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you'll need to create an issue request for support from MktgOps.
 
 ### Demand Generation activities eligible for MD
 
-Details are listed out in the [MDF handbook](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities).
+Details are listed out in the [MDF handbook](/handbook/resellers/channel-program-guide/mdf/#eligible-activities-and-required-proof-of-performance-mdf-activities).
 
 These activities are captured as `Campaign Type Details` on the campaign level in Salesforce.com for `Partner - MDF` [Campaign Type](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) only.
 
@@ -213,22 +173,6 @@ We offer Marketing Kit Swag for Marketing Ready partner, these kits consists of:
 - 1000 stickers
 - 200 Swag items (examples would be: colorful cable set, iPhone stand, bottle opener key chain, etc)
 Please work with your Channel Marketing Managers to order your Marketing Kits.
-
-## Concierge Program
-
-The Partner Concierge Program was created to help support partners to promote campaigns in their social channels by using a through-channel marketing automation platform to empower partners to market to their customers using co-branded campaigns.
-The tool is known as TCMA Demand Generation and it will be known for Partners as the Marketing Center within the Partner Portal.
-Partners will have a monthly meeting with the Program's Manager and receive a customized content calendar that best suits their needs.
-In the Marketing Center, Partners will have access to real time reporting.
-
-### Key Features
-
-Social Syndication - SMARTlink technology directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
-Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
-
-#### How to Participate
-
-Reach out to partner-marketing@gitlab.com with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
 
 ## Partner Instant Marketing Campaign
 
@@ -246,24 +190,19 @@ Partners and team members may review current campaigns available to partners by 
 - Unique Partner Asset Creation: Channel Marketing is unable to work directly with partners to customize their marketing assets.
 - Event speakers: The Channel Marketing team does not have the resources to help locate GitLab speakers for partner events.
 - Partner Blogs: The Channel Marketing team does not have the resources to craft unique content to support a partner blog or content request.
-- Public Relations: The Channel Marketing team is not responsible for editing or approving blogs or partner press releases. Please see the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support) for more information.
+- Public Relations: The Channel Marketing team is not responsible for editing or approving blogs or partner press releases. Please see the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-external-communications-support) for more information.
 - Sponsored social media posts: partners looking to GitLab to promote partner activities would not route those requests through Channel Marketing.  Instead, CAM's obtain the partner's social media channels and [create an issue](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/admin/#open-a-new-issue-to-request-social-coverage) for the Social Media team.  This request should include the partner's social media information, detailed description of what we are being asked to promote and target dates.
 - Event attendance: The Channel Marketing team does not own a database of contacts by which to drive attendance to partner specific events nor do we possess the resources to support such requests.
 - [Partner training](/handbook/resellers/training/) is managed and supported by the Channel Partner Training, Certifications, and Enablement team.
-- Partner portal management: [Partner portal administration](/handbook/sales/channel/channel-programs-ops/#partner-portal-administration) is managed by GitLab Channel Program Operations.
+- Partner portal management: [Partner portal administration from the Ecosystem Operations team](/handbook/sales/field-operations/channel-operations/#communicating-with-the-partner-teams-via-slack) is managed by GitLab Ecosystem Operations.
 
 ## Meet the Team
 
-- **Samara Souza**: Senior Partner Program Manager, Samara's focus is on creating new programs for our partners to leverage in their demand generation motions which are the MDF Program, Partner Concierge Program and Swag Program.
-
 - **Daria Polukanina**: Channel Marketing Manager for EMEA.
-Responsible for Planning, and MDF allocation of EMEA Managed Partners. Works closely with PAMs and PTMs  and the Field Marketing Team
-
-- **Gabby Chorny**: Senior Channel Marketing Manager for AMER and PubSec.
-Responsible for Planning, and MDF allocation of AMER Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
+Responsible for Planning, and MDF allocation of EMEA Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
 - **SJ Lim**: Channel Marketing Manager for APAC.
-Responsible for Planning, and MDF allocation of APAC Managed Partners. Works closely with PAMs and PTMs  and the Field Marketing Team
+Responsible for Planning, and MDF allocation of APAC Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
 ## The best way to contact our team is through our Slack channel
 
@@ -355,7 +294,7 @@ In an attempt to extend our GitLab [CREDIT](/handbook/values/#credit) values to 
 
 ### MDF Campaigns
 
-[MDF campaigns](/handbook/resellers/Channel-Program-Guide/MDF/) involve financial support or funds provided by GitLab to the Channel Partners to manage a lead generation campaign. These campaigns follow their own processes not found on the campaigns-and-programs page.
+[MDF campaigns](/handbook/resellers/channel-program-guide/mdf/) involve financial support or funds provided by GitLab to the Channel Partners to manage a lead generation campaign. These campaigns follow their own processes not found on the campaigns-and-programs page.
 
 🖇️ Quick Links: [Lead Routing](/handbook/marketing/marketing-operations/traction-lead-complete/#mdf-campaign)
 
@@ -365,7 +304,7 @@ Before starting this steps, note you'll need to have already set up the [Allocad
 
 1. Clone Marketo Template and update program name: [YYYYMMDD__MDF_000_Partner_Name_Region_Event_Name](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG11842A1).
 1. Select the Program Name on the Summary page, this will unlock a description, where you will update description with the links to the SFDC MDF request, Coupa ID and Allocadia ID (if you have it), then `Save`.
-1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
+1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name.
 
 **Step 2: Sync Marketo Program to SFDC**
 
@@ -381,13 +320,13 @@ Before starting this steps, note you'll need to have already set up the [Allocad
 
 **Step 4: Update List Upload Request Issue**
 
-The list import issue will be automatically be created via [Allocadia - GitLab issue integration](/handbook/marketing/strategy-performance/allocadia/#how-to-create-a-channel-marketing-epicissues-from-allocadia).
+The list import issue will be automatically be created via [Allocadia - GitLab issue integration](/handbook/marketing/strategy-performance/allocadia/#how-to-create-a-channel-marketing-issues-from-allocadia).
 
 Skip to step 2 of the list import [instructions](/handbook/marketing/channel-marketing/#list-import-for-partner-leads) for partner leads.
 
-#### FY25 GitLab Sales Dev Working Partner Leads
+<!--#### FY25 GitLab Sales Dev Working Partner Leads
 
-As part of a [pilot program in FY25](/handbook/resellers/channel-program-guide/mdf/#fy25-q2-gitlab-biz-development-team-to-prospect-leads-from-mdf-campaigns), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
+As part of a [pilot program in FY25](/handbook/resellers/channel-program-guide/mdf), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
 
 We are treating these leads as non-partner leads with Source = `Partner Qualified Lead`. They will be scored, assigned to BDRs, and have LIM. The source will remain as Partner Qualified Lead as we will use this to track partner ownership, while allowing our GitLab Sales Dev team to work these leads and not lose insight into where the lead came from.
 
@@ -440,6 +379,7 @@ This process requires the following platforms: Allocadia, Marketo, Salesforce, T
    1. Since it's a High Priority campaign, only MQLs and Actively Working Accounts will be routed to BDRs/SDRs.
    2. If the lead is not MQL nor Actively Working, then Vartopia Partner Account will be added and Lead Acquisition Source if blank =\ MDF Campaign and reassigned to the Partner Queue.
 5. Marketo -  Leads that are sent back to the partner will be updated with the partner fields ie. Partner Consent, Do Not Email = Partner Lead, Marketing Suspended, etc (Automated).
+-->
 
 ### Joint GitLab and Partner Campaigns
 
@@ -451,7 +391,7 @@ When GitLab and Partners participate in campaigns together including events, web
 
 First, use the general set up, found in [campaigns and programs page](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up). The partner steps are nested in the typical Marketo program templates to clone. Once the campaign is cloned, follow the steps below in addition to the other setup steps found on the campaigns and programs page.
 
-All Marketo templates will have 2 tokens added to them that the campaign owner should update, {{My.Partner Name}} and {{My.CRM Partner ID}}.
+All Marketo templates will have 2 tokens added to them that the campaign owner should update, {{My.Partner Name}}.
 
 - Partner Name: Does not need to be official, it will be used on the form consent language and interesting moments, so needs to be customer facing. Example:  `By registering for this GitLab and {{My.Partner Name}} event....`
 - Partner ID: All partner IDs can be [found here](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
@@ -460,7 +400,7 @@ All Marketo templates will have 2 tokens added to them that the campaign owner s
 
 The following instructions is for joint campaign run with one partner, and must be completed prior to launch.
 
-1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
+1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name.
 1. Update `Registration Landing Page` to use `FORM 3146: Partner + GitLab Joint Event with Token`
    - To update the page:
        - Right click `Registration Landing Page`, edit draft.
@@ -524,7 +464,7 @@ Note that this type of campaign are not generated by MDF.
 **Step 1: Setup in Marketo**
 
 1. Clone the Marketo program template: [YYYYMMDD__Partner_Name_Event_Name_Region](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16629A1)
-2. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
+2. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name.
 
 **Step 2: Sync to Salesforce Campaign**
 
@@ -602,19 +542,19 @@ More information can be found on the [Impartner](/handbook/marketing/marketing-o
 
 ## Webcast Setup
 
-All Marketo templates will have 2 tokens added to them that the campaign owner should update,`{{My.Partner Name}}` and `{{My.CRM Partner ID}}`.
+All Marketo templates will have 2 tokens added to them that the campaign owner should update,`{{My.Partner Name}}`.
 
 The `CRM Partner ID` can be retrieved by identifying the `Account ID (18)` of the Alliance Partner - refer to this [list](https://gitlab.my.salesforce.com/00O8X000008mxIb).
 
 First, use the general set up found in [campaigns and programs page](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up). The partner steps are nested in the typical Marketo program templates to clone. Once the campaign is cloned, follow the steps below in addition to the other setup steps found on the campaigns and programs page.
 
-### On24 Webcast Hosted by GitLab - Lead Capture via Form
+<!--### On24 Webcast Hosted by GitLab - Lead Capture via Form
 
-GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketing/virtual-events/webcasts/#on24-webcast-setup). To incorporate the steps required for partners, follow these additional steps.
+GitLab can drive webcasts with Alliance Partners using On24. To incorporate the steps required for partners, follow these additional steps.
 
 **Step 1: Setup in Marketo**
 
- 1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
+ 1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name.
  1. The registration landing page must have the following:
     - `FORM 3299: Alliances` with a hidden field that captures  `utm_partnerid`.
     - The **URL must include the utm parameter with the CRM Partner ID** to the landing page to lead to be associated with the Alliance partner.
@@ -636,7 +576,7 @@ GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketin
 1. Update  `Budget Holder`
 1. Update  `Is an Alliance Partner Involved?`
 1. Update  `Alliance Partner Name`
-1. Click `Save`.
+1. Click `Save`.-->
 
 ### Webcast Hosted by Alliance Partner - Lead Capture via List Upload
 
@@ -646,7 +586,7 @@ If a form isn't available to capture registration, follow these additional steps
 
 **Step 1: Update Tokens in Marketo**
 
-- Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
+- Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name.
 
 **Step 2: Update SFDC Campaign**
 

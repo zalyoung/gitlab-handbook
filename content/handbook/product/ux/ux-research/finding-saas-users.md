@@ -17,9 +17,9 @@ We have a variety of methods for identifying and [recruiting participants for re
 
 ### Pre-requisites
 
-1. You query the data warehouse using Structured Query Language (SQL). There are countless guides to learning SQL available for free on the Web. There are many different flavors of SQL, and the one we use is [Snowflake](https://docs.snowflake.com/en/index.html). However, most basic functionality is consistent among the major variations of SQL, so don't feel like you need to seek out Snowflake-specific resources.
-1. In order to query the data warehouse, you'll need Editor access to Sisense (formerly Periscope). This requires completing an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
-1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/) provides an overview of how the gain access to the SQL Explorer in Sisense where you will write and execute your queries, as well as providing a high level over view of how the warehouse is structured.
+1. You query the data warehouse using Structured Query Language (SQL). There are countless guides to learning SQL available for free on the Web. There are many different flavors of SQL, and the one we use is [Snowflake](https://docs.snowflake.com/en/index). However, most basic functionality is consistent among the major variations of SQL, so don't feel like you need to seek out Snowflake-specific resources.
+1. In order to query the data warehouse, you'll need Editor access to Sisense (formerly Periscope). This requires completing an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
+1. [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/) provides an overview of how the gain access to the SQL Explorer in Sisense where you will write and execute your queries, as well as providing a high level over view of how the warehouse is structured.
 1. The Data team [documents individual data warehouse tables](https://dbt.gitlabdata.com/#!/overview) using a tool called dbt. Some tables are better documented and contain purpose descriptions and explanations of different columns, and some unfortunately do not. However, documentation does improve over time.
 
 ### SaaS-specific tables
@@ -30,7 +30,7 @@ Most of the tables housing data related to SaaS use the prefix `gitlab_dotcom_*`
 
 ### Users Table
 
-The our overall users table for SaaS is `gitlab_dotcom_users_xf`. It contains the most complete picture of individual users, including information such as account creation date, days active, role, and highest paid plan (if any). This should be your starting point and your source of truth. the `user_id` variable found in this table is our primary identifier for [GitLab.com](http://gitlab.com) users, and is used in other tables to identify the user with which a record is associated. For example, the `gitlab_dotcom_merge_requests_xf` table houses records of MRs created on GitLab.com, and contains a column called `author_id` to identify the author of a given MR. This `author_id` is a GitLab.com user ID, and you'd be able to connect the author of that merge request to the record in the users table (or any other table) using that `user_id` variable.
+The our overall users table for SaaS is `gitlab_dotcom_users_xf`. It contains the most complete picture of individual users, including information such as account creation date, days active, role, and highest paid plan (if any). This should be your starting point and your source of truth. the `user_id` variable found in this table is our primary identifier for [GitLab.com](https://gitlab.com) users, and is used in other tables to identify the user with which a record is associated. For example, the `gitlab_dotcom_merge_requests_xf` table houses records of MRs created on GitLab.com, and contains a column called `author_id` to identify the author of a given MR. This `author_id` is a GitLab.com user ID, and you'd be able to connect the author of that merge request to the record in the users table (or any other table) using that `user_id` variable.
 
 You can use this table to find GitLab.com user IDs for 100 users that created their account in the last seven days:
 

@@ -62,7 +62,7 @@ The intention of this is to make sure we're enabling asynchronous communication 
 #### E-Group Initiated
 
 - If an E-Group team member would like a Reverse AMA, they or their EBA will contact an associated TMRG. If there isn't an associated TMRG the E-Group member or EBA will broadcast a message through their Slack channel to see if there is a population of members for the AMA.
-- The E-Group member or EBA will create an issue (template to follow) tagging the [TMRG Leads](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels) or a nominated facilitator for a non-tmrg AMA (facilitator group to be determined), a [DIB Team Member](https://gitlab.slack.com/archives/CLLDY3L8P/p1617863963093900), and Stella Treas (Chief of Staff to the CEO)
+- The E-Group member or EBA will create an issue (template to follow) tagging the [TMRG Leads](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels) or a nominated facilitator for a non-tmrg AMA (facilitator group to be determined), a [DIB Team Member](https://gitlab.slack.com/archives/CLLDY3L8P/p1617863963093900), and Stella Treas (Chief of Staff to the CEO)
 - The TMRG Leads will consult with the TMRG membership and accept or reject the request. If accepted the TMRG leads will provide an ideal timeframe for the AMA, ideally within 4 weeks from the date of the request.
 - Once accepted the EBA will provide a series of times that are suitable
 - The E-Group member or EBA will ensure that there is a Reverse AMA facilitator for the session. (Facilitator Group link to follow)
@@ -82,8 +82,8 @@ It is near impossible to be an effective facilitator while also being a particip
 
 Before facilitating a session, all facilitators will complete the following steps:
 
-1. Complete the [LinkedIn Learning Facilitator Training](https://www.linkedin.com/learning/meeting-facilitation/)
-1. Complete the [LinkedIn Learning Empathy Training](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations?u=2255073)
+1. Complete the [LinkedIn Learning Facilitator Training](https://www.linkedin.com/learning/meeting-facilitation)
+1. Complete the [LinkedIn Learning Empathy Training](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations)
 1. Watch the purpose of Reverse AMA's Video (too come)
 1. Shadow a current facilitator when they are running and AMA
 1. Be shadowed by a current facilitator in your first AMA
@@ -114,7 +114,7 @@ The Executive Business Partner alignment can be found [here](/handbook/eba/)
 
 AMAs are generally coordinated, scheduled, and planned by the [Executive Business Administrator](/handbook/eba/) team when an E-Group member is the host. Anytime that an AMA is to be hosted by an executive, VP, or Director at GitLab, it should be arranged and scheduled by that functions EBA. AMAs of Board Members are scheduled by the Staff EBA to the CEO.
 
-Other non-Executive AMAs are scheduled by the [People Operations](/handbook/people-group/#people-experience-vs-people-operations-core-responsibilities--response-timeline) team. These AMAs are typically a result of a change that impacts the company as a whole and may often be hosted by multiple leadership members in the company. Whenever there is an open slot in the Group Conversation calendar, the People Operations Team will reach out to the EBA team to create an AMA.
+Other non-Executive AMAs are scheduled by the People Group - Engagement Team. These AMAs are typically a result of a change that impacts the company as a whole and may often be hosted by multiple leadership members in the company. Whenever there is an open slot in the Group Conversation calendar, the People Group - Engagement Team will reach out to the EBA team to create an AMA.
 
 When scheduling an AMA, be mindful of timezones.  Generally it is best to have two AMAs, one for the Americas/EMEA time zone, and one for the APAC time zones.
 
@@ -130,7 +130,7 @@ AMA meetings always start with an [agenda](https://docs.google.com/document/d/1-
 
 Whenever possible AMAs should be private or publicly [live streamed](/handbook/marketing/marketing-operations/youtube/#public-or-private-streaming). Please strive to remain [public by default](/handbook/values/#public-by-default) when hosting an AMA unless it is centered around a topic that is [not-public](/handbook/values/#not-public)
 
-The DIB Team and the EBAs will ensure that each Reverse AMA has the correct team members invited, the DIB team will ask People Connect to run this [Report](https://docs.google.com/spreadsheets/d/1Ai8Trh0FOr5O7CJfhdTDsPM517NCEwzkiJcytLETOHk/edit#gid=1182431189) monthly (this is private please request if you need access with your reasoning) to ensure we keep attendees up to date.
+The DIB Team and the EBAs will ensure that each Reverse AMA has the correct team members invited, the DIB team will ask People Operations to run this [Report](https://docs.google.com/spreadsheets/d/1Ai8Trh0FOr5O7CJfhdTDsPM517NCEwzkiJcytLETOHk/edit#gid=1182431189) monthly (this is private please request if you need access with your reasoning) to ensure we keep attendees up to date.
 
 ### Process Once Reverse AMA is Setup
 

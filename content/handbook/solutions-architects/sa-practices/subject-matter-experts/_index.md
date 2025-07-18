@@ -9,41 +9,42 @@ SMEs are Solutions Architects who will help SAs in their region to answer more-i
 
 ## Goals
 
-The goals of the SME Program are:
+The goals of the SME Program are to:
 
 - Provide fellow SAs with the knowledge and expertise they need to support customers effectively.  
 - Improve the quality of customer support by reducing the number of questions that SAs have to answer.  
 - Increase customer satisfaction by providing them with access to experts who can answer their questions quickly and accurately.
 
-In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
+In order to fulfill the above goals, the [SME Program will be structured appropriately, with defined Roles and Responsibilities.](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md).
 
-1. [SME Operations - Collab Project, Groups, Slack Channels](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
-2. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
-3. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
-4. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
-5. [Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/)
-6. [Gather Feedback from Customers](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
-7. [Engage with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)
+Other areas of the SME Program include:
 
-\*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
-
-This is [description of the CS SME program](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main) taking the lead on the gathering of collateral for each SME Area 
+1. [Complete SME Logistics - Collabation Project, Google Groups, Slack Channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
+2. [SME Nomination and Onboarding \- The Process to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
+3. [Request a SME process](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/) - How to Request a SME on an opportunity to provide technical guidance and expertise  
+4. [Requesting Collaterial, Articles and Best Practices to be Created & Gathered](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
+5. Holding Regular SME Cadences](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/)
+6. [Process to Gather Feedback from Customers, back to Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback/)  
+7. [How to Engage with, and Escalate to Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)
 
 ## Areas of Expertise
 
-The SME Program, with fomal PM engagement will initially focus on the following areas:
+The SME Program, with formal PM engagement will initially focus on the following areas:
 
 - AI
-- Security
+- Application Security
 - Agile planning
 - Dedicated
 
+The following SME areas are also available but will not, as yet, require formal PM enagement:
+
+- CICD & Runners
+- Metrics and Observability
+- Embedded DevOps Systems
+
 Other areas may be added in the future, depending on customer and SA demand, such as:
 
-- CICD & Runners (TBD - CS only; Can exist but with no formal PM engagement as yet)
-- Metrics and Observability (TBD - CS only; Can exist but with no formal PM engagement as yet)
-- Embedded Systems (TBD - SA only; Can exist but with no formal PM engagement as yet)
-- GitOps
+- Other Verticals sucu as Telecommunications etc.
 - MLOps
 
 ## Responsibilities
@@ -51,21 +52,20 @@ Other areas may be added in the future, depending on customer and SA demand, suc
 In summary, the responsibilities of a SME includes
 
 - Provide technical guidance and expertise
-- maintain collateral for each SME Area, Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
-- gather feedback from customers
-- engage with product management.
+- Maintain collateral for each SME Area, Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
+- Gather feedback from customers
+- Engage with product management.
 
-SMEs will be responsible for the following:
+In detail, SMEs will be responsible for the following:
 
-- **Technical Guidance and Expertise** for the field and/ or customer, often in the form of:
+- **Provide Technical Guidance and Expertise** for the field and/ or customer, often in the form of:
   - Staying up-to-date on the latest trends in their area of expertise.
   - Providing updates to SAs and CSMs on Regional Calls during "SME Corner"
-  - Answering questions from SAs about their area of expertise. The preferred channel is our [StackOverFlow for Teams](/handbook/solutions-architects/tools-and-resources/#stack-overflow-for-teams) via #cs-questions.
-  - Providing technical expertise to SAs during customer demos and presentations.
+  - Answering questions from SAs in the `sme` slack channels, as well as in [StackOverFlow for Teams](/handbook/solutions-architects/tools-and-resources/#stack-overflow-for-teams), the official Knowledge Base.
+  - [Responding to Requests from SAs](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/) to assist on copportunities.
   - Office hours to enable other SAs or CSMs
   - Collaborate with Demo Architects on workshop updates and assist Solutions Architects with new feature adoption.
   - Participate in field enablement activities such as [Technical Skills Exchange](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2800).
-  - [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) reviews
   - [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) reviews
   - [Deliberate practice](/handbook/solutions-architects/sa-practices/deliberate-practice/)
   - Form [communities of practices](/handbook/solutions-architects/sa-practices/communities-of-practice/) among the SMEs for the same topic and with fellow SAs to foster the knowledge in the team.
@@ -117,30 +117,4 @@ Being an SME provides opportunities for professional growth and recognition:
 - Potential for career advancement
 - Recognition in performance reviews
 
-SMEs will be regularly evaluated based on their contributions and impact on the SA team and customer satisfaction.
-
-## Scope
-
-- SME support for an opportunity or an account should be requested by a Primary SA this can include roadmap discussions
-- A generalist SA should primarily drive solutions with their broad knowledge. A SME should be consulted ONLY when the generalist SA faces challenges moving forward.
-- The existence of SMEs does not guarantee the availability of their engagement.  
-- The main focus of SMEs are their regular SA responsibilities and then, their assistance as SMEs
-- There will be multiple SME per region (EMEA, APAC, US East, US West) but they will be a cross-regional group of SMEs
-
-## SMEs {#sme-list}
-
-| SME Areas | AI | App Security | Agile Planning | GitLab Dedicated |
-| :---- | :---- | :---- | :---- | :---- |
-| SME Area Lead | Edmond Chan | Andrea Obermeier | David Astor | Alessia Del Vecchio |
-| Product Manager Rep/ | Depending on time zone: <br>AMER: Taylor McCaslin <br>APAC/EU: Pini Wietchner |  | Melissa ushakov | Chris Balane |
-| Engineering Manager Rep | Depending on time zone: <br>AMER: Michelle Gill <br>APAC/EU: David O’Regan |  | John Hope | Oriol Lluch |
-| APJ |  | Tomasz Skora |  |  |
-| EMEA North Europe | Kristoff Goossens | Dominique Top | Gabriela Dobrescu, James Moverley | Martin McVay |
-| EMEA South Europe |  | Paul Dumaitre, Olivier Dupre |  |  |
-| EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gåtjens |  | Falko Sieverding |
-| US East | Sam Morris | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
-| US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
-| High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
-| High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | |
-| Pub Sector AMER |  |  |  | Daniel Marquard, Michael Bradley |
- 
+SMEs will be regularly evaluated based on their contributions and impact on the SA team and customer satisfaction.  Here is the [list of SME Metrics](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-metrics) that would be gathered to quanify the impact of a SME's contribution.

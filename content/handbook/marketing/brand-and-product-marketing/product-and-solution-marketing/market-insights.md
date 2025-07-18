@@ -36,7 +36,7 @@ Our big picture:
 
 **ELEVATE:** We seek to grow our value proposition beyond benefits/features--or even value drivers + use cases--to enable our customers' business outcomes
 
-**IDENTIFY & ARTICULATE:** We look to leverage research & insights to identify [blue ocean strategy](/handbook/company/strategy/) opportunities
+**IDENTIFY & ARTICULATE:** We look to leverage research & insights to identify blue ocean strategy opportunities
 
 **OPERATE:** We will function as the company's think tank, helping GitLab to become our customers' recognized and essential catalyst for success
 
@@ -244,7 +244,7 @@ Resources:
 
 1. Conduct session. Ensure consent forms are signed, recorded, and stored.
 
-   - If necessary, provide [Uber gift cards ($10)](https://www.uber.com/us/en/gift-cards/) to participants (send after the session)
+   - If necessary, provide [Uber gift cards ($10)](https://gifts.uber.com/) to participants (send after the session)
    - Pick up drinks and light snacks to have in the room
    - Verify TV/monitor connections for room
    - Determine needed signage

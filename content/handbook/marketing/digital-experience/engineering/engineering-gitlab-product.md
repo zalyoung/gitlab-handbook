@@ -5,7 +5,7 @@ description: "Learn more about how Digital Experience engineers work with the Gi
 
 ## Overview
 
-From time to time, our team has objectives that require us to collaborate on the [GitLab product](https://gitlab.com/gitlab-org/gitlab). The group we have most collaborated in the past has been the [Growth team](/handbook/engineering/development/growth/), though engineers should validate what [stage they should contact](/handbook/product/categories/). They should be [informed and consulted](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) with any changes that affect the GitLab product, ideally doing so before we begin any work. This ensures that we are aligned with their goals and can leverage [their expertise in the GitLab product](/handbook/values/#reach-across-company-departments). Remember that the Digital Experience team's work on the GitLab product should align with our [team's OKRs](/handbook/company/okrs/) and the [overall company strategy](/handbook/company/strategy/).
+From time to time, our team has objectives that require us to collaborate on the [GitLab product](https://gitlab.com/gitlab-org/gitlab). The group we have most collaborated in the past has been the [Growth team](/handbook/engineering/development/growth/), though engineers should validate what [stage they should contact](/handbook/product/categories/). They should be [informed and consulted](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) with any changes that affect the GitLab product, ideally doing so before we begin any work. This ensures that we are aligned with their goals and can leverage [their expertise in the GitLab product](/handbook/values/#reach-across-company-departments). Remember that the Digital Experience team's work on the GitLab product should align with our [team's OKRs](/handbook/company/okrs/) and the overall company strategy.
 
 When working on the GitLab product, it's important to follow the established [contribution guidelines](https://docs.gitlab.com/ee/development/contributing/) and [code review process](https://docs.gitlab.com/ee/development/code_review.html). This includes:
 
@@ -55,7 +55,7 @@ There is an existing onboarding process for GitLab engineering. Digital Experien
    - Make sure you still feel comfortable with day 5 of the general onboarding steps for git workflow
 2. [Engineering Department specific tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_development.md)
    - Complete the Engineering Division/For Development Department specific tasks
-3. [Snowplow](/handbook/engineering/development/analytics/analytics-instrumentation/#snowplow-onboarding-template)
+3. Snowplow
    - Complete the Snowplow onboarding tasks
 4. GDK
    1. You can get started with the GitLab Rails using the GDK [here](https://gitlab.com/gitlab-org/gitlab-development-kit)

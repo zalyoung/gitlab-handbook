@@ -17,7 +17,7 @@ The responsibilities include both directed work initiated by the CMSO as well as
 - Leads key priorities and projects across the global Marketing team
 - Acts as a sounding board to the CMSO and CMSO leadership team for new ideas and initiatives
 - Acts as a thought partner to the CMSO, CMSO leadership team
-- Initiates and guide the CMSO team OKR process according to the [OKR schedule](/handbook/company/okrs/#schedule) in partnership with the CoS, CEO
+- Initiates and guide the CMSO team OKR process according to the [OKR schedule](/handbook/company/okrs/) in partnership with the CoS, CEO
 - Works closely with internal teams on goal-setting and tracking, interfacing, and consulting with cross-functional groups
 - Develop and maintain strong relationships with executives, senior leaders, and stakeholders to achieve project objectives and deliverables
 - Serving as CMSO Board Liaison, including creating and developing Board and Committee materials
@@ -78,7 +78,7 @@ The next step in the Chief of Staff to the CMSO job family beyond Director level
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call]({{< ref "interviewing#screening-call" >}}) with one of our Global Recruiters
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to speak with the Director, People Business Partner for Marketing
 - Next, candidates will be invited to speak with the Chief of Staff to the CRO
 - Next candidates will meet with CMSO Directs

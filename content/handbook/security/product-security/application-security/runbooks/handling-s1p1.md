@@ -8,7 +8,7 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 
 ## Triage
 
-1. Triage and verify the issue as you normally would [triage a report]({{< ref "hackerone-process" >}}).
+1. Triage and verify the issue as you normally would [triage a report](/handbook/security/product-security/application-security/runbooks/hackerone-process/).
 1. Finalize the CVSS score of the security issue with team member votes on Bug Bounty Council (BBC) thread before engaging the SIRT team. Consider using a sync call or Slack for the discussion due to time sensitivity. Capture the outcome of the discussion in the BBC thread. If a sync call or a Slack discussion was not possible due to AppSec team members in the region being on PTO or timezone issues, trigger the SIRT workflow if 4 hours have passed since the issue was triaged.
 1. Within the BBC thread, create a GitLab Dedicated specific CVSS score.
 1. To help SecOps quickly determine impact and log analysis, comment in the security issue with the summarized reproduction steps (HTTP Requests, generated log messages, images, etc).
@@ -16,7 +16,7 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 
 ## Escalate
 
-1. [Engage the Security Engineer on-call]({{< ref "engaging-security-on-call" >}}) with a link to the issue, a summary of what has happened, and an description of what SIRT may need to do.
+1. [Engage the Security Engineer on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/) with a link to the issue, a summary of what has happened, and an description of what SIRT may need to do.
 1. Engage the appropriate [engineering manager and product manager of the affected component](/handbook/product/categories/) in both the issue **and** in the appropriate Slack channels.
 1. If help from the GitLab Dedicated team is needed, [follow the runbook to escalate to their engineer on call](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person).
 1. Ping `@appsec-leadership` in the `#sec-appsec` Slack channel with a link to the issue. This will help team leadership and other engineers get up to speed, in case they need to step in.
@@ -43,12 +43,12 @@ When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the 
 - [ ]  Service Desk
 - [ ]  FortiAuthenticator, or FortiToken 2FA
 - [ ]  GitLab-managed runners (hosted runners)
-- [ ]  GitLab AI capabilities ([More Info](https://about.gitlab.com/direction/saas-platforms/dedicated/#supporting-ai-features-on-gitlab-dedicated))
+- [ ]  GitLab AI capabilities ([More Info](https://about.gitlab.com/direction/gitlab_dedicated/#supporting-ai-features-on-gitlab-dedicated))
 - [ ]  Features that must be configured outside of the GitLab user interface, including those behind [feature flags](https://docs.gitlab.com/ee/user/feature_flags.html) which are disabled-by-default
 - [ ]  Mattermost
 - [ ]  Server-side Git hooks (Due to security concerns and potential service SLA impact. Consider using [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) or [webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) as alternatives.)
 
-If a vulnerability requires using features listed above for successfuly exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
+If a vulnerability requires using features listed above for successful exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
 
 ## Mitigate
 
@@ -66,7 +66,7 @@ The patch will first be deployed to GitLab-managed environments (.com, Dedicated
 1. Choose the solution that best balances the concerns above with the concerns of participating teams.
 1. Once the solution has been delivered, validate that the fix was effective.
 
-Occasionnaly, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
+Occasionally, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
 Here are some examples of short term options we've used in the past:
 
 - Cloudflare rule to block certain endpoints.
@@ -106,8 +106,17 @@ Share that a handover has happened in the incident's Slack channel, and cross-po
 
 > 🤝 AppSec Handover 🤝  I have handed over to `@username` for any AppSec needs, as I am close to the end of my working day. [Include details on how we will continue to deliver on any tasks that AppSec is DRI for].
 
+### After the incident
+
+Apply the correct labels and milestones in the SIRT issue so that we can track the work done in our metrics.
+
+```text
+/label ~"AppSecWorkType::SIRTandSecurityComms" ~AppSecWeight::<> ~"Application Security Team" ~"AppSecWorkflow::complete" 
+/milestone %<>
+```
+
 ### Family and Friends Day Coverage
 
-[Family and Friends Days]({{< ref "family-and-friends-day" >}}) are days where GitLab publicly shuts down. 
-There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day. 
-See [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage.html) for more information.
+[Family and Friends Days](/handbook/company/family-and-friends-day/) are days where GitLab publicly shuts down.
+There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day.
+See [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage/) for more information.

@@ -4,14 +4,14 @@ title: KPIs
 
 ## What are KPIs
 
-Every part of GitLab has Key Performance Indicators (KPIs) linked to the company [OKRs](/handbook/company/okrs/).
+Every part of GitLab has Key Performance Indicators (KPIs).
 Avoid the term metric where we can be more explicit.
 Use KPI instead.
 A function's KPIs are owned by the respective member of e-group.
 A function may have many performance indicators (PIs) they track and not all of them will be KPIs.
 KPIs should be a subset of PIs and used to indicate the most important PIs to be surfaced to leadership.
 
-The KPI definition should be in the most relevant part of the handbook which is organized by [function and results](/handbook/about/handbook-usage/#style-guide-and-information-architecture).
+The KPI definition should be in the most relevant part of the handbook which is organized by [function and results](/handbook/about/handbook-usage/#organized-by-function-and-results).
 In the definition, it should mention what the canonical source is for this indicator.
 Where there are formulas, include those as well.
 Goals related to KPIs should co-exist with the definition.
@@ -115,11 +115,11 @@ We have the following abbreviation letter before SAT, please don't use SAT witho
 
 - C = unused since customer is ambiguous (can mean product or support, not all users are customers)
 - E = unused since employee is used by other companies but not by us
-- I = [Interviewee](/#interviewee-satisfaction-isat) (would you recommend applying here)
-- L = [Leadership](/handbook/eba/#leadership-sat-survey) (as an executive with dedicated administrative support, how is your executive administrative support received)
+- I = Interviewee (would you recommend applying here)
+- L = Leadership (as an executive with dedicated administrative support, how is your executive administrative support received)
 - O = [Onboarding](/handbook/people-group/people-success-performance-indicators/#onboarding-tsat) (how was your onboarding experience)
 - P = [Product](https://internal.gitlab.com/handbook/company/performance-indicators/product/) (would you recommend GitLab the product)
-- S = [Support](/handbook/support/#support-satisfaction-ssat) (would you recommend our support followup)
+- S = [Support](/handbook/support/performance-indicators/#support-satisfaction-ssat) (would you recommend our support followup)
 - T = Team-members (would you recommend working here)
 
 ## Retention

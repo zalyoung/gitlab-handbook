@@ -15,11 +15,11 @@ Developer Relations (short: DevRel) operates at the intersection of technology, 
 
 Developer Relations drives platform awareness and adoption by enabling GitLab customers, connecting through community, and engaging developers where they are. GitLab engages with more than 3000 developers every month on GitLab.com alone, and receives more than 250 contributions every month, giving us a unique level of influence in the DevSecOps space and helping accelerate our innovation. Our ultimate goal is to raise awareness of GitLab and drive customer success by winning the hearts & minds of developers through best-in-class technical enablement and an active community of contributors.
 
-In Developer Relations, we align our mission and vision with the company's [three year strategy](/handbook/company/strategy/). We believe that [everyone can contribute](/handbook/company/mission/#mission). To help GitLab reach this goal, we aim to double outreach and engagement, strengthen our community presence, and support a healthy community of contributors. Ultimately, these goals boost awareness, adoption, and power our [dual flywheels](/handbook/company/strategy/#dual-flywheels).
+In Developer Relations, we align our mission and vision with the company's three year strategy. We believe that [everyone can contribute](/handbook/company/mission/#mission). To help GitLab reach this goal, we aim to double outreach and engagement, strengthen our community presence, and support a healthy community of contributors. Ultimately, these goals boost awareness, adoption, and power our dual flywheels.
 
 ## <i class="fas fa-map-marked-alt fa-fw color-orange font-awesome"></i> Our Strategy
 
-Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
+Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
 
 - [Contributor Program Unification & Growth Plan](/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification/)
 - [Co-Creation Initiative](/handbook/marketing/developer-relations/cocreation/)
@@ -41,7 +41,7 @@ Our operational strategy is [documented in our internal handbook](https://intern
 
 Teams within Developer Relations are reachable in these Slack channels:
 
-- [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B): the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) team shares content updates, thought leadership & product ideas, and support community responses, meetups, CFPs, etc.
+- [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B): the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) team shares content updates, thought leadership & product ideas, and support community responses, CFPs, etc.
 - [#community-programs](https://gitlab.slack.com/archives/C024ZBWK5KJ): for all inquiries regarding [GitLab Community Programs](/handbook/marketing/developer-relations/community-programs/) (EDU/OSS/Startups)
 - [#contributor-success](https://gitlab.slack.com/archives/C02R0NE6P6C): for all inquiries regarding [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
 
@@ -56,8 +56,8 @@ Teams within Developer Relations are reachable in these Slack channels:
 ### Emergency contact
 
 - [**Developer Relations emergency contacts**](https://docs.google.com/document/d/16oq7sl6dpI2QbADwY41KjKEjaEj7dJ9LI5owm8lO_iU/edit?usp=sharing)
-- [**Incident management roles**](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities)
-- **Relevant Slack channels for incident/infrastructure:** [`#incident-management`](https://gitlab.slack.com/messages/incident-management), [`#infrastructure-lounge`](https://gitlab.slack.com/messages/incident-management)
+- [**Incident management roles**](/handbook/engineering/infrastructure/incident-management/#incident-response-roles)
+- **Relevant Slack channels for incident/infrastructure:** [`#incidents`](https://gitlab.slack.com/messages/incidents), [`#infrastructure-lounge`](https://gitlab.slack.com/messages/incident-management)
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How we work
 
@@ -65,16 +65,17 @@ Teams within Developer Relations are reachable in these Slack channels:
 
 - [Developer Relations project management](/handbook/marketing/developer-relations/project-management/)
 - [Common program resources](/handbook/marketing/developer-relations/program-resources/)
+- [Meetup checklist](/handbook/marketing/developer-relations/meetup-checklist)
 
 ### <i class="far fa-edit fa-fw color-orange font-awesome"></i> Our handbooks
 
 - [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
+  - [Contributors Program](/handbook/marketing/developer-relations/contributors-program/)
 - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Community Programs](/handbook/marketing/developer-relations/community-programs/)
-  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/opensource-program/)
+  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/open-source-program/)
   - [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
   - [Startups Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
-- [Evangelist Program](/handbook/marketing/developer-relations/evangelist-program/)
 - [Leading Organizations](/handbook/marketing/developer-relations/leading-organizations/)
 
 ### <i class="far fa-clipboard fa-fw color-orange font-awesome"></i> Our workflows
@@ -105,11 +106,12 @@ Organization:
 
 - [<i class="fas fa-credit-card"></i> Team Budgets](/handbook/marketing/developer-relations/workflows-tools/team-budgets)
 - [<i class="fas fa-shopping-cart"></i> Swag operations](/handbook/marketing/developer-relations/workflows-tools/swag/)
-- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/automated-community-programs/)
+- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview)
 - [<i class="fas fa-robot"></i> Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier/)
 - [<i class="fas fa-inbox"></i> Zendesk](/handbook/marketing/developer-relations/workflows-tools/zendesk/)
 - [<i class="fas fa-envelope"></i> Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
 - [<i class="fab fa-twitter"></i> Twitter/X](/handbook/marketing/developer-relations/workflows-tools/twitter/)
+- [<i class="fas fa-cloud"></i> Cloud Resources](/handbook/marketing/developer-relations/workflows-tools/cloud-resources/)
 
 #### Community Interest
 
@@ -131,11 +133,11 @@ Our team has a few weekly events that we use to stay connected and aligned on ou
 
 ### <i class="fa fa-calendar fa-fw color-orange font-awesome"></i> Our calendars
 
-We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the [Developer Advocate team calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar)).
+We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the Developer Advocacy team calendar).
 
 - [Developer Relations Team](https://calendar.google.com/calendar/u/0?cid=Y190M2JhY2k5MnFoYnJmYTMyMDdpZHZwdnYwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 - [Community Events](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV85MHQ1dWUxcThrYmpvcTViMHI5MW51N3J2Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [Developer Advocate Team](/handbook/marketing/developer-relations/developer-advocacy/#-calendar)
+- [Developer Advocacy Team](https://calendar.google.com/calendar/u/0?cid=Y183OTMwZmNiMGM5ZTQ3ODNiZGQzZDIzODU4YWU5YWY0MzA2ZjI4ZDk3NmE0MGM4MzNmNTA3MTBjN2NiODZiYTgyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
 ### Developer Relations OKRs
 
@@ -143,12 +145,11 @@ Every quarter, we work on [team Objectives and Key Results (OKRs)](https://gitla
 
 OKRs we seek to align with:
 
-- [company OKRs](/handbook/company/okrs/#most-recent-okrs)
 - [Marketing OKRs](/handbook/marketing/#marketing-okrs)
 
 #### DRI Responsibilities
 
-For each quarterly objective and key results, the Developer Relations team will assign a [DRI](/handbook/people-group/directly-responsible-individuals/). For our team, we have responsibilities that build upon the GitLab guidance on [achieving](/handbook/company/okrs/#documenting-how-to-achieve) and [updating](/handbook/company/okrs/#maintaining-the-status-of-okrs). Typically, People managers are the DRIs for objectives while ICs are the DRIs for key results.
+For each quarterly objective and key results, the Developer Relations team will assign a [DRI](/handbook/people-group/directly-responsible-individuals/). For our team, we have responsibilities that build upon the GitLab guidance on achieving and [updating](/handbook/company/okrs/#maintaining-the-status-of-okrs). Typically, People managers are the DRIs for objectives while ICs are the DRIs for key results.
 
 - Objective DRI Responsibilities
   - Own strategy for achieving objectives including supporting the DRIs for key results that will help to achieve our objectives.
@@ -168,7 +169,7 @@ For each quarterly objective and key results, the Developer Relations team will 
 
 To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=division%3A%3AMarketing&label_name%5B%5D=OKR&label_name%5B%5D=Department%3A%3ADeveloper%20Relations&first_page_size=20):
 
-1. Follow the [OKRs in GitLab handbook](/handbook/company/okrs/#how-to-use-gitlab-for-okrs)
+1. Follow the [OKRs in GitLab handbook](/handbook/company/okrs/okrs-in-gitlab/)
 1. Create OKRs, and KR items.
 1. Add the following labels: `Division::Marketing`, `Department::Developer Relations`, `OKR`.
 
@@ -184,7 +185,7 @@ To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-
 
 The Developer Relations team monitors several [Key Performance Indicators and related Performance Indicators](/handbook/marketing/developer-relations/performance-indicators/).
 
-{{< kpi-list "developer_relations_department" >}}
+{{< kpi "developer_relations_department" >}}
 
 ## <i class="fas fa-vector-square fa-fw color-orange font-awesome"></i> Team Logos
 
@@ -245,7 +246,7 @@ We take inspiration from the great work being done by other communities. Some of
 - [Debian](https://www.debian.org/) - A large, engaged community that act as custodians for important open source technology.
 - [GNOME](https://www.gnome.org/) - A large, engaged community that act as custodians for important open source technology.
 - [KDE](https://kde.org/) - A large, engaged community that act as custodians for important open source technology.
-- [Fedora](https://getfedora.org/) - A large, engaged community that act as custodians for important open source technology.
+- [Fedora](https://fedoraproject.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Drupal](https://www.drupal.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Wikimedia Foundation](https://wikimediafoundation.org/) - This community is a champion for free information with a large, engaged community.
 - [Kubernetes](https://kubernetes.io/) - This community consists of a large network of user groups and champions that serve to help each other grow and better utilize Kubernetes.
@@ -255,12 +256,12 @@ We take inspiration from the great work being done by other communities. Some of
 - [Google Summer of Code](https://summerofcode.withgoogle.com/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Outreachy](https://www.outreachy.org/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Grace Hopper Community / Systers](https://anitab.org/our-communities/systers/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Lesbians Who Tech](https://lesbianswhotech.org/debugsummit2021/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Lesbians Who Tech](https://lesbianswhotech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Techqueria](https://techqueria.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Latinas in Tech](https://latinasintech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women in Tech](https://women-in-tech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women Who Code](https://www.womenwhocode.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Rails Girls](http://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Rails Girls](https://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 
 ## <i class="fas fa-book" fa-fw color-orange font-awesome></i> Community Learning Pathway
 

@@ -130,12 +130,15 @@ The process is comprised of five key stages:
             1. Be able to complete post-closing payouts (if any earned and due) to the target's entity and shut it down as soon as practicable and in accordance with the terms of the deal documents
         1. At least one milestone will focus on developing new functionality which will be based on the integration delivered in earlier milestones
 1. To determine the deal ROI, the acquisition team will perform the analysis using the applicable model as well as the [acquisition NPV calculator](https://docs.google.com/spreadsheets/d/1ke36-mtEi8MhfMKXpYGMRP6H3HH6MimxXt86Zv_QkzM/edit#gid=0) (*internal* GitLab document).
+    1. The Build vs. Buy & Integration timeline estimate delta is a key input into the deal models. As part of Early Diligence, and then later refined during Confirmatory Due Diligence, the Product and Engineering Champions and their support teams will detail and forecast both a build to parity estimate, including timeline and headcount, as well as an integration estimate forecast to deliver value to GitLab customers.
+        1. Direction for the Build vs. Buy & Integration estimate exercise can be found [here](https://docs.google.com/document/d/18aZobFXSenjnYlyFl7GM-T9HUApQ0CFyZjtGgB4xuyM/edit?tab=t.0#heading=h.k6xpigwjqkmp) (internal GitLab document). The Build vs. Buy & Integration template can be found [here](https://docs.google.com/spreadsheets/d/1vBLlpyLJs4ZMvb9p_6VusEEedlwrPuDgWcD989mMy9o/edit?gid=1219624873#gid=1219624873) (internal GitLab document).
 1. Early People-Ops review
     1. The Corporate Development Deal Process Manager will create a new Slack channel topic of `#p-code_name-people` and include the People-ops Champion (VP of People-Ops) and a Talent Acquisition Lead. The People-ops Champion may request that the Corporate Development Champion and Process Manager bring in designated People-ops team-members as needed.
         1. Employee roster review
             1. Set your own LinkedIn profile to [private mode viewing](https://www.linkedin.com/help/linkedin/answer/a564182/private-mode-viewers-of-profiles?lang=en) when reviewing target employee profiles. Private mode viewing will prevent target employees from being alerted to GitLab's examination of their LinkedIn profiles.
         1. Compensation review - to identify any gaps and possible flags led by the HR Business Partner
-        1. Founder technical interviews - founders will go through two rounds of interviews to assess technical and cultural alignment.
+        1. Founder technical interviews - founder(s) will go through two rounds of interviews to assess technical and cultural alignment.
+            1. The founder interview differs in style and objective of a traditional new hire interview. Interviewers will be asked to review the [Interview Preparation Direction](https://docs.google.com/document/d/1k4sW4HgkRd2tN4TgWYITKqymACF2LCks32bVP_GgHs8/edit?tab=t.0#heading=h.97p1j2m533l5) in advance of meeting with the founder(s).
 1. An Application Security Review performed by GitLab's Application Security Team
     1. Identifies application vulnerabilities that need to be considered by GitLab by applying a threat modeling approach to conduct the review
 1. Presenting the business case for approvals (by order of occurrence):

@@ -28,7 +28,7 @@ Every benchmarking study has a similar 'skeleton' - the basic elements one needs
 
 ## Planning for a benchmarking study
 
-When leading a benchmarking study, you will need to coordinate with several stakeholders including the Product Manager (PM) and Product Designer (PD) to ensure that everyone agrees upon the study protocol, tasks, metrics, and timeline. As with any UX research project that you're driving, don't forget to share the test plan with the UX Research team for a [peer review](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researcher-conduct-peer-reviews).
+When leading a benchmarking study, you will need to coordinate with several stakeholders including the Product Manager (PM) and Product Designer (PD) to ensure that everyone agrees upon the study protocol, tasks, metrics, and timeline. As with any UX research project that you're driving, don't forget to share the test plan with the UX Research team for a [peer review](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-we-uphold-the-quality-of-our-work).
 
 The early planning stages are crucial for setting the rest of your study up for success. In order to maximize the first few weeks of study planning, communicate with your stakeholders on how they would prefer to provide feedback. If you are getting feedback async, make sure to provide firm deadlines that are non-negotiable. In cases where those deadlines are not being met, try pivoting to sync communication such as a scheduled meeting to help stay on the research timeline.
 
@@ -96,7 +96,7 @@ Here is an example of a singular task as written in the task list:
 
 There isn't a hard and fast rule when it comes to assigning a cut-off time for your tasks. There are a few ways you might do this:
 
-- Time yourself completing the tasks, and, if you're an expert, multiply that by 3 (a [guideline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5738945/#:~:text=An%20expert%20can%20take%20longer,second%20nature%20for%20an%20expert.&text=For%20routine%20tasks%2C%20experts%20complete,1.3%20to%20multiple%20times%20faster.) for how long a novice might take).
+- Time yourself completing the tasks, and, if you're an expert, multiply that by 3 (a [guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5738945/#:~:text=An%20expert%20can%20take%20longer,second%20nature%20for%20an%20expert.&text=For%20routine%20tasks%2C%20experts%20complete,1.3%20to%20multiple%20times%20faster.) for how long a novice might take).
 - Perform a [KLM](https://measuringu.com/predicted-times/) (Keystroke Level Modeling) calculation to get a rough estimate of time on task.
 - Run a pilot without enforcing any cut off. Measure time on task, and use that as a baseline. This comes with some caveats: you should consider adding time to the tasks that your pilot participant completed quickly and possibly subtracting time from the tasks that you felt took too long.
 
@@ -124,7 +124,7 @@ The following metrics and definitions are the core of how GitLab performs benchm
 | **CES** (Customer Effort Score) | Qualitative measure of perceived effort (1-7, 1 = extreme effort, 7 = effortless) | Measured per task, reported as average | At the end of the task, ask the participant, "On a scale of 1-7 where, 1 is extremely difficult and 7 is extremely easy, how easy was it for you to complete this task?"| Avg. CES for task 13 = 5.9 |
 | **Error Type Count**  | Number of the different type of errors or mistakes made during task completion | Measured per task, reported as average or mean | Errors need to be defined alongside the 'happy' or optimal path the user should take  | 2.6 avg. errors for task X|
 | **Error Rate** | The number of different types of errors observed over the number of steps in the task | Per task | Take the number of observed types of errors and divide by the number of steps or actions in that task. | Task A has 5 steps. There are 10 participants in the study. Our total steps (denominator) is therefore 50. The numerator is the observed errors across all participants for task A. Suppose there are 20 errors recorded for task A. Error rate is thus 20/50, or 40% |
-| **Severity**  |  Judged severity of the problem   |   Per task, overall   |  See [this handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) for details | Critical |
+| **Severity**  |  Judged severity of the problem   |   Per task, overall   |  See [this handbook page](/handbook/product-development/how-we-work/issue-triage/) for details | Critical |
 | **Grade**     |   A cumulative letter grade portraying the usability of the task overall      |       per task, overall          |    see 'Per task grade calculation section below'         | C |
 | **UMUX lite** |  Canonically, UMUX lite is a 2-question survey that measures perceived usefulness and usability of a system or product. For benchmarking at GitLab, we tend to use it to measure usability against the specific JTBD in our study. |  Collected once per JTBD at end of session.  |    1 question, on a 7-point Likert scale from strongly disagree to strongly agree.    | On a scale of 1-7, where 1 is strongly disagree and 7 is strongly agree, how much to do agree with the statement, "This system helps me perform (insert description of JTBD here)" |
 
@@ -152,7 +152,7 @@ For per-workflow overall grade calculation:
 
 #### Severity calculation
 
-In each session, you will record (per task) the severity number that most closely represents that user's experience as defined on [this handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This methodology is similar to the widely-known [Nielsen/Norman system](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/), but inverse (where low numbers in our system are of greater severity).
+In each session, you will record (per task) the severity number that most closely represents that user's experience as defined on [this handbook page](/handbook/product-development/how-we-work/issue-triage/). This methodology is similar to the widely-known [Nielsen/Norman system](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/), but inverse (where low numbers in our system are of greater severity).
 
 For each incomplete task, rate the severity as 1. For a very painful completion, rate the severity as 2. For a mildly painful completion, rate the severity as 3 (and so on). If the user doesn't encounter any usability issues, rate the severity as 5.
 
@@ -281,7 +281,7 @@ A: The UX Researcher on the project can set up a cloud instance of GitLab and cr
 
 A: It depends. Basically you need to look at your task list and go through them, ensuring that every area of the project that you go to (or might reasonably expect participants to go) has something there. Ideally, there's more than 1 item there (file, merge request, comment, environment, deployment, etc.) so that the task time accounts for scanning and searching the desired path. Depending on the areas you're focused on, this may be a lot of sample data, or not so much.
 
-**Q:Where does this fit in the [product lifecycle?](/handbook/product-development-flow/)**
+**Q:Where does this fit in the [product lifecycle?](/handbook/product-development/how-we-work/product-development-flow/)**
 
 A: Benchmarking lives at a space bridging the 'improve' stage of the build track and the 'collect ideas/understand the problem' parts of the validation track. Benchmarking is a great way to see how the current product is performing, so it fits well with the 'measure, learn, and improve' part of the cycle. The 'learn' and 'improve' parts of are then taken as inputs into the collect ideas/understand the problem parts of the validation track. So, in benchmarking, we're measuring our current product, validating existing problems we know of, and generating ideas on how to address these problems or generally improve the product.
 Note: Benchmarking is somewhat outside of our normal workflow. Since it is so time intensive, it's not something that could or should be a part of every feature or issue, and it's not something we should conduct more than once or twice a year for the same tasks.

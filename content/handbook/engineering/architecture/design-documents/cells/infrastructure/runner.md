@@ -9,7 +9,7 @@ approvers: ["@josephburnett", "@tmaczukin", "@amknight", "@skarbek"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This blueprint describes the architecture and roadmap of the Runner service in a cellular architecture.
 
@@ -25,7 +25,7 @@ In [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architectu
 
 ### Architecture
 
-![Cell runner diagram](../../diagrams/term-cell-runner.drawio.png)
+![Cell runner diagram](/images/engineering/architecture/design-documents/cells/diagrams/term-cell-runner.drawio.png)
 
 - There's a 1:n relationship between a Cell and a Runner, i.e, one Cell can have many Runners, while a Runner is only registered to one Cell.
 - Legacy Cell (GitLab.com) is using Runners that are managed via [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) and [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo), while the Cells are using [Transistor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/transistor/)-like setup, which vendors in GRIT.

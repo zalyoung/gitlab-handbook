@@ -18,10 +18,12 @@ Marketing Analytics supports the entire Marketing team to develop and execute a 
 - [Christine Lee, VP, Marketing Operations & Analytics](/handbook/company/team/#christinelee)
 - [Viola Hempel, Director, Marketing Analytics](/handbook/company/team/#vhempel)
 - [Jerome Ahye, Staff Data Analyst, Data Analytics](/handbook/company/team/#jahye1)
-- [Robert Kohnke, Senior Data Engineer](/handbook/company/team/#rkohnke)
+- [Robert Kohnke, Senior Analytics Engineer](/handbook/company/team/#rkohnke)
 - [David Egan, Staff Data Analyst](/handbook/company/team/#dwegan)
 - [Djordje Micovic, Staff Data Analyst](/handbook/company/team/#dmicovic)
 - [Dennis Charukulvanich, Senior Data Analyst](/handbook/company/team/#dennischarukulvanich)
+- [Ankit Kanwar, Senior Data Analyst](/handbook/company/team/#akanwar)
+- [Luke Salmas, Senior Data Analyst](/handbook/company/team/#lsalmas)
 
 ## <i id="biz-tech-icons" class="far fa-paper-plane"></i>How to Communicate with Us
 
@@ -37,17 +39,19 @@ We can be reached via our own [#mktg-analytics](https://gitlab.slack.com/archive
   </div>
 </div>
 
+See the following page for information specifically pertaining to [Marketing Analytics - Analytics Engineering](marketing-analytics-engineering).
+
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>Our Work
 
 As part of our work, we publish self-service dashboards for team members to understand campaign performance and key marketing KPIs. Our [dashboard page](dashboards) lists our currently supported dashboards and our framework for publishing a new dashboard.
 
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>How We Work
 
-We use milestones to create 2 week sprints. Below are links to our project within GitLab.com and our a view of our current and upcoming milestones.
+We use milestones to create 2 week sprints(iterations). Below are links to our project within GitLab.com and a view of our current and upcoming milestones.
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/boards/2084660" class="btn btn-purple" style="margin:5px;">Marketing Analytics local issue board</a>
+    <a href="https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/boards/2084660?iteration_id=Current" class="btn btn-purple" style="margin:5px;">Marketing Analytics local issue board</a>
     <a href="https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance" class="btn btn-purple" style="margin:5px;">Marketing Analytics project</a>
   </div>
 </div>
@@ -67,17 +71,6 @@ Marketing Analytics uses a [local issue board](https://gitlab.com/gitlab-com/mar
 #### Issue Weights
 
 Marketing Analytics uses the Fibonnacci sequence when creating [issue weights](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html). We start with a weight of 2, smaller is too simple for an issue. Similarly, we break any issue larger than 13 into an epic.
-
-### Triage Schedule
-
-We follow a weekly triage schedule and alternate responsibility between the team. You can see who is currently on triage with our shared [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y185YTczZjgzOWQyOWUyY2U3MDEwYjkyNTJmYzFmY2U2NTYzM2MyMzBiOGQxNzk5NmY4ZDIyODkxOGVlNmM1ZWM5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
-
-During your rotation, you are expected to:
-
-- Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
-- Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
-
-Dennis is responsible for all web analytics triage.
 
 ### Epics
 
@@ -109,7 +102,7 @@ Backlog
 - `MktgSandP::0 - To Be Triaged`: Issue initially created, used in templates, the starting point for any label that involves Marketing Analytics ; no real discussion on the issue; generally unassigned.
 - `MktgSandP::1 - Planning`: Issues assigned to a Marketing Analytics team member and are currently being scoped/considered but are not being actively worked on yet.
 - `MktgSandP::2 - On Deck`: Issues that have been scoped/considered and will be added to an upcoming iteration/milestone.
-- `MktgSandP::5 - On Hold/Blocked`: Issue that is not within existing scope of Marketing Analyticscurrent focus, or another department as deprioritized. May be a precursor to being closed out. OR Issue that was being worked on by Marketing Analytics and at least one other team wherein Marketing Analytics is waiti-related task/issue, or external (non-GitLab) blocker.
+- `MktgSandP::5 - On Hold/Blocked`: Issue that is not within existing scope of Marketing Analytics current focus, or another department as deprioritized. May be a precursor to being closed out. OR Issue that was being worked on by Marketing Analytics and at least one other team wherein Marketing Analytics is waiti-related task/issue, or external (non-GitLab) blocker.
 
 </details>
 
@@ -175,6 +168,7 @@ To give each functional marketing team has a single point of contact for marketi
 
 - [Marketing Metrics](/handbook/marketing/strategy-performance/marketing-metrics)
 - [Dashboards Page](dashboards)
+- [Marketing Analytics Data Overview and General Information](/handbook/marketing/strategy-performance/marketing-analytics-data)
 
 ## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications
 
@@ -184,7 +178,7 @@ To give each functional marketing team has a single point of contact for marketi
 
 ### Requesting access to an existing tool
 
-To request access to Bizible or Allocadia, [please follow the access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+To request access to Bizible or Allocadia, [please follow the access request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/) as outlined in the business operations handbook.
 
 If you are working with a contractor or consultant that requires access to one of these tools, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 
@@ -206,4 +200,4 @@ We use Adobe Marketo Measure (Bizible) for marketing attribution and tracking ti
 
 ## Web Traffic Analysis
 
-Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/enterprise-data/data-catalog/web-traffic-analysis/) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)
+Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/metrics/#web-traffic-analysis) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)

@@ -9,7 +9,7 @@ owning-stage: "~devops::verify"
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Context
 
@@ -43,7 +43,7 @@ We want to reduce the risk of database performance degradation by transforming
 a few of the largest database tables into smaller ones using PostgreSQL
 declarative partitioning.
 
-![pipeline data time decay](../pipeline_data_time_decay.png)
+![pipeline data time decay](/images/engineering/architecture/design-documents/ci_data_decay/pipeline_data_time_decay.png)
 
 ## How are CI/CD data decomposition, partitioning, and time-decay related?
 
@@ -75,7 +75,7 @@ partitioning, we can archive the entire partition (or set of partitions) by
 updating a single record in one of our database tables. It is one of the
 least expensive ways to implement time-decay patterns at a database level.
 
-![decomposition_partitioning_comparison.png](../decomposition_partitioning_comparison.png)
+![decomposition partitioning comparison](/images/engineering/architecture/design-documents/ci_data_decay/decomposition_partitioning_comparison.png)
 
 ## Why do we need to partition CI/CD data?
 

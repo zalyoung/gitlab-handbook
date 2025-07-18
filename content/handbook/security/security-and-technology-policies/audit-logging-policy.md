@@ -40,7 +40,6 @@ Exceptions to this policy will be tracked as per the [Information Security Polic
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "_index.md" >}})
 - [What is considered production](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/-/blob/master/production_definition.md)
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - Configuration Management

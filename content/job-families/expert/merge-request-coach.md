@@ -13,16 +13,15 @@ get merged into GitLab.
   reasons why, so that people don't feel discouraged but incentivized that they can make a difference next time.
 - Help contributors to get their merge requests to meet the
   [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria).
-- Act on the merge requests assigned to you on the daily [newly created community contribution merge requests triage report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#newly-created-community-contribution-merge-requests-requiring-first-triage).
+- Act on the merge requests assigned to you on the daily [newly created community contribution merge requests triage report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#newly-created-community-merge-requests).
 - Help find and assign merge requests to available reviewers.
 - If the contributor is unresponsive or if they are unable to finish it, finish
   their merge requests. Also, see the [closing policy for merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership).
 - Make it easy to contribute to GitLab even for people who are new to Ruby,
   JavaScript, Golang, etc. or programming entirely. For example, you can add any hints or possible fixes on issues that are open for community contribution.
 - Join and actively follow the internal [`#mr-coaching` Slack channel](https://app.slack.com/client/T02592416/C2T9APP9C) and the external [GitLab Community Discord](https://discord.gg/gitlab) to assist contributors and fellow MR Coaches when they need help or to discuss best practices for collaboration.
-  - You can also use the [`#gitter-contributors-room` Slack channel](https://app.slack.com/client/T02592416/CV0SHHVNW) which tunnels all conversations between Gitter and Slack.
 - Ensure the content on the [MR Coaches handbook pages](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle/) stays relevant, up-to-date and keeps evolving.
-- Participate in the discussion and voting for the [release post MVP](/handbook/marketing/blog/release-posts/index.html#mvp).
+- Participate in the discussion and voting for the [release post Notable Contributor](/handbook/marketing/blog/release-posts/#notable-contributor).
 
 ### Specialties
 
@@ -60,12 +59,12 @@ Some MRs may not need triaging and as an MR coach you should feel empowered to a
 
 When a contributor runs out of CI minutes, you can either:
 
-- Move the MR into the [community fork](https://gitlab.com/gitlab-community/meta) to take advantage of the unlimited CI minutes and many other [benefits](https://gitlab.com/gitlab-community/meta#why) there.
+- Move the MR into the [community fork](https://gitlab.com/gitlab-community/) to take advantage of the unlimited CI minutes and many other [benefits](https://gitlab.com/gitlab-community/#why) there. Instructions to move an MR are in the Meta project [here](https://gitlab.com/gitlab-community/meta#migrate-an-existing-merge-request-into-the-community-fork).
 - As a GitLab Team member you can run the pipeline for the contributor. This is useful if the MR is close to completion and moving it would not be efficient.
 
 ### Finishing merge requests
 
-Sometimes a contributor will either become unresponsive or state that they will not be able to finish a merge request. If a Merge Request Coach deems the effort worthwile and has the knowledge and the bandwidth to complete it, they will bring the MR to the finish line instead of [closing it](#closing-merge-requests).
+Sometimes a contributor will either become unresponsive or state that they will not be able to finish a merge request. If a Merge Request Coach deems the effort worthwhile and has the knowledge and the bandwidth to complete it, they will bring the MR to the finish line instead of [closing it](#closing-merge-requests).
 
 Steps:
 
@@ -73,6 +72,7 @@ Steps:
  1. Check out the branch locally.
  1. Make sure a changelog git trailer crediting the author exists.
  1. Add your own commits to improve and finish the original work.
+ 1. Don't erase the author's commit.
  1. Push to a new branch and open a new merge request.
 
 ### Closing merge requests
@@ -97,4 +97,4 @@ Because of that I will close this MR but please feel free to reopen if you are s
 If you have any other questions please don't hesitate and ping me 🙂
 ```
 
-More information on the Merge Request Coach role is available in the [handbook](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle.html).
+More information on the Merge Request Coach role is available in the [handbook](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle/).

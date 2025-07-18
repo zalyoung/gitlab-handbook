@@ -7,11 +7,11 @@ description: How to determine if a blocked user can be re-instated
 
 This workflow page will describe how to action on **Locked**,  **Blocked** and **Banned** accounts. Sometimes users believe they are blocked, but their accounts are locked. There are several ways to verify:
 
-1. The best way to view this information is via the [Zendesk User Lookup app (part of the GitLab Super App)](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app), through the `Locked` and `State` fields.
+1. The best way to view this information is via the [Zendesk User Lookup app (part of the GitLab Super App)](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-super-app), through the `Locked` and `State` fields.
 1. The Admin User UI in `/admin/user/USERNAME` will say `(Locked)`, `(Blocked)` or `(Banned)` next to the name at the top.
-1. The [Users API](https://docs.gitlab.com/ee/api/users.html#single-user) through the URL `https://gitlab.com/api/v4/users/<user_id>` in your browser while logged in as an Admin User, also indicates the `locked` and `state` status of the user.
+1. The [Users API](https://docs.gitlab.com/api/users/#single-user) through the URL `https://gitlab.com/api/v4/users/<user_id>` in your browser while logged in as an Admin User, also indicates the `locked` and `state` status of the user.
 
-Our implementation of [Arkose Protect](https://docs.gitlab.com/ee/integration/arkose.html#arkose-protect) does *not* affect account locking, but instead can prevent users from signing in without solving the challenge.
+Our implementation of [Arkose Protect](https://docs.gitlab.com/integration/arkose/#arkose-protect) does *not* affect account locking, but instead can prevent users from signing in without solving the challenge.
 
 ## Locked accounts
 
@@ -31,7 +31,7 @@ If the user does not receive a verification email with the 6-digit code, it's li
 
 All verification emails with unlock codes and password reset emails bypass Mailgun suppressions. Mail delivery of these emails can also be seen in Mailgun.
 
-You can see `Account Locked` states in [Kibana]({{< ref "kibana" >}}) by searching for `json.message: Account Locked`. Here's an example of what it might look like it Kibana:
+You can see `Account Locked` states in [Kibana](/handbook/support/workflows/kibana/) by searching for `json.message: Account Locked`. Here's an example of what it might look like it Kibana:
 
 ![locked_account](/images/support/locked_example.png)
 
@@ -45,16 +45,16 @@ we can consider a manual unlock if necessary. For example, if a user cannot rece
 Process:
 
 1. Follow the locked accounts workflow above and ensure that the user has exhausted all self-serve methods first.
-1. For other cases, [comment or create an issue]({{< ref "working-with-issues" >}}) as applicable.
-1. Do an [account ownership verification]({{< ref "account_verification" >}}).
-1. [Unlock the account from the admin area](https://docs.gitlab.com/ee/security/unlock_user.html#unlock-a-user-from-the-admin-area)
-1. [Add an admin note]({{< ref "admin_note" >}}).
+1. For other cases, [comment or create an issue](/handbook/support/workflows/working-with-issues/) as applicable.
+1. Do an [account ownership verification](/handbook/support/workflows/account_verification/).
+1. [Unlock the account from the admin area](https://docs.gitlab.com/security/unlock_user/#unlock-a-user-from-the-admin-area)
+1. [Add an admin note](/handbook/support/workflows/admin_note/).
 
 Feature request for group owners to self-serve is in [anti-abuse#339](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tasks/-/issues/339).
 
 ### Change risk assessment (Credit Card verification)
 
-If a user has failed credit card verification or cannot use a credit card, follow the below process to verify the user in order to change their risk level. Please see [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5154#what-impact-will-this-have-on-users) and the [documentation](https://docs.gitlab.com/ee/security/identity_verification#stages) for more details.
+If a user has failed credit card verification or cannot use a credit card, follow the below process to verify the user in order to change their risk level. Please see [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5154#what-impact-will-this-have-on-users) and the [documentation](https://docs.gitlab.com/security/identity_verification#stages) for more details.
 
 **Note**: This process can only be done for free users if it's determined that they are impacted by a GitLab bug, such as [customers#3811](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3811).
 
@@ -63,9 +63,17 @@ Process:
 1. Follow the steps above for [manual unlock](#manual-unlock).
 1. While in the admin area for the user, scroll to the **Custom Attributes** section.
 1. Change the field for `arkose_risk_band` from `high` to `medium`.
-1. If necessary, [unlock the account](https://docs.gitlab.com/ee/security/unlock_user.html#unlock-a-user-from-the-admin-area).
-1. [Add an admin note]({{< ref "admin_note" >}}).
+1. If necessary, [unlock the account](https://docs.gitlab.com/security/unlock_user/#unlock-a-user-from-the-admin-area).
+1. [Add an admin note](/handbook/support/workflows/admin_note/).
 1. Click `Save` when done.
+
+### Identity verification exemption requests
+
+### Accounts unable to verify with a credit card and/or phone number
+
+When a user is unable to complete credit card and/or phone number verification, an exemption can be requested from the [Trust and Safety team](../../security/security-operations/trustandsafety/). This is also sometimes referred to as "identity verification".
+
+Details of the process and instructions are available in the [Internal Handbook](https://internal.gitlab.com/handbook/security/security_operations/trust_and_safety/guides-and-documentation/account-reinstatements/identity-verification-exemption-requests/). 
 
 ## Blocked Accounts
 
@@ -74,7 +82,7 @@ This workflow is used to determine if a blocked or a banned user can be reinstat
 ### Why is account blocked?
 
 If the account is blocked, look for the admin note on the account to determine why it has been blocked.
-    - The [GitLab user lookup app](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app) in Zendesk will show the admin notes for the user if they have contacted support using the email address associated with their account.  Alternatively -
+    - The [GitLab user lookup app](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-super-app) in Zendesk will show the admin notes for the user if they have contacted support using the email address associated with their account.  Alternatively -
     - If you have access to ChatOps you can use the below command in any chatops enabled Slack channel to read admin notes for the user
         > `/chatops run user find <username or email>`
 
@@ -95,6 +103,12 @@ If the block or complaint is related to access from an embargoed country, use th
     - If the user provides the requested information, then complete the `Trust and Safety` [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. Otherwise, reaffirm the block cannot be removed.
     - Proceed with this action for both **free** and **paid** users.
 
+### Business and regulatory obligations (China region)
+
+Users may be blocked in order to comply with business and regulatory obligations in Mainland China, Hong Kong and Macau. This will be reflected in an admin note on the user's account.
+
+More information and the support workflow for these accounts can be found in the [Internal Handbook](https://internal.gitlab.com/handbook/support/workflows/regulatory-region-blocks/).
+
 ### Professional Services migrations
 
 Professional Services migrations can also block users as part of their process. Admin notes for migrations were added as of `2022-08-19` through [this issue](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/issues/818). Older migrated accounts may not have an admin note. As of `2024-09-18`, requests to unblock accounts that were blocked during a Professional Services migration are worked automatically (see [STM #6336](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6336)).
@@ -106,10 +120,11 @@ If you receive a ticket for an unblock request and you think it should have been
 1. Work the ticket manually using the guidance below to ensure a timely resolution for the requestor
 
 If a ticket was not automatically worked, Support can manually unblock the user in the following cases:
-    - Blocked users or top-level group owners can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.  
-    - For [Enterprise users]({{< ref "gitlab-com_overview#enterprise-users" >}}), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification]({{< ref "account_verification" >}}), and add an [admin note]({{< ref "admin_note" >}}) as usual, including if it was user or owner requested.
-    - You can also ask for clarification or assistance in the [#professional_services](https://gitlab.slack.com/archives/CFRLYG77X) channel if needed.
-    - Proceed with this action for both **free** and **paid** users.
+
+- Blocked users or top-level group owners can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.
+- For [Enterprise users](/handbook/support/workflows/gitlab-com_overview/#enterprise-users), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification](/handbook/support/workflows/account_verification/), and add an [admin note](/handbook/support/workflows/admin_note/) as usual, including if it was user or owner requested.
+- You can also ask for clarification or assistance in the [#professional_services](https://gitlab.slack.com/archives/CFRLYG77X) channel if needed.
+- Proceed with this action for both **free** and **paid** users.
 
 ### No admin note and none of the above
 
@@ -122,13 +137,19 @@ For all other cases, including no admin notes that are not a part of PS migratio
 
 ### Account is successfully unblocked
 
-If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been unblocked. Otherwise, provide the reasoning from the Unblock Request as to why their account will remain blocked.
+If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been unblocked.
+
+### Account to remain blocked (no reinstatement)
+
+If the final decision from Trust and Safety is that the user's account is not to be reinstated, apply the [`Support::SaaS::Gitlab.com::Blocked Accounts::RemainBlocked`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/RemainBlocked.md) macro. This will provide a standard statement to the user and the ticket **will be closed**.
+
+Applying the macro will provide the user no opportunity of reply through the existing ticket, care should be taken before applying the macro to ensure that this is the intended action.
 
 ## Banned accounts
 
-1. Only proceed with the next steps if any of the following scenarios is true:
-    1. The email address the user has used to raise their request matches an email address associated with the account the request is intended for.
-    1. The user account is classified as an [Enterprise user]({{< ref "gitlab-com_overview.md#enterprise-users" >}}) and an owner of the top-level group raises the ticket.
+1. Proceed with the next steps **only** if at least one of the following scenarios is true:
+    1. The email address the user has used to raise their request matches an email address associated with the account the request is intended for. This criteria can be applied to both free users and customers.
+    1. The user account is classified as an [Enterprise user](/handbook/support/workflows/gitlab-com_overview#enterprise-users) and an owner of the top-level group raises the ticket.
 1. Complete the `Trust and Safety` [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. A security member of the team will review the request within 24 hours. If the request is urgent, please reach out in the #abuse Slack channel.
 1. Send the [`Support::SaaS::Gitlab.com::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Escalated-TrustAndSafety.md?ref_type=heads) macro for the initial response to the user.
 1. If account is restored, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been restored. Otherwise, provide the reasoning from the Reinstatement Request as to why their account will remain banned.
@@ -137,7 +158,7 @@ If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::
 
 It is possible for self-initiated account deletion to be cancelled within the 7-day delay period. See [Unblocking the account will cancel the account deletion](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tasks/-/issues/423).
 
-A request to cancel the deletion of an account may be made by a member of a *paid* group or a top-level owner if the user is an [Enterprise user]({{< ref "gitlab-com_overview.md#enterprise-users" >}}). We do not cancel account deletion for free users.
+A request to cancel the deletion of an account may be made by a member of a *paid* group or a top-level owner if the user is an [Enterprise user](/handbook/support/workflows/gitlab-com_overview#enterprise-users). We do not cancel account deletion for free users.
 
 Process:
 

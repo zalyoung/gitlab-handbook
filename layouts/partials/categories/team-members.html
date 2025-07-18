@@ -10,12 +10,17 @@
   {{- $data.Add . $member }}
   {{- end -}}
 
+  {{- $departments := slice }}
   {{- with .departments }}
-  {{- $departments := slice | append . }}
+  {{- $departments = $departments | append . }}
+  {{- end -}}
+  {{- with .team_tags }}
+  {{- $departments = $departments | append . }}
+  {{- end -}}
+
   {{- range $departments }}
     {{- $data.Add . $member }}
   {{- end }}
-  {{- end -}}
 
   {{- with .specialty }}
   {{- $specialties := slice | append . }}

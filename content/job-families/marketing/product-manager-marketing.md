@@ -3,7 +3,7 @@ title: Product Manager - Marketing
 summary: Help educate people on the entire DevOps lifecycle, communicate the value our single application that allows developers to invent, create, and deploy modern applications.
 ---
 
-The Product Manager - Marketing Job Family educates people on the entire [DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/). They communicate the value our [single application](/handbook/product/single-application) allows developers to invent, create, and deploy modern applications. They communicate how GitLab facilitates [Concurrent DevOps](https://about.gitlab.com/topics/concurrent-devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
+The Product Manager - Marketing Job Family educates people on the entire [DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/). They communicate the value our [single application](/handbook/product/categories/gitlab-the-product/single-application/) allows developers to invent, create, and deploy modern applications. They communicate how GitLab facilitates [Concurrent DevOps](https://about.gitlab.com/topics/devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
 
 ## Levels
 
@@ -96,7 +96,7 @@ The next step in the Product Manager - Marketing job family is not yet defined a
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, you can find their job title on our [team page](/handbook/company/team/).
 
-- Select candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Select candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 30 minute interview with our Director, Digital Experience.
 - Next, candidates will be invited to schedule a 30 minute technical interview with our Fullstack Engineer and a Frontend Engineer on the Marketing team.
 - Next, candidates will be invited to schedule a 30 minute interview with the Senior Director, Growth Marketing.

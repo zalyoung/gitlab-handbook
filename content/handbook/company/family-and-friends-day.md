@@ -1,19 +1,45 @@
 ---
 title: "Family and Friends Day"
-description: "At GitLab, we are family and friends first, work second. A quarterly Family and Friends Day during COVID-19 helps our Team Members prioritize their well-being."
+description: "At GitLab, Family & Friends days are shared days away from work to prioritize time with family and friends, volunteering, self-care, or anything else."
 ---
 
 ## What is a Family and Friends Day?
 
-At GitLab, we are [family and friends first, work second](/handbook/values/#family-and-friends-first-work-second). In an ongoing pandemic with COVID-19 affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a quarterly "Family and Friends Day" for as long as the majority of the world, where our team members reside, are dealing with COVID-19. On this day, we will close the doors to the GitLab virtual office, reschedule all meetings, and have a **publicly visible shutdown**.
+We started our Family & Friends day benefit in early 2020 to help team members cope with the COVID-19 pandemic. We planned to continue Family & Friends days for as long as the majority of the world was dealing with the pandemic. While the World Health Organization declared an [end to the COVID-19 global health emergency](https://www.nbcnews.com/health/health-news/who-ends-covid-global-health-emergency-rcna83046) in early 2023, we have maintained Family & Friends days as a team member benefit with different iterations each fiscal year.
 
-Team members can share about their Family and Friends Day in the `#family-and-friends-day` Slack channel after the event, or publicly on social media such as Twitter, LinkedIn, or wherever they're most comfortable using the hashtag #FamilyFriends1st. Sharing is optional. Taking the day off is strongly encouraged if your role allows it.
+Team members are encouraged to share about their Family and Friends day in the `#family-and-friends-day` Slack channel after the event, or publicly on social media such as Twitter, LinkedIn, or wherever they're most comfortable using the hashtag #FamilyFriends1st. Sharing is optional. Taking the day off is strongly encouraged if your role allows it.
+
+## FY'26 Family and Friends Days
+
+In FY25, we chose one day a quarter to recognize a Family & Friends day. In FY26, we plan to consolidate those 4 Family & Friends days near the end of the calendar year. Keeping our Friends & Family day benefit at a time when our customers are often away from work, and during a quieter time in the year, will allow us to best serve our customers and meet our business objectives.
+
+The proposed dates for FY26 Family & Friends days are:
+
+1. 2025-12-26
+1. 2025-12-29
+1. 2025-12-30
+1. 2025-12-31
+
+Family & Friends days will be automatically loaded into Workday by end of Q1FY26, for all team members, so there's no need for team members to enter them manually.
+
+In countries where a Family & Friends day falls on a public holiday, team members are encouraged to [utilize their public holiday on another day](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit?usp=sharing), keeping in mind that the public holiday accrual balance needs to be used within the same calendar year.
+
+For example, if the Family & Friends day on 2025-12-26 is a public holiday in your country, create a new absence request in Workday for the public holiday on another day _within the same calendar year_, such as 2025-12-24, by selecting `Type of Absence > Time Offs > Public Holiday`, and add a note that you are using your public holiday on this day because 2025-12-26 is a public holiday in your location which falls on one of GitLab's Family & Friends days.
+
+- In Israel, Family & Friends days will be adjusted to 2025-12-28, 2025-12-29, 2025-12-30, and 2025-12-31.
+
+As with years past, team members in roles that require them to work on a date designated as a Family & Friends day can work with their manager to find an alternative day. Team members in roles that require them to work on a date designated as a Family & Friends day will be able to request the alternative(s) day in Workday (or via the Workday link in Slack).
+
+- Choose a day that works best for your manager and your team. Please note: The alternative date should be within 30 days (before or after) of the scheduled Family & Friends day.
+- Log into Workday and request time off using the category "Time Off in Lieu", reason “Family and Friends Day”.
+- In the comments section, please note: "In lieu of Family and Friends Day on XXX".
+- This will route to your manager for approval.
+
+Contact the Absence Management team via HelpLab (People > Absence menu) if you need further assistance or have questions. 
 
 ## FY'25 Family and Friends Days
 
-We started our Family & Friends day benefit in early 2020 to help team members cope with the COVID-19 pandemic. We planned to continue Family & Friends days for as long as the majority of the world was dealing with the pandemic. While the World Health Organization declared an [end to the COVID-19 global health emergency](https://www.nbcnews.com/health/health-news/who-ends-covid-global-health-emergency-rcna83046) in early 2023, we will maintain 4 Family & Friends days per year.
-
-In FY'25, the dates for Family & Friends Day will be:
+In FY'25, the dates for Family & Friends Day were:
 
 1. 2024-04-05
 1. 2024-06-14
@@ -87,7 +113,7 @@ Any GitLab team member is able to propose a Family and Friends Day. If there are
 
 ### I'm in a role which requires me to work that day. How can I still benefit from this initiative?
 
-If you are in a role that requires you to work or your team has other coverage requirements on Family and Friends Day (for example, [Customer Support](/handbook/support/support-time-off.html#how-support-handles-family-and-friends-days)), you can work with your manager to find an alternative day. We encourage you to consider the following business day as the preferred second choice for a day away, but do what works best for you and your team.
+If you are in a role that requires you to work or your team has other coverage requirements on Family and Friends Day (for example, [Customer Support](/handbook/support/support-time-off/#how-support-handles-family-and-friends-days)), you can work with your manager to find an alternative day. We encourage you to consider the following business day as the preferred second choice for a day away, but do what works best for you and your team.
 
 ### What if the date is a public holiday or non-working day in my country? How does this apply to me?
 

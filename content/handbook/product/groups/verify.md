@@ -21,16 +21,16 @@ GitLab Project: [Verify](https://gitlab.com/gitlab-org/verify-stage)
 
 Verify teams:
 
-- [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
-- [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
-- [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
-- [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
+- [Verify:Pipeline Execution](/handbook/engineering/devops/ops/verify/pipeline-execution/)
+- [Verify:Pipeline Authoring](/handbook/engineering/devops/ops/verify/pipeline-authoring/)
+- [Verify:Runner](/handbook/engineering/devops/ops/verify/runner/)
+- [Verify:Pipeline Security](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/)
 
 ### What do y'all do?
 
 The purpose of this product group are described by the [Verify stage direction](https://about.gitlab.com/direction/ops/#verify). This is inclusive, though not limited to, the pipeline experience, creating or authoring .gitlab-ci.yml files, executing jobs in a pipeline, and various testing capabilties in CI/CD.
 
-![Verify Banner](verify_groups_banner.jpg)
+![Verify Banner](/images/product/groups/verify_groups_banner.jpg)
 
 #### Continuous Integration and Runner Boundaries (Ownership/DRI's)
 
@@ -52,7 +52,7 @@ The noted DRI still owns decision-making and is still responsible for notifying/
 
 ### Workflow
 
-We work in a Kanban-style aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development-flow/).
+We work in a Kanban-style aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 ### Cross-Functional Partnership
 

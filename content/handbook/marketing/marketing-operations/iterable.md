@@ -6,14 +6,13 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>
 
 ## DRIs
 
 | DRI            | Role            |
 | -------------- | --------------- |
 | Amy Waller     | Business Owner  |
-| Mihai Conteanu | Technical Owner |
+|  | Technical Owner |
 | Allie Klatzkin | Campaigns Owner |
 
 ## Overview
@@ -40,7 +39,6 @@ graph LR
   GitLab.com --> CustomersDot
   CustomersDot --> Workato API
   Workato API --> Iterable
-
 ```
 
 **SaaS Trials Event**

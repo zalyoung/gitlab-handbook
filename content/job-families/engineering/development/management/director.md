@@ -18,19 +18,6 @@ The Director, Engineering is a [grade 10](/handbook/total-rewards/compensation/c
 - Drive high throughput
 - Standardize the development process where needed, allow local differences where advantageous
 
-## Requirements
-
-- Ability to use GitLab
-- Excellent communication skills
-- Expert hiring manager skills and experience
-- A well developed people management philosophy for managers and engineers
-- Experience managing managers
-- Agile project management skills
-- Commitment to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at, at least, one recent job
-- Understanding of how to be successfully manage at a remote-only company
-- Humble, servant leader
-
 ## Levels
 
 - Senior Engineering Manager
@@ -49,7 +36,7 @@ The Director, Engineering is a [grade 10](/handbook/total-rewards/compensation/c
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a VP of Development
 - Next, candidates will be invited to schedule a 45 minute second interview with a Director, Engineering
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team

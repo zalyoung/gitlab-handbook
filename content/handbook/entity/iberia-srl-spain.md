@@ -1,6 +1,6 @@
 ---
 title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
-description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
+description: "Entity Information for GitLab Iberia s.r.l. Spain Team Members"
 ---
 
 {{% panel header="**This is a Secure Document**" header-bg="orange" %}}
@@ -61,7 +61,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-As of May 1, 2024 each team member employeed by GitLab Iberia will be required to log the start and end of their daily work time. We have provided a Google spreadsheet template, in English or Spanish. This record will be kept by Payroll and can be audited at any time.
+As of May 1, 2024 each team member employed by GitLab Iberia will be required to log the start and end of their daily work time. We have provided a Google spreadsheet template, in English or Spanish. This record will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -86,11 +86,11 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 1. Go to your Okta account and click on the HelpLab SSO tile.
 1. Click on the Payroll dropdown, and select Timecards.
 
-![HelpLab Payroll dropdown](/handbook/entity/images/timecards.png "HelpLab Payroll dropdown")
+![HelpLab Payroll dropdown](/images/entity/timecards.png "HelpLab Payroll dropdown")
 
 1. Click on the Timecards request tile.
 
-![Timecards request tile](/handbook/entity/images/timecards-request.png "HelpLab Timecards Request")
+![Timecards request tile](/images/entity/timecards-request.png "HelpLab Timecards Request")
 
 1. Enter the Entity (GitLab Iberia srl)
 1. Enter that No, you do not require your manager's approval
@@ -98,7 +98,7 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 1. Upload your timesheet pdf file, and ensure that it contains your Name, the Month and Year of the timesheet in the file title.
 1. Click Submit.
 
-![Timecards submission](/handbook/entity/images/timecards-submission.png "HelpLab Timecard Submission")
+![Timecards submission](/images/entity/timecards-submission.png "HelpLab Timecard Submission")
 
 For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 
@@ -110,11 +110,11 @@ Timesheets contain 4 columns for logging worked time: **Time In, Time Out, Break
 
 For Spain based team members, GitLab provides 100% paid membership of medical insurance with AXA VIP  (network+Reimbursement). Family members can be added to the insurance and GitLab will pay 50% of the cost to include them. If you would like to add your family member to the plan, please fill out the attached form.
 
-You can view the [2024 plan premiums here](https://docs.google.com/document/d/1ZzQQgDr-11Zw8FHzozPyn6kalo1Y5J0-Fd1uRDXXn9E/edit).
+You can view the [2025 plan premiums here](https://docs.google.com/document/d/1AwXbyOa070joyqXs-PnQXxRqj4kNbnnmyIHgiS0AVi4/edit?tab=t.0)
 
-Further information can also be found in the [AXA VIP Summary](https://drive.google.com/file/d/13GpHxj6s4UHwPygdWiqSLbzhw8ppFplr/view?usp=sharing) and [VIP User Guide](https://drive.google.com/file/d/102bUKV0_zsJ8voRWmvcdpWQDr91gY1_k/view?usp=sharing)
+Further information can also be found in the [2025 AXA VIP Summary](https://drive.google.com/file/d/1IG5GWUL19Vg5f_lbHlxWoAkGmKRzYd-a/view?usp=sharing) 
 
-Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly gross allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2023.
+You can also view the [VIP User Guide](https://drive.google.com/file/d/102bUKV0_zsJ8voRWmvcdpWQDr91gY1_k/view?usp=sharing) for more detials on accessing your plan amd [AXA Website and User Guide](https://docs.google.com/presentation/d/1osjT9rNwOIesauTviEXnh6-d8IkyqBDZ/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true)
 
 <details markdown="1">
 <summary>Taxability of Medical Plans</summary>
@@ -124,9 +124,9 @@ Please note that Group Medical plan premiums are tax exempt up to €500 per yea
 </details>
 
 <details markdown="1">
-<summary>Medical Plan Enrollment</summary>
+<summary>Medical Plan Enrollment and Opting Out</summary>
 
-Team Members must enroll in to the plan upon hire.
+Team Members will be automatically enrolled upon hire. 
 The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Team Members can expect their AXA welcome package via email within 3 weeks of their start date.
 
 New Hires can add Family members by filling out the Survey Link included in their onboarding document.
@@ -150,6 +150,8 @@ No waiting periods except for the following procedures:
 
 No medical questionnaire required (pre existing illness will be accepted, except serious illness).
 
+ If you would like to opt out of the plan, please carefully review the [Spain Medical Opt From](https://docs.google.com/document/d/1Fz8kTyyu0SScMatTFI9r6vtIyWpuzdYW/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true). Download a copy, complete, sign, and return the document to total-rewards@gitlab.com.
+
 </details>
 
 <details markdown="1">
@@ -164,9 +166,17 @@ The Team Member portion of the dependent cost will be deducted from their payche
 <details markdown="1">
 <summary>Offboarding GitLab</summary>
 
-Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
+Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Towers Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
 
 </details>
+
+### Computer Glasses Reimbursement
+
+Team Members experiencing eye problems due to work could be entitled to a reimbursement of corrective eye wear. The Team Member must be seen by an optician and must provide proof that lenses are specifically required for reading a display screen only and not required for general day to day use.
+
+Team Members should send their documentation (prescription) from the optician to total-rewards@gitlab.com for approval. The Team Member can request to be reimbursed for the frame, glasses and/or lenses, and eye test for a maximum reimbursement of 150 Euros.
+
+Once Total Rewards approves, the team member should submit their reimbursement through Navan. For the Navan entry under “Expense Type” select “Other” and under “GL” select “Benefits Medical & Other”.
 
 ### Life and Disability Insurance
 
@@ -194,12 +204,20 @@ The Free cover Limit is 500,000 EUR. If your cover is over the Free Cover Limit,
 In case of Disability: The beneficiary is the insured herself/himself.
 In case of Death of the insured, the beneficiaries will be those expressly appointed as beneficiaries by the insured or, in case there is no express appointment, as determined in the beneficiary's general clause settled in the policy:
 
-Spouse not legally separated or divorce under final judgment or legal partner
-Children of the insured in equal shares or their descendants in case of death
-Parents of the insured in equal shares
-Legal heirs of the Insured
+1. Spouse not legally separated or divorce under final judgment or legal partner
+1. Children of the insured in equal shares or their descendants in case of death
+1. Parents of the insured in equal shares
+1. Legal heirs of the Insured
 
-To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
+To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/file/d/1g15Kj36z4y0iGxoeSPw8X-ihVnq-kI9w/view?usp=sharing) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
+
+</details>
+
+<details markdown="1">
+
+<summary>Enrollment and Opting Out</summary>
+
+Team Members will be automatically enrolled in to the Life and Disability plan, as GitLab covers 100% of team member premiums. Team members are responsible for taxes associated with the plan. If you would like to opt out of the plan, please carefully review the [Spain Life Opt From](https://docs.google.com/document/d/1uShnipck7CwJmP-d8Inpcupj-ILPn81U/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true). Download a copy, complete, sign, and return the document to total-rewards@gitlab.com.  Please submit the opt out form within a week of your start date.
 
 </details>
 

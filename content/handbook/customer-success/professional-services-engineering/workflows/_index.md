@@ -6,11 +6,11 @@ title: "Professional Services Engineering Workflows"
 ## Project Process
 
 1. Manager, Professional Services: Once an SOW has been approved and moved for Closed Won, assign a Professional Services Engineer.
-1. Manager, Professional Services: Send [welcome e-mail](/handbook/customer-success/professional-services-engineering/workflows/project_execution/welcome-email)
+1. Manager, Professional Services: Send [welcome e-mail](/handbook/customer-success/professional-services-engineering/workflows/project-execution/welcome-email)
 1. Professional Services Engineer: Begins project with processes defined here.
-    - [Kick-off](/handbook/customer-success/professional-services-engineering/workflows/project_execution/kick-off)
+    - [Kick-off](/handbook/customer-success/professional-services-engineering/workflows/project-execution/kick-off)
     - Intake for [AWS](/handbook/customer-success/professional-services-engineering/workflows/intake/on-prem) or [on-prem](/handbook/customer-success/professional-services-engineering/workflows/intake/on-prem)
-    - [On-going project calls (external)](/handbook/customer-success/professional-services-engineering/workflows/project_execution/calls)
+    - [On-going project calls (external)](/handbook/customer-success/professional-services-engineering/workflows/project-execution/calls)
     - [On-going internal project updates](/handbook/customer-success/professional-services-engineering/workflows/internal/15minute-standup)
     - [Change request when required for scope changes](https://docs.google.com/document/d/1aBKeyui9qCt9YoVtZg-Z7XRkNpomTa-H3KRPBLnt6TQ/)
     - Project Summary

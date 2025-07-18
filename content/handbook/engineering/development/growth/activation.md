@@ -28,7 +28,7 @@ The following people are permanent members of the Growth:Activation team:
 
 We work directly with the following team members in the Growth:Activation group:
 
-{{< stable-counterparts role="Growth(.*)|Growth:Activation" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
+{{< engineering/stable-counterparts role="Growth(.*)|Growth:Activation" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
 
 ## How We Work
 
@@ -46,25 +46,9 @@ Prioritization is a collaboration between Product, UX, and Engineering.
 - We use [Priority](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels)
   and [Severity](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) labels for bugs.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="activation" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="activation" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="activation" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="activation" >}}
-{{< /tableau >}}
-
 ### Workflow
 
-We use the [Product Development workflow](/handbook/product-development-flow/) when working on issues and
+We use the [Product Development workflow](/handbook/product-development/how-we-work/product-development-flow/) when working on issues and
 merge requests across multiple projects.
 
 We use the Activation development [workflow board](https://gitlab.com/groups/gitlab-org/-/boards/3558733?label_name%5B%5D=group%3A%3Aactivation) for work in the build phase of the product development flow.

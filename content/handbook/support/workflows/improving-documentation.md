@@ -8,7 +8,7 @@ category: Handling tickets
 
 As outlined in the [Documentation section](/handbook/support/workflows/how-to-respond-to-tickets#documentation) of the **How to Respond to Tickets** workflow, comprehensive documentation is a powerful tool for ticket deflection.
 
-> By taking a [docs-first](https://docs.gitlab.com/ee/development/documentation/styleguide/#docs-first-methodology) approach to answering, we can ensure that the documentation remains a highly useful [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot). By building up a corpus of documentation informed by real-world problems, we help GitLab customers find the answers or solutions they need before they come into the queues.
+> By taking a [docs-first](https://docs.gitlab.com/development/documentation/styleguide/#docs-first-methodology) approach to answering, we can ensure that the documentation remains a highly useful [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot). By building up a corpus of documentation informed by real-world problems, we help GitLab customers find the answers or solutions they need before they come into the queues.
 
 With that in mind, whenever possible, include a link to the applicable documentation as part of your response to a ticket. If the documentation does not exist yet, then *write* a documentation issue or draft merge request, and send the link  in the response.
 
@@ -20,10 +20,10 @@ The information collected below should be helpful for when you contribute to the
 
 Make your edits and commits on a new branch named according to the Documentation
 guidelines, which state that branch names must start with `docs-` (or
-[one of the other options listed in the branch name scheme](https://docs.gitlab.com/ee/development/documentation/#branch-naming)).
+[one of the other options listed in the branch name scheme](https://docs.gitlab.com/development/documentation/workflow/#branch-naming)).
 
-- Commit the changes. Make sure the commit message follows our [commit message guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#commit-messages-guidelines).
-    If you don't follow the guidelines, the [Danger Bot](https://docs.gitlab.com/ee/development/dangerbot.html) job may fail when it checks if the commits are aligned with our guidelines. If it fails, read the job trace and fix the issue with a new commit, or an [interactive rebase](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History). (Ask for help if you're not sure how to do a rebase!)
+- Commit the changes. Make sure the commit message follows our [commit message guidelines](https://docs.gitlab.com/development/contributing/merge_request_workflow/#commit-messages-guidelines).
+    If you don't follow the guidelines, the [Danger Bot](https://docs.gitlab.com/development/dangerbot/) job may fail when it checks if the commits are aligned with our guidelines. If it fails, read the job trace and fix the issue with a new commit, or an [interactive rebase](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History). (Ask for help if you're not sure how to do a rebase!)
 
 > **Note:** If you are unfamiliar with the basics of working in a Git or GitLab
 environment, please complete the
@@ -31,26 +31,26 @@ environment, please complete the
 
 #### Style Guide and Linting
 
-- Review the [documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+- Review the [documentation style guide](https://docs.gitlab.com/development/documentation/styleguide/).
   - It's not required to memorize the style guide, but remember to check it when writing your documentation to ensure it complies. This will help to ensure your Merge Request is approved quickly.
-- Remember to also review the [topic types page](https://docs.gitlab.com/ee/development/documentation/topic_types/), paying close attention to the [troubleshooting section](https://docs.gitlab.com/ee/development/documentation/topic_types/troubleshooting.html).
-- While not required, it is highly recommended to [install the docs linters](https://docs.gitlab.com/ee/development/documentation/testing/index.html)
+- Remember to also review the [topic types page](https://docs.gitlab.com/development/documentation/topic_types/), paying close attention to the [troubleshooting section](https://docs.gitlab.com/development/documentation/topic_types/troubleshooting/).
+- While not required, it is highly recommended to [install the docs linters](https://docs.gitlab.com/development/documentation/testing/)
   in your local editor to prevent pipelines from failing, or use the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit). Plugins can be also
   used from the command line.
-  - Set up [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing/markdownlint.html).
-  - Set up [Vale](https://docs.gitlab.com/ee/development/documentation/testing/vale.html).
-  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#text).
+  - Set up [markdownlint](https://docs.gitlab.com/development/documentation/testing/markdownlint/).
+  - Set up [Vale](https://docs.gitlab.com/development/documentation/testing/vale/).
+  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/how-can-i-have-multiple-vertical-rulers-in-vs-code) to help you [split long lines](https://docs.gitlab.com/development/documentation/styleguide/#text).
 
 #### Documentation Merge Requests
 
-- Follow the [docs MR guidelines](https://docs.gitlab.com/ee/development/documentation/#merge-requests-for-gitlab-documentation) as you create the MR
+- Follow the [docs MR guidelines](https://docs.gitlab.com/development/documentation/#merge-requests-for-gitlab-documentation) as you create the MR
 - In the MR Description, be sure to include a link to any relevant ticket or issue
 - Add appropriate labels:
   - documentation (the template should be automatically adding this label, but check to make sure).
-  - group [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) (if in doubt, it should be listed at the top of the docs page)
+  - group [scoped label](https://docs.gitlab.com/user/project/labels/#scoped-labels) (if in doubt, it should be listed at the top of the docs page)
   - customer (if related to a ticket)
   - *Note: the bot will add the stage, section, [Support Team Contributions](/handbook/support/#support-fixes), and docs-only labels if you don't*
-- Follow the [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) and set the relevant Technical Writer (TW) as a Reviewer.
+- Follow the [Code Review Guidelines](https://docs.gitlab.com/development/code_review/) and set the relevant Technical Writer (TW) as a Reviewer.
   - The documentation template has instructions on how to find this, but basically refer to the metadata information at the top of the source version of the docs page.
   - Check the [Technical Writing Assignments](/handbook/product/ux/technical-writing/#assignments) to find the appropriate tech writer for the page you edited.
   - If you're using the [Support dotfiles](https://gitlab.com/gitlab-com/support/toolbox/dotfiles), you can use the `find-technical-writer` command to quickly see who is the tech writer for a specific group.
@@ -61,14 +61,14 @@ environment, please complete the
 ### Working with the Tech Writers on the Merge Request
 
 - Remember to provide timely answers to any questions the tech writing team may ask you about your contribution.
-- Read through the [documentation process](https://docs.gitlab.com/ee/development/documentation/workflow.html).
+- Read through the [documentation process](https://docs.gitlab.com/development/documentation/workflow/).
   - Note: Support is expected to verify the technical accuracy of a docs MR before assigning to a TW. When in doubt, get a technical review from an engineer first. Find an [appropriate engineer](/handbook/product/categories/) using the metadata information from the edited page.
-- Read the [post merge review guidelines](https://docs.gitlab.com/ee/development/documentation/workflow.html#post-merge-reviews).
+- Read the [post merge review guidelines](https://docs.gitlab.com/development/documentation/workflow/#post-merge-reviews).
   - In Support, you might use the post-merge review option if you have an urgent docs MR, such as when we need to publish a docs fix as soon as possible.
   - If it's in the "Troubleshooting section" of any page, follow the guidelines except assign to a support manager who is online who will do a quick review and merge.
   - If it's not, then depending on how quickly you need it, share it in the [#docs Slack channel](https://gitlab.slack.com/archives/C16HYA2P5) asking anyone there to review and merge ASAP. This does not require a post-merge review, as it involves a TW review.
-- Read about [docs deploy](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html#deploy-the-docs-site). The key thing is to note how often docs are deployed.
-  - Optionally, read the rest of the [site architecture information](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html) to learn how the docs site is built.
+- Read about [docs deploy](https://docs.gitlab.com/development/documentation/site_architecture/#deploy-the-docs-site). The key thing is to note how often docs are deployed.
+  - Optionally, read the rest of the [site architecture information](https://docs.gitlab.com/development/documentation/site_architecture/) to learn how the docs site is built.
 - Also remember to not take feedback personally - we all want the documentation to be accurate and easy to follow, so all feedback from the tech writers will be with this goal in mind!
 
 ### Zendesk "Document this" workflow
@@ -101,4 +101,4 @@ The automation creates issues with [label_name\[\]=documentation&label_name\[\]=
 
 **Note:** Make sure to use the template so that your internal note is correctly parsed by the trigger.
 
-This workflow is implemented using a [zendesk trigger](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/-/blob/master/triggers/active/Lifespan%20Stage/Create%20documentation%20issue.yaml) that parses the internal note and sends it to [Zendesk's HTTP target](https://support.zendesk.com/hc/en-us/articles/204890268) that creates a documentation issue.
+This workflow is implemented using a [zendesk trigger](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/-/blob/master/triggers/active/Lifespan%20Stage/Create%20documentation%20issue.yaml) that parses the internal note and sends it to [Zendesk's HTTP target](https://developer.zendesk.com/api-reference/ticketing/targets/targets/) that creates a documentation issue.

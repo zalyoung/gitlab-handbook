@@ -8,16 +8,16 @@ Welcome to Learning and Development for the Finance Department at GitLab! The re
 
 ### Competencies
 
-- [GitLab approach to competencies]({{< ref "competencies" >}})
-- [GitLab scope and behvaiors by level]({{< ref "competencies#structure" >}})
-- [GitLab values competencies]({{< ref "competencies#values-competencies" >}})
-- [GitLab remote work competencies]({{< ref "competencies#remote-work-competencies" >}})
-- [GitLab manager competencies]({{< ref "competencies#manager-and-leadership-competencies" >}})
+- [GitLab approach to competencies](/handbook/people-group/competencies/)
+- [GitLab scope and behvaiors by level](/handbook/people-group/competencies/#structure)
+- [GitLab values competencies](/handbook/people-group/competencies/#values-competencies)
+- [GitLab remote work competencies](/handbook/people-group/competencies/#remote-work-competencies)
+- [GitLab manager competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 
 ### Career Resources
 
-- [Career development at GitLab]({{< ref "career-development" >}})
-- [GitLab promotions and transfers]({{< ref "promotions-transfers" >}})
+- [Career development at GitLab](/handbook/people-group/learning-and-development/career-development/)
+- [GitLab promotions and transfers](/handbook/people-group/promotions-transfers/)
 - [Performance / Potential Matrix](/handbook/people-group/talent-assessment#the-performancepotential-matrix)
 
 ## Finance Specific: Job Families & Competencies by Level (WIP)
@@ -46,7 +46,7 @@ Welcome to Learning and Development for the Finance Department at GitLab! The re
 
 ### FP&A
 
-- [FP&A](/job-families/finance/finance-planning-and-analysis)
+- [FP&A](/job-families/finance/finance/finance-planning-and-analysis/)
 - [Data and Analytics](/job-families/finance/data-and-insights-executive)
 - [VP Finance](/job-families/finance/vp-finance)
 

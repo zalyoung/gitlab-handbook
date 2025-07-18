@@ -1,8 +1,8 @@
 ---
-title: Secure Sub-Department
+title: Application Security Testing Sub-Department
 ---
 
-The Secure engineering sub-department is responsible for the [Secure Stage](/handbook/product/categories/#secure-stage) of the product.
+The Application Security Testing engineering sub-department is responsible for the [Application Security Testing Stage](/handbook/product/categories/#sec-section) of the product.
 
 ## Vision
 
@@ -19,20 +19,20 @@ For more details about the vision for this area of the product, see the [Secure 
 
 To support the success of GitLab by developing highly usable, hiqh quality tools for customers to build more secure software.
 
-The Secure team works on GitLab's [Secure stage](https://about.gitlab.com/stages-devops-lifecycle/#secure).
+The Application Security Testing team works on GitLab's [Secure stage](https://about.gitlab.com/stages-devops-lifecycle/#secure).
 
 ## Sub-department development people leaders
 
-{{< team-by-manager-slug manager="thomaswoodham" team="Manager(.*)Secure" >}}
+{{< team-by-manager-slug manager="thomaswoodham" team="Manager(.*)Application Security Testing" >}}
 
-To contact Secure stage development people leaders, use the following aliases:
+To contact Application Security Testing stage development people leaders, use the following aliases:
 
 * GitLab: `@gitlab-org/secure/managers`
-* Slack: `@s_secure_managers`
+* Slack: `@s_application_security_testing_managers`
 
 ## Team Members
 
-The following people are permanent members of the Secure Sub-Department:
+The following people are permanent members of the Application Security Testing Sub-Department:
 
 ### Composition Analysis
 
@@ -46,11 +46,11 @@ Team Page: [Composition Analysis](composition-analysis/)
 
 Team Page: [Static Analysis](static-analysis/)
 
-{{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
+{{< team-by-departments departments="Application Security Testing:Static Analysis" >}}
 
 ### Dynamic Analysis
 
-Team Page: [Dynamic Analysis](dynamic-analysis/)
+Team Page: [Dynamic Analysis](dynamic-analysis/dynamic-analysis.md)
 
 {{< team-by-manager-role role="Engineering(.*)Manager(.*)Secure:Dynamic Analysis" team="Engineer" >}}
 
@@ -64,23 +64,23 @@ Team Page: [Vulnerability Research](vulnerability-research/)
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Secure:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
+{{< engineering/stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Application Security Testing:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
 
 ## Secure Team
 
-The Secure Team (previously known as the *Security Products Team*) is responsible for the security checks features in the GitLab platform, and maps to the [secure](/handbook/product/categories/#secure) transversal stage.
-You can learn more about our approach on the [Secure Vision](https://about.gitlab.com/direction/secure/) page.
+The Application Security Testing Team is responsible for the security checks features in the GitLab platform, and maps to the [application security testing](/handbook/product/categories/#application-security-testing-stage) transversal stage.
+You can learn more about our approach on the [Application Security Testing Vision](https://about.gitlab.com/direction/application_security_testing/) page.
 
-The features provided by the Secure Team are mostly present at the pipeline level, and mostly available as [Docker](https://www.docker.com/) images.
-This particularity shapes our processes and QA, which differs a bit from the other backend teams.
+The features provided by the Application Security Testing Team are mostly present at the pipeline level, and mostly available as container images.
+This particularity shapes our processes and QA, which differs a bit from the other stages.
 
 ### Security Products
 
-We still refer to "*Security Products*" as the tools developed by the Secure Team. Hence the home of our projects in GitLab: [https://gitlab.com/gitlab-org/security-products/](https://gitlab.com/gitlab-org/security-products/).
+We still refer to "*Security Products*" as the tools developed by the Application Security Testing Team. Hence the home of our projects in GitLab: [https://gitlab.com/gitlab-org/security-products/](https://gitlab.com/gitlab-org/security-products/).
 
 We strive to maintain a consistent User Experience across our Security Products but we do not enforce consistency at the implementation level.
 Each group faces its own challenges and is in the best position to make the technical choices it deems are the most suitable to achieve its goals.
-While [UX inconsistencies are considered as bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity),
+While [UX inconsistencies are considered as bugs](/handbook/product-development/how-we-work/issue-triage/#severity),
 we rely on individual teams to make smart decisions about when consistency is important and when divergence makes more sense
 — either because the divergence itself creates a better experience or because of velocity considerations.
 
@@ -112,7 +112,7 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 #### License Compliance
 
 [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
-Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
+Licence management relies on the [LicenseFinder](https://github.com/pivotal/LicenseFinder) gem.
 
 #### Vulnerability Research
 
@@ -120,16 +120,6 @@ The [Vulnerability Research](vulnerability-research/) team's purpose is
 to perform research and develop proofs of concepts that increase the
 capabilities and effectiveness of the
 [Secure stage](https://about.gitlab.com/stages-devops-lifecycle/secure/).
-
-### Label Usage
-
-If you are submitting an issue about a Secure Stage feature, use `~devops::secure` and one of the following group labels to get the issue in front of the most appropriate team members.
-
-| Label | Use |
-| ----- | --- |
-| `~devops::secure` | All issues related to the Secure Stage |
-
-Additional labels should be added according to the [Workflow Labels Documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#workflow-labels).
 
 ### Skills
 
@@ -177,7 +167,7 @@ Note: Our goal is to centralize automation for vulnerability management in the [
 
 It's possible that our security automation tooling may [fail](https://gitlab.com/gitlab-org/security-products/release/-/pipelines?page=1&scope=all&status=failed).
 If this occurs, and the issue cannot be immediately resolved, open an issue to
-track the error. Then, announce the failure in `#s_secure` to raise awareness,
+track the error. Then, announce the failure in `#s_application-security-testing` to raise awareness,
 and follow the manual security triage process outlined below.
 
 <details>
@@ -204,7 +194,7 @@ separately for each project.
 
 Vulnmapper automatically creates Deviation Requests but may fail for various reasons, such as the absence of analysis from NVD.
 
-In cases where automation fails, you must create the [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) manually before the issues reach SLA.
+In cases where automation fails, you must create the [Deviation Requests](/handbook/security/security-assurance/security-compliance/poam-deviation-request-procedure/) manually before the issues reach SLA.
 To do so, use the following procedure.
 
 1. Open a DR issue with the [operational requirement template](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new?issuable_template=operational_requirement_template).
@@ -238,7 +228,7 @@ In the meantime, we favor a more specialized approach for these vulnerabilities 
 
 #### Error Monitoring
 
-500 errors on gitlab.com are reported to Sentry. Below are some quick links to pull up Sentry errors related to Secure.
+500 errors on gitlab.com are reported to Sentry. Below are some quick links to pull up Sentry errors related to Application Security Testing.
 
 * StoreSecurityReports Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+StoreSecurityReportsWorker&statsPeriod=14d
 * SyncSecurityReportsToReportApprovalRules Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+SyncSecurityReportsToReportApprovalRulesWorker&statsPeriod=14d
@@ -264,7 +254,7 @@ Brainstorming Sessions Doc (Internal): https://docs.google.com/document/d/179JL5
 
 #### Resources
 
-* [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#how-to-triage-a-qa-test-pipeline-failure)
+* [How to triage a QA test pipeline failure](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/)
 * [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
 * [GitLab QA README](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 * [GitLab QA Scenarios](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md)
@@ -286,54 +276,54 @@ To update the documentation, the following process should be followed:
 
 Since we are a [remote](/handbook/company/culture/all-remote/) company, having daily standup meetings would not make any sense, since we're not all in the same timezone.
 That's why we have async daily standups, where everyone can give some insights into what they did yesterday, what they plan to do today, etc.
-For that, we rely on the [geekbot](https://geekbot.io/) slack plugin to automate the process.
+For that, we rely on the [geekbot](https://geekbot.com/) slack plugin to automate the process.
 
 ##### Standup messages format
 
 * Use the "`description in backquote` + `[link to issue](#)`" format when mentioning issues in your standup report.
 * Prepend CI status icons to the answer lines for `What did you do since yesterday?` to denote the current state:
-  * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
-  * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
-  * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
-  * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
+  * ![Accomplished](/images/engineering/development/sec/secure/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
+  * ![Overdue](/images/engineering/development/sec/secure/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
+  * ![In progress](/images/engineering/development/sec/secure/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
+  * ![Paused](/images/engineering/development/sec/secure/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
   * any other `:ci_...` icon you find applicable
 
 **Example:**
 
 What did you do since yesterday?
 
-* ![Accomplished](img/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
-* ![In progress](img/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
-* ![Overdue](img/ci-failed.svg) Catch-up on all emails and threads after the vacation
+* ![Accomplished](/images/engineering/development/sec/secure/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
+* ![In progress](/images/engineering/development/sec/secure/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
+* ![Overdue](/images/engineering/development/sec/secure/ci-failed.svg) Catch-up on all emails and threads after the vacation
 
 **Slack Channels:**
 
 As our teams focus on different areas, we have Geekbot configured to broadcast to separate channels in addition to our common one at [#s_secure-standup].
 
-1. Composition Analysis: [#g_secure-composition-analysis-standup](https://gitlab.slack.com/archives/g_secure-composition-analysis-standup)
-1. Static Analysis: [#g_secure-static-analysis-standup](https://gitlab.slack.com/archives/g_secure-static-analysis-standup)
-1. Dynamic Analysis: [#g_secure-dynamic-analysis-standup](https://gitlab.slack.com/archives/g_secure-dynamic-analysis-standup)
-1. Frontend: [#s_secure-frontend-standup](https://gitlab.slack.com/archives/s_secure-frontend-standup)
+1. Composition Analysis: [#g_ast-composition-analysis-standup](https://gitlab.slack.com/archives/g_ast-composition-analysis-standup)
+1. Dynamic Analysis: [#g_ast-dynamic-analysis-standup](https://gitlab.slack.com/archives/g_ast-dynamic-analysis-standup)
+1. Secret Detection: [#g_ast-secret-detection-standup](https://gitlab.slack.com/archives/g_ast-secret-detection-standup)
+1. Static Analysis: [#g_ast-static-analysis-standup](https://gitlab.slack.com/archives/g_ast-static-analysis-standup)
 
 #### Recorded meetings
 
-Our important meetings are recorded and published on YouTube, in the [GitLab Secure Stage playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7yUrZazEF3diazV29RRo1).
+Our important meetings are recorded and published on YouTube, in the [Application Security Testing Stage playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7yUrZazEF3diazV29RRo1).
 They give a good overview of the decision process, which is often a discussion with all the stakeholders. As we are a [remote](/handbook/company/culture/all-remote/) company, these video meetings help to synchronize and take decisions faster than commenting on issues. We prefer asynchronous work, but for large features and when the timing is tight, we can detail a lot of specifications. This will make the asynchronous work easier, since we have evaluated all edge cases.
 
 ### Calendar
 
-We welcome team members to join meetings that are on our shared calendar. The [Secure Calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9tZDBhbzM2Z3B2bDV2MWY0MTI4ZXJobmo2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) is available to all logged in GitLab team members.
+We welcome team members to join meetings that are on our shared calendar. The [Application Security Testing Calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9tZDBhbzM2Z3B2bDV2MWY0MTI4ZXJobmo2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) is available to all logged in GitLab team members.
 
 ### Staying informed
 
-GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Secure are encouraged to keep themselves informed as to what is happening in the larger organzation. Everyone is also
+GitLab is an extremely active organization which generates a lot of news and activity each week. Everyone in Application Security Testing are encouraged to keep themselves informed as to what is happening in the larger organzation. Everyone is also
 encouraged to contribute to these channels and communication paradigms when you have information to share.
 
-In addition to this, each group in Secure conducts a weekly synchronous meeting. These meetings are publicized on the Secure Calendar mentioned above. As always at GitLab, we strive to [make meeting attendance optional](/handbook/company/culture/all-remote/meetings/#1-make-meeting-attendance-optional).
+In addition to this, each group in Application Security Testing conducts a weekly synchronous meeting. These meetings are publicized on the Application Security Testing Calendar mentioned above. As always at GitLab, we strive to [make meeting attendance optional](/handbook/company/culture/all-remote/meetings/#1-make-meeting-attendance-optional).
 
 #### Keeping others informed
 
-In addition to keeping yourself informed, team members are encouraged to keep others informed as well. Secure groups have adopted a practice of including the following topics as standing agenda items in their weekly meetings, with example
+In addition to keeping yourself informed, team members are encouraged to keep others informed as well. Application Security Testing groups have adopted a practice of including the following topics as standing agenda items in their weekly meetings, with example
 topics for each bullet point.
 
 * **Current status**
@@ -348,35 +338,27 @@ topics for each bullet point.
   * Anyone doing a great job and you want to give them kudos?
   * Any bit of work which has been delivered that's exceptional?
 
-Engineering Managers are responsible for populating this section of weekly group meetings, though everyone can contribute. In addition to helping the group keep itself informed about what's happening each week, the SEM for Secure will collect
+Engineering Managers are responsible for populating this section of weekly group meetings, though everyone can contribute. In addition to helping the group keep itself informed about what's happening each week, the SEM for Application Security Testing will collect
 this information weekly and broadcast a curated list to the section.
 
 #### Technical onboarding
 
-New hires should go through these steps and read the corresponding documentation when onboarding in the Secure Team.
+New hires should go through these steps and read the corresponding documentation when onboarding in the Application Security Testing Team.
 Every new hire will have an assigned [onboarding issue](https://gitlab.com/gitlab-org/security-products/onboarding/blob/master/.gitlab/issue_templates/Technical_Onboarding.md) that will guide them through the whole process.
 
 #### Workflow and Refinement
 
-Secure largely follows our [Product Development Flow](/handbook/product-development-flow/)
-
-See [Issue Refinement](workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
-
-#### Shared pool of Frontend work
-
-From time to time, the demand for frontend engineering tasks does not match the capacity available in Secure groups. If a group could use frontend support, they are encouraged to add the
-[`~secure::frontend backlog` label](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=secure%3A%3Afrontend%20backlog) to issues which are ready to be picked up. Additionally,
-Engineering Managers are encouraged to look at this queue of work during milestone planning if there is frontend capacity available.
+See [Application Security Testing Engineering Planning](/handbook/engineering/development/sec/secure/planning).
 
 #### Coding standards and style guidelines
 
-The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Secure Team:
+The Application Security Testing Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Application Security Testing Team:
 
-* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide#secure-team-standards-and-style-guidelines)
+* [Application Security Testing Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines)
 
 #### Cross group collaboration
 
-Some components of the architecture that support Secure features are shared between multiple groups like the [common](https://gitlab.com/gitlab-org/security-products/analyzers/common) Go library,
+Some components of the architecture that support Application Security Testing features are shared between multiple groups like the [common](https://gitlab.com/gitlab-org/security-products/analyzers/common) Go library,
 the [Security Report Schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas), the [rails parsers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/lib/gitlab/ci/parsers/security), etc.
 
 Modifying these shared pieces might impact other groups so we should rely as much as possible on approval rules to ensure
@@ -402,37 +384,11 @@ We keep a [list of data sources in our internal wiki](https://gitlab.com/gitlab-
 
 ## Retrospectives
 
-The Secure sub-department conducts retrospectives at the group level that follow our [engineering workflow](/handbook/engineering/workflow/#retrospective).
-Each group's DRI is responsible to prepare and schedule the retrospective sync sessions and the async retrospective issues can be found in [the corresponding project](https://gitlab.com/gl-retrospectives/secure-sub-dept).
+The Application Security Testing sub-department conducts retrospectives at the group level.
 
-After all groups have completed their retrospective, we conduct a [Section Retrospective](/handbook/engineering/development/sec/#section-retrospectives).
-
-NB: we use to have a sub-department wide retrospective whose issues are still accessible [in the deprecated project](https://gitlab.com/gl-retrospectives/secure/-/issues).
-
-## Analytics
-
-The Secure group reviews analytics to help understand customers and their usage of the tools. This data helps drive product and technical decisions.  The following links show usage of Secure functionality.
-
-[Secure Scan Metrics Dashboard](https://10az.online.tableau.com/t/gitlab/views/PDSecureScanMetrics_17090087673440/SecureScanMetrics)
-
-## Cross-functional Backlog
-
-We also track our backlog of issues, including past due security and infradev issues, and total open SUS-impacting issues and bugs.
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "STAGE_LABEL"="secure" >}}
-{{< /tableau >}}
-
-## Merged Merge Request Types
-
-MR Type labels help us report what we're working on to industry analysts in a way that's consistent across the engineering department. The dashboard below shows the trend of MR Types over time and a list of merged MRs.
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "STAGE_LABEL"="secure" >}}
-{{< /tableau >}}
+Each group's EM or delegated DRI is responsible to prepare and schedule the retrospective sync sessions and the async retrospective issues can be found in [the corresponding project](https://gitlab.com/gl-retrospectives/secure-sub-dept).
 
 ## Common Links
 
-* [Secure team board](https://gitlab.com/groups/gitlab-org/-/boards/588843?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Asecure)
-* [#s_secure](https://gitlab.slack.com/archives/s_secure) in Slack
-* [Secure and Govern Glossary of Terms](https://docs.gitlab.com/ee/user/application_security/terminology/)
+* [#s_application-security-testing](https://gitlab.slack.com/archives/s_application-security-testing) in Slack
+* [Security Glossary](https://docs.gitlab.com/ee/user/application_security/terminology/)

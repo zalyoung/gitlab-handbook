@@ -10,14 +10,14 @@ participating-stages: ["~devops::platforms"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
 **Scalability themes:**
 
-- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/saas-platforms/scalability/#observability-across-the-production-fleet-is-accessible-for-all)
-- [Paved roads are the default for all team members](https://about.gitlab.com/direction/saas-platforms/scalability/#paved-roads-are-the-default-for-all-team-members)
+- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/production_engineering/#observability-across-the-production-fleet-is-accessible-for-all)
+- [Paved roads are the default for all team members](https://about.gitlab.com/direction/production_engineering/#paved-roads-are-the-default-for-all-team-members)
 
 This document describes how we want to evolve our metrics- and
 service-catalog into a single definition in YAML for each service. We
@@ -134,7 +134,7 @@ more difficult in the future.
    service definitions from rule- and dashboard generation.
 
    **Expected impact:** Make it easier to do projects like
-   [User Journey SLIs](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2612)
+   [Covered Experience SLIs](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2612)
    and [Upgrading our grafonnet dependency](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2573)
    easier to pick up and parallelize.
 

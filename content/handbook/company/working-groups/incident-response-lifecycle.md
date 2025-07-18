@@ -44,15 +44,15 @@ description: "The Incident Response Lifecyle working group is intended to docume
 ### How is IR done today?
 
 1. SIRT
-   - [Incident Response Guidance](/handbook/security/product-security/vulnerability-management/incident-response-guidance.html)
-   - [Engaging Security Engineer On-Call]({{< ref "engaging-security-on-call" >}})
-   - [GitLab SIRT On-Call Guide]({{< ref "secops-oncall" >}})
+   - [Incident Response Guidance](/handbook/security/product-security/vulnerability-management/incident-response-guidance/)
+   - [Engaging Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/)
+   - [GitLab SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/)
 1. [On-call](/handbook/engineering/on-call/)
 1. Reliability
    - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 1. Support
    - [How to Perform CMOC Duties](/handbook/support/workflows/cmoc_workflows/)
-   - [Contacting Customers](/handbook/support/internal-support/#contacting-customers-via-tickets)
+   - [Contacting Customers](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes)
    - [Sending Notices](/handbook/support/workflows/sending_notices/) (small number of users)
 
 ### Noted issues
@@ -63,13 +63,13 @@ description: "The Incident Response Lifecyle working group is intended to docume
 
 | Working Group Role  | Person           | Title                                  |
 |---------------------|------------------|----------------------------------------|
-| Facilitator         | [Anna Liisa Moter](@amoter)| Manager Reliability|
-| Exec Sponsor        | [Steve Loyd](@sloyd)      | VP Infrastructure                          |
-| Member              | [Anthony Fappiano](@afappiano)          | Manager Reliability                   |
-| Development Functional Lead | [Dan Croft](@dcroft) | Senior Engineering Manager, Ops |
-| Member              | [Sam Goldstein](@sgoldstein) | Director of Engineering, Ops |
-| Member (CMOC)       | [Kenneth Chu](@kenneth) | Support team  |
-| Member              | [Kevin Chu](@kbychu)    | Group Manager of Product, Monitor |
+| Facilitator         | [Anna Liisa Moter](https://gitlab.com/amoter)| Manager Reliability|
+| Exec Sponsor        | [Steve Loyd](https://gitlab.com/sloyd)      | VP Infrastructure                          |
+| Member              | [Anthony Fappiano](https://gitlab.com/afappiano)          | Manager Reliability                   |
+| Development Functional Lead | [Dan Croft](https://gitlab.com/dcroft) | Senior Engineering Manager, Ops |
+| Member              | [Sam Goldstein](https://gitlab.com/sgoldstein) | Director of Engineering, Ops |
+| Member (CMOC)       | [Kenneth Chu](https://gitlab.com/kenneth) | Support team  |
+| Member              | [Kevin Chu](https://gitlab.com/kbychu)    | Group Manager of Product, Monitor |
 
 ## Requirements and Considerations
 

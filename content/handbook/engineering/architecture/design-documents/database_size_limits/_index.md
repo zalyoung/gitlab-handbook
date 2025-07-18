@@ -2,9 +2,10 @@
 title: 'Database Scalability: Limit on-disk table size to < 100 GB for GitLab.com'
 status: accepted
 creation-date: "2021-06-23"
-authors: [ "@abrandl" ]
+authors: [ "@abrandl", "@tkuah" ]
 coach: ""
 approvers: []
+dris: [ "@alexives" ]
 owning-stage: "~devops::data stores"
 participating-stages: []
 toc_hide: true
@@ -12,7 +13,7 @@ no_list: true
 ---
 
 <!-- vale gitlab.FutureTense = NO -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a proposal to work towards reducing and limiting table sizes on GitLab.com. We establish a **measurable target** by limiting table size to a certain threshold (100 GB). Action however should be taken as early as 10 GB.
 
@@ -59,10 +60,13 @@ To maintain and improve operational stability and lessen development burden, we 
 1. Indexes are smaller, can be maintained more efficiently and fit better into memory
 1. Data migrations are easier to reason about, take less time to implement and execute
 
+See also <https://postgres.fm/episodes/partitioning/transcript> (search for
+_hundred_ in the transcript).
+
 It is much easier to rectify problems when the table is small. Do not wait until the table approaches 100 GB.
 Rather, start action to reduce table sizes when the table is around 10 GB.
 
-This target is *pragmatic*: We understand table sizes depend on feature usage, code changes and other factors - which all change over time. We may not always find solutions where we can tightly limit the size of physical tables once and for all. That is acceptable though and we primarily aim to keep the situation on GitLab.com under control. We adapt our efforts to the situation present on GitLab.com and re-evaluate frequently.
+This target is _pragmatic_: We understand table sizes depend on feature usage, code changes and other factors - which all change over time. We may not always find solutions where we can tightly limit the size of physical tables once and for all. That is acceptable though and we primarily aim to keep the situation on GitLab.com under control. We adapt our efforts to the situation present on GitLab.com and re-evaluate frequently.
 
 While there are changes we can make that lead to a constant maximum physical table size over time, this doesn't need to be the case necessarily. Consider for example hash partitioning, which breaks a table down into a static number of partitions. With data growth over time, individual partitions also grow in size and may eventually reach the threshold size again. We strive to get constant table sizes, but it is acceptable to ship easier solutions that don't have this characteristic but improve the situation for a considerable amount of time.
 
@@ -150,7 +154,7 @@ limit 30;
 There is no standard solution to reduce table sizes - there are many!
 
 1. **Retention**: Delete unnecessary data, for example expire old and unneeded records.
-1. **Remove STI**: We still use [single-table inheritance](../../../development/database/single_table_inheritance.md) in a few places, which is considered an anti-pattern. Redesigning this, we can split data into multiple tables.
+1. **Remove STI**: We still use [single-table inheritance](https://docs.gitlab.com/ee/development/database/single_table_inheritance.html) in a few places, which is considered an anti-pattern. Redesigning this, we can split data into multiple tables.
 1. **Index optimization**: Drop unnecessary indexes and consolidate overlapping indexes if possible.
 1. **Optimize data types**: Review data type decisions and optimize data types where possible (example: use integer instead of text for an enum column)
 1. **Partitioning**: Apply a partitioning scheme if there is a common access dimension.
@@ -181,11 +185,19 @@ The [epic for `~group::database`](https://gitlab.com/groups/gitlab-org/-/epics/6
 
 <!-- vale gitlab.Spelling = NO -->
 
-Identifying solutions for offending tables is driven by the [GitLab Database Team](../../../infrastructure/core-platform/data_stores/database/_index.md) and respective stage groups.
+Identifying solutions for offending tables is driven by the [GitLab Database Team](../../../infrastructure-platforms/data-access/database-framework/_index.md) and respective stage groups.
 
 | Role               | Who |
 |--------------------|-----|
 | Author             | Andreas Brandl |
-| Engineering Leader | Nick Nyugen |
+| Engineering Leader | Alex Ives |
+| Principal Engineer | Thong Kuah |
+| Senior Engineer    | Maxime Orefice |
+
+## Decision log
+
+- [ADR-001: Table classification](decisions/001_table_classification.md)
+- [ADR-002: Limiting new columns for tables larger than 100 GB](decisions/002_limit_new_columns.md)
+- [ADR-003: Limiting new indexes for tables larger than 50 GB](decisions/003_limit_new_indexes.md)
 
 <!-- vale gitlab.Spelling = YES -->

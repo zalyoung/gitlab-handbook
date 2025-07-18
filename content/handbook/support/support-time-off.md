@@ -41,10 +41,14 @@ team calendar.
    'Additional calendars to include?'. The 'Support - Time Off' calendar ID is
    `gitlab.com_as6a088eo3mrvbo57n5kddmgdg@group.calendar.google.com`
 1. Verify the following calendars are shared with you. These are shared with the Support Team Google Group:
-   1. [Support OOO - AMER](https://calendar.google.com/calendar/u/0/embed?src=c_rt0g4ptj1nut4045lcgsm21chg@group.calendar.google.com)
+   1. [Support OOO - AMER](https://calendar.google.com/calendar/embed?src=c_9166d2302886c4ae23f34099eeb4015e2d520e1dd4029711becd8370be996513%40group.calendar.google.com)
    1. [Support OOO - APAC](https://calendar.google.com/calendar/embed?src=c_408bhp8a8j579lqr99j552u21s%40group.calendar.google.com)
    1. [Support OOO - EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com)
-
+   1. You can subscribe by clicking the `Add to Google Calendar` button at the bottm left of the regional calendar.
+1. You can also subscribe to these calendars directly by using the following ID's
+   - Support OOO - AMER - c_9166d2302886c4ae23f34099eeb4015e2d520e1dd4029711becd8370be996513@group.calendar.google.com
+   - Support OOO - APAC - c_408bhp8a8j579lqr99j552u21s@group.calendar.google.com
+   - Support OOO - EMEA - c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com
 1. If you regularly handle L&R tickets, please subscribe to the global L&R calendar and relevant L&R regional calendar.
 
 ##### L&R and USGov Calendar links
@@ -68,13 +72,17 @@ time off, please:
 
 - ensure you know the [company wide paid time off guidelines](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
 - consider a different time off schedule if your [regional capacity calendar](https://gitlab.com/gitlab-com/support/toolbox/support-calendar) shows that on any of the days you would be absent, the regional team would be short by 20% or more of its people
-- check the regional calendar and coordinate with your manager to ensure we have sufficient cover for days with low availability.
-- schedule your time off as far in advance as you can, especially for days that
-  may be popular, are [holidays](#how-support-handles-holidays), or that are particularly important to you
-- don't lock yourself into nonrefundable travel itineraries before you've taken
-  steps such as the above to be sure you can get the planned days off
-- if possible, plan your time off to avoid disruptions to the various rotations
-  such as on-call
+- check the regional calendar and coordinate with your manager to ensure we have sufficient cover for days with low availability. You can do this by ensuring that you are subscribed to your associated regional calendar (i.e., `EMEA - OOO`, `AMER - OOO`, `APAC - OOO`) and that prior to booking time off, you check the calendar:
+  - 🟩 Green: You're good to book PTO.
+  - 🟨 Yellow: The team is nearing PTO capacity – consider other dates if possible.
+  - 🟥 Red: PTO capacity has been reached. Please discuss with your manager before proceeding.
+  - the calendar colors are determined by the percentage of engineers on PTO:
+  - 🟢 Green: 0–15% of engineers on PTO
+  - 🟡 Yellow: >15% to 20% of engineers on PTO
+  - 🔴 Red: >20% of engineers on PTO
+- schedule your time off as far in advance as you can, especially for days that may be popular, are [holidays](#how-support-handles-holidays), or that are particularly important to you
+- don't lock yourself into nonrefundable travel itineraries before you've taken steps such as the above to be sure you can get the planned days off
+- if possible, plan your time off to avoid disruptions to the various rotations such as on-call
 
 ## Preparing for time off
 
@@ -87,7 +95,7 @@ If you're taking off **less than half a day,** you do not need to make entries i
 
 If you're taking off **a half day or more,** enter the time off in Workday.
 
-At the end of your last work day before taking PTO, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make unavailable` button on the row with your user information in it.
+At the end of your last work day before taking PTO, update your availability using the [Out of Office](/handbook/security/customer-support-operations/docs/zendesk/apps#out-of-office) app in Zendesk. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make unavailable` button on the row with your user information in it.
 
 Follow the guidance below to prepare yourself, your customers, and your colleagues.
 
@@ -96,7 +104,7 @@ Follow the guidance below to prepare yourself, your customers, and your colleagu
 If you are assigned to any PagerDuty shifts (such as on-call) during the time off, arrange for coverage:
 
 1. Find a volunteer to cover for you; get help from your manager if necessary.
-1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/docs/editing-schedules#create-and-delete-overrides).
+1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/main/docs/edit-schedules#create-overrides).
 
 ### Coverage for assigned tickets
 
@@ -138,7 +146,7 @@ For high priority tickets, tend towards a handing over to someone else:
 ## How Support Handles Family and Friends Days
 
 During [Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days) GitLab Support continues
-to operate as normal. Starting from Q1/FY25, during each quarter you are free to take a day off at your convenience, to celebrate Family and Friends day.
+to operate as normal. In FY26, you are free to take off a total of 4 days at your convenience, to celebrate and record as Family and Friends day.
 Please follow the same guidelines as you would in [Choosing and Recording Time Off](#choosing-and-recording-time-off).
 
 ## How Support Handles Holidays
@@ -226,8 +234,37 @@ that happened while you were away:
 
 Consider setting up a few coffee chats with teammates to simply reconnect with them. You can also ask your teammates who haven't taken PTO while you were out, during coffee chats or pairing sessions, to mention a thing or two that you might have missed.
 
-Once you have taken the time to catch-up, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk showing you are no longer OOO. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make available` button on the row with your user information in it.
+Once you have taken the time to catch-up, update your availability using the [Out of Office](/handbook/security/customer-support-operations/docs/zendesk/apps#out-of-office) app in Zendesk showing you are no longer OOO. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make available` button on the row with your user information in it.
 
 If you unassigned some of your tickets before going on PTO, take the time to go through them and check their status. It's good practice to reassign them to yourself if these are either still missing a DRI, or if it appears that you're still the best equipped person to drive it to a solution.
 
-For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
+## Managers Time Off
+
+### Before PTO is taken
+
+The manager will conduct a thorough review of all ongoing tasks, responsibilities, and projects. 
+
+1. List Key Responsibilities: The manager will prepare a comprehensive list of all tasks that require attention during their absence.
+1. Determine Priority: The manager will assess which tasks are time-sensitive and which can be delayed. They will prioritize duties based on urgency, impact, and team dependency.
+1. Select a Delegate: The manager will choose a single team member to be responsible for all of the tasks, or another manager if any of the tasks are confidential.
+
+### Task Delegation
+
+Once tasks have been identified and the team member has been selected, the following steps should be taken to ensure a seamless transition:
+
+Documenting the Process: The manager will create an issue to outline
+
+- Key contacts for each task.
+- Any ongoing projects or deadlines.
+- Specific instructions or checklists to be followed.
+- Access to Resources: Ensure that the delegate has the necessary access to tools, files, and systems to perform tasks effectively.
+
+### Communicate
+
+The manager will inform the team and relevant stakeholders about the temporary delegation of responsibilities. 
+
+### After PTO
+
+Conduct a Debriefing: The manager will meet with the team member to review the progress made, any challenges encountered, and the outcomes of decisions made in their absence.
+
+For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).

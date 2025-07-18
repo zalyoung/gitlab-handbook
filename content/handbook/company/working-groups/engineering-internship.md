@@ -11,7 +11,7 @@ description: "Establish an Engineering Internship to Hire program"
 | End Date        | March 28, 2023                                                                                                  |
 | Slack           | [#wg_engineering_internship_program](https://gitlab.slack.com/archives/C03GW8WMVA9)                             |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1hcuE6I6rvdISFk_zzYYdxFdJM4ONhRrGY499ydDUiWc/edit#)   |
-| Docs            | [Handbook Page](/handbook/engineering/internships/)                                     |
+| Docs            | [Handbook Page](/handbook/hiring/emerging-talent/)                                     |
 | Meetings        | This working group meets bi-weekly (every other week) on Tuesday 21:00 UTC                                      |
 | Documents       | [Working Group - Shared Folder](https://drive.google.com/drive/folders/1KUNilJ_WPwklFO1N5_oKiMmoCAlxtqRV)       |
 
@@ -22,7 +22,7 @@ Due to the high probability of discussing applicants, the recordings and documen
 1. To run an inclusive engineering internship program to provide all qualifying candidates with a fair and equal opportunity. This program allows us to create opportunities for candidates, diversify the experience levels of our teams, and bring fresh perspectives to our initiatives.
 1. To establish processes and support to give our successful internship applicants the best chance to successfully complete the internship and onboard in a full-time role at GitLab.
 
-This working group aims to build on the previous work from the [internship-pilot program](../internship-pilot) from 2020.
+This working group aims to build on the previous work from the [internship-pilot program](internship-pilot/) from 2020.
 
 ## Exit Criteria
 
@@ -43,7 +43,7 @@ This working group aims to build on the previous work from the [internship-pilot
 
 - ✅ Work through options to extend the internship in FY24
 
-Options to extend the [internship program for Engineering](/handbook/engineering/internships/) in FY24 and beyond are being worked through as part of the recruitment team emerging talent program.
+Options to extend the [internship program for Engineering](/handbook/hiring/emerging-talent/) in FY24 and beyond are being worked through as part of the recruitment team emerging talent program.
 
 ## Roles and Responsibilities
 

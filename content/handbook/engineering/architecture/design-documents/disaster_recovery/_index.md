@@ -8,10 +8,12 @@ approvers: [  ]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work-in-progress and proposes architecture changes for the GitLab.com SaaS.
 The goal of these changes are to maintain GitLab.com service continuity in the case a regional or zonal outage.
+
+For the current state see [Disaster Recovery Policies for GitLab Backups](/handbook/engineering/gitlab-com/policies/backup/#disaster-recovery).
 
 - A **zonal recovery** is required when all resources are unavailable in one of the three availability zones in `us-east1` or `us-central1`.
 - A **regional recovery** is required when all resources become unavailable in one of the regions critical to operation of GitLab.com, either `us-east1` or `us-central1`.
@@ -61,7 +63,7 @@ A parallel restore is the only way we are able to meet the FY24 RTO target of 2 
 | CI | 30 min | not applicable |
 | Load balancing (HAProxy) | 30 min | not applicable |
 | Frontend services (Web, API, Git, Pages, Registry) [^2] | 15 min | 0 |
-| Monitoring (Prometheus, Thanos, Grafana, Alerting) | 0 | not applicable |
+| Monitoring (Prometheus, Grafana, Alerting) | 0 | not applicable |
 | Operations (Deployments, runbooks, operational tooling, Chef) [^3] | 30 min | 4 hr |
 | PackageCloud (distribution of packages for self-managed) | 0 | 0 |
 

@@ -5,13 +5,13 @@ creation-date: "2022-09-07"
 authors: ["@ayufan", "@fzimmer", "@DylanGriffith", "@lohrc", "@tkuah"]
 coach: "@ayufan"
 approvers: ["@lohrc"]
-owning-stage: "~devops::data stores"
+owning-stage: "~devops::tenant scale"
 participating-stages: []
 toc_hide: true
 no_list: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work-in-progress and represents a very early state of the Cells design. Significant aspects are not documented, though we expect to add them in the future.
 
@@ -42,9 +42,10 @@ This section links all different technical proposals that are being evaluated.
   - [SSH Routing Service](ssh_routing_service.md)
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
-- [Feature Flags](feature_flags.md)
-- [Cluster wide unique sequences](unique_sequences.md)
+- [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
+- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
+- [Settings Synchronization](./proposal-admin_area_setting_sychronization_in_cells.md)
 - [Organization migration](migration.md)
 - [Routable Tokens](routable_tokens.md)
 
@@ -54,6 +55,7 @@ The Cells architecture will impact many features requiring some of them to be re
 Below is a list of known affected features with preliminary proposed solutions.
 
 - [Cells: Admin Area](impacted_features/admin-area.md)
+- [Cells: Advanced search](impacted_features/advanced-search.md)
 - [Cells: Backups](impacted_features/backups.md)
 - [Cells: CI/CD Catalog](impacted_features/ci-cd-catalog.md)
 - [Cells: CI Runners](impacted_features/ci-runners.md)
@@ -113,9 +115,33 @@ Not directly, our goal is to keep them isolated and only communicate using globa
 
 ### How are Cells provisioned?
 
-The GitLab.com cluster of Cells will use GitLab Dedicated tooling to create instances.
-Once this instance gets provisioned it could join the GitLab.com cluster and become a Cell.
-One requirement will be that the instance does not contain any prior data.
+The GitLab.com cluster of Cells uses [GitLab Dedicated](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/) tooling for provisioning `GitLab Instances`.
+That's why Cells are referred to by Tenants in some projects.
+Once any Cell instance gets provisioned it could join the GitLab.com cluster and become a Cell.
+One requirement will be that the instance does not contain any prior data. One of the reasons
+is that Cells save data with custom primary key ranges that they pull from the [Topology Service](topology_service.md).
+
+![cells-deployment](/images/cells/cells-deployment.png)
+
+The Cells are managed in [the tissue](https://ops.gitlab.net/gitlab-com/gl-infra/cells/tissue/-/tree/main/rings?ref_type=heads)
+project, where we manage all the Cells for both `dev` and `prod` environments
+in the `rings` directory.
+
+Each cells configuration, is validated against [tenant-model-schema](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/tenant-model-schema)
+which is already used for GitLab dedicated tenants as well.
+
+#### Deployment Process
+
+The deployment workflow follows these steps:
+
+1. [The instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) retrieves the Cell configuration, which in `Dedicated Tooling` known as `TENANT_MODEL`.
+2. Instrumentor parses the `TENANT_MODEL` and pass the required configuration to [GET (GitLab Environment Toolkit)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/).
+3. GET deploys the infrastructure and uses [`Helm Installation`](https://docs.gitlab.com/install/install_methods/#helm-chart) to install GitLab in the provisioned Kubernetes Cluster.
+
+This approach aligns with how we deploy GitLab on the existing legacy Cell infrastructure in both Staging and Production environments through [Kubernetes workloads](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com).
+
+> [!note]
+> This is a high-level overview. For more detailed information, refer to the [Dedicated Architecture Documentation](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture.html).
 
 To reach shared resources, Cells will use [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect).
 
@@ -182,12 +208,16 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-009: Initial Cell Sizes](decisions/009_cell_initial_sizing.md)
 - [ADR-010: HTTP Router uses static rules and HTTP-based caching mechanism](decisions/010_http_router_rules_and_cache.md)
 - [ADR-011: Cell Specific Configuration](decisions/011_cell_specific_configuration.md)
+- [ADR-012: Cell Unique Identifier](decisions/012_cell_unique_identifier.md)
+- [ADR 013: Use the same Cell ID for restoring a Cell from backup](decisions/013_cell_restore_from_backup.md)
+- [ADR 014: No clusterwide syncing in Cells 1.0](decisions/014_clusterwide_syncing_in_cells_1_0.md)
+- [ADR 015: Cloud Spanner Region Configuration for Topology Service](decisions/015_spanner_multiregional.md)
 
 ## Links
 
 - [Internal Pods presentation](https://docs.google.com/presentation/d/1x1uIiN8FR9fhL7pzFh9juHOVcSxEY7d2_q4uiKKGD44/edit#slide=id.ge7acbdc97a_0_155)
 - [Cells Epic](https://gitlab.com/groups/gitlab-org/-/epics/7582)
-- [Database group investigation](../../../infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding/)
+- [Database group investigation](../../../infrastructure-platforms/data-access/database-framework/doc/root-namespace-sharding/)
 - [Shopify Pods architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale)
 - [Opstrace architecture](https://gitlab.com/gitlab-org/opstrace/opstrace/-/blob/main/docs/architecture/overview.md)
-- [Adding Diagrams to this blueprint](diagrams/index.md)
+- [Adding Diagrams to this blueprint](diagrams/_index.md)

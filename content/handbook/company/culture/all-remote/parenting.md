@@ -18,19 +18,19 @@ While success may look different to each individual, it requires support from on
 
 At GitLab, we believe that [most jobs can be done remotely](terminology/). We are the world's largest all-remote company with no company-owned offices anywhere on the planet. We have team members in more than 65 countries, many of whom are parents. It can be done; it should be done!
 
-When looking for a parent-friendly job, instead of focusing on the specific role, look at the company. Do they offer flexible scheduling? [No-ask PTO]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}})? Are they [family first](/handbook/values/#family-and-friends-first-work-second)? Choose an organization that proactively supports parents and prioritizing your kids above your job.
+When looking for a parent-friendly job, instead of focusing on the specific role, look at the company. Do they offer flexible scheduling? [No-ask PTO](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)? Are they [family first](/handbook/values/#family-and-friends-first-work-second)? Choose an organization that proactively supports parents and prioritizing your kids above your job.
 
 ## Q: What are the benefits of work from home parenting?
 
-While there are numerous [advantages to remote work]({{< ref "remote-benefits" >}}), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
+While there are numerous [advantages to remote work](remote-benefits/), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
 
-1. You have more [flexibility](https://web.archive.org/web/20200606214525/http://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
-1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
+1. You have more [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
+1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
 1. You can optimize your life for superior air quality and medical facilities, a healthier community environment, and better schools for your children, rather than access to onsite jobs.
 1. Expectant parents have the autonomy to more easily plan around and attend doctor's appointments, optimize for their physical comfort during the day, and work [non-linear workdays](non-linear-workday/) to build in rest when needed.
-1. Ability to [travel to other places](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases) without taking vacation (family, fun, etc.).
-1. Freedom to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
-1. You can [set up and decorate your office or workspace](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset) in whatever way [works best for you](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
+1. Ability to [travel to other places](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/) without taking vacation (family, fun, etc.).
+1. Freedom to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
+1. You can [set up and decorate your office or workspace](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/) in whatever way [works best for you](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/).
 1. You can [choose your working hours](people/#worklife-harmony) based on when you're [most productive](asynchronous/).
 
 ## Q: What are the challenges of work from home parenting?
@@ -44,10 +44,10 @@ A recent [Forbes article on the challenges working parents faced during the pand
 
 At GitLab, we prioritize healthy work-life balance in each of these areas:
 
-- [combating isolation and burnout](mental-health/#how-to-recognize-mental-health-struggles)
+- [combating isolation and burnout](mental-health/#what-are-the-signs-of-remote-work-burnout)
 - [focus on mental health](being-a-great-remote-manager/)
 - [create healthy work/life balance](mental-health/#rest-and-time-off-are-productive)
-- [more working, less meeting](meetings/#make-meeting-attendance-optional)
+- [more working, less meeting](meetings/#1-make-meeting-attendance-optional)
 
 ## Q: How do I manage my work remotely with kids?
 
@@ -57,7 +57,7 @@ While there is no one-size-fits-all answer, we have amassed some great tips for 
 
 For parents with toddlers who may not understand why a parent is home but unable to play or engage, consider working in a space with a door that you can shut. This creates a more obvious separation between work and life.
 
-If you live in a space where such a division is impractical or impossible, consider working in a coworking space, external office, or shared community home through firms such as [Codi](https://www.codi.com). GitLab recognizes that not every living space is amenable to remote work, which is why we will [reimburse for external spaces](/handbook/finance/spending-company-money/#coworking-or-external-office--space).
+If you live in a space where such a division is impractical or impossible, consider working in a coworking space, external office, or shared community home through firms such as [Codi](https://www.codi.com). GitLab recognizes that not every living space is amenable to remote work, which is why we will [reimburse for external spaces](/handbook/finance/expenses/#co-working-space).
 
 ### Block out family time on your calendar
 
@@ -81,11 +81,11 @@ For working parents who have another working family member in the home, consider
 
 ### Invite kids to meetings/work
 
-If appropriate, consider inviting your child or children into meetings, or let them work/study in a shared space while you're at work. Remember that [meetings are about the work, not the background](meetings/#meetings-are-about-the-work-not-the-background), and kids barging into a meeting is indeed the best distraction in the world.
+If appropriate, consider inviting your child or children into meetings, or let them work/study in a shared space while you're at work. Remember that [meetings are about the work, not the background](meetings/#8-meetings-are-about-the-work-not-the-background), and kids barging into a meeting is indeed the best distraction in the world.
 
 ## Q: What are some tips for balancing parenting and work as a remote employee?
 
-Parents bring a great deal of wisdom and experience to the workforce and contribute to a [diverse and inclusive culture]({{< ref "building-diversity-and-inclusion" >}}). No one should feel pressured to apologize for being a parent or [caregiver](people/#caretakers). Instead, embrace the multiple roles you embody and take a few pointers from some of GitLab's employees who are both remote workers and parents/caregivers.
+Parents bring a great deal of wisdom and experience to the workforce and contribute to a diverse and inclusive culture. No one should feel pressured to apologize for being a parent or [caregiver](people/#caretakers). Instead, embrace the multiple roles you embody and take a few pointers from some of GitLab's employees who are both remote workers and parents/caregivers.
 
 ### Create and reinforce supportive values
 
@@ -138,7 +138,7 @@ With just one or two clicks, you can modify your status on Slack or Microsoft Te
 
 ### Optimize for open space in your calendar
 
-Being booked at 100% is a risk, particularly for working parents. (See [Kingman's Formula](https://blog.acolyer.org/2015/04/29/applying-the-universal-scalability-law-to-organisations) for the mathematics behind this.) The ebbs and flows of life cannot be predicted — after all, [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything). If your standing commitments have you at 100%, you have no room to react thoughtfully to life/children, or to plan for improvements.
+Being booked at 100% is a risk, particularly for working parents. (See [Kingman's Formula](https://blog.acolyer.org/2015/04/29/applying-the-universal-scalability-law-to-organisations/) for the mathematics behind this.) The ebbs and flows of life cannot be predicted — after all, [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything). If your standing commitments have you at 100%, you have no room to react thoughtfully to life/children, or to plan for improvements.
 
 Stress is contagious, but so is [calm](mental-health/). Be ruthless in declining meetings and conveying that your schedule is full once you reach a certain quantity of daily or weekly meetings.
 
@@ -152,7 +152,7 @@ Much of the [how to be a great remote manager](being-a-great-remote-manager/) ap
 
 Some best practices for motivating remote employees balancing caregiving include:
 
-- Prioritize [results over hours worked](/handbook/values/#measure-results-not-hours)
+- Prioritize [impact over activity](/handbook/values/#measure-impact-not-activity)
 - Don't require people to have consistent set working hours or say when they're working
 - Don't encourage or celebrate working long hours or on weekends
 - Encourage teamwork
@@ -175,19 +175,19 @@ From family time to unforgettable adventures, there are many great stories of ho
 
 ### GitLab blogs from working parents
 
-1. [What's it like to be a working parent at GitLab?](https://about.gitlab.com/blog/2016/04/08/remote-working-parents)
-1. [Parental/maternity leave around the world – how does your country stack up?](https://about.gitlab.com/blog/2019/07/18/how-is-it-being-a-new-mom-working-for-gitlab)
-1. [How I balance a baby, a career at GitLab, and cultural expectations of motherhood](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby)
-1. [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home)
-1. [5 Things to keep in mind while working remotely with kids](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four)
+1. [What's it like to be a working parent at GitLab?](https://about.gitlab.com/blog/2016/04/08/remote-working-parents/)
+1. [Parental/maternity leave around the world – how does your country stack up?](https://about.gitlab.com/blog/2019/07/18/how-is-it-being-a-new-mom-working-for-gitlab/)
+1. [How I balance a baby, a career at GitLab, and cultural expectations of motherhood](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/)
+1. [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/)
+1. [5 Things to keep in mind while working remotely with kids](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/)
 1. [GitLab parental leave and return tool kit](/handbook/total-rewards/benefits/parental-leave-toolkit)
 
 ### Guides from friends and partners
 
-1. [Doist's guide for the remote working parent](https://doist.com/blog/remote-working-parents-survival-guide)
-1. [Trello: A remote work guide for parents](https://blog.trello.com/remote-work-guide-for-parents)
-1. [Thrive Global: Managing parenting and remote work](https://thriveglobal.com/stories/three-tips-for-managing-parenting-and-remote-work)
-1. [Buffer: Tips from a remote team on working at home with kids](https://buffer.com/resources/integrating-work-family-21-tips-working-home-kids)
+1. [Doist's guide for the remote working parent](https://todoist.com/inspiration/remote-working-parents-survival-guide)
+1. [Trello: A remote work guide for parents](https://www.atlassian.com/blog/distributed-work/distributed-work-guide-for-parents)
+1. [Thrive Global: Managing parenting and remote work](https://community.thriveglobal.com/three-tips-for-managing-parenting-and-remote-work/)
+1. [Buffer: Tips from a remote team on working at home with kids](https://buffer.com/resources/integrating-work-family-21-tips-working-home-kids/)
 1. [Autonomous: How to balance working at home and parenting](https://www.autonomous.ai/ourblog/how-to-balance-working-at-home-and-parenting)
 
 ### Crucial Conversations resources
@@ -204,8 +204,8 @@ From family time to unforgettable adventures, there are many great stories of ho
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

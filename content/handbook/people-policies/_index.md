@@ -22,7 +22,7 @@ These policies apply to all GitLab team members, contractors, advisors, and cont
 
 ## Translations
 
-There are translations available of many of our policies, for reference purposes, currently in Dutch, French, German and Spanish, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
+There are translations available of many of our policies, for reference purposes, currently in Dutch, French, German and Spanish, with further additions planned. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
 
 ## General Employment Practices
 
@@ -48,11 +48,26 @@ This policy applies to all current team members and candidates for open roles. I
 
 Please report any relationship with a significant other or family member to your People Business Partner, if you find yourself in a reporting relationship with the significant other or family member. Furthermore, if two team members who are in a reporting relationship become significant others or family members in the course of their employment, they should also report the relationship to the People Business Partner. Transfers, promotions, and future work assignments will be made in accordance with all applicable anti-discrimination laws and policies.
 
+## Individuals with Disabilities Policy
+
+GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability. The Company prohibits discrimination against team members and applicants with disabilities in all aspects of employment. Our company’s commitment to this policy includes making reasonable accommodations to otherwise qualified persons with disabilities to enable them to perform the essential functions of their jobs, unless doing so would pose an undue hardship on our business, would pose a direct threat of substantial harm to the team member or others or is otherwise not required by applicable law.
+
+**Team Members Requesting Accommodations**
+
+Please submit your request for an accommodation by submitting a ticket in HelpLab. Your answers will be viewed only by the Team Member Relations Team (TMR), and only the requested accommodation(s) will be shared with your Manager/PBP as needed.
+
+Team Members are under no obligation to provide GitLab with a diagnosis, but you may be asked questions related to how your condition impacts your ability to perform the essential functions of your job, in accordance with applicable law. The TMR will provide you with any necessary paperwork, and assist you with your request.
+
+- [U.S. Specific Policy](/handbook/people-policies/inc-usa/)
+
+**Applicants Requesting Accommodations**
+The Talent Aquisition team should contact the Team Member Relations team (TMR) if a candidate requests an accommodation during the interview process. The TMR team will reach out to the candidate directly if more information is needed. Applicants are under no obligation to provide GitLab with a diagnosis, but you may be asked questions related to how your condition impacts your ability to interview for the role, in accordance with applicable law.
+
 ## Workplace Conduct
 
 ### Confidentiality
 
-As stated in the **Confidentiality and Corporate Assets and Corporate Opportunities** section of the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), team members are, on occasion, entrusted with confidential GitLab information and with the confidential information of GitLab suppliers, customers, or other business partners. This information may include:
+As stated in the **Confidentiality and Corporate Assets and Corporate Opportunities** section of the [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf), team members are, on occasion, entrusted with confidential GitLab information and with the confidential information of GitLab suppliers, customers, or other business partners. This information may include:
 
 1. technical or scientific information about current and future services or research;
 1. business or marketing plans or projections;
@@ -67,13 +82,13 @@ Team members shall not take for themselves, or for family members, or any other 
 
 Team members also have obligations to protect the personal and sensitive information of our fellow team members. Therefore, you may not access and/or disseminate any team member's personal information (i.e. address, personal phone number, salary, etc.) that the team member has not made publicly available, unless the team member has provided written permission to share this information. An exception to this restriction would be when access is a necessary function of your job duties. A violation of this obligation is considered severe and could result in disciplinary action, up to and including termination.
 
-#### Exceptions
+**Exceptions**
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
+Exceptions to the above procedures will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ### Anti-Harassment
 
-Please see the [Anti-Harassment Policy]({{< ref "anti-harassment" >}}).
+Please see the [Anti-Harassment Policy](/handbook/people-group/anti-harassment/).
 
 ### Anti-Retaliation
 
@@ -89,19 +104,31 @@ Please see our [Environmental, Social, and Governance](/handbook/company/esg/) p
 
 ### Personal Appearance
 
-The image GitLab projects to the public is reflected in the appearance of our team members. Simply stated, team members should be dressed and groomed appropriately for their specific duties. Team members are expected to use good judgment in their appearance and grooming. Read our [GitLab Events Code of Conduct](/handbook/company/culture/ecoc/) for more information. Please read our GitLab Events Code of Conduct for more information regarding team member responsibility during attendance at company-sponsored events.
+The image GitLab projects to the public is reflected in the appearance of our team members. Simply stated, team members should be dressed and groomed appropriately for their specific duties. Team members are expected to use good judgment in their appearance and grooming. Please read our [GitLab Events Code of Conduct](/handbook/company/culture/ecoc/) for more information regarding team member responsibility during attendance at company-sponsored events.
 
 ### Job Abandonment
 
-When a team member is absent from work for three consecutive workdays, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member.
+When a team member is absent from work for **three consecutive workdays**, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or Slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member.
 
-#### Exceptions
+Throughout this process, managers and People Business Partners must maintain detailed records of: dates and times of all contact attempts, methods used for each attempt, any responses or information received, consultation with other GitLab teams (if applicable), and jurisdiction-specific considerations.
 
-GitLab understands there are extenuating circumstances that can occur. In the instance that a team member is absent from work for three consecutive workdays due to an emergency outside of the team members' control (ex. an internet outage in their country of residence), the recommendation is:
+#### Exceptions to the Job Abandonment Policy
+
+GitLab understands there are extenuating circumstances that can occur. In the instance that a team member is absent from work for three consecutive workdays due to an emergency outside of the team members' control (see examples below), the recommendation is:
 
 - The team member should notify their manager about the situation, should a period of unavailability be a foreseen possibility.
 - The team member and manager should consider exchanging cell phone numbers to stay in contact as much as possible in the case that the situation should escalate. If you are based in different countries, consider ensuring you and your manager both have an app that facilitates international communication (ex. Whatsapp, Zalo, etc.). If costs are incurred when trying to contact your manager, this can be considered a business expense and can be submitted for reimbursement through [Navan Expense](/handbook/finance/expenses/).
-- Consider leveraging GitLab's flexible [time off policy]({{< ref "paid-time-off" >}}) to take the time you need.
+- Consider leveraging GitLab's flexible [time off policy](/handbook/people-group/paid-time-off/) to take the time you need.
+
+#### Examples of Potential Extenuation Circumstances
+
+- Regional internet or telecommunications outages
+- Natural disasters or severe weather events
+- Sudden medical emergencies affecting the team member or immediate family
+- Civil unrest, political instability, or government actions affecting communications
+- Technology failures when no alternative communication means are available
+- Sudden travel emergencies with no connectivity
+- Unexpected legal detention or immigration issues
 
 ## Team Member Safety
 
@@ -112,25 +139,16 @@ While GitLab is 100% remote, there may be times when team members travel for wor
 In general, please consider the following recommendations to ensure safety when traveling or coworking:
 
 1. Do the research. Have some familiarity with the destination before you arrive. Check with your country's government department that provides advice for traveling overseas:
-    - United States: check the State Department's website for country updates and enroll in a Traveler Program such as [Smart Traveler Enrollment Program (STEP)](https://step.state.gov/step/).
-    - New Zealand: [Safe Travel](https://safetravel.govt.nz/).
+    - United States: check the State Department's website for country updates and enroll in a Traveler Program such as [Smart Traveler Enrollment Program (STEP)](https://mytravel.state.gov/s/step).
+    - New Zealand: [Safe Travel](https://www.safetravel.govt.nz/).
 1. Try not to draw attention. People who appear to be from out of town are more vulnerable to crimes. Try to respect the culture you are visiting by blending in. Consider protective clothing to avoid pickpockets or other theft. Do not flash money or credit cards unnecessarily.
 1. Make copies of important documents. Consider carrying hard copies of important documents (passport, driver's license) in a separate location in the event your documents are misplaced or stolen.
 1. Keep friends and family updated. No matter whether you're going on an overnight jaunt or a week-long international journey, it's always a good idea to let friends or family know your plans. Before you leave, send a copy of your itinerary to a few trusted people who can keep tabs on your whereabouts. Check in regularly with your contacts so they know you're where you're supposed to be.
-1. Be wary of public Wi-Fi. Be aware that hackers can steal sensitive information in the public forum. Use a VPN or other secure access if you plan to access sensitive data. More information on [VPN usage at GitLab](/handbook/security#why-we-dont-have-a-corporate-vpn) and the [Personal VPN]({{< ref "personal-vpn" >}}) page.
+1. Be wary of public Wi-Fi. Be aware that hackers can steal sensitive information in the public forum. Use a VPN or other secure access if you plan to access sensitive data. More information on [VPN usage at GitLab](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn) and the [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page.
 1. Safeguard your hotel. Lock and deadbolt the door while you are in the room. Ensure the door is locked when you leave. Keep the windows closed. Try to give the impression that you're in your room even when you're away, such as placing the Do Not Disturb sign on the outside of your door and keeping the blinds or windows closed. Don't let any strangers into your room, even if they say they work for the hotel. You can always call the front desk to check whether someone was ordered by hotel staff to come to your room.
 1. Be aware of your surroundings. Always keep an eye on your personal belongings and use good judgment when talking to strangers. A big part of the joy of traveling is the opportunities it affords to meet new people and learn about their cultures. But if someone near you is acting suspiciously, or if you feel uncomfortable, leave the area immediately. Trust your instincts.
-1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to employees to read said risk assessment and adhere to recommendations outlined.
+1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to team members to read said risk assessment and adhere to recommendations outlined.
 1. If you are sick please do not come or participate in person workplace activities. This is for your safety and for others. We recommend that GitLab team members not travel while sick.
-
-### Measures GitLab Takes to Aid Employee Health and Safety
-
-- Hand sanitizers placed around the venue of live events or attendees are given hand sanitizer.
-- Team members can expense masks for traveling if suggested in the risk assessment outlined above.
-- Sick team members should not travel per our travel policy.
-- Team members who become sick while traveling should expense masks if flying back home.
-- If health risk is considered high, all food to be served by food health professionals rather than team.
-- Fist bumps over handshakes.
 
 ### Responding to Unsafe Situations
 
@@ -140,19 +158,25 @@ The following are GitLab's procedures in the event a team member feels threatene
 1. If at any point, a team member feels like they or another team member may require immediate medical assistance, please contact the local authorities.
 1. Once the immediate threat is controlled, team members should report any safety concerns to People Connect.
 1. If you believe that a certain location, event or area presents greater risk or exposure to individuals, please notify People Connect. People Connect will strive to proactively communicate the concerns to other potentially affected team members.
-1. If at any point you believe you, personally, may commit an unsafe act, People Connect can assist in providing information about available [Employee Assistance](/handbook/total-rewards/benefits/general-and-entity-benefits/#employee-assistance-program) options.
+1. If at any point you believe you, personally, may commit an unsafe act, People Connect can assist in providing information about available [Modern Health](/handbook/total-rewards/benefits/modern-health/) options.
 
 ## Workers' Compensation
 
-If you have been injured at work, at a co-working site, or traveling to a customer location please contact the Absence Management team (leaves@gitlab.com). The Absence Management team will provide you with paperwork to file your claim and explain your benefits.
+Workers' compensation provides benefits to team members who suffer work-related injuries or illnesses. If you have been injured at work, at a co-working site, or traveling to a customer location please follow our reporting procedures:
 
-**CA Team Members Only**: Complete this [form](https://www.dir.ca.gov/dwc/DWCForm1.pdf) and email to the Absence Management Team at leaves@gitlab.com.
+- Seek appropriate medical attention immediately for serious injuries. For emergency situations, call local emergency services (911 in the US).
+- Report all injuries, regardless of severity, to your manager as soon as possible.
+- Contact the Absence Management team through HelpLab within 24 hours of the injury. The Absence Management team will provide you with paperwork to file your claim and explain your benefits.
+- Complete all required documentation as directed by the Absence Management team.
+
+**CA Team Members Only**: Complete this [form](https://www.dir.ca.gov/dwc/DWCForm1.pdf) and submit to the Absence Management Team in HelpLab.
 
 The following states are considered "monopolistic" workers compensation states, meaning employers must purchase workers compensation coverage directly from the state. If a team member in these states is injured, they may file the claim themselves or the Absence Management Team will file on their behalf. **Team members in these States are still required to contact the Absence Management Team, even if they file their own claim through the State**:
 
 - [Ohio](https://info.bwc.ohio.gov/)
 - [Washington](https://www.lni.wa.gov/)
 - [North Dakota](https://www.workforcesafety.com/)
+- [Wyoming](https://dws.wyo.gov/dws-division/workers-compensation/injured-workers/report-an-injury/)
 
 ## Substance Abuse
 
@@ -161,7 +185,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
 ## Mental Health Awareness Statement
 
 1. Why is awareness of Mental Health important at GitLab?
-    - It can affect any and all of us. Statistics indicate that [1 in 4](http://www.who.int/whr/2001/media_centre/press_release/en/) of us will be affected by mental or neurological disorders at some point in our life. That said, we are all subject to periods where we or those around us find the "the normal stresses of life" harder than usual to deal with.
+    - It can affect any and all of us. Statistics indicate that [1 in 4](https://www.who.int/news-room/detail/28-09-2001-the-world-health-report-2001-mental-disorders-affect-one-in-four-people) of us will be affected by mental or neurological disorders at some point in our life. That said, we are all subject to periods where we or those around us find the "the normal stresses of life" harder than usual to deal with.
     - The more we are aware of mental health, the more inclusive we are. That will help encourage any colleagues currently experiencing mental health issues to talk about it.
     - Our business at its core is a group of people working together towards a common goal. With awareness of what might affect our colleagues, we are better equipped to help them if they do discuss it with us and therefore help our business.
     - Mental health has so much emotional baggage as a topic that it can initially seem scary to talk about. Promoting mental health awareness helps to remove the stigma and taboos associated with it.
@@ -176,7 +200,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
     - Encourage consultation with our employee assistance programs.
 1. What are we doing to get there?
     - Talk about mental health issues and ideas in the #mental_health_aware Slack channel.
-    - GitLab would also like to encourage GitLab team members to take [time off]({{< ref "paid-time-off" >}}) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
+    - GitLab would also like to encourage GitLab team members to take [time off](/handbook/people-group/paid-time-off/) to properly take care of themselves. We encourage the team to go to yoga, take a long lunch, or anything else in their day to day life that assists in their mental and emotional well-being.
     - In addition to our current EAP programs available for employees, we encourage GitLab team members to take a look at these [Resources for Employees](https://www.workplacestrategiesformentalhealth.com/topic/Resources-for-employees) for insight into reclaiming well-being at work, off work, and return to work.
     - We believe that our values and culture lends itself to being able to discuss mental health open and honestly without being stigmatized, but let's work together to make it even more inclusive. For example, Finding the right words:
         - "How can we help you do your job?"
@@ -194,7 +218,7 @@ Any questions or concerns? Please feel free to contact the People Connect team v
 - [Backgound Screenings](/handbook/people-group/contracts-probation-periods/#background-screenings)
 - [Contracts, Background Screenings, Probation Periods, and PIAA](/handbook/people-group/contracts-probation-periods/#piaa-proprietary-information-and-assignment-agreement)
 - [Outside Employment and Activities](/handbook/people-group/contracts-probation-periods/#outside-employment-paid-or-unpaid-projects-and-potentially-conflicting-activities)
-- [Paid Time Off]({{< ref "paid-time-off" >}})
+- [Paid Time Off](/handbook/people-group/paid-time-off/)
 - [General Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)
 - [Leave of Absence](/handbook/people-policies/leave-of-absence/)
 - [Return of Property](/handbook/people-group/offboarding/#returning-property-to-gitlab)
@@ -237,8 +261,8 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 
 ### France
 
-- [Remote Work Charter]({{< ref "france-sas/remote-work-charter" >}})
-- [Right to Disconnect Charter]({{< ref "france-sas/right-to-disconnect-charter" >}})
+- [Remote Work Charter](/handbook/people-policies/france-sas/remote-work-charter/)
+- [Right to Disconnect Charter](/handbook/people-policies/france-sas/right-to-disconnect-charter/)
 {{% /details %}}
 
 {{% details summary="GitLab GmbH (Germany)" %}}
@@ -280,7 +304,7 @@ To ensure the health and safety of our team members in Germany, and to maintain 
 - [Disciplinary Procedure](https://docs.google.com/document/d/1cTSESXTt1Fn8680AVAcpq1g3wkJ_voFj192ak3rXNcA/edit?usp=sharing)
 - [Grievance Procedure](https://docs.google.com/document/d/1RJ5rWMz_FRiKDOOyAgCn5b4XZkV0dcrKZ82D7etBlUo/edit?usp=sharing)
 - [Protected Disclosure Policy](https://docs.google.com/document/d/1cIRHYLBCKJy2doHcpL4Yg-A4PWaw16IgjWLUCb34OyE/edit?usp=sharing)
-- [Right to Disconnect Policy]({{< ref "ireland-ltd/right-to-disconnect-policy" >}})
+- [Right to Disconnect Policy](/handbook/people-policies/ireland-ltd/right-to-disconnect-policy)
 
 **Health and Safety**
 
@@ -317,8 +341,8 @@ The handbook also has a wealth of information and recommendations for setting up
 
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
-- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/company/culture/all-remote/mental-health/)
-- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
+- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
+- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
 **Working Time Regulations**
@@ -377,9 +401,8 @@ To ensure the physical and mental health and safety of our team members in New Z
 
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
-- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/company/culture/all-remote/mental-health/)
-- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
-- [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
+- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
+- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
 
 **Data Protection/Privacy Policy**
 
@@ -388,7 +411,7 @@ To ensure the physical and mental health and safety of our team members in New Z
 
 **Workplace Harassment Policy**
 
-- [Anti-Harassment Policy]({{< ref "anti-harassment#introduction" >}})
+- [Anti-Harassment Policy](/handbook/people-group/anti-harassment/#introduction)
 - [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 
 **Fair Employment Practices Policy**

@@ -33,7 +33,7 @@ This onboarding still adheres to the sentiments of [self directed and continuous
 
 ### Support and our Single Source of Truth
 
-Since GitLab is a [handbook first](/handbook/company/culture/all-remote/handbook-first-documentation/) organization, the answer to any question you may have particularly throughout your first thirty days should be documented and readily available as this is our [Single Source of Truth (SSoT)](/handbook/values/#single-source-of-truth).
+Since GitLab is a [handbook first](/handbook/company/culture/all-remote/handbook-first/) organization, the answer to any question you may have particularly throughout your first thirty days should be documented and readily available as this is our [Single Source of Truth (SSoT)](/handbook/values/#single-source-of-truth).
 
 If you are unable to find the information you are looking for, please be sure to reach out to your Manager; Onboarding Buddy; People Connect Team member or the Field Enablement team for support by tagging them in the comments section of this [SA onboarding feedback issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2635). If you need to troubleshoot specific issues with tools, you can add a screenshot of the issue directly in the comment to help them diagnose the problem.
 
@@ -56,13 +56,12 @@ In addition to the SQS learning objectives, your onboarding is intended to fulfi
 
 - Demonstrate understanding of the SA process maps, activity capture, and engagement models per region
 - Recall the GitLab Sales Stages
-- Identify the SA’s roles within the various sales stages
+- Identify the SA's roles within the various sales stages
 - Summarize the GitLab Pitch
 - Describe what technical discovery is
 - List the different approaches and activities to achieve a technical win
 - Demonstrate understand of the Value Stream Workshop
 - Deliver a Positioning a Value Stream Workshop
-- Differentiate between the Technical Close Plan and Mutual Customer Success Plan
 - Outline the steps for building a Customer Success Plan
 - Acquire certification in GitLab CI/CD Associate
 
@@ -86,13 +85,12 @@ In addition to the SQS learning objectives, your onboarding is intended to fulfi
   - Proof of Value (POV)
   - Strategic Solution Selling
   - Selling professional services
-  - Technical Close Plan
   - Mutual Customer Success Plan
   - Business Value Consulting
   - Value Stream Discovery
 - Describe Reference Architecture
 - Install GitLab via Omnibus and via Helm Chart
-- Demonstrate understanding of GitLab’s competition by reviewing battlecards
+- Demonstrate understanding of GitLab's competition by reviewing battlecards
 - Recognize second tier competitors
 - Demonstrate understanding of Professional Services at GitLab
 - Explain how to submit marketing support requests for participating in in-person events
@@ -105,7 +103,7 @@ In addition to the SQS learning objectives, your onboarding is intended to fulfi
 
 ## Milestones and Onboarding Roadmap
 
-![SA Onboarding Journey Roadmap](/handbook/solutions-architects/SA-Onboarding-Journey-Roadmap.png)
+![SA Onboarding Journey Roadmap](/images/solutions-architects/SA-Onboarding-Journey-Roadmap.png)
 
 ## Expectations for Manager Support during Onboarding
 
@@ -130,7 +128,7 @@ Your manager will be there to support you during your onboarding journey and bey
 **Month 2**
 
 - Check in regularly with your new hire
-  - Ask them if they are experiencing any challenges with GitLab’s asynchronous culture
+  - Ask them if they are experiencing any challenges with GitLab's asynchronous culture
   - Discuss any general concerns
 - Encourage new hire to continue building their internal network and provide support by facilitating introductions to key stakeholders, other team members, and cross functional teams as needed
 - Share constructive feedback on their recorded demos they were expected to complete as part of their role based onboarding
@@ -149,7 +147,7 @@ Your manager will be there to support you during your onboarding journey and bey
 **Beyond 3 Months**
 
 - Provide regular feedback on performance
-- Demonstrate curiosity as it relates to your new hire’s career goals and aspirations and support them in their development
+- Demonstrate curiosity as it relates to your new hire's career goals and aspirations and support them in their development
 - Encourage your new hire to:
   - Build out an individual growth plan
   - Participate in knowledge sharing whether through team Slack channels, presentations, or enablement sessions
@@ -160,15 +158,15 @@ Your manager will be there to support you during your onboarding journey and bey
 **Month 1**
 
 - Nurture a welcoming environment for the new hire
-- Establish a recurring 1:1 to check in on the new hire’s progress on onboarding activities
+- Establish a recurring 1:1 to check in on the new hire's progress on onboarding activities
 - Provide assistance with any barriers or difficulty understanding concepts covered in the onboarding learning path and SQS
 - Connect the new hire with members of the broader team to build a network
 - Share helpful tips and resources that are beneficial during their onboarding and beyond
 
 **Month 2**
 
-- Ensure new team member is actively engaged in [ride-alongs](/content/handbook/solutions-architects/sa-practices/ride-alongs/) and offer support as needed
-- Align with new hire’s manager on ways you can provide support
+- Ensure new team member is actively engaged in [ride-alongs](/handbook/solutions-architects/sa-practices/ride-alongs/) and offer support as needed
+- Align with new hire's manager on ways you can provide support
 - Discuss any feedback, learnings, insights new team member has gathered throughout their onboarding experience
 - Ask the new team member is they are experiencing any challenges and provide support accordingly
 
@@ -200,10 +198,10 @@ In order to be considered as having graduated from your role based onboarding jo
 
 In addition to onboarding enablement, continuous enablement will be available to you via micro-learning, job aids, just-in-time learning, and webinars.
 
-- [Customer Success Skills Exchange](/content/handbook/sales/training/customer-success-skills-exchange/) is a biweekly webinar for the Customer Success and Solutions Architect teams on various technical topics
-- [Field Enablement Spotlight](/content/handbook.gitlab.com/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions take place weekly and cover topics relevant to the field
+- [Customer Success Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/) is a biweekly webinar for the Customer Success and Solutions Architect teams on various technical topics
+- [Field Enablement Spotlight](/handbook/customer-success/csm/workshops/) sessions take place weekly and cover topics relevant to the field
 
-In additon to the above resources, you will also have access to [O'Reilly](https://learning.oreilly.com/home/), a learning platform accessible via Okta SSO.
+In addition to the above resources, you will also have access to [O'Reilly](https://learning.oreilly.com/home/), a learning platform accessible via Okta SSO.
 
 ## Feedback
 

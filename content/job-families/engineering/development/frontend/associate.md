@@ -60,7 +60,6 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - [Intermediate](/job-families/engineering/development/frontend/#intermediate-frontend-engineer)
 - [Senior](/job-families/engineering/development/frontend/#senior-frontend-engineer)
 - [Staff](/job-families/engineering/development/frontend/#staff-frontend-engineer)
-- [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/)
 
 ## Job Grade
 
@@ -71,7 +70,7 @@ The Associate Backend Engineer is a [grade 5](/handbook/total-rewards/compensati
 Candidates for a Frontend Engineering position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Selected candidates will be invited to complete a short written assessment.
-- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with either a Frontend Engineer or a Frontend Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute behavioral interview with an Engineering Manager
 - Candidates will then be invited to schedule a 60 minute interview with a Director of Engineering

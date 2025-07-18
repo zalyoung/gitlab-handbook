@@ -3,7 +3,7 @@ title: "Technical Skills Exchange"
 description: "Continuous education webcast series for GitLab's technical field team members"
 ---
 
-The Technical Skills Exchange (previously known as Customer Success Skills Exchange) is a bi-weekly webinar focused on topics for the technical field team members. While this series is primarily planned with our Customer Success and SA organizations in mind, any and all field team members are welcome to attend. 
+The Technical Skills Exchange (previously known as Customer Success Skills Exchange) is a bi-weekly webinar focused on topics for the technical field team members. While this series is primarily planned with our Customer Success and SA organizations in mind, any and all field team members are welcome to attend.
 
 - Each training session has a [speaker](#speaker-responsibilities) and a [moderator](#moderator-responsibilities)
 - Sessions are approximately 50 minutes long
@@ -16,7 +16,7 @@ To see what training is coming soon, view the [Technical Skills Exchange Issue B
 
 To get a calendar invite to the Technical Skills Exchange, make sure you are added to the sales-cs email group
 
-You can [fill out an access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 ### Training Playlist
 

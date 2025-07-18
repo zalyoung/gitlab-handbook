@@ -2,7 +2,7 @@
 title: "Group Retrospectives"
 ---
 
-As a part of our [retrospective process](/handbook/engineering/workflow/#retrospective), at the end of each release, each [Product Group](/handbook/company/structure/#product-groups) should hold their own Group Retrospective. The goal of the retrospective is to talk through what went well, what went wrong, and what can be improved. Some Engineering sub-departments, such as UX and Quality, also conduct their own retrospectives to feed into the main R&D retrospective and should generally follow the same process outlined here.
+As a part of our [retrospective process](/handbook/engineering/management/group-retrospectives/), at the end of each release, each [Product Group](/handbook/company/structure/#product-groups) should hold their own Group Retrospective. The goal of the retrospective is to talk through what went well, what went wrong, and what can be improved. Some Engineering sub-departments, such as UX and Quality, also conduct their own retrospectives to feed into the main R&D retrospective and should generally follow the same process outlined here.
 
 ## Requirements for an efficient retrospective
 
@@ -102,7 +102,7 @@ group, we recommend something that follows this general pattern:
 
 Right now we are leaving it to individual Engineering Managers how they would
 like to collect retrospective notes - GitLab issues, Google docs, etc. After the
-retrospective is complete, the Engineering Manager has until the [Retrospective Summary](/handbook/engineering/workflow/#retrospective-summary) (shortly after the [monthly release](/handbook/engineering/releases/)) to make relevant notes from the retrospective
+retrospective is complete, the Engineering Manager has until the [Retrospective Summary](/handbook/engineering/management/group-retrospectives/) (shortly after the [monthly release](/handbook/engineering/releases/)) to make relevant notes from the retrospective
 public. Groups are encouraged to link to these notes from their group page in the
 handbook.
 
@@ -112,4 +112,4 @@ We recommend the following resources if you'd like to learn more about running
 effective retrospectives:
 
 1. [Agile Retrospectives: Making Good Teams Great](https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649)
-1. [The Human Side of Post Mortems](https://www.oreilly.com/webops-perf/free/the-human-side-of-postmortems.csp)
+1. [The Human Side of Post Mortems](https://www.oreilly.com/library/view/the-human-side/9781449369538/)

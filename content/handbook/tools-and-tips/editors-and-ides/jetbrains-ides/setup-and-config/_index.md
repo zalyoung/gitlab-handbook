@@ -1,11 +1,11 @@
 ---
-title: "Common Jetbrains Setup and Configuration"
+title: "Common JetBrains Setup and Configuration"
 no_list: true
 ---
 
 ## Overview
 
-Jetbrains IDEs are standardized, so much of the setup and configuration information applies to all IDEs, and is consolidated on this page.
+JetBrains IDEs are standardized, so much of the setup and configuration information applies to all IDEs, and is consolidated on this page.
 
 Any setup and configuration and other info that is specific to individual IDEs will be found on these sub-page under [Individual IDEs](../individual-ides). If this is the case, a link will be provided to the relevant section in the specific IDE's sub-page.
 
@@ -22,10 +22,10 @@ Any setup and configuration and other info that is specific to individual IDEs w
     - Idea for JVM/Java/Kotlin
     - CLion for Rust
 1. If you are an GitLab employee, you can request and obtain a [License](../licenses) for the IDE(s) you need to use.
-1. Install [Jetbrains Toolbox](https://www.jetbrains.com/toolbox-app/).
-1. Use Jetbrains Toolbox to install the IDE you need.
+1. Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/).
+1. Use JetBrains Toolbox to install the IDE you need.
 
-At this point, you should be able to run the IDE and open the project you need to work on. For basic tasks, most things "just work" by default out of the box - that's one of the nice things about using Jetbrains IDEs!
+At this point, you should be able to run the IDE and open the project you need to work on. For basic tasks, most things "just work" by default out of the box - that's one of the nice things about using JetBrains IDEs!
 
 **However, note that very large and complex projects such as the GitLab Rails monolith under RubyMine may an exception to this. Continue on with the rest of the instructions on this page for more details**.
 
@@ -98,15 +98,32 @@ If you have the memory to spare on your workstation, it will help your performac
 1. `Help menu -> Change Memory Settings`
 1. Change `Maximum heap size` to `12000` Mib, or whatever you think you can allocate without otherwise impacting system performance. On a maxed-out MacBook pro with 64G of memory, allocating 12G should be fine.
 
+## Open files in RubyMine from Terminal
+
+This can be set up at the OS level so it works for all type of files. For example, to set up open all .rb files:
+1, Open a `*.rb` file in `Finder`
+2. Right click and select `Get Info`
+3, Expand `Open With`
+4. Select `RubyMine.app`
+5. Select `Change All...`
+
 ## Configuration
+
+### UPDATE 2025-05
+
+Toolbox Enterprise has been renamed to [IDE Provisioner in the IDE Services suite](https://www.jetbrains.com/ide-services/ide-provisioner/):
+
+> *Propagate global IDE settings*
+>
+> *With IDE Provisioner, you can define and propagate global IDE settings to all instances of the IDEs running in your organization. Set custom VM options, limit maximum heap size, define default code styles, and manage other properties on a per-profile, per-team, or company-wide basis.*
 
 ### UPDATE 2024-04
 
-Jetbrains has pointed us to this issue to follow their progress on allowing team settings sharing: [Make Settings Sync/new separate feature suitable for team settings sharing](https://youtrack.jetbrains.com/issue/IDEA-309002)
+JetBrains has pointed us to this issue to follow their progress on allowing team settings sharing: [Make Settings Sync/new separate feature suitable for team settings sharing](https://youtrack.jetbrains.com/issue/IDEA-309002)
 
 ### UPDATE 2023-12
 
-Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/) features will finally provide a viable and easy way to share configuration across a team. Jetbrains has said that the features we need should be available sometime around mid-2024. However, the additional license cost of this may be prohibitive.
+Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/ide-services/ide-provisioner/) features will finally provide a viable and easy way to share configuration across a team. JetBrains has said that the features we need should be available sometime around mid-2024. However, the additional license cost of this may be prohibitive.
 
 ### UPDATE 2023-11
 
@@ -121,7 +138,7 @@ This is the current description of that issue:
 > This feature may be implemented along with making profiles for Settings Sync.
 
 On the [`#jetbrains-ide-users` internal Slack channel for GitLab team members](https://gitlab.slack.com/archives/CR08PTQ6T), JetBrains has indicated that:
-*"one of the possible solutions should be implemented in the scope of [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/), but AFAIK, there is no ETA for now"*
+*"one of the possible solutions should be implemented in the scope of [Toolbox Enterprise](https://www.jetbrains.com/ide-services/ide-provisioner/), but AFAIK, there is no ETA for now"*
 
 *However, if you are only wanting to sync your own settings to a remote git repo and not necessarily share them, that's still possible.*
 
@@ -170,7 +187,7 @@ JetBrains, please feel free to ask for guidance and advice in the [Chat Groups](
 
 ### "IDE" vs. "Project" config
 
-Jetbrains stores config in two ways: "Stored in IDE" and "Stored in Project":
+JetBrains stores config in two ways: "Stored in IDE" and "Stored in Project":
 
 - The "IDE" settings are stored under your home directory, in a directory like
 `/Users/cwoolley/Library/Application Support/JetBrains/RubyMine2023.2`
@@ -197,8 +214,8 @@ than the other approaches of copying entire configs.
 If you want to do this, you can just follow these instructions - it should
 take maybe a half hour to an hour.
 
-- [Chad Woolley's Jetbrains IDE setup notes](https://gitlab.com/cwoolley-gitlab/cwoolley-gitlab/-/blob/main/gitlab-workstation-setup-notes.md#jetbrains-ide-setup)
-- [Chad Woolley's curated list of Jetbrains overridden settings](https://github.com/thewoolleyman/workstation/blob/master/README.md#jetbrains-overridden-settings)
+- [Chad Woolley's JetBrains IDE setup notes](https://gitlab.com/cwoolley-gitlab/cwoolley-gitlab/-/blob/main/gitlab-workstation-setup-notes.md#jetbrains-ide-setup)
+- [Chad Woolley's curated list of JetBrains overridden settings](https://github.com/thewoolleyman/workstation/blob/master/README.md#jetbrains-overridden-settings)
 
 These are a bit scattered as they have evolved over multiple years, projects, and IDE versions.
 Chad hopes to migrate and consolidate all these instructions to this page and

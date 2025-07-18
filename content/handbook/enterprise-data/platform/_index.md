@@ -3,13 +3,54 @@ title: "Data Team Platform"
 description: "GitLab Data Team Platform"
 ---
 
+## Our Data Platform Vision
+
+These ambitions are set to be a guiding vision for GitLab's data platform.
+
+### Makes it Easier to Contribute
+
+Contributing to GitLab's Data Platform is easy and using the platform is intuitive
+
+* Documentation is complete and relevant for users and contributors
+* All data transformations are implemented in dbt
+* CI/CD is seamless, intuitive, automated for contributors and reviewers
+* Data state is derivative from sources and transformations
+* Data pipelines are idempotent
+
+### Is Reliable
+
+The data plaform along with the data it delivers is consitent in availability and accuracy
+
+* All breaking changes are testable in Dev and/or Staging Environments
+* Automated tests are implemented at every stage of the data delivery process
+* Every component of the platform can and should be defined in code and version controlled
+
+### Is Secure
+
+The Data Platform doesn't put people at risk
+
+* Data is only accisible to those authorized by documented approvals
+* The GitLab data team will stick with the [Principle of Least Privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#principle-of-least-privilege) regarding the authorization and authentication
+
+### Is Maintainable
+
+* The Data Platform component will be created with considering the good engineering practices for the [ease of maintainability](https://en.wikipedia.org/wiki/Maintainability). It means tracking of maintainability is intended to help reduce or reverse a system's tendency toward "code entropy" or degraded integrity
+
+### Benefits a Larger Community
+
+GitLab's Data Platform is relevant to a community larger than GitLab's and depends on a larger community of engineers.
+
+* Relevant Platform code is open sourced
+* Platform enhancements are contributed back into community projects
+* We prefer generalizable specifications and standards over idiosyncratic custom development
+
 ## Purpose
 
 The Data Platform is used for data analytics purposes. This document conceptually describes on high level the components which all together are defined as the Data Platform.
 
 ## Scope
 
-This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the Data Pipelines and the [infrastructure](/handbook/enterprise-data/platform/infrastructure/)/
+This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the [data pipelines](/handbook/enterprise-data/platform/pipelines/) and the [infrastructure](/handbook/enterprise-data/platform/infrastructure/)).
 
 ## Roles & Responsibilities
 
@@ -23,26 +64,26 @@ This document is limited to describe the Data Platform conceptually. There are o
 
 ## <i class="fas fa-map-marked-alt fa-fw -text-purple"></i>Quick Links
 
-- [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/)
-- [Data Pipelines](/handbook/enterprise-data/platform/pipelines/)
-- [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/)
-- [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/)
-- [Enterprise Data Warehouse](/handbook/enterprise-data/platform/edw/)
-- [Data Pump](/handbook/enterprise-data/platform/#data-pump)
-- [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/)
-- [Permifrost](/handbook/enterprise-data/platform/permifrost/)
-- [Python Guide](/handbook/enterprise-data/platform/python-guide/)
-- [Python/Tools package management and inventory](/handbook/enterprise-data/platform/python-tool-package-management/)
-- [Snowflake](/handbook/enterprise-data/platform/snowflake/)
-- [Snowplow](/handbook/enterprise-data/platform/snowplow/)
-- [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
-- [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
-- [R/RStudio](/handbook/enterprise-data/platform/rstudio/)
-- [Tableau](/handbook/enterprise-data/platform/tableau/)
+* [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/)
+* [Data Pipelines](/handbook/enterprise-data/platform/pipelines/)
+* [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/)
+* [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/)
+* [Enterprise Data Warehouse](/handbook/enterprise-data/platform/edw/)
+* [Data Pump](/handbook/enterprise-data/platform/#data-pump)
+* [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/)
+* [Permifrost](/handbook/enterprise-data/platform/permifrost/)
+* [Python Guide](/handbook/enterprise-data/platform/python-guide/)
+* [Python/Tools package management and inventory](/handbook/enterprise-data/platform/python-tool-package-management/)
+* [Snowflake](/handbook/enterprise-data/platform/snowflake/)
+* [Snowplow](/handbook/enterprise-data/platform/snowplow/)
+* [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
+* [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
+* [R/RStudio](/handbook/enterprise-data/platform/rstudio/)
+* [Tableau](/handbook/enterprise-data/platform/tableau/)
 
 ## <i class="fas fa-cubes fa-fw -text-orange"></i>Our Data Stack
 
-![Enterprise Data Platform](/handbook/enterprise-data/platform/enterprise_data_platform.png)
+![Enterprise Data Platform](/images/enterprise-data/platform/enterprise_data_platform.png)
 
 We use GitLab to operate and manage the analytics function.
 Everything starts with an issue.
@@ -60,7 +101,7 @@ Changes are implemented via merge requests, including changes to our pipelines, 
 
 ## <i class="fas fa-exchange-alt fa-fw -text-purple"></i>Extract and Load
 
-We currently use [Stitch](https://www.stitchdata.com) and [Fivetran](https://fivetran.com/) for some of our data sources. These are off-the-shelf ELT tools that remove the responsibility of building, maintaining, or orchestrating the movement of data from some data sources into our Snowflake data warehouse. We run a full-refresh of all of our Stitch/Fivetran data sources at the same time that we rotate our security credentials (approx every 90 days). Prior to running a full refresh we will drop all of the tables.
+We currently use [Stitch](https://www.stitchdata.com) and [Fivetran](https://www.fivetran.com/) for some of our data sources. These are off-the-shelf ELT tools that remove the responsibility of building, maintaining, or orchestrating the movement of data from some data sources into our Snowflake data warehouse. We run a full-refresh of all of our Stitch/Fivetran data sources at the same time that we rotate our security credentials (approx every 90 days). Prior to running a full refresh we will drop all of the tables.
 
 Stitch and Fivetran handle the start of the data pipeline themselves. This means that Airflow does not play a role in the orchestration of the Stitch- and Fivetran schedules.
 
@@ -69,7 +110,7 @@ Other solutions we use to extract data are:
 1. [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
 1. Custom pipelines built in [Python](/handbook/enterprise-data/platform/python-guide/) and orchestrated via [Airflow](/handbook/enterprise-data/platform/infrastructure/#airflow)
 1. Flows built in Tableau Prep and orchestracted by Tableau Cloud
-1. Snowflake [data share](https://docs.snowflake.com/en/user-guide/data-sharing-intro.html)
+1. Snowflake [data share](https://docs.snowflake.com/en/user-guide/data-sharing-intro)
 
 For source ownership please see [the Tech Stack Applications data file.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 
@@ -81,82 +122,17 @@ The following table indexes all of the RAW data sources we are loading into the 
 
 **Key**
 
-- Pipeline: The technology we use to replicate data.
-- RF (Replication Frequency): How often we load new and updated data.
-- Raw Schema: The schema in the `RAW` database where data is stored.
-- Prep Schema: The schema in the `PREP` database where [source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are materialized.
-- Audience: The primary users of the data.
-- SLO: Service Level Objective. Our SLO is the time between real-time and the data made available for consumption.
-  - Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
-- `x` indicates undefined or not run
+* Pipeline: The technology we use to replicate data.
+* RF (Replication Frequency): How often we load new and updated data.
+* Raw Schema: The schema in the `RAW` database where data is stored.
+* Prep Schema: The schema in the `PREP` database where [source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are materialized.
+* Audience: The primary users of the data.
+* SLO: Service Level Objective. Our SLO is the time between real-time and the data made available for consumption.
+  * Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
+`x` indicates undefined or not run
 
-| [Data Source](/handbook/enterprise-data/platform/pipelines) | Pipeline | Raw Schema | Prep Schema | Audience | RF / SLO | MNPI | Tier |
-|-------------|----------|------------|-------------|----------|----------|------|------|
-| [Adaptive](https://www.adaptiveplanning.com/) | Airflow | `adaptive_custom` | x | Finance |  | Yes | Tier 2 |
-| [Adobe / Bizible](https://experienceleague.adobe.com/docs/bizible/using/home.html) | Airflow | `bizible` | `sensitive` | Marketing | 24h / 36h | No | Tier 2 |
-| [Airflow](https://airflow.apache.org/) | Stitch | `airflow_stitch` | `airflow` | Data Team | 24h / 24h | No | Tier 3 |
-| [AWS Billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html) | Snowflake external tables | `aws_billing` | `aws_billing` | Engineering | 24h / 24h | No | Tier 2 |
-| [BambooHR](https://www.bamboohr.com/) | Airflow | `bamboohr` | `sensitive` | People | 12h / 24h | No | Tier 2 |
-| [Clari](https://www.clari.com/) | Airflow | `clari` | `clari` | Sales | 24h / 24h | Yes | Tier 2 |
-| [Clearbit](https://clearbit.com/) | x | x | x | x / x |  | No | Tier 3 |
-| [Common Room](https://www.commonroom.io/) | Snowflake task | `commonroom` | `commonroom` | `DevRels`/`Developer Advocates` |  | No | Tier 3 |
-| [CustomersDot](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-customer-dot-database) [ERD](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/staging/doc/db_erd.pdf) | pgp | `tap_postgres` | `customers` | Product | 24h / x | No | Tier 1 |
-| [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
-| [Elastic Search Billing](https://www.elastic.co/guide/en/cloud/current/Billing_Costs_Analysis.html) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
-| End to End test metrics | Snowflake tasks | `e2e_metrics` | `e2e_metrics` | Engineering | 24h / 48h | No | Tier 2 |
-| [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
-| Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
-| [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
-| [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) | pgp | `tap_postgres` | `gitlab_dotcom` | Product, Engineering | 12h / 55h | No | Tier 1 |
-| [GitLab Ops DB](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-ops-database) | pgp | `tap_postgres` | `gitlab_ops` | Engineering | 6h / x | No | Tier 1 |
-| GitLab Profiler DB | x | x | x | x | x / x | No | Tier 3 |
-| GitLab Container Registry Logs | Airflow | `Container Registry` | `Container Registry` | Engineering | x | No | Tier 2 |
-| [Google Ads](https://ads.google.com/) | Fivetran | `google_ads` | `google_ads` | Marketing | 24h / 48h | No | Tier 2 |
-| [Google Analytics 360](https://marketingplatform.google.com/about/analytics-360/) | Fivetran | `google_analytics_360_fivetran` | `google_analytics_360` | Marketing | 6h / 32h | No | Tier 2 |
-| [Google Analytics 4](https://developers.google.com/analytics/devguides/collection/ga4) | [BigQuery Exporter](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#bigquery-exporter) | `google_analytics_4_bigquery` | `google_analytics_4` | Marketing | 24h / 48h | No | Tier 2 |
-| [Google Cloud Billing](https://cloud.google.com/support/billing) | [BigQuery Exporter](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#bigquery-exporter) | `gcp_billing` | `gcp_billing` | Engineering | 24h / x | No | Tier 1 |
-| [Google Search Console](https://search.google.com/search-console/about) | Fivetran | `google_search_console` | `google_search_console` | Marketing | 24h / 48h | No | Tier 2 |
-| [Graphite API](https://graphite-api.readthedocs.io/en/latest/) | Airflow | `engineering_extracts` | x | Engineering | 24h / 48h | No | Tier 3 |
-| [Greenhouse](https://www.greenhouse.io/) | Sheetload | `greenhouse` | `greenhouse` | People | 24h / 48h | No | Tier 2 |
-| [Hackerone](https://www.hackerone.com/) | Airflow | `hackerone` | x | Security/Engineering | 24h / 48h | No | Tier 2 |
-| [Handbook YAML Files](https://gitlab.com/gitlab-data/analytics/-/tree/master/extract/gitlab_data_yaml) | Airflow | `gitlab_data_yaml` | `gitlab_data_yaml` | Multiple | 8h / 24h | No | Tier 2 |
-| [Handbook MR Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/handbook_mrs_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 24h / 24h | No | Tier 2 |
-| [Handbook Git Log Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/values_page_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 1w / 1m | No | Tier 2 |
-| Iterable | Fivetran | `iterable` | n/a | Multiple | 24h / 48h | No | Tier 3 |
-| Just Global Campaigns | Snowflake task | `just_global_campaigns` | `just_global_campaigns` | Marketing | 7d / 14d | No | Tier 3 |
-| [Kantata](https://developer.kantata.com/tag/Insights-Report-Exports/#operation/get-scheduled-report-export) | Airflow | `kantata` | `kantata` | Customer Success | 24h / 48h | Yes | Tier 3 |
-| [Level Up/Thought Industries](https://api.thoughtindustries.com/#thought-industries-api) | Airflow | `level_up` | `level_up` | People | 24h / 24h | No | Tier 3 |
-| [LinkedIn ads](https://business.linkedin.com/marketing-solutions/ads) | Fivetran | `linkedin_ads` | `n/a` | Marketing | 24h / 48h | No | Tier 3 |
-| [Marketo](https://business.adobe.com/blog/basics/marketing-automation) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
-| Monte Carlo | Snowflake Share | `n/a` | `prep_legacy` | Data | 12h / 24h | No | Tier 3 |
-| [Netsuite](https://www.netsuite.com/portal/home.shtml) | Fivetran | `netsuite_fivetran` | `netsuite` | Finance | 6h / 24h | Yes | Tier 2 |
-| [Omamori](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/omamori) | Airflow | `omamori` | `omamori` | Engineering | 1h / 24h | No  | Tier 2 |
-| Pajamas Adoption Scanner | Airflow | `pajamas_adoption_scanner` | `pajamas_adoption_scanner` | Engineering | 24h / 48h | No | Tier 3 |
-| [PMG](https://www.pmg.com/) | x | `pmg` | `pmg` | x | x / x | No | Tier 3 |
-| [Time Off by Deel](https://www.deel.com/engage/pto) | Snowpipe | `pto` | `gitlab_pto` | Engineering Productivity / People | 7 days / x | No | Tier 3 |
-| [Qualtrics](https://www.qualtrics.com/) | Airflow | `qualitrics` | `qualtrics` | Marketing | 12h / 48h | No | Tier 2 |
-| [Rally](https://help.rallyuxr.com/en/) | Stitch Webhook | `rally_webhook_stitch` | `sensitive` | UX | 24h / 48h | No | Tier 3 |
-| [SaaS Service Ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) | Airflow | `saas_usage_ping` | `saas_usage_ping` | Product | 1 week / 24h ([more context](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#slo-explanation-for-automated-service-ping)) | No | Tier 1 |
-| [Salesforce](https://www.salesforce.com/) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
-| [Salesforce Sandbox](https://gitlab--staging.sandbox.my.salesforce.com/)| Stitch | `salesforce_stitch_sandbox_v2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
-| SheetLoad | SheetLoad | `sheetload` | `sheetload` | Multiple | 24h / 48h | Yes | Tier 1 |
-| SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
-| [Snowplow](https://snowplowanalytics.com/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
-| [Tableau Cloud](https://www.tableau.com/products/cloud-bi) | Tableau Prep | `tableau_cloud` | `tableau_cloud` | Data Team | 24h / 24h | No | Tier 3 |
-| [Tableau Back-end Data](https://fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |
-| [Thanos](https://thanos-query.ops.gitlab.net/graph) | Snowflake Task | `prometheus` | `prometheus` | Engineering | 24 h / x | No | Tier 3 |
-| [Version DB](https://version.gitlab.com/users/sign_in) | Automatic Process | `version_db` | `version_db` | Product | 24 h / 48 h | No | Tier 1 |
-| [Workday](https://www.workday.com/) | Fivetran | `workday` | `workday` | People | 6h / 24h / | No | Tier 2 |
-| [Xactly](https://www.xactlycorp.com) | Meltano | `tap_xactly` | N/A | Sales | 24h / N/A | Yes | Tier 2 |
-| [Zendesk](https://www.zendesk.com/) | Meltano | `tap_zendesk` | `zendesk` | Support | 24h / 48h | No | Tier 2 |
-| [Zendesk Community Relations](https://www.zendesk.com/) | Meltano | `tap_zendesk_community_relations` | `zendesk_community_relations` | Support | 6h / 24h | No | Tier 2 |
-| [Zoom](https://zoom.us/) | Meltano | `tap_zoom` | N/A | People | 24h / N/A | No | Tier 3 |
-| [Zuora](https://www.zuora.com/) | Stitch | `zuora_stitch` | `zuora` | Finance | 6h / 24h | Yes | Tier 1 |
-| [Zuora API Sandbox](https://www.zuora.com) | Stitch | `zuora_api_sandbox_stitch` | `Legacy` | Finance | 24h / 24h | Yes | Tier 3 |
-| [Zuora Central Sandbox](https://www.zuora.com/) | Fivetran | `zuora_central_sandbox_fivetran` | `zuora_central_sandbox` | Finance Sandbox | - | Yes | Tier 3 |
-| [Zuora Developer Sandbox](https://www.zuora.com/) | Fivetran | `zuora_dev_sandbox_fivetran` | `TBD` | Finance Sandbox | - | Yes | Tier 3 |
-| [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Central_Platform/Query/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
-| [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
+{{% all-data-warehouse-sources %}}
+<!-- Add or edit data sources in https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data -->
 
 #### Source contacts
 
@@ -183,13 +159,13 @@ Sensitive data is locked down through the security paradigms listed below;
 
 ### Data Source Overviews
 
-- [Customer Success Dashboards](https://drive.google.com/open?id=1FsgvELNmQ0ADEC1hFEKhWNA1OnH-INOJ)
-- [Netsuite](https://www.youtube.com/watch?v=u2329sQrWDY)
-  - [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
-- [Version (pings)](https://drive.google.com/file/d/1S8lNyMdC3oXfCdWhY69Lx-tUVdL9SPFe/view)
-  - Note that up until October 2019, the data team referred to the entire **version** data source as "pings". However, usage ping is only one subset of the version data source which is why we now use "version" or "version app" to refer to the version.gitlab.com *data source* and "usage data" or "usage pings" or "pings" to refer to the [specific usage data feature](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) of the version data source. In the context of Data extraction, when it comes to `Service ping` data ingestion, specific details should be found in the [Service ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) page or in the [Readme.md](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/README.md) page for Service ping
-- [Salesforce](https://youtu.be/KwG3ylzWWWo)
-- [Zendesk](https://drive.google.com/open?id=1oExE1ZM5IkXcq1hJIPouxlXSiafhRRua)
+* [Customer Success Dashboards](https://drive.google.com/open?id=1FsgvELNmQ0ADEC1hFEKhWNA1OnH-INOJ)
+* [Netsuite](https://www.youtube.com/watch?v=u2329sQrWDY)
+  * [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
+* [Version (pings)](https://drive.google.com/file/d/1S8lNyMdC3oXfCdWhY69Lx-tUVdL9SPFe/view)
+  * Note that up until October 2019, the data team referred to the entire **version** data source as "pings". However, usage ping is only one subset of the version data source which is why we now use "version" or "version app" to refer to the version.gitlab.com *data source* and "usage data" or "usage pings" or "pings" to refer to the [specific usage data feature](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) of the version data source. In the context of Data extraction, when it comes to `Service ping` data ingestion, specific details should be found in the [Service ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) page or in the [Readme.md](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/README.md) page for Service ping
+* [Salesforce](https://youtu.be/KwG3ylzWWWo)
+* [Zendesk](https://drive.google.com/open?id=1oExE1ZM5IkXcq1hJIPouxlXSiafhRRua)
 
 ### Snowplow Infrastructure
 
@@ -203,28 +179,68 @@ We use Airflow on Kubernetes for our orchestration. Our specific setup/implement
 
 We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab's data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
-### Snowplow nullify columns
+### Snowplow updating columns
 
-In order not to extract geo data into Snowplow, the following columns were nullified:
+#### Snowplow nullify geo columns
 
-- `geo_zipcode`
-- `geo_latitude`
-- `geo_longitude`
-- `user_ipaddress`
+**Issue**: [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally)
 
-This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+In order not to extract geo data into Snowplow, the following columns were nullified:
+
+* `geo_zipcode`
+* `geo_latitude`
+* `geo_longitude`
+* `user_ipaddress`
+
+This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
 
 As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally), the folder structure is modified from:
 
 ```bash
 - gitlab-com-snowplow-events/
     output/ <---- all files are located here
-        2019/
-        2020/
-        2021/
-        2022/
+        2019/01/01
+        ...
+        (present day)
+```
+
+to the new structure:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated
+        2019/01/01
+        ...
+        2023/01/31
+    output/ <---- new files will land here and will be loaded by Snowpipe
+        2023/02/01
+        ...
+        (present day)
+```
+
+#### Snowplow nullify `page_url_path` columns
+
+**Issue**: [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351)
+
+In order to be compliant with data into Snowplow, the following columns were pseudo-anonymized:
+
+* `page_url_path`
+
+This pseudo-anonymization is applied for `Snowplow` data, for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
+The Data Team updated old files and pseudo-anonymized  `page_url_path` column, and also pseudo-anonymized `page_url_path` column in Snowflake.
+This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+
+As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351), the folder structure is modified from:
+
+```bash
+- gitlab-com-snowplow-events/
+    output_nullified_columns/ <---- all files are nullified and updated (in the previous iteration)
+        2022/10/26
+        ...
         2023/
-            01/
+            02/
+    output/
+        2023/
             02/
             03/
 ```
@@ -233,61 +249,66 @@ to the new structure:
 
 ```bash
 - gitlab-com-snowplow-events/
-    output_nullified/ <---- all files are nullified and update
-        2019/
-        2020/
-        2021/
-        2022/
-        2023/
-            01/
+    output_nullified_columns/
+        2019/01/01
+        ...
+        2022/10/25
+    output_mask_page_url_path/ <---- all files are pseudonimized
+        2022/10/26
+        ...
+        2023/12/01
     output/ <---- new files will land here and will be loaded by Snowpipe
-        2023/
-            02/
-            03/
+        2023/12/02
+        ...
+        (present day)
 ```
 
-All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
+> **Note:** All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
 ### Snowflake support portal access
 
 To get access to snowflake support portal, please follow the below steps.
 
-- Register using GitLab email id to [community portal](https://community.snowflake.com/CommunitiesSelfReg)
-- This registration will send a welcome email to GitLab mail with the subject `Welcome to the Snowflake Community`. In the mail it will ask you to finish the registration as part of that you will be asked to set your password for the community portal.
-- Once done login again to your snowflake community account and on the home page, click `submit case`. For the first time, the user who do not have access to submit a case with snowflake. It will ask you to fill in the form for access.
-- In the form select the access for already snowflake customer. On the next page, it will ask for information `Account Name`, `Cloud Name`, and  `Region Name`. Below is one way to pull this information from the snowflake console.
-  - `Account Name` - select CURRENT_ACCOUNT();
-  - `Region Name`- select CURRENT_REGION();
-  - `Cloud Name` - Based on the [region name](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#snowflake-region-ids)  value we can identify the cloud name.
+* When you are in your [Snowsight](https://docs.snowflake.com/en/user-guide/ui-snowsight) instance, open your account (bottom-left corner) and go to the Support option
 
-- Once done you should receive the acknowledgment mail with the subject `[Request received] Case#` instantly. In case you don't receive the mail resubmit the form.
-- Post that you will receive confirmation mail within 24 hours on your request with the subject line  `Case# -Self Register - Enable Case access`
+![Account](/images/data/support_sf_1.png)
+
+* On the panel, you can see the already open cases
+
+![Open cases](/images/data/support_sf_2.png)
+
+* In the top-right corner, to open a new case, press `+ Support Case` button
+* Fill in the data to describe your issue and the Snowflake team will handle it
+
+![Support case](/images/data/support_sf_3.png)
+
+* For each update on your case, you will be informed by email
 
 ### Warehouse Access
 
 To gain access to Snowflake:
 
-- Create an issue in the [access requests project](https://gitlab.com/gitlab-com/team-member-epics/access-requests) documenting the level of access required.
-- Do not request a shared account - each account must be tied to a user.
-- We loosely follow the paradigm explained in [this blog post](https://blog.fishtownanalytics.com/how-we-configure-snowflake-fc13f1eb36c4) around permissioning users.
-- When asking to mirror an existing account, please note that access to restricted SAFE data will **not** be provisioned/mirrored (currently provided via `restricted_safe` role).
-- Snowflake is part of the [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/) and manager will be asked on a quarterly basis to review the access their team members have in Snowflake. It is expected from the manager to understand the available roles(structure) in Snowflake if approving an AR or reviewing their team member access.
-  - In the access review, only the first level of Snowflake roles are reported (the ones that are directly attached to the user). I.e. If a team member does have the `analyst_marketing` role, only the `analyst_marketing` is reported and all inherited roles in the `analyst_marketing` are not.
-    - Roles could be distinguished between functional roles and object roles
-      - See this list of functional roles in Snowflake [here](/handbook/enterprise-data/platform/#Functional_Role_Assignment) and object roles.
-      - Object roles are directly related to systems and gives Team Members access to **all** of the data we extract from those upstream source systems.
-      - To know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
-      - If unsure, during AR process or Access Review, please reach out to a Data Platform Team Member to understand in detail what a specific role entails.
+* Create an issue in the [access requests project](https://gitlab.com/gitlab-com/team-member-epics/access-requests) documenting the level of access required.
+* Do not request a shared account - each account must be tied to a user.
+* We loosely follow the paradigm explained in [this blog post](https://www.getdbt.com/blog/how-we-configure-snowflake) around permissioning users.
+* When asking to mirror an existing account, please note that access to restricted SAFE data will **not** be provisioned/mirrored (currently provided via `restricted_safe` role).
+* Snowflake is part of the [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/) and manager will be asked on a quarterly basis to review the access their team members have in Snowflake. It is expected from the manager to understand the available roles(structure) in Snowflake if approving an AR or reviewing their team member access.
+  * In the access review, only the first level of Snowflake roles are reported (the ones that are directly attached to the user). I.e. If a team member does have the `analyst_marketing` role, only the `analyst_marketing` is reported and all inherited roles in the `analyst_marketing` are not.
+    * Roles could be distinguished between functional roles and object roles
+      * See this list of functional roles in Snowflake and object roles.
+      * Object roles are directly related to systems and gives Team Members access to **all** of the data we extract from those upstream source systems.
+      * To know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+      * If unsure, during AR process or Access Review, please reach out to a Data Platform Team Member to understand in detail what a specific role entails.
 
 #### Snowflake Analyst
 
-Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](handbook/it/data-team/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
+Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](/handbook/enterprise-data/how-we-work/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
 
 In order to be granted access to Snowflake, an AR must be opened as [described](/handbook/enterprise-data/platform/#warehouse-access). A new user will be created with access to query the `PROD` database.
 There are 2 levels of data access:
 
-- General data --> Adding the Snowflake `snowflake_analyst` role to their account.
-- SAFE data (you must be or will become a designated insider) --> Adding the Snowflake `snowflake_analyst_safe` to their account. See the [SAFE Guide](handbook/it/data-team/platform/safe-data/#snowflake) for the needed approvals.
+* General data --> Adding the Snowflake `snowflake_analyst` role to their account.
+* SAFE data (you must be or will become a designated insider) --> Adding the Snowflake `snowflake_analyst_safe` to their account. See the [SAFE Guide](/handbook/enterprise-data/platform/safe-data/#snowflake) for the needed approvals.
 
 All users will have access to `dev_xs` and `reporting` -(size M) warehouse. When creating the user, the `dev_xs` warehouse as default warehouse.
 
@@ -299,15 +320,15 @@ Also available is our [handbook page on Permifrost](/handbook/enterprise-data/pl
 
 We follow this general strategy for role management:
 
-- Every user has an associated user role
-- Functional roles exist to represent common privilege sets (`analyst_finance`, `data_manager`, `product_manager`)
-- Logical groups of data have their own object roles
-- Object roles are assigned primarily to functional roles
-- Higher privilege roles (`accountadmin`, `securityadmin`, `useradmin`, `sysadmin`) are assigned directly to users
-- Service accounts have an identically named role
-- Additional roles can be assigned either to the service account role or the service account itself, depending on usage and needs
-- Individual privileges can be granted at the granularity of the table & view
-- Warehouse usage can be granted to any role as needed, but granting to functional roles is recommended
+* Every user has an associated user role
+* Functional roles exist to represent common privilege sets (`analyst_finance`, `data_manager`, `product_manager`)
+* Logical groups of data have their own object roles
+* Object roles are assigned primarily to functional roles
+* Higher privilege roles (`accountadmin`, `securityadmin`, `useradmin`, `sysadmin`) are assigned directly to users
+* Service accounts have an identically named role
+* Additional roles can be assigned either to the service account role or the service account itself, depending on usage and needs
+* Individual privileges can be granted at the granularity of the table & view
+* Warehouse usage can be granted to any role as needed, but granting to functional roles is recommended
 
 #### User Roles
 
@@ -331,7 +352,7 @@ It makes the most sense when there are multiple people who have very similar job
 
 ##### Functional Role Assignment
 
-This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/snowflake-permissions/-/blob/main/roles.yml).
 
 | Functional Role | Description | SAFE Data Y/N |
 | --- | --- | --- |
@@ -349,6 +370,7 @@ This list of functional roles gives a high level understanding of what the role 
 | `engineer` | Extension access to Snowflake data to perform data operation tasks in Snowflake | Yes |
 | `snowflake_analyst` | Access to `PROD` data in Snowflake, EDM schema and workspaces | No |
 | `snowflake_analyst_safe` | Access to `PROD` data in Snowflake, EDM schema and workspaces including SAFE data | Yes |
+| `sensitive_pii_data_viewer` |  Access to all sensitive fields in person and contact data mastery models. | No |
 
 #### Object Roles
 
@@ -405,34 +427,36 @@ graph LR
 
 Here are the proper steps for provisioning a new user and user role:
 
-- Make sure we have an issue in the GitLab Data Team project linking the original request with the `Provisioning` label applied
-- Login to Snowflake and switch to `securityadmin` role
-  - All roles should be under `securityadmin` ownership
-- Copy the [`user_provision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_provision.sql) script and replace the email, firstname, and lastname values in the initial block
-- If a password is needed, use [Password Generator](https://passwordsgenerator.net/) to create one
-  - Send username and password credentials to user with [One Time Secret](https://onetimesecret.com/) or via Slack
-- Document in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
-  - Add the user and user role you created
-  - Assign the user role to new user
-  - Assign any additional roles to user
-- Ensure the user is assigned the application in Okta
-- Ensure the user is assigned to the `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
+* Make sure we have an issue in the GitLab Data Team project linking the original request with the `Provisioning` label applied
+* Login to Snowflake and switch to `securityadmin` role
+  * All roles should be under `securityadmin` ownership
+* Copy the [`user_provision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_provision.sql) script and replace the email, firstname, and lastname values in the initial block
+* If a password is needed, use [Password Generator](https://www.avast.com/random-password-generator#mac) to create one
+  * Send username and password credentials to user with [One Time Secret](https://onetimesecret.com/) or via Slack
+* Document in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
+   Add the user and user role you created
+  * Assign the user role to new user
+  * Assign any additional roles to user
+* Ensure the user is assigned the application in Okta
+* Ensure the user is assigned to the `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
 
 Here are the proper steps for deprovisioning existing user:
 
-- Snowflake deprovision should be done via an offboarding issue or access request issue.
-- Make sure we have an issue in the GitLab Data Team project linking the original source request with the `Deprovisioning` label applied.
-- Login to Snowflake and switch to `securityadmin` role
-  - All roles should be under `securityadmin` ownership.
-- Copy the [`user_deprovision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_deprovision.sql) script and replace the USER_NAME. The reason for not removing and leaving the user in snowflake and setting disabled = TRUE is to have a record of when the user lost access.
-- Remove the user from `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
-- Remove the user records in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
+* Snowflake deprovision should be done via an offboarding issue or access request issue.
+* Make sure we have an issue in the GitLab Data Team project linking the original source request with the `Deprovisioning` label applied.
+* Login to Snowflake and switch to `securityadmin` role
+  * All roles should be under `securityadmin` ownership.
+* Copy the [`user_deprovision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_deprovision.sql) script and replace the USER_NAME. The reason for not removing and leaving the user in snowflake and setting disabled = TRUE is to have a record of when the user lost access.
+* Remove the user from `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
+* Remove the user records in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
 
 For more information, watch this [recorded pairing session](https://youtu.be/-vpH0aSeO9c) (must be viewed as GitLab Unfiltered).
 
 ## Snowflake Provisioning Automation
 
-In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128). This will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake.
+In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128).
+
+The main driver for this change was that there was anticipated increase for access by Engineering teams, and we needed a process to allow provisioning multiple members at once. Furthermore, this will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake.
 
 All GitLab Team Members are encouraged to open a MR following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if they need access to Snowflake.
 
@@ -510,25 +534,25 @@ ROLES_TEMPLATE: {"{{username}}": {"member_of": ["snowflake_analyst"],"warehouses
 
 Currently, these are the available template-able values that will be rendered:
 
-- `{{ username }}`
-- `{{ prod_db }}`
-- `{{ prep_db }}`
-- `{{ prod_schemas }}`
-- `{{ prep_schemas }}`
-- `{{ prod_tables }}`
-- `{{ prep_tables }}`
+* `{{ username }}`
+* `{{ prod_db }}`
+* `{{ prep_db }}`
+* `{{ prod_schemas }}`
+* `{{ prep_schemas }}`
+* `{{ prod_tables }}`
+* `{{ prep_tables }}`
 
 #### Common Custom Templates
 
 This section is meant to provide custom templates (non-default values) that represent common-occurring values in `roles.yml` that can be copy/pasted for use.
 
-- *Default* denotes that this is the template used if not explicitly overridden.
-- *Common* denotes that while the template is not used by default, these values are still commonly used within roles.yml
+* *Default* denotes that this is the template used if not explicitly overridden.
+* *Common* denotes that while the template is not used by default, these values are still commonly used within roles.yml
 
 ##### Databases
 
-- Default: None, no databases are added
-- Common: CI job argument to create a personal prep/prod database for each user:
+* Default: None, no databases are added
+* Common: CI job argument to create a personal prep/prod database for each user:
 
     ```sh
     DATABASES_TEMPLATE: [{"{{ prod_database }}": {"shared": false}}, {"{{ prep_database }}": {"shared": false}}]
@@ -536,13 +560,13 @@ This section is meant to provide custom templates (non-default values) that repr
 
 ##### Roles
 
-- Default:
+* Default:
 
     ```sh
     ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["snowflake_analyst"], "warehouses": ["dev_xs"]}}
     ```
 
-- Common- CI job argument to create a role for a data engineer:
+* Common- CI job argument to create a role for a data engineer:
 
     ```sh
     ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["engineer","restricted_safe"],"warehouses": ["dev_xs","dev_m","loading","reporting"],"owns": {"databases": ["{{ prep_database }}","{{ prod_database }}"],"schemas": ["{{ prep_schemas }}","{{ prod_schemas }}"],"tables": ["{{ prep_tables }}","{{ prod_tables }}"]},"privileges": {"databases": {"read": ["{{ prep_database }}","{{ prod_database }}"],"write": ["{{ prep_database }}","{{ prod_database }}"]},"schemas": {"read": ["{{ prep_schemas }}","{{ prod_schema }}"],"write": ["{{ prep_schemas }}","{{ prod_schema }}"]},"tables": {"read": ["{{ prep_tables }}","{{ prod_tables }}"],"write": ["{{ prep_tables }}","{{ prod_tables }}"]}}}}
@@ -550,13 +574,13 @@ This section is meant to provide custom templates (non-default values) that repr
 
 ##### Users
 
-- Default:
+* Default:
 
     ```sh
     USERS_TEMPLATE: {"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}
     ```
 
-- Common: N/A. There are no other templates that we currently use for users
+* Common: N/A. There are no other templates that we currently use for users
 
 </details>
 
@@ -581,6 +605,28 @@ The workaround is that at the bottom of `snowflake_users.yml`, it has this comme
 ```yml
 #### do not insert users below this line ####
 ```
+
+### Local Testing
+
+Both `update_roles_yaml` and `provision_users` can be run locally for faster testing compared to CI jobs.
+
+**Setup for `provision_users`:**
+
+1. Export required environment variables:
+
+   ```bash
+   export EMAIL_DOMAIN='gitlab.com'
+   export PERMISSION_BOT_USER="bot_user_123"
+   export PERMISSION_BOT_PASSWORD="random_pass_456"
+   export SNOWFLAKE_ACCOUNT="xy12345.us-east-1"
+   export PERMISSION_BOT_WAREHOUSE="COMPUTE_WH"
+   ```
+
+2. Python test run (no Snowflake user creation):
+
+   ```bash
+   python provision_users.py --users-to-add some-user1 user2 --test-run
+   ```
 
 ### Snowflake Deprovisioning Users
 
@@ -609,12 +655,12 @@ When you apply for a Snowflake account via an AR and get access provisioned it t
 
 When you don't select the right role in Snowflake, you only see the following Snowflake objects:
 
-![object_list](/handbook/enterprise-data/platform/object_list_snowsight.png)
+![object_list](/images/enterprise-data/platform/object_list_snowsight.png)
 
 Selecting the right role can be done via the GUI.
 When in Snowsight home screen, in the up left corner.
 
-![select_role](/handbook/enterprise-data/platform/select_role1.png)
+![select_role](/images/enterprise-data/platform/select_role1.png)
 
 1. Click on the arrow near your name
 2. Select Switch Role
@@ -622,7 +668,7 @@ When in Snowsight home screen, in the up left corner.
 
 When in Snowsight in a worksheet, in the up right corner.
 
-![select_role](/handbook/enterprise-data/platform/select_role2.png)
+![select_role](/images/enterprise-data/platform/select_role2.png)
 
 1. Click on `public`
 2. Select your role
@@ -656,13 +702,13 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 
 If you're running into query time limits please check your query for optimisation. A bad performing query in development will result in a bad performing query in production, having impact on a daily basis. Please **always** use the right (size) warehouse. Ground rules of using/selecting a warehouse:
 
-- Warehouses are set as t-shirt sizes. Larger warehouses are more costly for GitLab
-- Consider using a running warehouse
-  - If you resume a paused warehouse, there is a initial start cost
-  - Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
-  - In general we don't spend more money if we run concurrent queries.
+* Warehouses are set as t-shirt sizes. Larger warehouses are more costly for GitLab
+* Consider using a running warehouse
+  * If you resume a paused warehouse, there is a initial start cost
+  * Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
+  * In general we don't spend more money if we run concurrent queries.
 
-- The query timeout in Snowflake is set to 30 minutes for the `REPORTING` warehouse.
+* The query timeout in Snowflake is set to 30 minutes for the `REPORTING` warehouse.
 
 ### Data Storage
 
@@ -670,20 +716,20 @@ We use three primary databases: `raw`, `prep`, and `prod`.
 The `raw` database is where data is first loaded into Snowflake; the other databases are for data that is ready for analysis (or getting there).
 
 {{% alert  color="warning" %}}
-All tables and views in `prep` and `prod` are controlled (created, updated) via dbt. [Every Quarter](handbook/it/data-team/data-management/#quarterly-data-health-and-security-audit) the Data Platform Team runs a check for tables and views that are not related to a dbt model and will be removed.
+All tables and views in `prep` and `prod` are controlled (created, updated) via dbt. [Every Quarter](/handbook/enterprise-data/data-governance/data-management/#quarterly-data-health-and-security-audit) the Data Platform Team runs a check for tables and views that are not related to a dbt model and will be removed.
 {{% /alert %}}
 
 The following list of schema are exceptions and not checked:
 
-- `SNOWPLOW_%`
-- `DOTCOM_USAGE_EVENTS_%`
-- `INFORMATION_SCHEMA`
-- `BONEYARD`
-- `TDF`
-- `CONTAINER_REGISTRY`
-- `FULL_TABLE_CLONES`
-- `QUALTRICS_MAILING_LIST`
-- `NETSUITE_FIVETRAN`
+* `SNOWPLOW_%`
+* `DOTCOM_USAGE_EVENTS_%`
+* `INFORMATION_SCHEMA`
+* `BONEYARD`
+* `TDF`
+* `CONTAINER_REGISTRY`
+* `FULL_TABLE_CLONES`
+* `QUALTRICS_MAILING_LIST`
+* `NETSUITE_FIVETRAN`
 
 There is a `snowflake` database, which contains information about the entire GitLab instance.
 This includes all tables, views, queries, users, etc.
@@ -708,24 +754,31 @@ Only the `prod` database should be used in Tableau as this data has been transfo
 
 No dbt models exist for this data and so it may be the case that the data needs review or transformation in order to be useful or accurate. This review, documentation, and transformation all happens downstream in dbt for `PREP` and `PROD`. This database should not be used in Tableau.
 
-- Raw may contain sensitive data, so permissions need to be carefully controlled
-- RAW will contain data that isn't ready for business use.
-- Data is stored in different schemas based on the source
-- User access can be controlled by schema and tables
+* Raw may contain sensitive data, so permissions need to be carefully controlled
+* RAW will contain data that isn't ready for business use.
+* Data is stored in different schemas based on the source
+* User access can be controlled by schema and tables
+
+##### Snowflake Data Share
+
+Snowflake data sharing enables sharing various Snowflake objects like databases, tables, secure views, and a couple more from one Snowflake account to another. Snowflake shares can be both Inbound and outbound. Inbound share, which is being used at Gitlab, is for accessing third-party data sources like ZoomInfo and Zuora Revenue; the mechanism followed here is direct share, where data providers share specific database objects to our Snowflake account.
+Outbound sharing is when we want to share our data with a third party. This involves creating an outbound share of a snowflake object in their account and granting access to the snowflake object (table, view, database, etc.) that needs to be shared to an external account using either a web interface or SQL.
+
+Snowflake Data Shares can be seen as an extension of the `raw` layer, but sharded (and) in different accounts. We don't see Snowflake Data Shares as a source from which data needs to be copied, but rather we connect directly to Snowflake Data Shares as we do to the `raw` layer (i.e., with dbt). This approach helps avoid creating extra processes and makes the pipeline more efficient.
 
 #### Prep
 
 This is the first layer of verification and transformation in the warehouse, but is not yet ready for general business use. This database should not be used in Tableau.
 
-- [Source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are built in logical schemas corresponding to the data source (i.e. `sfdc`, `zuora`)
-- PREPARATION - this is the default schema where dbt models are built
-- SENSITIVE
+* [Source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are built in logical schemas corresponding to the data source (i.e. `sfdc`, `zuora`)
+* PREPARATION - this is the default schema where dbt models are built
+* SENSITIVE
 
 #### Prod
 
 This database and all schemas and tables in it are queryable by Tableau. This data has been transformed and modeled for business use.
 
-With the exception of `public`, and [`boneyard`](/handbook/enterprise-data/#mind-about-sheetload), all schemas are controlled by dbt.
+With the exception of `public`, and `boneyard`, all schemas are controlled by dbt.
 See the [dbt guide](/handbook/enterprise-data/platform/dbt-guide) for more information.
 
 #### Folder Structure in Analytics Project
@@ -775,8 +828,8 @@ This way we have the data in the `STATIC` database and even if we perform a full
 
 Examples of this implementation can be found below:
 
-- Qualtrics, [Link to the MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/7676)
-- Clari, [Link to the MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/7655)
+* Qualtrics, [Link to the MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/7676)
+* Clari, [Link to the MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/7655)
 
 ### Data Masking
 
@@ -788,7 +841,7 @@ Static data masking is applied during the transformation of the data and the mas
 
 #### Dynamic Masking
 
-Dynamic masking is currently applied on tables or views in the `prep` and `prod` layer at query run time based on assigned policies and user roles using the [Dynamic Data Masking](https://docs.snowflake.com/en/user-guide/security-column-ddm-use.html) capabilities of Snowflake. Dynamic masking allows for data to be unmasked for selected users wile masked for all other users. This is accomplished by creating masking policies that are then applied to the column at the time of table or view creation. Masking policies are maintained within the data warehouse source code repository. Please see the [dbt guide](/handbook/enterprise-data/platform/dbt-guide/#dynamic-masking) to setup dynamic masking.
+Dynamic masking is currently applied on tables or views in the `prep` and `prod` layer at query run time based on assigned policies and user roles using the [Dynamic Data Masking](https://docs.snowflake.com/en/user-guide/security-column-ddm-use) capabilities of Snowflake. Dynamic masking allows for data to be unmasked for selected users wile masked for all other users. This is accomplished by creating masking policies that are then applied to the column at the time of table or view creation. Masking policies are maintained within the data warehouse source code repository. Please see the [dbt guide](/handbook/enterprise-data/platform/dbt-guide/#dynamic-masking) to setup dynamic masking.
 
 Note: Dynamic masking is not applied on `raw` database yet.
 
@@ -806,7 +859,7 @@ We use the term snapshots in multiple places throughout the data team handbook a
 
 #### dbt
 
-The most common usage is in reference to [dbt snapshots](https://docs.getdbt.com/docs/snapshots). When dbt snapshots is run, it takes the current state of the *source* data and updates the corresponding *snapshot* table, which is a table that contains the full history of the source table. It has `valid_to` and `valid_from` fields indicating the time period for which that particular snapshot is valid. See the [dbt snapshots](/handbook/enterprise-data/platform/dbt-guide/#snapshots) section in our dbt guide for more technical information.
+The most common usage is in reference to [dbt snapshots](https://docs.getdbt.com/docs/build/snapshots). When dbt snapshots is run, it takes the current state of the *source* data and updates the corresponding *snapshot* table, which is a table that contains the full history of the source table. It has `valid_to` and `valid_from` fields indicating the time period for which that particular snapshot is valid. See the [dbt snapshots](/handbook/enterprise-data/platform/dbt-guide/#snapshots) section in our dbt guide for more technical information.
 
 The tables generated and maintained by dbt snapshots are the raw historical snapshot tables. We will build downstream models on top of these raw historical snapshots for further querying. The [snapshots folder](https://gitlab.com/gitlab-data/analytics/tree/master/transform/snowflake-dbt/snapshots) is where we store the dbt models. One common model we may build is one that generate a single entry (i.e. a single snapshot) for a given day; this is useful when there are multiple snapshots taken in a 24 hour period. We also will build models to return the most current snapshot from the raw historical table.
 
@@ -818,10 +871,10 @@ The extracts we do for some [yaml files](https://gitlab.com/gitlab-data/analytic
 
 #### Language
 
-- Snapshot - The state of data at a specific point in time
-- Take a snapshot - Run the job that takes the state of the data currently and stores it. Can be used in the dbt context. Not recommended to reference our yaml extract jobs - these would be "run the extract".
-- Historical snapshots - A table that contains data for a given source table at multiple points in time. Most commonly used to reference dbt-generated snapshot tables. Can also be used to reference the yaml extract tables.
-- Latest snapshot - The most current state of the data we have stored. For dbt snapshots these are the records that have null for the `valid_to`. For yaml extracts this correspond to the last time the extraction job was run. For Greenhouse raw, this represents the data as it is in the warehouse. Were we to start taking snapshots of the Greenhouse data the speaker would have to clarify if they mean the raw table or the latest record in the historical snapshots table.
+* Snapshot - The state of data at a specific point in time
+* Take a snapshot - Run the job that takes the state of the data currently and stores it. Can be used in the dbt context. Not recommended to reference our yaml extract jobs - these would be "run the extract".
+* Historical snapshots - A table that contains data for a given source table at multiple points in time. Most commonly used to reference dbt-generated snapshot tables. Can also be used to reference the yaml extract tables.
+* Latest snapshot - The most current state of the data we have stored. For dbt snapshots these are the records that have null for the `valid_to`. For yaml extracts this correspond to the last time the extraction job was run. For Greenhouse raw, this represents the data as it is in the warehouse. Were we to start taking snapshots of the Greenhouse data the speaker would have to clarify if they mean the raw table or the latest record in the historical snapshots table.
 
 ### Backups
 
@@ -833,47 +886,49 @@ Note: the (Snowflake) Data Platform doesn't act as a data archival solution for 
 
 We've identified currently 2 types of unforeseen circumstances:
 
-- Incorrect events happening inside the data platform.
-- Unavailability of the Snowflake environment.
+* Incorrect events happening inside the data platform.
+* Unavailability of the Snowflake environment.
 
 ##### Incorrect events happening inside the data platform
 
 This can be data manipulation action done by a GitLab Team member or by services with access to the data in Snowflake. Some examples are accidentally dropping/truncating a table or running incorrect logic in a transformation.
 
-The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/enterprise-data/platform/#data-sources), which is all managed [idempotently](https://docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/enterprise-data/platform/pipelines/) we follow the appropriate [Data refresh procedure](/handbook/enterprise-data/platform/infrastructure/#data-refresh).
+The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/enterprise-data/platform/#data-sources), which is all managed [idempotently](https://next.docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/enterprise-data/platform/pipelines/) we follow the appropriate [Data refresh procedure](/handbook/enterprise-data/platform/infrastructure/#data-refresh).
 
 However, there are some exceptions to this. Any data in snowflake which is not a result of idempotent processes or that cannot be refreshed in a practical amount of time should be backed up. For this we use Snowflake Time travel. Which includes:
 
 1. Storage in permanent (not transient) tables.
-1. [A data retention period](https://docs.snowflake.com/en/user-guide/data-time-travel.html#specifying-the-data-retention-period-for-an-object) of 30 days.
+1. [A data retention period](https://docs.snowflake.com/en/user-guide/data-time-travel#specifying-the-data-retention-period-for-an-object) of 30 days.
 
 The data retention period is set via dbt This should be implemented in code via a dbt post-hook [example](https://gitlab.com/gitlab-data/analytics/-/blob/b898087672bfeb3e6329d76696de220fc4b9b2a9/transform/snowflake-dbt/dbt_project.yml#L658).
 
 The following set of rules and guidelines applies to backing up data/using time travel:
 
-- **It is the responsibility of the [CODEOWNER](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) to ensure that the backup processes has been correctly implemented for the data that their code builds or maintains.**
-- Backups (via Time Travel)  need not be applied on dbt models by [default](https://docs.getdbt.com/reference/resource-configs/snowflake-configs#transient-tables) since these are idempotent **and** this would result in a huge increase of the storage costs in Snowflake.
-- The retention period is set to 30 days.
+* **It is the responsibility of the [CODEOWNER](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) to ensure that the backup processes has been correctly implemented for the data that their code builds or maintains.**
+* Backups (via Time Travel)  need not be applied on dbt models by [default](https://docs.getdbt.com/reference/resource-configs/snowflake-configs#transient-tables) since these are idempotent **and** this would result in a huge increase of the storage costs in Snowflake.
+* The retention period is set to 30 days.
 
 At the moment the following snowflake objects are considered in scope for Time Travel recovery:
 
-- `RAW.SNAPSHOTS.*`
+* `RAW.SNAPSHOTS.*`
 
 Once a table is permanent with a retention period we are able to use [Time Travel (internal runbook)](https://gitlab.com/gitlab-data/runbooks/-/blob/main/data_restoration/time_travel.md) in the event we need to recover one of these tables.
 
 ##### Unavailability of the Snowflake environment
 
-For the unlikely event that Snowflake becomes unavailable for an undetermined amount of time, we additionally backup the any business critical data, where Snowflake is the primary source, to Google Cloud Storage (GCS). We execute these backup jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/using-operations) capabilities. Currently, we backup all of our **snapshots** daily and retain them for a period of 60 days (per GCS retention policy). If a table should be added to this GCS backup procedure it should be added via the [backup manifest](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/backup_manifest.yaml).
+For the unlikely event that Snowflake becomes unavailable for an undetermined amount of time, we additionally backup the any business critical data, where Snowflake is the primary source, to Google Cloud Storage (GCS). We execute these backup jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/build/hooks-operations) capabilities. Currently, we backup all of our **snapshots** daily and retain them for a period of 60 days (per GCS retention policy). If a table should be added to this GCS backup procedure it should be added via the [backup manifest](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/backup_manifest.yaml).
 
-### Admin
+## Snowflake Admin tasks
 
 In order to keep Snowflake up and running, we perform administrative work.
 
-#### Create new Snowflake external stage for storage bucket
+## Create new Snowflake external stage for **GCS** storage bucket
 
-In order for Snowflake to access the files in the storage bucket (i.e GCS, S3), the files must be copied into a Snowflake `external stage`.
+In order for Snowflake to access the files in GCS bucket, the files must be copied into a Snowflake `external stage`.
 
 To create the external stage, the new path to the bucket must be included (included means **appended** to the existing list of storage locations) in the `STORAGE_ALLOWED_LOCATIONS` attribute. If it is not appended, but **overwritten** to the existing attributes, all existing storage locations will be **erased** and stop many pipelines to run. Follow these instructions to append the new external stage:
+
+The `GCS_INTEGRATION` is Snowflake storage integration for `gitlab-analysis` project in GCP. If the bucket is in different project, a new integration would need to be created.
 
 1. use role `ACCOUNTADMIN`, if you don't have access to this role, you cannot proceed
 1. get all *current* storage locations by running this:
@@ -884,17 +939,17 @@ To create the external stage, the new path to the bucket must be included (inclu
 
 1. From the output, copy the value  under `property_value` where property=`STORAGE_ALLOWED_LOCATIONS`. It will look something like: `gcs://postgres_pipeline/,gcs://snowflake_backups,..`.
 1. Update the Storage Integration, instructions:
-    - take the 'current_paths' that you just copied and combine it with the 'new_path' that you want to add.
-        - Each path needs to be separated by a `,`
-        - Each path needs to have it's own pair of  `''`, These need to be added manually
-    - ALTER statement template:
+    * take the 'current_paths' that you just copied and combine it with the 'new_path' that you want to add.
+        * Each path needs to be separated by a `,`
+        * Each path needs to have it's own pair of  `''`, These need to be added manually
+    * ALTER statement template:
 
         ```sql
         ALTER STORAGE INTEGRATION GCS_INTEGRATION
         SET STORAGE_ALLOWED_LOCATIONS = ('current_path1','current_path2','new_path');
         ```
 
-    - ALTER statement example:
+    * ALTER statement example:
 
         ```sql
         ALTER STORAGE INTEGRATION GCS_INTEGRATION
@@ -908,6 +963,93 @@ To create the external stage, the new path to the bucket must be included (inclu
     STORAGE_INTEGRATION = GCS_INTEGRATION URL = 'bucket location';
     ```
 
+## Create new Snowflake external stage for **AWS S3** storage bucket
+
+This guide explains how to grant Snowflake access to a new S3 bucket using the existing Snowflake storage integration.
+
+### Overview
+
+The process involves:
+
+1. Creating a new S3 bucket using terraform
+1. Updating the IAM policy to allow Snowflake access to this bucket
+1. Updating the Snowflake storage integration configuration
+
+### Prerequisites
+
+* Access to `config-mgmt` repo, specifically the `aws-gitlab-analysis` environment.
+* Snowflake account access with `ACCOUNTADMIN` role
+
+### Detailed Steps
+
+<details><summary>Click to expand</summary>
+
+#### 1. Create the S3 Bucket
+
+1. In the repository: [gitlab-com/gl-infra/config-mgmt](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt)
+1. Create a new S3 bucket via Terraform in the `aws-gitlab-analysis` environment:
+
+    ```terraform
+    resource "aws_s3_bucket" "some_new_bucket" {
+      bucket = "your-new-bucket-name"
+      # Add other configuration as needed
+    }
+    ```
+
+#### 2. Update the IAM Policy
+
+1. In the same repo as the previous step, navigate to the policy file in GitLab:
+   * File path: `environments/aws-gitlab-analysis/templates/iam_policy_snowflake_s3_integration.json`
+
+1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket.
+
+    ```json
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:PutObject",
+        "s3:ListBucket"
+      ],
+      "Resource": [
+        "arn:aws:s3:::your-new-bucket-name/*",
+        "arn:aws:s3:::your-new-bucket-name"
+      ]
+    }
+    ```
+
+1. Just like any change in config-mgmt repo, get approvals, and then run `atlantis apply` to deploy the change
+
+#### 3. Update the Snowflake Storage Integration
+
+Add the new bucket to the allowed storage locations in Snowflake:
+
+1. Use `ACCOUNTADMIN` role
+1. Update the Snowflake storage integration, be sure you **append** the new bucket to the existing list of buckets:
+
+    ```sql
+    ALTER STORAGE INTEGRATION S3_DATA_PUMP
+    SET STORAGE_ALLOWED_LOCATIONS = ('s3://existing-bucket-1/', 's3://existing-bucket-2/', 's3://your-new-bucket-name/');
+    ```
+
+1. Verify the integration settings:
+
+    ```sql
+    DESC INTEGRATION S3_DATA_PUMP;
+    ```
+
+Note: We are treating the `S3_DATA_PUMP` Snowflake storage integration as the generic one which is responsible for establishing connection to S3 in the main AWS project where Snowplow instance is running. If we have a new bucket in different project, such as in a customer provided one, we would need to create a new Snowflake integration for that AWS project, [Snowflake docs](https://docs.snowflake.com/en/user-guide/data-load-s3-config-storage-integration).
+
+#### 4. Verification
+
+To verify everything is working correctly:
+
+1. In Snowflake, attempt to create an external stage using the new bucket
+1. Test reading from and writing to the bucket using Snowflake queries
+
+</details>
+
 ## <i class="fas fa-cogs fa-fw -text-orange"></i>Transformation
 
 We use [dbt](https://www.getdbt.com/) for all of our transformations.
@@ -915,20 +1057,20 @@ See our [dbt guide](/handbook/enterprise-data/platform/dbt-guide) for more detai
 
 ## <i class="fas fa-check-double fa-fw -text-purple"></i>Trusted Data Framework
 
-Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the [Enterprise Data Platform](/handbook/enterprise-data/direction/#a-complete-enterprise-data-platform) is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
+Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the Enterprise Data Platform is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
 
-- Enable everyone to contribute to trusted data, not just analysts and engineers
-- Enable data validations from top to bottom and across all stages of data processing
-- Validate data from source system data pipelines
-- Validate data transforms into dimensional models
-- Validate critical company data
-- Deployable independently from central data processing technology
+* Enable everyone to contribute to trusted data, not just analysts and engineers
+* Enable data validations from top to bottom and across all stages of data processing
+* Validate data from source system data pipelines
+* Validate data transforms into dimensional models
+* Validate critical company data
+* Deployable independently from central data processing technology
 
 ### Key Terms
 
-- Assertion or Test Case - An [individual test](https://en.wikipedia.org/wiki/Test_case#:~:text=In%20software%20engineering%2C%20a%20test,verify%20compliance%20with%20a%20specific) and the smallest unit of a test that can be performed. In TDF the test case is expressed either as a SQL statement or via a YAML configuration within SQL-compilation tool, dbt.
-- Data Schema - The tables, columns, views, and other structural elements that make up a data subject area, create using [SQL Data Definition Language](https://en.wikipedia.org/wiki/Data_definition_language#:~:text=In%20the%20context%20of%20SQL,tables%2C%20indexes%2C%20and%20users.) (DDL).
-- Monitoring - [Tracking the results](https://www.edq.com/glossary/data-monitoring/#:~:text=Data%20monitoring%20is%20the%20process,using%20dashboards%2C%20alerts%20and%20reports.) of tests cases to help ensure data is ready for use.
+* Assertion or Test Case - An [individual test](https://en.wikipedia.org/wiki/Test_case#:~:text=In%20software%20engineering%2C%20a%20test,verify%20compliance%20with%20a%20specific) and the smallest unit of a test that can be performed. In TDF the test case is expressed either as a SQL statement or via a YAML configuration within SQL-compilation tool, dbt.
+* Data Schema - The tables, columns, views, and other structural elements that make up a data subject area, create using [SQL Data Definition Language](https://en.wikipedia.org/wiki/Data_definition_language#:~:text=In%20the%20context%20of%20SQL,tables%2C%20indexes%2C%20and%20users.) (DDL).
+* Monitoring - [Tracking the results](https://www.edq.com/glossary/data-monitoring/#:~:text=Data%20monitoring%20is%20the%20process,using%20dashboards%2C%20alerts%20and%20reports.) of tests cases to help ensure data is ready for use.
 
 ### Trusted Data Components
 
@@ -946,10 +1088,10 @@ The primary elements of the TDF include:
 
 The TDF embraces business users as *the most important participant* in establishing trusted data and uses a simple and accessible testing model. With SQL and YAML as a test agent, a broad group of people can contribute test cases. The test format is straightforward with simple PASS/FAIL results and just four test case types. Adoption grows quickly as TDF demonstrates value:
 
-- Data Customers and Business Users learn the testing framework and create tests themselves
-- Teams embrace testing as a valuable activity to include *at all times*, not as a last-minute activity
-- The Data Team learns to add new tests as part of production-down retrospectives to more rapidly identify issues before they become large problems
-- Teams develop operational rythms to continually develop new tests and expand test coverage
+* Data Customers and Business Users learn the testing framework and create tests themselves
+* Teams embrace testing as a valuable activity to include *at all times*, not as a last-minute activity
+* The Data Team learns to add new tests as part of production-down retrospectives to more rapidly identify issues before they become large problems
+* Teams develop operational rythms to continually develop new tests and expand test coverage
 
 Over time, it is not uncommon to develop hundreds of tests cases which are run on a daily basis, continually validating data quality.
 
@@ -961,10 +1103,10 @@ SQL is the universal language in databases and nearly everyone who works with da
 
 With all tests being run via dbt, storing tests results is simple. We store the results of every test run in the data warehouse. Storing test results enables a variety of valuable features, including:
 
-- data visualization and pattern analysis test results (total tests run by date, PASS/FAIL rate by subject area, and so on)
-- measurement of test coverage over a data subject or schema (number of tests by area)
-- measurement of system quality improvements over time (an increase in the PASS rate)
-- development of an alerting system based on test result
+* data visualization and pattern analysis test results (total tests run by date, PASS/FAIL rate by subject area, and so on)
+* measurement of test coverage over a data subject or schema (number of tests by area)
+* measurement of system quality improvements over time (an increase in the PASS rate)
+* development of an alerting system based on test result
 
 These test results are parsed and are available for querying in Tableau.
 
@@ -993,9 +1135,9 @@ More to come.
 
 The row count tests reconciles the amount of rows between source database and target database by extracting data from source DB tables and load into Snowflake table and extract similar stats from Snowflake and perform comparison between source and target. Their is a challenge to have an exact match between source and target, because;
 
-- There is timing difference.
-- Data warehouse might keep history.
-- Deletions takes place on source database.
+* There is timing difference.
+* Data warehouse might keep history.
+* Deletions takes place on source database.
 
 Depending on the scenario, its advisable to check the row count not on the highest (table) level, but check the row counts on a lower granular level. This could be one or more fields with a logical distribution, but still on a aggregated level. An example could be an insert or update date in a table.
 
@@ -1028,16 +1170,16 @@ This is all orchestrated in the Data Pump [Airflow DAG](https://airflow.gitlabda
 
 ### Adding a Data Pump
 
-**Step 1:** Create a data model [using dbt](/handbook/enterprise-data/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/data-classification-standard.html#data-classification-levels)), following our [SQL](/handbook/enterprise-data/platform/sql-style-guide/) and [dbt](/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
+**Step 1:** Create a data model [using dbt](/handbook/enterprise-data/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/standards/data-classification-standard/#data-classification-levels)), following our [SQL](/handbook/enterprise-data/platform/sql-style-guide/) and [dbt](/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
 
 **Step 2:** Add Model to [`pumps.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/pump/pumps.yml) using the 'Pump Changes' MR template with the following attributes:
 
-- model - the name of the model in dbt and snowflake
-- timestamp_column - the name of the column that should be used to batch the data (or `null` if there is none and the table is small)
-- sensitive - `True` if this model contains sensitive data and is in the pumps_sensitive directory and schema
-- single - `True` if you want to create a single file in the target location. `False` if multiple files can be written
-- stage - The name of the snowflake stage you'd like to use for the target location
-- owner - your (or the business DRI's) GitLab handle
+* model - the name of the model in dbt and snowflake
+* timestamp_column - the name of the column that should be used to batch the data (or `null` if there is none and the table is small)
+* sensitive - `True` if this model contains sensitive data and is in the pumps_sensitive directory and schema
+* single - `True` if you want to create a single file in the target location. `False` if multiple files can be written
+* stage - The name of the snowflake stage you'd like to use for the target location
+* owner - your (or the business DRI's) GitLab handle
 
 **Step 3:** Create an [issue in the platypus project](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/platypus/-/issues/new) using the 'change' issue template so that the Integration team can map and integrate the data into the target application.
 
@@ -1061,7 +1203,7 @@ The source model for the Daily Data Science Scores pump called [mart_crm_account
 
 #### Marketing Data Mart to Marketo
 
-The [Email Data Mart](/handbook/enterprise-data/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
+The [Email Data Mart](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
 
 #### Trusted Data Model to Gainsight
 
@@ -1089,10 +1231,11 @@ To reprocess a Qualtrics Mailing List request file:
 
 A Data Spigot is a concept/methodology to give external systems, access to Snowflake data in a controlled manner.  To give external systems access to Snowflake, the following controls are in place:
 
-- A dedicated service account.
-- A dedicated view (or views) only exposing the minimum required data. No Personally Identifiable Information (PII) may be disclosed.
-- A dedicated role (or equivalent) with access to only the specified tables/views.
-- A dedicated XS warehouse to limit and monitor costs.
+* A dedicated service account with a/an key-pair/OAuth authentication.
+* A dedicated view (or views) only exposing the minimum required data. No Personally Identifiable Information (PII) may be disclosed.
+* A dedicated role (or equivalent) with access to only the specified tables/views.
+* A dedicated XS warehouse to limit and monitor costs.
+* A network security policy to limit network traffic to a specific IP (range)
 
 The process for setting up a new Data Spigot is as follows:
 
@@ -1112,10 +1255,37 @@ The process for setting up a new Data Spigot is as follows:
 | Gainsight        |  | `prod.common_mart_product.mart_product_usage_paid_user_metrics_monthly` | No |
 | Gainsight        |  | `prod.common_mart_product.mart_product_usage_free_user_metrics_monthly` | No |
 | Gainsight        |  | `prod.restricted_safe_common_mart_sales.mart_arr` | Yes |
-| Salesforce       | [Snowflake API](/handbook/enterprise-data/platform/#Sales-Systems-Use-Case:-Using-the-Snowflake-API) | `mart_product_usage_paid_user_metrics_monthly`, `mart_product_usage_paid_user_metrics_monthly_report_view` | No |
+| Salesforce       |  | `mart_product_usage_paid_user_metrics_monthly`, `mart_product_usage_paid_user_metrics_monthly_report_view` | No |
 | Zapier           | t.b.d. | `prod.workspace_customer_success.mart_product_usage_health_score` | No |
 
 Sales Systems Use-Case: Using the Snowflake API
+
+## <i class="fas fa-clone fa-fw -text-blue"></i> Data Deduplication
+
+Data deduplication is essential for ensuring data quality and reducing storage and compute costs in Snowflake. The current GitLab.com pipeline is designed to execute a full data extract for specific tables where incremental extraction is not feasible, as well as for tables intended for Slowly Changing Dimensions (SCD) modeling. To check for any missing transactions in the source system, incremental extraction tables consistently overlap by 30 minutes.
+
+Additionally, all data sourced from another application, CustomersDot, is extracted in full twice a day, as each extract plays a role in building the SCD downstream.
+
+To address our need for reduced Service Level Objectives (SLO) and Service Level Agreements (SLA), we have shifted towards more frequent extracts for both CustomersDot and GitLab.com. This adjustment has resulted in an increase in duplicate records and higher storage requirements in Snowflake for tables associated with both full and incremental extracts. The growing number of duplicates has adversely affected the results of the dbt model and dbt tests on these data sources over time.
+
+To decrease dbt runtime and enhance the efficiency of Snowflake's computing and storage, we developed a deduplication framework specifically targeting these data sources. This framework can be easily extended to other data sources in Snowflake where duplicate records may accumulate.
+
+### Deduplication Framework
+
+The deduplication framework consists of two main components:
+
+1. **Airflow**: Airflow consists of 3 deduplication DAG's:
+ i. Deduplication DAG for gitlab.com incremental extract `t_deduplication_gitlab_com_incremental`
+ ii. Deduplication Staging DAG for gitlab.com scd (full) extract `t_deduplication_gitlab_db_scd`
+ iii. Deduplication SCD DAG for CusotmerDot SCD extract.`t_gitlab_customers_db_dbt`
+ Since we maintain the list of the tables, we extract data in the manifest file as part of gitab_data_extract pipeline. Airflow relies on the exact source of truth to get the list of the tables for which it has to run the deduplication logic.The DAG is scheduled to run weekly.
+
+2. **Snowflake**: In Snowflake, the following activities are carried out:
+ i. Backup tables are created using Snowflake `clone` command with timestamp suffixes in the `TAP_POSTGRES_BKP` schema inside of the RAW database.
+ ii. A `temporary` table is created with a deduplicated dataset using a `GROUP BY` clause to eliminate duplicates while retaining the most recent records and managing special columns like `_uploaded_at` and `_task_instance`. The deduplication logic selects all unique rows from the table.
+ iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.
+ iv. Temporary tables are dropped after a successful swap.
+ v. Delete the backup table older than 7 days.
 
 ## <i class="fas fa-chart-bar fa-fw -text-orange"></i>Visualization
 
@@ -1123,11 +1293,11 @@ We use [Tableau](https://www.tableau.com/) as our Data Visualization and Busines
 
 ### Meta Analyses for the Data Team
 
-- Tableau Usage! 📈 - coming soon
-- Tableau Account Optimization 💪 - coming soon
-- Tableau Account Maintenance 🗑️ - coming soon
-- dbt Event Logging - coming soon
-- [Snowflake Spend ️❄](https://10az.online.tableau.com/t/gitlab/views/SnowflakeSpend/SnowflakeSpend)
+* Tableau Usage! 📈 - coming soon
+* Tableau Account Optimization 💪 - coming soon
+* Tableau Account Maintenance 🗑️ - coming soon
+* dbt Event Logging - coming soon
+* [Snowflake Spend ️❄](https://10az.online.tableau.com/t/gitlab/views/SnowflakeSpend/SnowflakeSpend)
 
 ## <i class="fas fa-user-lock fa-fw -text-purple"></i>Security
 
@@ -1147,25 +1317,25 @@ For other tools, add users via the UI and in the appropriate [Google Group](http
 
 #### Stitch provisioning
 
-A new user in Stitch should by default be added to the `General` role. This role gives sufficient access to Stitch to create new, change existing and troubleshoot running extractions.
+A new user in Stitch should by default be added to the `General` role. This role gives sufficient access to Stitch to create new, change existing and troubleshoot running extractions. Stitch provisioning is a two-step process. First, the IT operations team adds the team member to the app.stitch Okta group by feeling the Access Request. The second step involves adding the user's email to the Stitch application.
 
 ## Google Data Studio
 
 Much like Google Drive all GitLab team members have access to Google's [Data Studio](https://datastudio.google.com/) which can be used to build dashboards with data from Google Sheets or other Google data sources. Hence there is no access request needed to get access provisioned to Google Data Studio.
-Google Data Studio is especially popular with Marketing with their use of Google Analytics. Though this resides outside of the platform described above, any data managed within Google's Data Studio must adhere to the same [Data Categorization and Management Policies](/handbook/security/data-classification-standard.html) as we do in the rest of our platform.
+Google Data Studio is especially popular with Marketing with their use of Google Analytics. Though this resides outside of the platform described above, any data managed within Google's Data Studio must adhere to the same [Data Categorization and Management Policies](/handbook/security/standards/data-classification-standard/) as we do in the rest of our platform.
 
 There are 3 types of objects available in Google Data Studio:
 
-- Data Sources
-  - This is a connection to data sources. **Currently there is no connection available/supported towards our Snowflake data warehouse.**
-- Reports
-  - This is for creating reports based on any connected data set.
-- Explorer
-  - This is a tool to quickly explore data sets and find detailed insights.
+* Data Sources
+  -* This is a connection to data sources. **Currently there is no connection available/supported towards our Snowflake data warehouse.**
+* Reports
+  * This is for creating reports based on any connected data set.
+* Explorer
+  * This is a tool to quickly explore data sets and find detailed insights.
 
 The sharing and access process in Data Studio is comparable to sharing in Google Drive / Google Docs. Google Studio Objects can be shared with individuals in our GitLab organization account or with the Organization as a whole. There are no group or role level permissions available. Given the decentralized quality of managing dashboards and data sources in Data studio it is advised that business critical data and reporting be eventually migrated to Snowflake and Tableau. This is made easy with the use of [sheetload](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#sheetload) or FiveTran, which has a BigQuery connector.
 
-A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner. Note that [Red Data](/handbook/security/data-classification-standard.html#red) should never be stored or transmitted within Google Data Studio.
+A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner. Note that [Red Data](/handbook/security/standards/data-classification-standard/#red) should never be stored or transmitted within Google Data Studio.
 
 ## Sales Analytics Notebooks
 
@@ -1185,10 +1355,10 @@ As of right now (subject to further iterations and changes), the steps are the f
 1. A Sales Analyst works on a Python Notebook (example notebook) and makes it ready for production (making sure the cell execution results are cleared, no local variables/secrets are laying around etc.)
 2. The Sales Analyst uploads the notebook and its respective query in the corresponding folder, depending on what schedule the notebook should run on. The available schedules (and therefore folders) under https://gitlab.com/gitlab-data/analytics/-/tree/master/sales_analytics_notebooks are:
 
-    - daily - daily at 6AM
-    - weekly - every Monday at 6AM
-    - monthly - every 7th day of the month, at 6AM
-    - quarterly - every 7th day of the quarter, at 6AM
+    * daily - daily at 6AM
+    * weekly - every Monday at 6AM
+    * monthly - every 7th day of the month, at 6AM
+    * quarterly - every 7th day of the quarter, at 6AM
 
 This has been implemented by creating 4 main DAGs (one per schedule) consisting of as many tasks as there are notebooks for that schedule. New tasks are dynamically added to the DAG as notebooks are committed to the repository.
 
@@ -1208,9 +1378,9 @@ In order to change the desired day of the week/time of these schedules, the Sale
 
 #### Failure notifications
 
-- Dag failure alerts are sent from Airflow to the `#sales-analytics-pipelines`, so the Sales Analysts can monitor errors with the notebooks
+* Dag failure alerts are sent from Airflow to the `#sales-analytics-pipelines`, so the Sales Analysts can monitor errors with the notebooks
 
-- If the errors seem to be platform-related, the Sales Analyst can reach out to the data platform engineers either via Slack (via the `#data-engineering` channel), or by opening an issue on the [gitlab-data/analytics](https://gitlab.com/gitlab-data/analytics) project
+* If the errors seem to be platform-related, the Sales Analyst can reach out to the data platform engineers either via Slack (via the `#data-engineering` channel), or by opening an issue on the [gitlab-data/analytics](https://gitlab.com/gitlab-data/analytics) project
 
 ### GSheets & Jupyter Notebooks
 
@@ -1250,7 +1420,7 @@ The `gCloud SERVICE ACCOUNT` requires  `Google Workspace Delegated Admin` permis
 
 #### Remaining work
 
-- Update the repository URL for the sales analytics notebooks ([link to issue](https://gitlab.com/gitlab-data/analytics/-/issues/14945))
+* Update the repository URL for the sales analytics notebooks ([link to issue](https://gitlab.com/gitlab-data/analytics/-/issues/14945))
 
 ## Sales Systems Use-Case: Using the Snowflake API
 
@@ -1262,7 +1432,7 @@ More detail on this use-case can be found in the original issue [#15456](https:/
 The data pulled from the database is encapsulated in a view that strictly exposes only the requested data and the sales systems team will be querying this view directly via the Snowflake API.
 A new role was created specifically, called `SALES_SYSTEMS_SNOWFLAKE_API_ROLE` for this use-case on Snowflake and it has been configured to only have read access on the underlying view.
 
-The Snowflake API user has been created following the steps in the official Snowflake documentation on [Using Key Pair Authentication](https://docs.snowflake.com/en/developer-guide/sql-api/authenticating.html#using-key-pair-authentication) and the credential is stored in our Data Team Secure vault and is to be shared with the Sales Systems team.
+The Snowflake API user has been created following the steps in the official Snowflake documentation on [Using Key Pair Authentication](https://docs.snowflake.com/en/developer-guide/sql-api/authenticating#using-key-pair-authentication) and the credential is stored in our Data Team Secure vault and is to be shared with the Sales Systems team.
 
 We created a runbook with a step-by-step guide on how to create the user and role for this purpose - [link to the Snowflake API User](https://gitlab.com/gitlab-data/runbooks/-/tree/main/snowflake_api_user) runbook.
 
@@ -1272,4 +1442,4 @@ Exceptions to this standard will be tracked as per the Information Security Poli
 
 ## References
 
-The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/).
+The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/)

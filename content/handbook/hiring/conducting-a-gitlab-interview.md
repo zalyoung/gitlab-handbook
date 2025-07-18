@@ -100,6 +100,44 @@ The section below outlines questions and topics that are not allowed to be discu
 1. Examples of illegal interview questions include inquiries about marital status, age or any other protected characteristic.
 1. Avoid discussing compensation, equity, country hiring guidelines, availability or confidential company information during the interview. These topics should be redirected to the Recruiter to discuss with the candidate.
 
+### Security Awareness for Interviewers
+
+#### Understanding the Concern
+
+We've identified increased risks from malicious actors attempting to gain employment under false identities. These individuals pose a significant security threat to GitLab as they may:
+
+- Attempt to access sensitive company information
+- Engage in extortion if discovered
+- Use our systems to launch attacks against other organizations
+
+#### What We're Doing About It
+
+Our Talent Acquisition team is partnering with Security to address these threats through:
+
+- Working with the Digital Experience team to implement website-level filtering
+- Creating spam logic to block submissions from suspicious email addresses and IP addresses
+
+#### Your Role as an Interviewer
+
+All interviews following a recruiter screen should take place on camera for both the candidate and interviewer. If the candidate is unable to use their camera because of technical issues, please indicate this in your interview notes. Seeing candidates on camera helps identify challenging interview situations, such as AI Deepfake avatars and multiple users interviewing as one candidate. If you have concerns about filters and odd behavior during an interview, please take a screenshot to send to the recruiter for reference who will then compare to other sources, such as LinkedIn or their recruiter screen. Trust your instincts- if something feels off or out of place, let your Talent Acquisition partner know.
+
+##### What to Watch For
+
+- Candidates who refuse to turn on their camera without reasonable explanation
+- Visual glitches that might suggest deepfake technology
+- Multiple voices or people appearing to coach the candidate
+- Inconsistent responses compared to written materials
+- Reluctance to discuss background details that were in their application
+
+##### How to Respond
+
+1. Complete the interview professionally
+2. Document your concerns in detail in your interview notes
+3. Notify your Talent Acquisition partner immediately
+4. Share any screenshots or specific examples of concerning behavior
+
+If you have questions about this process, please contact your Recruiter who will connect you with the TA Enablement team.
+
 ## Competencies
 
 As mentioned, 80-85% of the interview should be for you to ask relevant job-related questions. Behavioral and situational interview questions are designed to assess a candidate's past experiences and potential future actions through real-world examples and hypothetical scenarios.
@@ -143,9 +181,9 @@ In Greenhouse, you will use an "interview kit" when interviewing a candidate, wh
 
 We want to highlight the strengths and weaknesses of the candidate in an easy to absorb, standardized way. Every scorecard must include Pros and Cons. This helps the talent acquisition team gather data that will be presented to the candidate in the form of feedback. Remember, if something is not relevant to the job, it should not be written down.
 
-It is important that scorecards are completed within 24 hours so Talent Acquisition can keep the hiring process moving and ensure a positive candidate experience.
+It is important that scorecards are completed within 24 hours so Talent Acquisition can keep the hiring process moving and ensure a positive candidate experience. All meeting notes should live in Greenhouse, and not in links to Google Docs or other external sources. Doing so we allow Greenhouse to be the single source of truth (SSOT) for information from the candidate for GDPR and compliance reasons.
 
-We encourage you to read our detailed handbook page on discussing scorecards and best practices before submitting your scorecard.
+In order to help remove bias, Interviewers (unlike Hiring Managers) are **not** able to see another Interviewer's scorecard. If there are certain specific flags, concerns, or notes that should be highlighted to the rest of the Interview Team, the Interviewer should add a note in their scorecard by clicking the `Note for Other Interviewers` section right underneath the `Key Take-Aways` text box.
 
 Scoring is defined as follows (all divisions but Engineering):
 

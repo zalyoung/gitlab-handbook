@@ -16,39 +16,88 @@ Although GitLab is an all-remote company that encourages working from anywhere, 
 
 Please refer to the [Internal Handbook](https://internal.gitlab.com/handbook/security/corporate/travel) for Information Security Considerations for GitLab Team members traveling abroad.
 
-### Business Travel Emergency Assistance Program with International SOS
+### Business Travel Emergency Support and Insurance
 
-In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
+#### Quick Emergency Contacts
 
-Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
+- *International SOS 24/7 Assistance:* +1 215 942 8226
+- *Email:* philadelphia@internationalsos.com
+- *Mobile App:* Download the [ISOS Assistance App](https://www.internationalsos.com/subscriber/assistance-app)
 
-- Team members can download the [ISOS emergency app](https://www.internationalsos.com/subscriber/assistance-app) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address. Please use a unique password and not the same as your existing GitLab credentials.
-Note that this is not a GitLab application and is managed by ISOS. You can read more about the app here.
-- If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS's closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
-- If team members prefer not to download the app, we encourage you to follow this [link](https://myportal.internationalsos.com/WebPortal/MyOrganisation) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
-- Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
-If you have questions, reach out in the #peopleconnect Slack channel.
-- Check out this [video](https://www.internationalsos.com/bottleofhelp) for an outline on how ISOS can help in an emergency.
+#### Emergency Assistance Program with International SOS
 
-### Travel Insurance
+GitLab provides team members with comprehensive emergency support through International SOS (ISOS) during business travel worldwide. Your coverage is automatic and year-round.
 
-Business Travel Accident Policy
-This policy [link](https://drive.google.com/file/d/1USae0p7PtKmXB35GuSJqJyIopBsH9b2I/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
+##### When to Use International SOS
 
-Coverage:
-Accidental Death [enhanced coverage]: 5 times Annual Salary up to USD 500,000.
-The treatment of Covid is covered like any other illness under the Out-of-Country Medical Expense coverage, however there are no covid quarantine benefits covered under our policy.
-Out of Country Emergency Medical: Coverage up to $250,000 per occurrence. If there is an injury or sickness while outside of his or her own country that requires treatment by a physician.
-Security Evacuation with Natural Disaster: If an occurrence takes place outside of his or her home country and Security Evacuation is required, you will be transported to the nearest place of safety.
-Personal Deviation: Coverage above is extended if personal travel is added on to a business trip. Coverage will be provided for 25% of length of the business trip.
-Trip Duration: Coverage provided for trips less than 180 days.
-Baggage & Personal Effects Benefit: $500 lost bag coverage up to 5 bags.
-For any assistance with claims, please reference the claims guide (internal only).
-This policy will not work in conjunction with another personal accident policy as the Business Travel Accident Policy will be viewed as primary and will pay first.
-Family members: Immediate family members (spouse, domestic partners and children below the age of 26) are also covered while traveling with you on a business trip.
-For more detailed information on this benefit, please reference the policy document.
-If you need a confirmation of coverage letter, please reference the visa letter generation document (internal only).
-For any additional questions, please contact the Total Rewards Analyst.
+- Medical emergencies or illness during travel; including payment of Emergency Medical Expenses
+- Claims Assitance for the Business Travel Insurance Policy
+- Safety and security concerns
+- Pre-trip planning and health advice
+
+##### How to Access ISOS Services
+
+*App*
+
+1. Download the [ISOS Assistance App](https://www.internationalsos.com/subscriber/assistance-app)
+1. Register using your GitLab email address (use a unique password, not your GitLab credentials)
+1. Press the "Need Assistance" button to connect with the nearest emergency center
+
+> Note: This is not a GitLab application and is managed by ISOS.
+
+- [ISOS Mobile App User Guide](https://drive.google.com/file/d/1CYryCnznGjIaRh3WcdzG-wiuYVxRahUZ/view?usp=sharing)
+- [ISOS Mobile App Download Information](https://drive.google.com/file/d/1C2k9b8TRth3O4QzZH2YqayZOhpTd4fJl/view?usp=sharing)
+
+*Online Portal & Membership Card*
+
+- Access your digital membership card [here](https://myportal.internationalsos.com/WebPortal/MyOrganisation)
+- Print or save a photo of the card with emergency contact details
+
+*Direct Contact*
+
+- Call: [+1 215 942 8226](tel:+12159428226)
+- Email: [philadelphia@internationalsos.com](mailto:philadelphia@internationalsos.com)
+
+#### Business Travel Insurance Coverage
+
+GitLab's Business Travel Accident Policy provides comprehensive protection for team members traveling domestically and internationally on business. [View policy document](https://drive.google.com/file/d/1pMeC-mTfzuRhlwjQA2lvzonn6X0ax15N/view?usp=sharing).
+
+##### Key Coverage Details
+
+| Coverage Type | Benefits |
+|---------------|----------|
+| Accidental Death | 5× Annual Salary (up to USD 500,000) |
+| Emergency Medical | Up to $250,000 per occurrence |
+| Security Evacuation | Includes natural disaster evacuation |
+| Personal Deviation | Extended coverage for personal travel (25% of business trip length) |
+| Trip Duration | Covered for trips less than 180 days |
+| Baggage Protection | Maximum of $2,500, see policy for details |
+| Family Coverage | Includes spouse, domestic partners, and children under 26 when traveling with you |
+
+Note: This policy is primary and will pay before any personal accident policies
+
+See the [Policy details](https://drive.google.com/file/d/1pMeC-mTfzuRhlwjQA2lvzonn6X0ax15N/view?usp=sharing) for limits and exclusions
+
+##### Using the Policy
+
+*If You Need Medical Assistance While Traveling*
+
+1. Contact International SOS immediately using the app, phone, or email
+1. ISOS will arrange appropriate medical care
+1. ISOS handles payments directly with providers
+1. ISOS submits insurance claims to AIG on your behalf
+
+*If you've already paid for medical care during business travel:*
+
+1. Contact International SOS
+1. They will provide instructions for submitting claims to the insurer
+
+#### Visa Letter Documentation
+
+For team members needing confirmation of coverage for visa applications:
+
+1. Complete the [AIG Visa Letter Form](https://drive.google.com/file/d/124ioq21jOW1LMHcyERM4gTuzXF6s6TNH/view?usp=sharing)
+1. Follow the submission instructions on the form
 
 ### Secure your data during travels
 
@@ -64,8 +113,8 @@ When traveling, there is the possibility that customs, border control, or other 
 For additional security specifically when traveling through an airport, the following advice is provided:
 
 - Completely power-off laptops and mobile devices before any security checkpoints. This reduces the risk of attacks that may be conducted against machines in a sleep mode, where the disk encryption is not being actively enforced.
-- Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](/handbook/security/data-classification-standard.html#data-classification-standards) for more information.
-- If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
+- Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](/handbook/security/standards/data-classification-standard/#data-classification-standards) for more information.
+- If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
 
 ### Expenses While Traveling
 

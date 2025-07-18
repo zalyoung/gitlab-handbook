@@ -18,7 +18,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. In tough times people will put in their best effort when they are doing it for each other.
 1. We work [asynchronously](/handbook/company/culture/all-remote/management/#asynchronous). Lead by example and make sure people understand that [things need to be written down in issues as they happen](/handbook/company/culture/all-remote/self-service/#paying-it-forward). Hold your team accountable with documentation.
 1. We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end [one person decides](/handbook/people-group/directly-responsible-individuals/) the matter after they have listened to all the feedback.
-1. It is encouraged to disagree and have constructive debates but please [argue intelligently](https://www.brainpickings.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/).
+1. It is encouraged to disagree and have constructive debates but please [argue intelligently](https://www.themarginalian.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/).
 1. We value truth seeking over cohesion.
 1. We avoid [meetings](/handbook/company/culture/all-remote/meetings/), when possible, because they don't support the asynchronous work flow and are hard to conduct due to timezone differences.
 1. Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people that have shown up on time by waiting for people or repeating things for those that come late. When a meeting unblocks a process or decision, don't celebrate that but instead address the question: How can we unblock in the future without needing a meeting?
@@ -41,17 +41,11 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. A people leader hires a new team member that demonstrates our [CREDIT values](/handbook/values/).
 1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal](/handbook/values#make-a-proposal).
 1. A manager of one prioritizes well-being by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
-1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame).
-
-{{< youtube "d0x-JH3aolM" >}}
-
-In the [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions) above, GitLab CEO Sid Sijbrandij gives more context on individual contributor leadership and managers of one.
-
-> We want leadership from everyone at GitLab. Since we are remote, there is a high expectation to do your work without direct supervision. It means that every team member is responsible for communication, structuring decisions, and managing your workload individually.
+1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding).
 
 ## Interim and Acting Leadership
 
-In some cases, a individual in the [Management group](/handbook/company/structure#management-group), [Director group]({{< ref "structure#director-group" >}}), [S-group]({{< ref "structure#s-group" >}}), or even [E-group]({{< ref "structure#e-group" >}}) may have an "Interim" or "Acting" title.
+In some cases, a individual in the [Management group](/handbook/company/structure#management-group), [Director group](/handbook/company/structure/#director-group), [S-group](/handbook/company/structure/#s-group), or even [E-group](/handbook/company/structure/#e-group) may have an "Interim" or "Acting" title.
 
 1. **Acting** means that someone is occupying this role temporarily and will move back to their original role after a set amount of time or other conditions, such as an external hire.
 1. **Interim** means the individual is working on a promotion into the role.
@@ -62,7 +56,7 @@ Individual departments will have their own criteria for who is eligible to occup
 
 ## Making decisions
 
-Please see the [Making Decisions]({{< ref "making-decisions" >}}) Leadership page.
+Please see the [Making Decisions](/handbook/leadership/making-decisions/) Leadership page.
 
 ## Communication should be direct, not hierarchical
 
@@ -74,10 +68,10 @@ This is a more [efficient](/handbook/values/#efficiency), [transparent](/handboo
 
 ## Giving Feedback
 
-Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings]({{< ref "1-1" >}}). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
+Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings](/handbook/leadership/1-1/). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
 
 1. Provide [context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
-1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations]({{< ref "crucial-conversations" >}}) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
+1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations](/handbook/leadership/crucial-conversations/) -- we offer [a training course](/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives/#what-to-expect), and the book is part of our [recommended reading for leaders](#books).
 1. Ask yourself, is this:
     - Actionable
     - Specific
@@ -87,7 +81,7 @@ Giving regular [feedback](/handbook/company/culture/all-remote/effective-communi
 
 ### Identifying root causes
 
-Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.cebglobal.com/) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process]({{< ref "underperformance" >}}) should be followed.
+Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.gartner.com/en) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process](/handbook/leadership/underperformance/) should be followed.
 
 ## Responding to Negative Feedback
 
@@ -109,11 +103,11 @@ evaluate the feedback and decide how to proceed.
 
 ## 1-to-1
 
-Please see [1-1]({{< ref "1-1" >}}).
+Please see [1-1](/handbook/leadership/1-1/).
 
 ## Skip level interactions
 
-Please see [skip-levels]({{< ref "skip-levels" >}}).
+Please see [skip-levels](/handbook/leadership/skip-levels/).
 
 ## Your Individual README
 
@@ -127,7 +121,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
 
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Marketing Team READMEs](/handbook/marketing/readmes/)
-- [Product READMEs](/handbook/product/readme/)
+- [Product READMEs](/handbook/product/)
   - [UX Department READMEs](/handbook/product/ux/#meet-some-of-our-team-members)
 - [Sales Team READMEs](/handbook/sales/readmes/)
 - [People Group READMEs](/handbook/people-group/readmes/)
@@ -163,15 +157,15 @@ READMEs are particularly powerful when working with those *outside* of GitLab, w
 
 ### What is coaching?
 
-[Coaching]({{< ref "coaching" >}}) is about helping others help themselves. It is not about giving advice, instruction, or telling someone what to do. **Coaching is about focusing on the future and identifying where the coachee wants to be and what they want to achieve.** At GitLab, we've defined coaching as a conversation that helps people think for themselves, find their own answers, and commit to action they design. As a coach, your role is to clarify the pathway from the current state to the future. Coaches do this by enabling the coachee to make informed choices based on deeper insight.
+[Coaching](/handbook/leadership/coaching/) is about helping others help themselves. It is not about giving advice, instruction, or telling someone what to do. **Coaching is about focusing on the future and identifying where the coachee wants to be and what they want to achieve.** At GitLab, we've defined coaching as a conversation that helps people think for themselves, find their own answers, and commit to action they design. As a coach, your role is to clarify the pathway from the current state to the future. Coaches do this by enabling the coachee to make informed choices based on deeper insight.
 
 ## No matrix organization
 
-Please see [no-matrix-organization]({{< ref "no-matrix-organization" >}})
+Please see [no-matrix-organization](/handbook/leadership/no-matrix-organization/)
 
 ## Stable counterparts
 
-We want to promote organic cross-functional collaboration by giving people stable counterparts for other functions they need to work with. For example, each Strategic Account Executive (SAE) works with one Sales Development Representative (SDR). With our [categories](/handbook/product/categories/) every backend team of developers maps to a [Product Manager (PM)]({{< ref "product-manager" >}}) and a [frontend team](/handbook/engineering/frontend/#teams).
+We want to promote organic cross-functional collaboration by giving people stable counterparts for other functions they need to work with. For example, each Strategic Account Executive (SAE) works with one Sales Development Representative (SDR). With our [categories](/handbook/product/categories/) every backend team of developers maps to a [Product Manager (PM)](/job-families/product/product-manager/) and a [frontend team](/handbook/engineering/frontend/#teams).
 
 Giving people a **stable counterpart** allows for more social trust and familiarity, which speeds up decision making, prevents communication problems, and reduces the risk of conflicts. This way we can work effectively cross functionally without the [downsides of a matrix organization](#no-matrix-organization).
 
@@ -192,7 +186,7 @@ As noted in this [medium article](https://medium.com/capchase/escalation-manifes
 
 Folks who are escalating an issue should avoid surprising folks in the management chain. This means that other relevant team members should be aware that an escalation is occurring. For example, in E-Group, members agree that they will not go to the CEO with an escalation without first notifying other relevant members that this is happening.
 
-There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe]({{< ref "psychological-safety" >}}) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
+There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe](/handbook/leadership/emotional-intelligence/psychological-safety/) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
 
 After a team member escalates an issue, it is OK if they [disagree, commit, and advocate](/handbook/values/#disagree-and-commit) with the decisions made by the person they escalated to.
 
@@ -210,11 +204,11 @@ Managers have an tremendous responsibility around talent acquisition and [retent
 - We want few candidates to decline an offer, especially when the reason isn't compensation.
 - We need adequate candidate pipeline volume and quality, especially for crucial positions.
 - Candidates that have a proposed offer should meet the bar, especially for more senior positions.
-- Build a *global team*. Unless shown with a business case, "we can't find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab) and the [Location Factor KPI](/handbook/people-group/people-success-performance-indicators/#average-location-factor).
+- Build a *global team*. Unless shown with a business case, "we can't find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#gitlabs-diversity-inclusion-and-belonging-mission) and the [Location Factor KPI](/handbook/people-group/people-success-performance-indicators/#average-location-factor).
 
 ## High Output Management
 
-GitLab leadership and management approach was built using principles covered in the book "[High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management)." Please see [High Output Management]({{< ref "high-output-management" >}}) to learn more.
+GitLab leadership and management approach was built using principles covered in the book "[High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management)." Please see [High Output Management](/handbook/leadership/high-output-management/) to learn more.
 
 ## Building High Performing Teams
 
@@ -236,10 +230,10 @@ Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing P
 
 **Skills and behavior of [building high performing teams competency](/handbook/people-group/competencies/#list) for Managers**:
 
-- Models and encourages teamwork by fostering collaboration, communication, [trust]({{< ref "building-trust" >}}), shared goals, mutual accountability and support
+- Models and encourages teamwork by fostering collaboration, communication, [trust](/handbook/leadership/building-trust/), shared goals, mutual accountability and support
 - Fosters an environment where results are balanced with time management of multiple assignments and [Direct Responsible Individuals (DRI's)](/handbook/people-group/directly-responsible-individuals/) on important topics
 - Empowers team members to be a [Manager of One](/handbook/values/#managers-of-one) and gives them the tools to grow professionally in their careers
-- Attracts and retains top talent by creating an inclusive environment [built on trust]({{< ref "building-trust" >}}), delegation, accountability, and teachability
+- Attracts and retains top talent by creating an inclusive environment [built on trust](/handbook/leadership/building-trust/), delegation, accountability, and teachability
 
 ### Strategies to Build High Performing Teams
 
@@ -253,7 +247,7 @@ The [Drexler-Sibbet Team Performance Model](https://www.kaizenko.com/drexler-sib
 **7 Stages to developing high performing teams:**
 
 1. Orientation - Why are we here? Team members need to see a sense of team identity and how individual team members fit in.
-1. [Trust Building]({{< ref "building-trust" >}}) - Who are you? Team members share mutual regard for each other and are open and supportive of trust-based relationships.
+1. [Trust Building](/handbook/leadership/building-trust/) - Who are you? Team members share mutual regard for each other and are open and supportive of trust-based relationships.
 1. Goal Clarification - What are we doing? Assumptions are made clear; individual assumptions are made known with a clear vision of the end state.
 1. Commitment - How will we do it? Team members understand how it will make decisions and do the work.
 1. Implementation - Who does what, when, where? Team members have a sense of clarity and can operate effectively due to the alignment of shared goals.
@@ -266,7 +260,7 @@ Building and maintaining high performance includes staying mindful of team well-
 
 ### Manager M-Team Groups
 
-M-teams are management support groups made up of 3 to 6 managers who are in timezones that allow for sync meetings among members. M-teams should set up a regular meeting on a cadence agreed by the members with the agenda being "what's challenging this week?". Decide who will facilitate and each person will get a chance to have their challenge discussed in the meeting. When it's your turn, you talk a little about what you're struggling with. M-groups agree to a level of [confidentiality](https://3plusinternational.com/2017/10/confidentiality-and-the-potential-loss-of-trust/) so that group members are willing to be vulnerable; vulnerability leads to trust and better outcomes for the group.
+M-teams are management support groups made up of 3 to 6 managers who are in timezones that allow for sync meetings among members. M-teams should set up a regular meeting on a cadence agreed by the members with the agenda being "what's challenging this week?". Decide who will facilitate and each person will get a chance to have their challenge discussed in the meeting. When it's your turn, you talk a little about what you're struggling with. M-groups agree to a level of [confidentiality](https://3plusinternational.com/confidentiality-and-the-potential-loss-of-trust/) so that group members are willing to be vulnerable; vulnerability leads to trust and better outcomes for the group.
 
 If you're interested in starting or joining an m-team meeting, reach out to other managers in the [#managers](https://gitlab.slack.com/archives/C5Z55R5J5) Slack channel.
 
@@ -275,16 +269,16 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 1. [Carta's Manager's FAQ](https://medium.com/eshares-blog/a-managers-faq-35858a229f84)
 1. [Carta's How to hire](https://carta.com/blog/how-to-hire/)
 1. [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
-1. [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
-1. [Later Stage Advice for Startups](http://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
+1. [The Management Myth](https://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
+1. [Later Stage Advice for Startups](https://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
 1. [Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
-1. [This Is The Most Difficult Skill For CEOs To Learn](http://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
+1. [This Is The Most Difficult Skill For CEOs To Learn](https://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
-1. [Impraise Blog: 1-on-1s for Engaged Employees](https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
-1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/pages/article/newTMM_98.htm)
+1. [Impraise Blog: 1-on-1s for Engaged Employees](https://web.archive.org/web/20220704002203/https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
+1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/a18a0wu/giving-feedback)
 1. [Remote.Co: 5 Tips for Providing Feedback to Remote Workers](https://remote.co/5-tips-for-providing-feedback-to-remote-workers/)
-1. [Really interesting blog post from Hanno on remote team feedback](https://hanno.co/blog/remote-team-feedback/)
-1. [51 questions to ask in one-on-ones with a manager](https://getlighthouse.com/blog/questions-ask-one-on-ones-manager/)
+1. [Really interesting blog post from Hanno on remote team feedback](https://web.archive.org/web/20220810051106/https://hanno.co/journal/remote-team-feedback/)
+1. [51 questions to ask in one-on-ones with a manager](https://getlighthouse.com/blog/74-questions-to-ask-your-manager/)
 1. [HBR: The rise of data driven decision making is real but uneven](https://hbr.org/2016/02/the-rise-of-data-driven-decision-making-is-real-but-uneven)
 1. [Forbes: 6 Tips for Making Better Decisions](https://www.forbes.com/sites/mikemyatt/2012/03/28/6-tips-for-making-better-decisions/#966eb3b34dca)
 
@@ -292,47 +286,45 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 Books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
-Notable books from the [E-Group Offsite Book Selections]({{< ref "offsite#previous-reads" >}}) may be added to the list below.
+Notable books from the [E-Group Offsite Book Selections](/handbook/company/offsite/#content-choice) may be added to the list below.
 
-We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read through these books as a group.
+We sometimes self-organize [book clubs](/handbook/leadership/book-clubs/) to read through these books as a group.
 
 1. [High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management) - Andrew Grove
     - [Top 10 quotes](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/)
-    - [Book club]({{< ref "book-clubs#high-output-management" >}})
+    - [Book club](/handbook/leadership/book-clubs/#high-output-management)
 1. [The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers](https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things) - Ben Horowitz
     - [Chase Wright's notes](https://docs.google.com/document/d/1Uxva11x1YX4zci1FHmF45UTYjGLPMU5HmrbmflINoG4/)
 1. [Crucial Conversations: Tools for Talking When Stakes Are High](https://www.goodreads.com/book/show/15014.Crucial_Conversations) - Kerry Patterson
-    - Notes from the [E-group]({{< ref "structure#e-group" >}}) reading:
+    - Notes from the [E-group](/handbook/company/structure/#e-group) reading:
     - Virtual teams are much more likely to fail on crucial conversations than colocated teams
     - We need to develop the skill of sensing the tone of a-sync conversations to uncover potential issues
-    - We need to find a way to create [psychological safety]({{< ref "psychological-safety" >}}) for people in official channels
+    - We need to find a way to create [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/) for people in official channels
     - Starting with empathy is a great way to gather the context needed in a tense situation - this is hard a-sync, but more important
     - Consider getting context 1-on-1 (through Slack) before posting a comment in an issue that you might regret later
     - As leaders, we need to give context as well. A good question is: "What would have to change for us to get X prioritized..."
     - Documenting something is *not* a replacement for having the hard conversation
-    - [Book club]({{< ref "book-clubs#crucial-conversations" >}})
-    - [Crucial Conversations Handbook Page]({{< ref "crucial-conversations" >}})
+    - [Book club](/handbook/leadership/book-clubs/#crucial-conversations)
+    - [Crucial Conversations Handbook Page](/handbook/leadership/crucial-conversations/)
 
 ## Email Lists
 
-1. [Software Lead Weekly](http://softwareleadweekly.com/)
+1. [Software Lead Weekly](https://softwareleadweekly.com/)
 
 ## Training
 
-When you give leadership training please [screen share the handbook instead of creating a presentation]({{< ref "handbook-usage#screenshot-the-handbook-instead-of-creating-a-presentation" >}}).
+When you give leadership training please [screen share the handbook instead of creating a presentation](/handbook/about/handbook-usage/#screenshot-the-handbook-instead-of-creating-a-presentation).
 
 ### Leadership Development Opportunities
 
-1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate/), focused on developing management skills to lead all-remote teams.
-1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
+1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate-programs/), focused on developing management skills to lead all-remote teams.
+1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/). More details about a formal GitLab coaching program to come.
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
-1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
-1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security]({{< ref "security-shadow" >}}).
+1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives/#what-to-expect)
+1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow), and [Security](/handbook/security/security-shadow/).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
-1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management?u=2255073)
-1. Watch or listen to one of the many [CEO Handbook Learning sessions](/handbook/people-group/learning-and-development/learning-initiatives/#list-of-ceo-handbook-learning-sessions) with Sid on various leadership topics
-1. Join a monthly [Leadership Chats](/handbook/people-group/learning-and-development/manager-challenge/leadership-chats/) talk to learn from people leaders across the organization.
+1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management)
 1. [Learning and Development](/handbook/people-group/learning-and-development/) is developing several programs in FY23 to include a [Managing at GitLab Course](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/78), [New Manager Bootcamp](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/33), [LifeLabs Learning Pilot and Launch](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/29), [coaching program](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/342), and much more!
 
 ## People Group
@@ -341,7 +333,7 @@ Feel free to reach out to anyone in the [People Group](/handbook/people-group/) 
 
 ## Being a public company
 
-Learn more on GitLab's view of [being a public company]({{< ref "being-a-public-company" >}}).
+Learn more on GitLab's view of [being a public company](/handbook/company/being-a-public-company/).
 
 ## Mitigating Concerns
 

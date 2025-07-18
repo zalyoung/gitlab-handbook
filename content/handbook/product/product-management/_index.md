@@ -31,7 +31,7 @@ Please see the [Product Categories](/handbook/product/categories/) to know which
 
 Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
 
-Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, Service Desk falls under the Monitor PM.
+Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, [Service Desk](https://docs.gitlab.com/user/project/service_desk/) falls under the [Plan PM](/handbook/product/categories/features/#project-management).
 
 All feedback must follow the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/). Failure to do so will result in the issues or comment being deleted.
 
@@ -59,13 +59,13 @@ If a customer expresses interest by simply mentioning an issue number or e.g. "a
 
 The Product Manager is responsible for figuring all of this out, but being one step ahead of them will speed things up.
 
-If a customer is a member of our Product [Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/CAB/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
+If a customer is a member of our Product [Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
 
 It is highly recommended to use the feedback template below to make this easier.
 
 #### Feedback template
 
-You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html#create-comment-templates) for reusability:
+You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/user/profile/comment_templates/#create-comment-templates) for reusability:
 
 ```markdown
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
@@ -86,10 +86,9 @@ The following ~customer is interested in this capability
 - CSM to mention:
 ```
 
-The `~customer priority::*` labels are inputs for the prioritization model powering the customer issue prioritization framework dashboards:
+The `~customer priority::*` labels are inputs for the prioritization model powering the customer issue prioritization framework dashboard:
 
-- [Customer Requested Issues (Product)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) for Product Managers
-- [Customer Requested Issues (CSM)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) for Sales and Customer Success
+- [Customer Requested Issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views)
 
 These dashboards represent the relative importance of a given issue to the specific customer. 1 is the lowest priority and 10 is the highest. These can be updated at any point in time and will be reflected in the model within 24 hours. You can find more context about priority labels on the [customer issues prioritization framework handbook page](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points).
 
@@ -121,7 +120,7 @@ If you have followed the process of creating/commenting on issues and have not g
 
 If a customer has identified an issue that is high priority for them, such as a work-stoppage bug or a feature required for the customer to meet a deadline, follow the expected steps for logging and tracking customer feature requests above by adding the customer's interest in a GitLab issue and including it in the collaboration project issue. In addition, [reach out to the Product Manager](/handbook/product/product-management/#where-to-reach-product-managers) who is [responsible for the corresponding group](/handbook/product/product-management/#which-product-manager-should-i-contact) and discuss it with them directly. A general idea of high priority is that the customer needs a particular feature as soon as possible.
 
-**Critical Priority Requests** are extremely rare, but, when they occur, they are agreed upon by both Product and Engineering, with the CSM facilitating the request. If a customer is unable to continue using GitLab without a specific feature, the CSM should begin the [triaging the account](/handbook/customer-success/csm/health-score-triage/), follow the process to indicate customer interest in the issue, then set up regular check-ins with the Product and Engineering teams to assess the status of the feature, expectations, and potential secondary plans. For the product & engineering process, please refer to the details of a [critical customer merge request](https://docs.gitlab.com/ee/development/code_review.html#customer-critical-merge-requests).
+**Critical Priority Requests** are extremely rare, but, when they occur, they are agreed upon by both Product and Engineering, with the CSM facilitating the request. If a customer is unable to continue using GitLab without a specific feature, the CSM should begin the [triaging the account](/handbook/customer-success/csm/health-score-triage/), follow the process to indicate customer interest in the issue, then set up regular check-ins with the Product and Engineering teams to assess the status of the feature, expectations, and potential secondary plans. For the product & engineering process, please refer to the details of a [critical customer merge request](https://docs.gitlab.com/development/code_review/#customer-critical-merge-requests).
 
 ### Why do product teams prefer we ask about the problem rather than the solution?
 
@@ -168,7 +167,7 @@ For example, they need support configuring a self-managed runner with a SaaS lic
 
 If you need support with a specific customer and your Customer Success Manager is unable to configure what is being requested or you are being asked to provide very specific guidelines for use of GitLab, we suggest creating an issue using the [Product Support Request](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Support-Request.md), and following the steps suggested in the issue.
 
-To remain focused on [customer results](/handbook/values/#customer-results) and [efficiency](/handbook/values/#efficiency), we recommend setting a due date on the issue in 5 business days and assigning the issue to the Product Leader of the section for triage.
+To remain focused on [customer results](/handbook/values/#results) and [efficiency](/handbook/values/#efficiency), we recommend setting a due date on the issue in 5 business days and assigning the issue to the Product Leader of the section for triage.
 
 #### Example: Many support requests come in about a bug with CI
 
@@ -182,7 +181,7 @@ The PM in turn will investigate whether this is a general problem or one specifi
 
 ### Tableau
 
-The Product team maintains a [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) to aggregate issues and customer interest in those issues. Information is automatically gathered from [GitLab issues](https://gitlab.com/gitlab-org/gitlab/issues) by scanning for Salesforce customer account links. A separate dashboard [Customer Requested Issues (CSM)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) is maintained for Sales and CS to make the dashboard easily filterable by the Account Owner or CSM for example.
+The Product team maintains a [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) to aggregate issues and customer interest in those issues. Information is automatically gathered from [GitLab issues](https://gitlab.com/gitlab-org/gitlab/issues) by scanning for Salesforce customer account links. The same dashboard can be used by Sales and CS.
 
 The Tableau page automation will detect when Salesforce links are added and use the customer's Salesforce data, such as Total Account Value and seat licenses, to add them to the page. This also maintains a customer's privacy on public issues, since Salesforce links are only accessible to GitLab employees with proper credentials.
 
@@ -281,13 +280,13 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 
 | Product Managers | Engineering Managers | UXers | SETs |
 | :--------------: | :------------------: | :---: | :---: |
-| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
+| Set [milestone priorities](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
 
 At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 
 We call this the [Product Group](/handbook/company/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
 
-The Product Group can be used to facilitate a [global optimization](/handbook/values/#global-optimization), including product-wide [technical debt](/handbook/engineering/workflow/#technical-debt).
+The Product Group can be used to facilitate a [global optimization](/handbook/values/#efficiency-for-the-right-group), including product-wide [technical debt](/handbook/engineering/workflow/#technical-debt).
 
 ### Working with Product Management across the company
 
@@ -303,7 +302,7 @@ To request approval for an increase in the expected spend for a pre-existing ite
 
 ### Working with Content Marketing
 
-Content marketers and Product Managers can partner together when using a Blog to communicate product changes and engaging the market with thoughtful changes. See the [blog post handbook page](/handbook/marketing/brand-and-product-marketing/content/content-marketing/#blog-post) for guidelines on when and how to start engaging Content Marketing for creating a blog post for a feature.
+Content marketers and Product Managers can partner together when using a Blog to communicate product changes and engaging the market with thoughtful changes. See the [blog post handbook page](/handbook/marketing/blog/) for guidelines on when and how to start engaging Content Marketing for creating a blog post for a feature.
 
 ### Working with Product Marketing (PMM)
 
@@ -319,7 +318,7 @@ In general, you should:
 - proactively reach out for input when contemplating new features
 - involve PMM as early as possible with work on important changes
 
-{{% include "includes/usecase-competitive-content.md" %}}
+{{% include "includes/marketing/usecase-competitive-content.md" %}}
 
 ### Working with marketing
 
@@ -349,7 +348,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 - [Pricing](https://about.gitlab.com/pricing/)
 - [Features](https://about.gitlab.com/features/)
 - [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
-- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
+- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate/)
 - [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
 - [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
 - [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)
@@ -357,17 +356,17 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 **Internal**
 
 - [SaaS vs. Self-managed](https://about.gitlab.com/features/)
-- [Features by tier](/features/by-paid-tier/)
+- [Features by tier](https://about.gitlab.com/features/by-paid-tier/)
 
 ### Working with User Experience (UX)
 
-The standard for working as a team at GitLab is the [Product Development Workflow](/handbook/product-development-flow/). Product Managers and Product Designers should work together as strategic counterparts to better understand the problem and discover user needs. The Product Designer and the Product Manager will pair to understand the target audience, their challenges when using a particular feature and then designing a solution that helps users solve them.
+The standard for working as a team at GitLab is the [Product Development Workflow](/handbook/product-development/how-we-work/product-development-flow/). Product Managers and Product Designers should work together as strategic counterparts to better understand the problem and discover user needs. The Product Designer and the Product Manager will pair to understand the target audience, their challenges when using a particular feature and then designing a solution that helps users solve them.
 
 It's important to remember that User Experience (UX) does not only relate to visual features or interface design. UX is the intangible design of a strategy that brings us to a solution, so it also refers to the experience of writing code, working with .yml files, designing APIs, working with a CLI, etc. All of those functionalities are meant to be read and used by people. Involving a Product Designer into their planning and development can be highly beneficial. A guide to consider is: anytime a person is interacting with something, there is an opportunity for that interaction to be designed.
 
 #### Assessing user workflows
 
-As the GitLab product matures, we know we must make important workflows easier to use through feedback-loop mechanisms as is captured in the "Improve" section of the [Product Development Flow](/handbook/product-development-flow/#outcomes-and-activities-7). We can use the [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/) and [UX scorecards](/handbook/product/ux/ux-scorecards/) as mechanisms to provide insights into how might be able to improve these user workflows.
+As the GitLab product matures, we know we must make important workflows easier to use through feedback-loop mechanisms as is captured in the "Improve" section of the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#outcomes-and-activities-7). We can use the [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/) and [UX scorecards](/handbook/product/ux/ux-scorecards/) as mechanisms to provide insights into how might be able to improve these user workflows.
 
 #### What if there is a conflict with the product direction plan and solution proposal?
 
@@ -405,7 +404,7 @@ Here are some practices for how PMs work with groups outside of GitLab.
 #### Working with community contributors
 
 Product managers are the DRI for their group's [product direction](/handbook/product/product-processes/#managing-your-product-direction)
-which must include delivering on our greater company strategy of [dual flywheels](/handbook/company/strategy/#dual-flywheels).
+which must include delivering on our greater company strategy of dual flywheels.
 [Community contributions](https://about.gitlab.com/community/contribute/) are a critical
 part of the product direction.
 To support contributions product managers may consider the following guidelines:
@@ -422,4 +421,3 @@ To support contributions product managers may consider the following guidelines:
    This is to ensure that the PM stays informed about changes affecting their area and to
    allow them communicate the change via a release post, if necessary.
    Remember to practice our CREDIT values when communicating with contributors.
-   

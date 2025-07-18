@@ -35,7 +35,7 @@ A Product Manager will lead their quad team, in collaboration with a Product Mar
   - If there are many competitors in the space, it's advised to focus on the top competitor(s).
   - The competitor(s) being evaluated should be justifiable as a direct competitor with the JTBDs in mind. Components such as market share, feature overlap, etc. should be considered when determining which competitors to compare against.
   - If the competitor requires a paid subscription, you will need to conduct the comparison to the best of your ability using publicly available sources. Also, reach out to the #competition Slack channel to see if we can leverage any third-party vendors to help expand our understanding of the competitor.
-  - Depending on the competitor, you may need to gain approval through the [Individual Use Software process](/handbook/finance/procurement/personal-use-software/#how-do-i-submit-a-request-for-new-individual-use-software).
+  - Depending on the competitor, you may need to gain approval through the [Individual Use Software process](/handbook/finance/procurement/individual-use-software/).
 
 - **Step 2 - Follow Legal guidelines**
   - Since we're reviewing competitors, it's important that you review and follow the [Guidelines for leveraging third-party SaaS free trials to gain competitive intelligence](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/) (only available to team members) and the [Guidelines on public discussion of competitor product features](/handbook/legal/competitor-discussion-guidelines/).

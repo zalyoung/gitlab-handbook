@@ -29,7 +29,7 @@ The following people are permanent members of the Growth:Acquisition team:
 
 We work directly with the following team members in the Growth:Acquisition group:
 
-{{< stable-counterparts role="Growth(.*)|Growth:Acquisition" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
+{{< engineering/stable-counterparts role="Growth(.*)|Growth:Acquisition" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
 
 ## How We Work
 
@@ -47,29 +47,13 @@ Prioritization is a collaboration between Product, UX, Engineering, and Quality.
 - We use [Priority](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels)
   and [Severity](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) labels for bugs
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="acquisition" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="acquisition" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="acquisition" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="acquisition" >}}
-{{< /tableau >}}
-
 ### Workflow
 
-- We use the [Product Development workflow](/handbook/product-development-flow/) when working on issues and
+- We use the [Product Development workflow](/handbook/product-development/how-we-work/product-development-flow/) when working on issues and
 merge requests across multiple projects.
 
 - We use a shared [Kanban workflow board](https://gitlab.com/groups/gitlab-org/-/boards/4152639) for both groups - Acquisition and Activation
-for work in the [build phase](/handbook/product-development-flow/#build-track) of the product development flow.
+for work in the [build phase](/handbook/product-development/how-we-work/product-development-flow/#build-track) of the product development flow.
 
 - We use [refinement threads](https://gitlab.com/gitlab-org/gitlab/-/issues/383859#note_1231645373) on issues to discuss our approach and estimate weight of upcoming work.
 

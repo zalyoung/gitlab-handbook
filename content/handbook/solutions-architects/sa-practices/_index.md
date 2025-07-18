@@ -26,6 +26,8 @@ Solution Architects have various practices:
 
 [SA Subject Matter Expert program](/handbook/solutions-architects/sa-practices/subject-matter-experts/)
 
+[Whiteboard-based Facilitation](/handbook/solutions-architects/sa-practices/whiteboard-based-facilitation/)
+
 ## SA Practices - Pre-sales
 
 The following practice and process are lead by the Solutions Architects during pre-sales:
@@ -39,8 +41,6 @@ The following practice and process are lead by the Solutions Architects during p
 [GitLab Dedicated Prospects](/handbook/solutions-architects/sa-practices/gitlab-dedicated-prospects/)
 
 [Selling Professional Services](/handbook/solutions-architects/sa-practices/selling-professional-services)
-
-[Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/)
 
 [Mutual Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/)
 

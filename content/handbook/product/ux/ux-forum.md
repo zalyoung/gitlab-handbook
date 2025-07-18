@@ -6,7 +6,7 @@ description: >-
 
 ## About UX Forum
 
-{{% ux-forum %}}
+{{% product/ux-forum %}}
 
 ### Purpose
 
@@ -43,9 +43,9 @@ If a speaker can't share on their assigned date, it's their responsibility to ma
 - After you identify a trade, make an MR to update the schedule.
 - Ask your Product Design Manager to review and merge.
 
-{{% include "includes/ux-forum-schedule.md" %}}
+{{% include "includes/product/ux-forum-schedule.md" %}}
 
-<a href="https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-forum-schedule.md" class="btn btn-primary">Update schedule</a>
+<a href="https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/product/ux-forum-schedule.md" class="btn btn-primary">Update schedule</a>
 
 ## Sharing your work
 
@@ -60,7 +60,7 @@ Successful forums share these aspects:
     Avoid creating dedicated slides or assets, but use your best judgment to determine what's most effective: a prototype, a series of mockups, a process diagram, a journey map, a few slides, or something else.
     The UX Forum is to share and discuss your work informally, not fancy storytelling.
 - **Just enough sophistication**:
-    Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame) and share your work with as little sophistication as possible.
+    Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) and share your work with as little sophistication as possible.
     While some topics gain from a more sophisticated story, this sophistication raises the perception of quality, puts unnecessary pressure on other speakers, and might make it harder for others to engage.
 - **Relatable**:
     Structure your story with the audience in mind, to elicit feedback from them, and highlight potential overlaps.
@@ -121,7 +121,7 @@ For more tips, see the [communication handbook page](/handbook/communication/#pr
 
 ## Hosting
 
-Product Design Managers take turns hosting the UX Forum. Managers can use the [UX Forum issue template](https://gitlab.com/gitlab-org/gitlab-design/-/issues/new?issuable_template=UX%20Forum) to create a tracking issue for their hosting date. See [how to use templates](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
+Product Design Managers take turns hosting the UX Forum. Managers can use the [UX Forum issue template](https://gitlab.com/gitlab-org/gitlab-design/-/issues/new?issuable_template=UX%20Forum) to create a tracking issue for their hosting date. See [how to use templates](https://docs.gitlab.com/user/project/description_templates/#use-the-templates).
 
 ### Recording the sessions
 
@@ -137,7 +137,7 @@ Otherwise:
 1. Name the videos with "UX Forum" + the title of the topic.
 1. Check with speakers to make sure the video is appropriate for the public (no customer names).
 1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz).
-1. Add the videos to the [UX Forum playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5).
+1. Add the videos to the [UX Forum playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), and the [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5).
 1. Set the visibility to Public.
    1. NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
 1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each topic.
@@ -152,4 +152,4 @@ Otherwise:
 
 ### Updating the schedule
 
-After the sessions are over, update the [UX Forum schedule](https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-forum-schedule.md).
+After the sessions are over, update the [UX Forum schedule](https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/product/ux-forum-schedule.md).

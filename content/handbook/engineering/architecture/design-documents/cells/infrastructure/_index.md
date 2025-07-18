@@ -1,4 +1,5 @@
 ---
+title: "Cells: Infrastructure"
 stage: core platform
 group: Tenant Scale
 description: 'Cells: Infrastructure'
@@ -8,9 +9,7 @@ status: proposed
 toc_hide: true
 ---
 
-{{< design-document-header >}}
-
-# Cells: Infrastructure
+{{< engineering/design-document-header >}}
 
 ## Pre-reads
 
@@ -31,7 +30,7 @@ toc_hide: true
 - **Centralize Tooling**: We have a lot of tooling to manage GitLab.com and separate tooling for GitLab Dedicated,
   which creates silos, duplication of effort, and less portability.
   We have to provision multiple Cells for GitLab.com, we need new tooling, GitLab Dedicated built tooling just for this reason.
-  We should try to use this tooling as much as possible, if there are things we don't agree with we should try [disagree, commit, and disagree](../../../../values/#disagree-commit-and-disagree) to improve a single tool.
+  We should try to use this tooling as much as possible, if there are things we don't agree with we should try [disagree, commit, and disagree](/handbook/values/#disagree-and-commit) to improve a single tool.
   It is ok to start with tooling that has shortcomings, an iterative approach leads to _one_ mature product instead of two.
 
 ## Glossary/Ubiquitous Language
@@ -100,6 +99,9 @@ cloud "ClickHouse Cloud" {
 }
 
 frame "Google Cloud Platform" <<gcp>> {
+  frame "topology-service" <<gcp_project>>{
+    rectangle "TopologyService" as TopologyService
+  }
   frame "Cell Cluster" <<cluster>> {
     frame "gitlab-production" <<gcp_project>>{
       frame "gprd (Shared VPC Network)" <<vpc>> as gprdVPC {
@@ -227,7 +229,10 @@ frame "Google Cloud Platform" <<gcp>> {
 
   "Cell Cluster" -u-> cloud.gitlab.com
 }
-
+[RoutingService]-[thickness=1]->TopologyService
+[cell1gke]-[thickness=1]->TopologyService
+[cell2gke]-[thickness=1]->TopologyService
+[primaryFrontend]-[thickness=1]->TopologyService
 [RoutingService]-[thickness=3]->primaryFrontend
 [RoutingService]-[thickness=3]->cell1gke
 [RoutingService]-[thickness=3]->cell2gke
@@ -472,7 +477,7 @@ The first distinction is between teams implementing and maintaining the tools, a
 |                                                   | Emergency brake: stopping a package rollout               | team::Delivery-Deployments      |
 | Rollback capabilities                             |                                                           |                                 |
 |                                                   | Rollback with downtime (for QA Cell in ring 0)            | team::Delivery-Deployments      |
-|                                                   | Delayed Post Deploy Migrations for rollback support       | team::Environment Automation    |
+|                                                   | Delayed Post Deploy Migrations for rollback support       | group::environment automation    |
 | Observability                                     |                                                           |                                 |
 |                                                   | Cell health metric                                        | team::Scalability-Observability |
 |                                                   | Fleet health metric                                       | team::Scalability-Observability |

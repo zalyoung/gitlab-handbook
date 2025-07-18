@@ -35,11 +35,11 @@ Invitation emails to attend a live event, meet-up, or in-person training. These 
 
 ### Email Communication Policy
 
-Please [visit the legal page](/handbook/legal/marketing-collaboration/#marketing-rules-and-consent-language) to view all of the Marketing Rules and Consent Language.
+Please [visit the legal page](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language/) to view all of the Marketing Rules and Consent Language.
 
 This [FigJam](https://www.figma.com/file/fUbK9fPM0DOVf1ob6IIDbx/Opt-in-Workflow_2023-08-22_10-58-58?type=whiteboard&t=S4UoLJlyfrDlhTmw-1) shows the opt-in and opt-out/unsubscribe workflows for all forms, list imports and individual subscriptions. (must be workspace member to view)
 
-At GitLab, we strive to communicate with people in a way that is beneficial to them. We always include the unsubscribe link in our communications, and we respect the unsubscribe list. In addition to the unsubscribe button at the bottom of all of our emails, we have available our [Email Subscription Center](/handbook/company/preference-center/), where people can control their email communication preferences.
+At GitLab, we strive to communicate with people in a way that is beneficial to them. We always include the unsubscribe link in our communications, and we respect the unsubscribe list. In addition to the unsubscribe button at the bottom of all of our emails, we have available our [Email Subscription Center](https://about.gitlab.com/company/preference-center/), where people can control their email communication preferences.
 
 Each form will have the appropriate opt-in language specifid. However, to check you may [visit here](https://docs.google.com/document/d/1UEfWo26DP7nRPrWRWo7O7oSrNp_rRuVqyN_vC7SwXME/edit?usp=sharing).
 
@@ -74,7 +74,7 @@ We have a Marketo enforced limit on how many emails a single address can receive
 
 The email limits are not set in campaign templates, however, if your email is set to send to more than 20,000 people, you must include a filter for `Not Sent Email in last 2 Days`.
 
-Please reference and use the [All-Marketing SSOT Calendar](/handbook/marketing/#marketing-calendar-inputs) to see other sends happening around the same time.
+Please reference and use the [All-Marketing SSOT Calendar](https://internal.gitlab.com/handbook/marketing/#fy25-ssot-marketing-calendar) to see other sends happening around the same time.
 
 ## Request non-Demand Generation Emails
 
@@ -90,7 +90,7 @@ Emails that contain mostly marketing or promotional content like newsletters, ev
 
 If a person asks a team member to remove them from email marketing from GitLab, the team member can take a few different steps stated below. If a person unsubscribes, they may still receive [operational emails](/handbook/marketing/marketing-operations/email-management/#operational--bypass-unsubscribe) related to their account.
 
-1. Send the person to the [Email Subscription Center](/handbook/company/preference-center/index.html) to update their preferences
+1. Send the person to the [Email Subscription Center](https://about.gitlab.com/company/preference-center/) to update their preferences
 1. Send the person to the unsubscribe page (https://page.gitlab.com/UnsubscribePage.html) to unsubscribe from ALL communication
 1. On the person's SFDC record, check the `email opt out` box, which will then update the unsubscribe checkbox in Marketo and Outreach.
 1. If they are not in SFDC or refuse to go to unsubscribe page, the Marketing Operations team can manually unsubscribe them in Marketo. Create a confidential issue and alert the team in #mktgops.

@@ -1,0 +1,26 @@
+exclude:
+  # Files in the /static/ folders are valid.
+  - pattern: '^/pdfs/'
+  - pattern: '^/videos/'
+  - pattern: '^/images/'
+
+  # Pages using the `{{% performance-indicators %}}` shortcode.
+  - pattern: '^/handbook/ceo/office-of-the-ceo/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/development/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/infrastructure/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/performance-indicators/_index/?#'
+  - pattern: '^/handbook/engineering/performance-indicators/?#'
+  - pattern: '^/handbook/finance/finance-team-performance-indicators/?#'
+  - pattern: '^/handbook/marketing/developer-relations/performance-indicators/?#'
+  - pattern: '^/handbook/marketing/performance-indicators/?#'
+  - pattern: '^/handbook/people-group/people-success-performance-indicators/?#'
+  - pattern: '^/handbook/product/ux/performance-indicators/?#'
+  - pattern: '^/handbook/support/performance-indicators/?#'
+
+# Other pages where the majority of the content is generated from a shortcode
+  - pattern: '^/handbook/#'
+  - pattern: '^/handbook/business-technology/tech-stack/?#'
+  - pattern: '^/handbook/company/team/?#'
+  - pattern: '^/handbook/product/categories/?#'
+  - pattern: '^/handbook/product/categories/features/?#'
+  - pattern: '^/handbook/engineering/projects/?#'

@@ -8,19 +8,19 @@ Please contribute your ideas to this guide [here.](https://gitlab.com/gitlab-com
 
 Welcome to the first iteration of GitLab's Team Member Sustainability Guide. As a fully remote workforce without daily commutes or physical offices, we don't have the typical environmental footprint that many other companies have, but that doesn't mean we don't have an environmental impact.
 
-[Climate Action and Greenhouse Gas (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, investments, and **emissions associated with remote work**.
+[Climate Action and Greenhouse Gas (GHG) Emissions](/handbook/legal/esg/#climate-action) are key focus areas identified in GitLab's ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, investments, and **emissions associated with remote work**.
 
 Working remotely comes with its own sustainability challenges and opportunities. For example, our laptops, monitors and lamps use energy that generates carbon emissions. The meals we eat during our work day generate waste that may end up in a landfill. The purpose of this guide is to provide actionable steps for team members to take at home to reduce individual environmental impact.
 
 We know that part of doing responsible business means minimizing our environmental footprint. That's why we're committed to analyzing and publishing our emissions along with any steps we're taking to reduce our footprint in our annual [ESG report](/handbook/company/esg/#gitlab-fiscal-year-2023-fy23-esg-report).
 
-We are a global team, and we know there are sustainability initiatives and offerings specific to where you live. Many of you have developed sustainable practices at home, and we would love to know more about them! Please [contribute here](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072) and help us crowdsource ideas for other team members in your area! Please share any feedback or questions in the issue or in slack #ESG.
+We are a global team, and we know there are sustainability initiatives and offerings specific to where you live. Many of you have developed sustainable practices at home, and we would love to know more about them! Please [contribute here](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072) and help us crowdsource ideas for other team members in your area! Please share any feedback or questions in the issue or in slack #Sustainability-ESG.
 
 ## Electronics
 
 1. Unplug devices at the end of the day. You can save anywhere between $100 and $200 each year by unplugging devices not in use.<sup>1</sup>
 2. Use sleep mode instead of a screensaver. Screensavers might actually use more energy than not using one.<sup>2</sup>
-3. Repair devices instead of replacing. [ifixit](https://www.ifixit.com/) provides manuals for how to fix a variety of electronic and other household items. For GitLab laptop repairs, follow the [steps listed in the handbook](/handbook/it/end-user-services/onboarding-access-requests/#laptop-repair).
+3. Repair devices instead of replacing. [ifixit](https://www.ifixit.com/) provides manuals for how to fix a variety of electronic and other household items. For GitLab laptop repairs, follow the [steps listed in the handbook](/handbook/security/corporate/end-user-services/laptop-management/laptop-repairs).
 
 ## Lighting
 
@@ -33,7 +33,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 2. Replace traditional heating systems, such as furnaces, boilers and baseboards with a heat pump. [Heat pumps](https://www.energy.gov/energysaver/heat-pump-systems) are 2-3x more efficient than traditional heating systems.<sup>4</sup>
 3. Turn your thermostat down. You can save as much as 10% a year on heating and cooling by simply turning your thermostat back 7°-10°F for 8 hours a day from its normal setting.<sup>5</sup>
 4. Insulate your home. A leaky home is expensive! You can cut your utility bills by $500 - $1,000 just by sealing leaky windows and doors.<sup>6</sup> One easy way to do this is to use weather strips to seal windows and doors to prevent energy leakage. Check out [this guide](https://energysavingtrust.org.uk/energy-at-home/reducing-home-heat-loss/) from Energy Savings Trust for more information on other ways to insulate your home.
-5. Consider switching to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). Typically, these are more energy efficient than conventional storage tank water heaters. Check with a contractor to ensure compatibility with your heat source.<sup>7</sup>
+5. Consider switching to a [tankless water heater](https://carbonswitch.com/tankless-water-heater-buyers-guide/). Consult a professional to understand your options for a tankless water heater based on your house size, hot water needs, and energy source. <sup>7</sup>
 
 ## Waste
 

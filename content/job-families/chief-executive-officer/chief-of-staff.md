@@ -27,14 +27,12 @@ The responsibilities include both directed work that will mostly be triggered by
 1. Moderate the [E-Group](/handbook/company/structure/#e-group) meetings.
 1. Ensure action points coming out of meetings (i.e. executive, OKR, key, or incident meetings) are implemented.
 1. Reinforce [communication guidelines](/handbook/communication/).
-1. Prep for the CEO [Quarterly Kick-offs](handbook/company/gitlab-all-company-meetings/#quarterly-kickoff).
+1. Prep for the CEO [Quarterly Kick-offs](/handbook/company/gitlab-all-company-meetings/#quarterly-kickoff).
 1. Draft blog posts and articles about areas of interest to the CEO.
 
 ### Leadership Work
 
-1. Initiate and guide the OKR process according to the [OKR schedule](/handbook/company/okrs/#schedule).
 1. Identify opportunities to acknowledge success and ensure that they are appropriately recognized by the CEO.
-1. Review OKR suggestions during the [scheduled OKR meetings](/handbook/company/okrs/#schedule) and outside of the meetings.
 1. Own agenda for the [E-Group offsite](/handbook/company/offsite/).
 1. Serve as a proxy for the CEO by attending meetings in place of the CEO and making decisions on the CEO's behalf.
 1. Participate in every E-Group meeting. The person will not be an executive or part of the E-Group, but they will take part in E-Group activities.
@@ -46,7 +44,7 @@ The responsibilities include both directed work that will mostly be triggered by
 
 ## Requirements
 
-1. Capacity to be a [senior leader](/handbook/company/structure/#senior-leaders) at GitLab.
+1. Capacity to be a [senior leader](/handbook/company/structure/#directs-group) at GitLab.
 1. Proven ability to quickly learn new things.
 1. Concise written and verbal communication.
 1. Ability to work during Pacific Time (PT) friendly hours.
@@ -91,19 +89,19 @@ As always, the interviews and screening call will be conducted via a [video call
 
 ## References
 
-- [What Is a Chief of Staff to the CEO and When Do You Need One?](https://www.bridgespan.org/insights/library/careers/chief-of-staff-role#sidebar-two) by Madeleine Niebauer 2018-09-26
+- [What Is a Chief of Staff to the CEO and When Do You Need One?](https://www.bridgespan.org/insights/chief-of-staff-role#sidebar-two) by Madeleine Niebauer 2018-09-26
 - [The Chief of Staff to the CEO role in Silicon Valley](https://medium.com/@juliadewahl/the-chief-of-staff-role-in-silicon-valley-182eb93e636e) by Julia DeWahl 2019-04-29
-- [The Unrepentant Generalist: How to Be a Great Chief of Staff in Tech](http://www.nehrlich.com/blog/2019/10/31/how-to-be-a-great-chief-of-staff-in-tech/)
+- [The Unrepentant Generalist: How to Be a Great Chief of Staff in Tech](https://www.nehrlich.com/blog/2019/10/31/how-to-be-a-great-chief-of-staff-in-tech/)
 - [NYT: Hail to the Chief of Staff](https://www.nytimes.com/2019/11/07/style/what-does-a-chief-of-staff-do.html)
 - 2020 March: [Chief of Staff in the Tech Industry](https://medium.com/@alexismonville/chief-of-staff-in-the-tech-industry-c7dc3a43dae6)
 - [Emilie Schario's Notes on the CoS to the CEO Book](https://docs.google.com/document/d/1ZjWmqhv78eic57gxR825FvC9GMHo91pYakb3Jc7ximU/edit?usp=sharing)
-- [Chief of Staff Tech Network](https://costechnetwork.com/)
-- [Chief of Staff Resources](https://www.chiefofstaff.expert)
+- [Chief of Staff Tech Network](https://www.chiefofstaff.network/)
+- [Chief of Staff Resources](https://chiefofstaff.expert/)
 - [Prime Chief of Staff](https://primechiefofstaff.com)
 - [The First 90 Days](https://medium.com/@robdickins/a-90-day-impact-plan-for-a-new-chief-of-staff-97768d9b04bd)
 - [I've Logged 10,000 Hours as a Chief of Staff in a Large Tech Company](https://medium.com/@robdickins/ive-logged-10-000-hours-as-a-chief-of-staff-in-a-large-tech-company-here-s-my-pov-on-the-role-7c4aa095f5e8)
 - [The Role of a Corporate Chief of Staff](https://medium.com/cos-tech-forum/part-1-the-role-of-a-corporate-chief-of-staff-8db0142318f1)
 - [Better CoS to the CEO: Decision Making](https://medium.com/@robdickins/better-cos-decision-making-5d97d14152e3)
-- [Becoming a Chief of Staff with Brian Rumao](https://www.linkedin.com/learning/become-a-chief-of-staff-with-brian-rumao)
+- [Becoming a Chief of Staff with Brian Rumao](https://www.linkedin.com/learning/become-a-chief-of-staff)
 - [HBR: The Case for a Chief of Staff](https://hbr.org/2020/05/the-case-for-a-chief-of-staff)
 - [How a Chief of Staff Makes Leaders more Effective](https://www.inc.com/inc-masters/how-a-chief-of-staff-makes-leaders-more.html)

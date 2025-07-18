@@ -32,6 +32,8 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 |-----------------------------------------------------|-------|
 | [Senior Manager, Total Rewards](#senior-manager-total-rewards) | 9 |
 | [Director, Total Rewards](#director-total-rewards) | 10 |
+| [Director, Global Compensation](#director-global-compensation) | 10 |
+| [Director, Executive and Equity Compensation](#director-executive-and-equity-compensation) | 10 |
 
 ## Total Rewards
 
@@ -39,21 +41,21 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 
 #### Job Grade
 
-The Senior Total Rewards Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Total Rewards Program Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
 - Lead all aspects of the planning, coordination and execution of new and revised Total Rewards programs
-- Orchestrate Total Rewards teams in coordination with stakeholders, partners and with the customer-experience always in mind 
-- Support Total Rewards leadership in preparing communication materials, building enablement and change management content, 
+- Orchestrate Total Rewards teams in coordination with stakeholders, partners and with the customer-experience always in mind
+- Support Total Rewards leadership in preparing communication materials, building enablement and change management content,
 - Ensure programs are delivered with compliance, quality and on time with a one People Team mindset and brand
-- Anticipate and prepare for unforeseen contingencies to avoid or mitigate program launch issues 
+- Anticipate and prepare for unforeseen contingencies to avoid or mitigate program launch issues
 
 #### Requirements
 
-- Demonstrated experience in Program Management with an emphasis in Global Total Rewards, ideally in fast-paced, dynamic environment 
+- Demonstrated experience in Program Management with an emphasis in Global Total Rewards, ideally in fast-paced, dynamic environment
 - Experience in executive compensation in a public company
-- Experience with Workday and Aon Hewitt/Radford 
+- Experience with Workday and Aon Hewitt/Radford
 - Experience working with People Business Partners and senior leaders in a business facing role to solve compensation challenges
 - Experience leading presentations to senior leaders teams and company-wide audiences
 - Tested ability to drive programs to completion amidst ambiguity and dynamic environment factors
@@ -112,13 +114,13 @@ The Senior Benefits Program Manager is a [grade 7](/handbook/total-rewards/compe
 #### Responsibilities
 
 - Management of Benefits Plan Design Globally in coordination with a Global Benefits Broker.
-- Coordination with People Business Partners and GitLab Management on all related benefit plan inquires.
+- Coordination with People Business Partners and GitLab Management on all related benefit plan inquiries.
 - Management of Benefits Renewals, Plan Changes, and Open Enrollment.
 - Development of Benefits Roadmaps for each entity and PEO to determine future benefits in collaboration with Finance.
 - Development and Execution of Benefits Trainings to ensure team members understand benefits available to them.
 - Ensure compliance with all international rules and regulations.
 - Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Build business case for new benefits based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
+- Build business cases for new benefits based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
 - Update Total Rewards documentation as appropriate.
 - Collect GitLab internal data to track trends in functional areas.
 - Collect external market data to support benefits roadmaps.
@@ -161,7 +163,6 @@ The Compensation Coordinator is a [grade 5](/handbook/total-rewards/compensation
 
 - Support all aspects of job family creation and maintenance, partnering with the business to ensure alignment with the job architecture, conducting market benchmarking, reviewing FLSA classification, and updating related systems and tools.
 - Participate in external compensation surveys.
-- Assist with updating and refreshing the Compensation Calculator.
 - Maintain accuracy and integrity of compensation-related data in Workday through regular audits and data coordination.
 - Support the full lifecycle of all compensation programs, including Annual Compensation Review, promotion cycles, quarterly RSU grant approvals, and bonus programs
 - Act as the primary point of contact for compensation-related team member inquiries in collaboration with the People Connect team including creating documentation to support major program and policy implementations.
@@ -185,10 +186,9 @@ The Senior Compensation Analyst is a [grade 7](/handbook/total-rewards/compensat
 
 - Participate in compensation surveys.
 - Maintain approval requests in Greenhouse ensuring job family and compensation benchmarks are set.
-- Development of Compensation Architecture and Compensation Calculator Formula Inputs to determine competitive rates.
+- Development of Compensation Architecture to determine competitive rates.
 - Maintain job code architecture as compared to survey data to ensure proper benchmarking for all roles at GitLab.
 - Benchmark new roles or job families.
-- Maintain the Compensation Calculator.
 - Coordinate with People Technology and Tools to ensure reporting of all compensation data from HRIS.
 - Management of Compensation Tools and Technology for reporting and compensation review cycles.
 - Implement Total Rewards policies, processes and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
@@ -219,12 +219,12 @@ The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensa
 - Partnership with Sales Compensation on Sales Quota plan design and payouts.
 - Ensure compliance with all international rules and regulations.
 - Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Build business case for compensation iterations based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
+- Build business cases for compensation iterations based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
 - Update Total Rewards documentation as appropriate.
 - Collect GitLab internal data to track trends in functional areas.
 - Collect external market data to support benefits roadmaps.
 - Total Rewards Statement Management to be able to report the three pillars of total rewards at the end of each compensation review cycle ensuring the ability to report unvested equity value.
-- Assist the People Connect group with all compensation related escalated inquires.
+- Assist the People Connect group with all compensation related escalated inquiries.
 - Keep it efficient and DRY.
 
 ### Compensation Partner
@@ -233,7 +233,7 @@ The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensa
 
 The Compensation Partner is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-**Market Justification:** The business need for an individual contributor Compensation Partner role is to have a team member with a high level of expertise in Compensation to be able to advise the business in the Compensation Philiosophy. This team member will collaborate with People Business Partners and leaders to ensure team members fully understand their total rewards package. In the market, there are over 160 organizations that typically have 2 to 3 Compensation Partners.
+**Market Justification:** The business need for an individual contributor Compensation Partner role is to have a team member with a high level of expertise in Compensation to be able to advise the business in the Compensation Philosophy. This team member will collaborate with People Business Partners and leaders to ensure team members fully understand their total rewards package. In the market, there are over 160 organizations that typically have 2 to 3 Compensation Partners.
 
 #### Responsibilities
 
@@ -243,7 +243,7 @@ The Compensation Partner is a [grade 8](/handbook/total-rewards/compensation/com
 - Education regarding equity plans at GitLab in collaboration with Stock Administration to ensure team members understand the potential value of their equity.
 - Promote an understanding of compensation philosophies, practices and administration across all levels of the organization, including the executive team. Specifically:
   - Collaborate with People Business Partners and business leaders regarding compensation philosophy, practices, and programs.
-  - Collaborate with Talent Aqusition regarding compensation philosophy, practices, and programs. Ensure the recruiting team is educated how to present GitLab's compensation and overall total rewards strategy.
+  - Collaborate with Talent Acquisition regarding compensation philosophy, practices, and programs. Ensure the recruiting team is educated on how to present GitLab's compensation and overall total rewards strategy.
 - Ensure compliance with all international rules and regulations.
 - Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
 - Keep it efficient and DRY.
@@ -254,7 +254,7 @@ The Compensation Partner is a [grade 8](/handbook/total-rewards/compensation/com
 - Experience working in a public company and exposure to compensation programs at scale.
 - The ability to present complex models in a simple and clear manner.
 - Experience leading presentations to executive teams and company-wide audiences.
-- Experience in Worday preferred.
+- Experience in Workday preferred.
 
 ### Manager, Compensation
 
@@ -287,7 +287,66 @@ The responsibilities for a Senior Manager, Total Rewards will be added at the ti
 
 The Senior Manager, Total Rewards is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Director, Total Rewards
+### Director, Global Compensation
+
+The Director, Global Compensation is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Develop, manage and execute a comprehensive compensation strategy that aligns with the company's business goals and ensures it is positioned to attract candidates and motivate and retain current team members
+- Manage and administer executive compensation programs and prepare for the compensation committee meetings
+- Manage ongoing employee compensation programs such as annual compensation review cycle, bonus accrual and payout, and equity planning
+- Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent
+- Serve as Subject Matter Expert in the development of short-term incentive compensation (i.e. bonus and sales commissions plans) and long-term incentive compensation (i.e. equity)
+- Review current compensation programs and lead the proposal, development, and implementation of necessary changes to align with our global business
+- Own the communication strategy and create internal compensation branding messaging and trainings to ensure team members understand the components and value of their compensation package
+- Provide thought leadership to business leaders on compensation issues including new hire packages, performance recognition, incentive plans, retention arrangements and compensation structure
+- Stay ahead of market trends and develop creative pay practices to ensuring that the organization retains a competitive position in the marketplace
+- Determine M&A strategy and execution for compensation
+- Lead and mentor a team of compensation professionals to provide strategic business partnership and support while fostering their own growth and development
+
+#### Requirements
+
+- Progressive experience and demonstrated leadership in designing and managing compensation ideally at rapidly growing, global companies in a relevant industry
+- Strong understanding of executive compensation; in-depth knowledge of core compensation principles and methodologies
+- Forward thinking, creative, and open-minded approach with sound technical skills, analytical ability, and seasoned judgment
+- Comfortable and enthusiastic about working in a fast-paced, high growth, constantly changing, geographically dispersed, transparent environment
+- Ability to drive consensus and engagement across a wide variety of stakeholders in multiple parts of the business
+- Data-driven leader with a strong ability to analyze and turn data into insights and action plans aligned with company direction
+- Excellent verbal and written communication skills, with the ability to package and present complex analyses and recommendations clearly
+- Previous experience in both public and startup companies
+- Experience preparing for and interacting with the Compensation Committee
+- Experience working remotely and managing remote team members is preferred
+
+### Director, Executive and Equity Compensation
+
+The Director, Executive and Equity Compensation is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Lead, implement, and communicate executive and equity compensation philosophies, practices and strategies including base salary, bonuses, long-term incentives, and equity awards
+- Provide thought leadership to internal partners around industry best practices to motivate and retain top talent globally and serve as a subject matter expert to executives, People partners, and the Compensation Committee
+- Prepare documentation, present to, and where necessary, guide GitLab's Compensation Committee
+- Manage the annual compensation review process for executives
+- Partner with internal stakeholders to assess and analyze compensation trends, regulations, and market data to inform compensation decisions.
+- Develop clear and effective communication strategies for compensation programs that impact the GitLab leadership team
+- Monitor the effectiveness of existing compensation practices, policies, and procedures, making adjustments as necessary to maintain competitiveness
+- Manage relationships with external consultants
+
+#### Requirements
+
+- Deep and progressive experience designing and managing executive and equity compensation programs, ideally at rapidly growing, global companies in a relevant industry
+- Previous experience in both public and startup companies
+- A forward thinking, creative, and open-minded approach with sound technical skills, analytical abilities, and seasoned judgment
+- Comfortability and enthusiasm about working in a fast-paced, high growth, constantly changing, geographically dispersed, transparent environment
+- An ability to drive consensus and engagement across a wide variety of stakeholders in multiple parts of the business
+- A strong ability to analyze and turn data into insights and action plans aligned with company direction
+- Excellent verbal and written communication skills, ability to package and present complex analyses and recommendations clearly
+- Experience working remotely and with remote team members is preferred
+- Experience building and leading a team of Compensation team members
+- High level of integrity, discretion and professionalism in handling confidential information
+
+### Director, Total Rewards
 
 The responsibilities for a Director, Total Rewards will be added at the time of a business need for the role.
 
@@ -295,11 +354,11 @@ The responsibilities for a Director, Total Rewards will be added at the time of 
 
 The Director, Total Rewards is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Senior Director, Total Rewards
+### Senior Director, Total Rewards
 
 The Senior Director, Total Rewards leads the development and administration of our total rewards strategy and practices to support our culture and growth.  This role will serve as a trusted organizational leader to lead strategy development, design, implementation, administration, and governance of all compensation and benefit programs globally.  In partnership with the People leadership team and senior business leaders, translate business strategy into scalable and meaningful Total Rewards strategies that are effective in attracting, rewarding and retaining key talent.  The Senior Director reports to the VP, Total Rewards and Operations.
 
-### Job Grade
+#### Job Grade
 
 The Senior Director, Total Rewards is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -327,7 +386,7 @@ The next step in the Total Rewards job family is to move to the VP, Total Reward
 
 - [Percentage over compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band)
 - [Average location factor](/handbook/people-group/people-success-performance-indicators/#average-location-factor)
-- [New hire location factor](/#new-hire-location-factor)
+- New hire location factor
 - [Pay equality](/handbook/company/culture/inclusion/#performance-indicators)
 
 ### Hiring Process

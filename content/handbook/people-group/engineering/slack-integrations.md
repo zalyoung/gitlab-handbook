@@ -32,7 +32,7 @@ To opt-in, follow these steps on Slack
 1. Click on `Edit profile`
 1. Scroll down to the `GitLab Birthdays` field and select `Yes`
 
-### Informing People Connect Team about details missing in BambooHR for upcoming new hires
+### Informing People Connect Team about details missing in Workday for upcoming new hires
 
 For the new hire announcements to be accurate, it is required to ensure the
 Workday details of team members joining the following week is as complete as
@@ -47,10 +47,6 @@ details before new hire announcements are sent, it is necessary this job should
 be run an adequate amount of time before the new hire announcements job is run.
 Currently, the pipeline is scheduled to be run at 02:00 PM on every Wednesday.
 
-### Offboarding sheet
-
-There is a Google form that People Connect submits scheduled or voluntary offboardings into, this is then stored within a Google Sheet which we check every day to determine whether or not anyone is being offboarded within the hour. This automation runs every hour to check and see if we have any new team members that are being offboarded, if there are any, we then open the related offboarding issues automatically.
-
 ### Employment survey
 
 Whenever a team member fills in on of the following surveys, the form entrance
@@ -62,12 +58,14 @@ People Connect team can discuss and take action.
 - Career Mobility Value Check-In
 - Career Mobility Satisfactory Survey
 
-### Hiring Manager Survey
+### GitLab Usernames
 
-Whenever a new team member is added to a team we currently send a couple of notifications.
+Often times, team members won't follow the procedure outlined on the [tools and tips page](/handbook/tools-and-tips#change-your-username-at-gitlabcom) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
+To remedy this situation, every Wednesday, we audit all GitLab usernames stored on Workday (`GitLab Username` field) and verify that those usernames are members of the [gitlab-com group](https://gitlab.com/groups/gitlab-com/-/group_members). When a Workday `GitLab Username` is not in the group, a message is automatically sent in `#peopleops-alerts` on Slack.
 
-- `DM` - will attempt to send a survey DM to the new team members hiring manager.
-- `Alert` - will send this survey as a link to the `#peopleops-alerts` channel if the DM could not be sent.
+### Pops Commands
+
+We have more documentation regarding available `/pops` commands in Slack in the [internal handbook here](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/).
 
 ### Template Paths
 
@@ -75,8 +73,3 @@ People Connect associates can type `/pops run templatepaths <EMPLOYEE_NUMBER>` t
 the list of locations where the bot looks to fill-in role/specialty based access request
 and onboarding tasks. This command is useful when it is unclear why an automated issue
 creation did not pick up a given template. This will show exactly what path the bot expects.
-
-### GitLab Usernames
-
-Often times, team members won't follow the procedure outlined on the [tools and tips page](/handbook/tools-and-tips#change-your-username-at-gitlabcom) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
-To remedy this situation, every Wednesday, we audit all GitLab usernames stored on Workday (`GitLab Username` field) and verify that those usernames are members of the [gitlab-com group](https://gitlab.com/groups/gitlab-com/-/group_members). When a Workday `GitLab Username` is not in the group, a message is automatically sent in `#peopleops-alerts` on Slack.

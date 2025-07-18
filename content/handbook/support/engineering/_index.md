@@ -12,11 +12,12 @@ As a Support Engineer at GitLab, the majority of your time will be focused on he
 While working through various customer problems, you may need help. We have a wide and talented team that can help you at many levels:
 
 - Managers: If your problem is related to process, or understanding direction, or cross-team collaboration, consider talking to your direct manager, or another manager whom may be working more directly on that problem. Managers in Support Engineering should be able to point you in the right direction and enable you to find the right help.
-- Senior/Staff Support engineers: If your problem is debugging related, consider reaching out to a Senior+ Engineer. At the Senior+ level, engineers are expected to be acting as mentors, and technical experts. See our [Mentoring page for more information about how Senior+ Engineers are expected to help](/handbook/support/engineering/mentorship)
+- Senior/Staff Support engineers: If your problem is debugging related, consider reaching out to a Senior+ Engineer. At the Senior+ level, engineers are expected to be acting as mentors, and technical experts. See our [Mentoring page for more information about how Senior+ Engineers are expected to help](/handbook/support/engineering/mentorship).
+- [How to get help workflow](/handbook/support/workflows/how-to-get-help/) provides more details on getting help when working on a ticket.
 
 ### Zendesk Instances
 
-At GitLab, the Support Team currently manages 2 different [Zendesk Instances](/handbook/support/readiness/operations/docs/zendesk/):
+At GitLab, the Customer Support Operations team currently manages 2 different Zendesk Instances:
 
 1. GitLab Support Instance:  [gitlab.zendesk.com](https://gitlab.zendesk.com)
 1. GitLab US Federal Support Instance: [gitlab-federal-support.zendesk.com](https://gitlab-federal-support.zendesk.com)
@@ -32,7 +33,7 @@ We recommend reviewing the best practices and suggestions for [styling and respo
 
 Just as Support team members are expected to adhere to GitLab's [Code of Conduct](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/), we also expect customers to treat the Support Team with the same level of respect. The [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) outlines the standards to which we hold the wider GitLab Community.
 
-If you notice a ticket where you believe the customer to be violating the Code of Conduct, please tag the [Manager On-Call](/handbook/support/on-call/#manager-on-call) to respond with the following guidelines in our [Statement of Support](https://about.gitlab.com/support/general-policies/#please-dont-use-language-intended-to-threaten-or-harass).
+If you notice a ticket where you believe the customer to be violating the Code of Conduct, please tag the [Manager On-Call](/handbook/support/on-call/#engaging-the-on-call-manager) to respond with the following guidelines in our [Statement of Support](https://about.gitlab.com/support/general-policies/#please-dont-use-language-intended-to-threaten-or-harass).
 
 ### Support Team Contributions
 
@@ -55,11 +56,11 @@ end of each week with a list of support team contributions merged in the past we
 
 ### Internal tools
 
-- [Support Toolbox](https://gitlab.com/gitlab-com/support/toolbox) - Includes tools such as `json_stats` (analyze JSON logs), `strace_parser` (analyze `strace` output), `gitlabsos` (get all logs and other data from customers), etc.
-- [Support Resources](https://gitlab.com/gitlab-com/support/support-resources/#support-resources) - Create test instances
+- [Support Toolbox](https://gitlab.com/gitlab-com/support/toolbox) - Includes tools such as [Green Hat](https://gitlab.com/gitlab-com/support/toolbox/greenhat) (SOS/log analyzer), [fast-stats](https://gitlab.com/gitlab-com/support/toolbox/fast-stats) (generate performance statistics from logs), [strace-parser](https://gitlab.com/gitlab-com/support/toolbox/strace-parser) (analyze raw `strace` output), [gitlabsos](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) and [kubeSOS](https://gitlab.com/gitlab-com/support/toolbox/kubesos) (get all logs and other data from customers), etc.
+  - [Support Team Bot](https://api.slack.com/apps/A07DSM5C2H5) - A Slack integration owned by the Support team, mainly used to provide webhooks so other projects in the Support Toolbox can post to Slack in an automated way ([Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot), [SWIR-Slack Bridge](https://gitlab.com/gitlab-com/support/toolbox/swir-slack-bridge), [cmoc-handover-message](https://gitlab.com/gitlab-com/support/toolbox/cmoc-handover-message)). The main owner is [@manuelgrabowski](https://gitlab.com/manuelgrabowski), [@kslaats](https://gitlab.com/kslaats) and [@bcarranza](https://gitlab.com/bcarranza) also have access.
+- [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) - Create test instances, see [guidance](../workflows/test_env.md#gitlab-sandbox-cloud-for-gcp-preferred)
 - [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - [CustomersDot admin](https://customers.gitlab.com/admin/) - Where to manage Self-Managed licenses and where customers manage their subscriptions.
-- [GitLab Regressions](https://regressions.gitlab.io/)
 
 ### External tools
 
@@ -69,7 +70,7 @@ end of each week with a list of support team contributions merged in the past we
 - [Insomnia](https://insomnia.rest/) - Build, debug, and test API queries, and generate the code for them
 - [iTerm2](https://iterm2.com/) (macOS) - Terminal emulator with robust theming and customization options
 - [Itsycal](https://www.mowglii.com/itsycal/) (macOS) - Menu bar calendar with more flexibility than the system widget
-- [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker
+- [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker. **Note:** configure with [local server](https://dev.languagetool.org/http-server)
 - [Obsidian](https://obsidian.md/) - Super customizable markdown notetaking app with tons of themes and addons
 - [Raycast](https://www.raycast.com/) (macOS) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more
 - [Zed](https://zed.dev/) - Lightweight but powerful IDE
@@ -79,9 +80,8 @@ end of each week with a list of support team contributions merged in the past we
 
 ### Useful Browser Extensions
 
-- Copy As Markdown - Used to copy the element in current page as markdown format ([Chrome](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)/[Firefox](https://addons.mozilla.org/firefox/addon/copy-as-markdown/))
-- Zendesk Download Router - Automatically routes Zendesk downloads into separate folders by ticket number ([Chrome](https://chrome.google.com/webstore/detail/zendesk-download-router/pgfhacdbkdeppdjgighdeejjfneifkml)/[Firefox](https://addons.mozilla.org/en-GB/firefox/addon/zendesk-download-router/)/[Opera](https://addons.opera.com/en-gb/extensions/details/zendesk-download-router/))
+- Copy As Markdown - Used to copy the element in current page as markdown format ([Chrome](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)/[Firefox](https://addons.mozilla.org/en-US/firefox/addon/copy-as-markdown/))
+- Zendesk Download Router - Automatically routes Zendesk downloads into separate folders by ticket number ([Chrome](https://chrome.google.com/webstore/detail/zendesk-download-router/pgfhacdbkdeppdjgighdeejjfneifkml)/[Firefox](https://addons.mozilla.org/en-GB/firefox/addon/zendesk-download-router/))
 - GitLab Web Debugger - Aides in identifying the root cause of page load errors on GitLab.com and internal GitLab instances ([Chrome](https://gitlab.com/gitlab-com/gl-infra/gitlab-web-debugger))
 - [Zendesk Quicktab](https://support.zendesk.com/hc/en-us/articles/6443360776346-Installing-the-Quicktab-Google-Chrome-extension) - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/quicktab-for-zendesk-by-t/hhbimbckgheipimadcknkfogegmpoibj))
 - Calendly Meeting Scheduling Software - ad-hoc meetings, one-click booking ([Chrome](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp))
-- GitLab Screen share mode - allows to hide confidential information on your GitLab screen ([Chrome](https://gitlab.com/leipert-projects/gitlab-screen share-mode#chrome)/[Firefox](https://gitlab.com/leipert-projects/gitlab-screen share-mode#firefox))

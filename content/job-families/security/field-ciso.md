@@ -47,7 +47,7 @@ All responsibilities listed above (applicalbe to all roles) plus:
 - Own CISO, CSO, and/or chief security architect relationships in key accounts while providing credible, leading-edge security guidance to help orchestrate their desired outcomes
 - Assist account teams with GitLab product security and compliance expertise in order to drive ARR for GitLab while also providing direction on opportunity and account strategies related to selling and expanding with security (e.g., up-tier)
 - Act as a prospect / customer advocate on security related matters
-- Develops field enablement content including demos of GitLab security features 
+- Develops field enablement content including demos of GitLab security features
 - Curate and manage security related field feedback, while collaborating with the product team on issue prioritization
 - Contribute to security sales strategy and playbooks in while collaborating with marketing and product teams
 - Scale and grow regional-level expertise within the field (SAE/AE,SA,CSM) through contributions to enablement and content
@@ -59,10 +59,6 @@ All responsibilities listed above (applicalbe to all roles) plus:
 - Strong verbal and written skills with a strong ability to articulate and communicate strategies to all levels in an organization (i.e., executive to staff engineer)
 - Ability to use GitLab, including learning GitLab as part of the role
 
-#### Field CISO (Senior Director) Performance Indicators
-
-- {add 3-5 KPIs that this role will be the DRI for, if the PIs are the same for all levels remove this section and use the heading 2 section later in the template}
-
 ## Career Ladder
 
 For more details on the security engineering career ladders, please review the [security engineering career development](/job-families/security/security-engineer/) handbook page.
@@ -71,10 +67,10 @@ For more details on the security engineering career ladders, please review the [
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call]({{< ref "interviewing#screening-call" >}}) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with CISO
 - Candidates will then be invited to schedule separate 60 minute interviews with three leaders of the organization
 - Candidates will then be invited to schedule separate two 45 minute interviews with cross-functional team members
 - Successful candidates will subsequently be made an offer via email
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
+Additional details about our process can be found on our [hiring page](/handbook/hiring/).

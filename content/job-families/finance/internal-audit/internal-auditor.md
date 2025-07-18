@@ -3,7 +3,7 @@ title: Internal Auditor
 description: The Internal Auditor is responsible for assisting the Internal Audit team in performing tasks such as creating data requests, performing testing of controls, document evidence of the testing, follow up with function owners for pending information requests, as directed.
 ---
 
-The Internal Auditor reports to the Senior Internal Audit Manager.
+The Internal Auditor reports to the Director of Audit.
 
 ### Job Grade
 
@@ -27,15 +27,6 @@ The Internal Auditor is a [grade 6](/handbook/total-rewards/compensation/compens
 - Ability to work on complex tasks with the required direction and guidance
 - Strong verbal and written communication skills
 - Understanding of the technical aspects of accounting and financial reporting
-
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-
-### Career Ladder
-
-The next step in the Internal Auditor job family is to move to the [Senior Internal Auditor](/job-families/finance/internal-audit/#senior-internal-auditor) job family.
 
 ### Hiring Process
 

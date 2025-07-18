@@ -14,8 +14,8 @@ Giving and receiving feedback is an important part of building strong relationsh
 
 Feedback can come in the form of **"praise"** for things team members do well, and **"tips"** pertaining to improvement areas. We encourage sharing and documenting both types of feedback on a regular basis via:
 
-1. [360 Feedback]({{< ref "360-feedback" >}}) via Culture Amp
-1. Regularly during [1-1's]({{< ref "1-1" >}})
+1. [360 Feedback](/handbook/people-group/360-feedback/) via Culture Amp
+1. Regularly during [1-1's](/handbook/leadership/1-1/)
 1. "365 feedback": Giving verbal, direct feedback 365 days a year in the [#thanks Slack channel](https://app.slack.com/client/T02592416/C038E3Q6L), direct message, or other personal communication
 
 ## Documenting Feedback
@@ -38,23 +38,11 @@ Feedback conversations are core to personal and professional growth. According t
 
 ## Guidance on Giving and Receiving Feedback
 
-Sid (GitLab CEO and Co-founder) and the Learning & Development team discussed guidance on giving and reciving feedback during a [CEO Handbook Learning Session](https://docs.google.com/presentation/d/1u6k4ILLBjLOaGk1ZyuNa2U2qr-XiGZL0AhUjOQRtvVI/edit#slide=id.p1). The covered topics like:
-
-1. How do you create an environment where team members can approach each other with feedback?
-1. Why it is important to give regular feedback?
-1. Why you should give feedback right away?
-1. How iteration enables feedback?
-1. How do you create an environment built for feedback?
-
-{{< youtube "vL864Zg2sm4" >}}
-
-> Give constructive feedback in the smallest group as possible, be specific by discussing an example. Make the discussion improvement orientated and make sure you deliver feeback when your not upset. (Sid Sijbrandij, GitLab CEO and co-founder)
-
 ### Embracing Feedback
 
 "In teamwork, silence isn't golden, it's deadly." ~Mark Sanborn
 
-The habit of seeking feedback may not be easy to develop, but failing to seek honest input from your team can have a significant impact on GitLab's culture. Patrick Lencioni, author of [The Five Dysfunctions of a Team (2002)](https://www.tablegroup.com/books/dysfunctions), cites these consequences of ignoring feedback:
+The habit of seeking feedback may not be easy to develop, but failing to seek honest input from your team can have a significant impact on GitLab's culture. Patrick Lencioni, author of [The Five Dysfunctions of a Team (2002)](https://www.tablegroup.com/product/dysfunctions/), cites these consequences of ignoring feedback:
 
 1. Inattention to Results
 1. Avoidance of Accountability
@@ -146,16 +134,6 @@ The Situation-Behavior-Impact (S-B-I) Model focuses feedback based on:
 
 For a more in-depth look at how to apply this model see [The Situation-Behavior-Impact-Feedback Framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357), an external blog post that has a bit more detail and some examples.
 
-### Live Learning Session on Delivering Feedback
-
-{{< youtube "KSp4jIN2W5E" >}}
-
-*Originally hosted on 2020-06-08.*
-
-- [Slide Deck](https://docs.google.com/presentation/d/1Wz8hr98CTiaytz1yIxG-D7H1P1eCm7ejnUl8O9YANEU/edit)
-- [Meeting Agenda](https://docs.google.com/document/d/1wpS1kfRitFuBXihU-Z0fRkzEbtN1mx5z6bpJlqb1N1Y/edit)
-- [Mentimeter Results](https://docs.google.com/spreadsheets/d/1gpxH80LNbXRUQdb9fFxlFDB-1QuGeO4D0XmaNNly1Fw/edit)
-
 ## Receiving Feedback
 
 Receiving all types of feedback can be difficult. Our brains want to protect us from any potential dangers, and receiving feedback can be perceived as a physical threat. We have outlined some guidelines and tips to help with this:
@@ -177,15 +155,6 @@ Receiving all types of feedback can be difficult. Our brains want to protect us 
 1. Make a decision
    - What are the most impactful actions you can take - prioritize
    - Who has what responsibility in follow up (i.e. giver/receiver)? Both.
-
-### Live Learning Session on Receiving Feedback
-
-{{< youtube "ZdUMoI1jMvI" >}}
-
-*Originally hosted on 2020-02-25*
-
-- [Slide Deck](https://docs.google.com/presentation/d/1yziTxwnAHD6vA1deSPf4DCwGLNYRijAmHiYcdoAxOmo/edit?usp=sharing)
-- [Meeting Agenda](https://docs.google.com/document/d/1k5ja-8qJRMnguVOUOOsMUAQ2PEbXiuDBsbpstJPkSEo/edit?usp=sharing).
 
 ## Recognition
 
@@ -239,12 +208,12 @@ Take a moment to identify situations in which you or your team are saying "Thank
 - [Difficult Conversations: How to Discuss What Matters Most](https://www.goodreads.com/book/show/774088.Difficult_Conversations)
 - [The Culture Map](https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507)
 - On 2018-02-15, we recorded a training on [Peer to Peer Feedback](https://www.youtube.com/watch?v=yzjAeu7RpU8&feature=emb_logo)
-- [Hofstede Country Comparison Tool](https://www.hofstede-insights.com/country-comparison/)
+- [Hofstede Country Comparison Tool](https://www.theculturefactor.com/country-comparison-tool)
 - [Kim Malone Scott speaking about Radical Candor - The Surprising Secret to being a good Boss](https://www.youtube.com/embed/4yODalLQ2lM)
 - [Radical Candor and giving constructive feedback](https://www.youtube.com/embed/0YaXSbLqork)
 - [Giving and Receiving Feedback](https://www.linkedin.com/learning/giving-and-receiving-feedback-18926015) - a 28 minute LinkedIn Learning course by Dr. Gemma Lee Roberts
 - [Coaching Feedback Model](https://www.coachingcultureatwork.com/coaching-feedback-model/)
-- COIN & COILED feedback models - [World of Work Project Article](https://worldofwork.io/2019/07/the-coin-coiled-feedback-models/), 3 minute LinkedIn Learning [video](https://www.linkedin.com/learning/coaching-virtually/use-the-coin-model-to-give-feedback-virtually?u=2255073) on COIN.
+- COIN & COILED feedback models - [World of Work Project Article](https://worldofwork.io/2019/07/the-coin-coiled-feedback-models/), 3 minute LinkedIn Learning [video](https://www.linkedin.com/learning/coaching-virtually/use-the-coin-model-to-give-feedback-virtually) on COIN.
 - CEDAR Feedback model - introduction and overview from [join.com](https://join.com/recruitment-hr-blog/feedback-models#6thecedarfeedbackmodel:~:text=6.%20The%20CEDAR,way%20of%20working), and a more comprehensive article and sample conversation at [World of Work Project](https://worldofwork.io/2019/07/the-cedar-feedback-model/)
 
 ## Modeling a Culture of Feedback Manager Competency

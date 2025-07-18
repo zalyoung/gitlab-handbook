@@ -32,14 +32,6 @@ Team members can edit their export preferences at any time by following [this jo
 - In the event that a daily sync is not merged the same day, that is fine, we can close the outdated MR and merge the most recent as this will contain the latest changes only updating files currently included in the handbook.
 - Pipelines may fail when adding to the merge train if a team member edited their team page entry after the MR was opened, most can be resolved by using the `/rebase` quick action, or by resolving conflicts manually. As above, these will usually resolve themselves on the next sync.
 
-## Parental leave PTO to BambooHR
-
-We run a daily check to see if any new Parental leave PTO was requested for the day before on Time Off by Deel. If there are any PTO events created on that day, we will add 3 employment statuses to the team member's BambooHR profile:
-
-- One with the status `Parental Leave` with the date the start date of the PTO event
-- One with the status `End of Parental Leave` with the date the end of the PTO event
-- One with the status `Active` with the date the end date of the PTO event + 1
-
 ## Sensitive data compliant Time Off by Deel export
 
 Every week, a scheduled job queries all PTO events occurring during a ±4 week time frame. Sensitive information (eg. the *type* of PTO taken) is then filtered out from these PTO events. The compliant data is then uploaded to a Google Cloud Storage bucket for the data analytics team to consume.
@@ -86,18 +78,6 @@ Synced fields are sourced from Workday.
 - Email
 - Manager
 
-## Weekly New hires
-
-Every Wednesday at 10AM UTC, we run the audit on all the team members who started the week before. A spreadsheet is created
-in a Google Drive folder that is shared with Total Rewards and the VP People Operations, Technology & Analytics. In the
-spreadsheet we will list all the team members that we audited and mark the columns that need to be checked.
-
-## Monthly all Team Members
-
-Every first of the month at 10AM UTC, we run the audit on all the active team members at GitLab. A spreadsheet is created
-in a Google Drive folder that is shared with Total Rewards and the VP People Operations, Technology & Analytics. In the spreadsheet
-we will list all the team members that we audited *and* that had something marked as *needs to be checked*.
-
 ## GitLab Group
 
 We utilize a GitLab.com group for internal communications ('pings') on GitLab.com. This helps ensure the appropriate team members from the team are alerted and reduces noise for others that may not need to be alerted.
@@ -105,3 +85,17 @@ We utilize a GitLab.com group for internal communications ('pings') on GitLab.co
 This group is public https://gitlab.com/gl-people-engineering, and can be mentioned by tagging `@gl-people-engineering` within an issue, merge request, or epic on GitLab.com.
 
 > Project creation for this group has been disabled, all People Group Engineering projects that can be public should be committed to https://gitlab.com/gitlab-com/people-group-public/engineering.
+
+## Access Request issue closing
+
+Access Requests open for longer than 30 days will be closed automatically by the Employment Bot.
+
+We run this job once a week to check for any open issues older than 30 days, except for ones with the `AccessReview` label, and leave the following note closing the issue:
+
+```text
+This access request issue has been open for more than 30 days. It is being automatically closed to de-clutter this issue tracker.
+
+If there are any tasks remaining or this was not supposed to be closed, reopen the issue and ping the DRIs to get them completed as soon as possible.
+
+/close
+````

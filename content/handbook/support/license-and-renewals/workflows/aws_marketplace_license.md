@@ -24,9 +24,18 @@ If the customer needs to go above the 5 users license seats, they would need to 
 
 ## Workflows
 
+### AMI not licensed
+
+If a customer creates an AWS AMI with the default 5-seat license but the instance shows no license:
+
+1. Direct them to check for the license in the instance's `/etc/gitlab/predefined.gitlab-license` file.
+1. Instruct them to upload the license manually using either:
+    - [Web UI](https://docs.gitlab.com/administration/license_file/#add-license-in-the-admin-area).
+    - [Rails console](https://docs.gitlab.com/administration/license_file/#add-a-license-through-the-console).
+
 ### Handling customer request
 
-1. Confirm that the customer is using AWS instance and the [exported license](https://docs.gitlab.com/ee/subscriptions/self_managed/#export-your-license-usage) matches one of the license above.
+1. Confirm that the customer is using AWS instance and the [exported license](https://docs.gitlab.com/subscriptions/self_managed/#export-your-license-usage) matches one of the license above.
 1. Confirm whether the customer still have access to the paid features, if not we should unblock them with a 30 days temporary license.
 1. Ask the customer to reach out to <aws-sales@gitlab.com>.
 

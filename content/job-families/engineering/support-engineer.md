@@ -70,7 +70,7 @@ When you're not tackling difficult customer challenges, you'll have a lot of fre
 
 ## Requirements
 
-You should [apply](https://boards.greenhouse.io/gitlab) if:
+You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 
 ### You've got the personality
 
@@ -102,6 +102,18 @@ You should [apply](https://boards.greenhouse.io/gitlab) if:
 - you have the ability to use GitLab.
 - our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you.
 
+## Nice-to-Haves
+
+- Experience as a GitLab user
+- Startup company experience
+- Product company experience
+- Developer platform or tool industry experience
+- Work experience on an international or multicultural team
+- Experience working in a very larg company or with a very large system
+- Open source experience
+- Comfort and experience living our [DIB Value](/handbook/values/#diversity-inclusion)
+- A mindset for asking great, thoughtful questions
+
 ## Specialties
 
 ### Assigned Support Engineer (ASE)
@@ -122,7 +134,6 @@ For Support Engineers who are nearing or at Senior Level
 - Partner with CSM (where allocated) in scheduled review calls to discuss ticket priorities and progression
 - Coordinate with internal teams as necessary to drive decreased time to resolution
 - Coordinate with customer to enable successful upgrades
-- Participation in CMOC/CEOC rotations remains unchanged and is expected
 
 #### What is it like to be an ASE?
 
@@ -163,7 +174,7 @@ In addition to the above requirements for Global Support Engineers, you will nee
 
 ### What it's like to work here at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
+The [culture](/handbook/company/culture/) here at GitLab is something we're incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you'll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you'll be entitled to vary by the region or country you're in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We'll also help you set up your [home office environment](/handbook/finance/expenses/#equipment), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
 Also, every year or so, we'll invite you to our [Contribute event](/handbook/company/culture/summit/).
 
@@ -225,7 +236,7 @@ Support Engineers have the following job-family Performance Indicators.
 - [Customer satisfaction with Support](/handbook/support/performance-indicators/#support-satisfaction-ssat)
 - [Maintain at least average monthly tickets](/handbook/support/performance-indicators/#average-daily-tickets-closed-per-support-team-member)
 - [Service Level Agreement](/handbook/support/performance-indicators/#service-level-agreement-sla)
-- [Ticket deflection through documentation updates](/handbook/support/workflows/how-to-respond-to-tickets.html#improving-the-customer-experience-through-ticket-deflection)
+- [Ticket deflection through documentation updates](/handbook/support/workflows/how-to-respond-to-tickets/#improving-the-customer-experience-through-ticket-deflection)
 
 ## Hiring Process
 

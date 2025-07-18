@@ -15,7 +15,7 @@ Marketing attribution is the process of assigning revenue credit to marketing ac
 
 This process allows Marketing to understand the value of each marketing activity.
 
-## Adobe Marketo Mesure Components
+## Adobe Marketo Measure Components
 
 ### Touchpoints
 
@@ -56,7 +56,7 @@ AMM tracks the position of a touchpoint based on its timing to other touchpoints
 - LC - Lead Created, prospect submits information
 - OC - Opportunity Creation, prospect intentionally moves toward a purchase decision
 - Closed - Customer Close, prospect makes a purchase
-- Pending - [The Pending touchpoint position](https://nation.marketo.com/t5/marketo-whisperer-blogs/bizible-s-pending-touchpoint-position/ba-p/312477) is stamped only on BATs (Buyer Attribution Touchpoints), not on BTs (Buyer Touchpoints). This touchpoint position is shown **only when the opportunity is still open**, providing a temporary value to allow the opportunity credit to sum to 100%.
+- Pending - [The Pending touchpoint position](https://nation.marketo.com/t5/marketo-whisperer-blogs/marketo-measure-pending-touchpoint-position/ba-p/312477) is stamped only on BATs (Buyer Attribution Touchpoints), not on BTs (Buyer Touchpoints). This touchpoint position is shown **only when the opportunity is still open**, providing a temporary value to allow the opportunity credit to sum to 100%.
 
 ### Attribution Models
 
@@ -79,13 +79,13 @@ Model Percentage = Model Accuracy x Conversion Rate x Touchpoint Uniqueness Weig
 
 The Custom Attribution Model's machine learning algorithm improves as it collects more data but does not automatically adjust stage weights. To ensure GitLab is using the best model, during the first month of the fiscal year, the Marketing Operations team updates the weight of each stage. The previous weights can be seen [on this Google Sheet](https://docs.google.com/spreadsheets/d/1gE0rLgVjz04kEEaZtw763SLcKlRcq5y4/edit#gid=1524071528).
 
-Currently the Custom Model has the following weights for each stage (updated February 1st, 2024):
+Currently the Custom Model has the following weights for each stage (updated February 14th, 2025):
 
-- **First Touch** - 19.2%
-- **Opportunity Creation** - 22.5%
-- **SAO** - 15.9%
-- **Closed (Lost, Won)** - 29.2%
-- **Middle Touches** - 13.2%
+- **First Touch** - 34.3%
+- **Opportunity Creation** - 16.9%
+- **SAO** - 13.4%
+- **Closed (Lost, Won)** - 19.4%
+- **Middle Touches** - 16%
 
 ### Online vs. Offline Touchpoints
 
@@ -97,7 +97,7 @@ Online Touchpoints are created when users submit a form on a GitLab web property
 
 While offline Touchpoints need an SFDC campaign created beforehand to create touchpoints, online Touchpoints do not.
 
-**Important:** Users must have allowed or not rejected cookies for AMM to create online Touchpoints. GitLab uses OneTrust to manage user [consent on our web properties](/handbook/marketing/digital-experience/onetrust/#consent-models), [depending on the user's location](/handbook/marketing/digital-experience/onetrust/#banner-rules) they may have to allow cookies for the AMM script to load. **If the user rejects or opts out of OneTrust consent, AMM will not create online Touchpoints.**
+**Important:** Users must have allowed or not rejected cookies for AMM to create online Touchpoints. GitLab uses OneTrust to manage user [consent on our web properties](/handbook/marketing/digital-experience/onetrust/#consent-models), [depending on the user's location](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-analytics/onetrust/) they may have to allow cookies for the AMM script to load. **If the user rejects or opts out of OneTrust consent, AMM will not create online Touchpoints.**
 
 #### Offline
 
@@ -130,7 +130,7 @@ Once a Touchpoint is created, AMM uses a set of predefined [mapping rules](#amm-
 | Offline                 | Tradeshows; BrightTalk Webcasts (for Attended status TPs), Content syndication partner delivers a list of leads who engaged with your content | CRM Campaign membership by enabling Touchpoint Generation on the campaign Object, by configuring campaign sync rules in AMM, Brighttalk Webcasts via Marketo Programs Integration through Marketo Program Rules | By referencing Campaign Type or the Marketo Program Channel Mapping    |
 | Sales activity          | Outbound call by SDR                                                                                                                          | CRM Activity (Task or Event) record synced to AMM, through logic on the Activities page in AMM                                                                                                                  | By referencing the Campaign Name assigned on the Activities page        |
 
-AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://docs.marketo.com/display/BIZ/Touchpoint+Generation+and+Mapping).
+AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping).
 
 ## AMM Channel and Subchannel Mapping
 
@@ -219,7 +219,7 @@ Note: Some Online Touchpoints do not fall into a specific rule with a well-defin
 | Content.Content Syndication | Inbound Paid | Offline | White Paper or other content offer that is hosted by a third party.                                                                                                                                         |
 | Content.Gated Content | Inbound Paid | Offline | White Paper or other content offer.                                                                                                                                                                               |
 | Content.PF Content | Inbound Free Channels | Online | This campaign type is used to track consumption of specific PathFactory assets.                                                                                                                             |
-| Digital.Inbound Request | Inbound Free Channels | Online | Any type of inbound request that requires follow up.                                                                                                                                                                                |
+| Inbound - Offline.PQL/Drift/Qualified  | Inbound Free Channels | Offline | Any type of inbound reques (PQL, Drift, Qualified), which can't be tracked through online means.                                                                                                                                                                                 |
 | Direct | Inbound Free Channels | Online | Unknown or direct (NOTE: this is not the same as Web direct/self-serve in SFDC, this is a Web referral where the original source was not captured)                                                                      |
 | Display.Google | Inbound Paid | Online | A display ad from Google                                                                                                                                                                                                 |
 | Display.Other | Inbound Paid | Online | A display ad from an unspecified source                                                                                                                                                                                   |

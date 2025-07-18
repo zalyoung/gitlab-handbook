@@ -18,8 +18,8 @@ status: active
 ## Additional Resources
 
 - [GitLab Dedicated external webpage](https://about.gitlab.com/dedicated/)
-- [Product Category Direction](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
-  - [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
+- [Product Category Direction](https://about.gitlab.com/direction/gitlab_dedicated/#limited-availability-roadmap)
+  - [Limited Availability Roadmap](https://about.gitlab.com/direction/gitlab_dedicated/#limited-availability-roadmap)
 - [Engineering Team](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
   - [Project Management](/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management)
 - [Internal Handbook](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
@@ -31,11 +31,11 @@ status: active
 
 ### Plan
 
-See [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap) including milestones for cross-functional work.
+See [Limited Availability Roadmap](https://about.gitlab.com/direction/gitlab_dedicated/#limited-availability-roadmap) including milestones for cross-functional work.
 
 ### Exit Criteria
 
-The exit criteria for GitLab Dedicated Top Cross-Functional Initiative are the same as the [exit criteria from Limited Availaility](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability)
+The exit criteria for GitLab Dedicated Top Cross-Functional Initiative are the same as the [exit criteria from Limited Availaility](https://about.gitlab.com/direction/gitlab_dedicated/#limited-availability)
 
 ## Project Management
 
@@ -51,7 +51,7 @@ The GitLab Dedicated Initiative Working Group follows the [same processes as the
 
 See [epic management and hierarchy on Dedicated Team Page](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-hierarchy).
 
-The [Cross-Functional LA Requirements epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) is a child epic of the GitLab Dedicated [Top Level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479). This cross-functional epic is comprised of function-specific child epics managed by the DRI for that functional area. These functional child epics have sub-epics and/or issues representing groups of related tasks that are delivered in a specific phase from [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
+The [Cross-Functional LA Requirements epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) is a child epic of the GitLab Dedicated [Top Level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479). This cross-functional epic is comprised of function-specific child epics managed by the DRI for that functional area. These functional child epics have sub-epics and/or issues representing groups of related tasks that are delivered in a specific phase from [Limited Availability Roadmap](https://about.gitlab.com/direction/gitlab_dedicated/#limited-availability-roadmap).
 
 ```mermaid
 graph TD
@@ -71,13 +71,13 @@ E --> L(FY24 Planning)
 L --> M(Cost and Margin Estimates)
 ```
 
-Milestones for functional work from the [Cross-Functional LA Requirements epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) are included in [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
+Milestones for functional work from the [Cross-Functional LA Requirements epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) are included in [Limited Availability Roadmap](https://about.gitlab.com/direction/gitlab_dedicated/#limited-availability-roadmap).
 
 ## Status Updates
 
 The GitLab Dedicated Initiative Working Group follows the [status update process](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) from Dedicated Engineering team page. The status updates that Functional DRIs make in their respective Functional Epics will incorporated in the [status update cadence](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) and used to update the status of the [Cross-Functional epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) and the [Top-Level Initiative Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479).
 
-In addition to the [status process from Dedicated team page](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates), the Dedicated initiative has additional status update requirements as a [Top Cross-Functional initiative](/top-cross-functional-initiatives/) that the Initiative DRI is responsible for:
+In addition to the [status process from Dedicated team page](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates), the Dedicated initiative has additional status update requirements as a Top Cross-Functional initiative that the Initiative DRI is responsible for:
 
 - Key Reviews
 - Top Initiative Quarterly Meeting
@@ -85,11 +85,10 @@ In addition to the [status process from Dedicated team page](/handbook/engineeri
 ## Key Review
 
 - Initiative DRI provides updates in Product Key Review as the Chief Product Officer is the executive sponsor of this initiative.
-- The [Product Key Review](/handbook/company/key-review/) occurs twice per quarter.
 
 ## Top Initiative Quarterly Meeting
 
-- [Top Initiative Quarterly Meeting](/handbook/company/top-cross-functional-initiatives/) occurs once per quarter to review initiative health, risks, and blockers.
+- Top Initiative Quarterly Meeting occurs once per quarter to review initiative health, risks, and blockers.
 - Initiative DRI provides current status for Dedicated during this meeting along with plan for the initiative.
 - The Initiative DRI will provide a summary from the most recent update from the [Top-Level Initiative Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479).
 - The Initiative DRI will share a draft of the Quarterly Update with the Dedicated leadership team and Dedicated Executive Sponsor at least 3 business days before the scheduled presentation date order to gather feedback in order to add responses to the Top Initiatives agenda at least 1.5 days before Top Initiatives meeting.
@@ -100,7 +99,7 @@ In addition to the [status process from Dedicated team page](/handbook/engineeri
 
 1. **Exec Sponsor**: David DeSanto - Chief Product Officer
 1. **Initiative DRI**: Ryan Wedmore - Director, Strategy & Operations
-    - [Working Group DRI responsibilities](/handbook/company/working-groups/#required-roles) and [Cross Functional Initiative DRI responsibilities](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris)
+    - [Working Group DRI responsibilities](/handbook/company/working-groups/#required-roles) and Cross Functional Initiative DRI responsibilities
     - DRI for cross-functional initiative strategy, collaboration, and work streams
 1. **Engineering DRI**: Marin Jankovski - Director of Infrastructure, Platforms
     - Overall DRI for Engineering, Infrastructure, and Engineering Strategy

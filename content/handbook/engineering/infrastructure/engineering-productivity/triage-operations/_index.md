@@ -3,7 +3,7 @@ title: "Triage Operations"
 description: "Automation and tooling for processing un-triaged issues at GitLab"
 ---
 
-Any GitLab team-member can triage issues. Keeping the number of [un-triaged issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#triaging-issues) low is essential for maintainability, and is our collective responsibility.
+Any GitLab team-member can triage issues. Keeping the number of [un-triaged issues](/handbook/product-development/how-we-work/issue-triage/#triaging-issues) low is essential for maintainability, and is our collective responsibility.
 
 We have implemented automation and tooling to handle this at scale and distribute the load to each team or group.
 
@@ -17,11 +17,11 @@ The Quality Engineering Department ensures that every Product and Engineering gr
 
 Our defect SLA can be viewed at:
 
-* [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
-* [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+* [Priority labels](/handbook/product-development/how-we-work/issue-triage/#priority)
+* [Severity labels](/handbook/product-development/how-we-work/issue-triage/#severity)
 
 The Quality Engineering department employs a number of tools and automation in addition to manual intervention to help us achieve this goal.
-The work in this area can been seen in our department roadmap under [Triage](/handbook/engineering/infrastructure/test-platform/roadmap/#triage-track-roadmap-view) and [Measure](/handbook/engineering/infrastructure/test-platform/roadmap/#measure-track-roadmap-view) tracks of work.
+The work in this area can been seen in our department roadmap under Triage and Measure tracks of work.
 
 ## Label renaming
 
@@ -119,7 +119,7 @@ The goal is for coaches to add type, stage, and group labels, so that the releva
 This report contains community merge requests that may require some attention from GitLab team members.
 
 * Frequency: Weekly.
-* Assignees: [Contributor Success team](/handbook/engineering/quality/contributor-success/) + volunteer wider community members.
+* Assignees: [Contributor Success team](/handbook/marketing/developer-relations/contributor-success) + volunteer wider community members.
 * Listed merge requests (all awaiting GitLab response):
   1. Merge requests from new contributors idle for 7 days.
   1. Merge requests idle for 21 days (excluding ~group::runner).
@@ -136,7 +136,7 @@ This report contains community merge requests that may require some attention fr
 #### Group level bugs, features, and Deferred UX
 
 This report contains the relevant bugs, feature requests, and Deferred UX issues that belong to a group in our [DevOps stages](/handbook/product/categories/#devops-stages).
-The goal is to achieve [complete-triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#complete-triage) by the Product Manager, Engineering Manager, UX team member in that area.
+The goal is to achieve [complete-triage](/handbook/product-development/how-we-work/issue-triage#complete-triage) by the Product Manager, Engineering Manager, UX team member in that area.
 
 The report itself is divided into 4 main parts.
 
@@ -148,7 +148,7 @@ The report itself is divided into 4 main parts.
 
 The bug sections also contains a heatmap.
 
-![heatmap.png](heatmap.png)
+![heatmap.png](/images/engineering/infrastructure/engineering-productivity/triage-operations/heatmap.png)
 
 An example: [https://gitlab.com/gitlab-org/quality/triage-ops/issues/118](https://gitlab.com/gitlab-org/quality/triage-ops/issues/118)
 
@@ -175,8 +175,8 @@ This section contains issues with the `~"type::bug"` and `~"frontend"` labels wi
 * Triage owner: Frontend Engineering Manager(s) for that group.
 * Triage actions:
   1. Close the issue if it is no longer relevant or a duplicate.
-  1. Assign a [Priority Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
-  1. Assign a [Severity Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity).
+  1. Assign a [Priority Label](/handbook/product-development/how-we-work/issue-triage/#priority).
+  1. Assign a [Severity Label](/handbook/product-development/how-we-work/issue-triage/#severity).
   1. Assign either a versioned milestone or to the `Backlog`.
 
 ##### Non-frontend bugs (likely backend)
@@ -186,13 +186,13 @@ This section contains issues with the `~"type::bug"` label without priority and 
 * Triage owner: Backend Engineering Manager(s) for that group.
 * Triage actions:
   1. Close the issue if it is no longer relevant or a duplicate.
-  1. Assign a [Priority Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
-  1. Assign a [Severity Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity).
+  1. Assign a [Priority Label](/handbook/product-development/how-we-work/issue-triage/#priority).
+  1. Assign a [Severity Label](/handbook/product-development/how-we-work/issue-triage/#severity).
   1. Assign either a versioned milestone or to the `Backlog`.
 
 ##### severity::1 & severity::2 bugs past SLO
 
-This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/index.html#missed-slo) triage policy.
+This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#missed-slo) triage policy.
 
 ##### Heatmap for ~customer bugs
 
@@ -410,9 +410,9 @@ graph LR
 * Automation conditions:
   * A new note that starts with `@gitlab-bot label ~"label-name"` or `@gitlab-bot unlabel ~"label-name"` where `label-name` matches:
     * `group::*`, `type::*`, `feature::*`, `bug::*`, `maintenance::*`, `category:*`
-    * `backend`, `database`, `documentation`, `frontend`, `handbook`, `UX`
+    * `backend`, `Contributor Success`, `database`, `documentation`, `frontend`, `handbook`, `UX`
     * `security` (`label` only for community members)
-    * `workflow::in dev`, `workflow::ready for review`, `workflow::blocked`
+    * `workflow::in dev`, `workflow::ready for review`, `workflow::in review`, `workflow::complete`, `workflow::blocked`
   * The note is posted by the author, an assignee, or a team member
 * **Note**: to add or remove multiple labels, list all labels after the command, for example: `@gitlab-bot label ~"group::project management" ~"type::bug"`
 * Automation actions:
@@ -489,7 +489,7 @@ graph LR
 
 For issues labeled `~"availability"`, the minimal are enforced with the
 guidelines at
-<https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability-prioritization>
+<https://handbook.gitlab.com/handbook/product-development/how-we-work/issue-triage/#availability-prioritization>
 
 #### Ensure no deprecated backstage labels are added
 
@@ -540,6 +540,20 @@ Current type labels with subtype labels are:
   * `@gitlab-bot` will send a request to retry all failed jobs in the target pipeline and reply with the pipeline link.
 * Example: <https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues/3187#note_1496076800>
 * Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_retry_pipeline_or_job.rb>
+
+#### Reactive `delete_bot_comment` command
+
+* Automation conditions:
+  * A new issue or merge request note with `@gitlab-bot delete_bot_comment` posted by a GitLab team member as a reply to a bot comment thread.
+  * The comment to be deleted must be posted by `@gitlab-bot`, and the command must be posted by a GitLab team member.
+  * Community members must reach out to a GitLab team member for help, as they will not have access to this command.
+* Automation actions:
+  * `@gitlab-bot` will delete the bot comment along with any reply comments it has.
+  * A page refresh may be needed for the thread to be removed from page.
+  * If the above automation conditions are not met, posting this command will not have any effect on the replied comment.
+  * NOTE: After deleting the bot comment, it will be re-posted to the resource if the required labels or other attributes are missing again.
+* Example: not available, as the comment gets deleted as a result of running the command
+* Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_delete_bot_comment.rb>
 
 ### Database-related reactive workflow automation
 
@@ -707,7 +721,7 @@ Issues which have a label of `~Deliverable` without a milestone will have the mi
 
 #### Missed SLO
 
-Issues which have a severity label and missed the [SLO target](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) will be labeled with `~missed-SLO`. The calculation for elapsed time starts from the date of the severity label was applied. This enables reporting on SLO target adherence.
+Issues which have a severity label and missed the [SLO target](/handbook/product-development/how-we-work/issue-triage/#severity) will be labeled with `~missed-SLO`. The calculation for elapsed time starts from the date of the severity label was applied. This enables reporting on SLO target adherence.
 
 * Automation conditions:
   * Issue with severity label present and is remains in an open state past SLO target.
@@ -801,7 +815,7 @@ Type labels ensure that issues are present in the [group triage report](#group-l
 
 #### Bug SLO Warning
 
-Bugs have a severity label that indicates the [SLO for a fix](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). This automated policy aims to prompt managers about bugs in their group that are approaching the SLO threshold
+Bugs have a severity label that indicates the [SLO for a fix](/handbook/product-development/how-we-work/issue-triage/#severity). This automated policy aims to prompt managers about bugs in their group that are approaching the SLO threshold
 
 * Automation conditions:
   * Open issue labeled `~"type::bug"` and has a `~severity::1` or `~severity::2`
@@ -813,7 +827,7 @@ Bugs have a severity label that indicates the [SLO for a fix](/handbook/engineer
 
 #### Reminder on ~infradev issues to set severity label, priority label, and milestone
 
-Issues with the ~infradev label should have a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority), and a milestone set. This automated policy aims to prompt managers about such issues missing one of these attributes.
+Issues with the ~infradev label should have a [severity label](/handbook/product-development/how-we-work/issue-triage/#severity), a [priority label](/handbook/product-development/how-we-work/issue-triage/#priority), and a milestone set. This automated policy aims to prompt managers about such issues missing one of these attributes.
 
 * Automation conditions:
   * Open issue labeled `~infradev` and has no severity label, or no priority label, or no milestone set
@@ -832,7 +846,7 @@ Note:
 
 #### Reminder on ~customer ~type::bug issues to set severity label
 
-Issues with the ~customer and ~type::bug labels should have a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) set. This automated policy aims to prompt team members to set a severity so that ~customer bugs are triaged in a timely fashion.
+Issues with the ~customer and ~type::bug labels should have a [severity label](/handbook/product-development/how-we-work/issue-triage/#severity) set. This automated policy aims to prompt team members to set a severity so that ~customer bugs are triaged in a timely fashion.
 
 * Automation conditions:
   * Open issue labeled `~customer` and `~type::bug` which has no severity label set
@@ -848,7 +862,7 @@ Note:
 
 ## Resources
 
-* [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/).
+* [Issue Triage Policies](/handbook/product-development/how-we-work/issue-triage/).
 * [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 * Chat channels; we use our chat internally as a realtime communication tool:
   * [#triage](https://gitlab.slack.com/messages/triage): general triage team channel.

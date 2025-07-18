@@ -22,19 +22,18 @@ Our brand voice comprises the following personality traits:
 
 **1. Visionary**
 
-We are confident, sophisticated technical experts and category creators. We are committed to enabling and empowering our customers and community. We embrace new challenges, energizing our customers to navigate their own journeys with confidence. We lead by example through continuous innovation and a bias for action. We believe we are most successful when everyone can contribute.
-
+We are confident, sophisticated technical experts and category creators. We are committed to enabling and empowering our customers and community through focused innovation and intelligent solutions that provide the most impact. We lead by example and find we are most successful when everyone can contribute and our customers achieve their goals.
 > _Example: We created the category._
 
 **2. Empathetic**
 
-We are thoughtful, collaborative, and considerate, as well as approachable and inclusive on a global scale. We are dedicated to understanding and supporting the diverse needs of our team and customers and crafting solutions to help them succeed.
+We are more than just a vendor. We're thoughtful, collaborative, and considerate partners. We are approachable and inclusive on a global scale, dedicated to understanding and supporting the diverse needs of our team and customers. We work alongside our customers to craft solutions that help them succeed.
 
-> _Example: The GitLab Community; our mission enabling everyone to contribute_
+> _Example: The GitLab Community; our mission enabling everyone to contribute and co-create the software that powers our world._
 
 **3. Intentional**
 
-We are purposeful, direct, and transparent. We communicate with clarity and focus to create a reliable experience for our customers.
+We are purposeful, direct, and transparent. We communicate with clarity and focus to create a reliable experience for our customers. We are disciplined in our priorities and consistently deliver on our commitments.
 
 > _Example: Our monthly release post_
 
@@ -184,7 +183,7 @@ We use American English by default on the GitLab blog and marketing site. Please
 
 #### Voice
 
-Generally, use [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb.
+Generally, use [active voice](https://www.grammarly.com/blog/sentences/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb.
 
 > ✅ The GitLab community submitted 1 million merge requests in March 2019
 >

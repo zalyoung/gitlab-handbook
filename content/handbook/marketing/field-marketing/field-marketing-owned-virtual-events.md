@@ -29,8 +29,8 @@ In most cases we work closely with an advocate within an account to drive produc
 
 1. The FMM works with the account team (SAL, AE, SA, TAM) to determine accounts to be targeted and choose the relevant topic ([currrently vailable topics](https://drive.google.com/drive/folders/1L_kd6QudSWcvAKDM-h6oPvvC6LiNj_ER))
 1. The FMM sets up the [event](/handbook/marketing/events/#event-execution) and is hosted on the team member's personal zoom account.
-1. Before the Lunch and Learn session, the participants receive an e-voucher (example value $25), uber eat gift card, Just Eat or similar depending on availability in their area. The FMC will coordinate the advanced purchase of these vouchers and send through a [Reachdesk campaign](/handbook/marketing/marketing-operations/reachdesk/#e-gift-cards-and-reward-pass). Small swag items (e.g Stickers and socks) can be sent instead of food vouchers.
-1. If budget allows, the participants may receive a GitLab swag gift through a [Reachdesk Landing Page](/handbook/marketing/marketing-operations/reachdesk/#creating-a-landing-page)
+1. Before the Lunch and Learn session, the participants receive an e-voucher (example value $25), uber eat gift card, Just Eat or similar depending on availability in their area. The FMC will coordinate the advanced purchase of these vouchers and send through a [Reachdesk campaign](/handbook/marketing/marketing-operations/#e-gift-cards-and-reward-pass). Small swag items (e.g Stickers and socks) can be sent instead of food vouchers.
+1. If budget allows, the participants may receive a GitLab swag gift through a [Reachdesk Landing Page](/handbook/marketing/marketing-operations/#creating-a-landing-page)
 1. All participants are followed up by email with session recording and SDR/SALs direct follow-up.
 
 ## Hosted on Field Marketing Zoom License
@@ -62,7 +62,7 @@ Please note that all Webcasts are considered webcasts with new content, which me
 
 ## Additional Virtual Event Details
 
-For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc., please visit the [Virtual Events page](/handbook/marketing/virtual-events/). For best practices and instructions on how to set up and run your event using Zoom, please visit the [Self-Service Virtual Events page](handbook/marketing/virtual-events/self-service-virtual-events/).
+For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc., please visit the [Virtual Events page](/handbook/marketing/virtual-events/). For best practices and instructions on how to set up and run your event using Zoom, please visit the [Self-Service Virtual Events page](/handbook/marketing/virtual-events/self-service-virtual-events/).
 
 ## Closed Captioning
 
@@ -73,7 +73,7 @@ When utiling our Zoom webcast license we can either provide manual captioning, o
 1. Only hosts and panelists can provide closed captioning if manually transcribing.
 1. The Zoom live transcription feature is only available in English at this time. This feature is relatively accurate if the presenters are speaking clearly and background noise is kept to a minimum.
 
-For more details about Zoom closed captioning, please reference [this Zoom article](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription) or submit any questions to the `#it_help` Slack channel.
+For more details about Zoom closed captioning, please reference [this Zoom article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490) or submit any questions to the `#it_help` Slack channel.
 
 ## Zoom > Marketo Integration
 
@@ -111,7 +111,7 @@ The webcast Zoom license can only be used for a single session at a time. This l
 - Naming Convention for Calendar - [WC Dry Run] `Name of Webcast` or [WS Dry Run] `Name of Workshop` and Start-End Time/Time Zone of dry run (example - 9:00am -  10:00am PST)
 - There is no need to add 30 minutes before/after to a dry run event as they generally run 30 minutes and should not take more than 60 minutes.
 - Helpful Hint: If you are having trouble finding 60 minutes where everyone is available, try to at least find a time that everyone is open for the first 30 minutes.
-- FMC to create the invite utilizing the SLA date from the [SLA Workback Schedule](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit#gid=1983708280).
+- FMC to create the invite for the week prior to the webcast or workshop, based on a day and time that attendees are available. 
 - The FMC will include webcast/workshop team and FMM listed in the Webcast Dry Run Scheduling issue on calendar invite, as well as the epic link and dry run agenda (linked in epic).
 - FMC will uncheck the setting `Modify Event` and `Invite Others` under `Guest Permissions` so invitees are not able to modify the event or add additional guests.
 - Once the dry run calendar invite is complete, the FMC will also re-visit the main calendar invite for the webcast/workshop and add the additional webcast/workshop team from the Webcast Dry Run Scheduling issue, as well as exchange the issue link for the epic link that should now be created, and add the link for the Dry Run Agenda.
@@ -206,10 +206,18 @@ It's not recommended to have more than a few hosts because it can get a bit conf
    - Click into `Email Settings`
    - Click `Edit` next to `Select Email Language`
    - Select the language you would like to utilize from the drop down list. NOTE: You can also select `Same as the recipient's default language` and the language will be set based on the recipient's Zoom profile, if available. Otherwise, the emails will be sent in the language that the user is viewing the registration page.
-   - For more details, review the Zoom Help Center page [here](https://support.zoom.us/hc/en-us/articles/203686335-Customizing-webinar-email-settings).
+   - For more details, review the Zoom Help Center page [here](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065074).
 
 1. *Optional* **HEADER IMAGE**: If applicable, click on branding and update the header.
 1. *Optional* **POLLING**: If applicable, add polling questions to the webcast or workshop by following the instructions in the video below. You do not need to make the polling question answers anonymous. Canned questions (utilized for webcasts only) are not added to Zoom but can be added to the Day Of Agenda so all presenters/moderators have access.
+1. *Optional* **SURVEY**: If applicable, if you want to gather feedback from attendees, you can set up a post-webinar survey that will automatically launch when participants leave the webcast. Please follow the steps below:
+
+   - Click the name of the webinar you want to add a survey to.
+   - Click the Survey tab.
+   - Choose either - Create New Survey: This option takes you to the survey builder to create a new survey. Select the question type for the first question. Click + Add Question, to add another question to the survey. Click Save to allow the survey to be sent after webinars.
+   - or Use a 3rd Party Survey - If you would like to use a survey outside of Zoom example, google form. Click Use a 3rd party survey. Enter the link to the survey you want to use. Click Save.
+   - For more details on zoom post event surveys, [click here](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066485).
+  
 1. **WATCH ATTENDEE MAX**: Make sure to regularly monitor the registration counts (webcast capacity is 1,000 attendees) and workshop capacities [listed here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-registration-caps-and-closing-registration). If your workshop or webcast capacity is reached, please follow the instructions [here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-registration-caps-and-closing-registration) to close registration.
 
 **Adding poll questions to a webcast**
@@ -432,7 +440,7 @@ Please reach out to your Marketing Ops rep to shut down the landing page, or if 
 
 **Webcasts and Workshops:**
 
-- Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the presentation slides, ensuring the account set-up slides have been deleted.
+- Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will will make a copy of the slides and follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the copy of the presentation slides, ensuring the account set-up slides have been deleted.
 - The FMC to then follow [these instructions](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#uploading-the-presentation-deck) to add the slides as a new piece of content to Pathfactory. Then, the FMC will add the presentation slides to the created Pathfactory track for the workshop.
   - **This is needed as soon as slides are final as Pathfactory track is linked to follow up email.**
 
@@ -803,7 +811,7 @@ In order to cap registration, we remove the registration form on the Landing Pag
 1. Once Marketing Ops creates the landing page, they will ping the FMM to review. Once the landing page is live, the FMM will ping the FMC to add the workshop to the GitLab Events Page utilizing this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents). FMC also to make sure the landing page is linked in the epic.
 1. FMM to create the [Template for Certification of Completion](https://drive.google.com/drive/u/0/folders/1D9ReKCU7dhbHbkLotKgh4D7dZZ9m2IHS)
 1. Note about Optional Issues:
-   - For workshop design requests, you have the option of opening a [Marketing Design Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) or utilizing [Canva](https://www.canva.com/design/DAD-xgXwnrk/8irvi2Qv08B1riRCt7EEoQ/view?utm_content=DAD-xgXwnrk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview) in a self-serve capacity (see [below](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#canva) for Canva instructions and templates).
+   - For workshop design requests, you have the option of opening a [Marketing Design Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) or utilizing Canva in a self-serve capacity (see [below](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#canva) for Canva instructions and templates).
 1. Review Marketing Copy Doc - Update copy for landing page, emails, update the times, dates, redemption code in the 1-week reminder emails. Note that changes to the landing page or email copy will require the 45 day SLA noted above for new copy/content.
    - If new content: Work with Presenters/Instructors to create presentation slides, labs, demos, as well as copy for landing page and emails.
    - If existing content: Work with Presenters/Instructors to update presentation slides.

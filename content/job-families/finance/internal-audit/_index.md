@@ -9,9 +9,9 @@ The Internal Audit and SOX function has a career ladder represented below:
 
 | Role                                                | Grade |
 |-----------------------------------------------------|-------|
-| [Internal Auditor]({{< ref "internal-auditor" >}}) <br> [SOX Compliance Analyst]({{< ref "internal-auditor" >}}) | 6 |
-| [Sr Internal Auditor]({{< ref "senior-internal-auditor" >}}) <br> [Sr SOX Compliance Analyst]({{< ref "senior-internal-auditor" >}}) | 7 |
-| [Internal Audit and SOX Manager]({{< ref "internal-audit-and-sox-manager" >}}) <br> [Manager, Internal Audit]({{< ref "manager-internal-audit" >}}) <br> [Staff Internal Audit & SOX Compliance Analyst]({{< ref "staff-internal-audit-sox-compliance-analyst" >}}) | 8 |
-| [Sr Manager, Internal Audit]({{< ref "senior-manager-internal-audit" >}}) <br> [Sr Audit Manager, IT and Security]({{< ref "senior-audit-manager-it-and-security" >}}) | 9 |
-| [Director, Internal Audit]({{< ref "director-internal-audit" >}}) <br> [Director, IT Audit]({{< ref "director-IT-audit" >}}) | 10 |
-| [VP, Internal Audit]({{< ref "vp-internal-audit" >}}) | 12 |
+| [Internal Auditor](/job-families/finance/internal-audit/internal-auditor/) <br> [Compliance Analyst](/job-families/finance/internal-audit/compliance-analyst/) | 6 |
+| [Sr Internal Auditor](/job-families/finance/internal-audit/senior-internal-auditor/) <br> | 7 |
+| [Internal Audit Manager](/job-families/finance/internal-audit/internal-audit-manager/) <br> [IT Staff Auditor](/job-families/finance/internal-audit/it-staff-auditor/) | 8 |
+| [Sr Manager, Internal Audit](/job-families/finance/internal-audit/senior-manager-internal-audit/) <br> [Sr Audit Manager, IT and Security](/job-families/finance/internal-audit/senior-audit-manager-it-and-security/) <br> [Audit Principal, IT and Security](/job-families/finance/internal-audit/audit-principal-it-and-security/) | 9 |
+| [Director, Internal Audit](/job-families/finance/internal-audit/director-internal-audit/) <br> [Director, IT Audit](/job-families/finance/internal-audit/director-it-audit/) | 10 |
+| [VP, Internal Audit](/job-families/finance/internal-audit/vp-internal-audit/) | 12 |

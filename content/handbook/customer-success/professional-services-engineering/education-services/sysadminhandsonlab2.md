@@ -7,7 +7,8 @@ description: "This Hands-On Guide walks you through using GitLab command gitlab-
 
 ## Objectives
 
-The objective of this lab is to show various gitlab-ctl commands you can use to manage your GitLab instance via the CLI. These commands can be run after installation. For a full list of all the commands you can use with gitlab-ctl, please click [here](https://docs.gitlab.com/omnibus/maintenance/).
+The objective of this lab is to show various `gitlab-ctl` commands you can use to manage your GitLab instance by using the CLI. These commands can be run
+after installation. For more information, see [details of maintenance commands](https://docs.gitlab.com/omnibus/maintenance/).
 
 ### Task A. Run basic service status commands
 

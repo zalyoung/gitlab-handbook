@@ -10,7 +10,7 @@ This handbook page documents best practices how Developer Advocates can help wid
 
 ### Finding a mentor
 
-GitLab Developer Advocates actively engage with mentoring wider community members. The team's time is limited with [our many activities](/handbook/marketing/developer-relations/developer-advocacy/), please understand when we decline a request. [Polywork](https://www.polywork.com/collaborators/mentoring) and other platforms can help finding mentors.
+GitLab Developer Advocates actively engage with mentoring wider community members. The team's time is limited with [our many activities](/handbook/marketing/developer-relations/developer-advocacy/), please understand when we decline a request. [Polywork](https://www.polywork.com/discover) and other platforms can help finding mentors.
 
 ### Resources
 

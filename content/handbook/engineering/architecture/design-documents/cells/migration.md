@@ -1,5 +1,5 @@
 ---
-tile: 'Cells: Organization migration'
+title: 'Cells: Organization migration'
 status: proposed
 creation-date: "2024-05-01"
 authors: [ "@dbalexandre", "@mkozono" ]
@@ -11,11 +11,9 @@ participating-stages: ["~devops::data stores", "~devops::systems"]
 toc_hide: true
 ---
 
-# Cells: Organization migration
-
 ## Summary
 
-When we reach production and can operate organizations on new [cells](../cells), we need to be able to move [organizations](https://docs.gitlab.com/ee/user/organization/) from GitLab.com into a cell or between any two cells. [The Org Mover project](https://gitlab.com/groups/gitlab-org/-/epics/12857) provides a CLI orchestrator tool that makes the process of moving organization data from one cell to another a breeze. It’s designed to ensure no data loss or corruption with minimal downtime.
+When we reach production and can operate organizations on new [cells](../cells), we need to be able to move [organizations](https://docs.gitlab.com/ee/user/organization/) from GitLab.com into a cell or between any two cells. [The Org Mover project](https://gitlab.com/groups/gitlab-org/-/epics/12857) provides a CLI orchestrator tool that makes the process of moving organization data from one cell to another a breeze. It's designed to ensure no data loss or corruption with minimal downtime.
 
 It is important to note that the tool itself isn't responsible for moving data, but it takes care of setting up all the required logistics. It will be developed as a gem within the [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab) codebase.
 
@@ -121,21 +119,159 @@ A organization move can be broken down into five distinct high-level phases:
 
 ## Implementation Roadmap
 
-1. [Enable Geo on Gitlab.com and perform the checksumming of all data](https://gitlab.com/groups/gitlab-org/-/epics/14631) -- 4-6 Milestones
-1. [Make Geo PostgreSQL replication technology agnostic](https://gitlab.com/groups/gitlab-org/-/epics/13721) -- 2-3 Milestones
-1. Design and implement selective sync of Organizations -- 1-2 Milestones
-1. Make Geo work as a Disater Recovery solution alongside the Org Mover use case -- 2-3 Milestones
-1. [Develop the CLI tool to copy PostgreSQL data from the source database to the target database](https://gitlab.com/gitlab-org/gitlab/-/issues/473894) -- 2-3 Milestones
-1. Develop the CLI orchestrator tool -- 3-4 Milestones
-1. Implement error handling and monitoring -- 1-2 Milestones
-1. Test and validate the solution -- 1-2 Milestones
+Based on roadmap planning as of April 2025, the Org Mover implementation will proceed through several phases:
 
-## Alternative Solutions
+### FY26 Q1-Q2: Design and Foundational Work
 
-We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/user/group/import/) and [Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate). Both have been considered and evaluated, but these solutions do not meet the downtime requirements.
+1. **Org Mover Design** (FY25 Q4 - FY26 Q2)
+   - Run POCs to validate technical approach
+   - Investigate, discuss, and make critical design decisions
+   - Define the interfaces and components
 
-## Future iterations
+2. **Org Mover Foundational Work** (FY26 Q1 - FY26 Q2)
+   - Refactor, fix, and improve scalability of Geo code and data structures for Org Mover on .com
+   - Prepare the existing codebase for the requirements of organization-level operations
 
-- Add PostgreSQL Logical Replication as an option to minimize cutover downtime.
-- Provide an API interface to make integration with infrastructure tools easier.
-- Provide intuitive configuration and management UI interfaces.
+3. **Org Mover Org Checksums 1** (FY26 Q2-Q3)
+   - Build selective checksumming by organization
+   - Ignore tables where sharding keys are not available
+
+### FY26 Q3-Q4: Implementation and Testing
+
+1. **Org Mover Partial PG Copy** (FY26 Q3)
+   - Implement functionality to move an organization's PostgreSQL data from one cell to another in GDK
+   - Ignore tables where sharding keys are not available
+
+2. **Org Mover Org Checksums 2** (FY26 Q4)
+   - Finish building selective checksumming by organization
+   - Depends on completion of sharding work
+
+3. **Org Mover Org Checksums 3** (FY26 Q4)
+   - Selectively roll out checksumming per component on GitLab.com
+   - Validate checksumming features on .com
+   - Let SREs begin cleaning up data on .com
+
+### FY27 Q1-Q2: Production Validation
+
+1. **Org Mover Test Org Move** (FY27 Q1)
+   - Move test organizations on GitLab.com
+   - Validate end-to-end process in production
+   - Identify and address any issues discovered in production
+   - Repeat as frequently as possible
+
+2. **Org Mover 1: Internal Org Move** (FY27 Q1)
+   - Move an internal organization on GitLab.com that we actually use
+   - Depends on a way to block user writes to the organization
+   - Depends on organization data deletion, so we can reset the destination after each dry run
+   - Validate production performance with our own real data
+
+3. **Org Mover 2: Customer Org Move** (FY27 Q2)
+   - Move a real customer organization on GitLab.com
+
+### FY27 Q2-FY27 Q4: Downsize Legacy Cell
+
+1. **Org Mover 3: Minimize Toil** (FY27 Q2-Q3)
+   - Automate Org Mover operations to allow for multiple concurrent moves with minimal manual labor
+
+2. **Org Mover 4: Reduce downtime with PG Logical Replication** (FY27 Q4)
+   - Implement PostgreSQL logical replication for organization moves
+   - Reduce downtime during cutover phase
+   - Note: May [increase load on legacy database](https://gitlab.com/gitlab-org/gitlab/-/issues/523306), so we expect
+     logical replication to not be usable until many organizations have already been moved
+
+### FY28: Cell Rebalancing
+
+1. **Org Mover From Any Cell** (FY28 Q1)
+   - Support manual bi-directional moves (not just from legacy cell)
+
+## Organization Isolation and Sharding Dependencies
+
+The Org Mover project has key dependencies on other Tenant Scale initiatives:
+
+1. **Sharding Work Completion** (FY26 Q1-Q3)
+   - Required for clean, performant data separation during migration
+   - Required for Org Mover Org Checksums 2
+
+2. **Organization Data Isolation** (FY26 Q4)
+   - Required for clean, performant data separation during migration
+
+3. **Org on new cell** (FY26 Q4)
+   - Required for testing an organization that was migrated to a new cell
+
+## Migration approaches at different major iterations of Cells
+
+As we build out Cells, we need a way to test the functionality at each [major iteration](_index.md#cells-iterations). We want to dog food the new Cells deployment together with Organizations. The first iteration of Cells will have limited functionality, therefore, we cannot move all GitLab top-level groups out of the Legacy Cell to another Cell without severely impacting productivity. The following section outlines our approach to moving select top-level groups off the Legacy Cell into another Cell for dog food purposes, and how we reconcile the top-level group as the Cells development progresses through the iterations.
+
+We will need to adopt different approaches for each major iteration of the Cells evolution based on which technologies are available at each iteration.
+
+As we discuss creating and migrating Organizations, it's important to call out that top-level groups will retain their URL as they move between Organizations. For example, when a customer's top-level group is moved from the [default Organization](../organization/_index.md#glossary) to their own Organization, their method of access remains unchanged. This means bookmarks, Git remote URLs, etc., for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
+
+### Cells 1.0
+
+Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate Organization.
+
+We still need to evaluate and address any gaps, but this is the only option available in this time frame.
+
+DT is a `copy` instead of a `move` operation.
+This means that DT will generate new IDs when the data is imported into a new Organization.
+It does not make sense to evolve DT to work as a `move` operation, because its core purpose is to import and export data.
+
+It makes sense for DT to evolve to work with Organizations in time for Cells 1.0. This is not a throwaway effort, because DT will need to be supported when we have Cells and Organizations.
+
+Limitations:
+
+- Only top-level groups can be moved between organizations.
+- New IDs will be generated which will break automation and integrations - This is acceptable since we will only be moving a limited set of internal top-level groups.
+- Public top-level groups cannot be hosted on other Cells, only on the Legacy Cell.
+- Several [features available on GitLab.com are not supported on Cells](iterations/cells-1.0.md#features-on-gitlabcom-that-are-not-supported-on-cells) at this iteration.
+
+We will migrate a few small GitLab internal top-level groups to Organizations on another Cell using direct transfer. There will be migrations of Organizations between Cells for Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
+
+![gitlab-org-migrations-cells-1-0](/images/design-documents/cells/gitlab_org_migrations_cells_1_0.drawio.png)
+
+All existing top-level groups on GitLab.com are part of the `default Organization`.
+A list of all GitLab top-level groups can be found [in this Google doc (internal link)](https://docs.google.com/spreadsheets/d/18JSGNWYXhAofSqPPLCh_wb0dc9wTT9HuOucHegmsYhA/edit#gid=0).
+
+We will create a new temporary Organization (GitLab Inc.) in a Cell (not Legacy Cell).
+
+We will use [direct transfer](https://docs.gitlab.com/ee/user/group/import/)
+or [congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) to migrate select top-level groups belonging to GitLab Inc. from the `default Organization` in the Legacy Cell to the GitLab Inc. Organization on the other Cell. If [Org mover](https://gitlab.com/groups/gitlab-org/-/epics/12859) is ready in time, we will use it instead.
+
+All traffic to the top-level groups being migrated will be blocked for the duration of the migration. After the migration is complete, traffic will be resumed and redirected to the other Cell where the groups are located. They will be read/write and fully operational.
+
+### Cells 1.5
+
+At this Cells iteration the focus will be moving top-level groups into Organizations and then migrating those Organizations from the Legacy Cell to other Cells.
+
+We will establish a process for moving top-level groups between Organizations on the same Cell. This functionality is net new and will need to be developed in time for Cells 1.5. It is also a pre-requisite for Org mover to move an Organization between Cells. The work is tracked by [epic 11711](https://gitlab.com/groups/gitlab-org/-/epics/11711).
+
+The solution will need to re-write the org IDs when a top-level group is moved to a new Organization.
+A [new solution](https://gitlab.com/groups/gitlab-org/-/epics/11711) is preferable to using the existing DT, because DT is more complex than re-writing IDs.
+The new solution would also ensure that new IDs are only generated where necessary when a top-level group is moved into a new Organization.
+This improves the experience for users, as it minimizes the changes users have to make to their local repositories, bookmarks, etc. to match the new IDs and paths.
+
+After the top-level groups for a customer are in their own Organization on [Legacy Cell)](goals.md#legacy-cell), the Organization will be put into [maintenance mode](https://gitlab.com/groups/gitlab-org/-/epics/13800) to prevent further changes to the Organization's data while it's being migrated. Org mover then moves the entire Organization from the Legacy Cell to another Cell. After the Org is on the other Cell, traffic routing for the Organization is switched to the other Cell and maintenance mode for the Organization is disabled. The new Organization will not be fully operational on the Other Cell.
+
+Limitations:
+
+- Only top-level groups can be moved between Organizations.
+- It will only be possible to move top-level groups between organizations in the same Cell - This is acceptable because our primary use case involves creating a new Organization for a customer in Cell 1 and moving their top-level groups into this Organization. Groups will not need to be moved across Cells at this iteration.
+- Public top-level groups cannot be hosted on other Cells, only on the Legacy Cell.
+
+Note, GitLab top-level groups cannot be consolidated under a single GitLab Organization on the Cell hosting the GitLab Inc Organization at this point because many GitLab top-level groups are public groups. Public groups are only supported on the Legacy GitLab Cell. This will need to wait until the Cells-2.0 iteration.
+
+### Cells 2.0
+
+At this iteration it is anticipated that we will have a fleet of Cells. Load across these Cells will need to be rebalanced as Organizations grow requiring a mechanism for moving Organizations between Cells. Org mover will be evolved to move Organizations between Cells.
+
+There is also a need to move top-level groups between Organizations that are on different Cells. The primary use case is to support mergers between two customer Organizations. We do not currently have solution for this. We will in due course evaluate whether org mover should be evolved to move top-level groups between Cells and other approaches.
+
+Limitations:
+
+- Only top-level groups can be moved between organizations.
+
+At Cells 2.0, we will consolidate all GitLab top-level groups under the GitLab Organization by merging the top-levels groups that are part of the GitLab Inc Organization with the main GitLab Organization - the long term home for all GitLab top-level groups.
+
+![gitlab-org-migrations-cells-2-0](/images/design-documents/cells/gitlab_org_migrations_cells_2_0.drawio.png)
+
+All remaining top-level groups belonging to GitLab on the Legacy Cell will be moved to the GitLab Organization. The entire GitLab Organization will be moved to the Cell hosting the GitLab Inc Organization using org mover. Following this, the two Organizations (GitLab and GitLab Inc) will be consolidated by moving the top-level groups in the temporary GitLab Inc Organization into the GitLab Organization. The GitLab Inc org will then be deleted.

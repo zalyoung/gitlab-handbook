@@ -12,11 +12,11 @@ Customer was opted into cloud licensing because of a [bug](https://gitlab.com/gi
 
 1. Determine whether the customer should be on cloud licensing
 1. **If no**, proceed with:
-    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
+    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/administration/operations/rails_console/): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
     1. Once the license has been removed, the customer should have the ability to upload a standard license file on their instance.
 1. **If yes**, proceed with:
     1. [Switching the new subscription to cloud license features](#how-to-switch-a-subscription-to-cloud-license-features)
-    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
+    1. Removing the current cloud license by asking the customer to run these commands via [rails console](https://docs.gitlab.com/administration/operations/rails_console/): `l = License.find 123` and then `l.destroy`. You need to provide the license number for the first command. You can find this number in the URL of the cloud license in the customersdot license menu (example: <https://customers.gitlab.com/admin/license/123123123>)
     1. Once the license has been removed, the customer should be able to input the new activation code that was generated and emailed to them when you switched the subscription to cloud features.
     1. [See example ticket where customer did want to be on cloud licensing](https://gitlab.zendesk.com/agent/tickets/236163)
 
@@ -31,7 +31,7 @@ Customer was opted into cloud licensing because of a [bug](https://gitlab.com/gi
 
 ## Troubleshooting Network Connectivity
 
-Cloud licensing requires a connection to `customers.gitlab.com` over port 443 (HTTPS), and this connection must remain available throughout the duration of using a cloud license.  The GitLab server will typically check in once per day, as well as once during activation, and any time a [manual sync is performed](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#manually-synchronize-your-subscription-details).  While general networking is typically outside the scope of what we can support, there are a number of things we can easily test for to help users diagnose any potential network or HTTPS issues blocking the connections.
+Cloud licensing requires a connection to `customers.gitlab.com` over port 443 (HTTPS), and this connection must remain available throughout the duration of using a cloud license.  The GitLab server will typically check in once per day, as well as once during activation, and any time a [manual sync is performed](https://docs.gitlab.com/subscriptions/self_managed/#manually-synchronize-your-subscription-details).  While general networking is typically outside the scope of what we can support, there are a number of things we can easily test for to help users diagnose any potential network or HTTPS issues blocking the connections.
 
 ### Check DNS
 
@@ -106,7 +106,7 @@ Implies success.
 
 In most circumstances, if system `curl` is working, then there won't be a need to check further TLS settings.  However, because GitLab does offer several [options for configuring various TLS and SSL certificate settings](https://docs.gitlab.com/omnibus/settings/ssl/), including [custom certificate authorities](https://docs.gitlab.com/omnibus/settings/ssl/#install-custom-public-certificates), it may be necessary to perform some more advanced SSL/TLS troubleshooting.
 
-For example, if the customer server is making use of custom certificate authorities (CA), such as when SSL packet inspection is employed, they will need to add that root CA certificate to `/etc/gitlab/trusted-certs` on the server, then [reconfigure GitLab](https://docs.gitlab.com/ee/administration/restart_gitlab.html#omnibus-gitlab-reconfigure).
+For example, if the customer server is making use of custom certificate authorities (CA), such as when SSL packet inspection is employed, they will need to add that root CA certificate to `/etc/gitlab/trusted-certs` on the server, then [reconfigure GitLab](https://docs.gitlab.com/administration/restart_gitlab/#omnibus-gitlab-reconfigure).
 
 - Refer to our documentation on [how SSL works in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/#details-on-how-gitlab-and-ssl-work) and [troubleshooting SSL in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/ssl_troubleshooting.html) for more in-depth information.  In particular, relying on the packaged version of `openssl` to check and verify SSL connectivity:
 
@@ -118,7 +118,7 @@ It may be useful to run a [SSL Server Test](https://www.ssllabs.com/ssltest/anal
 
 ### Obtain DevTools > Network HAR file during activation
 
-A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/ee/api/graphql/)) response can be viewed.
+A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/api/graphql/)) response can be viewed.
 
 1. Open the DevTools (usually `ctrl+shift+i`) and navigate to the Network tab
 1. (re)Load the page at `/admin/subscription`
@@ -127,14 +127,14 @@ A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn/Com
 
 - Note that multiple `graphql` resources may be present, and not all will be related to the cloud licensing activation process.
 
-Since there will be a lot of information presented in the DevTools, feel free to suggest that the customer [generate a network HAR file](https://support.zendesk.com/hc/en-us/articles/4408828867098) and attach it to the ticket for closer inspection by us.
+Since there will be a lot of information presented in the DevTools, feel free to suggest that the customer [generate a network HAR file](https://support.zendesk.com/hc/en-us/articles/4408828867098-Generating-a-HAR-file-for-troubleshooting) and attach it to the ticket for closer inspection by us.
 
 Caution: Advise the user to sign out of the GitLab session they recorded to invalidate their session credentials.
 See [sec.Okta.com/harfiles](https://sec.okta.com/harfiles) for context.
 
 ### Simulating a cloud license SeatLink attempt from within the Rails application
 
-System tools and binaries such as `ping` and `curl` are helpful, but keep in mind that GitLab is a highly complex application that bundles many of its own tools and binaries.  GitLab the application may handle outbound connections slightly differently than system-supplied binaries will.  The best way to verify this is to check that the connection is possible directly from [rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html).  Login to the server and enter rails console with `sudo gitlab-rails console` and run:
+System tools and binaries such as `ping` and `curl` are helpful, but keep in mind that GitLab is a highly complex application that bundles many of its own tools and binaries.  GitLab the application may handle outbound connections slightly differently than system-supplied binaries will.  The best way to verify this is to check that the connection is possible directly from [rails console](https://docs.gitlab.com/administration/operations/rails_console/).  Login to the server and enter rails console with `sudo gitlab-rails console` and run:
 
 ```ruby
 URI_PATH = '/api/v1/seat_links'
@@ -148,13 +148,44 @@ pp head_resp
 
 That command will return output very similar to what a typical `curl -I` would return, but it relies on internal ruby classes to route the request in the same way GitLab would, therefore exposing any potential issues that are happening specifically within the GitLab application.
 
+### Simulating a cloud license SeatLink attempt with `curl`
+
+If you need to check if the SeatLink query will work from a different network segment, where GitLab is not installed, you may use Rails console to generate an equivalent `curl` command. To do that, enter the Rails console with `sudo gitlab-rails console` and enter the code snippet below:
+
+```ruby
+headers = Gitlab::SubscriptionPortal::Client.send(:json_headers)
+base_url = Gitlab::SubscriptionPortal::Client.send(:base_url)
+params = Gitlab::SeatLinkData.new.to_json
+path = "api/v1/seat_links"
+curl_cmd = ['curl --trace - --trace-time -X POST']
+curl_cmd << "\"#{File.join(base_url, path)}\""
+headers.each do |key, value|
+curl_cmd << "-H \"#{key}: #{value}\""
+end
+curl_cmd << "-d '#{params}'"
+puts curl_cmd.join(" \\\n  ")
+```
+
+The result should look similar to the one below:
+
+```shell
+curl --trace - --trace-time -X POST \
+  "https://customers.gitlab.com/api/v1/seat_links" \
+  -H "User-Agent: GitLab/17.6.1-ee" \
+  -H "Accept: application/json" \
+  -H "Content-Type: application/json" \
+  -d '{"gitlab_version":"17.6.1-ee","timestamp":"2025-01-21T12:00:11Z","license_key":"xxxx...\n","max_historical_user_count":2,"billable_users_count":2,"hostname":"gitlab.example.com","instance_id":"aaaaaaaa-0000-0000-aaaa-aaaaaaaaaaaa","add_on_metrics":[{"add_on_type":"duo_enterprise","purchased_seats":10,"assigned_seats":3}]}'
+```
+
+Notice the `--trace - --trace-time` parameters - this will cause `curl` to produce large amounts of debug output. You can also add `--proxy [protocol://]host[:port]` if needed.
+
 ### Custom proxy settings
 
 At present, cloud licensing does not officially support network proxies, deep packet inspection, etc.  But if the customer is aware of custom network proxy configurations on their end, they may be able to configure GitLab to ignore them via the `no_proxy` environment variable.  More information is available in our documentation on [Setting custom environment variables](https://docs.gitlab.com/omnibus/settings/environment-variables.html)
 
 ### Activating a license with the GraphQL API
 
-In cases where the license activation functions are unavailable (for example, due to a 500 error on the billing page), the [GraphQL API](https://docs.gitlab.com/ee/api/graphql/reference/) can be used to activate a cloud license directly using the [`Mutation.gitlabSubscriptionActivate` endpoint](https://docs.gitlab.com/ee/api/graphql/reference/#mutationgitlabsubscriptionactivate). With this method, a subscription can be activated **even if there is already an activated cloud license present on the instance**. This method is useful to avoid the downtime caused by removing the existing license via the UI before activating another key:
+In cases where the license activation functions are unavailable (for example, due to a 500 error on the billing page), the [GraphQL API](https://docs.gitlab.com/api/graphql/reference/) can be used to activate a cloud license directly using the [`Mutation.gitlabSubscriptionActivate` endpoint](https://docs.gitlab.com/api/graphql/reference/#mutationgitlabsubscriptionactivate). With this method, a subscription can be activated **even if there is already an activated cloud license present on the instance**. This method is useful to avoid the downtime caused by removing the existing license via the UI before activating another key:
 
 1. Have the customer navigate to `https://<their-self-managed-gitlab-site.com>/-/graphql-explorer`
 1. Run the following mutation by replacing `<activation code>` with the actual 24-character cloud activation code:

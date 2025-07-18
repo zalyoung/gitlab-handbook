@@ -73,10 +73,14 @@ The customer may ask for a description of the CI process or other complex proces
 
 ### Tips and Tricks in Response Writing
 
-- As much as possible use [active rather than passive voice](https://www.grammarly.com/blog/active-vs-passive-voice/)
+- As much as possible use [active rather than passive voice](https://www.grammarly.com/blog/sentences/active-vs-passive-voice/)
 - Eliminate pronouns: Example 1, "GitLab CI will do x" rather than "Our CI will do x". Example 2, "The GitLab team will x" rather than "We will x".
 - Organization of the response is as important as the content
 - Create a strong introduction and summary leveraging existing Marketing information which presents the breadth of the entire GitLab solution
 - If specific requirements are expected to be answered by the response, add notations to the requirement number being met within the text of the response: Example, "GitLab's SAST scanner will analyze your source code for known vulnerabilities (Req 1.a.1)"
 - Use customer terminology wherever possible
 - Include relevant customer use cases whenever possible
+
+### Links to Completed RFPs
+
+For Gitlab Team members, please see [list here](https://internal.gitlab.com/handbook/solutions-architecture/rfp/).

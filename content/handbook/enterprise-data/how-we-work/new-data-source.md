@@ -19,7 +19,7 @@ Both the development (assigning resources from the Data Team, from other teams i
   - Downstream modelling could be handled by the business team, because we embrace contribution on our data platform. Please note that extensive ([dbt-](/handbook/enterprise-data/platform/dbt-guide/), SQL- and data modelling knowledge is needed)
   - Downstream modelling could be handled by the Data Team, ideally by a [Data Fusion Team](/handbook/enterprise-data/organization/#data-fusion-team-organization). Planning needs to take place and priorities are set in line with company priorities. **This falls not within the scope of adding a new data source to the data warehouse**, thus this needs to be arranged subsequently.
   - If data is extracted in (complex) JSON format, a Data Engineer can support or can flatten the data to a tabular format and load this towards the `PREP` database.
-  - There are 3 ways to follow up on the downstream [data development](/handbook/enterprise-data/data-development/).
+  - There are 3 ways to follow up on the downstream [data development](/handbook/enterprise-data/how-we-work/data-development/).
 - Adding a new data source to the data warehouse is not an 1 off exercise. As soon as the data is extracted to the data warehouse, on a regular cadence (once week, once a day, multiple times per day, etc..) data will be refreshed. This means something can happen or can go wrong after the implementation. We will need a DRI from the source side (business and technical) to support this process when needed.
 - Data could be used, outside of the EDM. I.e. by a Function Analyst, in the `raw` data layer. Raise an AR to get access to the raw data.
 - When data ends up in the EDM, work is to be performed in Sisense by creating a dashboard. Also for doing this, some technical knowledge is required.
@@ -109,7 +109,7 @@ SELECT object_delete(json_data,'id','address')
 
 ```
 
-In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](/handbook/security/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
+In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](/handbook/security/standards/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
 
 #### Extraction solution
 
@@ -170,6 +170,23 @@ graph LR
 
 Custom development is a solution designed and developed by the GitLab Data Team. Examples of this are the current PGP and the Zuora Rev Pro extraction.
 
+##### Periodically full refreshes (automatically)
+
+There are several examples where data is not fully replicated in Snowflake. This occurs due to various reasons such as:
+
+- Cursor fields not being updated.
+- (Hard) deletes not being captured.
+
+As a result, we need to perform full refreshes of certain tables periodically. Especially with SaaS tools like Fivetran and Stitch, there are limited possibilities to schedule regular full refreshes (e.g., once per month) for specific tables. The basic solution is manually triggering a full refresh, which varies in difficulty depending on the connector. When manual refreshes need to happen frequently or in an automated way, we should consider alternative approaches.
+
+Alternative Loading Methods: 
+
+- Bypass Stitch or Fivetran's limitations by using Snowflake share (if it doesn't have the same limitations).
+- Custom Pipeline: Build a custom data pipeline that allows for scheduled full refreshes.
+- Upstream Governance: Explore data governance improvements in upstream systems to address the root causes of replication issues.
+
+Each approach involves different trade-offs in terms of development effort, maintenance requirements, and flexibility for our specific use cases.
+
 #### Access request
 
 Although it could be helpful to already provide the Data Team access to the source system, its not mandatory to raise an Access Request right now.
@@ -213,7 +230,7 @@ When the execution could not continue due to the need of external intervention, 
 
 ## Red Data
 
-Red data (according to the GitLab [Data Classification Policy](/handbook/security/data-classification-standard/#data-classification-levels) is not allowed to be stored in our Data Platform (Snowflake). Therefore we will not bring in/connect new data sources that are listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) with `data_classification: Red` unless there is a mission critical business reason. There is an exception process available which will enable us to evaluate the needs on a case-by-case basis and this process will require approval from BT/Data VP-level, Security and Privacy. Evaluating the business reason and obtaining approvals are part of the triage process and are governed via the new data source [template](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=[New%20Request]%20New%20Data%20Source).
+Red data (according to the GitLab [Data Classification Policy](/handbook/security/standards/data-classification-standard/#data-classification-levels) is not allowed to be stored in our Data Platform (Snowflake). Therefore we will not bring in/connect new data sources that are listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) with `data_classification: Red` unless there is a mission critical business reason. There is an exception process available which will enable us to evaluate the needs on a case-by-case basis and this process will require approval from BT/Data VP-level, Security and Privacy. Evaluating the business reason and obtaining approvals are part of the triage process and are governed via the new data source [template](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=[New%20Request]%20New%20Data%20Source).
 
 **Note:** The exception process must be fulfilled to either **connect** a system with Red data and/or to **extract** Red data (fields) from that system.  However, the business case to extract Red data (fields) under the exception process will necessitate a higher standard of review than a business case that only requires connecting a Red data system without extraction of Red data (fields).  Where extraction of Red data (fields) is approved under the exception process, masking will be applied in the Data Platform (Snowflake) as described in the proceeding section.
 
@@ -228,7 +245,7 @@ When extracting new data towards Snowflake and the data source is not listed or 
 
 ## Personal data
 
-Extracting [Personal Data](/handbook/legal/privacy/#:~:text=DPIAs%20here.-,Personal%20Data,-Any%20data%2C%20individually) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
+Extracting [Personal Data](/handbook/legal/privacy/#privacy-terms) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
 
 Please note that "pseudonymized" data is still Personal Data under privacy legislation.
 

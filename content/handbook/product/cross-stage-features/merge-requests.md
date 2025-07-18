@@ -7,7 +7,7 @@ description: "Collaboration process and documentation for contributing to the me
 
 **The merge request (MR) is the center point of collaboration for users in GitLab.** It's where code is reviewed, pipelines are run, testing and scanning results provided, and ultimately contributions are merged.
 
-Any change to the MR experience is likely to affect the **duration of code review**, even small changes. Reducing the duration of code review is the [primary metric of success of the Code Review group](https://about.gitlab.com/direction/create/code_review/#metrics-of-success). This metric impacts the code quality and velocity of every user of GitLab.
+Any change to the MR experience is likely to affect the **duration of code review**, even small changes. Reducing the duration of code review is the [primary metric of success of the Code Review group](https://about.gitlab.com/direction/create/code_review_workflow/#metrics-of-success). This metric impacts the code quality and velocity of every user of GitLab.
 
 Here in the [Code Review group](/handbook/product/categories/#code-review-group), we deeply care about the MR experience. We're the primary contributor to the MR experience, although many other groups have a stake in it. **Contributions over the years from different parties with no guidance and vision have resulted in a large amount of technical debt and deferred UX**. This page provides that much-needed guidance on how "everyone can contribute" sustainably to the MR experience.
 
@@ -41,9 +41,9 @@ If the problem and solution your group wants to tackle have the potential to evo
 
 ## Process
 
-The responsibility assignment matrixes below use the [RACI model](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) (Responsible, Accountable, Consulted, Informed) and map to the phases of our [product development flow](/handbook/product-development-flow/). Each phase has key participants, like a Product Designer, but for simplicity, we only specify the responsible groups.
+The responsibility assignment matrixes below use the [RACI model](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) (Responsible, Accountable, Consulted, Informed) and map to the phases of our [product development flow](/handbook/product-development/how-we-work/product-development-flow/). Each phase has key participants, like a Product Designer, but for simplicity, we only specify the responsible groups.
 
-- **Responsible**: Does the activities to complete the phase. The specific functions responsible for the activities are defined in the [product development flow](/handbook/product-development-flow/).
+- **Responsible**: Does the activities to complete the phase. The specific functions responsible for the activities are defined in the [product development flow](/handbook/product-development/how-we-work/product-development-flow/).
 - **Accountable**: Approves the outcome of the activities. They are ultimately answerable for the correct and thorough completion of the phase.
 - **Consulted**: Provides input on the activities as subject-matter experts or as impacted by the work. There is two-way communication.
 - **Informed**: Needs to be kept in the loop on progress, rather than roped into the details of every activity. There is just one-way communication.
@@ -92,7 +92,7 @@ This adds some collaboration overhead, which sometimes is needed, but it can oft
 | Design | R | A | Your group is **Responsible** for carrying out the necessary work in this phase, but we're **Accountable** for the outcome — in other words, we approve the outcome. This is because we're ultimately responsible for a coherent and consistent MR experience, not only for our _users_ but also for _other contributors_ that could be impacted by the changes or wish to leverage them in the future. |
 | Solution validation | R | A | Same as the previous phase. |
 | Plan | R,A | C | We help your group break down things and coordinate with other groups (for example, another group could be introducing "conflicting" changes at the same time). |
-| Develop & Test | R | A | Like in the _Design_ phase, we're **Accountable** in this phase as we're also responsible for the _developer_ experience. This should already be the case, as we "default to requests for a maintainer with [domain expertise](https://docs.gitlab.com/ee/development/code_review.html#domain-experts)" (from [Code review guidelines](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer)). |
+| Develop & Test | R | A | Like in the _Design_ phase, we're **Accountable** in this phase as we're also responsible for the _developer_ experience. This should already be the case, as we "default to requests for a maintainer with [domain expertise](https://docs.gitlab.com/development/code_review/#domain-experts)" (from [Code review guidelines](https://docs.gitlab.com/development/code_review/#the-responsibility-of-the-reviewer)). |
 | Launch | R,A | I |  |
 | Improve | R,A | I |  |
 | **(Optional) Start new contribution framework** | R | A | During or after the product development flow, [if a new contribution framework is needed](#need-for-a-contribution-framework), your group is **Responsible** for starting it. We approve the framework, to ensure that it can be sustainably leveraged by future contributors. |

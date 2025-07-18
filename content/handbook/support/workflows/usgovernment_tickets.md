@@ -15,7 +15,7 @@ The context for this flow is because [CCs are disabled](https://about.gitlab.com
 
 ## Access limited to US Citizens
 
-Only our US Citizen Support Engineers have access to the [US Government Zendesk Instance](/handbook/support/readiness/operations/docs/zendesk/#zendesk-us-federal). If you are a US Citizen and would like to get access and contribute you can open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) for either a [light agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [full agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)(limited to Support/Security Team members).
+Only our US Citizen Support Engineers have access to the [US Government Zendesk Instance](/handbook/security/customer-support-operations/docs/zendesk#zendesk-us-government). If you are a US Citizen and would like to get access and contribute you can open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) for either a [light agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [full agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)(limited to Support/Security Team members).
 
 ## Communication Guidelines
 
@@ -48,7 +48,7 @@ The US Government team has implemented an automated follow up system that checks
 
 There can be certain situations in which a task may take longer than 7 days for the customer to make changes and provide feedback. If there has been an agreed upon day in the future where the customer has agreed they will update us then an agent may opt to use the `Support::Block Automatic Reopen` macro. This macro will add the `blocked_by` tag and create an internal comment where the agent must fill in the details indicating why the case should remain in pending. The `blocked_by` tag must be manually removed by an agent when the agreed upon date has been reached to resume the standard pending to follow-up workflow. Some best practice suggestions for using the macro are below:
 
-- Set a [task reminder](/handbook/support/readiness/operations/docs/zendesk/apps/#due-date-picker) for the date that we should hear back from the user.
+- Set a [task reminder](/handbook/security/customer-support-operations/docs/zendesk/apps/#zendesk-super-app-1) for the date that we should hear back from the user.
 - Regularly review pending cases to ensure we are receiving follow-up by the date promised
 - Put the relevant issue or case number in the blocked-by reason so that others may be aware and follow-up on your behalf
 
@@ -87,7 +87,7 @@ If you need a manager's help with a ticket, please keep in mind that only US Cit
 
 ### Discussion issues from tickets
 
-In order to better facilite asynchronous collaboration on tickets within the US Government ticket system, we have a macro which allows US Government support engineers to trigger the creation of a confidential GitLab issue connected with the ticket. This issue will be open for the duration of the ticket and can provide a way for US Government support engineers to relay information to collaborators.
+In order to better facilitate asynchronous collaboration on tickets within the US Government ticket system, we have a macro which allows US Government support engineers to trigger the creation of a confidential GitLab issue connected with the ticket. This issue will be open for the duration of the ticket and can provide a way for US Government support engineers to relay information to collaborators.
 
 **NOTE:
 It is important to never included any customer specific information inside of these issues, because even though they are confidential, they are still visible to people who do not have access to the US Government ticket system.**
@@ -118,7 +118,7 @@ A short post call synopsis reminding the customer of what artifacts were collect
 
 ## US Government Shift Engineer Workflow
 
-The US Government shift engineers are a hybrid role between US Government support and global support, they work in both support portals. This workflow outlines the heirarchy of priorities for shift engineers to follow:
+The US Government shift engineers are a hybrid role between US Government support and global support, they work in both support portals. This workflow outlines the hierarchy of priorities for shift engineers to follow:
 
 1. US Government Emergencies (while on-call)
 1. US Government High priority cases for 24x7 Eligible customers ([24x7 Entitled Customers view](https://gitlab-federal-support.zendesk.com/agent/filters/20166453511316))
@@ -151,3 +151,44 @@ The following will describe how to create the personal view to list cases in Glo
     - `Request date`
 1. Group by: `Priority` - Descending
 1. Order by: `SLA` - Ascending
+
+## GitLab Dedicated for Government
+
+### High-Level Notes
+
+1. Don't panic.
+1. **Application or infrastructure**? In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. Use the [logs](/handbook/support/workflows/dedicated_logs/) and [observability metrics](/handbook/support/workflows/dedicated_instance_health) to guide you.
+1. Logs and Metrics are "in-boundary" and require VPN access. If you have questions or problems, ask in `#g_dedicated-us-pubsec`. Instructions for set up are [here](https://gitlab.com/gitlab-com/gl-infra/us-public-sector/documentation/-/blob/main/runbooks/remote-access-vpn.md?ref_type=heads)
+
+#### Getting Help
+
+| What | Useful for |
+| ------ | ------ |
+| [GitLab Dedicated Overview](/handbook/support/workflows/dedicated/) | A good place to start for basic questions |
+| [Troubleshooting Tables](/handbook/support/workflows/saas_sm_cheatsheet/) | Understanding "what's different?" about GitLab Dedicated |
+| Open an [RFH](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team) on `CompSecGov` | Requesting [configuration changes](/handbook/support/workflows/dedicated/#configuration-changes) on behalf of customers, getting help from SREs on things that are not incidents |
+| [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) on Slack | General questions for Support folks focused on GitLab Dedicated (Commercial or Government) |
+
+### Requests for Help
+
+Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management). Access to CompSecGov comes through [FedRAMP Okta](https://gitlabus.okta.com). If you need, but don't have, access contact Wade or Ian to get the process started.  
+
+In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. Infrastructure-issue RFHs follow the CompSecGov procedure and Application-issue RFHs will follow the [typical procedure](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)
+
+To open an RFH on CompSecGov, go to the `Incident Management` group, and open a new issue using the RFH issue template. 
+
+#### Handling Emergencies
+
+Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated_for_government/) customers come through the [US Government Emergency support](https://about.gitlab.com/support/us-government-support/#us-government-emergency-support) rotation.
+
+The Global workflow for [Handling GitLab Dedicated emergencies](/handbook/support/workflows/dedicated/#handling-gitlab-dedicated-emergencies) is your guide.
+
+Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
+
+The [GitLab Dedicated US PubSec On-call runbook](https://gitlab.com/gitlab-com/gl-infra/us-public-sector/documentation/-/blob/main/runbooks/on-call.md) is the SSOT and the US Government Support team should bookmark and reference it.
+
+### Troubleshooting
+
+The FedRAMP Okta instance will lock accounts out after 90 days of inactivity.  To unlock your account, you need an [Access Request](https://compsecgov.gitlab-dedicated.us/corporate-security/access-management/-/issues) opened on CompSecGov, where you've been locked out. 
+
+Ask for help with this process from any of: #g_dedicated-us-pubsec, Wade, Ian, or Nick.

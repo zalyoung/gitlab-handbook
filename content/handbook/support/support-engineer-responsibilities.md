@@ -17,7 +17,7 @@ description: A detailed listing of the responsibilities of Support Engineers in 
 1. **Performance measurement for annual reviews and promotions are separate activities to the core responsibilities described here.**
      1. The People Group is responsible for the [GitLab annual review process](/handbook/people-group/360-feedback/).
      1. Read about [Support Engineer Career Path](/handbook/support/support-engineer-career-path) for further resources on promotions, and understanding the role at different levels.
-1. Support Engineering has [team level performance indicators](/handbook/support/#how-we-measure-our-performance). Successfully carrying out the responsibilities on this page will, directly or indirectly, help improve our KPIs. All team-level KPIs are, in turn, related to GitLab's company-level [Objectives and Key Results](/handbook/company/okrs/).
+1. Support Engineering has [team level performance indicators](/handbook/support/#how-we-measure-our-performance). Successfully carrying out the responsibilities on this page will, directly or indirectly, help improve our KPIs. All team-level KPIs are, in turn, related to GitLab's company-level goals.
 
 ## Support Engineer Areas of Focus
 
@@ -27,7 +27,7 @@ We currently have two main areas of focus for Support Engineers:
    GitLab's platforms: gitlab.com, GitLab Dedicated or GitLab Self-Managed
 1. License and Renewals - helping customers with License and Renewals problems
 
-To view the team's current distribution among Areas of Focus, see our internal [Support Team info site](https://gitlab-support-readiness.gitlab.io/support-team/area-of-focus.html).
+To view the team's current distribution among Areas of Focus, see our internal [Support Team info site](https://gitlab-com.gitlab.io/support/team-pages/area-of-focus.html).
 
 During onboarding, your initial area of focus will be made clear.
 
@@ -274,7 +274,7 @@ Be sure to highlight notable incidents in your 1:1 notes doc.
 
 **What does success look like?**
 
-1. [Pairing sessions](https://gitlab.com/gitlab-com/support/support-pairing). You can see how you're doing on this [pairing summary page](https://gitlab-support-readiness.gitlab.io/support-team/pairings.html)
+1. [Pairing sessions](https://gitlab.com/gitlab-com/support/support-pairing). You can see how you're doing on this [pairing summary page](https://gitlab-com.gitlab.io/support/team-pages/pairings.html)
 1. Ask and answer questions in Slack. (We don't have a way to easily make this visible, but feel free to share things you're proud of with your manager in your 1:1 notes doc.)
 1. If you have volunteered to be a [Support Stable Counterpart](/handbook/support/#support-stable-counterpart), collaborate with the group(s) you are assigned to and share knowledge with the Support Team.
 1. There are many other ways you can collaborate. Make a note of your collaborations in your 1:1 notes doc.
@@ -303,7 +303,7 @@ Reducing future customer problems is an important part of being a Support Engine
 
 You are encouraged to [update documentation](/handbook/support/workflows/improving-documentation) regularly. This helps prevent ticket creation by improving the information available for customers to use in solving problems without contacting us.
 
-[Creating blog posts](/handbook/marketing/blog/unfiltered/) and other publicly available knowledge that is accessible by search engines is valuable to help prevent ticket creation.
+[Creating blog posts](/handbook/marketing/blog/) and other publicly available knowledge that is accessible by search engines is valuable to help prevent ticket creation.
 
 We [summarize Support team contributions](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues?label_name%5B%5D=Support%20Team%20Contributions) every week using a bot.
 
@@ -348,7 +348,7 @@ As an extension of [keeping up to date on GitLab](#keep-up-to-date-on-gitlab-and
 
 For major releases, typically a manager will organize the [Support Stable Counterparts](/handbook/support/#support-stable-counterpart) to review the planned changes.
 
-Between major releases, product or development may request our assistance [to contact specific users](/handbook/support/internal-support/#gitlab-changes-and-contacting-users), which are handled by a [group of volunteers within Support](https://gitlab.com/groups/gitlab-com/support/readiness/-/group_members?with_inherited_permissions=exclude).
+Between major releases, product or development may request our assistance [to contact specific users](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes), which are handled by a [group of volunteers within Support](https://gitlab.com/groups/gitlab-com/support/readiness/-/group_members?with_inherited_permissions=exclude).
 
 Each month, Support also organizes a [Release Review Party](https://drive.google.com/drive/u/0/search?q=Release%20Review%20-%20Support%20Team) (GitLab Internal only) to go over, demonstrate, and talk about new features or changes.
 

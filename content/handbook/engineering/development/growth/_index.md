@@ -69,13 +69,13 @@ features and experiments that measure the impact of changes to our messaging, UX
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Growth" manager-role="Director of Engineering for Secure, Govern, and Growth" other-manager-roles="Govern and Growth|Growth and Govern:Threat Insights|VP, Online Sales and Self Service" >}}
+{{< engineering/stable-counterparts role="Growth" manager-role="Director of Engineering for Secure, Govern, and Growth" other-manager-roles="Govern and Growth|Growth and Govern:Threat Insights|VP, Online Sales and Self Service" >}}
 
 ## How We Work
 
-Our team follows the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) utilizing all labels from `~workflow::start` to `~workflow::complete`.
+Our team follows the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) utilizing all labels from `~workflow::start` to `~workflow::complete`.
 
-We adhere to the **Completion Criteria** and **Who Transitions Out** outlined in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) to progress issues from one stage to the next.
+We adhere to the **Completion Criteria** and **Who Transitions Out** outlined in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) to progress issues from one stage to the next.
 
 ### Labels and Workflow Boards
 
@@ -117,7 +117,7 @@ The refinement process is driven by [triage bot automations and policies](https:
 
 1. Issues are moved from `~"workflow::planning breakdown"` to `~"workflow::refinement"` automatically by the triage bot in order of priority (from top to bottom). The bot will only move issues to refinement if there is room in refinement column, meaning there is less issues than maximum limit for this column. This is first chance for PMs to prioritize issues by moving them higher in the `planning breakdown` column. After the issue is moved to refinement, a dedicated `refinement thread` is created, which acts as a place for discussion and weight estimation.
      - 💡 Hint: In rare case when an issue has to be expedited, it's possible to move it to refinement manually. This will invoke a reaction from triage bot, which will add `refinement thread` for such issue instantly so the refinement can proceed the same way as with automated path.
-2. During refinement the team ensures that the issue is well described and requirements are clear. They can use the `refinement thread` to discuss but they should make sure that any changes and decisions made there are also reflected in issue's description. Once each engineer is comfortable with the way the issue is described, they can vote their estimation of weight based on our [guidelines](/handbook/engineering/development/growth/index.html#estimation-guidelines). The voting happens by reacting to the thread with one of few possible weight estimates: 1️⃣ 2️⃣ 3️⃣ 5️⃣ or 🚀.
+2. During refinement the team ensures that the issue is well described and requirements are clear. They can use the `refinement thread` to discuss but they should make sure that any changes and decisions made there are also reflected in issue's description. Once each engineer is comfortable with the way the issue is described, they can vote their estimation of weight based on our [guidelines](/handbook/engineering/development/growth/#estimation-guidelines). The voting happens by reacting to the thread with one of few possible weight estimates: 1️⃣ 2️⃣ 3️⃣ 5️⃣ or 🚀.
 3. Each day the triage bot checks all issues in `~"workflow::refinement"` column and if an issue has required minimum number of estimation votes (see `MIN_REACTIONS` constant [here](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/lib/growth_refine_automation_helper.rb?ref_type=heads#L16) for the current setting) it will be moved to `~"workflow::scheduling"`.
     - 💡 Hint: If there is some problem with the issue and it shouldn't be moved forward even if enough engineers estimate it, ❌ reaction can be added to the thread which will stop the bot from transitioning the issue to `~"workflow::scheduling"` as long as this reaction sticks to the thread. This means that whoever put it is also responsible for removing it once the problem is gone.
 4. Once the issue is in `~"workflow::scheduling"`, it is awaiting final prioritization by PMs - it has to be manually moved to `~"workflow::ready for dev"` depending on the current priorities. This part of the process is PMs responsibility. This allows for additional fine-tuning of priorities and acts as a buffer for our ready for development column.
@@ -139,36 +139,143 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
 - If an initial estimate is incorrect and needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be adjusted.
 
+## Engineering DRI for Large-Scale Initiatives
+
+For substantial epics or projects that require extensive coordination, we designate an Engineering Directly Responsible Individual (DRI). This role is pivotal in managing complex workstreams within our team.
+
+The Engineering <abbr title="Directly Responsible Individual">DRI</abbr> is typically assigned in two scenarios:
+
+1. When an epic reaches the development phase and requires detailed oversight.
+1. When an issue grows in scope and complexity, necessitating its promotion to an epic.
+
+Importantly, we appoint the <abbr title="Directly Responsible Individual">DRI</abbr> before breaking down the work into smaller, manageable tasks. This early assignment is crucial because one of the <abbr title="Directly Responsible Individual">DRI</abbr>'s primary responsibilities is to lead the planning process and facilitate the strategic breakdown of the epic or project into actionable deliverables.
+
+By having a dedicated <abbr title="Directly Responsible Individual">DRI</abbr> for these large-scale initiatives, we ensure focused leadership, clear accountability, and effective coordination throughout the development lifecycle of complex engineering efforts.
+
+### Role Responsibilities
+
+*Communicating Progress and Managing Health Status*
+
+The Engineering <abbr title="Directly Responsible Individual">DRI</abbr> oversees weekly updates on the epic, tracking overall health status, including progress, obstacles, and emerging risks.
+
+- They continuously monitor and report on the epic's health status, indicating if it's on track, at risk, or blocked, providing context around any changes.
+- Progress updates are reported via a top-level comment on the epic containing the development work (usually linked to our OKRs).
+- Updates are due by End of Day on the <abbr title="Directly Responsible Individual">DRI</abbr>'s last workday of the week.
+
+*Facilitating Breakdown of Work*
+
+This role is crucial in breaking down epics into smaller, manageable deliverables, ensuring tasks are clearly defined and ready for development.
+
+*Ensuring Steady Progress*
+
+The responsible individual ensures work items progress smoothly through our Kanban flow, with enough work prepared for development to maintain consistent progress.
+
+*Risk Management and Mitigation*
+
+Early identification of potential risks and proactive collaboration with the team to develop mitigation strategies are key responsibilities. This enhances the role in not only communicating issues but actively managing and resolving them.
+
+*Retrospective and Continuous Improvement*
+
+Upon conclusion of each epic, a brief retrospective session should be facilitated to gather feedback on successes and areas for improvement. This practice helps refine processes and improves the handling of future epics.
+
+*Collaboration with Product and Design*
+
+Active collaboration with Product Managers and Designers during the planning phase is essential to ensure the epic's scope aligns with business goals and user experience standards.
+
+*Resource Allocation and Escalation*
+
+The appointed individual is empowered to identify when additional resources or support are needed and to escalate issues promptly. This helps ensure timelines are met and work progresses smoothly.
+
+*Note:* While responsible for timely delivery, the <abbr title="Directly Responsible Individual">DRI</abbr> is not expected to execute every task personally.
+
+### Standardized Status Update Template
+
+To ensure consistency and clarity in our communication, we've implemented a standardized comment template for status updates across the Growth team.
+
+**Template Details:**
+
+- **Name:** "Growth - DRI Status Update"
+- **Scope:** Available for the entire GitLab group
+- **Location:** [GitLab.com Comment Templates](https://gitlab.com/groups/gitlab-org/-/comment_templates/1000452)
+
+This template streamlines our reporting process, making it easier for <abbr title="Directly Responsible Individual">DRI</abbr>s to provide comprehensive and uniform updates. By using a consistent format, we enhance readability and facilitate quick information retrieval for all team members.
+
+For guidance on using comment templates, please refer to our [Comment Templates Usage Guide](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
+
 ## Technical exploration ("Spike") guidelines
 
-Occasionally, the team will be asked to dedicate time to exploring or "spiking" a technical solution to a problem or opporunity area deemed a priority by Growth PM. Technical spikes are fundamentally different than our typical work items as the result is more commonly a recommendation on a technical direction or solution (in the form of additional epics and/or issues) rather than code, yet they still require dedicated developer focus and should be accounted for in our development workflows. As such, we've determined the following guidelines and responsibilities for individual Growth Engineers to follow when addressing a techincal spike in our workflow:
+Occasionally, the team will be asked to dedicate time to exploring or "spiking" a technical solution to a problem or
+opportunity area deemed a priority by Growth PM. Technical spikes are fundamentally different than our typical work items
+as the result is more commonly a recommendation on a technical direction or solution rather than code, yet they still
+require dedicated developer focus and should be accounted for in our development workflows. As such, we've determined
+the following guidelines and responsibilities for individual Growth Engineers to follow when addressing a technical
+spike in our workflow:
 
-Note: As of Q2 FY25, technical spikes will follow the same workflow process as code-based issues - they will enter `~workflow::refinement`, then be scheduled and prioritized for pick up in `~workflow::ready for development`. Active technical spike work will be represented in `~workflow::in dev`. Once outputs are completed, the technical spike issue will be closed and moved to `~workflow::complete`.
+Note: Technical spikes will serve as the single source of truth for implementation and will have one of three outcomes:
+conversion into a development implementation issue, promotion to an epic with additional implementation issues, or
+closure if determined not technically feasible.
+
+```mermaid
+flowchart TD
+A[Technical Spike Created] --> B[Engineer Assigns Self]
+B --> C[Set Due Date with PM]
+C --> D[Review & Clarify Requirements]
+D --> E[Document Investigation Approach]
+E --> F[Investigation Period]
+F --> G[Document Progress & Findings]
+G --> H[Provide Summary & Recommendations]
+H --> I{Technical Feasibility?}
+I -->|Not Feasible| J[Close Issue with Explanation]
+I -->|Feasible| K{Scope Size?}
+K -->|Small Scope| L[Convert to Implementation Issue]
+K -->|Large Scope| M[Promote to Epic & Create Implementation Issues]
+L --> N[Move to workflow::solution validation]
+M --> O[Epic enters workflow process]
+```
 
 **Inputs**
 
 As a technical spike is prioritized and available for pickup in `~workflow::ready for development`, complete the following steps:
 
-- Assign yourself to the technical spike along with the current milestone
-- If not already added, add the ~spike label to the issue.
-- Connect with the responsible PM to align on a reasonable due date for the technical spike. Duration will be dependent on the subject matter and Growth's familiarity with the topic.
-- Once determined, assign a due date.
-- Review the contents of the technical spike issue body. Add a comment to clarify outstanding questions with the responsible PM. This is a great time to highlight potential needs for cross-collaboration with other teams or code or Product subject matter experts, or other inputs you feel will be important to the technical spike.
-- If possible, add a comment with a proposed plan for how you intend to address the spike and whether any PM checkpoints, etc. would be desired.
+- Assign yourself, apply ~spike label, set the milestone and set the workflow label to `~workflow::in dev`
+- Connect with the responsible PM to align on a reasonable due date for the technical spike and assign it accordingly.
+  Duration will be dependent on the subject matter and Growth's familiarity with the topic.
+- Review the contents of the technical spike issue body.
+  Add any comments to clarify outstanding questions with the responsible PM.
+  Identify potential needs for cross-team collaboration, subject matter expertise, or other important inputs for the
+  technical spike.
+- Add with your proposed approach and note any desired PM checkpoints.
+
 **During the technical spike investigation period**
 
-- Communicate any relevant learnings or discoveries that could impact duration or scope needed for the spike with the responsible PM
-- If you are nearing the assigned due date and will be in need of more time for the investigation, reach out to the responsible PM to align on next steps
+- Document your progress with detailed notes to support our async collaboration model and maintain an inclusive environment.
+- Share any discoveries that might impact the spike's duration or scope with the responsible PM.
+- If approaching the due date and needing more time, proactively discuss next steps with the responsible PM.
 
 **Outputs**
 
 As the technical spike work comes to a completion, complete the following steps to close out the spike process:
 
-- Provide a summary comment with detailed learnings of your investigation and recommended path(s) for the solution in the spike issue. Include an outline of the recommended next step issues and/or epics to be created for the next phase of work.
+- Provide a summary comment with detailed learnings of your investigation and recommended path(s) for the solution in the
+  spike issue.
+  Include an outline of the recommended next step issues and/or epics to be created for the next phase of work.
 - Tag in the responsible PM, EM, and Growth Engineering team (`@gitlab-org/growth/engineering` team) for review.
-- Confirm with the responsible PM that the spike requirements have been met within the alotted duration time.
-- Move the technical spike issue to `~workflow::complete`.
-- Close the technical spike issue.
+- Confirm with the responsible PM that the spike requirements have been met within the allotted duration time.
+
+Based on your findings, proceed with one of these three outcomes:
+
+1. **For technically infeasible solutions:**
+   Close the issue with a clear explanation of the technical limitations discovered.
+
+2. **For single-issue implementations:**
+   Refine the technical details in the current issue and move it back into `~workflow::solution validation` for PM guidance.
+
+3. **For multi-issue implementations:**
+   Promote the spike to an epic and create the necessary implementation issues to break down the work.
+   As the engineer who performed the spike, you are responsible for creating these implementation issues.
+
+For outcomes 2 and 3, ensure technical details are sufficiently documented to support implementation once it re-enters later
+`workflow` stages.
 
 ### UX
 
@@ -234,21 +341,6 @@ The Growth stage tracks number of experiments deployed as a development metric. 
 
 New experiments added to the codebase using [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) are tracked until removal.
 Current experiments shows the total number of experiments in the codebase (pending, active, or concluded and ready to be removed).
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Experimentscadenceandcurrentexperimentsdeployed/Experimentscadenceandcurrentexperimentsdeployed" >}}
-{{< /tableau >}}
-
-#### Growth Section Metrics
-
-Complete list of [Growth Section engineering metrics](/handbook/product/groups/product-analysis/engineering/dashboards/growth/).
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "SECTION_LABEL"="growth" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "SECTION_LABEL"="growth" >}}
-{{< /tableau >}}
 
 ## Team Days
 

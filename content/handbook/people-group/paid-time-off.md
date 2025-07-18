@@ -8,11 +8,11 @@ This policy relates to the types of leaves that GitLab offers and the guidelines
 
 ## Paid Time Off
 
-Time away from work can be extremely helpful for maintaining a [healthy work/life balance](/handbook/company/culture/all-remote/people/#worklife-harmony). GitLab encourages managers and [leadership]({{< ref "leadership" >}}) to set the example by taking time off when needed, and ensuring their reports do the same.
+Time away from work can be extremely helpful for maintaining a [healthy work/life balance](/handbook/company/culture/all-remote/people/#worklife-harmony). GitLab encourages managers and [leadership](/handbook/leadership/) to set the example by taking time off when needed, and ensuring their reports do the same.
 
 Taking time off is not a selfish behavior. Not only is time away from work aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second), but it is vital to maintaining [mental health](/handbook/company/culture/all-remote/mental-health/). It is also a core part of the creative process.
 
-It is important to take time off to recharge batteries and refresh mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
+It is important to take time off to recharge batteries and refresh your mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
 
 This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
@@ -22,7 +22,7 @@ If you are taking Parental Leave, please see our [Parental Leave Policy](/handbo
 
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
-Paid time off is in addition to any [official public holidays](#holidays) that apply to the country where you live, and [Friends and Family days]({{< ref "family-and-friends-day" >}}). When accounting for time off in Workday, please use the label `Public Holiday` or `Friends and Family`. This helps us to ensure that all of our Team Members are meeting at least the [Statutory Vacation Requirements](#statutory-vacation-requirements).
+Paid time off is in addition to any [official public holidays](#holidays) that apply to the country where you live, and [Friends and Family days](/handbook/company/family-and-friends-day/). When accounting for time off in Workday, please use the label `Public Holiday` or `Friends and Family`. This helps us to ensure that all of our Team Members are meeting at least the [Statutory Vacation Requirements](#statutory-vacation-requirements).
 
 As we all work remotely it can sometimes be difficult to know when and how to plan time off. Here is some advice and guidance on how this can be done in an easy and collaborative way. **Please note that for audit and compliance purposes, all team members are required to use Workday as the single source of truth to accurately track and communicate all time off.**
 
@@ -38,7 +38,7 @@ Entering time off in Workday is not necessary if working but working asynchronou
     - Note that your manager is required to ensure that your PTO does not impact business results disproportionately and as such may request that you modify your dates when necessary.
     - When asking for PTO plans to be adjusted, managers are required to specify the goal or result that may be impacted by planned PTO and share how time off may interfere with that result or goal. Managers will be given the guidance that any requested changes they ask a team member to make need to be shared within 48 hours of the team member originally sharing their PTO plans. If there isn't a compromise that can be reached, the team member and manager should escalate to the manager's manager.
     - At GitLab, team members are required to enter all days away (such as PTO, public holidays, Family & Friends Days, bereavement) in Workday. It creates an event, captures your out-of-office dates, and notifies your manager.
-    - If your planned leave exceeds the 25 calendar days (including weekends and holidays), please make sure to reach out to your Manager, relevant [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division), and the Absence Management Team at `leaves@gitlab.com` for a special request. You will need additional permission if you want to take more than 25 consecutive calendar days (including weekends and holidays) off. The 25 calendar day limit is per vacation, not per year. You can have multiple vacations per year that add up to more than 25 calendar days in total; there is no limit to this.
+    - If your planned leave exceeds the 25 calendar days (including weekends and holidays), please make sure to reach out to your Manager, relevant [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments), and the Absence Management Team at `leaves@gitlab.com` for a special request. You will need additional permission if you want to take more than 25 consecutive calendar days (including weekends and holidays) off. The 25 calendar day limit is per vacation, not per year. You can have multiple vacations per year that add up to more than 25 calendar days in total; there is no limit to this.
     - If you're gone for 72 hours without notification, this could be deemed as [Job Abandonment](/handbook/people-policies/#job-abandonment).
     - It can be helpful to take longer breaks to re-energize. If this is helpful to you, we strongly recommend taking at least two consecutive weeks of time off and at minimum 25 days total throughout the year.
 1. We don't frown on people taking time off, but rather encourage people to take care of themselves and others by having some time away. If you notice that your co-worker is working long hours over a sustained period, you may want to let them know about the time off policy.
@@ -54,23 +54,20 @@ Entering time off in Workday is not necessary if working but working asynchronou
    - When taking PTO for a mental health day, please select the Paid Time Off label in Workday.  If you'd like to add additional details, you can select Vacation from the drop down 'reason' menu, or add comments.
 1. GitLab runs as usual during regional official days off (including public or statutory holidays): we still help clients during those days, unless they are official days off in both the Netherlands *and* the U.S. On those days, only vital functions (such as incident remediation, emergency on-call, and customer support during [GitLab Global Support Hours](https://about.gitlab.com/support/#hours-of-operation) and [US Federal Support Hours](https://about.gitlab.com/support/us-government-support/#hours-of-operation)) will be staffed. If you need to work during an official day off in your country, you should take a different day off in return.
 1. Please also remember to turn on your out of office message and include the contact details of a co-worker in case anything urgent or critical comes into your inbox while you're away. If you have to respond to an incident while on-call outside of your regular working hours, you should feel free to take off some time the following day to recover and be well-rested. If you feel pressured to *not* take time off to rest, refer to this part of the handbook and explain that you had to handle an incident.
-1. If during a PTO event, you realize that certain days will need to be changed from PTO to Sick Time, or another category, log into Workday and correct the entry. Events can only be changed within 30 days of the intial request.
+1. If during a PTO event, you realize that certain days will need to be changed from PTO to Sick Time, or another category, log into Workday and correct the entry. Events can only be changed within 30 days of the initial request.
 
 ### Holidays
 
-1. We encourage all team members to take time off for public holidays observed in their country. No one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach, it's a general guideline that if public schools or government offices in your area are closed for a particular national or regional holiday, that it's recognized for GitLab team members in that location to take that time off as a public holiday as well. For a general listing of public holidays by country, follow these steps:
-    1. Go to the [timeanddate.com](https://www.timeanddate.com/date/)
-    1. Select 'Holidays Worldwide' from the Calendar dropdown menu.
-    1. Select your country of residence
-    1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
+We encourage all team members to take time off for public holidays observed in their country. All team members will see a public holiday accrual balance in Workday. The balance is country specific and was determined based on the local and/or contractual requirements. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach no one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that values [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion--belonging-competency), public holidays will not be pre-loaded to Workday, instead team members have the flexibility to elect different dates and celebrate what’s important to them, as long as they do not exceed the balance in Workday.
 
-We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Workday.  For any questions related to holidays or how to categorize time off please reach out to `leaves@gitlab.com`.
+For a general list of public holidays by country, follow these steps:
 
-1. If you decide to work on a holiday and then take another day off in lieu of the actual holiday date, we ask that you choose Public Holiday as a PTO category, and in the section `What is this OOO for?` please clarify that this day is taken in lieu of the actual holiday date.
+1. Go to the [timeanddate.com](https://www.timeanddate.com/date/)
+2. Select 'Holidays Worldwide' from the Calendar dropdown menu.
+3. Select your country of residence
+4. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
-   ![picture-of-pto-ninja-OOO-request](/handbook/people-group/paid-time-off/pto_ninja_OOO.png)
-
-1. Please note that Public Holidays will be listed in Workday with a Length of 0 days (0 hours).
+For any questions related to holidays or how to categorize time off please reach out using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Please note that Public Holidays will be listed in Workday with a length of 1 day.
 
 ### Communicating Your Time Off
 
@@ -87,13 +84,13 @@ Communicate broadly when you will be away so other people can manage time effici
 1. If your team or work group has a specific scheduling calendar, ensure to update it with your out of office plans.
 1. Decline any meetings you will not be present for so the organizer can make appropriate arrangements.
     - Cancel, move, or find coverage for any meetings for which you are the organizer.
-    - Optionally, if you partake in [Donut coffee chat pairings](/handbook/company/culture/all-remote/tips/#coffee-chats) you can temporarily "snooze" them by opening a direct message with Donut and typing `help` to indicate which weeks you won't be able to participate. Pairings will automatically resume when you're back.
+    - Optionally, if you partake in [Donut coffee chat pairings](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) you can temporarily "snooze" them by opening a direct message with Donut and typing `help` to indicate which weeks you won't be able to participate. Pairings will automatically resume when you're back.
 1. If you are an interviewer, review your calendar to address any scheduled interviews. To ensure we provide a great candidate experience, if you find that you cannot attend an interview, you will be responsible for finding a replacement interviewer. You must communicate directly with your recruiter, as being out of the office does not always mean that you will be unavailable to interview.
 1. If you're one of the people who typically handle availability emergencies (the on-call heroes), you **do** need to ensure that someone will be available to cover for you while you're out of office. You can check for this with your manager. Managers can import their team's calendars into their Google Calendar to get a quick view of their team members' availability.
 1. Being part of a global remote team means you need to be highly organized and a considerate team player. Each team has busy times so it is always a good idea to check with them to ensure there is adequate coverage in place.
 1. In case an emergency arises while you're away, please designate a backup individual and brief them on your key projects so they can assist in your absence.
 1. Transition and reassign work that is already in progress to another member of your team whenever possible.
-1. Please document your knowledge and share it with others. [Key-person-risk](https://dynamicbusiness.com.au/topics/workplace/hr-and-staff/managing-key-person-risk.html) can have a large impact. This is especially true for "subject matter experts" or SME, people with specialized knowledge of a project, tool, or subject.
+1. Please document your knowledge and share it with others. [Key-person-risk](https://dynamicbusiness.com/locked/managing-key-person-risk.html) can have a large impact. This is especially true for "subject matter experts" or SME, people with specialized knowledge of a project, tool, or subject.
     1. It can be very helpful for your PTO and team members if you document, share (weekly team call + async in Slack) and communicate your PTO already well in advance (2-3 weeks).
     1. One useful way of capturing work is to create & share a Google Doc which lists all your important projects / customer interactions + a short list of useful details per entry. This include tips for covering you best while on PTO. For example:
         1. "Name of covering team member" - also useful for your manager to quickly know who is covering which projects or customers for you.
@@ -102,7 +99,7 @@ Communicate broadly when you will be away so other people can manage time effici
         1. "Comments by covering team member" - Very useful to asynchronously get updates quickly when you return from your PTO.
         1. Pro tip: Use color codes (e.g. green, red) and symbols (e.g. ✅, ❗️) to let others easily & quickly identify most important entries.
             - Please don't use colors only as people with [color blindness](https://www.mayoclinic.org/diseases-conditions/poor-color-vision/symptoms-causes/syc-20354988) may not be able to distinguish between them
-    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule messages in Slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
+    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule messages in Slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of reminders that could be scheduled:
         - > Hey team, just a reminder that I'm out today.  Please take a look at my open tickets. Thanks!
         - > Hello team, I am out of the office for the next several days. Please double check the pending tasks on our team's Google Doc for any upcoming deadlines.
 1. Please see the [On-Call](/handbook/engineering/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
@@ -129,17 +126,11 @@ Returning from PTO of any length can feel overwhelming. Consider implementing th
 
 1. When returning from paid time off, it can be helpful to schedule a [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) or two on the day of your return to get caught up, share stories from your time off, and simply reconnect with your team members. It also provides a nice break from to-dos and unread emails. This type of conversation may occur organically in a colocated office but needs to be managed with intent in an all-remote company.
 
-#### Adjust/Remove PTO from past events
-
-The People Operations team is able to adjust active PTO events and past PTO events. If you need the team to adjust an event, please submit a HelpLab - Paid Time Off request with the details e.g. 'please remove two hours of PTO from October 31st'.
-
-We encourage everyone to fully step away from work on their days off but understand that unforseen events can arise.
-
 ### Sick Time - Taking and Reporting
 
 Sick time refers to the time away a team member needs to recover from short-term (non-chronic, or reoccurring) illness such as but not limited to COVID-19, menstrual pain, cold/flu, surgery, care for a close family member recovering from illness, or for preventative reasons like a doctor's appointment. Eligible family members includes but may not be limited to: parent(s), child(ren), spouse, domestic partner, grandparent(s), grandchild(ren), or sibling(s).
 
-In keeping with our values of [CREDIT](/handbook/values/), we have crafted the following protocols around GitLab's global sick time policy available to all GitLab team members.  Team members may be eligible for their own country's [Sick Time Policies](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) and should review eligiblilty under these policies as they may offer more time away or have different reporting procedures.  We understand team members experience situations when they need continuous time away from work (5 days or more) to care for themselves or a family member, or situations when they just need a few days (less than 5), GitLab's Sick Time policy is applicable in both situations.
+In keeping with our values of [CREDIT](/handbook/values/), we have crafted the following protocols around GitLab's global sick time policy available to all GitLab team members.  Team members may be eligible for their own country's [Sick Time Policies](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) and should review eligiblity under these policies as they may offer more time away or have different reporting procedures.  We understand team members experience situations when they need continuous time away from work (5 days or more) to care for themselves or a family member, or situations when they just need a few days (less than 5), GitLab's Sick Time policy is applicable in both situations.
 
 *Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance.
 
@@ -172,7 +163,7 @@ In the United States, team members may experience a qualifying condition under t
 
 #### Sick Time Procedures - Netherlands
 
-Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/):
+Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/):
 
 - Team members must notify their manager of any sick leave needed.
 - Team members must then enter the sick time via Workday as aligned above.
@@ -201,11 +192,7 @@ In the unfortunate event that a team member is dealing with a medical situation,
 
 ## Accommodations
 
-If you believe you need reasonable accommodations to perform the essential functions of your job in accordance with applicable law(s), please email leaves@gitlab.com (Non-US Only).  [US team members](/handbook/people-policies/inc-usa/#reasonable-accommodation) please follow the steps outlined in the handbook.
-
-If a team member starts the conversation with their manager, or People Business Partner, the manager or People Business Partner should either reach out to the Absence Management Team by emailing `leaves@gitlab.com`, or direct the team member to follow the steps outline in the handbook (links above).
-
-The Absence Management Team will keep a log of all accommodation requests. What can (or must) be accommodated varies from location to location. GitLab will comply with the applicable laws in your specific location.
+GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability.  If you believe you need reasonable accommodation, please follow the process outlined on this [handbook page](/handbook/people-group/paid-time-off/#accommodations).
 
 ### Communicating with team members while they are leave of absence
 
@@ -219,11 +206,11 @@ For managers it is ok to reach out to a team member every 3-4 weeks to just to s
 
 All team members and Managers, including those employed under a PEO, are expected to log all time away requests into Workday (Vacation, Public Holiday, Friends & Family, Sick Time, etc.)
 
-As of October 1, 2024, Workday and Workday Slack will be the primary point of entry for all time away needs.  This allows team members and managers to coordinate time off seamlessly.  The integration between Workday and Time Off by Deel will still be available, but all data will feed from Workday into Time Off by Deel; retaining Deel's functionality (reminds employees of their upcoming time off, assign roles and tasks for co-workers, Google Calendar synronization, and automatic OOO updates).
+As of October 1, 2024, Workday and Workday Slack will be the primary point of entry for all time away needs.  This allows team members and managers to coordinate time off seamlessly.  The integration between Workday and Time Off by Deel will still be available, but all data will feed from Workday into Time Off by Deel; retaining Deel's functionality (reminds employees of their upcoming time off, assign roles and tasks for co-workers, Google Calendar syncronization, and automatic OOO updates).
 
 GitLab team member questions about Workday can be directed to the HelpLab portal.
 
-### Workday to Time Off by Deel Synronization
+### Workday to Time Off by Deel Syncronization
 
 #### Google Calendar Sync
 
@@ -254,12 +241,12 @@ The reminder will read as follows.
 
 > Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can't reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `/handbook/people-group/paid-time-off/`
 
-To subscribe or unsubscribe, follow the below instructions and [see an associated screenshot](/handbook/people-group/gitlab-slack-pto-reminder.png).
+To subscribe or unsubscribe, follow the below instructions and [see an associated screenshot](/images/handbook/people-group/gitlab-slack-pto-reminder.png).
 
 - Visit `Apps` in the menu bar within Slack and search for or select `Time Off by Deel`
 - On the application's `Home` tab, select `Notifications` from the dropdown
 - Beneath the dropdown, you'll see a line that says "Send me a monthly reminder about taking time off." Click the **Subscribe** button to trigger the notification, which will begin on the first *working* day (e.g. not a weekend or a public holiday) in the month following your subscription.
-- To unsubscribe, revisit Workday within Slack Apps and click the button that says **Unsubscribe**.
+- To unsubscribe, revisit the app and click the button that says **Unsubscribe**.
 
 ##### Checking "Who's Out?"
 
@@ -275,7 +262,7 @@ You can request a new Workday feature by using the aforementioned `/time-off-dee
 
 ### Instructions for Team Members to update past events
 
-Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review.  Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.  
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Operations team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
 
 ## Management's Role in Paid Time Off
 
@@ -296,7 +283,7 @@ Reporting from Workday helps managers:
 1. Be sure their direct reports are taking enough PTO
 1. Review upcoming PTO of direct reports to make project management decisions and manage team member burnout
 
-Managers will have access to Time Away dashboards and other reports within Workday.  
+Managers will have access to Time Away dashboards and other reports within Workday.
 
 #### How to use Workday data to support your team
 
@@ -326,7 +313,7 @@ Taking time off should be a chance for a team members to step away from work and
 
 It is important for us to take a step back to recognize and acknowledge the feeling of being "[burned out](/handbook/company/culture/all-remote/mental-health/)".
 We are not as effective or efficient when we work long hours, miss meals or forego nurturing our personal lives
-for sustained periods of time. If you feel that you or someone on your team may be experiencing [burnout](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642), be sure to address it right away.
+for sustained periods of time. If you feel that you or someone on your team may be experiencing [burnout](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642), be sure to address it right away.
 
 To get ahead of a problem, be sure to communicate with your manager if any of the following statements ever apply to you:
 
@@ -361,11 +348,11 @@ but help them arrange things so they **can** take a break. Ask why they feel the
 (there are almost certainly real, concrete reasons) and then ask permission to get busy putting things in place
 that will overcome those barriers. People might be trapped by their own fatigue, being too worn out to find the creative solutions needed to take a break.
 
-Other [tips to avoid burnout](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642?pg=2) include:
+Other [tips to avoid burnout](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642?pg=2) include:
 
 - Make use of our [Employee Assistance Program](/handbook/total-rewards/benefits/general-and-entity-benefits/#employee-assistance-program) that can offer professional support during this time.
 - Assess and pursue your interests, skills and passions.
-- Take breaks during the day to eat healthy food and stretch your legs. The [Timeout app](http://dejal.com/timeout/) can help with that.
+- Take breaks during the day to eat healthy food and stretch your legs. The [Timeout app](https://dejal.com/timeout/) can help with that.
 - Make time each day to increase blood and oxygen circulation which improves brain activity and functionality.
 - Get plenty of restful sleep.
 - Meditate to take your mind away from work. [Headspace](https://www.headspace.com/science) and [Calm](https://www.calm.com/meditate) are good tools for creating meditation habits.
@@ -460,16 +447,16 @@ Team members are encouraged to review additional information on [working time in
 
 GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws. For more information, refer to the applicable employment standards legislation of the Province in which you reside.
 
-- [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
+- [Alberta Employment Standards](https://www.alberta.ca/employment-standards)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)
 - [Manitoba Employment Standards](https://www.gov.mb.ca/labour/standards/doc,quick_guide,factsheet.html)
 - [New Brunswick Employment Standards](https://laws.gnb.ca/en/showfulldoc/cs/E-7.2//20220106)
 - [Newfoundland and Labrador Labor Standards](https://www.gov.nl.ca/ecc/labour/lsaissues/)
 - [Northwest Territories Employment Standards](https://www.ece.gov.nt.ca/en/services/employment-standards)
 - [Nova Scotia Labor Standards](https://novascotia.ca/lae/employmentrights/docs/LabourStandardsCodeGuide.pdf)
-- [Nunavut Labor Standards](http://www.nu-nlsb.ca/)
-- [Ontario Employment Standards](https://www.labour.gov.on.ca/english/es/)
-- [Prince Edward Island Employment Standards](https://www.princeedwardisland.ca/en/information/economic-growth-tourism-and-culture/employment-standards-in-pei)
+- [Nunavut Labor Standards](https://nu-nlsb.ca/)
+- [Ontario Employment Standards](https://www.ontario.ca/document/your-guide-employment-standards-act-0)
+- [Prince Edward Island Employment Standards](https://www.princeedwardisland.ca/en/information/workforce-advanced-learning-and-population/employment-standards-in-pei)
 - [Quebec Labor Standards](https://www.cnesst.gouv.qc.ca/sites/default/files/documents/labour-standards-quebec.pdf)
 - [Saskatchewan Employment Standards](https://www.saskatchewan.ca/business/employment-standards)
 - [Yukon Employment Standards](https://yukon.ca/en/employment/employment-standards)

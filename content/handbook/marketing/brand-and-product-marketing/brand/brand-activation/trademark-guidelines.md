@@ -6,7 +6,7 @@ title: "Trademark Guidelines"
 
 To protect our intellectual property rights and our reputation, we are careful about how our trademarks can be used.
 
-These Trademark Guidelines ("**Guidelines**") apply to all trademarks of GitLab Inc. and its affiliates ("**GitLab Inc.**", "**we**", "**us**", and "**our**"), including the GITLAB name (the "**GitLab Name**"); the [Core Logo](https://design.gitlab.com/brand-logo/core-logo/), [Logomark](https://design.gitlab.com/brand-logo/logomark/), and [Wordmark](https://design.gitlab.com/brand-logo/core-logo#wordmark) (the "**Logos**"); and all other registered and unregistered trademarks (collectively, the "**Trademarks**").
+These Trademark Guidelines ("**Guidelines**") apply to all trademarks of GitLab Inc. and its affiliates ("**GitLab Inc.**", "**we**", "**us**", and "**our**"), including the GITLAB name (the "**GitLab Name**"); the [Core Logo](https://design.gitlab.com/brand-logo/core-logo/), [Logomark](https://design.gitlab.com/brand-logo/logomark/), and [Wordmark](https://design.gitlab.com/brand-logo/core-logo/#wordmark) (the "**Logos**"); and all other registered and unregistered trademarks (collectively, the "**Trademarks**").
 
 Use of the Logos is not permitted under these Guidelines, except for the limited purpose set out in Section 3.1. below. To request use of the Trademarks in a manner, or for purposes, not expressly permitted in these Guidelines, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
 
@@ -14,13 +14,20 @@ Use of the Logos is not permitted under these Guidelines, except for the limited
 
 1.1. You can use the GitLab Name to truthfully and accurately refer to, or identify, GitLab and its products and services, including in the following instances:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.1. To indicate if your product, service, or solution integrates, or is interoperable or compatible, with GitLab, e.g. `This product is an issue downloader for GitLab`, provided that doing so does not create a likelihood of confusion as to the origin of such product, service, or solution;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.1. To indicate if your product, service, or solution integrates, or is interoperable or compatible, with GitLab, e.g. `This product is an issue downloader for GitLab`, provided that doing so does not create a likelihood of confusion as to the origin of such product, service, or solution. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.2. To refer to GitLab Inc. and its products and services in news articles and other text without alteration, e.g. `GitLab acquires open source observability distribution Opstrace`;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.2. In the name of a plugin or extension that is interoperable or compatible with GitLab, provided that:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.3. To use "GitLab" as an adjective before a noun, e.g. `GitLab issue boards`; and
+- The GitLab Name is not used as the first word;
+- Only the phrases, "...for GitLab", or "GitLab Compatible" are used;
+- The following statement is included in the overview section of the marketplace listing:
+  - `This [plugin/extension] is not affiliated, endorsed, sponsored, or approved with or by GitLab Inc.`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.4. As part of a public subdomain solely for the purpose of serving as the URL for a self-managed GitLab instance, e.g. `gitlab.companyname.com`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.3. To refer to GitLab Inc. and its products and services in news articles and other text without alteration, e.g. `GitLab acquires open source observability distribution Opstrace`;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.4. To use "GitLab" as an adjective before a noun, e.g. `GitLab issue boards`; and
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.5. As part of a public subdomain solely for the purpose of serving as the URL for a self-managed GitLab instance, e.g. `gitlab.companyname.com`.
 
 1.2. When using the GitLab Name in accordance with this section, you must:
 
@@ -38,7 +45,7 @@ Use of the Logos is not permitted under these Guidelines, except for the limited
 
 2.1. Unless otherwise expressly permitted in these Guidelines, you must never:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, email username, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, email username, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1., is prohibited, except for use of the GitLab Name in the name of a plugin or extension to indicate interoperability or compatibility with GitLab's product in accordance with Section 1.1.2.;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.2. Inaccurately imply an affiliation, endorsement, sponsorship, or approval with or by GitLab Inc., or use the Trademarks in a manner that is considered deceptive, unethical, illegal, or is detrimental to us in any way;
 

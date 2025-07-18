@@ -6,9 +6,7 @@ description: How to find, select, and begin work on support tickets
 
 ## Introduction
 
-This page helps guide Support Engineers (SEs) to [find](#zendesk-views),
-[select](#selecting-new-tickets), and [work](#first-response-and-ongoing-communication)
-support tickets.
+This page helps guide Support Engineers (SEs) to [find](#zendesk-views), [select](#selecting-new-tickets), and [work](#first-response-and-ongoing-communication) support tickets.
 
 ## Zendesk views
 
@@ -33,19 +31,26 @@ Employ the following workflows for:
 - Take and keep assignment of tickets that have your region as the preferred one.
   For tickets with other preferred regions, work them by putting out a quality
   first response. Then follow the guidelines for
-  [rehoming tickets](#ticket-rehome-transfer-to-the-preferred-region) to transfer
+  [rehoming tickets](/handbook/support/workflows/ticket-transfers/#ticket-rehome-transfer-to-the-preferred-region) to transfer
   them to the customers' stated preferred region. (NOTE: APAC may also maintain
   assignment of low priority tickets with a preferred region of AMER.)
 - Both FRT and NRT tickets that do not have an assignee are presented in this view.
   Consider assigning tickets that have a status of `open` or `pending` and that
-  have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
+  have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](/handbook/support/workflows/ticket-transfers/#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
+- For handover tickets prioritize open tickets first then pending tickets.
+- Ensure tickets rehomed from other regions get assigned within the same day.
+- Ensure customers' choice of preferred region is honored or questioned within 8 business hours of ticket creation.
+- Tickets should be taken and self-assigned as they come in by one of the team members responsible for that time segment, regardless of region specified. The first response should happen 
+  with the goal of targeting 100% FRT SLA achievement during your coverage hours, with a stretch goal of greater than 70% of tickets replied to within half of the FRT SLA clock.
+- The customer contact region should only be considered at the end of the assignee's day, at which point the assignee decides, based on customer input, if the ticket should be handed over or retained.
 
- Assigning Tickets:
+## Assigning Tickets
 
-- Assign tickets to yourself using the "Take It" button and update status to
-     `Open` or `Pending`.
-- Please note that the SLA clock continues to run until you've sent a public
-      response to the user.
+- Assign tickets to yourself using the "Take It" button and update status to `Open` or `Pending`.
+- Please note that the SLA clock continues to run until you've sent a public response to the user.
+- Keep in mind that the status will change from New `n`, to Open `o`, as soon as you assign the ticket. It won't be obvious that it is still at FRT stage. 
+- Manually CC yourself on the ticket so that if it gets reassigned, you can still track it.
+- Hand over tickets to other regions within 2 hours of each region's start of day.
 
 ## Managing ticket load
 
@@ -60,182 +65,97 @@ Employ the following workflows for:
   - Normal FRT 8h, NRT 24h
   - Low FRT 24h, NRT 24h
 
+## Managing Zendesk attachments
+
+When working with Zendesk tickets, you may need to download attachments to your laptop. While [our laptops have full disk encryption](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption), we need to be careful with downloaded attachments as they can contain [RED data (customer data)](../../security/standards/data-classification-standard.md#red)):
+
+1. Keep downloads in a dedicated folder for easier management, for example with [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
+1. Automate the deletion of downloaded attachments as soon as possible after resolving the ticket
+1. Take extra care with sensitive information (tokens, passwords, credentials). If needed, [remove the sensitive information](../providing_excellent_customer_service.md#removing-information-from-tickets) directly from the ticket as well
+
+The [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router) web browser extension can be used
+to download attachments from Zendesk. By default, the extension will download all Zendesk attachments to `~/Downloads/zd-%TICKET_ID%`.
+Note that this assumes your browser is using its default download location - you may need to adjust paths if you've customized your browser's download settings.
+
+If you are using the Zendesk Download Router, you can set up automatic cleanup using `crontab`:
+
+1. Open your crontab for editing:
+
+   ```shell
+   crontab -e
+   ```
+
+1. Add the following line (adjust the path if needed):
+
+   ```shell
+   # Automatically delete any Zendesk attachments older than 30 days
+   0 12 * * * find ~/Downloads -type d -name "zd-*" -mtime +30 -exec rm -rf {} +
+   ```
+
 ## First response and ongoing communication
 
 When starting work on a ticket, prioritize these steps to effectively address
 the customer's needs and streamline the resolution process:
 
-1. **Confirm Understanding:** Begin by confirming in the first response your
+1. **Start Working Immediately:** Begin troubleshooting or send clarification responses immediately upon taking a ticket.
+2. **Confirm Understanding:** Begin by confirming in the first response your
    understanding of the customer's situation, needs, and the problem or question
    they need resolved. If unsure, request clarification or propose a brief
    meeting to discuss details.
-2. **Review Past Interactions:** Check the customer's recent tickets for related
+3. **Review Past Interactions:** Check the customer's recent tickets for related
    issues or useful background information. Confirm any relevant environmental
    details with the customer and review any organizational notes in Zendesk that
    might dictate specific actions or communication methods.
-3. **Adjust Priorities:** If the ticket's priority doesn't align with our
+4. **Adjust Priorities:** If the ticket's priority doesn't align with our
    [Definitions of Support Impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact),
    discuss and adjust the priority with the customer using the
    `General::Changed priority` macro.
-4. **Prepare for Emergencies:** If the ticket could escalate to an emergency,
+5. **Prepare for Emergencies:** If the ticket could escalate to an emergency,
    alert the on-call engineer(s).
-5. **Manage Time Effectively:** If an extensive response is required or the SLA
+6. **Manage Time Effectively:** If an extensive response is required or the SLA
    is near breaching, send an initial brief response. Outline the actions you
    will take and when the customer can expect an update. Adjust timelines as
    necessary based on customer feedback.
-6. **Use Tools:** Set the ticket to Open and use 'Due Date' and 'Reminder' apps
+7. **Use Tools:** Set the ticket to Open and use 'Due Date' and 'Reminder' apps
    to keep track.
 
-By following these steps, you ensure a structured approach to ticket handling
-that can save time and enhance customer satisfaction.
+By following these steps, you ensure a structured approach to ticket handling that can save time and enhance customer satisfaction.
 
-## Ticket transfers
+## Responsiveness
 
-GitLab Support has 2 different types of ticket transfers - rehomes and handovers.  The following sections describe these, and the supporting concepts of satellite tickets and hot rehomes.
+- Contact customers promptly when tickets are close to breaching.
+- When tickets are awaiting updates from other departments, provide updates to customers at least weekly.
+- Frequency of updates should be agreed upon with the customer.
+- Calls are not the exception, and are used not only for troubleshooting and data collection, but also for clarification, guidance, and providing comfort.
 
-**ReHome** 🏠: A `reHome` is a transfer of a ticket from the region of the SE who delivered the first response to the customer's specified preferred region. At the end of the assigned SE's shift, they will forward the ticket to the appropriate (home) region for completion. These are quick, easy, and should be low effort.
+## Elevating Tickets
 
-**Satellite** 🛰️: A ReHomed ticket that remains unassigned during the upcoming shift in the designated "home region" and subsequently circulates globally at least once. These are unintended and we should be working to minimize satellites.
+Elevate tickets (seeking assistance from a Peer/Senior/Pod/Development – Request for help) based on agreed criteria:
 
-**Handover** 🤝: When a ticket is transferred from one engineer to another due to factors such as paid time off, expertise, or workload management.
+- Time constraints
+- Skill level requirements
+- Meeting customer expectations
 
-**Hot ReHome** 🔥:  A ticket currently being addressed in a different region than the customer’s preferred one.  The ticket then requires a rehome because the customer’s temperature is increasing, which raises the urgency. The sending region makes commitments to the customer with the best intentions, but there is no time for alignment and agreement for the receiving region.
+By following these steps, you ensure a structured approach to ticket handling that can save time and enhance customer satisfaction.
 
-Examples of these tickets include:
+## Closure Process
 
-- Tickets for which a call or special follow-up has been promised within the next few hours without confirming availability with the receiving region present a challenge for the Support Engineer to address without adequate preparation. (Direct to Call - DTC)
+When closing a ticket:
 
-- Tickets not in their region that will trigger the Hot ReHome process due to unmet customer expectations with a STAR request (Falling Star).
-- Not ReHomed tickets that require additional attention.
-(The ticket was held outside of the preferred region for longer than 1 shift, which is raising the risk)
+- Attempt to gain customer agreement before closing tickets.
+- Provide a **closure summary** outlining steps taken to resolve the ticket.
+- Apply appropriate closure codes when solving tickets.
+- Link tickets to knowledge articles or documentation that helped with resolution.
+- Link tickets to RFH issues, bug issues or feature requests by adding the associated issue URL to the `GitLab Issues` text field.
+- Create or update knowledge articles based on ticket resolutions when appropriate.
+- Add an email signature to final emails encouraging customers to complete satisfaction surveys, such as: "Your feedback is important to us. Please take a moment to complete the satisfaction survey you'll receive after this ticket is closed."
 
-### Hot ReHome prevention
+## Contacting the Customer Success or Account team
 
-Before placing any ticket in a region other than the customer's preferred one, please ensure the following steps are completed:
-
-**Agreement:** The customer must acknowledge that their initial request for a specific region will not be fulfilled and must provide their consent. Additionally, they should understand the added value associated with the ticket in the current region.
-
-**Understanding:** The customer should be made aware that there may be delays in responses. If it becomes necessary to transfer the ticket back to the originally requested region, a transition period will be implemented to ensure the receiving engineer is adequately prepared.
-
-As you work on the ticket, refrain from making promises on behalf of others. Instead, leave a detailed note in the ticket that outlines the customer's situation and emphasizes the intention to achieve a favorable outcome for them. If necessary, contact a manager in the receiving region for assistance. Furthermore, be considerate of the time of the receiving support engineer.
-
-## Ticket rehome (transfer to the preferred region)
-
-GitLab Support uses a single view for all unassigned
-tickets, regardless of region. The tickets in the view are sorted by
-`Ticket Weight` to highlight the highest-priority issues first, and support
-engineers are expected to work from the top of the view down. Given this
-process, support engineers will frequently be taking tickets on which the
-customer has specified a `Preferred region` different from their own.
-
-Since we aim in GitLab Support to align tickets to an accountable region, we use
-the following simple process to handle tickets from different regions:
-
-### First response
-
-When providing the first response to a ticket from a different region, follow
-these guidelines:
-
-1. Introduce yourself and acknowledge the customer's preferred region. (`Support::Out of Region::Cross-region_Preferred region clarify assignment` macro is a good starting point)
-1. Explain that you're providing initial assistance to ensure a timely response.
-1. Proceed with all appropriate initial steps to begin addressing the customer's
-   issue.
-1. Inform the customer that before the end of your workday you will transfer
-   their ticket to their preferred region for continued support **unless they
-   request that you keep it**.
-1. If it's the end of your work day and the customer hasn't confirmed the region, move it to the region that they chose when they created the ticket. To do that run the `Support::Rehome::Initiate Rehome` macro.
-
-### Initiating a ticket rehome
-
-To initiate a ticket rehome, simply use the `Support::Rehome::Initiate Rehome`
-macro. This macro will:
-
-1. Remove ticket assignment
-1. Apply the `rehome_initiated` tag
-
-If the ticket is waiting on a customer reply put the ticket into "Pending", if the ticket is waiting on a reply from a support engineer put the ticket into "Open".
-
-### Receiving a ticket rehome
-
-When you take an unassigned ticket from the global view and you see an internal
-comment that states `Rehome initiated from [assignee's region] to [target
-region]`, you should follow these steps to receive that rehome:
-
-1. **Verify Regional Alignment:** If the target region specified is your region,
-   continue. Otherwise, leave the ticket unassigned in the view so that an SE
-   from the target region can take it.
-1. Use the `Support::Rehome::Complete Rehome` macro, which:
-   1. Assigns the ticket to you
-   1. Applies the `rehome_received` tag
-   1. Creates a public response with some initial text for your use
-1. Edit the initial text to use your name where the placeholder is
-1. Proceed with all appropriate initial steps to begin addressing the customer's
-   issue, and replace the `Next Steps Here` placeholder with your full update to
-   the customer
-
-### Keeping an out-of-region ticket
-
-If a customer responds to your initial update on the ticket with an explicit
-request that you keep the ticket rather than transferring it to their preferred
-region, you should follow these steps:
-
-1. Use the `Support::Rehome::Do Not Rehome` macro, which creates a public
-   comment with some initial text for you to use.
-1. Proceed as you would with any other ticket
-
-## Ticket handover (assignee change not related to preferred region)
-
-When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed. 
-
-<details>
-  <summary markdown="span">Preparing a ticket for handover</summary>
-
-1. Set the proper expectations to the customer.
-   1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving person or region.
-   1. Please ensure that the receiving team is properly informed and aligned on any tasks and timelines before finalizing them with the customer.
-1. Use the Zendesk [Zendesk `Handover Ticket Summary` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Out%20of%20Region/Handover%20Ticket%20Summary.md)
-   to ensure all necessary information is included and the ticket is unassigned.
-1. Set the Zendesk Form Field `Handover Status` to `Need Handover`.
-1. CC yourself on the ticket and save the ticket to the `Open State`.
-
-</details>
-
-<details>
-  <summary markdown="span">Working tickets handed over from the same region due to PTO</summary>
-
-1. Update the `Handover Status` to `Handover Completed` to ensure accurate metric tracking.
-1. Review the `Handover Ticket Summary` and the Next Response Time (NRT) SLA.
-1. If ready to proceed:
-   - Introduce yourself to the customer, confirm the handover, and provide the
-     next technical response.
-1. If additional research is needed:
-   - Introduce yourself, inform the customer that further research is required,
-     and set expectations for the next steps.
-     
-</details>
-
-<details>
-  <summary markdown="span">Working tickets handed over from another region</summary>
-
-1. Update the `Handover Status` text field to reflect the receiving region. For
-   example, if you are in the EMEA region, set it to `Handed over to EMEA` to
-   ensure accurate metric tracking.
-1. Review the `Handover Ticket Summary` and the Next Response Time (NRT) SLA.
-1. If ready to proceed:
-   - Introduce yourself to the customer, confirm the handover, and provide the
-     next technical response.
-1. If additional research is needed:
-   - Introduce yourself, inform the customer that further research is required,
-     and set expectations for the next steps.
-     
-</details>
-
-## Contacting a Customer Success Manager (CSM) or Account Manager (AM)
-
-Engage a CSM or AM for reasons such as discussing architecture, Professional
+Support can connect with the Customer and/or Account team for reasons such as discussing architecture, Professional
 Services, or support collaboration. If escalation is required, follow the
 designated workflow. If no CSM is available, contact the AM, identified in
-Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
+Zendesk as `Account Owner`. During FY26Q1 (Feb25-Apr25), APAC are participating in a pilot to reach the CSE (Customer Success engineer) for customers that are `TAM Scale` and don't have a dedicated CSM.  See below if you are in APAC. To involve a CSM or AM, use the following methods:
 
 1. Zendesk: Add the CSM/AM as a CC on the ticket, inform the customer, and add
    an internal note for context.
@@ -246,31 +166,49 @@ Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
    - Post a message in a relevant support channel (`#support_leadership`,
      `#support_gitlab-com`, or `#support-self_managed`).
 
+### Pilot for CSE collaboration - APAC FY26Q2
+
+During Quarter 2 of FY26 (May - July 2025) the CSEs and APAC Support are participating in a pilot to reach out to CSEs for TAM Scale customers, similar to working with CSMs for larger customers.
+
+During this period, if you a Support Engineer in APAC and you are working on a ticket that would benefit from collaboration with the customer success team and the listed CSM in the meta details is `TAM Scale`, please follow the process below.  For more details or to share feedback, please refer to the [planning issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6489).
+
+1. Share the ticket in [#team-cse](https://gitlab.enterprise.slack.com/archives/C04FPTL837S) on Slack and ping `@Bernard Ng` for a CSE review (this is a known single point of failure which will be addressed in following iterations) and `@weimeng` for Support awareness.
+1. If necessary to meet SLA, send a response to the customer letting them know that you have initiated this.
+1. During the pilot, Bernard will respond to let you know if the CSE team can help.  If they can, the CSE team will provide a one-time use Calendly scheduling link for the customer to schedule a call. This scheduling link will be posted as an internal note in the Support ticket.
+1. Once received, send a reply to the customer, sharing the scheduling link.  You can use the following text as a starting point:
+
+    ```text
+    Thank you for writing in. Our Customer Success Engineering (CSE) team would love to speak to you regarding your proposal for <SUBJECT REQUESTED HERE>.
+
+    Please use the following link to schedule a call with the CSE team: <CALENDLY SCHEDULING LINK HERE>
+
+    Do let me know if you run into issues scheduling a call, we'll be happy to assist.
+    ```
+
+1. If the customer didn't have any other questions that need Supports input, the ticket can now be marked as Solved. Use a resolution of `Other`, and add the text `CSE Referral` in the description.
+1. If the discussion in the CSE channel results in the CSE advising they can not help with the ticket, continue to work it as a support ticket.
+
 ### Helping with a ticket that has an Assigned Support Engineer
 
 Some customers have an Assigned Support Engineer (ASE) who will own their
 tickets. This will be apparent from the org note in the ticket. For such
-customers, see [the ASE workflow](../assigned-support-engineer/working-on-ase-tickets.html).
+customers, see [the ASE workflow](../enhanced-support-offerings/offering-assigned-support-engineer/working-with-ases/global-support-and-ases.md).
 
 ## FAQ
 
 ### How many new tickets should I pick up each week?
 
-Each week, every Support Engineer should aim at least to meet, and preferably to
-exceed, [the appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticket-baseline)
+Each week, every Support Engineer should aim at least to meet, and preferably to exceed, [the appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticket-baseline)
 from the following list for the number of first responses:
 
 | Ticket type   | FRT goal   |
 | ------------- | ---------- |
-| Self-managed  | 6 tickets  |
-| SaaS          | 7 tickets  |
-| SaaS Accounts | 8 tickets  |
-| L&R           | 24 tickets |
+| Self-managed  | 5 tickets  |
+| SaaS          | 5 tickets  |
+| SaaS Accounts | 20 tickets  |
+| L&R           | 15 tickets |
 
-The aim is to ensure equitable ticket distribution among team members. These
-numbers are based on ticket volume, number of SEs, and average PTO (15%). We
-continuously monitor ticket volume and number of SEs to make sure the above
-guidelines are accurate.
+The goal is to ensure fair distribution of tickets across the team. Intermediate and senior engineers excluding those in core L&R and Associate SE roles are expected to develop as well-rounded contributors by consistently working on a balanced mix of SM, SaaS, and Dedicated tickets. These expectations are informed by overall ticket volume, team size, and an average PTO rate of 15%. We continuously monitor ticket volume and staffing levels to ensure these guidelines remain accurate and appropriate. For further details please review the [Support Engineer Performance Indicators FY26 issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6635#note_2498022715).
 
 #### What if I can't meet baseline?
 
@@ -346,7 +284,7 @@ Once you've found a new assignee:
 
 ### What if a customer has confirmed a ticket can be closed but the ticket has no assignee?
 
-While we should ensure that all tickets always have an assignee from FRT to,
+While we should ensure that all tickets always have an assignee from FRT to
 close, there are some scenarios where a ticket is ready to be closed but has no
 assignee. For example, a customer may open a ticket and inform us that they have
 resolved the issue before we send an FRT. In these scenarios:
@@ -374,15 +312,15 @@ support ticket.
 As detailed in the [Support General Policies](https://about.gitlab.com/support/general-policies/#we-handle-each-incident-within-a-single-support-ticket)
 it is GitLab policy to handle each individual incident, problem or issue within
 a single support ticket. If a situation arises where you need to open a new
-ticket on behalf of a customer, you **must** use the [Create new ticket plugin](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#:~:text=current%20plugins%20are%3A-,Create%20new%20ticket,-Allows%20an%20agent)
-within the [Zendesk Super App](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#zendesk-super-app)
+ticket on behalf of a customer, you **must** use the [Create new ticket plugin](/handbook/security/customer-support-operations/docs/zendesk/apps#zendesk-super-app)
+within the Zendesk Super App
 to ensure proper routing and SLA assignment:
 
 1. Within a ticket, navigate to the Zendesk Super App and select the Create new
    ticket plugin.
 1. Select the appropriate form type. This will most likely match the request
    type of the originating ticket.
-1. Enter the customer's details like subject, problem description and other 
+1. Enter the customer's details like subject, problem description and other
    relevant information. Use the customer's existing Zendesk Ticket to obtain
    the necessary customer information to complete the form.
 1. Submit the ticket using the `Create Ticket` button.
@@ -393,3 +331,19 @@ to the newly created ticket.
 
 If you plan to immediately start working the ticket, please assign the ticket to
 yourself.
+
+### Can I use output from an LLM in ticket replies?
+
+While you can use a tool like GitLab Duo to help when researching and when writing a reply to a customer, there are a few important things to keep in mind:
+
+- Verify the information provided by the LLM to ensure that it is accurate using the docs and the source code or by checking with a human [subject matter expert](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
+  - You should pay special attention to making sure whether things like environment variables, configuration options, UI settings and documentation URLs actually exist
+  - You should double check that any bugs or feature availability identified aligns with the GitLab version/edition/tier/install method that the customer is using
+  - You should make sure that you can understand, can explain and have tested any commands or code snippets generated by an LLM and shared with a customer
+  - You should not send text from an LLM to a customer verbatim without _at least_ verifying it for technical accuracy first
+- Be mindful of GitLab's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) and the [kind of input](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/#input) you have in mind when selecting a tool
+  - When working with customer data, always consider whether you need to anonymize information before sharing with any LLM
+  - Take special care with customer screenshots, logs, and configuration files which may contain sensitive or identifying information
+- LLMs can be useful for refining and improving a response you have drafted to a customer (such as checking for clarity, completeness, and tone), however responsibility for the final response always lies with the Support Engineer, not the tool.
+
+Read the [General Purpose AI Tool Usage Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/) for additional guidance.

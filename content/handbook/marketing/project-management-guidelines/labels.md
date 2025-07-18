@@ -2,7 +2,7 @@
 title: "Labels project management guidelines"
 ---
 
-{{< include "includes/wip-notice.md" >}}
+{{< include "includes/marketing/wip-notice.md" >}}
 
 ## Background
 
@@ -29,7 +29,7 @@ supporting many different use cases and views. The exception to this rule is the
 exclusive Labels. When one Scoped Label is applied, it automatically replaces any previous Label in that set. Scoped Labels are used
 to assign status, support workflows, or otherwise segment items into "either / or" situations.
 
-![Multiple Labels per issue](/handbook/marketing/project-management-guidelines/images/labels-multiple.png)
+![Multiple Labels per issue](/images/marketing/project-management-guidelines/labels-multiple.png)
 
 ### Known limitations
 
@@ -77,14 +77,14 @@ also grouping your Labels together in the UI.
 Labels only work properly when they are applied consistently. Wherever possible, automate the creation of appropriate Labels by adding them to
 [Issue templates](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template).
 
-![Sample scoped labels](/handbook/marketing/project-management-guidelines/images/labels-template.png)
+![Sample scoped labels](/images/marketing/project-management-guidelines/labels-template.png)
 
 ### Apply Scoped Labels to remove confusion
 
 To minimize clutter and reduce the possibility of incorrect double-counts, always consider creating Scoped Labels to automate Label management,
 rather than depending on users to remove invalid labels as they assign new ones.
 
-![Sample scoped labels](/handbook/marketing/project-management-guidelines/images/labels-scoped.png)
+![Sample scoped labels](/images/marketing/project-management-guidelines/labels-scoped.png)
 
 ### Automate Label Hygiene
 

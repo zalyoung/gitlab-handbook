@@ -9,7 +9,7 @@ owning-stage: "~devops::verify"
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -31,7 +31,7 @@ number of builds continues to grow exponentially.
 The screenshot below shows our forecast created at the beginning of 2021, that
 turned out to be quite accurate.
 
-![CI builds cumulative with forecast](ci_builds_cumulative_forecast.png)
+![CI builds cumulative with forecast](/images/engineering/architecture/design-documents/ci_scale/ci_builds_cumulative_forecast.png)
 
 ## Goals
 
@@ -100,7 +100,7 @@ shows that in the first half of 2024 we expect seeing 20M builds created on
 GitLab.com each day. In comparison to around 5M we see created today. This is
 10x growth from numbers we saw in 2021.
 
-![CI builds daily forecast](ci_builds_daily_forecast.png)
+![CI builds daily forecast](/images/engineering/architecture/design-documents/ci_scale/ci_builds_daily_forecast.png)
 
 **Status**: As of October 2021 we reduced the growth rate of `ci_builds` table
 by writing build options and variables to `ci_builds_metadata` table. We are

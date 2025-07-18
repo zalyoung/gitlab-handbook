@@ -12,7 +12,7 @@ toc_hide: true
 
 ## Introduction
 
-In 2023 GitLab launched a new fully managed private solution, [GitLab Dedicated](https://about.gitlab.com/dedicated/), our single tenant 
+In 2023 GitLab launched a new fully managed private solution, [GitLab Dedicated](https://about.gitlab.com/dedicated/), our single tenant
 SaaS offering completely managed by GitLab Inc. These internal instances run public GitLab versions limiting the ability to deploy security
 fixes before a public disclosure. To guarantee the [safety and availability](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
 on single tenant SaaS instances, Delivery has an increasing need to prepare private packages to remediate high-severity issues within [specific SLAs](/handbook/security/product-security/vulnerability-management/sla/).
@@ -53,11 +53,8 @@ and self-managed remediation processes.
 
 * Internal releases: New private release strategy to remediate GitLab SaaS single tenant instances within [specific SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 * GitLab SaaS single tenant instances: SaaS instances managed by GitLab, Inc. At the moment limited to [GitLab Dedicated](https://about.gitlab.com/dedicated/).
-* High-severity issues: Bugs or security vulnerabilities defined as ~"severity::1" having an impact on [availability](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability), [functionality](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) or [critical for security](/handbook/security/product-security/vulnerability-management/sla/) on GitLab SaaS single tenant instances.
-* [Patch release](/handbook/engineering/releases/patch-releases) or self managed release: A semver versioned package backporting bug and security fixes based on the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
-* [Monthly release](/handbook/engineering/releases/#self-managed-overview): A semver versioned package containing features and bug fixes deployed to GitLab.com
-* [Auto-deploy](/handbook/engineering/deployments-and-releases/deployments/): GitLab process to deploy application changes to GitLab.com
-* [Release managers](https://about.gitlab.com/community/release-managers/): DRI's to deliver GitLab monthly and patch releases and performing deployments to GitLab.com
+* High-severity issues: Bugs or security vulnerabilities defined as ~"severity::1" having an impact on [availability](/handbook/product-development/how-we-work/issue-triage/#availability), [functionality](/handbook/product-development/how-we-work/issue-triage/#severity) or [critical for security](/handbook/security/product-security/vulnerability-management/sla/) on GitLab SaaS single tenant instances.
+* See [release terminology](/handbook/engineering/releases/#overview-and-terminology) for additional definitions.
 
 ## Goals and non-goals
 

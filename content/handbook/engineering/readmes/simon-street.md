@@ -27,7 +27,7 @@ I have been aware of GitLab for quite a while having set it up on and off over t
 ### Some links
 
 - [Team Page](/handbook/company/team/#simonstreet)
-- [Team Pet Page](/handbook/company/team-pets/#304-rosie)
+- [Team Pet Page](https://about.gitlab.com/company/team-pets/#304-rosie)
 - [GitLab Profile](https://gitlab.com/simonstreet)
 - [Personal GitLab Profile](https://gitlab.com/simonsshed)
 

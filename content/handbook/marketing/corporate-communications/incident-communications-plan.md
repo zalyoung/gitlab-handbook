@@ -3,7 +3,7 @@ title: GitLab Incident Communications Plan
 description: 'Escalations, Processes, and How to Manage Incidents'
 ---
 
-**If you need review from the corporate communications team on a potential incident, gather information in an issue or link us to the Slack discussion by message the team in the #corpcomms Slack channel and we'll work with the [Security Communication Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident) to determine next steps**
+**If you need review from the corporate communications team on a potential incident, gather information in an issue or link us to the Slack discussion by message the team in the #corpcomms Slack channel and we'll work with the [Security Communication Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan/#roles-and-responsibilities-in-a-security-incident) to determine next steps**
 
 ## Incident Communication Plan
 
@@ -19,7 +19,7 @@ When determining the need for communication escalation, it is important to first
 
 #### Tier 4 - Event
 
-A Tier 4 event is something we already have a process for like a [security incident](/handbook/security/security-operations/sirt/sec-incident-response.html) or a customer support request via Zendesk. In the case of a Tier 4, please follow the established company process.
+A Tier 4 event is something we already have a process for like a [security incident](/handbook/security/security-operations/sirt/sec-incident-response/) or a customer support request via Zendesk. In the case of a Tier 4, please follow the established company process.
 
 #### Tier 3 - Rapid Response
 
@@ -109,7 +109,7 @@ Centering Communications on GitLab Values + Research - In "[Incorporating Social
 
 - [Communicating with honesty](/handbook/values/#transparency), [candor and openness](/handbook/values/#collaboration) while acknowledging risk
 - [Collaborating](/handbook/values/#collaboration) and coordinating with credible sources
-- [Accepting uncertainty and ambiguity](/handbook/values/#accepting-uncertainty)
+- Accepting uncertainty and ambiguity
 - Meeting the needs of the media and remain accessible
 - Communicating with compassion, concern and empathy
 
@@ -118,7 +118,7 @@ A number of these recommendations directly or indirectly align with [GitLab's Va
 Additionally, we need to be sure we:
 
 - Communicate early and often, [as much as necessary](/handbook/values/#iteration)
-- Always use the [GitLab brand voice](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
+- Always use the [GitLab brand voice](https://design.gitlab.com/brand-overview/resources/)
 
 #### Meet Stakeholders Where They Are
 

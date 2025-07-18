@@ -12,13 +12,13 @@ The UX team supporting the [Data Science section](/handbook/product/categories/#
 * deep understanding of AI capabilities and user needs to ensure problem and human-centered solutions
 * UI design for platform level AI functionality such as onboarding, access & settings, and Duo Chat UI
 * best design practices and research methods that work well in the AI space
-* maintaining consistency across the platform by leading or collaborating on [Pajamas AI-human interaction](https://design.gitlab.com/usability/ai-human-interaction) components and guidance
+* maintaining consistency across the platform by leading or collaborating on [Pajamas AI-human interaction](https://design.gitlab.com/usability/ai-human-interaction/) components and guidance
 
 Group Product Designers support AI features in their space, including problem and solution validation and design activies. AI team Product Designers can provide decision support and guidance in this space, primarily from a best practice perspective.
 
 ### How to get help from the UX team
 
-Use the [Product Development Flow](/handbook/product-development-flow/) for process activities and workflow labels
+Use the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) for process activities and workflow labels
 
 **If you are in the Data Science section, or don't have a Group Product Designer**:
 

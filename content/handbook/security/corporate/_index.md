@@ -33,7 +33,7 @@ GitLab is both a company and a product. The Corporate Security department focuse
 - Safeguard our organization's digital assets, ensuring the integrity, confidentiality, and availability of all data.
 - Implement robust security measures, fostering a culture of awareness and compliance among employees, and continuously monitoring and enhancing our information technology systems to protect against evolving threats.
 - Leverage the GitLab platform (dogfooding) to assist us in the securing of GitLab.
-- Provide reliable, secure and efficient IT and Security engineering, innovation, and services with Zero Trust principals to support cross-functional organizational goals 
+- Provide reliable, secure and efficient IT and Security engineering, innovation, and services with Zero Trust principals to support cross-functional organizational goals
 
 ### Scope
 
@@ -81,7 +81,7 @@ GitLab is both a company and a product. The Corporate Security department focuse
 - 📚 [Applications and Systems](/handbook/security/corporate/systems)
 - 🛟 [Helpdesk Services](/handbook/security/corporate/services/helpdesk)
   - 🔐 [Access Requests](/handbook/security/corporate/services/access-requests)
-  - 💻 [Laptop and Logistics Services](/handbook/security/corporate/services/laptops)
+  - 💻 [Laptop and Logistics Services](/handbook/security/corporate/end-user-services/laptop-management)
   - 🛬 [Onboarding](/handbook/security/corporate/services/onboarding)
   - 🛫 [Offboarding](/handbook/security/corporate/services/offboarding)
   - 🧑‍💻 [Tech Support (for Team Members)](/handbook/security/corporate/support/)

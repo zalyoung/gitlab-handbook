@@ -72,7 +72,7 @@ Candidates for this position can expect the hiring process to follow the order b
   1. What would differentiate you and make you a great account executive for GitLab?
   1. What is your knowledge of the space that GitLab is in? (i.e. Industry Trends)
   1. How do you see the developer tools changing over the coming years from a sales perspective? (i.e. Competitive Positioning, Customer Needs, etc)
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with Federal Sales Director
 - Candidates will be invited to schedule a second interview with our CRO
 - Finally, candidates will interview with our CEO

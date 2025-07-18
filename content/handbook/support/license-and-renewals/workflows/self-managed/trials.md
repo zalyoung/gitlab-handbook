@@ -1,13 +1,13 @@
 ---
 title: Handling trials and extensions for GitLab Self-Managed
 category: GitLab Self-Managed licenses
-description: Issuing a license to "extend" Self-managed trials and grace periods
+description: Issuing a license to "extend" Self-managed trials 
 ---
 
 ## Overview
 
-Self-managed trials and grace periods cannot be extended - a **trial** license must be issued and applied to the instance in order to "extend" a license.
-Requests for grace period extensions, temporary keys, temporary extensions, temporary licenses,
+Self-managed trials cannot be extended - a **trial** license must be issued and applied to the instance in order to "extend" a license.
+Requests temporary keys, temporary extensions, temporary licenses,
 and trial extensions all require generating a trial License.
 
 Sales will often request through an [Internal Request / Zendesk Ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) that we extend the duration of Self-Managed trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User `gitlab_support@example.com`, with the submitter cc'd on the ticket. The following workflow should be followed to service them.
@@ -22,7 +22,6 @@ how to support complex subscription models.
 Support tries as much as possible to refrain from issuing non-trial licenses.
 We are allowed to issue trial licenses because they:
 
-- Have no grace period
 - Do not affect historical data tracking
 - Are not tied to any subscriptions for revenue purposes
 
@@ -44,7 +43,8 @@ We are allowed to issue trial licenses because they:
         1. If a temp extension does not exist, proceed to step 2 (3).
     1. The ticket type is `Extend an (almost) expired subscription`.
         - If the salesperson selects a different form (e.g. the IR `Other`), then redirect them to submit a new ticket by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
-        - If the ticket type is correct and the license expiry has passed, then proceed with step 3.
+        - The `I acknowledge that approval for this extension has been granted..` checkbox has been checked and the requestor has provided the required proof that a Manager or Director has approved the extension. If the submitter has not provided the necessary proof then use the macro `Deviation from SM License Extension Workflow` and subsequently close the ticket.
+        - If the ticket type is correct and the license expiry has passed, then also proceed with step 3.
 1. Select `Duplicate License`.
 1. Set the `License type` to `Legacy License`.
 1. Delete the contents of `Zuora subscription ID` field if present.
@@ -89,9 +89,30 @@ The `Deviation from SM License Extension Workflow` macro is to be used to record
 
 #### Customer requests for a license extension
 
-For tracking customer requests for a license extension, we rely on the SE to review the problem type and fix it if it's wrong. When a customer submits a ticket requesting a license extension, we should apply the macro `Customer Request for SM License Extension` to redirect the customer to their AE.  In this scenario, we need to modify the template text to provide the customer with their AE's email address.
+When a customer requests a license extension, follow the steps below based on the day of the week and whether the customer is classified as Enterprise or SMB.
 
-This macro will automatically add the tag `lnr_sm_extension_customer_request` to track these instances.
+1. Locate the Account Owner:
+    - In the Zendesk (ZD) ticket, look for the internal note labeled `Organization Info` to dentify the Account Owner:
+        - For Enterprise/Commercial customers, a specific individual will be listed.
+        - For SMB customers, you will see `EMEA/AMER/APAC SMB Sales` instead of a named person.
+
+2. Determine next steps Based on the Day and Customer Type:
+
+    | Day | Enterprise/Commercial | SMB |
+    |--|-----------------------|-----|
+    | **Weekday** | Redirect to Sales | Redirect to Sales |
+    | **Weekend/Holiday** | Redirect to Sales | Issue temp extension and redirect to Sales |
+
+3. Steps for Redirecting to Sales:
+
+    **Enterprise/Commercial Customers:**
+        - Apply the `Customer Request for SM License Extension macro`, updating the template to include the AE's email address before sending it to the customer.
+        - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
+    **SMB Customers:**
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](../../../sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Provide the Salesforce (SFDC) ticket ID to the customer.
+
+4. For SMB Customers on Weekends or Holidays, please issue a temporary license extension before redirecting to Sales.
 
 ### Licensing pathways for handling customer renewals and new sales that have become delayed
 

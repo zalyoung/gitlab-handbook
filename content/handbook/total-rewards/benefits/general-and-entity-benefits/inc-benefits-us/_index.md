@@ -12,15 +12,19 @@ Related Pages:
 
 US based benefits are arranged through Willis Towers Watson and managed on the PlanSource platform. The benefits decision discussions are held by Total Rewards, the CFO, and the CEO to elect the next year's benefits by the carrier's deadlines. Total Rewards will notify the team of open enrollment as soon as details become available.
 
-## 2024 Plan Year
+## 2025 Plan year
 
-GitLab offers a benefits package that provides health and financial security for you and your family.
+As the costs of healthcare increase, Gitlab strives to offer a competitive benefits program and maintain low costs for Team Members.   For 2025, GitLab will continue to cover the majority of costs for your total benefits package.
 
-- Review the [2024 Benefits at Glance](https://drive.google.com/file/d/1TbBefUlpuWpErJ8eEVppZZX_bAoqbT2n/view?usp=sharing) for a high-level Summary of the plans
-- Review the [2024 US Benefits Guide](https://drive.google.com/file/d/1KTgW9U2ByTBHRrjNg623K6DY3-_pKsUD/view?usp=sharing) for full plan details and plan rates. - Candidates and New hires who are about to start with GitLab can view this document by clicking on the link and requesting access, access will be granted shortly after request.
-- Watch the [2024 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zGdz14BY3EzaInCz0&r3f1=&fb=0)
-- Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2022) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing) to walk through the GitLab Cigna plans available.
+Please see additional information on the 2025 US Benefit Plans
+
+- Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2025) to help you find the plan that best fits you and your family’s needs.
+- Review the [2025 Benefits Memo](https://drive.google.com/file/d/1-1Y15FG5oiksax_871eIX-bJBeDxIF_k/view) for highlights and updates
+- See the [2025 US Benefits Guide](https://drive.google.com/file/d/15L8LMWI1CoUUoU3DcimxU3edITKs8QrV/view) for a full review of the GitLab Benefit Plans
+- Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zHgzXkIHdzaInCz0&r3f1=&fb=0) for a review of all the plans.
+- See our 2025 [Annual Rights Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing)
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
+- See the [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files). These machine readable files are made available in response to the federal Transparency in Coverage Rule and include negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
 
 </details>
 
@@ -28,7 +32,7 @@ GitLab offers a benefits package that provides health and financial security for
 
 <summary>Documents, Rights, and Notices</summary>
 
-- Please review the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2024 Annual Rights and Notices](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and the [2025 Annual Rights and Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view)
+- Please review the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2025 Annual Rights and Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view)
 - [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files) Starting July 1, 2022, this link leads to the machine readable files that are made available in response to the federal Transparency in Coverage Rule and includes negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
 
 **Illinois Team Members:** In accordance to the Illinois Consumer Coverage Disclosure Act, please find the [2023 Coverage Summary](https://drive.google.com/file/d/1LUjsk4eWyQIktMR1li_Mp0KIKQ2ZKarF/view?usp=sharing) for the essential health benefits available to you.
@@ -39,13 +43,11 @@ GitLab offers a benefits package that provides health and financial security for
 
 <summary>Archived Plans & Tax Details</summary>
 
-GitLab's US Benefits Open Enrollment for Calendar Year 2024 took place from 2023-10-30 through 2023-11-13. See the archived US benefits for details on [2024 Open Enrollment](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/22d8c7c59a1eec51678d2a9f27592a6297542ac9/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
-
 Team Members can find Archived benefit plans, details, and open enrollment for prior years listed below:
 
 - [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
-- [**2022 Calendar Year**](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/09e5a7b8e3be9a969199786fcee6cff72b40ad1f/sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/index.html.md)
-- [**2021 Calendar Year**](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/fd1efce5ea06c2a26dddeec9dea3f3c217adeeab/sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/index.html.md)
+
+[**2024 Calendar Year archived plans](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/76bffb195bf7cc1623710c167e3e165ffb2adb9c/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 
 Team Members can access their 1095-C Documents Via PlanSource
 You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
@@ -60,28 +62,43 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 ## Who To Contact & Claims Escalations
 
-- If you require assistance escalating a claim to Cigna, our brokers at WTW can raise this on your behalf. You can request this assistance via [HelpLab](https://helplab.gitlab.systems/esc). 
+- Need Help with your Claims? We got you covered. WTW Claim Escalation Services are here to assist you when you encounter issues with your benefit claims. If your claim has been denied, delayed, or you’re facing challenges in resolving it, the WTW team can step in and provide support. They'll manage follow up calls and esclations. **You can reach out directly BenefitsHelpline2@willistowerswatson.com**
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
-- For questions regarding the PlanSource system internal policies, etc. 401(k), : [HelpLab](https://helplab.gitlab.systems/esc). 
+- For questions regarding the PlanSource system internal policies, etc. 401(k), : [HelpLab](https://helplab.gitlab.systems/esc).
 
 ## ID Cards
 
-Cigna has moved from Physical to Digital ID cards. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
-Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.
+Cigna issues Digital ID cards, which are available through the mycinga.com website or the myCigna mobile app. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
 
-Cigna: Digital ID cards are available through the myCigna website or the myCigna mobile app.
-
-Kaiser: Digital ID cards are available through the Kaiser website or the Kaiser mobile app.
+Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.Kaiser Digital ID cards are available through the Kaiser website or the Kaiser mobile app.
 
 ## Enrolling in Benefits
 
 Team Members have 30 days from their Hire Date to enroll in the benefit plans. Enrollment is through our benefit administrator, PlanSource.
 
-**If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).**
+**In 2025, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in to the [Medical Waiver Allowance](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#medical-waiver-allowance) and waive all other lines of optional cover**
 
 More information on the processed deductions in payroll from PlanSource can be found on the [Accounting and Reporting page](/handbook/finance/accounting/).
 
 To learn more about how US Benefit Programs work, please see the following [PlanSource Video Library](https://videolibrary.plansource.com/).
+
+<details markdown="1">
+
+<summary>Eligibility</summary>
+
+Any active, regular, full-time team member working a minimum of 30 hours per week are eligible for all benefits. Benefits are effective on your date of hire. Others eligible for benefits include:
+
+- Your legal spouse or domestic partner,
+- Your dependent children up until age 26 (including legally adopted and stepchildren), and/or
+- Any dependent child who reaches the limiting age and is incapable of self-support because of a mental or physical disability
+
+Note: If you and an eligible dependent (as defined above) are both employed by GitLab, you may only be covered by GitLab's coverage once. This also applies to enrolling in either your own supplemental life insurance or supplemental spouse/dependent life insurance through your dependent who is employed by GitLab, but not both.
+
+A domestic partnership is an arrangement in which two people live together and are in a committed relationship without being legally married. Domestic partnerships are composed of two people of any gender, which includes male, female, or nonbinary people. If you have recently entered in to a Domestic Partnership, or your Domestic Partner goes through a Qualifying Life Event, you may add them to the GitLab plans as outlined in the instructions below. During the documentation step, you will be asked to fill out and submit a [Domestic Partner Affidavit](https://drive.google.com/file/d/11cV-WXJXu8G626muav2aJvpYS4CMleeE/view?usp=sharing) in to PlanSource. If you are adding your Domestic Partner during New Hire Enrollment or Open Enrollment, there is no need to fill out the Domestic Partnership Affidavit.
+
+ **Please note that a portion of the premiums paid by GitLab and any portion of the premium paid by salary deduction for a Domestic Partner may be included in the employee's reported gross income for tax purposes. Additionally, premium contributions for Domestic Partner coverage may not be eligible for pre-tax salary reduction under Section 125.**
+
+</details>
 
 ### Logging into PlanSource
 
@@ -96,22 +113,6 @@ Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C
 
 </details>
 
-<details markdown="1">
-
-<summary>Eligiblity</summary>
-
-Any active, regular, full-time team member working a minimum of 30 hours per week are eligible for all benefits. Benefits are effective on your date of hire. Others eligible for benefits include:
-
-- Your legal spouse or domestic partner,
-- Your dependent children up until age 26 (including legally adopted and stepchildren), and/or
-- Any dependent child who reaches the limiting age and is incapable of self-support because of a mental or physical disability
-
-Note: If you and an eligible dependent (as defined above) are both employed by GitLab, you may only be covered by GitLab's coverage once. This also applies to enrolling in either your own supplemental life insurance or supplemental spouse/dependent life insurance through your dependent who is employed by GitLab, but not both.
-
-A domestic partnership is an arrangement in which two people live together and are in a committed relationship without being legally married. Domestic partnerships are composed of two people of any gender, which includes male, female, or nonbinary people. If you have recently entered in to a Domestic Partnership, or your Domestic Partner goes through a Qualifying Life Event, you may add them to the GitLab plans as outlined in the instructions below. During the documentation step, you will be asked to fill out and submit a [Domestic Partner Affidavit](https://drive.google.com/file/d/11cV-WXJXu8G626muav2aJvpYS4CMleeE/view?usp=sharing) in to PlanSource. If you are adding your Domestic Partner during New Hire Enrollment or Open Enrollment, there is no need to fill out the Domestic Partnership Affidavit.
-
-</details>
-
 #### Qualifying Life Events
 
 Due to IRS guidelines, you cannot make changes to your health insurance benefits outside of GitLab's annual open enrollment period unless you experience a [Qualifying Life Event](https://www.healthcare.gov/glossary/qualifying-life-event/).
@@ -120,7 +121,7 @@ A QLE is a change in your situation — like getting married, having a baby, etc
 
 Once approved, coverage will be backdated to the date of the event.
 
-Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans-) and [HSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
+Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans) and [HSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
 
 </details>
 
@@ -128,7 +129,7 @@ Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefit
 
 <summary>Process for submitting a Qualifying Life Event</summary>
 
-1. Log into [PlanSource]({{< ref "inc-benefits-us#logging-into-plansource" >}})
+1. Log into [PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource)
 1. Select `Update your current Benefits`.
 1. Select the Life Event that applies to your situation from the list & enter the event date.
 1. The system will ask you to review your personal details, update as necessary and select continue.
@@ -151,41 +152,43 @@ If your Qualifying Life Event requires documentation the steps below will follow
 
 ## Group Medical Coverage
 
-GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who actively waive medical coverage, GitLab offers a medical allowance.
+GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who do not enroll in medical coverage, GitLab offers a medical allowance.
 
-If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP), with no HSA.
+If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the Medical Waiver Allowance.
 
-GitLab has confirmed that our medical plans are CREDITABLE page 9 of the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing) the If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
+GitLab has confirmed that our medical plans are CREDITABLE page 9 of the [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing) the if you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
 
 - Visit [www.medicare.gov](https://www.medicare.gov)
 - Call your State Health Insurance Assistance Program (see the ["Medicare & You" handbook](https://www.medicare.gov/medicare-and-you) for their telephone number) for personalized help.
 - Call 1-800-MEDICARE (1-800-633-4227). TTY users should call 1-877-486-2048.
 
-Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view) for all of GitLab's notices surrounding the Health and Welfare plans & contacts
+Please see the [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view) for all of GitLab's notices surrounding the Health and Welfare plans & contacts
 
 ### PlanSelect Tool
 
-**Need help selecting a plan? Check out the [PlanSelect Tool](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/0e31cb757a15eb669636bc33d41a9abd0c17fcfd/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md#:~:text=Need%20help%20selecting%20a%20plan%3F%20Check%20out%20the%20PlanSelect%20Tool%20to%20help%20you%20find%20a%20plan%20that%20best%20suits%20your%20needs.%20You%20can%20also%20reach%20out%20to%20the%20Cigna%20One%20Guide%20Service%20to%20walk%20through%20the%20GitLab%20Cigna%20plans%20available.) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/0e31cb757a15eb669636bc33d41a9abd0c17fcfd/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md#:~:text=Need%20help%20selecting%20a%20plan%3F%20Check%20out%20the%20PlanSelect%20Tool%20to%20help%20you%20find%20a%20plan%20that%20best%20suits%20your%20needs.%20You%20can%20also%20reach%20out%20to%20the%20Cigna%20One%20Guide%20Service%20to%20walk%20through%20the%20GitLab%20Cigna%20plans%20available.) to walk through the GitLab Cigna plans available.
+**Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2025) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view) to walk through the GitLab Cigna plans available.
 
-### Medical Allowance
+### Medical Waiver Allowance
 
-If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. <br> In order to receive the monthly benefit allowance you must [log on to PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource) and actively waive medical cover.<br>
+If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. <br> To enroll in the monthly benefit allowance you will [log on to PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource) and actively waive medical cover.<br>
 
-If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).
+If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the Medical Waiver Allowance.
 
 ### Cigna Medical Plans
 
-Below are the details for the 2024 Calendar Year. For details of the 2023 plan, please refer to [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
+Below are the details for the 2025 Calendar Year
 
-**Coverages:**
+<details markdown="1">
+
+<summary>2025 Cigna Plans & Coverage Details</summary>
 
 Cigna plans are available to team members located in all US states, with the exception of Hawaii.
 
 In Network:
 
-| Plan Details               | [2024 Cigna HDHP - HSA](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing) <br>  [Webinar on this plan here](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) | [2024 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing)  | [2024 Cigna PPO 500***](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing)|
+| Plan Details               | [2025 Cigna HDHP - HSA](https://drive.google.com/file/d/1Gb6HaLmEeswxdszUxOQhh5m24jdrmTNp/view?usp=sharing) <br> | [2025 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/1V9oWpbYWBVuyYoiKNyFj_y7LoFH0QR8P/view?usp=sharing) |  [2025 Cigna PPO 500***](https://drive.google.com/file/d/1QCjFCIsbE73WnAvQTruangFOnPYsDhlP/view?usp=sharing) |
 |:---------------------------|:----------------------:|:------------------:|:-----------------:|
-| Deductible (Single/Family) | $2,000 / 3,200     | $0 / $0            | $500 / $1,000     |
+| Deductible (Single/Family) | $2,000 / 3,300    | $0 / $0            | $500 / $1,000     |
 | Out of Pocket Max (Single/Family)    | $4,000 / $8,000        | $2,500 / $5,000    | $3,000 / $6,000   |
 | Primary Care Visit         | 20%                    | $20 per visit      | $20 per visit     |
 | Specialist Visit           | 20%                    | $20 per visit      | $20 per visit     |
@@ -196,11 +199,12 @@ In Network:
 | Generic                    | $10                    | $10                | $10               |
 | Brand - Preferred          | $30                    | $30                | $30               |
 | Brand - Non-Preferred      | $50                    | $50                | $50               |
-| HSA Annual Employer Contribution      | $1200 /$1500 (2024)      | N/A                | N/A               |
-| Rx Plan^                   | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing)  |
-| Summary Plan Descriptions  | [2024 HDHP](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing)| [2024 EPO](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing)   |   [2024 PPO](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing) <BR> [2024 PPO UTAH](https://drive.google.com/file/d/1b-fmCiwDungC9qgDoWeQAqm8gqEr2BX1/view?usp=sharing) |
+| HSA Annual Employer Contribution      | $1200 /$1500      | N/A                | N/A               |
+| Rx Plan^                   | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view) |[2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  |
+| Fertility Services | $15,000 Lifetime Benefit | $15,000 Lifetime Benefit| $15,000 Lifetime Benefit |
+| Summary Plan Descriptions  | [2025 HDHP](https://drive.google.com/file/d/1UoSJxzk4oCUvDlrtpFSn6XYaON_2neiC/view?usp=sharing) <br> [SPD 2025 HDHP](https://drive.google.com/open?id=1ZJKfMEvC7Q5oQnu5dsL-V1KLVZuKW8id&usp=drive_copy) | [2025 EPO](https://drive.google.com/file/d/1MAn1Y5GRKV_YaBGQK6onUeGI0fzbqTBL/view?usp=sharing)<br> [SPD 2025 EPO](https://drive.google.com/open?id=1oMNvCYRjIAGP9UBfIeBPN70WJ84sxTgP&usp=drive_copy) |  [2025 PPO](https://drive.google.com/file/d/147BcT7rRqth-m5VsU0zoMDvC6nawxxoi/view?usp=sharing) <br> [SPD 2025 PPO](https://drive.google.com/open?id=1dDfSZkEmlqUwVNz13FkNijqUwIDebr9g&usp=drive_copy) <BR>  [2025 PPO Utah](https://drive.google.com/file/d/17amF3mBc7duZbsjw92eLhBtmsInfhoUM/view?usp=sharing) <br> [SPD 2025 PPO Utah](https://drive.google.com/open?id=1UQP2GBxs4d1IWAK6LBA3rJBzVEZLNR24&usp=drive_copy) |
 
-\*\* In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. **Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.** Note that there is no infertility covered under the EPO plan.
+\*\* In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. **Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.**
 
 \*\*\* Cigna will provide an extended network PPO Plan for Utah team members which will include the Intermountain Healthcare System.
 
@@ -208,20 +212,22 @@ In Network:
 
 Accredo is Cigna's specialty pharmacy. For more information on managing your speciality medication please review the [Accredo Customer Flyer](https://drive.google.com/file/d/1qnRKNGj9a9L9j-7Of-ru32sNSEm__2FD/view?usp=sharing).
 
-**Team Member Costs:**
+</details>
 
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+<details markdown="1">
+
+<summary> 2025 Cigna Team Member Premium Costs</summary>
+
+#### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | HDHP-HSA* | EPO  | PPO  |
 |--------------------------|:---:|:----:|:----:|
-| Team Member Only         | $0  | $92   | $88   |
-| Team Member + Spouse     | $38  | $358 | $346 |
-| Team Member + Child(ren) | $28  | $294 | $282 |
-| Family                   | $62  | $548 | $528 |
+| Team Member Only         | $0  | $102   | $98   |
+| Team Member + Spouse     | $42  | $400 | $384 |
+| Team Member + Child(ren) | $32  | $328 | $316 |
+| Family                   | $70  | $612 | $588 |
 
 *Note: For the **HSA**, GitLab will contribute $100 per month for individuals and $125 per month for team members + dependent(s) cover. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.
-
-Watch the [2024 High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) to learn more about this health plan and the tax advantages of enrolling in the HDHP plan with an HSA.
 
 </details>
 
@@ -237,7 +243,7 @@ Enrolled Cigna members can find in-network mental health providers by logging in
 
 <summary>Cigna Infertility Services</summary>
 
-Infertility services will be included in both the PPO 500 plan and HSA plan. This includes a $15,000 lifetime infertility benefit for each covered member. There is no infertility cover on the EPO plan.
+Infertility services will be included in all Cigna Plans. This includes a $15,000 lifetime infertility benefit for each covered member.
 
 Coverage will be provided for the following services:
 
@@ -248,7 +254,7 @@ Coverage will be provided for the following services:
 
 Coverage will includes treatment and/or procedures performed to enable conception with or without an infertility condition. Coverage for Artificial Insemination/Intrauterine insemination will be available regardless of an infertility condition (e.g. In Vitro, GIFT, ZIFT, etc.).
 
-See the [HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing), [PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing),Summary Plan Descriptions for more details.
+See the [2024 HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing), and  [2024 PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing). 2025 Plan Summaries will be available soon.
 
 </details>
 
@@ -256,9 +262,9 @@ See the [HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR
 
 <summary>Cigna Transgender Benefit Coverage</summary>
 
-Cigna has advised they will provide [WPATH](https://www.wpath.org/) compliant coverage for all plans. For more information on their coverage, please see the [coverage policy document](https://drive.google.com/file/d/1sdsiFcTFEWsIidOXwPBcNNOCqFVERSXg/view?usp=sharing). For Cigna to provide coverage, medical necessity must be proven. It is highly recommended to go through the prior authorization process when seeking treatment.
+Cigna has advised they will provide [WPATH](https://wpath.org/) compliant coverage for all plans. For more information on their coverage, please see the [coverage policy document](https://drive.google.com/file/d/1sdsiFcTFEWsIidOXwPBcNNOCqFVERSXg/view?usp=sharing). For Cigna to provide coverage, medical necessity must be proven. It is highly recommended to go through the prior authorization process when seeking treatment.
 
-Please reach out to the [Total Rewards team and WTW]({{< ref "inc-benefits-us#who-to-contact" >}}) with any questions or if you need help while seeking authorization for a treatment.
+Please reach out to the [Total Rewards team and WTW](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#who-to-contact--claims-escalations) with any questions or if you need help while seeking authorization for a treatment.
 
 </details>
 
@@ -301,16 +307,18 @@ Benefits for services and supplies received outside the Service Area are covered
 
 ### Kaiser Medical Plans
 
-#### Kaiser 2024 Calendar Year Plans
+#### Kaiser 2025 Calendar Year Plans
 
 The following Kaiser options are available for Hawaii residents.
 Residents in California and Colorado have the Kaiser options below, in addition to the Cigna plan options.
 
-**Coverages:**
+<details markdown="1">
 
-The Kaiser 2024 Coverage details can be found below.
+<summary> 2025 Kaiser Plans & Coverage Details</summary>
 
-| Plan Details               |  [2024 HMO Norcal](https://drive.google.com/file/d/1tgPibtd99vxasyCP0lq9nqA2W7n2104W/view?usp=sharing)  | [2024 HMO 20 SoCal](https://drive.google.com/file/d/1lF5Bth3dfmR2W9Ys5PrCz-nM-RBC-Ok9/view?usp=sharing) |  [2024 HMO 20 HI](https://drive.google.com/file/d/1XmGl0xwnQmfY8vfL3eiRRFKfJSdedxta/view?usp=sharing)  |
+The Kaiser Coverage details can be found below.
+
+| Plan Details               | [2025 HMO NorCal](https://drive.google.com/file/d/1kSjaldsszNYJGdG7qofBbX1wYIbxjVfL/view?usp=sharing) | [2025 HMO SoCal](https://drive.google.com/file/d/1yrNt4Y0PSfCSEXWnp5YbOs0f2OKtYhz3/view?usp=sharing) | [2025 HMO HI](https://drive.google.com/file/d/1qkWTsJ2vPOAGuWSzCxgpLWhZvCyzG-q0/view?usp=sharing) |
 |----------------------------|:--------------------:|:---------------:|:---------------:|
 | Deductible (Single/Family) | $0 / $0              | $0 / $0         | $0 / $0         |
 | Out Of Pocket Max (Single/Family)    | $1,500 / $3,000      | $1,500 / $3,000 | $2,500 / $7,500 |
@@ -324,22 +332,26 @@ The Kaiser 2024 Coverage details can be found below.
 | Brand - Preferred          | $35                  | $35             | $50             |
 | Brand - Non-Preferred      | $35                  | $35             | $50             |
 | Specialty Drugs            | 20% up to $150       | 20% up to $150  | $200            |
-| Disclosures          | [2024 HMO Norcal](https://drive.google.com/file/d/1aAp75b2yQnGsndRCkn46g27vgqxDd2UO/view?usp=sharing)   | [2024 HMO SoCal](https://drive.google.com/file/d/1g5rUj6SqB7oWhKyY7zPGG-XvKvSxd18n/view?usp=sharing)  | <br> [2024 HMO HI](https://drive.google.com/file/d/1XmGl0xwnQmfY8vfL3eiRRFKfJSdedxta/view?usp=sharing)   |
+| Disclosures Benefit Summary          | [2025 HMO NorCal](https://drive.google.com/file/d/1byP2FD7CcA8cszh_1SZoRTBP_cjUXuOh/view?usp=sharing) | [2025 HMO SoCal](https://drive.google.com/file/d/1by7QbMF1eZ1jhXEJpeSi-zWV1cjwNh4G/view?usp=sharing) | [2025 HMO HI](https://drive.google.com/file/d/1NSxUxvL_L_rLIDMTJW654lkLCycpCR4H/view?usp=sharing) |
 
-Please see the [2024 Disclosure Part 2 form for Kaiser CA Plans](https://drive.google.com/file/d/1ItWP_IsUjmDwZfGgkGt-67M-sVZAthFL/view?usp=sharing)
+[2025 Disclosure Part 2 form for Kaiser CA](https://drive.google.com/file/d/14bPYtF6Xg_P09PahsVNBeLu8xK9IhGK6/view?usp=sharing)
 
-**Team Member Costs:**
+</details>
+
+<details markdown="1">
+
+<summary> 2025 Kaiser Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+#### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | HMO CA North | HMO CA South | HMO HI |
 |--------------------------|:------------:|:------------:|:------:|
-| Team Member Only         | $36           | $36           | $26     |
-| Team Member + Spouse     | $264         | $264         | $152   |
-| Team Member + Child(ren) | $216         | $216         | $126   |
-| Family                   | $388         | $388         | $276   |
+| Team Member Only         | $74           | $74           | $50     |
+| Team Member + Spouse     | $316         | $316         | $172   |
+| Team Member + Child(ren) | $268        | $268         | $148   |
+| Family                   | $450         | $450         | $294   |
 
 </details>
 
@@ -347,7 +359,7 @@ The following costs are monthly rates which would be deducted from your paycheck
 
 <summary>Kaiser Telehealth</summary>
 
-Virtual visits for Kaiser members can be accessed by logging into Kaiser's [online portal](https://healthy.kaiserpermanente.org/). Please consult the online portal and your plan details for your copay amount.
+Virtual visits for Kaiser members can be accessed by logging into Kaiser's [online portal](https://healthy.kaiserpermanente.org/front-door). Please consult the online portal and your plan details for your copay amount.
 
 </details>
 
@@ -388,9 +400,9 @@ For out-of-network services: 365 days from Date of Service.
 
 <summary> Kaiser Infertility Services</summary>
 
-Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). 
+Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc).
 
-Kaiser Hawaii Plan members are covered for an infertility consultation and certain In Vitro Fertilization (IVF) procedures. More information on the Infertility services for Hawaii Kaiser members can be found on the [2024 Hawaii Health Plan](TBD ).
+Kaiser Hawaii Plan members are covered for an infertility consultation and certain In Vitro Fertilization (IVF) procedures. More information on the Infertility services for Hawaii Kaiser members can be found on the [2025 Hawaii Health Plan](https://drive.google.com/file/d/1NSxUxvL_L_rLIDMTJW654lkLCycpCR4H/view?usp=sharing ).
 
 </details>
 
@@ -398,7 +410,7 @@ Kaiser Hawaii Plan members are covered for an infertility consultation and certa
 
 <summary>Kaiser Chiropractic and Acupuncture</summary>
 
-Review the [2024 Kaiser Permanente Chiropractic and Acupuncture Benefits Flyer](https://drive.google.com/file/d/1lV6QAA-LMGHbGKdPAaMq72ZTxG92NFV3/view?usp=sharing)
+Review the [2025 Norcal Kaiser Permanente Chiropractic and Acupuncture Benefits](https://drive.google.com/file/d/12qyoqvb5Pse5TYjGaHvDWzEY6niTvFO5/view?usp=sharing) and [2025 SoCal Kaiser Permanent Chiropractic and Acupuncture Benefits](https://drive.google.com/file/d/1vCgieamGBND65l1i262rRgzkc3YSRnTB/view?usp=sharing)
 
 </details>
 
@@ -406,25 +418,25 @@ Review the [2024 Kaiser Permanente Chiropractic and Acupuncture Benefits Flyer](
 
 <summary>Kaiser Pregnancy & Maternity Care</summary>
 
-With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. Please contact the [Total Rewards team or WTW]({{< ref "inc-benefits-us#who-to-contact" >}}) with any questions about your plan. To learn more about Parental Leave, please refer to our [Parental Leave policy](#parental-leave). Once your child has arrived, please follow the steps outlined above in regard to this [Qualifying Life Event]({{< ref "inc-benefits-us#qualifying-life-events" >}}).
+With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. To learn more about Parental Leave, please refer to our [Parental Leave policy](#parental-leave). Once your child has arrived, please follow the steps outlined above in regard to this [Qualifying Life Event](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events).
 
-You may need a [reasonable accommodation]({{< ref "inc-usa#reasonable-accommodation" >}}) during your pregnancy. For more information regarding GitLab's [Pregnancy Accommodation]({{< ref "inc-usa#pregnancy-accommodation" >}}) policy, please also refer to our [Individuals with Disabilities]({{< ref "inc-usa#individuals-with-disabilities-policy" >}}) policy.
+You may need a [reasonable accommodation](/handbook/people-policies/inc-usa/#reasonable-accommodation) during your pregnancy. For more information regarding GitLab's [Pregnancy Accommodation](/handbook/people-policies/inc-usa/#pregnancy-accommodation) policy, please also refer to our [Individuals with Disabilities](/handbook/people-policies/inc-usa/#individuals-with-disabilities-policy) policy.
 
 </details>
 
 ## Dental
 
-Dental is provided by Cigna, plan: DPPO. Effective 2024-01-01 GitLab offers a Base and Buy-Up Dental Plans
+Dental is provided by Cigna, plan: DPPO. GitLab offers a Base and Buy-Up Dental Plans
 
-Dental does not come with individualized insurance cards from Cigna, although you can download them by setting up a Cigna account through the [Cigna website](https://my.cigna.com). Cigna's site and app will house individualized ID cards team members can access at any time. For the most part, dental providers do not request or require ID cards as they look up insurance through your social security number. If you need additional information for a claim please let the [WTW](inc-benefits-us/#who-to-contact) know. Cigna'a mailing address is PO Box 188037 Chattanooga, TN, 37422 and the direct phone number is 800-244-6224.
+Dental does not come with individualized insurance cards from Cigna, although you can download them by setting up a Cigna account through the [Cigna website](https://my.cigna.com). Cigna's site and app will house individualized ID cards team members can access at any time. For the most part, dental providers do not request or require ID cards as they look up insurance through your social security number.
 
-When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanooga, TN, 37422 or fax it to 859-550-2662.
+<details markdown="1">
 
-### Dental 2024 Calendar Year Plan
+<summary>2025 Dental Plans and Coverage</summary>
 
 **Coverages:**
 
-| Plan Details                         | [DDPO 2024 Base](https://drive.google.com/file/d/1JKKaGIudKjGWwikOztQ0-m60HjKnBA-K/view?usp=sharing) | [DDPO 2024 Buy Up](https://drive.google.com/file/d/1f0ZvigwP_eG4HQnh0O6Cs61jJIqkqE6d/view?usp=sharing) |
+| Plan Details                         | [DDPO 2025 Base](https://drive.google.com/file/d/1cBwl-Hkf7E8EqbRfHgCJzS1oJpSoHvA5/view?usp=sharing) | [DDPO 2025 Buy Up](https://drive.google.com/file/d/1wFpHm0mHX1vqbIxun59DjhvNhi3RxRc4/view?usp=sharing) |
 |--------------------------------------|----------|-----|
 | Deductible (Single/Family)                          | $50/$150 | $50/$150 |
 | Maximum Benefit                      | $2,000     | $3000 |
@@ -436,18 +448,22 @@ When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanoo
 | Orthodontic Coinsurance (in/out)     | 50% / 50%  | 50% / 50% |
 | Orthodontic Max Benefits             | $1,000     | $2,500 |
 
-**Team Member Costs:**
+</details>
+
+<details markdown="1">
+
+<summary>2025 Dental Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | DPPO Base | DPPO Buy Up |
 |--------------------------|----|-----|
 | Team Member Only         | $0   | $14 |
-| Team Member + Spouse     | $14  | $40 |
-| Team Member + Child(ren) | $18  | $ 48 |
-| Family                   | $32  | $78 |
+| Team Member + Spouse     | $16  | $45 |
+| Team Member + Child(ren) | $22  | $ 55 |
+| Family                   | $36  | $87 |
 
 </details>
 
@@ -463,17 +479,15 @@ For out-of-network services: 365 days from Date of Service.
 
 ## Vision
 
-Vision is provided by Cigna. Effective 2024-01-01 GitLab offers a Base and Buy-Up Vision Plans
+Vision is provided by Cigna. GitLab offers a Base and Buy-Up Vision Plans
 
 Cigna has partnered with EyeMed for their vision plan offerings, you can check coverage details on mycigna.com
 
-When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingham, AL 35238 or submit it online using the following instructions:
+<details markdown="1">
 
-### Vision 2024 Calendar Year Plan
+<summary> 2025 Vision Plans and Coverage</summary>
 
-**Coverages:**
-
-| Plan Details                      | [Vision 2024 Base](https://drive.google.com/file/d/1oEPOCvtuHBvfPY4MWCiVKuCsC_SJudIR/view?usp=sharing)  | [Vision 2024 Buy up](https://drive.google.com/file/d/1GUplU7IiPVXJQXIM3yX-x6wHh9omgZcG/view?usp=sharing) |
+| Plan Details                      | [Vision 2025 Base](https://drive.google.com/file/d/1D5KEum39RHjD2iCD-jo5SAdSck-_To23/view?usp=sharing)  | [Vision 2025 Buy Up](https://drive.google.com/file/d/13kattV90EQVyJN3ifV5suG4_kLLENvEw/view?usp=sharing) |
 |-----------------------------------|---------|--------|
 | Frequency of Services  Exam/Lenses/frames   | 12/12/24 months |12/12/12 months |
 | Copay Exam                        | $20          | $0 |
@@ -484,11 +498,15 @@ When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingha
 | Frame Allowance                   | up to $150   |  up to $200 |
 | Elective Lenses Contact Allowance | up to $150   | up to $200 |
 
-**Team Member Costs:**
+</details>
+
+<details markdown="1">
+
+<summary>2025 Vision Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+*2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | Vision Base | Vision Buy Up |
 |--------------------------|------|------|
@@ -501,11 +519,21 @@ The following costs are monthly rates which would be deducted from your paycheck
 
 <details markdown="1">
 
-<summary>Cigna Vision Period to Submit Claims</summary>
+<summary>Cigna Vision Claims and Period to Submit Claims</summary>
 
 For in-network services: 365 days from Date of Service.
 
 For out-of-network services: 365 days from Date of Service.
+
+Vision claims can be submitted online through the vision section of the site, rather than the regular online submission. This is because the claims are routed differently via EyeMed. Below are steps on how to submit Vision/EyeMed claims online via mycigna.com:
+
+1. Hover over Coverage.
+1. Click Vision.
+1. Click on Visit Cigna Vision button.
+1. Hover over Claims.
+1. Click on Out-of-Network Claim Form.
+1. Scroll down to Online Claim Form.
+1. Fill out online form, upload receipt(s) and Click Submit Claim.
 
 </details>
 
@@ -513,7 +541,7 @@ For out-of-network services: 365 days from Date of Service.
 
 GitLab offers company paid basic life and accidental death and dismemberment (AD&D) plans through Cigna which is a subsidiary of New York Life. The Company pays for basic life insurance coverage valued at two times annual base salary with a maximum benefit of $500,000, which includes an equal amount of AD&D coverage. Please find additional details, limitations, and exclusions on the [summary of benefits](https://drive.google.com/file/d/1rkA8n3zgZvnoiqzu3ZJuLwZ_9zMaNbZW/view?usp=sharing) and the [Life Insurance Flyer](https://drive.google.com/file/d/1i7JmrI5paxfRnIIp8fi1jvJwAGjCa2By/view?usp=sharing) and [AD&D Insurance Flyer](https://drive.google.com/file/d/1uhMSM2PfeMigPQDR95wQ5rdLG9xZ-6td/view?usp=sharing)
 
-Inclusive of the life insuranc policy is [survivor assurance and support](https://drive.google.com/file/d/1Uhh7S9uotOtHxogCh7Z7AmLfgdufLsig/view?usp=sharing)
+Inclusive of the life insurance policy is [survivor assurance and support](https://drive.google.com/file/d/1Uhh7S9uotOtHxogCh7Z7AmLfgdufLsig/view?usp=sharing)
 
 ### Employee Assistance Program
 
@@ -528,7 +556,7 @@ Under the New York Life Group Benefit, US Team Members also have access to the N
 
 For more information and how to access these benefits, please see the [EAP flyer](https://drive.google.com/file/d/1RRAOZKmhNzXLuXrSxt1mJJRs6Pr3ni-q/view?usp=sharing)
 
-GitLab team members in the United States are also eligible for a complementary [Employee Assistance program](https://www.cigna.com/individuals-families/member-resources/employee-assistance-program), dependents who are enrolled in a Cigna coverage are also eligible. More information can be found online on [myCigna](https://my.cigna.com/web/public/guest) for the following topics: Emotional Health and Family Support, Home Life Referrals, Financial and Legal Assistance, Job and Career Support, and other topics.
+GitLab team members in the United States are also eligible for a complementary [Employee Assistance program](https://www.cigna.com/individuals-families/member-guide/employee-assistance-program), dependents who are enrolled in a Cigna coverage are also eligible. More information can be found online on [myCigna](https://my.cigna.com/web/public/guest) for the following topics: Emotional Health and Family Support, Home Life Referrals, Financial and Legal Assistance, Job and Career Support, and other topics.
 
 ## Group Long-Term and Short-Term Disability Insurance
 
@@ -544,11 +572,11 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 
 <summary>GitLab Process for Disability Claims</summary>
 
-1. Team Members unable to work due to disability, as defined by the applicable short-term disability plan, should contact the Absence Management team (leaves@gitlab.com) as soon as possible.  See [Sick Time reporting procedures in the US]({{< ref "paid-time-off#sick-time-procedures---usa" >}}).
+1. Team Members unable to work due to disability, as defined by the applicable short-term disability plan, should contact the Absence Management team (leaves@gitlab.com) as soon as possible.  See [Sick Time reporting procedures in the US](/handbook/people-group/paid-time-off/#sick-time-procedures---usa).
 1. The Absence Management team will complete the Employer portion of the [Short-Term disability](https://drive.google.com/file/d/1guydUTEc0vBFMaa_IsSktZ5hXAbOXdvD/view?usp=sharing) application and email the completed portion along with the [Assignment of Benefits](https://drive.google.com/file/d/1nd0r5qj9PS21HDFH97Jbft9dZzlpTOsr/view?usp=sharing) form.
 1. At the end of the maximum benefit period for short-term disability of 12 weeks, the team member will determine whether they are able to return back to work.
    - If the team member intends to return on or before the end of the 12 weeks, they should email leaves@gitlab.com a Return to Work authorization form from their physician stating that they are able to return to work and listing any accommodations needed, if applicable, at least 5 calendar days before their return date. The Absence Management team will request this at least 5 business days before the team member's anticipated return to work date if not already provided by the team member.
-   - If the team member is unable to return, the team member will be moved to unpaid leave and will have the option to continue their benefits by electing [COBRA coverage](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf). The team member will be eligible to apply for long-term disability at this time.
+   - If the team member is unable to return, the team member will be moved to unpaid leave and will have the option to continue their benefits by electing [COBRA coverage](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf). The team member will be eligible to apply for long-term disability at this time.
 
 </details>
 
@@ -595,19 +623,23 @@ The company offers a 401(k)  plan in which you may make voluntary pre-tax contri
 
 GitLab offers matching 50% of contributions on the first 6% of allocated gross earnings per pay period with a yearly cap of $1,500 USD. If a hypothetical team member's salary is $50,000 USD, their gross pay per period is $50,000 / 24 = $2083.33. This is then matched at a rate of $2083.33 \* 6% \* 50% = $62.50.
 
-As of 1 August, 2022 GitLab has removed the vesting schedule for the employer match. All prior employer match amounts have fully vested as of 1 August, 2022, new employer match contributions will automatically vest when received.
+Employer match contributions will automatically vest when received.
 
 As you are eligible to participate in GitLab's 401(k) as of your hire date, you are *also* eligible for GitLab matching contributions as of your hire date.
 
 All employer contributions are pre-tax contributions. Team members can still make Roth 401(k) team member contributions and receive pre-tax employer contributions to your Traditional 401(k) account.
 
-**Administration of the 401(k) Match:**
+<details markdown="1">
 
-- The employer will use the calculation on each check date effective as of January 1, 2019.
+<summary>Administration of 401(k) Match</summary>
+
+- The employer will use the calculation on each check date effective as of January 1.
 - The team member must have a contribution for a check date to be eligible for the employer match.
 - Employer matching will be released into participant accounts three business days after the check date.
 - For team members who defer more than 6% on each check date, an annual true-up will be conducted after calendar year end.
 - The 401(k) match runs calendar year.
+
+</details>
 
 ### 401(k) Plan Features
 
@@ -617,12 +649,12 @@ All employer contributions are pre-tax contributions. Team members can still mak
 
 Effective 2024-08-01, Team Members can elect to make after-tax contributions to their 401(k) with automatic Roth in-plan conversions. Follow [these instructions](https://drive.google.com/file/d/16Xpn4FiuX0EcCOkegSG5KwYi8IQhr3--/view?usp=sharing) to make these elections and set up conversions. Note that team members must call Fidelity in order to request and set up automatic conversions. See the [considerations and benefits](https://drive.google.com/file/d/1AO61oKXd1zUlZpNTEEpM3ut0XfTZponI/view?usp=sharing) of enabling automatic conversions.
 
-Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details. 
+Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details.
 
-Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.  
+Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.
 
-Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions. 
-Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features. 
+Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions.
+Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features.
 
 </details>
 
@@ -647,7 +679,8 @@ You may now convert money from your pre-tax source, to the Roth source, all with
 
 <summary>401(k) Rollover</summary>
 
-If you leave GitLab and would like to rollover your 401(k) account, contact Fidelity directly to get more information about this process. If you need to locate your account number, you can find it by clicking Settings and then Accounts. You can reach Fidelity, by Chat in the app, or by phone at 800-835-5097. They also have a Rollovers section on their site going into detail.
+- If you have an existing fund that you would like to transfer to your GitLab 401(k) plan (rolling over an IRA), this is possible. Please complete the steps this [form](https://drive.google.com/file/d/1f8alBu0EijZ78Jh1QgGGWCdOqi_sZiO_/view) to update with Fidelity. If you need additional guidance you can reach out to Fidelity directly at 800-835-5097
+- If you leave GitLab and would like to rollover your 401(k) account, contact Fidelity directly to get more information about this process. If you need to locate your account number, you can find it by clicking Settings and then Accounts. You can reach Fidelity, by Chat in the app, or by phone at 800-835-5097. They also have a Rollovers section on their site going into detail.
 
 </details>
 
@@ -718,13 +751,13 @@ If you are a newly hired GitLab Team Member, please allow 1 month following your
 
 ## Optional Plans Available at Team Member Expense
 
-### WEX (Discovery Benefits) Health Savings Accounts and Flexible Spending Accounts
+### WEX (Discovery Benefits) Health Savings Accounts, Flexible Spending Accounts, and Commuter Accounts
 
 If you are enrolled in a Health Savings Account (HSA), Flexible Spending Account (FSA), Dependent Care Flexible Spending Account (DCFSA) or commuter benefits, the funds are held through WEX (Discovery Benefits). After your benefit enrollment effective start date, [create an account with WEX (Discovery)](https://benefitslogin.wexhealth.com/Login.aspx?ReturnUrl=%2f) to manage your funds. You will only receive one debit card upon enrollment. To obtain a second card (for a dependent, etc.) you will need to login to your account on WEX (Discovery) or call and they will send one to your home of record.
 
 Wex Contact:  866-451-3399; customerservice@wexhealth.com; www.wexinc.com
 
-### Health Savings Account (HSA)
+#### Health Savings Account (HSA)
 
 GitLab contributes $100 per month for those enrolled in the HSA under Individual cover, and $125 per month under team member + dependent(s) cover. You must be enrolled in the HDHP plan in order to contribute to the HSA.
 
@@ -732,7 +765,7 @@ GitLab contributes $100 per month for those enrolled in the HSA under Individual
 
 <details markdown="1">
 
-<summary>HSA Account Rollover & Administration</summary>
+<summary>HSA Details</summary>
 
 Your HSA account allows you to set aside money on a pre-tax basis to pay for qualified medical expenses. By using untaxed dollars in an HSA to pay for deductibles, copayments, coinsurance, and some other expenses, you may be able to lower your out-of-pocket health care costs. Some benefits of on HSA account are:
 
@@ -751,7 +784,7 @@ You can use your HSA to save for retirement. At age 65, you can use the funds fo
 
 If you would like to transfer your HSA from a previous account, please contact WEX (Discovery) and request a HSA Transfer funds form. On the form you will put your old HSA provider's account number and any other required personal information. You will then submit the form to WEX (Discovery), and they will get in contact with your old HSA provider and process the transfer of funds. You can reach WEX (Discovery) at 866.451.3399 or `customerservice@discoverybenefits.com`.
 
-HSAs roll over completely year-to-year and are 'owned' by the team member. If you leave GitLab and would like to keep your HSA account, GitLab will no longer be responsible for the administration fee. The account holder will become responsible for the $2.50 per month admin fee.
+HSAs roll over completely year-to-year and are 'owned' by the team member. If you leave GitLab and would like to keep your HSA account, GitLab will no longer be responsible for the administration fee. The account holder will become responsible for the per month admin fee.
 
 Domestic Partner Reimbursements: If the team member is not legally married to their domestic partner, the domestic partner's expenses are not eligible for disbursement from the HSA. However, if the domestic partner is covered under the family HDHP through the team member, the domestic partner can open their own HSA and contribute up to the full family contribution maximum. The team member may also contribute up to the full family contribution maximum to their own HSA.
 
@@ -761,9 +794,9 @@ Domestic Partner Reimbursements: If the team member is not legally married to th
 
 <summary>Mid-Year HSA Contribution Change</summary>
 
-Team Members can make changes to their HSA contribution throughout the year. Any changes will be reflected as of the 1st of the following month. You can make these changes via the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#process-for-submitting-a-qle). Select "Mid-Year HSA Contribution" under event type.
+Team Members can make changes to their HSA contribution throughout the year. Any changes will be reflected as of the 1st of the following month. You can make these changes via the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Select "Mid-Year HSA Contribution" under event type.
 
-You can also choose to front-load the team member portion of your HSA contributions directly with Wex. Please contact Wex to assist you with this request. If you do choose to front-load your HSA, please be sure to take in to acount GitLab's contributio amount to your front-load calculation, and adjust your HSA deductions in PlanSource to update payroll deductions. GitLab is unable to track your maximum contribution if you fund the HSA outside of your payroll deductions.
+You can also choose to front-load the team member portion of your HSA contributions directly with Wex. Please contact Wex to assist you with this request. If you do choose to front-load your HSA, please be sure to take into account GitLab's contribution amount to your front-load calculation, and adjust your HSA deductions in PlanSource to update payroll deductions. GitLab is unable to track your maximum contribution if you fund the HSA outside of your payroll deductions.
 
 </details>
 
@@ -771,25 +804,30 @@ You can also choose to front-load the team member portion of your HSA contributi
 
 <summary>Health Savings Account and Offboarding GitLab </summary>
 
-Your Health Savings Account and any funds within the account as of your date of termination are yours to keep. You may continue to use the dollars in your account for eligible healthcare expenses at your next employer, and/or allow the money to remain in the account and grow over time. Wex may charge fees to manage your HSA account directly. Please contact WEX (Discovery) at 866.451.3399, via live chat or customerservice@discoverybenefits.com with any questions about your HSA accounts. 
+Your Health Savings Account and any funds within the account as of your date of termination are yours to keep. You may continue to use the dollars in your account for eligible healthcare expenses at your next employer, and/or allow the money to remain in the account and grow over time. Wex may charge fees to manage your HSA account directly. Please contact WEX (Discovery) at 866.451.3399, via live chat or customerservice@discoverybenefits.com with any questions about your HSA accounts.
 
 </details>
 
-### Flexible Spending Account (FSA) Plans
+#### Flexible Spending Account (FSA) Plans
 
 FSAs help you pay for eligible out-of-pocket health care and dependent day care expenses on a pretax basis. You determine your projected expenses for the Plan Year and then elect to set aside a portion of each paycheck into your FSA. FSA contributions can only be updated during open enrollment or through a [qualifying life event (QLE)](#qualifying-life-events).
 
 There are three types of FSAs that team members may enroll in:
 
-- Medical FSA: Lets you pay for all eligible medical expenses, including dental and vision expenses, as well as over-the-counter medications. Team Members who have an HSA cannot participate in a medical FSA.
-- Dependent Care FSA: restrict eligible expenses to dependent care expenses exclusively. A qualifying 'dependent' may be a child under age 13, a disabled spouse, or an older parent in eldercare.
-- Limited Purpose FSA: restrict eligible expenses to dental and vision expenses exclusively. Team members with an HSA can participate in a limited purpose FSA.
+- *Dependent Care FSA:* restrict eligible expenses to dependent care expenses exclusively. A qualifying 'dependent' may be a child under age 13, a disabled spouse, or an older parent in eldercare. Dependent Care FSA claims may be incurred through March 15 and must be submitted no later than March 31.
+- *Medical FSA:* Lets you pay for all eligible medical expenses, including dental and vision expenses, as well as over-the-counter medications. Team Members who have an HSA cannot participate in a medical FSA.
+- *Limited Purpose FSA:* restrict eligible expenses to dental and vision expenses exclusively. Team members with an HSA can participate in a limited purpose FSA.
 
- Per WEX Health, FSA rollover funds are not available for 2024 expenses until 5-15 business days after 2024-03-31 (should be no later than 2024-04-22).
+ </details>
 
-In 2024 the maximum salary deferral contribution has increased to $3,200 USD, with the maximum rollover amount increasing to $$640 USD.
-Starting in 2025, a minimum amount of $5 USD will apply to the rollover. Note if the FSA rollover funds are $5 or less, the funds will be forefieted. 
-Team members can use the roll-over FSA amount the following year regardless if they enroll in the FSA the following year. Note that 
+<details markdown="1">
+
+<summary>Rollover Details for Medical and Limited Purpose FSA</summary>
+Per WEX Health, FSA rollover funds are not available for 2024 expenses until 5-15 business days after 2025-03-31 (should be no later than 2025-04-22).
+In 2024 the maximum salary deferral contribution has increased to $3,200 USD, with the maximum rollover amount increasing to $640 USD.
+In 2025 the maximum salary deferral contribution has increased to $3,300 USD, with the maximum rollover amount increasing to $660 USD.
+
+A  minimum amount of $5 USD will apply to the rollover. Note if the FSA rollover funds are $5 or less, the funds will be forfeited. Team members can use the roll-over FSA amount the following year regardless if they enroll in the FSA the following year.
 
 </details>
 
@@ -797,9 +835,9 @@ Team members can use the roll-over FSA amount the following year regardless if t
 
 <summary> Flexible Spending Accounts and Leaving GitLab </summary>
 
-FSAs are employer-owned accounts. If you leave GitLab Medical FSA account will be terminated on your date of termination unless you continue this through COBRA. You are able to use your full FSA amounts up to and on your last day, but not afterwards unless you enroll into COBRA. WEX (Discovery) requires that all claims be submitted up to 90 days after termination date. You can enroll into COBRA FSA if you have spent less out of your account than you have contributed to it. If you decide to enroll, you will be required to continue making your monthly contributions on a post-tax status. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com. 
+FSAs are employer-owned accounts. If you leave GitLab Medical FSA account will be terminated on your date of termination unless you continue this through COBRA. You are able to use your full FSA amounts up to and on your last day, but not afterwards unless you enroll into COBRA. WEX (Discovery) requires that all claims be submitted up to 90 days after termination date. You can enroll into COBRA FSA if you have spent less out of your account than you have contributed to it. If you decide to enroll, you will be required to continue making your monthly contributions on a post-tax status. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com.
 
-Dependent Care FSAs cannot be continued via COBRA. You are able to use your dependent care FSA for expenses that occur up to your last day, but not afterwards. Wex requires that all claims be sumbitted up to 90 days after termination date. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com. 
+Dependent Care FSAs cannot be continued via COBRA. You are able to use your dependent care FSA for expenses that occur up to your last day, but not afterwards. Wex requires that all claims be submitted up to 90 days after termination date. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com.
 
 </details>
 
@@ -817,7 +855,7 @@ Up to 90 days after the plan year has concluded (also known as the runout period
 
 Team Members can only make changes to their FSA contributions during a Qualifying Life Event. You cannot reduce your FSA contributions, you can only increase the FSA during the Qualifying Life Event.
 
-Note that if you increase the amount of your FSA, you will only be able to use the additional funds for claims that incur on or after the your Qualifying Life Event. See Example Below:
+Note that if you increase the amount of your FSA, you will only be able to use the additional funds for claims that incur on or after your Qualifying Life Event. See Example Below:
 
 | Scenario                     | Resolution | Example |
 |--------------------------|------|------|
@@ -825,13 +863,13 @@ Note that if you increase the amount of your FSA, you will only be able to use t
 
 </details>
 
-### Commuter Benefits
+#### Commuter Benefits
 
 GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPek1Ia0ZqYjhuT25zYjdYTUpiS1NFSXFXc0Vn/view?usp=sharing) which are administered through WEX (Discovery Benefits).
 
-In 2023 the contribution limits are $300/month for parking and $300 per month of transit. These contributions rollover month to month.
+Team Members can make mid-year changes to their commuter benefit by going throught the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Elect "Commuter/Transit Benefit Change" and today's date as the effective date to make the change. You will see the change in the next available payroll period.
 
-We will post the update contributions for 2024 once the IRS publishes them.
+In 2025 the contribution limits are $325/month for parking and $325 per month of transit. These contributions rollover month to month.
 
 </details>
 
@@ -911,29 +949,21 @@ $20.90 per month
 GitLab offers team members to join the MetLife group Pet Insurance plan. A MetLife Pet Insurance plan helps cover the costs when unexpected accidents or illnesses occur, so
 nothing gets in the way of caring for your pet when they need it most.
 
-Team Members can enroll in this benefit anytime after 2023-10-30.
-
 With MetLife Pet Insurance, you can get:
 
 - Flexible insurance plans that can cover the entire pet family with no breed exclusions
-- Freedom to visit any U.S. veterinarian and reimbursement up to 90% of the cost of services
 - Family plans covering multiple cats and dogs on one policy – a benefit exclusive to MetLife Pet2
 - 24/7 access to Telehealth Concierge Services for immediate assistance
-- Discounts up to 30% and additional offers on pet care, where available
-- Optional Preventive Care coverage4
 - Coverage of previously covered pre-existing conditions when switching providers
 
 For more details and steps on how to enroll please see the [MetLife Pet Insurance flyer](https://drive.google.com/file/d/11Q3NeSqNjqXMxSqADgNmKbGFCWTKLasH/view?usp=sharing) & [Enrollment Instructions](https://drive.google.com/file/d/1KDrCVNlTo9Kl8EZ3sp_HhtP2Cz36ZxTg/view?usp=sharing)
 
 ### 529 Savings Plans
 
-Effective 2024, GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child's future education expenses.
+GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child's future education expenses.
 
-- Support your financial goals for you and your family
 - ScholarShare 529 Workplace Savings is a direct deposit program that can make it easy for you and them
 - This plan offers 100% tax-free growth on investment earnings and tax-free withdrawals for qualified expenses, making the most of every dollar you save
-- Online education resources available
-- Easy to manage - you and your family can manage online
 
 To learn more visit ScholarShare529.com/employer or email: workplace529@scholarshare.com
 
@@ -941,48 +971,26 @@ Enroll anytime at [ScholarShare529](https://www.ScholarShare529.com) or call 800
 [ScholarShare Flyer Guide](https://drive.google.com/file/d/1D3k31fDxkeks7XigTa_Cn0_itIYoQW1A/view?usp=sharing) & [529 Overview](https://drive.google.com/file/d/1GXAdVLVJLsruj-2s9twpQ3p1c6CzOAFn/view?usp=sharing).
 
 Want more information?
-• Register for one of our live and interactive [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly.
-• [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
-• Rollover an existing 529 into your ScholarShare 529 account. [Schedule an appointment](https://www.scholarshare529.com/appointments) to have a consultant assist you.
+
+- Register for [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly, [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
 
 ### Student Loan Guidance & Tools
 
-GitLab offers a student loan guidance products, tools, and expert consultation services through SoFi.
+GitLab has partnered with Sofi to offer student loan guidance services, discounts & perks, and financial well-being products with SoFi.
 
-GitLab has partnered with Sofi to offer student loan guidance services, discounts & perks, and financial well-being products with SoFi:
+Team members can schedule an appointment with a Sofi Student Loan Specialist to discuss their loans and situation and habe access to a central location for team members to focus on financial well-being, and help navigate their student debt
 
-- A central location for team members to focus on financial well-being
-- Team members can review SoFi's "Student Debt Workbook" and take a financial self-assessment to help navigate their student debt
-- Team members can schedule an appointment with a Sofi Student Loan Specialist to discuss their loans and situation
-- Delivers impactful discounts, preferred pricing, and exclusive offers on SoFi's award-winning financial products
-- Arm yourself with knowledge on your journey to financial independence with access to Sofi's financial library, tools, and resources
-
-Enroll anytime at [SoFi.com/GitLab](sofi.com/gitlab)
-[GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing)
-You're eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
-
-Refi with SoFi and you could
-
-- Save thousands with the member rate discount.
-- Lower your monthly payments or pay off your debt sooner with flexible terms.
-- No fees.
+Enroll anytime at [SoFi.com/GitLab](https://www.sofi.com/multi/5724403/)
+[GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing). You're eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
 
 ## Team Member Discount Platforms
 
 ### PerkSpot
 
-GitLab has partnered with PerkSpot: a new discount platform providing Team Members with discounts on over 10,000 brands and more than 25 different categories, including electronics, home goods, mortgages, travel, and more.
+GitLab has partnered with PerkSpot: a discount platform providing Team Members with discounts on over 10,000 brands and more than 25 different categories, including electronics, home goods, mortgages, travel, and more.
 This discount platform is offered at no cost to you.
 
-PerkSpot is a one-stop shop for thousands of exclusive discounts and in more than 25 different areas of interest:
-
-- Quick Links – section that allows you to access various resources to locate savings
-- Local offers – allows you to use your location to see all of the discounts near you, wherever you are
-- Interests – ability to select what your interests are and narrow, search
-- Brands review – search for the Brands you're looking for using the PerkSpot Brands tab and narrowing your discount search
-
-You can enroll anytime at
-[gitlab.perkspot.com](https://gitlab.perkspot.com)
+PerkSpot is a one-stop shop for thousands of exclusive discounts and in more than 25 different areas of interest. You can enroll anytime at [gitlab.perkspot.com](https://gitlab.perkspot.com)
 
 - Click on "Create Your Account"
 - [Using Access Code](https://docs.google.com/document/d/1gWhxyWgqxdHA8LskuG93FiFXFJhA7TNWwu3MDifjyQ4/edit)
@@ -1002,7 +1010,7 @@ To access LifeMart through ADP:
 
 ## COBRA
 
-If you are enrolled in medical, dental, and/or vision when you terminate from GitLab (either voluntarily or involuntarily), you may be eligible to continue your coverage through [COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf).
+If you are enrolled in medical, dental, and/or vision when you terminate from GitLab (either voluntarily or involuntarily), you may be eligible to continue your coverage through [COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf).
 
 </details>
 
@@ -1029,48 +1037,8 @@ If you are currently employed and have any general COBRA questions, feel free to
 
 ### Apply For Parental Leave in the US
 
-Information regarding GitLab's Parental Leave policy and how to apply, can be found on our [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) overview on our Benefits handbook page.
+Information regarding GitLab's Parental Leave policy and how to apply, can be found on our [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) overview on our Benefits handbook page.
 
 ## State-Specific Allowed Leaves
 
 To learn more about State-specific leave laws, please visit the [Leave of Absence - US](/handbook/people-policies/leave-of-absence/us) handbook page.
-
-### 2024
-
-</details>
-
-<details markdown="1">
-
-<summary>Cost Summary</summary>
-
-**Medical**
-
-| Tier                           | Cigna EPO | Cigna HDHP HSA  |  Cigna PPO   | Kaiser HMO NorCal | Kaiser HMO SoCal | Kaiser HMO HI |
-|--------------------------------|:---------:|:-------------:|:----------:|:-----------------:|:----------------:|:------------:|
-| Team Member Only               | $900.90 |   $611.85    | $868.89   |     $691.58   |     $691.58   |    $497.20    |
-| Team Member + Domestic Partner | $1,964.09 |   $1,331.95  | $1,894.16 |  $1,597.06     |     $1,597.06 |     $994.40  |
-| Team Member + Spouse           | $1,964.09 |   $1,331.95  | $1,894.16 |    $1,597.06 |   $1,597.06 |       $994.40 |
-| Team Member + Child(ren)       | $1,704.95 |   $1,156.48   | $1,644.34 |    $1,410.82   |     $1,410.82|      $894.96 |
-| Family                         | $2,723.56 |  $1,846.31  | $2,626.53 |     $2,095.00   |     $2,095.00   |      $1,491.60 |
-
-**Dental**
-
-| Tier                           | Cigna DPPO Base | Cigna DPPO Buy up |
-|--------------------------------|----------|------|
-| Team Member Only              |   $36.94  |  $49.80 |
-| Team Member + Domestic Partner |   $73.40  | $98.97 |
-| Team Member + Spouse           |   $73.40   | $98.97 |
-| Team Member + Child(ren)       |   $84.91  | $114.48 |
-| Family                         |   $130.26  | $175.62 |
-
-**Vision**
-
-| Tier                           | Cigna VPPO Base | Cigna VPPO Buy up |
-|--------------------------------|----------|------|
-| Team Member Only               |   $6.57    | $9.07 |
-| Team Member + Domestic Partner |   $13.18  | $18.19 |
-| Team Member + Spouse           |   $13.18   | $18.19 |
-| Team Member + Child(ren)       |    $11.15  | 15.39 |
-| Family                         |   $18.39   | 25.38 |
-
-</details>

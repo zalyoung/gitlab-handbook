@@ -9,6 +9,8 @@
 {{- end }}
 
 {{- $departmentMembers := where site.Data.public.team "departments" "intersect" (slice $department) }}
+{{- $tagMembers := where site.Data.public.team "team_tags" "intersect" (slice $department) }}
+{{- $departmentTeamMembers := $departmentMembers | append $tagMembers | uniq }}
 
 <table>
   <thead>
@@ -19,7 +21,7 @@
     </tr>
   </thead>
   <tbody>
-    {{- range $departmentMembers }}
+    {{- range $departmentTeamMembers }}
     <tr>
       <td>{{ partial "member/with-team-link" . }}</td>
       <td>
@@ -44,6 +46,7 @@
           {{- range .departments }}
           <li>{{ . }}</li>
           {{- end }}
+        </ul>
       </td>
     </tr>
     {{- end }}

@@ -20,12 +20,12 @@ We have 24x5 coverage provided by Helpdesk Support Analysts that can help you wi
   - [Onboarding (Joiner) Provisioning (Baseline Entitlements) and User Support](/handbook/security/corporate/services/onboarding)
   - [Offboarding (Leaver) Deprovisioning](/handbook/security/corporate/services/offboarding)
   - [Service Accounts](/handbook/security/corporate/services/service-accounts)
-  - [Temporary Service Providers](/handbook/security/corporate/services/temporary-service-providers)
+  - [Temporary Service Providers](/handbook/security/corporate/services/temporary-users/)
 - [Infrastructure Management](/handbook/security/corporate/services/infrastructure)
   - [AWS](/handbook/security/corporate/systems/aws)
-  - [GCP](/handbook/security/corporate/systems/gcp)
-- [Laptops and Logistics](/handbook/security/corporate/services/laptops)
-- [Tech Support for Team Members](/handbook/security/corporate/services/support)
+  - [GCP](/handbook/security/corporate/systems/google/cloud/)
+- [Laptops and Logistics](/handbook/security/corporate/end-user-services/laptop-management)
+- [Tech Support for Team Members](/handbook/security/corporate/services/helpdesk/)
 
 **Please ask for assistance in the `#it_help` Slack channel.**
 

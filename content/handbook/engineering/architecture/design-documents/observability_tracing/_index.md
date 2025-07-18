@@ -9,7 +9,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -66,7 +66,7 @@ Much of the proposed architecture already exists and is in operation for GitLab.
 
  The following diagram outlines the architecture for GitLab Observability Backend and how clients, including the GitLab UI, will interact with it.
 
-<img src="./arch.png" alt="">
+<img src="/images/engineering/architecture/design-documents/observability_tracing/arch.png" alt="">
 
 ### Key Components
 

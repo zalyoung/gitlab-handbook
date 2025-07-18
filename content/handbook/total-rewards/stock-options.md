@@ -26,7 +26,7 @@ If a team member leaves GitLab, they have 90 days post termination to exercise t
 
 ## Stock Options
 
-In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.  
+In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.
 
 The difference in these two types of grants are, generally, as follows:
 
@@ -69,14 +69,15 @@ In September 2021, the Company's board of directors and its stockholders approve
 1. Must be actively employed at the beginning of the Offering Period to enroll
 1. Must be actively employed on the last date of the Purchase Period to be able to purchase
 1. Eligible ESPP GitLab Entities
-   - Canada Corp (Canada)
-   - GmbH (Germany)
-   - BV (Netherlands/Belgium/Finland)
-   - Inc. & Federal (United States)
-   - Ltd (United Kingdom)
-   - PTY Ltd (Australia/New Zealand)
-   - Ireland Ltd (Ireland) - as of 2023-06-01
-   - BV (Finland)  - as of 2023-06-01
+   - GITLAB CANADA CORP. (Canada)
+   - GitLab GmbH (Germany)
+   - GitLab B.V. (Netherlands/Belgium/Finland)
+   - GitLab Inc. (US)
+   - GitLab Federal, LLC (US)
+   - GitLab UK Limited (United Kingdom)
+   - GITLAB PTY LTD (Australia/New Zealand)
+   - GITLAB IRELAND LIMITED (Ireland)
+   - Gitlab France S.A.S. (France)  - as of 2025-06-01
 
 ### Changing Contribution Amounts
 
@@ -138,7 +139,7 @@ The output of this calculation will also be compared to 0.5x of the Refresh Equi
 
 ## Refresh Grants
 
-As part of the updated [Annual Compensation Review process]({{< ref "compensation-review-cycle#annual-compensation-review" >}}), eligible GitLab team members will be reviewed for a refresh grant once per year. Refresh grants use the formula above to determine the range of equity dollar value a team member may be eligible for in that cycle based on their current role/grade. Refresh grants will vest in accordance with the equity plan agreement between GitLab and the team members.
+As part of the updated [Annual Compensation Review process](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review), eligible GitLab team members will be reviewed for a refresh grant once per year. Refresh grants use the formula above to determine the range of equity dollar value a team member may be eligible for in that cycle based on their current role/grade. Refresh grants will vest in accordance with the equity plan agreement between GitLab and the team members.
 
 Note: All equity grants are subject to approval by the Board of Directors and no grants are final until such approval has been obtained. The company reserves the right in its sole discretion to make any adjustments to equity grants including the decision not to make a grant at all.
 
@@ -182,13 +183,27 @@ If you would like to purchase GTLB shares, this must be done through your E*TRAD
 
 ## Questions about your stock plan or retail account
 
-### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908)
+### E-TRADE Team Member Education Sessions
+
+Equity 101: What You Need to Know About Your GitLab Restricted Stock Units (RSUs)
+
+- [U.S. Session](https://event.on24.com/wcc/r/4817306/66F275B4A35533D70C449F856A68855A)
+- [Non U.S. Session](https://event.on24.com/wcc/r/4817304/5BC09EC01FAD3764137335C6AB4B8E8F)
+- [Deck](https://www.morganstanley.com/cs/pdf/U-S-EQUITY-101-GTLB-2025.pdf) with U.S. and Non U.S. materials attached
+
+### E-TRADE Securities Customer Service
+
+- US Contact 12 a.m. Monday to 11:59 p.m. Friday ET  Closed holidays  (800-838-0908)
+- Non-US local country contact phone numbers are found [here](https://us.etrade.com/e/t/home/contactus_esp)
+
+**Customer Service can assist with**
 
 - Activating your account
 - Navigating the Stock Plan section of etrade.com
 - Finding tax information
 - Disbursing cash from and depositing cash to your brokerage account
 - Buying and selling securities in your brokerage account
+- Questions on the portal 
 
 ### Option Expiration
 
@@ -221,7 +236,7 @@ Taxation from the US perspective is not as straightforward as you might like. Yo
 
 Please note, however, that any gain upon exercise of an ISO (difference between the exercise price and fair market value at date of exercise), even if you do not sell the shares, may be counted as a "tax preference" towards the Alternative Minimum Tax limit. For instance, under scenario 1 above you have to make an adjustment in your tax return for the Alternative Minimum Tax (AMT) that equals the so-called bargain element. Each scenario has a different tax treatment, so be careful of the tax consequences when you exercise your options. In the long term, holding onto your stock does save taxes, however be aware of the AMT that you will be confronted with. It is strongly advised that you contact a tax advisor to be aware of the US tax consequences.
 
-In addition to the benefits of a longer holding period, the IRS does have an additional benefit for holders of Qualified Small Business Stock (QSBS for short). GitLab meets the criteria for QSBS treatment for options exercised prior to August, 2018, however (again), the Company is not in a position to offer tax or legal advice nor does it make any representation about compliance with the QSBS provisions, so check with your own tax and financial advisors. We found [this article](https://blog.wealthfront.com/qualified-small-business-stock-2016/) helpful  in describing the QSBS program in greater detail.
+In addition to the benefits of a longer holding period, the IRS does have an additional benefit for holders of Qualified Small Business Stock (QSBS for short). GitLab meets the criteria for QSBS treatment for options exercised prior to August, 2018, however (again), the Company is not in a position to offer tax or legal advice nor does it make any representation about compliance with the QSBS provisions, so check with your own tax and financial advisors. We found [this article](https://www.wealthfront.com/blog/qualified-small-business-stock-2016/) helpful  in describing the QSBS program in greater detail.
 
 ### US service providers with Non-qualified Statutory Options (NQs)
 

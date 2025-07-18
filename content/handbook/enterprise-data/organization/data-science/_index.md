@@ -30,10 +30,10 @@ Check out this brief overview of what data science is at GitLab:
 AMAs:
 
 - 2021-09-15 AMA [Recording](https://youtu.be/wRbNExL0hv8), [Presentation](https://docs.google.com/presentation/d/1Y-V6bZ5w8Ms5yfMiuYCYZs9ald7Q5MxydYhSh9DWwwQ/edit#slide=id.g540caf0310_0_0),
-- 2021-12-09 AMA [Recording](http://www.youtube.com/watch?v=46NEQDAz18I), [Presentation](https://docs.google.com/presentation/d/1aUIi52AW798KjmvexPIQ1AcXRKLcWlYd6yW-EW6Zqlo/edit#slide=id.g540caf0310_0_0)
+- 2021-12-09 AMA [Recording](https://www.youtube.com/watch?v=46NEQDAz18I), [Presentation](https://docs.google.com/presentation/d/1aUIi52AW798KjmvexPIQ1AcXRKLcWlYd6yW-EW6Zqlo/edit#slide=id.g540caf0310_0_0)
 
 {{% alert title="Want to Learn More?" color="success" %}}
-[Become a Data Science Champion](/handbook/enterprise-data/direction/data-champion/), [visit Slack #bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
+[Visit Slack #data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
 {{% /alert %}}
 
 ### Common Data Science Terms
@@ -43,22 +43,22 @@ AMAs:
 - **Classification** - process of predicting a category for each observation. For example, determining if a picture is of a cat or a dog
 - **Clustering** - process of finding natural groupings of observations in dataset. Often used for segmentation of users or customers
 - **Data Science (DS)** - interdisciplinary field that uses computer science, statistical techniques and domain expertise to extract insights from data
-- **Exploratory Data Analysis (EDA)** - analysis of the data that summarises it's main characteristics (includes statistics and data visualisation)
+- **Exploratory Data Analysis (EDA)** - analysis of data that summarizes its main characteristics (includes statistics and data visualisation)
 - **Feature** - single column in dataset that can be used for analysis, such as country or age. Also referred to as variables or attributes
-- **Feature Engineering** -  process of selecting, combining and transforming data into features that can be used by machine learning algorithms
+- **Feature Engineering** - process of selecting, combining and transforming data into features that can be used by machine learning algorithms
 - **Imputation** - process of replacing missing or incorrect data with statistical "best guesses" of the actual values
-- **Machine Learning (ML)** - use and development of algorithms without being explicitly programmed to determine patterns in data
+- **Machine Learning (ML)** - use and development of algorithms, without being explicitly programmed to determine patterns in data
 - **Model** - a complex set of mathematical formulas that generates predictions
 - **Propensity modeling** - building models to predict specific events by analyzing past behaviors of a target audience.
 - **Regression** - a statistical method for predicting an outcome. For example, predicting a person's income, or how likely a customer is to churn
-- **Scoring** -  process of generating predictions for the new dataset
-- **Training** -  process of applying an algorithm to data to create a model
+- **Scoring** - process of generating predictions for the new dataset
+- **Training** - process of applying an algorithm to data to create a model
 - **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts
-- **Weight** - numerical value assigned to feature that determines it's strength
+- **Weight** - numerical value assigned to feature that determines its strength
 
 ## Data Science Responsibilities
 
-Of the [Data Team's Responsibilities](/handbook/enterprise-data/#responsibilities), the Data Science Team is **directly responsible** for:
+The Data Science Team is **directly responsible** for:
 
 - Delivering *descriptive*, *predictive*, and *prescriptive* solutions that promote and improve [GitLab's KPIs](/handbook/company/kpis/)
 - Being a ***Center of Excellence*** for predictive analytics and supporting other teams in their data science endeavors
@@ -81,7 +81,7 @@ Additionally, the Data Science Team **supports** the following responsibilities:
 
 As a Center of Excellence, the data science team is focused on working collaboratively with other teams in the organization. This means our stakeholders and executive sponsors are usually in other parts of the business (e.g. Sales, Marketing). Working closely with these other teams, we craft a [project plan](/handbook/enterprise-data/organization/data-science/project_dev_approach/#3c-modeling--implementation-plan) that aligns to their business needs, objectives, and priorities. This usually involves working closely with functional analysts within those teams to understand the data, the insights from prior analyses, and implementation hurdles.
 
-The Data Science flywheel is focused on improving business efficiency and KPIs by creating accurate and reliable predictions. This is done in collaboration with [Functional Analytics Center of Excellence](/handbook/enterprise-data/functional-analytics-center-of-excellence/) to ensure the most relevant data sources are utilized, business objectives are met, and results can be quantifiably measured. As business needs change, and as the user-base grows, this flywheel approach will allow the data science team to quickly adapt, iterate, and improve machine learning models.
+The Data Science flywheel is focused on improving business efficiency and KPIs by creating accurate and reliable predictions. This is done in collaboration with [Functional Analytics Center of Excellence](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/) to ensure the most relevant data sources are utilized, business objectives are met, and results can be quantifiably measured. As business needs change, and as the user-base grows, this flywheel approach will allow the data science team to quickly adapt, iterate, and improve machine learning models.
 
 ```mermaid
 graph BT;
@@ -102,13 +102,13 @@ Examples of current Data Science initiatives include:
 - Customer Health
 - MLOps with GitLab
 
-Please refer to the [Data Science Initiatives Internal Handbook](https://internal.gitlab.com/handbook/enterprise-data/direction/data-science-initiatives) for up-to-date information on all our on-going and planned projects.
+Please refer to the [Data Science Initiatives Internal Handbook](https://internal.gitlab.com/handbook/enterprise-data/organization/data-science-enterprise-analytics/data-science-initiatives) for up-to-date information on all our on-going and planned projects.
 
 ## Project Structure
 
 The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining), which consists of 6 iterative phases:
 
-<img align="right" src="CRISP-DM_Process_Diagram.png" alt="" width="500">
+<img align="right" src="/images/enterprise-data/organization/data-science/CRISP-DM_Process_Diagram.png" alt="" width="500">
 
 1. **Business Understanding**
 
@@ -144,7 +144,7 @@ Our current platform consists of:
 
 - the [Enterprise Data Warehouse](/handbook/enterprise-data/platform/) for storing raw and normalized source data as well as final model output for consumption by downstream consumers
 - [JupyterLab](/handbook/enterprise-data/platform/jupyter-guide/) for model training, tuning, and selection
-- [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](/handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html), and [CI/CD](https://docs.gitlab.com/ee/ci/)
+- [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](https://docs.gitlab.com/user/project/ml/experiment_tracking/), and [CI/CD](https://docs.gitlab.com/ee/ci/)
 -[GitLab CI](/handbook/enterprise-data/platform/ci-for-ds-pipelines/#our-approach-to-using-cicd-for-data-science) for automation and orchestration
 - [Monte Carlo](https://getmontecarlo.com/) for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation
@@ -189,6 +189,6 @@ We deploy all of our models using the native GitLab CI/CD capabilities. Please s
 
 ### Data Science Tools at GitLab
 
-- **[Pre-configured JuypterLab Image](https://gitlab.com/gitlab-data/data-science)**: The data science team uses JupyterLab pre-configured with common python modules (pandas, numpy, etc.), native Snowflake connectivity, and git support. Working from a common framework allows us to create models and derive insights faster. This setup is freely available for anyone to use. Check out our [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) for additional information.
-- **[GitLab Data Science Tools for Python](https://gitlab.com/gitlab-data/gitlabds/)**: Functions to help automate common data prep (dummy coding, outlier detection, variable reduction, etc.) and modeling tasks (i.e. evaluating model performance). Install directly via [pypi](https://pypi.org/project/gitlabds/) (`pip install gitlabds`), or use as part of the above JupyterLab image.
-- **[Modeling Templates](https://gitlab.com/gitlab-data/data-science/-/tree/main/templates)**: The data science team has created modeling templates to allow you to easily start building predictive models without writing python code from scratch. To enable these templates, follow the instructions on the [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/#enabling-jupyter-templates).
+- **[Pre-configured Data Science Environment](https://gitlab.com/gitlab-data/data-science)**: The data science team uses JupyterLab pre-configured with common python modules (pandas, numpy, etc.), native Snowflake connectivity, and git support. Working from a common framework allows us to create models and derive insights faster. This setup is freely available for anyone to use. Check out our [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) for additional information.
+- **[GitLab Data Science Tools for Python](https://gitlab.com/gitlab-data/gitlabds/)**: Functions to help automate common data prep (dummy coding, outlier detection, variable reduction, etc.) and modeling tasks (i.e. evaluating model performance). Install directly via [pypi](https://pypi.org/project/gitlabds/) (`pip install gitlabds`), or use as part of the above Data Science Environment.
+- **[Modeling Templates](https://gitlab.com/gitlab-data/data-science/-/tree/main/modeling_templates)**: The data science team has created modeling templates to allow you to easily start building predictive models without writing python code from scratch. To enable these templates, follow the instructions on the [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/#enabling-jupyter-templates).

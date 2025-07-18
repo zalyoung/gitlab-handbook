@@ -33,9 +33,9 @@ description: "A page containing links to helpful CI resources for the CSM team a
   <tr>
     <td>Enablement</td>
     <td><ul><li><a href="https://docs.google.com/presentation/d/12nax3mmhh7Y9o1SMXKhWNxYH_n55G2Vj8--UQbX13yw/edit#slide=id.g2936d5da52a_0_0">Jenkins to GitLab CSM Enablement</a></li>
-    <li>CSM led <a href="https://handbook.gitlab.com/handbook/customer-success/csm/workshops/#currently-available-sessions">enablement sessions</a></li>
-    <li>Hands-On Technical <a href="https://handbook.gitlab.com/handbook/solutions-architects/tools-and-resources/workshop/">Workshops</a></li>
-    <li><a href="https://handbook.gitlab.com/handbook/customer-success/csm/segment/scale/webinar-calendar/#upcoming-webinars">Scale Webinars</a></li></ul></td>
+    <li>CSM led <a href="/handbook/customer-success/csm/workshops/#currently-available-sessions">enablement sessions</a></li>
+    <li>Hands-On Technical <a href="/handbook/solutions-architects/tools-and-resources/workshop/">Workshops</a></li>
+    <li><a href="https://university.gitlab.com/pages/gitlab-user-webinars">Scale Webinars</a></li></ul></td>
   </tr>
 </tbody>
 </table>
@@ -47,7 +47,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
 ## Quickstart Guides
 
 1. Supplemental Resource: CI/CD Quickstart - Premium: [Public-Facing Page](https://gitlab.highspot.com/viewer/63bf4994dc979c98f1d3e832?)
-   - To [create personalized Highspot Pitches using Styles and Templates](/handbook/sales/field-communications/gitlab-highspot/#how-to-create-pitches-using-existing-pitch-style-and-pitch-template-combos), refer to the following components:
+   - To [create personalized Highspot Pitches using Styles and Templates](/handbook/sales/field-communications/gitlab-highspot/#key-functionality), refer to the following components:
      - **Premium version:**
        - [Pitch Template](https://gitlab.highspot.com/items/63cb7a037d574a107f4e6001?lfrm=srp.2)
        - [Pitch Style](https://gitlab.highspot.com/items/6389983b85763c84b2ed3b8d?lfrm=srp.1)
@@ -55,7 +55,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
        - [Pitch Template](https://gitlab.highspot.com/items/64d9afedc17499f9125f9ca3?lfrm=srp.1)
        - [Pitch Style](https://gitlab.highspot.com/items/63ca2a7a7d574a620e8b41e0?lfrm=srp.0)
 2. DevOps Solution Resource: Continous Integration: [Public Handbook Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#sample-discovery-questions)
-3. CI Workshop Planning Overview: [Public Handbook Page](/handbook/customer-success/workshops/ci-workshop.html)
+3. CI Workshop Planning Overview: [Public Handbook Page](/handbook/customer-success/workshops/ci-workshop/)
 
 ## Migrating to GitLab
 
@@ -87,7 +87,7 @@ Jenkins to GitLab
 1. Runner Overview: [Link to Deck](https://gitlab.highspot.com/items/64cadeb868936bb54ac9ce2f#)
 
 1. Webinars (Informational & Hands-On):
-     - [Monthly Webinar Calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/)
+     - [Monthly Webinar Calendar](https://university.gitlab.com/pages/gitlab-user-webinars)
 
 ## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption
 

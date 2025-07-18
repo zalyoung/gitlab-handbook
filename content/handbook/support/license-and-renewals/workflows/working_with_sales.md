@@ -42,10 +42,10 @@ Using either the email address or the form will result in the creation of a Sale
 
 ***NB:** Support should be able to rely on the Salesforce `Account Owner` field to determine who is responsible for the account. If that is incorrect, escalate it **immediately**.*
 
-#### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
+#### If the Salesforce `Account Owner` is `AMER|EMEA|APJ SMB Sales User`
 
-- Follow this [process](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
-Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
+- Follow this [process](/handbook/sales/commercial/high_velocity_sales_first_orders/#working-with-the-global-digital-smb-account-team) to create a case, OR
+Slack message the #hvs_public channel.
   - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
   - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
   - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
@@ -104,7 +104,7 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
 
 - If you have SFDC access to the case, and the case has an assigned owner
   - Ping the case owner in chatter on the case
-  - Include the applicable Regional manager: 
+  - Include the applicable Regional manager:
     - EMEA: @Miguel Nunes
     - AMER/ APAC: @Taylor Lund
   - notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness.
@@ -113,8 +113,8 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
   - In your post, include:
     - details of the request
     - the Zendesk ticket link
-    - cc: your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in your post for awareness. 
-- If you are unable to make contact with the Regional manager within a reasonable amount of time, escalate to: @Mike Smith via chatter on the case and notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness. 
+    - cc: your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in your post for awareness.
+- If you are unable to make contact with the Regional manager within a reasonable amount of time, escalate to: @Mike Smith via chatter on the case and notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness.
 
 ## Determining whether **to pass** or **to NOT pass** to Sales
 
@@ -133,7 +133,7 @@ DO NOT pass to Sales:
 - The customer is trying to reach sales person to renew, but haven't received a response - Instead ask customer what they need assistance with and see if we can assist.
 - The customer asks a product or process question (we can answer this or put in another Support queue most of the time)
 - The customer has renewed, but they didn't add enough users - ask the customer to use the Add more seats button in customers portal.
-- The customer wants to renew for less seats than their current subscription. The customer can renew for a minimum of their current usage or more. If they want to renew for less seats, they have to bring their seat usage down before the renewal, [disable automatic renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#enable-or-disable-automatic-subscription-renewal) and manually renew the subscription (for [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-or-change-a-gitlab-saas-subscription) and [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-a-subscription)).
+- The customer wants to renew for less seats than their current subscription. The customer can renew for a minimum of their current usage or more. If they want to renew for less seats, they have to bring their seat usage down before the renewal, [disable automatic renewal](https://docs.gitlab.com/subscriptions/gitlab_com/#enable-or-disable-automatic-subscription-renewal) and manually renew the subscription (for [SaaS](https://docs.gitlab.com/subscriptions/gitlab_com/#renew-or-change-a-gitlab-saas-subscription) and [Self-Managed](https://docs.gitlab.com/subscriptions/self_managed/#renew-a-subscription)).
 
 NB, Sales does not simply waive trueups, there is an approval process for exceptional cases. Please don't set the expectation that any fees will be waived. When in doubt, ask in Slack for a second opinion.
 

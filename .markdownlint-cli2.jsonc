@@ -16,8 +16,7 @@
   "config": {
     "default": true,
     "code-block-style": { "style": "fenced" },
-    "first-header-h1": false,
-    "first-line-h1": false,
+    "descriptive-link-text": false,
     "header-style": { "style": "atx" },
     "hr-style": { "style": "---" },
     "line-length": {
@@ -35,7 +34,9 @@
     "no-trailing-spaces": false
   },
   "ignores": [
+    "CONTRIBUTING.md",
     ".gitlab/**",
+    "assets/**",
     "content/handbook/legal/ai-functionality-terms*",
     "content/handbook/legal/education-agreement.md",
     "content/handbook/legal/opensource-agreement.md",
@@ -46,7 +47,6 @@
     "content/handbook/legal/testing-agreement*",
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
     "content/handbook/company/culture/all-remote/universal-remote.md",
-    "layouts/shortcodes/pricing-themes.md",
-    "layouts/shortcodes/section-group-table.md"
+    "layouts/**"
   ]
 }

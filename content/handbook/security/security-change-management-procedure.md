@@ -12,7 +12,7 @@ The purpose of this document is to outline the procedural change management step
 This document applies to systems and applications owned by Security and processes owned by Security Departments.
 
 {{% note %}}
-Changes related to user access and authorization should continue to be handled via the [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) process.
+Changes related to user access and authorization should continue to be handled via the [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) process.
 {{% /note %}}
 
 Security has defined the following types of changes:
@@ -90,12 +90,16 @@ To submit a security change request, use one of the links below to create a chan
 
 [Emergency Change Request](https://gitlab.com/gitlab-com/gl-security/security-change-management/-/issues/new?issuable_template=emergency_change_template)
 
+[CorpSec Change Request](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?description_template=corpsec_normal_change)
+
 Follow the instructions in the appropriate issue template to:
 
 - Add the appropriate level of detail to the request
-- Assign the appropriate team member(s) to the request in accordance with the [roles and responsibilities]({{< ref "security-change-management-procedure#roles--responsibilities" >}}) and [approval matrix]({{< ref "security-change-management-procedure#approval-matrix" >}}) sections
+- Assign the appropriate team member(s) to the request in accordance with the [roles and responsibilities](/handbook/security/security-change-management-procedure/#roles--responsibilities) and [approval matrix](/handbook/security/security-change-management-procedure/#approval-matrix) sections
 
 [Security Change Management project](https://gitlab.com/gitlab-com/gl-security/security-change-management)
+
+[CorpSec Change Issues](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/issues/?sort=created_date&state=opened&label_name%5B%5D=corpsec-metric%3A%3Achange&first_page_size=100)
 
 ### Communication
 
@@ -109,12 +113,38 @@ If a security change request will impact **all Security Division team members**,
 
 If a security change request will impact **a particular Security Department or individual team members**, please ensure that you communicate the change and its impact in a manner appropriate for those impacted team members.
 
+## CorpSec - Rollout of Mass Deployments
+
+Where possible, mass deployments such as macOS operating system upgrades (i.e. Monterey to Ventura) or net new software rollouts will be done by Divisions. Smaller changes such as security patches or minor updates of existing software are not subject to the same schedule and can be deployed globally after Phase 1 testing is complete. The order of mass deployments will be as follows:
+
+Phase 1: Alpha Testers
+
+Phase 2: Beta Testers
+
+We welcome volunteers to join our Beta Testers group! Please join the #corpsec-beta-testers channel on Slack. The list of Beta Testers is automatically updated daily via script using the list of Team Members in that channel. If you only want to join the #corpsec-beta-testers channel but you do not want to be a part of the testing, please express your intention to opt-out of the testing at any time by stating as much in the channel and tagging a member of IT, or by leaving the channel entirely.
+
+Beta Testers are agreeing to participate in the testing of applications that may not be approved for country-wide implementation in certain jurisdictions. If you are in such a jurisdiction, your participation will be limited to Beta Testing and upon completion of the testing, access and use of the application will be revoked until GitLab receives approval for country-wide implementation of the application.
+
+Phase 3: Security
+
+Phase 4: Legal
+
+Phase 5: Marketing, People Group, & CEO Division
+
+Phase 6: Engineering & Product
+
+Phase 7: Sales & Finance
+
+Phase 8: VIPs
+
+VIP support for significant or disruptive changes will be treated via direct support from the Service Desk team who will schedule a call at a convenient time to ensure the update or deployment is successful with minimal disruption.
+
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
-- [Change Management Policy]({{< ref "change-management-policy." >}})
+- [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/)
 - [Controlled Documents Procedure](/handbook/security/controlled-document-procedure/)
 - [Controlled Documents Annual Review Program](/handbook/security/controlled-document-procedure/#review)

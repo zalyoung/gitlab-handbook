@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -57,7 +57,7 @@ Without logging support, it would be very hard if not impossible to fully unders
 
 The architecture of logs ingestion follows the patterns outlined in the [tracing](../observability_tracing/index.md) and [metrics](../observability_metrics/) proposals:
 
-![System Overview](system_overview.png)
+![System Overview](/images/engineering/architecture/design-documents/observability_logging/system_overview.png)
 
 We re-use the components that were introduced by these proposals, so there are not going to be any new services added.
 Each top-level GitLab namespace has its own OTEL collector to which ingestion requests are directed by the cluster-wide Ingress.
@@ -87,7 +87,7 @@ For metrics and tracing, OpenTelemetry specification defines new APIs and SDKs t
 With logs, OpenTelemetry acts more like a bridge and enables legacy libraries/code to send their data to us.
 
 Users may create Log signals from plain log files using [filelogreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/filelogreceiver) or [fluentd](https://docs.fluentbit.io/manual/pipeline/outputs/opentelemetry).
-Existing log libraries may use [Log Bridge API](https://opentelemetry.io/docs/specs/otel/logs/bridge-api/) to emit logs using OTEL protocol.
+Existing log libraries may use [Log Bridge API](https://opentelemetry.io/docs/specs/otel/logs/api/) to emit logs using OTEL protocol.
 In time the ecosystem will most probably develop and the number of options will grow.
 The assumption is made that _how_ logs are ingested is up to the user.
 
@@ -595,7 +595,7 @@ For now, we keep the schema as simple as possible and just make sure that the AP
 
 OTEL standard does not intend to provide a standalone SDK for logging just like it did e.g. tracing.
 It may consider doing so only for a programming language that does not have its logging libraries which should be a pretty rare thing.
-All the existing logging libraries should instead use [bridge API](https://opentelemetry.io/docs/specs/otel/logs/bridge-api/) to interact with OTEL collector/send logs using OTEL Logs standard.
+All the existing logging libraries should instead use [bridge API](https://opentelemetry.io/docs/specs/otel/logs/api/) to interact with OTEL collector/send logs using OTEL Logs standard.
 
 The majority of languages have already made the required adjustments, except for Go.
 There is only very minimal support for GO ([repo](https://github.com/agoda-com/opentelemetry-go), [repo](https://github.com/agoda-com/opentelemetry-logs-go)).

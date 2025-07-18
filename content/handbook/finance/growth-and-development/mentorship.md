@@ -79,4 +79,4 @@ Mentees identify, at minimum, one development goal that they'd like to discuss w
 
 ### DRIs
 
-[@dparker](http://gitlab.com/dparker) and [@bryanwise](https://gitlab.com/bryanwise)
+[@dparker](https://gitlab.com/dparker) and [@bryanwise](https://gitlab.com/bryanwise)

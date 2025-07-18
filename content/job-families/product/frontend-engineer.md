@@ -72,14 +72,14 @@ The Senior Frontend Engineer reports to a UX Engineering Manager or [Product Des
 
 #### Job Grade
 
-The Senior Frontend Engineer is a [grade 7](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Frontend Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
 - **Product knowledge**: Deeply understand the technology and features of the group you are assigned and proactively learn about other groups.
 - **Deliverables**: Develop features and improvements to the GitLab product in a secure, accessible, user-friendly, well-tested, and performant way. Solve technical problems of high scope and complexity.
 - **Communication**: Communicate the results of frontend activities with a strong point of view to the UX department, cross-functional partners with your group, and other interested GitLab team-members using clear language that simplifies complexity.
-- **Iteration**: Practice iteration by breaking down design and development efforts to fit the release cadence of your group. Lead and coach iteration of development work within the [validation track](/handbook/product-development-flow/#validation-track) of your group.
+- **Iteration**: Practice iteration by breaking down design and development efforts to fit the release cadence of your group. Lead and coach iteration of development work within the [validation track](/handbook/product-development/how-we-work/product-development-flow/#validation-track) of your group.
 - **Design system**: Be a primary contributor to the [Pajamas Design System](https://design.gitlab.com/) by building components and updating documentation. Ensure components available in GitLab UI follow design specs. Help organize and drive participation in Pajamas Migration Days and Hackathons.
 - **Code quality**: Help to define and improve our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code reviews.
 - **Accessibility**: Proactively identify both small and large accessibility issues within your group, and help influence their prioritization.
@@ -123,7 +123,7 @@ A Staff Frontend Engineer is expected to meet the base requirements and execute 
 
 Candidates can expect the hiring process to follow the below order, although it can change depending on calendar availability. Please keep in mind that candidates can be declined at any stage of the process.
 
-- 30-minute [screening call](http://about.gitlab.com/handbook/hiring/interviewing/#screening-call) with one of our global recruiters.
+- 30-minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our global recruiters.
 - 90-minute technical interview with a Frontend Engineer.
 - 60-minute interview with a UX Engineering Manager or Product Design Manager.
 - 50-minute interview with a Group Product Manager.

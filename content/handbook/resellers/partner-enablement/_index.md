@@ -8,20 +8,25 @@ In this section of the Partner Programs Handbook we review assets and enablement
 
 Beyond our Partners Handbook pages you will find sales guides, use cases, training materials, and program guides reviewed below. Additional partner-specific content is hosted in our [GitLab Partner Portal](https://partners.gitlab.com/). The materials should be a great place to start effectively selling, serving and hitting your number with GitLab.
 
-Remember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/English/).
+Remember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/partner/registration).
 
 ## Presales and Technical Enablement Resources
 
 ## Foundational Knowledge
 
-[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)
+[GitLab Quick Start for New GitLab.com Customers](/handbook/customer-success/customer-onboarding/)
 
 - Provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
 
-[Building Pipelines GitLab Partner Webinar Series](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Live Webinar & Episode Content Archive)
+[Building Pipelines GitLab Partner Webinar Series (Live Webinar & Episode Content Archive)](https://partners.gitlab.com/prm/English/c/Building-Pipelines)
 
 - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
 - Click the link above to view the archive of previous episode content and be sure to **Register Today**!
+
+[GitLab User Webinars and Labs](https://university.gitlab.com/pages/gitlab-user-webinars)
+
+- Our Customer Success team produces regular enablement sessions in each Geo globally that you can attend, and promote for your colleagues and customers.
+- Check out the upcoming sessions and encourage anyone to join them!
 
 **Topical Articles on DevSecOps Concepts**
 
@@ -42,7 +47,7 @@ Learn what GitLab is, what it offers, and what it does
   - This is a Why GitLab Page .  It's actually a good elevator pitch!  Check it out.
 - [GitLab Promo DEMO](https://about.gitlab.com/demo/) (Video)
   - This video is a bit longer demo video and shows more about using GitLab (3 min)
-- [Platform Page](https://about.gitlab.com/platform) (Web Page)
+- [Platform Page](https://about.gitlab.com/platform/) (Web Page)
   - Get to know the basic capability set of GitLab here.  Be sure to scroll down to the Solutions GitLab enables and drill into them for more information (20 min read)
 - [Solutions Page](https://about.gitlab.com/solutions/) (Web Page)
   - offers a wide variety of ways customers leverage GitLab (20 min read)
@@ -90,16 +95,16 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours) (Interactive demos)
   - A great collection of self-guided, hands-on, interactive exercises for (potential) customers, powered by [Navattic](https://www.navattic.com/). They can also serve as substitutes or safe fallbacks for live demos.
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
-  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Please refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
+  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab. Check out the README for further info.
 - [GitLab Learn Labs - Tanuki Racing](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) (GitLab Project)
   - A collection of always up-to-date workshops. These can be used either individually for self-learning, delivered for customers as hands-on workshops or serve as a basis for in-depth demos. Check out the README for further info.
-- [Building Pipelines Episode 011](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Video)
-  - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
+- Building Pipelines Episode 011 (Video)
+  - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
   - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
-- [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
+- [GitLab Proof of Value Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
   - This handbook page is a great resource and link aggregation point for resources to conduct Proof Of Values (POVs).
 - [The GitLab Demo Page](/handbook/solutions-architects/demonstrations/) (Handbook)
   - Good reference material for general purpose demos the same way GitLab SA's do it.
@@ -109,18 +114,6 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
   - Contains Joint Reference Architectures, Patterns and Working Examples for integrating GitLab with Alliance and Technology solutions.
 - [CI Samples Demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/cicd-samples)
   - CI functions samples for quick demos
-
-**Additional References for You**
-
-- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and [Install Guides](https://docs.gitlab.com/ee/install/) (GitLab Docs)
-  - GitLab has a leading market share in self-managed deployments.  Here are our technical specs and docs for solutioning and installing GitLab instances.  
-- [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#supported-modifications-for-lower-user-counts-ha)
-  - The 3,000 user GitLab reference architecture is the smallest we recommend that achieves High Availability (HA). However, for environments that need to serve fewer users but maintain HA, there are several supported modifications for this architecture to reduce complexity and cost. Any reference architecture above 3000 users is capable of running as a HA workload. For smaller deployments, we (GitLab) recommend to schedule regular backups which provide a recovery point objective (RPO) that the organization can tolerate.
-- [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
-  - The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. Created and maintained by the GitLab Quality Engineering Enablement team, the Toolkit supports the deployment of GitLab Self-Managed to hyperscaler and On-Prem target environments.
-  - Review the following GitLab Environment Toolkit's provided examples located [GET Toolkit Reference architecture Examples]](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/tree/main/examples?ref_type=heads).
-  - HA is only available for GitLab's enterprise paid tiers. Both Premium and Ultimate licenses of our product will permit the deployment of Highly Available instances of GitLab.
-  - Migration from one instance to another remains the same as if the target system weren't highly available. More here: https://handbook.gitlab.com/handbook/resellers/partner-enablement/partner-migration-services/#from-gitlab-self-managed-to-gitlab-self-managed
 
 ## 3.  Closing the Deal
 
@@ -144,34 +137,15 @@ Learn how to construct and transact a GitLab deal
 
 Delivery docs and technical guidance for your GitLab practice engineers
 
-**Implementing a GitLab Instance**
+**GitLab Implementations**
 
-- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
-  - **Read, understand, and follow the guidance given in this reference architecture page.  It's crucially important for long term maintainability of a GitLab instance.**
-- [GitLab Environment Toolkit GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation)
-  - [GET getting started video](https://partners.gitlab.com/prm/English/s/assets?id=543232&renderMode=Collection)
-  - **This is the Way... to install GitLab.**  The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures.  Built and actively maintained by the Quality Enablement team.
-- [Other Installation Methods](https://docs.gitlab.com/ee/install/install_methods.html)
-  - Make sure any automation you provide that automatically installs GitLab is installing the Enterprise Edition, and leverages at the core one of these installation methodologies to have a supported configuration
-- [Unsupported Designs](https://docs.gitlab.com/ee/administration/reference_architectures/#deviating-from-the-suggested-reference-architectures)
-  - Also review these unsupported configurations to make sure you are in compliance with our support requirements
-- [Next Implementation Steps After Installation](https://docs.gitlab.com/ee/install/next_steps.html)
-  - Once you have the product installed, here are additional steps to make the installation operationally successful (like backups)
-- [Upgrading GitLab](https://docs.gitlab.com/ee/update/)
-  - **Upgrades are important to become good at.**  GitLab schedules major releases for May each year, by default.  GitLab releases a minor update on the 3rd Thursday of every month, and has released monthly consistently for more than a decade.  Security patches are released more frequently.
-     GitLab.com has updates multiple times per day.
-
-**Implementing GitLab Runners**
-
-- [GitLab Runner Overview](https://docs.gitlab.com/runner/)
-  - GitLab Runners represent the **largest workload the system generates.**  The Runner is the software that executes all of the CI pipelines.  It's possible to deploy them on fixed infrastructure, or autoscale them (up and down) in a cloud provider.
-- [GitLab Runner Installation](https://docs.gitlab.com/runner/install/)
-- [GitLab Runner Advanced Configuration](https://docs.gitlab.com/runner/configuration/)
+- [Partner Implementation Services](/handbook/resellers/partner-enablement/partner-implementation-services)
+  - This page outlines the **implementation** services methods, tools, restrictions, and services kits available to partners
 
 **GitLab Migrations**
 
 - [Partner Migration Services](/handbook/resellers/partner-enablement/partner-migration-services/)
-  - This **important page** outlines the migration services methods, tools, restrictions, and services kits available to partners
+  - This page outlines the **migration** services methods, tools, restrictions, and services kits available to partners
 
 **Using and Adopting GitLab Effectively**
 
@@ -189,22 +163,52 @@ Delivery docs and technical guidance for your GitLab practice engineers
   - Review the rest of the assets on the Getting Started with GitLab page.
 - [Using GitLab Tutorials](https://docs.gitlab.com/ee/tutorials/) (GitLab Docs)
   - These video and web page tutorials are included in the GitLab Docs site.  They are a great starting point for learning or deploying technical capabilities.
+- [Value Stream Management for GitLab Partners](https://partners.gitlab.com/prm/English/s/assets?id=634200&renderMode=Collection)
+  - Login to the [GitLab Partner Portal](https://partners.gitlab.com/) first.
 
-**Additional References for You**
+### GitLab Channel Service Packages
 
-- [Service Kits](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) (Portal Assets)
-  - We have developed service kits for you including sample Statements of Work (SOWs) and Level of Effort (LOEs).
-- [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) (Portal Assets)
-  - These delivery kits are what our internal PS teams use for customer projects.  Go grab what you need!
+The following Services are examples that you can take, modify and use to provide your own branded professional consultative services that involve GitLab.
+
+- Readiness Assessment - [Data Sheet](https://drive.google.com/file/d/1OWZdw44MMaYLyrvxGo96vYuzz5wTXeaq/view), [Statement of Work (SOW)](https://drive.google.com/file/d/1t5tHaXZrMiNgLGzaBTT2ksjjgDHJqyQN/view), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/health-check), [System Readiness Report (Health Check) TEMPLATE](https://docs.google.com/document/d/1j4Jmz_SCJEeeQT4uCIHiw6ngwsZyW_aAMVvSIyO2ndc/edit?tab=t.0).
+- Partner Led GitLab Optimization - [Data Sheet](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection), [Delivery Kit](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459891&renderMode=Collection).
+- Dedicated Implementation Services - [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-template).
+- Migration QuickStart - [Data Sheet](https://drive.google.com/file/d/1dPs65e23bzlBQ_DxXbAkzZl-6t5OkFzZ/view), [Statement of Work (SOW)](https://docs.google.com/document/d/1PXTz1Lvp1H9mrxyQNL_-bcDBrNWmsGQa47pMYPTXnTI/edit?tab=t.0), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-delivery-kits/migration-template), [Service Description](https://about.gitlab.com/professional-services/skus/migration-quickstart/).
+- Self-Managed Rapid Results Consulting - [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Statement of Work (SOW)](https://about.gitlab.com/professional-services/skus/implementation-quick-start-ha/), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-quickstart-self-managed).
+- GitLab.com Rapid Results Consulting - [Data Sheet](https://drive.google.com/file/d/1dtCtZjCgolbO0lZ8BzTfPG_BNC6Tv078/view), [Statement of Work (SOW)](https://about.gitlab.com/professional-services/skus/implementation-quick-start-com/), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-quickstart-gitlab-com).
+
+- [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits)
+  - These delivery kits are what our internal GitLab Professional Services teams use for customer projects. You are encouraged to take, modify and use to provide your own branded professional consultative services that involve GitLab.
+
+- [Professional Services Full Catalog](https://about.gitlab.com/professional-services/catalog/)
+  - This is a full public listing of services offered by GitLab's Professional Services Team. Use this as a starting place to add additional integrations, add-on services, remix bundles of these service offerings as your own.
+
+### Professional Services Team Handbook Quick links
+
+Here are links to the most popular Professional Services topics from the [Professional Services Team Handbook page](/handbook/customer-success/professional-services-engineering/).
+
+- [Marketed Offerings](https://about.gitlab.com/services/)
+- [Offerings Framework & Delivery Kits](/handbook/customer-success/professional-services-engineering/framework/)
+- [Positioning](/handbook/customer-success/professional-services-engineering/positioning/)
+- [Professional Services Methodology](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/)
+- [Selling](/handbook/customer-success/professional-services-engineering/selling/)
+- [Working with PS](/handbook/customer-success/professional-services-engineering/working-with/)
+- [SKUs](/handbook/customer-success/professional-services-engineering/skus/)
+- [Education Services](/handbook/customer-success/professional-services-engineering/education-services/)
+- [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
+- [Partner Collaboration](/handbook/customer-success/professional-services-engineering/partner-collaboration/)
+- [Sales enablement](/handbook/customer-success/professional-services-engineering/sales-enablement/)
+- [Professional Services Operations](/handbook/customer-success/professional-services-engineering/professional-services-operations/)
+- [Escalation Process](/handbook/customer-success/csm/escalations/)
 
 ## Additional Resources
 
 ## 1. Official GitLab Training on Level Up
 
-- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/prm/English/c/Training)
-  - We use LevelUp that is accessible publicly, but please do not use the site directly as a Partner.  Please login through the Partner Portal and access training there.  This will ensure that the training you take will be associated with your company partnership with GitLab!
+- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/)
+  - Please login through the Partner Portal to access training in GitLab University. This will ensure that the training you take will be associated with your company partnership with GitLab!
 
-    ![Start Training from the Partner Portal](images/gitlab-partner-training.png)*Start Training from the Partner Portal*
+    ![Start Training from the Partner Portal](/images/resellers/partner-enablement/gitlab-partner-training.png)
 
 ## 2. Additional Enablement Resources at GitLab
 

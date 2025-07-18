@@ -54,19 +54,19 @@ The data source determines the table names used in Tableau queries. We have thre
 - **GitLab.com Postgres Database** (for GitLab.com)
 - **Internal Events** (for GitLab.com)
   - Captures client/server side events and page views
-  - [Tools for viewing events](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html) for exploration/testing
-  - [Implementing event tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html)
+  - [Tools for viewing events](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging/) for exploration/testing
+  - [Implementing event tracking](https://docs.gitlab.com/development/internal_analytics/internal_event_instrumentation/quick_start/)
 - **deprecated** Snowplow (for GitLab.com)
   - Captures client/server side events and page views
   - Video: [Snowplow 2.0 Workshop](https://www.youtube.com/watch?v=CaxhdskjWvg)
   - [Tools for viewing events](https://archives.docs.gitlab.com/16.2/ee/development/internal_analytics/snowplow/index.html) for exploration/testing
   - [Implementing Snowplow click tracking for designers](https://www.youtube.com/watch?v=95wNcGMrpMg&ab_channel=GitLabUnfiltered)
 
-[Key Data Sources for Product Managers at GitLab](/handbook/enterprise-data/programs/data-for-product-managers/#key-data-sources-for-product-managers-at-gitlab) elaborates on how each data source is used and queried.
+[Key Data Sources for Product Managers at GitLab](/handbook/enterprise-data/organization/programs/data-for-product-managers/#key-data-sources-for-product-managers-at-gitlab) elaborates on how each data source is used and queried.
 
 These visualizations will help you understand how the systems work together:
 
-- A [simplified diagram](https://docs.gitlab.com/ee/development/internal_analytics/#data-flow) showing the interactions between GitLab Inc and self-managed instances.
+- A [simplified diagram](https://docs.gitlab.com/development/internal_analytics/#data-flow) showing the interactions between GitLab Inc and self-managed instances.
 - A detailed diagram of the [data platform's data stack](/handbook/enterprise-data/platform/#our-data-stack).
 
 ## Examples of using data for design decisions
@@ -86,8 +86,8 @@ The issues and merge requests below are examples of how we have used data for de
 
 ## Resources
 
-- [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
-- [Internal Analytics at GitLab](https://docs.gitlab.com/ee/development/internal_analytics/)
+- [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
+- [Internal Analytics at GitLab](https://docs.gitlab.com/development/internal_analytics/)
 - [Experimentation Design & Analysis](/handbook/product/groups/product-analysis/experimentation/)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 - [Using Data to Find Insights](/handbook/product/ux/ux-research/quantitative-data/)

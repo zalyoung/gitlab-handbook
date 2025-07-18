@@ -8,14 +8,14 @@ description: "The Fulfillment Sub-department is responsible for the infrastructu
 | Resource  | Areas Covered |
 | --------  | ------------- |
 | [Fulfillment Direction](https://about.gitlab.com/direction/fulfillment/) | Fulfillment vision and what we are working on next. |
-| [docs.gitlab.com Subscription](https://docs.gitlab.com/ee/subscriptions/) | Customer-facing documentation around GitLab subscriptions, including Customer Portal (customers.gitlab.com) information. |
+| [docs.gitlab.com Subscription](https://docs.gitlab.com/subscriptions/) | Customer-facing documentation around GitLab subscriptions, including Customer Portal (customers.gitlab.com) information. |
 | Fulfillment Guide (this page) | Documentation around CustomersDot Admin tools and process documentation that is not part of the docs.gitlab.com Subscription documentation above. |
 | [Fulfillment Development Sub-Department](/handbook/engineering/development/fulfillment/) | Team members, stable counterparts (PM, UX, Quality, Security, EntApps, Field Ops, Sales, Billing, Customer Success, Support Engineering), project management processes, and more. |
 | [Internal Handbook - Fulfillment](https://internal.gitlab.com/handbook/product/fulfillment/) | Documentation that can't be in the public handbook. Minimize this to only [Not Public](/handbook/communication/confidentiality-levels/#not-public) information. |
 | [Cloud Licesing Overview (External)](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) | Why Cloud Licensing, data collected, customer pre-requisites |
 | [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) | Common questions around purchasing, licensing, billing, contacting sales, and more |
-| [Inventory of Fulfillment Emails](https://docs.google.com/spreadsheets/d/1SwEYmLD5Eoa5wM399frPoNGPQ3OUTGBKOOs9z6nB2tc/edit#gid=0) | List of all Fulfillment emails | 
-| [GitLab Company Quote-to-Cash documentation]](/handbook/company/quote-to-cash/) | Company-wide quote-to-cash documentation | 
+| [Inventory of Fulfillment Emails](https://docs.google.com/spreadsheets/d/1SwEYmLD5Eoa5wM399frPoNGPQ3OUTGBKOOs9z6nB2tc/edit#gid=0) | List of all Fulfillment emails |
+| [GitLab Company Quote-to-Cash documentation](/handbook/company/quote-to-cash/) | Company-wide quote-to-cash documentation |
 
 ## How to connect with us
 
@@ -47,9 +47,17 @@ Not all Fulfillment features are available at the time for all types of customer
 
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
 
+## Internal GitLab Duo license requests
+
+The [team member license process](/handbook/security/customer-support-operations/docs/team_member_licenses/) handled by Support Operations allows for generation of a legacy license file for team members looking to test or use GitLab Premium or Ultimate on a Self-managed instance. This license type is not compatible with GitLab Duo.
+
+- For testing of GitLab Duo, a staging cloud license can be provided to team members. Please submit a request in the Slack channel [#g_provision](https://gitlab.enterprise.slack.com/archives/C01BPM66KNE).
+- In specific situations only, if a production cloud license is required for testing GitLab Duo, a $0 subscription may be created. Please reach out to the Order Management team to discuss in the Slack channel [#sales-support](https://gitlab.enterprise.slack.com/archives/CNLBL40H4).
+- Please note that legacy licenses are valid until expiration but a cloud license will require active staging or production data within Zuora and CustomersDot. If you have lost access during a staging refresh, please reach out in #g_provision.
+
 ## Temporary renewal extensions
 
-Sales Rep can generate a temporary extension via SFDC for one of the approved reasons. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
+Sales Rep can generate a temporary extension via SFDC for one of the approved reasons. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/subscriptions/self_managed/#subscription-expiry)).
 
 Please note for Self Managed extensions:
 
@@ -83,7 +91,7 @@ The process of creating the temporary renewal extension from SFDC is also descri
    1. For SaaS, the new temporary extension (once effective) is visible on the gitlab.com group billing page.
    1. An email is sent to the customer with the subject line `[GitLab Transactions] GitLab Temporary Renewal Extension`. For self-managed, a license key is included in the email.
       - This email is also sent to the Revenue Team, as well as copied to SFDC and displayed under Contact Activity.
-   1. `Access temporarily extended until YYYY-MM-DD` badge is displayed on the related subscription in the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html).
+   1. `Access temporarily extended until YYYY-MM-DD` badge is displayed on the related subscription in the [Customers Portal](https://docs.gitlab.com/subscriptions/customers_portal/).
 
 ### Viewing and using the extension
 
@@ -91,7 +99,7 @@ Once the temporary renewal extension is created, the evidence of it can be seen 
 
 - SFDC Renewal Opportunity has `Temporary License Extension End Date` field populated with a date when the extension expires.
 - [CustomersDot Admin > Temporary Extensions](https://customers.gitlab.com/admin/temporary_extension_history) page lists all of the temporary extensions.
-- Customer can see the `Access temporarily extended until YYYY-MM-DD` badge on the related subscription in the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html).
+- Customer can see the `Access temporarily extended until YYYY-MM-DD` badge on the related subscription in the [Customers Portal](https://docs.gitlab.com/subscriptions/customers_portal/).
   - For self-managed, customer can download the license key and apply it to their instance.
   - For SaaS, the new expiration date is automatically synced to gitlab.com.
 
@@ -134,7 +142,9 @@ List of features managed by the [subscription management group](https://about.gi
 
 ### Subscription Renewal and Auto-Renewal
 
-Customers can renew their gitlab.com or Self-managed subscriptions using either auto-renewal or manual renewal. By default, subscriptions are set to auto-renew. Customers who are not eligible for auto-renew or do not want to auto-renew their subscription can manually renew their subscription through the `Renew` button on the subscription card in the [Customers Portal](https://customers.gitlab.com/).
+Customers can renew their GitLab.com or self-managed subscriptions through either auto-renewal or manual renewal. By default, subscriptions are set to auto-renew, which means they automatically renew at midnight UTC on the expiration date with no service interruption. If the billing account has `Auto-Pay = Yes`, payment is processed using the default payment method. Otherwise, an invoice is generated and sent to the customer.
+
+Customers who are either ineligible for auto-renewal or prefer not to use it can manually renew their subscription by clicking the **Renew** button on the subscription card in the [Customers Portal](https://customers.gitlab.com/).
 
 #### Auto-Renewal eligibility
 
@@ -143,19 +153,20 @@ We will not attempt to auto-renew if:
 - Self-Managed customer is not on Cloud Licensing
 - Customer is not on QSR
 - Customer is on QSR, but QSR failed and there's overage
-- Customer's credit card is expired
+- Customer's credit card is expired (if billing account has `Auto-Pay = Yes`)
 
 Auto-renewal will fail if:
 
 - Credit card payment failed
+- GitLab.com subscription is not assigned to a group
 - Another system error that wasn't accounted for previously
 
 Accounts and Subscriptions excluded from auto-renewal:
 
-1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
-1. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
+1. Subscriptions purchased through a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
+1. Subscriptions for Education, OSS, or Startup (Community Programs).
 1. Subscriptions with non-standard term (not a 12-month term).
-1. Subscriptions with GitLab Duo Pro, GitLab Duo Enterprise, or Enterprise Agile Planning products. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11869) is done.
+1. Subscriptions with an Enterprise Agile Planning product.
 1. Accounts with the following settings in Zuora:
    1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
    1. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
@@ -166,20 +177,20 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 
 #### GitLab Docs for SaaS (public)
 
-- [Preparing for renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#prepare-for-renewal-by-reviewing-your-account)
-- [Renewing a subscription](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#renew-or-change-a-gitlab-saas-subscription)
-- [Automatic subscription renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#automatic-subscription-renewal)
+- [Preparing for renewal](https://docs.gitlab.com/subscriptions/gitlab_com/#prepare-for-renewal-by-reviewing-your-account)
+- [Renewing a subscription](https://docs.gitlab.com/subscriptions/gitlab_com/#renew-or-change-a-gitlab-saas-subscription)
+- [Automatic subscription renewal](https://docs.gitlab.com/subscriptions/gitlab_com/#automatic-subscription-renewal)
 
 #### GitLab Docs for Self-managed (public)
 
-- [Preparing for renewal](https://docs.gitlab.com/ee/subscriptions/self_managed/#prepare-for-renewal-by-reviewing-your-account)
-- [Renewing a subscription](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually)
-- [Automatic subscription renewal](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal)
+- [Preparing for renewal](https://docs.gitlab.com/subscriptions/self_managed/#prepare-for-renewal-by-reviewing-your-account)
+- [Renewing a subscription](https://docs.gitlab.com/subscriptions/self_managed/#renew-subscription-manually)
+- [Automatic subscription renewal](https://docs.gitlab.com/subscriptions/self_managed/#automatic-subscription-renewal)
 
 #### Other public docs
 
 - [Auto-renewals FAQ](https://about.gitlab.com/pricing/faq-improved-billing-and-subscription-management/#auto-renewals)
-- [Community programs renewal workflow](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#renewal)
+- [Community programs renewal workflow](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#renewal)
 
 #### Developer docs
 
@@ -192,18 +203,18 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 
 #### Related terminology
 
-- [QSR](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
-- [True-up](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
-- [Seat usage](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#how-seat-usage-is-determined)
-- [Seats owed](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#seats-owed)
+- [QSR](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/)
+- [True-up](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/)
+- [Seat usage](https://docs.gitlab.com/subscriptions/gitlab_com/#how-seat-usage-is-determined)
+- [Seats owed](https://docs.gitlab.com/subscriptions/gitlab_com/#seats-owed)
 
 #### Quarterly Subscription Reconciliation (QSR)
 
-See [public QSR documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
+See [public QSR documentation](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/).
 
 ##### QSR eligibility
 
-In addition to [documented elibiligy cases](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html#quarterly-reconciliation-eligibility), we exclude from QSRs any subscription where the Account has any of the following settings in Zuora:
+In addition to [documented elibiligy cases](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/#quarterly-reconciliation-eligibility), we exclude from QSRs any subscription where the Account has any of the following settings in Zuora:
 
 1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
 2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
@@ -219,7 +230,7 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnSeat
    2. `Subscription.ContractSeatReconciliation__c` variable is set to Yes.
 2. Usage data is gathered daily via Cloud Licensing (SM/Dedicated) of the namespace API (gitlab.com)
 
-Other details available in [QSR invoicing and payment docs](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html#quarterly-invoicing-and-payment).
+Other details available in [QSR invoicing and payment docs](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/#quarterly-invoicing-and-payment).
 
 **How individual automated reconciliation works:**
 
@@ -273,7 +284,7 @@ As of 2023-05-22, SFDC Opportunities created for QSR have 2 new fields populated
 
 ##### Additional documentation
 
-- [Customer-facing documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
+- [Customer-facing documentation](https://docs.gitlab.com/subscriptions/quarterly_reconciliation/)
 - [Finance team's documentation about QSR refunds and escalations](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/WIP%20Quarterly%20Subscription%20Reconciliation%20Escalation#quarterly-subscription-reconciliation-process-post-billing)
 - [Process illustrations](https://gitlab.com/groups/gitlab-org/-/epics/5560#illustration)
 
@@ -283,7 +294,7 @@ As of 2023-05-22, SFDC Opportunities created for QSR have 2 new fields populated
 
 ## CustomersDot Admin Panel
 
-The target audience is the internal GitLab team, and covers the [admin panel](https://customers.gitlab.com/admin/) of the [Customers Portal](https://customers.gitlab.com). Customers or subscription managers should refer to the [Customers](https://docs.gitlab.com/ee/subscriptions/) section of GitLab's user documentation for help in using the portal, or the [licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) for questions on subscriptions such as how users are counted.
+The target audience is the internal GitLab team, and covers the [admin panel](https://customers.gitlab.com/admin/) of the [Customers Portal](https://customers.gitlab.com). Customers or subscription managers should refer to the [Customers](https://docs.gitlab.com/subscriptions/) section of GitLab's user documentation for help in using the portal, or the [licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) for questions on subscriptions such as how users are counted.
 
 ### Log in
 
@@ -326,7 +337,7 @@ If you want to update the physical address of the customer or other details, you
 
 1. In the  desired customer's detail view, click on `Impersonate`.
 1. You are now get redirected to impersonate the user.
-1. Follow the [user documentation on updating details](https://docs.gitlab.com/ee/subscriptions/#change-your-personal-details).
+1. Follow the [user documentation on updating details](https://docs.gitlab.com/subscriptions/#change-your-personal-details).
 
 #### Deactivate login for a customer
 
@@ -580,7 +591,7 @@ This [video tutorial](https://gitlab.edcast.com/insights/card-e7589a95-0229-4d20
 
 ### License Seat Links
 
-The `License seat links` page in CustomersDot provides visibility into current usage and version data for Self Managed customers on [Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) or [Offline Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/#offline-cloud-licensing). One record is created for each data sync, representing point-in-time data that can help to show changes in usage over time or the date that a customer exceeded a certain seat count. For Cloud License enabled customers, a record will be created once per day as part of [License Sync](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data-synchronization). For Offline License enabled customers, a record is created whenever the customer manually submits their usage data to GitLab, which is requested at a cadence of once per month.
+The `License seat links` page in CustomersDot provides visibility into current usage and version data for Self Managed customers on [Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) or [Offline Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/#offline-cloud-licensing). One record is created for each data sync, representing point-in-time data that can help to show changes in usage over time or the date that a customer exceeded a certain seat count. For Cloud License enabled customers, a record will be created once per day as part of [License Sync](https://docs.gitlab.com/subscriptions/self_managed/#subscription-data-synchronization). For Offline License enabled customers, a record is created whenever the customer manually submits their usage data to GitLab, which is requested at a cadence of once per month.
 
 On this page, you can search by `Company`, `Subscription name`, or `Hostname` to see all license usage for a specific customer. The following metrics are reported with each sync:
 
@@ -632,8 +643,175 @@ It is important to know who received the license for further troubleshooting as 
 
 ##### References
 
-- [Troubleshooting: Licenses](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/#licenses)
-- [Changing License Owner (Contact Support)](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/#how-do-i-change-the-license-owner-for-self-managed-instances-with-licensegitlab)
+- [Troubleshooting: Licenses](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/#licenses)
+- [Changing License Owner (Contact Support)](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/#how-do-i-change-the-license-owner-for-self-managed-instances-with-licensegitlab)
+
+## Fulfillment Support Admin Tooling
+
+*Last updated: May 21, 2025*
+
+### Overview
+
+This document describes the Support Admin features that have been migrated from [mechanizer](https://gitlab.com/gitlab-com/support/toolbox/mechanizer) to the CustomersDot admin dashboard. These tools provide essential functionality for the Support Licensing & Renewals (L&R) team.
+
+**Current Status**: Migration is nearly complete, with the final function ([extend soon-to-expire SaaS subscriptions](https://gitlab.com/groups/gitlab-org/-/epics/17745)) being implemented in production.
+
+- For detailed information on the phased migration approach, see [Epic #14169](https://gitlab.com/groups/gitlab-org/-/epics/14169)
+
+### Access Requirements
+
+The Support Admin features are currently limited to select members of the L&R support team, with plans to expand access.
+
+#### Required Permissions
+
+To access these functions, you need to be part of the following Google group:
+
+- **Production environment**: `okta-cdot-prod-support-admins`
+- **Staging environment**: `okta-cdot-stg-support-admins`
+
+#### How to Request Access
+
+1. Submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=role_support-CDot-full-access-request-template)
+2. Select template `role_support-CDot-full-access-request-template` (above link auto-applies the template)
+3. Obtain approval from Support team managers
+4. Obtain approval from Fulfillment team managers (`@jameslopez` / `@rhardarson` / `@dzubova`)
+5. For access to Production, please add yourself to `okta-cdot-stg-support-admins` Google group, and `okta-cdot-prod-support-admins` for access to Staging
+
+**Note**: With the Support role, admins will get access to edit and extend SaaS trials, create self-managed emergency licenses and perform various controls on SaaS paid namespaces as listed in the section below.
+Customer and License write access is not required to use the Support admin functionalities. The admins will get read-only access to other resources, by default.
+
+### Feature Navigation
+
+All Support Admin features are accessible via the **Support** menu in the CustomersDot admin interface:
+
+- Production: https://customers.gitlab.com/admins/sign_in
+- Staging: https://customers.staging.gitlab.com/admins/sign_in
+
+### Available Features
+
+#### 1. Trial Management (SaaS)
+
+Location: `Support` → `Trial changes (SaaS)`
+
+This feature replaces the UpdateGitlabplan function in Mechanizer for .com trials and supports:
+
+1. Editing plan type and expiration date for active/expired trials
+2. Canceling active trial plans
+
+##### Edit a SaaS Trial
+
+1. Click the pencil icon to open the edit view for a trial
+2. Modify the trial end date (if applicable)
+3. Select a different trial type from the dropdown list (if applicable)
+4. Enter the Zendesk ticket link
+5. Click 'Save'
+
+##### Cancel a SaaS Trial
+
+1. Click the no-entry icon to open the cancel view for a trial
+2. Enter the Zendesk ticket link
+3. Click 'Confirm'
+
+#### 2. Self-Managed Trial Licenses
+
+Location: `Support` → `Trials for SM`
+
+This feature replaces the Emergency license function in Mechanizer for SM trials.
+
+##### Generate a Self-Managed Legacy Trial License
+
+1. Click on the `Add new License` tab
+2. Enter the required details:
+    - User email
+    - User count
+    - Start date
+    - End date
+    - Zendesk ticket link
+3. Click 'Save'
+4. An email containing the legacy license will be sent to the provided email address
+
+#### 3. Namespace Controls
+
+Location: `Support` → `Namespace controls (SaaS)`
+
+This section provides various namespace management features:
+
+##### 3.1 Set Extra CI Minutes
+
+**Purpose**: Set a specific number of extra shared runners CI minutes for a GitLab namespace
+
+**Important**: The value entered will be the new total, not added to the existing value
+
+**Steps:**
+
+1. Select `Set extra CI minutes` tab
+2. Enter Namespace ID or Path
+3. Enter the new total for extra minutes
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.2 Set Additional Storage
+
+**Purpose**: Set additional storage capacity for a GitLab namespace
+
+**Steps:**
+
+1. Select `Set additional storage` tab
+2. Enter Namespace ID or Path
+3. Enter the additional storage in MiB
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.3 Clear Subscription
+
+**Purpose**: Unlink a subscription from its namespace and downgrade the namespace to Free tier
+
+**Steps:**
+
+1. Select `Clear subscription` tab
+2. Enter Zuora Subscription ID or Name
+3. Enter the Zendesk ticket link
+4. Click 'Submit'
+
+##### 3.4 Force Re-associate
+
+**Purpose**: Re-associate a subscription with a different namespace (the previous namespace will be downgraded to Free tier)
+
+**Steps:**
+
+1. Select `Force re-associate` tab
+2. Enter target Namespace ID or Path
+3. Enter Zuora Subscription ID or Name
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.5 Reset Max Seats
+
+**Purpose**: Reset the maximum seat count for a namespace
+
+**Steps:**
+
+1. Select `Reset max seats` tab
+2. Enter Namespace ID or Path
+3. Enter new maximum seat count
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.6 Extend Subscription
+
+**Purpose**: Temporarily extend soon-to-expire subscriptions
+
+**Current Limitation**: If the namespace has been associated with a trial, you'll be redirected to extend the trial to provision a temporary extension
+
+**Future Development**: Support for extending subscriptions for namespaces without previous trials is being implemented in [Issue #12874](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/12874)
+
+### Future improvements / Bug fixes
+
+For future improvements or bug fixes, please create issues in [CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/new), and tag the appropriate team:
+
+1. Trial, license & namespace tooling > Provision
+2. Consumables & max seat tooling > Utilization
+3. Billing account/contact & QSR tooling > Subscription management
 
 ## Action plan for Fulfillment-impacting bugs
 
@@ -667,13 +845,13 @@ The following individuals should be looped into the issue, depending on the impa
 
 **What type of connection does the GitLab instance require to activate Cloud Licensing?**
 
-The instance would need to have a 443 port connection to customers.gitlab.com in order to activate. This is also used for license synchronization as outlined in [our documentation here](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data-synchronization).
+The instance would need to have a 443 port connection to customers.gitlab.com in order to activate. This is also used for license synchronization as outlined in [our documentation here](https://docs.gitlab.com/subscriptions/self_managed/#subscription-data-synchronization).
 
 ### Data collection
 
 **Can customers opt out of telemetry or sharing license sync data?**
 
-The data transmitted with Cloud License is covered in [this documentation](https://docs.gitlab.com/ee/subscriptions/self_managed/#license-sync). In short, it's aggregate user counts and some license metadata. This data is required for Cloud Licensing. It's intended to only include necessary data to support our needs for administering a license, supporting future renewals, supporting add-ons, and any seat reconciliations.
+The data transmitted with Cloud License is covered in [this documentation](https://docs.gitlab.com/subscriptions/self_managed/#license-sync). In short, it's aggregate user counts and some license metadata. This data is required for Cloud Licensing. It's intended to only include necessary data to support our needs for administering a license, supporting future renewals, supporting add-ons, and any seat reconciliations.
 
 You can look at sample code that generates the counts by searching for `subscription` events in [metrics.gitlab.com](https://metrics.gitlab.com/).
 
@@ -682,7 +860,7 @@ You can look at sample code that generates the counts by searching for `subscrip
 Our [service usage data](/handbook/legal/privacy/customer-product-usage-information/) primarily aggregate counts from your instance (e.g. counts of issues or MRs) and is sent to GitLab on a weekly (or slower) cadence.
 
 1. Operational Data: This is the data that is tied to your subscription account/license. Our goal with this data is to capture aggregate counts to help the GitLab Customer Success and Sales teams help customers better adopt GitLab and get value out of their investment. Those counters can be viewed on metrics.gitlab.com by searching for "operational" and looking for the operational category. These operational events are agnostic of how you've activated your instance.
-2. Optional Data: [Optional Data](https://metrics.gitlab.com/?q=optional) is a similar type of metric (aggregate counts) but a much larger set than the Operational metrics. This is configured/opted-out by you, in your instance, and has nothing to do with your subscription. If you choose to share that data our Product teams would appreciate the insights to understand where to invest R&D resources to continue to mature our platform. Otherwise, you can ignore for your renewal and follow the opt-out steps documented [here](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/#disable-service-ping).
+2. Optional Data: [Optional Data](https://metrics.gitlab.com/?q=optional) is a similar type of metric (aggregate counts) but a much larger set than the Operational metrics. This is configured/opted-out by you, in your instance, and has nothing to do with your subscription. If you choose to share that data our Product teams would appreciate the insights to understand where to invest R&D resources to continue to mature our platform. Otherwise, you can ignore for your renewal and follow the opt-out steps documented [here](https://docs.gitlab.com/development/internal_analytics/service_ping/#disable-service-ping).
 
 **Can a customer send subscription data ad-hoc, while keeping their GitLab instance airgapped/not connected to the internet?**
 

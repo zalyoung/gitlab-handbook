@@ -142,7 +142,7 @@ This short questionnaire below should help you in quickly deciding if you should
 
 If the change is doing one or more of the following:
 
-1. Processing, storing, or transferring any kind of [RED or ORANGE data]({{< ref "data-classification-standard" >}})
+1. Processing, storing, or transferring any kind of [RED or ORANGE data](/handbook/security/standards/data-classification-standard/)
 1. If your changes have a goal which requires a **cryptographic function** such as: confidentiality, integrity, authentication, or non-repudiation, it *should* be reviewed by the [application security team](https://gitlab.com/gitlab-com/gl-security/product-security/appsec).
 1. Deployment of a customer facing application into a new environment
 1. Changes to an existing security control
@@ -150,7 +150,7 @@ If the change is doing one or more of the following:
 1. A new authentication mechanism
 1. Adding code that touches the authentication model, tokens or sessions
 1. Dealing with user supplied data
-1. Touching cryptography functions, see the [GitLab Cryptography Standard]({{< ref "cryptographic-standard" >}}) for more details
+1. Touching cryptography functions, see the [GitLab Cryptography Standard](/handbook/security/standards/cryptographic-standard/) for more details
 1. Touching the permission model
 1. Implement new security controls (i.e. new library for a specific protection, HTTP header, ...)
 1. Exposing a new API endpoint, or modifying an existing one
@@ -160,8 +160,8 @@ If the change is doing one or more of the following:
    - validate user supplied data
    - make decisions related to authorisation and authentication
 
-1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
-1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
+1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard](/handbook/security/standards/data-classification-standard/) for more details
+1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard](/handbook/security/standards/data-classification-standard/) for more details
 
 You should engage `@gitlab-com/gl-security/product-security/appsec`.
 
@@ -177,7 +177,7 @@ These reviews are intended to be faster, more lightweight, and have a lower barr
 
 #### Larger scale initiatives
 
-To get started, create an issue in the [internal application security reviews repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/issues) using the [Appsec Review template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/issues/new?issueable_tempalte=AppSec%20Review). The complete process can be found at [here](/handbook/security/product-security/application-security/appsec-reviews.html).
+To get started, create an issue in the [internal application security reviews repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/issues) using the [Appsec Review template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/issues/new?issueable_tempalte=AppSec%20Review). The complete process can be found at [here](/handbook/security/product-security/application-security/appsec-reviews/).
 
 Some use cases of this are for epics, milestones, reviewing for a common security weakness in the entire codebase, or larger features.
 
@@ -198,7 +198,7 @@ To help speed up a review, it's recommended to provide any or all of the followi
 
 ### What does the security process look like?
 
-The current process for larger scale internal application security reviews be found [here]({{< ref "appsec-reviews" >}})
+The current process for larger scale internal application security reviews be found [here](/handbook/security/product-security/application-security/appsec-reviews/)
 
 ### My changes have been reviewed by security, so is my project now secure?
 
@@ -213,3 +213,42 @@ If you are using third party libraries make sure that:
 1. You use the latest stable and available version
 1. Your team has the ability to support and upgrade this library as security patches are published
 1. The maintainer has a security policy
+
+### MR Review guidelines
+
+When concluding a review of a Merge Request make sure you document what you covered,
+and what your conclusions on the reviewed items were.
+
+Having a summary of your steps taken, concerns and coverage helps collaboration with
+other reviewers.
+
+1. **Coverage**: Clearly outline what aspects of the code you have reviewed. This may include:
+   - Specific files or modules examined
+   - Functionality changes assessed
+   - Security implications considered
+
+2. **Steps Taken**: Provide a brief overview of your review process, such as:
+   - Code reading and analysis
+   - Local testing or code execution
+   - Use of any automated tools or linters
+   - Cross-referencing with related issues or documentation
+
+3. **Concerns and Observations**: Document any issues, potential problems, or areas for improvement you've identified during the review. This could include:
+   - Security vulnerabilities
+   - Code quality issues
+   - Potential bugs or edge cases
+   - Suggestions for optimization
+
+4. **Conclusions**: Summarize your overall assessment of the reviewed items, including:
+   - Whether the changes meet the intended requirements
+   - Any blockers or critical issues that need addressing
+   - Recommendations for further actions or improvements
+
+By providing a comprehensive summary of your review process, concerns, and coverage, you facilitate:
+
+- Improved collaboration with other reviewers
+- Easier follow-up on identified issues
+- A clear record of the review process for future reference
+- More efficient resolution of any concerns or questions raised during the review
+
+A well-documented MR review not only helps in the immediate code review process but also contributes to the overall quality and maintainability of the project in the long run.

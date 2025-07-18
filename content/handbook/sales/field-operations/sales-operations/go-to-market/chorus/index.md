@@ -16,7 +16,7 @@ Log into Chorus by clicking on the Chorus SSO tile in your [Okta dashboard](http
 
 - Please familiarize yourself with [GitLab's SAFE Framework](/handbook/legal/safe-framework/) before utilizing Chorus.
 
-- All ROW team members are required to complete the [Chorus GDPR Training](https://gitlab.edcast.com/insights/chorus-ai-compliance) in order to be granted Recorder access. SalesOps will provide team members with the link to the EdCast Chorus training once their [Baseline Role-Based Entitlement](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/) is submitted by their manager.
+- All ROW team members are required to complete the [Chorus GDPR Training](https://gitlab.edcast.com/insights/chorus-ai-compliance) in order to be granted Recorder access. SalesOps will provide team members with the link to the EdCast Chorus training once their [Baseline Role-Based Entitlement](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/) is submitted by their manager.
 
   - Once the team member has completed training, they will notify SalesOps to have their license updated to a Recorder license in Chorus.
   - SalesOps will verify course completion via an [EdCast report](https://edcast-536.domo.com/page/1681897168/kpis/details/58622395).
@@ -81,11 +81,11 @@ Managers can submit an issue in the [Sales Operations project](https://gitlab.co
 - All SDR/BDR team members
 - All Public Sector team members
 - All GitLab team members in non-customer facing roles including, but not limited to, those in Operations roles and all Managers regardless of their org
-- GitLab team members may request Listener access through an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) which may be granted on a case by case basis
+- GitLab team members may request Listener access through an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/#how-do-i-choose-which-template-to-use) which may be granted on a case by case basis
 
 ## Why is My Meeting "Livestreamed"?
 
-![live-on-zoom](/handbook/sales/field-operations/sales-operations/go-to-market/chorus/live-on-zoom.png)
+![live-on-zoom](/images/sales/field-operations/sales-operations/go-to-market/chorus/live-on-zoom.png)
 
 The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefore neither Chorus nor GitLab can make changes to the text.
 
@@ -111,12 +111,12 @@ The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefor
   - How to explain why Chorus is there and why it is recording
 - [Security & Compliance](https://www.chorus.ai/trust)
   - Share this with customers as needed
-- [Chorus FAQs](https://help.zoominfo.com/)
+- [Chorus FAQs](https://help.zoominfo.com/s/)
 - [Chorus YouTube Channel](https://www.youtube.com/c/Chorus_ai/videos)
 
 ## Chorus.ai Advanced Usage
 
-- [Chorus Release Notes](https://view.highspot.com/viewer/61faa9016e6856ecc10ce41d)
+- Chorus Release Notes (no longer available)
 - [Chorus Integrations](https://help.zoominfo.com/s/article/Overview-of-Chorus-Screen-Share-Providers)
 
 For additional assistance regarding Chorus, please reach out in the #chorus-users Slack channel.

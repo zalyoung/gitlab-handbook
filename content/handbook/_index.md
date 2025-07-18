@@ -23,12 +23,6 @@ information we also maintain an [Internal Handbook](https://internal.gitlab.com/
 
 ## Handbook Contents
 
-{{< cardpane >}}
-
-{{< card >}}
 {{< handbook-data-toc >}}
-{{< /card >}}
-
-{{< /cardpane >}}
 
 {{% include "includes/take-gitlab-for-a-spin.md" %}}

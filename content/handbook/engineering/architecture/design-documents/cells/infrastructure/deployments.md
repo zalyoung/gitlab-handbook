@@ -9,7 +9,7 @@ approvers: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 Disclaimer: This blueprint requires more cross-functional alignment - **Confidence Level:** Low
 
@@ -514,6 +514,13 @@ We should aim to deploy to Cells as quickly as possible. For all Cells that exis
 
 Rings outside of the perimeter are self-managed by the orchestration engine. Once `release-tools` graduates a package it can forget about it. The orchestration engine will converge the desired GitLab version to all Cell in Ring 2, the first ring outside of the perimeter, and move to next ring only when all Cells converged.
 
+#### Select Helm Chart Updates
+
+Currently, Instrumentor uses the default behavior of the GitLab Environment Toolkit to infer which version of our Helm Chart shall be utilized.
+This is not suitable for Cells as .com currently leverages unpublished versions of our Helm chart for testing or dogfooding prior to release.
+To keep feature parity in Cells, we'll need to add this capability in Dedicated Stack.
+A blueprint to discuss and drive toward implementation of this feature has been proposed in Dedicated's team blueprints [Enabling Prerelease Helm Chart Selection](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/cell-chart-enhancement.html)
+
 ### FAQ
 
 **Will Developers see indicators on MR's as they are deployed to various Cells?**
@@ -523,7 +530,7 @@ No. Our current labeling schema is primarily to showcase that the commit landed 
 **A P1/S1 issue exists, how do we mitigate this on Cells?**
 
 Cells are still a part of .com, thus our existing
-[bug](../../../infrastructure/engineering-productivity/issue-triage/#severity-slos)
+[bug](/handbook/product-development/how-we-work/issue-triage/#severity-slos)
 and [vulnerability](../../../../security/threat-management/vulnerability-management/#remediation-slas)
 SLA's for remediation apply. We can deploy whatever we want to Cells
 so long as it's considered `graduated`. If a high priority issue comes about, we

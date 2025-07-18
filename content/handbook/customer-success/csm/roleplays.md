@@ -17,7 +17,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
   - "Green Grass Medical" scenario
     - [Background info](https://gitlab.edcast.com/pathways/tam-building-success-plans/cards/922704)
     - This roleplay is part of the "CSM Building Success Plans" EdCast course
-- [Stage expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/)
+- [Stage expansion](/handbook/customer-success/csm/workshops/)
   - Secure
     - [Customer info sheet](https://docs.google.com/document/d/1F1nMI42KaYR_NRWvH2fodtIaPDgYdNBt4h0VQ35uO_8/edit#heading=h.fk9zhpvfaoqp)
     - [CSM info sheet](https://docs.google.com/document/d/1ol-AV5LyQui_Lnfmw-qK_MRER1IFxT8TQLL3EANxURk/edit)

@@ -23,23 +23,23 @@ For more information on email marketing at GitLab, please visit the following pa
 * [Best practices](/handbook/marketing/lifecycle-marketing/email-best-practices/),
 * [Email processes and requests](/handbook/marketing/lifecycle-marketing/email-processes-requests/)
 
-Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
+Please reach out to Allie Klatzkin or Alison Lee with any questions.
 
 ### Meet the Team
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-**Allie Klatzkin** _Manager, Lifecycle Marketing_
+**Allie Klatzkin** _Manager and Team Lead, Lifecycle Marketing_
 
-* **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
-* **Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
-* **Duo Pro Campaigns**: DRI for email campaigns related to our AI product
-* **Intelligent Nurture - Buyer / User Personas**: DRI for organization of new content additions to the intelligent nurture, build of new streams within the nurture architecture in collaboration with marketing operations
-* **Customer MVCs**: (connection with Dir. Digital Success on CS Ops side)
+* **Buyer / User Persona Nurture**: DRI for organization of new content additions to the intelligent nurture, build of new streams within the nurture architecture in collaboration with marketing operations
+* **Action Streams**: Develop and build lifecycle's strategy for interest based action streams
+* **GitLab Ultimate + Duo Enterprise Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
 * **Calendaring and stakeholder conversations (DRI)**: Lead weekly email calendar conversations to ensure we are prioritizing our email sends per audience
 * **Email Templates**: define needs, organize design, and manage development and testing of new email templates
 * **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
 * **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences.
 * **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
+* **Localization**: Owning the translation and localization strategy for email, building new nurtures for prospects
+* **PubSec Nurture**: Rebuild the nurture to educate leads on the value of GitLab for the Public Sector and ultimately generate MQLs
 
 **Alison Lee** _Senior Customer Lifecycle Marketing Manager_
 
@@ -50,16 +50,26 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 * Map GitLab’s customer lifecycle stages and create strategic initiatives for each stage of the customer journey, which include onboarding, expansion, and retention
 * Identify key measurable metrics (SKU upsell, license expansion, churn prevention, etc.) that these lifecycle programs can effectively influence
 * Build and maintain relationships with Product Marketing, Developer Relations, and Sales. Establish feedback loops to ensure messaging in our campaigns is accurate, differentiated, and meaningful to our target personas
-
-**Luis Diego D'Ambrosio** _Senior Lifecycle Marketing Manager_
-
-* **Intelligent Nurture**: DRI for organization of new content additions to the intelligent nurture, build of new streams within the nurture architecture in collaboration with marketing operations
-* **Communication of Nurture Updates**: regularly update the larger marketing team about updates to the Intelligent Nurture
-* **Email point of contact/support**: Reviewing and optimizing EMEA & APAC events (fmm & corp) and campaigns sends to ensure best practices and compliance with the GitLab brand
-* **GitLab 16**: Creating the promotional and follow-up email plans for the GitLab 16 launch event
-* **Localization within emails**: Owning the translation and localization strategy for email
-* **Calendaring and stakeholder conversations (Supporting)**: Assist in the calendaring conversations led by @aklatzkin and be back-up in case of OOO
+* **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
+* **Duo Pro & Duo Enterprise Campaigns**: DRI for email campaigns related to our AI product
 * **Re-engagement nurture**: Develop and implement strategy for re-engagement email nurture
+* **Email point of contact/support**: Reviewing and optimizing AMER & APAC events (fmm) and campaigns sends to ensure best practices and compliance with the GitLab brand
+
+**Christian Baun** _Lifecycle Marketng Manager_
+
+* Manage updates/optimizations to our existing Persona nurture and PubSec nurtures
+* Support localized nurture programs for prospects
+* **Own MM+ transformation of trial nurture**: Pivot self-serve to focus on business trials: optimize for high-value biz trials and reduce wasted spend on low-ROI trials starts with personal emails. 
+* Prospect lifecycle strategy / conversion (enterprise, mm)
+* Manage updates/optimizations to our existing Persona nurture, PubSec nurtures, and FinServ nurtures
+* Ongoing maintenance/optimization of global prospect campaigns post launch (recycled leads nurture, industry nurtures)
+* Support localized nurture programs for prospects
+* Regional/event email reviews for EMEA/APAC
+* Email Templates: manage development and testing of new and existing email templates
+* Epic Conference (formerly DevSecOps World Tour)
+* **Own MM+ transformation of trial nurture**: Pivot self-serve to focus on business trials: optimize for high-value biz trials and reduce wasted spend on low-ROI trials starts with personal emails. 
+* **Email Templates**: manage development and testing of new and existing email templates, using Marketo's builder, or BeeFree
+* **Email point of contact/support**: Reviewing and optimizing EMEA, AMER, and APAC events (fmm) and campaigns sends to ensure best practices and compliance with the GitLab brand
 
 ## Communication
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -216,58 +226,6 @@ Team manager completes daily review of [lifecycle marketing issues in triage](ht
 ```
 
 This will change the status to wip (work in progress), allow quick assignment and add to the appropriate milestone.
-
-### Milestones
-
-The lifecycle marketing team uses the overall 2-week marketing milestones (format of [Mktg: YYYY-MM-DD](https://gitlab.com/groups/gitlab-com/-/milestones?utf8=%E2%9C%93&search_title=mktg%3A+&state=&sort=)) to organize, prioritize, and balance campaigns, projects, and requests.
-
-* The date in the milestone name is the END date of miltesone (Sunday)
-* Note: Use of milestones was introduced to the campaigns and lifecycle team as of 2020-07-21.
-* If issues in a milestone are not closed out by end of milestone, they are pulled to the next milestone. We will document **total issues** and **total weight** moved, to understand relative commitment levels and avoid overcommitment as we begin using milestones.
-
-### Boards and Lists
-
-#### Boards
-
-<b>[Lifecycle Marketing Team Current Milestone](https://gitlab.com/groups/gitlab-com/-/boards/1884920?milestone_title=%23started&&label_name[]=dg-campaigns)</b> - this board provides a high-level status view of issues in the current milestone by team member.
-
-<b>[All Milestones Board](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791?milestone_title=Any%20Milestone&label_name[]=mktg-demandgen)</b> - this board provides high level of all milestones in consecutive order
-
-<b>[Lifecycle email - copy needs review](https://gitlab.com/groups/gitlab-com/marketing/-/boards/7146189?label_name[]=Lifecycle%3A%3A%2001%20Needs%20Copy%20Review)</b>
-
-<b>[Lifecycle email - layout needs review](https://gitlab.com/groups/gitlab-com/marketing/-/boards/7181554?label_name[]=Lifecycle%3A%3A%2003%20Email%20Layout%20Needs%20Approval)</b>
-
-##### Board View Priorities Current Milestone
-
-* [All Team Members Priorities Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791)
-* [Luis Diego D'Ambrosio Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/2574635?scope=all&milestone_title=%23started&assignee_username=dambrold)
-* [Allie Klatzkin Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/2574635?scope=all&milestone_title=%23started&assignee_username=aklatzkin)
-
-##### Board View by Milestone
-
-* [All Team Members Priorities Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/2574635?milestone_title=%23started)
-* [Luis Diego D'Ambrosio by Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791?scope=all&label_name[]=mktg-demandgen&assignee_username=dambrold)
-* [Allie Klatzkin by Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791?label_name[]=mktg-demandgen&assignee_username=Aklatzkin&milestone_title=Any%20Milestone)
-
-##### Board View Current Mile by Team Members
-
-* [Current Milestone by Team Members](https://gitlab.com/groups/gitlab-com/-/boards/1948068?milestone_title=%23started&label_name[]=dg-campaigns)
-* [Upcoming MIlestone by Team Members](https://gitlab.com/groups/gitlab-com/-/boards/1948068?scope=all&label_name[]=dg-campaigns&milestone_title=%23upcoming)
-
-#### Lists
-
-##### Issue List Current Mile by Team Member
-
-* [All Team Members Current Milestone](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&state=opened&milestone_title=%23started)
-* [Luis Diego D'Ambrosio Current Milestone](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&state=opened&milestone_title=%23started&assignee_username[]=dambrold)
-* [Allie Klatzkin Current Milestone](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&state=opened&milestone_title=%23started&assignee_username[]=aklatzkin)
-
-##### Issues by Status
-
-* [Issues in triage status (campaigns)](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-status%3A%3Atriage)
-* [Issues in blocked status (campaigns)](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-status%3A%3Ablocked)
-* [Issues in ready-to-build status (campaigns)](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-status%3A%3Aready-to-build)
-* [Issues in plan status (campaigns)](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-status%3A%3Aplan)
 
 ### Key Resources
 

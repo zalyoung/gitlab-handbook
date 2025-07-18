@@ -49,7 +49,8 @@ In total, 14 team members from across the Engineering organization will be recog
 1. **Cost Savings Award** - awarded to individuals who significantly contribute towards reducing costs
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
-1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps enviornment for everyone
+1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps environment for everyone
+1. **Hiring Efficiency Award** - awarded to individuals who made a significant contribution to hiring efforts. This award is determined by interview data that is pulled by the recruiting team. If you would like to share your hiring observations for a nominee, you can send them to Jack Connors who will include your observations in the decision making process. 
 
 #### Engineering Excellence
 
@@ -90,83 +91,123 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 
 ## Engineering Quarterly Achievers Past Winners
 
-These are the past award winners. The quarter indicated is the quarter the award was announced. The award itself covers work completed the *previous* quarter.
+These are the past award winners. The quarter indicated covers work completed that quarter. 
 
-### FY24-Q4
-
-| Quarter | Category | Award | Winner |
-| --- | --- | --- | --- |
-| FY24-Q4 | Efficiency | Best Blueprint Proposal | Samil Hiltunen |
-| FY24-Q4 | Efficiency | Cost Savings | Rehab Hassanein |
-| FY24-Q4 | Efficiency | Software Efficiency | Adam Hegyi |
-| FY24-Q4 | Efficiency | Proactive Avoidance | Marius Bobin |
-| FY24-Q4 | Excellence | Engineering Excellence | Jason Plum |
-| FY24-Q4 | Excellence | Excellence Under Pressure | Corinna Gogolok |
-| FY24-Q4 | Excellence | Testing Excellence | **Not Awarded** |
-| FY24-Q4 | Excellence | Most Impactful MR or Doc Update | Simon Street |
-| FY24-Q4 | Excellence | Everyone-can-contribute | John Lyttle |
-| FY24-Q4 | Customer Results | Customer Centered Individual | Daphne Kua |
-| FY24-Q4 | Customer Results | Customer Kudos | Suleimi Ahmed |
-| FY24-Q4 | Customer Results | Performance and Scalability | Brie Carranza & Matthew Badeau |
-| FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
-
-### FY25-Q1
+### FY25-Q4
 
 | Quarter | Category | Award | Winner |
 | --- | --- | --- | --- |
-| FY25-Q1 | Efficiency | Best Blueprint Proposal | **Not Awarded** |
-| FY25-Q1 | Efficiency | Cost Savings | Tomasz Maczukin |
-| FY25-Q1 | Efficiency | Software Efficiency | **Not Awarded** |
-| FY25-Q1 | Efficiency | Proactive Avoidance | Andreas Brandl |
-| FY25-Q1 | Efficiency | Security Improvement | David Fernandez |
-| FY25-Q1 | Excellence | Engineering Excellence | **Not Awarded** |
-| FY25-Q1 | Excellence | Excellence Under Pressure | Matt Smiley |
-| FY25-Q1 | Excellence | Testing Excellence | Mark Lapierre |
-| FY25-Q1 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
-| FY25-Q1 | Excellence | Everyone-can-contribute | John Skarbek |
-| FY25-Q1 | Customer Results | Customer Centered Individual | Samir Hafez |
-| FY25-Q1 | Customer Results | Customer Kudos | Jio Castillo |
-| FY25-Q1 | Customer Results | Performance and Scalability | Sylvester Chin |
-| FY25-Q1 | Customer Results | Contribution to Sales or Renewal | Cameron Swords |
-
-### FY25-Q2
-
-| Quarter | Category | Award | Winner |
-| --- | --- | --- | --- |
-| FY25-Q2 | Efficiency | Best Blueprint Proposal | Alessio Caiazza |
-| FY25-Q2 | Efficiency | Cost Savings | **Not Awarded** |
-| FY25-Q2 | Efficiency | Software Efficiency | Dylan Griffith |
-| FY25-Q2 | Efficiency | Proactive Avoidance |  Matt Smiley |
-| FY25-Q2 | Efficiency | Security Improvement | **Not Awarded** |
-| FY25-Q2 | Excellence | Engineering Excellence | Anton Smith |
-| FY25-Q2 | Excellence | Excellence Under Pressure | Craig Miskell |
-| FY25-Q2 | Excellence | Testing Excellence | Jay McCure |
-| FY25-Q2 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
-| FY25-Q2 | Excellence | Everyone-can-contribute | Manoj Memana Jayakumar |
-| FY25-Q2 | Excellence | Interviewing Excellence | Peter Hegman |
-| FY25-Q2 | Customer Results | Customer Centered Individual | Patrick Bajao |
-| FY25-Q2 | Customer Results | Customer Kudos | Kaitlyn Chappell |
-| FY25-Q2 | Customer Results | Performance and Scalability | Chance Feick |
-| FY25-Q2 | Customer Results | Contribution to Sales or Renewal | Erika Miklós |
+| FY25-Q4 | Efficiency | Best Design Proposal | Himanshu Kapoor |
+| FY25-Q4 | Efficiency | Cost Savings | **Not Awarded** |
+| FY25-Q4 | Efficiency | Software Efficiency | **Not Awarded** |
+| FY25-Q4 | Efficiency | Proactive Avoidance | **Not Awarded** |
+| FY25-Q4 | Efficiency | Security Improvement | **Not Awarded** |
+| FY25-Q4 | Efficiency | Hiring Efficiency | Manuel Grabowski |
+| FY25-Q4 | Excellence | Engineering Excellence | Heinrich Lee Yu |
+| FY25-Q4 | Excellence | Excellence Under Pressure | Kerri Miller |
+| FY25-Q4 | Excellence | Testing Excellence | Manoj Memana Jayakumar |
+| FY25-Q4 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q4 | Excellence | Everyone-can-contribute | Sarah Walker |
+| FY25-Q4 | Customer Results | Customer Centered Individual | **Not Awarded** |
+| FY25-Q4 | Customer Results | Customer Kudos | **Not Awarded** |
+| FY25-Q4 | Customer Results | Performance and Scalability | **Not Awarded** |
+| FY25-Q4 | Customer Results | Contribution to Sales or Renewal | Erran Carey |
 
 ### FY25-Q3
 
 | Quarter | Category | Award | Winner |
 | --- | --- | --- | --- |
-| FY25-Q3 | Efficiency | Best Design Proposal | Bob Van Landuyt |
-| FY25-Q3 | Efficiency | Cost Savings | **Not Awarded** |
-| FY25-Q3 | Efficiency | Software Efficiency | Dmitry Gruzd |
-| FY25-Q3 | Efficiency | Proactive Avoidance |  **Not Awarded** |
-| FY25-Q3 | Efficiency | Security Improvement | Brett Walker |
-| FY25-Q3 | Excellence | Engineering Excellence | Angelo Rivera |
-| FY25-Q3 | Excellence | Excellence Under Pressure | **Not Awarded** |
-| FY25-Q3 | Excellence | Testing Excellence | **Not Awarded** |
-| FY25-Q3 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q3 | Efficiency | Best Design Proposal | Andy Knight |
+| FY25-Q3 | Efficiency | Cost Savings | Gosia Ksionek |
+| FY25-Q3 | Efficiency | Software Efficiency | **Not Awarded** |
+| FY25-Q3 | Efficiency | Proactive Avoidance | Rob Hunt |
+| FY25-Q3 | Efficiency | Security Improvement | **Not Awarded** |
+| FY25-Q3 | Efficiency | Hiring Efficiency | Eduardo Bonet |
+| FY25-Q3 | Excellence | Engineering Excellence | **Not Awarded** |
+| FY25-Q3 | Excellence | Excellence Under Pressure | Andrew Newdigate |
+| FY25-Q3 | Excellence | Testing Excellence | Andrejs Cunskis |
+| FY25-Q3 | Excellence | Most Impactful MR or Doc Update | Veronica Mondo |
 | FY25-Q3 | Excellence | Everyone-can-contribute | **Not Awarded** |
-| FY25-Q3 | Customer Results | Customer Centered Individual | Terri Chu |
-| FY25-Q3 | Customer Results | Customer Kudos | Sam Bernal-Damasco|
-| FY25-Q3 | Customer Results | Performance and Scalability | **Not Awarded**|
-| FY25-Q3 | Customer Results | Contribution to Sales or Renewal | Fabian Zimmer |
+| FY25-Q3 | Customer Results | Customer Centered Individual | Michael Kozono |
+| FY25-Q3 | Customer Results | Customer Kudos | **Not Awarded** |
+| FY25-Q3 | Customer Results | Performance and Scalability | Jarka Košanová|
+| FY25-Q3 | Customer Results | Contribution to Sales or Renewal | **Not Awarded** |
+
+### FY25-Q2
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q2 | Efficiency | Best Design Proposal | Bob Van Landuyt |
+| FY25-Q2 | Efficiency | Cost Savings | **Not Awarded** |
+| FY25-Q2 | Efficiency | Software Efficiency | Dmitry Gruzd |
+| FY25-Q2 | Efficiency | Proactive Avoidance |  **Not Awarded** |
+| FY25-Q2 | Efficiency | Security Improvement | Brett Walker |
+| FY25-Q2 | Excellence | Engineering Excellence | Angelo Rivera |
+| FY25-Q2 | Excellence | Excellence Under Pressure | **Not Awarded** |
+| FY25-Q2 | Excellence | Testing Excellence | **Not Awarded** |
+| FY25-Q2 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q2 | Excellence | Everyone-can-contribute | **Not Awarded** |
+| FY25-Q2 | Customer Results | Customer Centered Individual | Terri Chu |
+| FY25-Q2 | Customer Results | Customer Kudos | Sam Bernal-Damasco|
+| FY25-Q2 | Customer Results | Performance and Scalability | **Not Awarded**|
+| FY25-Q2 | Customer Results | Contribution to Sales or Renewal | Fabian Zimmer |
+
+### FY25-Q1
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q1 | Efficiency | Best Blueprint Proposal | Alessio Caiazza |
+| FY25-Q1 | Efficiency | Cost Savings | **Not Awarded** |
+| FY25-Q1 | Efficiency | Software Efficiency | Dylan Griffith |
+| FY25-Q1 | Efficiency | Proactive Avoidance |  Matt Smiley |
+| FY25-Q1 | Efficiency | Security Improvement | **Not Awarded** |
+| FY25-Q1 | Excellence | Engineering Excellence | Anton Smith |
+| FY25-Q1 | Excellence | Excellence Under Pressure | Craig Miskell |
+| FY25-Q1 | Excellence | Testing Excellence | Jay McCure |
+| FY25-Q1 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q1 | Excellence | Everyone-can-contribute | Manoj Memana Jayakumar |
+| FY25-Q1 | Excellence | Interviewing Excellence | Peter Hegman |
+| FY25-Q1 | Customer Results | Customer Centered Individual | Patrick Bajao |
+| FY25-Q1 | Customer Results | Customer Kudos | Kaitlyn Chappell |
+| FY25-Q1 | Customer Results | Performance and Scalability | Chance Feick |
+| FY25-Q1 | Customer Results | Contribution to Sales or Renewal | Erika Miklós |
+
+### FY24-Q4
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY24-Q4 | Efficiency | Best Blueprint Proposal | **Not Awarded** |
+| FY24-Q4 | Efficiency | Cost Savings | Tomasz Maczukin |
+| FY24-Q4 | Efficiency | Software Efficiency | **Not Awarded** |
+| FY24-Q4 | Efficiency | Proactive Avoidance | Andreas Brandl |
+| FY24-Q4 | Efficiency | Security Improvement | David Fernandez |
+| FY24-Q4 | Excellence | Engineering Excellence | **Not Awarded** |
+| FY24-Q4 | Excellence | Excellence Under Pressure | Matt Smiley |
+| FY24-Q4 | Excellence | Testing Excellence | Mark Lapierre |
+| FY24-Q4 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY24-Q4 | Excellence | Everyone-can-contribute | John Skarbek |
+| FY24-Q4 | Customer Results | Customer Centered Individual | Samir Hafez |
+| FY24-Q4 | Customer Results | Customer Kudos | Jio Castillo |
+| FY24-Q4 | Customer Results | Performance and Scalability | Sylvester Chin |
+| FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Cameron Swords |
+
+### FY24-Q3
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY24-Q3 | Efficiency | Best Blueprint Proposal | Samil Hiltunen |
+| FY24-Q3 | Efficiency | Cost Savings | Rehab Hassanein |
+| FY24-Q3 | Efficiency | Software Efficiency | Adam Hegyi |
+| FY24-Q3 | Efficiency | Proactive Avoidance | Marius Bobin |
+| FY24-Q3 | Excellence | Engineering Excellence | Jason Plum |
+| FY24-Q3 | Excellence | Excellence Under Pressure | Corinna Gogolok |
+| FY24-Q3 | Excellence | Testing Excellence | **Not Awarded** |
+| FY24-Q3 | Excellence | Most Impactful MR or Doc Update | Simon Street |
+| FY24-Q3 | Excellence | Everyone-can-contribute | John Lyttle |
+| FY24-Q3 | Customer Results | Customer Centered Individual | Daphne Kua |
+| FY24-Q3 | Customer Results | Customer Kudos | Suleimi Ahmed |
+| FY24-Q3 | Customer Results | Performance and Scalability | Brie Carranza & Matthew Badeau |
+| FY24-Q3 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
 
 ---
 

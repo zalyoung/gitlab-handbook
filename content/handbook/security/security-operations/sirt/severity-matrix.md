@@ -2,11 +2,28 @@
 title: "Security Incident Severity and Priority Matrix"
 description: " "
 weight: 30
+controlled_document: true
 ---
 
-Incidents will be classified using `Priority` and `Severity` labels.  SIRT will use the criteria defined below when assigning labels and the [SIRT Escalation Guide]({{< ref "sirt#-engaging-sirt" >}}) for escalations.
+## Purpose
 
-## Priority
+The purpose of this document is to establish a standardized framework for classifying security incidents based on their severity and priority. This classification system enables the Security Incident Response Team to respond appropriately to security incidents, allocate resources effectively, and ensure consistent communication about incidents across the organization.
+
+## Scope
+
+This document applies to all security incidents affecting GitLab's infrastructure, services, applications, and data. SIRT will use the criteria defined in this document when assigning labels and will refer to the [SIRT Escalation Guide](/handbook/security/security-operations/secops-oncall/) for escalation procedures.
+
+## Roles & Responsibilities
+
+| Role | Responsibilities |
+| ----- |------------|
+| GitLab Team Members | Responsible for following the requirements in this procedure |
+| SIRT | Responsible for implementing and executing this procedure |
+| SIRT Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
+
+## Procedure
+
+### Priority
 
 The priority label is used to indicate the importance and guide the response timing of the incident. Priority labels are expected to be set based on the circumstances of the incident, number of impacted users, and affected systems.  Priority should be adjusted as the incident is worked and the conditions change.
 
@@ -18,7 +35,7 @@ The priority label is used to indicate the importance and guide the response tim
 | Low | Limited to no affected services. Actions being taken are cleanup or preventative.<br><br>A previously revoked and investigated access token has been discovered. | No action required, monitored in case the situation changes.<br><br>Updates are posted in the incident issue when needed. | \~priority::4 |
 | Eventually | False positives kept open for review, informational notices. | No action required, handled when/if SIRT has spare cycles.<br><br>Updates are posted in the incident issue when needed. | \~priority::5 |
 
-## Severity
+### Severity
 
 The severity label is used to indicate the actual or potential impact and helps determine the priority of the incident.  Severity should remain the highest level assessed once triage has been done. If it is determined the severity was inaccurately assessed, it should be updated with why the adjustment was made and how we arrived at that conclusion clearly documented in the issue comments.
 
@@ -29,7 +46,7 @@ The severity label is used to indicate the actual or potential impact and helps 
 | Moderate | Unlikely to impact production data confidentiality, integrity or availability unless multiple security controls fail or are bypassed. Current controls mitigate the initial risk. No customer impact. Or, reputational risk is moderate. | \~severity::3 |
 | Low | No risk to impact production data confidentiality, integrity or availability unless multiple security controls fail or are bypassed. Current controls are adequate. No risk of customer impact. Reputational risk is low or highly unlikely. | \~severity::4 |
 
-### Considerations for determining severity
+#### Considerations for determining severity
 
 There are a few factors we take into account when determining impact. Every time we are faced with a security incident, we evaluate the scope and exposure of the risk, the confidentiality level, and more. By doing so, we split the issue into multiple, easier to assess, sub-issues. Here are a few examples:
 
@@ -47,6 +64,7 @@ There are a few factors we take into account when determining impact. Every time
 - One particular application
 - A customer's instance
 - Your own machine
+- GitLab Critical Security Control Systems (IDS/IPS, MDMs, EDR, CDR, IAM, SIEM, network security systems, change detection mechanisms, audit logging mechanisms, automated security testing tools, segmentation controls)
 
 **Exploitability** - How easy is it to exploit the issue?
 
@@ -61,3 +79,12 @@ There are a few factors we take into account when determining impact. Every time
 - Only me
 
 The more areas of the CIA Triade that apply combined with the significance of the **Affected Surface**, **Exploitability**, and **Visibility** should be used to determine an estimated **Severity**
+
+## Exceptions
+
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
+
+## References
+
+- [Security Incident Response Guide](/handbook/security/security-operations/sirt/sec-incident-response/)
+- [SIRT Escalation Guide](/handbook/security/security-operations/secops-oncall/)

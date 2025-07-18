@@ -57,7 +57,7 @@ If you need to replace an asset source but keep the same link, you can do so fro
 
 ### Bulk upload
 
-You can [bulk upload multiple new assets](https://nook.pathfactory.com/nook/s/article/csv-upload) to the content library via a CSV file.
+You can [bulk upload multiple new assets](https://support.pathfactory.com/kb/csv-upload/) to the content library via a CSV file.
 
 1. Download this [CSV template](https://d1nk153xyqlyhl.cloudfront.net/Content_CSV_Template.csv). This CSV file has the exact format as the CSV bulk upload template.
 1. Provide all the information in the template for your new assets and save as a CSV.
@@ -141,7 +141,7 @@ Unsure what content types align with your asset? Use the table below as a guidel
 
 | Type | Use | Example |
 | ---- | --- | ------- |
-| Analyst report | Third-party content licensed from an analyst firm | [Gartner Magic Quadrant for ARO](/analysts/gartner-aro19/) |
+| Analyst report | Third-party content licensed from an analyst firm | [Gartner Magic Quadrant for ARO](https://about.gitlab.com/analysts/gartner-aro19/) |
 | Assessment | Content with the primary purpose of providing a self-assessment, quiz, or maturity model. |  |
 | Case study | Web articles that focus on the stories and opinions of GitLab customers. | [Goldman Sachs improves from 1 build every two weeks to over a thousand per day](https://about.gitlab.com/customers/goldman-sachs/) |
 | Data sheet | A document providing the specifications of GitLab the product or feature/feature set. | [GitLab data sheet](/images/press/gitlab-data-sheet.pdf) |
@@ -152,7 +152,7 @@ Unsure what content types align with your asset? Use the table below as a guidel
 | Presentation | Video recording or slides of a live talk. | [Multicloudcon Keynote: The Multicloud Maturity Model](https://www.youtube.com/watch?v=R1LWQPAXFEE) |
 | Pricing | A document that details pricing for GitLab products. | [GitLab pricing](https://about.gitlab.com/pricing/) |
 | Product article |  |  |
-| Research report | An informational report which uses a specific research metholody to validate findings. | [2019 Global Developer Survey: DevSecOps](/developer-survey/) |
+| Research report | An informational report which uses a specific research metholody to validate findings. | [2019 Global Developer Survey: DevSecOps](https://about.gitlab.com/developer-survey/) |
 | Solution article |  |  |
 | Technical blog post |  |  |
 | Testimonials | A formal statement from a customer or user regarding GitLab's value. |  |

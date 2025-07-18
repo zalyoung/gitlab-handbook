@@ -1,6 +1,7 @@
 ---
 title: Security Operations
 description: " "
+no_list: true
 ---
 
 ## Vision
@@ -9,23 +10,23 @@ Protect company property by identifying, preventing, detecting and responding to
 
 ## Mission
 
-The Security Operations department focuses on the operational aspect of security. Our department consists of experienced breakers, builders, and defenders from all walks of life and geographic locations. We are responsible for improving GitLab's security capabilities and metrics in the areas of security anomaly/event detection and incident response and abuse of GitLab.com.
+The Security Operations department focuses on the operational aspect of security. Our department consists of experienced breakers, builders, and defenders from all walks of life and geographic locations. We are responsible for improving GitLab's security capabilities, metrics in the areas of security anomaly/event detection, incident response and abuse mitigation of GitLab.com.
 
 Our department consists of:
 
-- [Senior Director, Security Operations](/job-families/security/security-leadership/#senior-director-security) - [Joaquin Fuentes](https://gitlab.com/jfuentes2)
-- [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) - Security detection engineering and incident response
-- [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
-- [Red Team]({{< ref "red-team" >}}) - Adversary emulation
-- [Threat Intelligence]({{< ref "threat-intelligence" >}}) - Actionable insights on real-world threats
+- [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) - Security incident response and forensic analysis
+- [Trust & Safety](/handbook/security/security-operations/trustandsafety/) - Prevention and mitigation of abuse of the GitLab.com platform
+- [Red Team](/job-families/security/red-team/) - Adversary emulation
+- [Threat Intelligence](/handbook/security/security-operations/threat-intelligence/) - Actionable insights on real-world threats
+- [Signals Engineering](/handbook/security/security-operations/signals-engineering/) - Detection Engineering
 
 ## Contacting Security Operations
 
-- Slack channel to interact with the Security Operations Department [#security-department](https://gitlab.slack.com/archives/CM74JMLTU)
-- The Security Operations department follows the [Security Team On-Call Rotation](/handbook/engineering/on-call/#security-team-on-call-rotation) with more details available in [Security Operations On-Call]({{< ref "secops-oncall" >}})
-- [How to Engage the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}})
+- Slack channel to interact with the Security Operations Department [#security-operations](https://gitlab.enterprise.slack.com/archives/C0477TK9RHB)
+- The Security Operations department follows the [Security Team On-Call Rotation](/handbook/engineering/on-call/#security-team-on-call-rotation) with more details available in [Security Operations On-Call](/handbook/security/security-operations/secops-oncall/)
+- [How to Engage the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/)
 
 ## Common Links
 
-- [GitLab Security Department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security)
-- [GitLab Security Operations Sub-department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security/security-operations)
+- [GitLab Security Division Group (GitLab)](https://gitlab.com/gitlab-com/gl-security)
+- [GitLab Security Operations Department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security/security-operations)

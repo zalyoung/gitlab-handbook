@@ -46,6 +46,7 @@ A successful Field Marketing Manager has substantial understanding of sales-focu
 
 ### Levels
 
+- Associate Field Marketing Manager - Entry Level
 - Field Marketing Manager - Intermediate
 - Senior Field Marketing Manager - Senior
 - Staff, Field Marketing Manager - Staff
@@ -56,6 +57,68 @@ A successful Field Marketing Manager has substantial understanding of sales-focu
 
 - Past experience running marketing to develop DACH, BENELUX, Nordics, Southern Europe, and/or UK & Ireland.
 - Robust understanding of marketing to the automotive, banking, and tech sectors.
+
+## Associate Field Marketing Manager
+
+A successful Associate Field Marketing Manager plays a critical role in executing field marketing strategies and initiatives. This role involves close collaboration with cross-functional teams, including sales, marketing, and product, to drive sales pipeline growth for our Sales and Ecosystem programs. The ideal candidate thrives in taking ownership of regional marketing programs, excels in detailed planning, and maintains proactive communication. Reporting to the Senior Manager of Regional Marketing, the Associate Field Marketing Manager will support Field Marketing Managers in delivering impactful marketing experiences aligned with our sales objectives. Additionally, this role may occasionally assist the Channel Marketing Manager in executing targeted marketing initiatives for the ecosystem team, such as managing joint campaigns, coordinating partner events, and ensuring these efforts align with broader ecosystem goals.
+
+### Job Grade
+
+The Associate Field Marketing Manager is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Tool Proficiency
+
+Proficient in Salesforce, Marketo, Tableau, Asana, GitLab, and Google Workspace
+
+### Sales Relationship
+
+- Attend and present in regional sales meetings to foster alignment with sales teams
+- Support Field Marketing Managers on campaign and event execution and strategy
+- Ensure clear, consistent communication across all channels and with stakeholders
+- Collaborate with Business Development teams on pre-event and post-event tasks, including campaign setup in Groove for Sales
+
+### Cross-functional Collaboration
+
+Work with key internal teams such as:
+
+- Product Marketing
+- Corporate Events Marketing
+- Corporate Communications
+- Marketing Operations
+- Digital Marketing
+- Developer Relations
+- Business Development
+- Customer Success Managers (CSMs)
+- Solution Architects
+
+### Campaign Setup Support
+
+- Manage third-party vendor contracts through the procurement process, including approvals and legal coordination
+- Handle financial management tasks like forecasting, payments, and reconciliation
+- Assist with venue sourcing and coordinate F&B for events
+- Create and maintain Marketo programs and Salesforce.com campaigns
+- Support email drafting and copy deadline tracking
+- Coordinate workshops, Zoom setups, and logistics for events
+
+### Active Campaign Management
+
+- Track event capacity, manage waitlists and registrations, and update event pages
+- Create and manage event-related Slack channels
+- Ensure the timely delivery and review of asset copies (landing pages, invites, etc.)
+- Track event details in the FMM/Sales tracker and manage event logistics
+- Handle trade show orders, swag, and badges for events
+- Schedule "Know Before You Go" calls and provide on-site event support when needed
+
+### Post Campaign Reporting
+
+- Process and clean lead lists within 48 hours post-event and report feedback
+- Close out projects and report on lead follow-up metrics (15/30/45-day BDR/SDR follow-ups)
+- Track campaign results in Tableau, including SAO creation, opportunity progression, and closure
+
+### Collaborate with Sr. Field Marketing Specialist
+
+- Report any issues with SFDC, Marketo, Asana, and other tools
+- Communicate any updates for handbook revisions
 
 ## Field Marketing Manager
 
@@ -94,7 +157,7 @@ The Field Marketing Manager is a [grade 6](/handbook/total-rewards/compensation/
 ### Key Performance Indicators
 
 - [8X spend contribution to sales pipeline](https://app.periscopedata.com/app/gitlab/556414/Marketing-Linear-Attribution) for region responsible for.
-- Contribution to the outlined FMM ORKs, in alignment with the [Marketing ORKs](/handbook/company/okrs/#most-recent-okrs).
+- Contribution to the outlined FMM ORKs, in alignment with the [Marketing ORKs](/handbook/company/okrs/).
 - Field Marketing plans completed in alignment [with planning schedule](/handbook/marketing/field-marketing/#field-marketing-planning).
 - Spending of the regional [Field Marketing budget](/handbook/marketing/field-marketing/#the-field-marketing-budget) within 5% variance.
 
@@ -207,20 +270,20 @@ The Manager, Field Marketing is a [grade 8](/handbook/total-rewards/compensation
 
 This role includes all of the performance indicators of the previous level plus:
 
-- [10X spend contribution to sales pipeline](/handbook/marketing/strategy-performance/marketing-metrics/#marketing-attribution) for geo (AMER, EMEA,APAC) responsible for.
-- Contribution to the outlined Regional Marketing OKRs, in alignment with the [Marketing OKRs](/handbook/company/okrs/#most-recent-okrs).
+- 10X spend contribution to sales pipeline for geo (AMER, EMEA,APAC) responsible for.
+- Contribution to the outlined Regional Marketing OKRs, in alignment with the [Marketing OKRs](/handbook/company/okrs/).
 - Spending of the regional [Field Marketing budget](/handbook/marketing/field-marketing/#the-field-marketing-budget) within 5% variance, for geo (AMER, EMEA,APAC) responsible for.
-- Spending of the regional [Channel Marketing MDF budget](/handbook/resellers/Channel-Program-Guide/MDF/) within 5% variance for geo (AMER, EMEA, APAC) responsible for.
+- Spending of the regional [Channel Marketing MDF budget](/handbook/resellers/channel-program-guide/mdf/) within 5% variance for geo (AMER, EMEA, APAC) responsible for.
 
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a series of 45 minute interviews with the VP of Revenue Marketing, Director of Field Marketing, regional sales leader, and a seller who they would support.
 - Depending on location, candidates may meet in person with any of the above.
 - Finally, our CMO may choose to conduct a final interview.
-- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://about.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
+- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://handbook.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
 
 ## Senior Manager, Regional Marketing
 
@@ -260,10 +323,10 @@ The next step for  managers of people is to move to the [Director of Field Marke
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a series of 45 minute interviews with the Sr. Director of Revenue Marketing, Director of Field Marketing, regional sales leader, and a seller who he/she would support.
 - Depending on location, candidates may meet in person with any of the above.
 - Finally, our CEO may choose to conduct a final interview.
-- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://about.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
+- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://handbook.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

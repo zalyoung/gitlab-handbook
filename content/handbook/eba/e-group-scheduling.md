@@ -48,15 +48,15 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - Keep meetings to 25 or 50 minutes unless otherwise specified
 - Working blocks on the calendar are OK and can be moved to prioritize other meeting requests, team members should check in with the CLO's Staff EBA to request a meeting using the meeting request requirements as a guideline
 
-## Scheduling for Wendy Barnes, Chief People Officer
+## Scheduling for Rob Allen, Chief People Officer
 
-- Please schedule all meetings through the People Function's EBA, Julia Nishioki
+- Please schedule all meetings through the People Function's EBA, Annette Ramirez
 - All meeting requests should include an agenda or doc for reference unless it is a Coffee Chat
 - Keep meetings to 25 or 50 minutes unless otherwise specified
 - Direct Report 1:1's occur weekly, Skip Level 1:1's Monthly
-- Calendar color coding: 1:1s - dark green, Coffee Chat - light green, Sid or E-group meetings -red (Important meetings NOT to be moved are in red).
+- Calendar color coding: 1:1s - dark green, Coffee Chat - light green, CEO or E-group meetings -red (Important meetings NOT to be moved are in red).
 - Do not schedule over DNB/Focus Time blocks without consulting the EBA of the People Group.
-- Scheduling should ideally be kept between 9:00 am and 5:30 pm Pacific Time
+- Scheduling should ideally be kept between 9:00 am and 5:00 pm Pacific Time
 
 ## Scheduling for David DeSanto, Chief Product Officer
 
@@ -70,14 +70,13 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - 1:1's should always be rescheduled instead of cancelled unless unavoidable due to OOO/PTO schedules
 - Meetings will be declined if no agenda is added or shared 48 hour priors to the meeting time
 
-## Scheduling for Ashley Kramer, Interim Chief Revenue Officer, and Chief Marketing & Strategy Officer
+## Scheduling for Ian Steward, Chief Revenue Officer
 
-- To schedule Marketing/Strategy-related meetings, please coordinate with Kato Faylor, Staff EBA. (Please tag #cmso-cro-ebas in all requests)
-- To schedule CRO/Sales-related meetings, please coordinate with Alexa Schrauth, Staff EBA. (Please tag #cmso-cro-ebas in all requests)
-- Priority will be given to customer & E-Group meetings - even last minute.
-- Flexible for early/late calls to support EMEA & APAC, but please check with Staff EBAs first.
+- To schedule CRO/Sales-related meetings, please coordinate with Missy Keasler, Staff EBA. 
+- Priority will be given to customer & E-Group meetings.
+- Flexible for early/late calls to support EMEA & APAC, but please check with Missy Keasler first.
 - Prefers "appropriate length" conversations, so short meetings are okay on the calendar (e.g. if a topic only needs 10 mins, book 10 mins instead of 30, etc.).
-- For scheduling questions, please do not tag @Ashley, reach out/tag #cmso-cro-ebas.
+- For scheduling questions, please do not tag Ian, reach out/tag @mkeasler.
 - Include meeting agendas in invites and/or briefing docs (excluding coffee chats) at least 24 hours in advance.
 
 ## Scheduling for Sabrina Farmer, Chief Technology Officer

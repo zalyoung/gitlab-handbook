@@ -10,7 +10,7 @@ This page documents the CI jobs used by the data team in Merge Requests in both 
 ## What to do if a pipeline fails
 
 - If a weekend has passed re-run any CLONE steps which were performed prior, every Sunday (5:00AMUTC) all old pipeline databases are [dropped](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/drop_snowflake_objects.py) from SnowFlake older than 14 days.
-![ci-db-deletion-schema.png](ci-db-deletion-schema.png)
+![ci-db-deletion-schema.png](/images/enterprise-data/platform/ci-jobs/ci-db-deletion-schema.png)
 - Merge master branch. Due to how dbt handles packages pipelines can fail due to package failures which should always be handled in the latest branch.
 - Confirm [model selection syntax](https://docs.getdbt.com/reference/node-selection/syntax). In general, it is easiest to simply use the file names of the models you are changing.
 - If still uncertain or facing any issues, request assistance in the #data Slack channel
@@ -73,19 +73,6 @@ Clones the entire RAW DB, created due to timeout issues when trying to clone the
 
 Run this if you want to force refresh raw, prod, and prep. This does a full clone of raw, but a shallow clone of `prep` and `prod`.
 
-#### `🔑grant_clones`
-
-Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake role (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLE` variable. This job grants the same `select` permissions as the given role has in `prep` and `prod` for all database objects within the clones of `prep` and `prod`. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
-
-***Since grants are copied from production database permissions, these grants cannot be run on new models.*** If access is needed to new models, permission can be granted by a Data Engineer after the 🔑 `grant_clones` CI job has completed successfully. Ideally a request contains the specific (new) objects or at minimum the schema. There won't be access granted on full databases. Instructions for the Data Engineer can be found in [runbooks/CI_clones](https://gitlab.com/gitlab-data/runbooks/-/tree/main/CI_clones).
-
-**This will be fastest if the Data Engineer is provided with:**
-
-1. the fully qualified name (`"database".schema.table`) of the table(s) to which access needs to be granted
-2. the role to which permissions should be granted
-
-The database names for `PREP` and `PROD` can be found in the completed 🔑 `grant_clones` CI job. Linking this job for the DE will also be helpful in expediting this process.
-
 ### 🚂 Extract
 
 These jobs are defined in [`extract-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/extract-ci.yml)
@@ -110,7 +97,7 @@ This pipeline requires following actions:
 
 1. Clone of `TAP_POSTGRES` schema (Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME` (Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_dotcom_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_dotcom`.
-3. Variable `DATABASE_TYPE` (Mandatory): The value of the database type(ci ,main, customers). For example if the target table for modification is from `ci` database, the variable passed will be `DATABASE_TYPE`=`ci`.
+3. Variable `DATABASE_TYPE` (Mandatory): The value of the database type(ci ,main, customers, secure). For example if the target table for modification is from `ci` database, the variable passed will be `DATABASE_TYPE`=`ci`.
 4. Variable `TASK_INSTANCE` (Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_gitlab_dotcom_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 #### `gitlab_ops_pgp_test`
@@ -125,9 +112,8 @@ This pipeline needs to be executed when doing changes to any of the below manife
 This pipeline requires.
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
-2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_saas_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_ops`.
-3. Variable `DATABASE_TYPE`(Mandatory): The value of the database type(ops). For example if the modified table was of `ops` database, the variable passed will be `DATABASE_TYPE`=`ops`.
-4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_saas_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+1. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_saas_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_ops`.
+1. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_saas_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 ### ⚙️ dbt Run
 
@@ -143,7 +129,7 @@ These jobs run against the primary `RAW` database.
 
 Most dbt run jobs can be parameterized with a variable specifying dbt model that requires testing.
 
-The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/docs/model-selection-syntax#section-specifying-models-to-run).
+The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/reference/node-selection/syntax#section-specifying-models-to-run).
 
 If you are testing changes to tests in the `data-tests` project, you can pass in `DATA_TEST_BRANCH` to the manual jobs along with the branch name. This will update the branch in the `packages.yml` for the data-tests package. This works for any job running `dbt test`.
 
@@ -180,9 +166,9 @@ This job is designed to work with most dbt changes without user configuration. I
 Should the changes made fall outside the default selection of this job, it can be configured in the following ways:
 
 - `WAREHOUSE`: Defaults to `DEV_XL` but will accept `DEV_XS` and `DEV_L` as well.
-- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed. When contiguous is `True`, other configurations are ignored, such as `DOWNSTREAM` and `EXCLUDE`. 
+- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed. When contiguous is `True`, other configurations are ignored, such as `DOWNSTREAM` and `EXCLUDE`.
 - `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement. It overrides any other model selection.
-- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. `DOWNSTREAM` is bypassed if `CONTIGUOUS` is `True` (which it is by default). As a result, you must manually set `CONTIGUOUS` to `False` if you want to use `DOWNSTREAM`. `DOWNSTREAM` has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do. 
+- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. `DOWNSTREAM` is bypassed if `CONTIGUOUS` is `True` (which it is by default). As a result, you must manually set `CONTIGUOUS` to `False` if you want to use `DOWNSTREAM`. `DOWNSTREAM` has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do.
 - `FAIL_FAST`: Defaults to `True` but accepts `False` to continue running even if a test fails or a model can not build.  See the [documentation](https://docs.getdbt.com/reference/global-configs/failing-fast) for additional details.
 - `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. `EXCLUDE` is bypassed if `CONTIGUOUS` is `True`. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
 - `FULL_REFRESH`: Defaults to `False` but accepts `True` to re-clone and rebuild any tables that would otherwise run in an incremental state. See the [documentation](https://docs.getdbt.com/reference/commands/run#refresh-incremental-models) for additional details.
@@ -218,6 +204,7 @@ This job can be configured in the following ways:
 
 - `WAREHOUSE`: No default, a value of `DEV_XL`, `DEV_L`, or `DEV_XS` must be provided.
 - `STATEMENT`: No default, a complete `dbt` statement must be provided. e.g. `run --select +dim_date`.
+- `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
 #### `📚📝generate_dbt_docs`
 
@@ -237,6 +224,12 @@ Runs all the tests
 
 Runs only data tests
 
+#### `🔍ds_exposure_dependencies_query`
+
+This CI job runs automatically whenever SQL files in the dbt project are updated. It checks if any modified models are tied to Data Science exposures and, if so, fails the job while notifying the user. It is then the MR creator’s responsibility to inform the Data Science team, ensuring they have the opportunity to review any potential impact.
+
+By catching these updates early, the job helps maintain smooth Data Science workflows and prevents unintended disruptions from dbt model changes.
+
 #### `🔍tableau_direct_dependencies_query`
 
 This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** connected to tableau views, tableau data-extracts and/or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
@@ -245,6 +238,8 @@ Current caveats with the job are:
 
 - It will not tell you which tableau workbook to check
 - It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
+- It does not find dependencies for tables that use a dbt alias. [We discourage the use of aliases](/handbook/enterprise-data/platform/dbt-guide/#general) in models, but there are legacy tables that use aliases, so caution should be exercised when working with aliased tables. Downstream dependencies can be checked manually in MonteCarlo using the alias.
+- If there are any changes in Tableau, like adding or removing dependencies to a dashboard, it can take up to 8 days for Monte Carlo to reflect that change in lineage
 
 ##### Explanation
 
@@ -342,6 +337,20 @@ Runs specified model tests with the variable `DBT_MODELS`
 #### `🌱manual_seed`
 
 Runs a full seed operation. For use to confirm results when working on changes to the dbt seeds themselves.
+
+#### `run_grants`
+
+Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake roles (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLES` CI variable. You can pass in a single role, or multiple separated by a space as in `role1 role2`. This job checks the git commit for the changed models and verifies that the submitted roles have adequate access in `PREP` and `PROD` to grant access in the clone. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
+
+If the submitted role does not have adequate access in `PREP` and `PROD` then in the job logs you will see the following entry: 
+
+`INFO:root::rotating_light: upstream objects in OBJECT_NAME did not match upstream grants for ROLE :rotating_light:`
+
+There's a intermittent problem where the run grants job will be unable to compare existing grants in `PREP` and `PROD` because the source for querying existing grants in Snowflake is a table that has a derived state and intermittently can be missing grants.
+
+In this case, verify that the submitted role has adequate access in `PREP` and `PROD`. If it does and this problem persists then re-running (sometimes this takes an hour or so) should fix the problem. ```
+
+**Note:** The `run_grants` job can be run multiple times during the development process. If new models are created after the initial run, you can re-run the job to ensure that grants are applied to these new objects as well.
 
 ### 🐍 Python
 
@@ -459,6 +468,10 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 
 Note: `USERS_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
 </details>
+
+#### 📈namespace_metrics_check
+
+The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
 
 ### 🛑 Snowflake Stop
 

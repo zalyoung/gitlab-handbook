@@ -33,16 +33,6 @@ The Customer Support Department Performance Indicators are the single source of
 truth for those indicators and, in the case of conflict, prevails over any the
 content on this page.
 
-### How is this related to the Engineering Analytics Team?
-
-The [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/)
-formally works on data analysis for the Engineering Division, including Customer
-Support.
-
-The Support Data Analysis Community of Practice is made up of people interested
-in the application of data analysis to Support work, but may not have this as a
-formal part of their role's responsibilities.
-
 ## Parameters
 
 ### Support time segments
@@ -58,7 +48,7 @@ in [Preferred Region for Support](https://about.gitlab.com/support/#effect-on-su
 and were chosen to maximise overlap between region's segments, and to align with
 periods of high customer messages received per hour.
 
-![Support time segments](support_time_segments.png)
+![Support time segments](/images/support/support_time_segments.png)
 
 Note that these are time segments and not geographical segments. What's
 important is that we have folks available and actively working Support these

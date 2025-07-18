@@ -13,7 +13,7 @@ There have been a number of security researchers looking at Zoom, which has resu
 Here are a few important things to keep in mind, especially as you read through the Zoom tips below:
 
 - Always ensure your operating system as well as the Zoom application are up-to-date with the latest patches.
-- Ensure you've followed the [laptop configuration guidelines](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration).
+- Ensure you've followed the [laptop configuration guidelines](/handbook/security/corporate/end-user-services/laptop-management/laptop-security).
 - Make a customized [Personal link](#making-a-customized-personal-link).
 - [Enable the "Waiting Room"](#enabling-the-waiting-room-for-your-personal-meeting-room) for your meetings.
 - You can set a password for your meetings, but remember if your meetings are in your calendar, anyone who can view your calendar will see the password if you include it in the meeting invite.
@@ -23,9 +23,9 @@ Here are a few important things to keep in mind, especially as you read through 
   Public meetings such as webinars can use a password if you prefer, but use this in conjunction with the Waiting Room so the meeting host can approve each attendee.
 - It is recommended to include an embedded password in the URL, so if you're using this option do not share this URL publicly.
 - Starting 2020-09-27, all meetings will be required to have a Passcode or a Waiting Room enabled.
-- With Zoom version 5.4.7, you can selectively turn on the requirement that meeting attendees must be authenticated to join a meeting (not recommended for customer-facing calls or recruitment interviews). There is a [Zoom article](https://support.zoom.us/hc/en-us/articles/360037117472-Authentication-Profiles-for-meetings-and-webinars) with more information.
+- With Zoom version 5.4.7, you can selectively turn on the requirement that meeting attendees must be authenticated to join a meeting (not recommended for customer-facing calls or recruitment interviews). There is a [Zoom article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061263) with more information.
 - Zoom supports end-to-end encryption if no Zoom connectors are in use.
-  More details can be found [here](https://www.zoom.com/en/blog/facts-around-zoom-encryption-for-meetings-webinars/).
+  More details can be found [here](https://www.zoom.com/en/blog/facts-around-zoom-encryption-for-meetings-webinars/?cms_guid=false&lang=en-US).
   GitLab makes use of Zoom connectors for telephones, whenever we do webinars, and the vast majority of group meetings that end up on YouTube.
   Any time we are livestreaming via YouTube, we are using a connector.
   Any time we are recording a meeting, we are using a connector.
@@ -92,7 +92,7 @@ Preferred minimum version for Zoom: 5.13.5
 
 ### How to test audio and video in Zoom
 
-Before using Zoom for the first time, it is recommended to [test your audio]( https://support.zoom.us/hc/en-us/articles/201362283-Testing-Computer-or-Device-Audio) as well as [test your video](https://support.zoom.us/hc/en-us/articles/201362313-How-Do-I-Test-My-Video-).
+Before using Zoom for the first time, it is recommended to [test your audio]( https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062765) as well as [test your video](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061836).
 Zoom even has its own [test](https://zoom.us/test) that you can utilize to ensure everything is set up correctly.
 
 #### Enable captions and live transcription
@@ -122,8 +122,8 @@ so unauthorized attendees cannot join your zoom room.
 
 ### Adding your title to your name
 
-Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title as part of the display name field.
-For example, if your name is Art VanDelay and your role is Engineer, you can write display name: `Art VanDelay - Engineer`.
+Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title, department, and team name (if applicable) as part of the display name field.
+For example, if your name is Art VanDelay and your role is Backend Engineer within the Source code group, you can write display name: `Art VanDelay - Backend Engineer (Create:Source Code)`.
 
 1. Navigate to the [profile page](https://gitlab.zoom.us/profile)
 1. Click on `Edit` on the far right of your avatar/name
@@ -134,7 +134,7 @@ While you're here, you can also choose to set your pronouns and the display opti
 
 ### Join meetings with muted microphone
 
-Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.us/hc/en-us/articles/203024649-Muting-your-microphone-when-joining-a-meeting):
+Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062614):
 
 1. Navigate to `Zoom > Preferences > Audio`.
 1. Scroll down and select the box `Mute my mic when joining a meeting`.
@@ -147,6 +147,15 @@ Follow these steps to set it up:
 1. Navigate to `Zoom > Preferences > Keyboard Shortcuts`
 1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
 1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
+
+### Enable screen share setting
+
+Enable the ability to share your screen for your Zoom app on your MacBook.
+
+1. Open Zoom and start a meeting using "New meeting".
+1. Share > select any screen > Share
+1. A prompt should appear asking you to enable this in your Mac settings. If not, go to your Mac System Settings > Privacy & Security > Screen & System Audio Recording > enable zoom and follow the prompt.
+1. Restart Zoom.
 
 ### Recording Zoom meetings in HD
 
@@ -161,17 +170,15 @@ Your settings will now be updated to record zoom meetings in full HD.
 
 ### Enabling the "Waiting Room" for your Personal Meeting Room
 
-It's recommended you enable the [Waiting Room](https://support.zoom.us/hc/en-us/articles/115000332726-Waiting-Room) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).
+It's recommended you enable the [Waiting Room](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063329) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).
 There are a few steps to get this enabled for personal meetings:
 
-1. Navigate to the [settings page](https://gitlab.zoom.us/profile/setting) in your browser.
-1. In the "Meeting" tab under "Security", find the option "Waiting room" and enable it for all participants.
-1. Navigate to the [meetings page](https://gitlab.zoom.us/meeting).
-1. Select the top tab "Personal Room".
-1. Towards the bottom of the page, select "Edit" and check the "Waiting Room" box.
-1. Select "Save".
+1. Go to [settings page](https://gitlab.zoom.us/profile/setting).
+1. In the [Meeting](https://gitlab.zoom.us/profile/setting?tab=meeting) tab under `Security`, find the option `Waiting room` and enable it for all participants.
+1. You can go to `Customize Waiting Room` to use the default Zoom screen, GitLab branded logo/video, or a custom image, for participants in the waiting room to see before the host joins the meeting. You will need to enter a title for the video and press "Save".
+   - By default it is set to the GitLab branded video.
 
-Now all meetings that use your Personal Meeting ID (PMI) will require you to "admit" anyone who joins the meeting.  If you use this feature, please be sure to note in the meeting invite itself that this has been enabled.
+![Zoom Waiting Room](/images/tools-and-tips/zoom-waiting-room-video.png)
 
 ### Enable passcodes for all meetings
 
@@ -318,7 +325,7 @@ This also mitigates the issue of potential weak communication encryption since t
 
 ### Large meeting considerations
 
-It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-assembly), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
+It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-all-company-meetings/), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
 
 If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute. If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts."
 
@@ -326,7 +333,7 @@ If a team member in a meeting is not on mute but creating sound that is distract
 
 ## During your Zoom Meeting
 
-*Zoom can be [minimized](https://support.zoom.us/hc/en-us/articles/201362323-How-Do-I-Change-The-Video-Layout-#mini) during a meeting (`cmd-m` on macOS) to a small window staying on top of all applications.
+*Zoom can be [minimized](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063672#h_29171b3b-71eb-4b42-8bc4-30bf2f778d95) during a meeting (`cmd-m` on macOS) to a small window staying on top of all applications.
 This tip is very handy when using a small screen: it allows to see the participant(s) and use other applications at the same time without worrying about the screen layout.*
 
 ### Recording in Zoom
@@ -335,18 +342,18 @@ In order to be able to record your Zoom meetings you must first enable recording
 You can access this page at [Recording Settings](https://zoom.us/profile/setting?tab=recording).
 You need to be signed in to have the ability to record.
 
-To auto-record meetings set up [cloud recording](https://support.zoom.us/hc/en-us/articles/202921119-Automatic-Recording).
+To auto-record meetings set up [cloud recording](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067954).
 You can also configure Zoom to save to the cloud automatically.
 Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name.
 Once recording is complete, your videos will not appear in the "Recordings" section of your Zoom account.
 
 If the meeting topic in Zoom (editable by logging into <https://zoom.us/>) contains the text `[REC]`, these recordings will
-automatically be saved to a folder on Google Drive under `GitLab Videos Recorded` (accessible from [Google shared drives](https://drive.google.com/drive/shared-drives)).
+automatically be saved to a folder on Google Drive under `GitLab Videos Recorded` (accessible from [Google Hidden shared drives](https://drive.google.com/drive/shared-drives-hidden)).
 The name of the folder will be prefixed by the host's e-mail
 address. For example, if the host is `someuser@gitlab.com` and the
 meeting title is `Company Training [REC]`, the folder will appear as
-`someuser@gitlab.com-Company Training`.
+`someuser@gitlab.com-Company Training`. [The script](https://gitlab.com/gitlab-com/zoom-sync/-/blob/a73aee8f5921ac3fec16b74232ac17add4e33afb/zoom-sync.rb) (from [the zoom-sync project](https://gitlab.com/gitlab-com/zoom-sync)) will sync the recordings every hour.
 
 To make it easier for meetings to be uploaded automatically without
 changing the title, the sync script also uses an [allow list](https://gitlab.com/gitlab-com/zoom-sync#allow-list).
@@ -364,7 +371,7 @@ To do this:
 1. Unselect `Record active speaker with shared screen` and `Record active speaker, gallery view and shared screen separately`.
    Remember to save.
 
-You can also read through General information on recording on the zoom support [here](https://support.zoom.us/hc/en-us/sections/200208179-Recording)
+You can also read through General information on recording on the zoom support [here](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059856)
 
 ### How to identify the meeting host with the permission to record
 
@@ -404,7 +411,7 @@ Using the Zoom app:
 
 ### Recording video transcripts
 
-[Closed captioning and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
+[Closed captioning and live transcription](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490)
 is enabled by default for all users, however the subtitles will not show for participants unless
 a host manually enables it once the meeting starts.
 
@@ -419,19 +426,24 @@ available. Processing takes about 15 minutes, so the video files appear before t
 
 ### Zoom AI Companion
 
-#### Meeting summary with AI Companion
+#### Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
-1. Click `AI Companion` in the meeting control toolbar.
-1. Click `Start summary`.
+1. Click `AI Companion` in the meeting control toolbar to activate its automatic "Meeting Summary" feature
+1. Make sure that `Meeting summary` option is selected.
 1. Participants will see a notification that AI Companion is active and analyzing the discussion.
 1. Once the meeting ends, the summary will be emailed to the meeting host and meeting invitees in our organization.
 
 #### Accessing AI Companion Meeting Summaries
 
 1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
-1. In the side bar expand `AI Companion` and then click on `Meeting Summary`.
+1. In the sidebar expand `AI Companion` and then click on `Meeting Summary`.
 1. To edit or share, click on a meeting topic and you will have the option to `Share`, `Edit`, or `Delete` meeting summaries.
+
+#### Accessing AI Companion Smart Recordings
+
+1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
+1. In the sidebar click on `Recordings`, your smart recordings will be under `Cloud Recordings`.
 
 ### Enabling email notifications for hosts when attendees join first
 
@@ -611,7 +623,7 @@ Note that you must start the `ZoomLauncher` binary and not the shell script wrap
 
 ### Virtual background
 
-With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/ref=psdc_3443951_t1_B0053EBFRU), you can utilize [virtual backgrounds](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) so that you don't have to worry about what's behind you while on a video call. You can also find more virtual backgrounds in our [GitLab-branded green screen library](https://drive.google.com/drive/folders/10DqQ8kBICPTuPNG0PGf-JWXBFytZHQ88) (*Google Drive access available to GitLab team members who are logged in*).
+With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/).
 
 Consider using a [customizable GitLab Background](https://docs.google.com/presentation/d/1PM4sCuCTSmVtoCp_O-_K9BS7yrIJjh1kteMTT7PS9zI/edit#slide=id.gc454e6622b_0_3) (*Google Drive access available to GitLab team members who are logged in*).
 
@@ -663,11 +675,11 @@ In the above Chrome support thread, the following macOS solution is listed:
 If you have a loud keyboard or a fan in your office, Zoom may try to automatically reduce your microphone input volume. This can be frustrating because then other participants have trouble hearing you speak later in the call.
 If you are experiencing this issue, go into your Zoom client settings and uncheck "Automatically adjust microphone volume".
 
-![Zoom mic settings](/handbook/tools-and-tips/images/zoom-mic-volume.png)
+![Zoom mic settings](/images/tools-and-tips/zoom-mic-volume.png)
 
 ### Google Calendar Add-on for Zoom
 
-To make it easy to set up Zoom sessions for your calendar events, enable the [Google Calendar add-on for Zoom](https://support.zoom.us/hc/en-us/articles/360020187492-Google-Calendar-Add-On).
+To make it easy to set up Zoom sessions for your calendar events, enable the [Google Calendar add-on for Zoom](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060226).
 This adds a dropdown option right inside of Google Calendar to add Zoom to the event.
 When users view the event, they will see specially formatted Zoom details that includes the link to the meeting, and a clickable phone number if they are dialing in.
 The add-on will also follow your preferences in your Zoom account for [using your personal link or a unique link](#using-your-personal-link-versus-a-uniquerandom-link).

@@ -4,12 +4,12 @@ title: Using GitLab to plan work
 
 We use GitLab to document product strategy and manage our backlog. A couple of concepts that are key to this process are:
 
-- [Milestones](https://docs.gitlab.com/ee/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes.
-- [Issues](https://docs.gitlab.com/ee/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
-- [Tasks](https://docs.gitlab.com/ee/user/tasks.html) (optional): Decompose an Issue into more detailed implementation steps.
-- [Epics](https://docs.gitlab.com/ee/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
-- [Boards](https://docs.gitlab.com/ee/user/project/issue_board.html): Aid in visualizing work moving through the [product development flow](/handbook/product-development-flow/_index.md) and for milestone planning.
-- [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/): Aid in visualizing epics in a timeline view.
+- [Milestones](https://docs.gitlab.com/user/project/milestones/): Align with our [product releases](https://about.gitlab.com/releases/) and are used as our group's planning timeboxes.
+- [Issues](https://docs.gitlab.com/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
+- [Tasks](https://docs.gitlab.com/user/tasks/) (optional): Decompose an Issue into more detailed implementation steps.
+- [Epics](https://docs.gitlab.com/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
+- [Boards](https://docs.gitlab.com/user/project/issue_board/): Aid in visualizing work moving through the [product development flow](/handbook/product-development/how-we-work/product-development-flow/_index.md) and for milestone planning.
+- [Roadmaps](https://docs.gitlab.com/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues
 
@@ -55,7 +55,7 @@ people in another channel after the issue has been created (Slack, email).
 
 Feature issues identify work to support the implementation of a feature and/or results in an improvement in the user experience.
 
-- When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/planning-with-gitlab/#issues), refer to the [definition of an MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) and [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) for general guidance that works well in most cases.
+- When considering whether an issue is [a missing feature or a bug](/handbook/product/product-processes/planning-with-gitlab/#issues), refer to the [definition of an MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) and [Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) for general guidance that works well in most cases.
 - If there is doubt about whether you could expect something to be there or work, it's a missing feature.
 - We iterate to deliver features, so we often don't have functionality that people expect. For this reason, 'people could reasonably expect this functionality' does not make it a bug.
 - Whether the code results in user facing updates or not, if it is part of building the feature it should be labeled as such.
@@ -73,12 +73,12 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
 - A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
-- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) for classifying a bug as `severity::1`.
+- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/product-development/how-we-work/issue-triage/#severity) for classifying a bug as `severity::1`.
 
 ### Epics
 
 Issues related to the same feature should be bundled together into an
-into an [epic](https://docs.gitlab.com/ee/user/group/epics/).
+into an [epic](https://docs.gitlab.com/user/group/epics/).
 
 #### Epics for a single iteration
 
@@ -133,7 +133,7 @@ it starts with your work items (issues, epics and tasks). Rejecting a feature re
 
 As a Product Manager you should close work items for the following reasons:
 
-1. **Duplicate Issue:** GitLab has a large issue tracker and it can be challenging for users to find other issues that might be the same request or bug. PMs should make sure they're triaging their issue lists regularly to close duplicate issues so that it's easier for users to find the issue they're looking for and for PMs to understand the demand for requests. You should use the [`/duplicate` quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html) to close these and link them to the canonical issue.
+1. **Duplicate Issue:** GitLab has a large issue tracker and it can be challenging for users to find other issues that might be the same request or bug. PMs should make sure they're triaging their issue lists regularly to close duplicate issues so that it's easier for users to find the issue they're looking for and for PMs to understand the demand for requests. You should use the [`/duplicate` quick action](https://docs.gitlab.com/user/project/quick_actions/) to close these and link them to the canonical issue.
 1. **Is outside the scope of, or is opposed to, our [vision](https://about.gitlab.com/direction/#vision).** GitLab is a large platform and not all requests will align with the long term direction of the product. It's okay to close issues that we'll never do because they do not align with this vision.
 However, you [should _not_ close an issue](#when-you-should-not-close-an-issue-or-epic) just because it isn't currently prioritized as part of your category's direction.
 1. **It presents a security risk.** Some requests may require you to evaluate if the proposal can be delivered without presenting a security risk to GitLab or our customers. You should reach out to [Application Security](/handbook/security/product-security/application-security/) if you are unsure about any requests.
@@ -141,7 +141,7 @@ However, you [should _not_ close an issue](#when-you-should-not-close-an-issue-o
 1. **We don't want another setting:** whenever we can, we try to avoid having settings. GitLab follows the [Convention over Configuration](/handbook/product/product-principles/#convention-over-configuration) principle when evaluating new proposals. It's important to consider all of the user experience impacts an additional setting can add and while some settings are unavoidable; most aren't.
 1. **Changes the tier of a feature:** this problem is already [addressed in the Stewardship page](/handbook/company/stewardship/#contributing-an-existing-feature-to-open-source-it).
 1. **No longer relevant:** You should close issues where the feature may have already been delivered through some other solution or a bug may have been resolved or eliminated through a different effort.
-1. **Deprecated, removed, or no-longer-supported functionality:** You should close issues that won't be worked on because the functionality has been [officially deprecated or removed, or has reached End of Support](https://docs.gitlab.com/ee/update/terminology.html).
+1. **Deprecated, removed, or no-longer-supported functionality:** You should close issues that won't be worked on because the functionality has been [officially deprecated or removed, or has reached End of Support](https://docs.gitlab.com/update/terminology/).
 Closing work items whenever possible is an important part of your job and helps to keep a clear view of what is next.
 
 When closing a work item, leave a comment explaining why you're closing it, and link
@@ -158,13 +158,13 @@ to anything of relevance (the other duplicate, the original feature that this is
 
 ### Roadmaps
 
-A [roadmap](https://docs.gitlab.com/ee/user/group/roadmap/)
+A [roadmap](https://docs.gitlab.com/user/group/roadmap/)
 for your group can aid in tracking timeline oriented long-running efforts (here's [an example](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=group%3A%3Ageo)). This can help keep work well organized, track progress and surface dependencies.
 
 ### Boards
 
 As part of our planning process it is important that you maintain a prioritized
-[issue board](https://docs.gitlab.com/ee/user/project/issue_board.html) for your group.
+[issue board](https://docs.gitlab.com/user/project/issue_board/) for your group.
 It's customary to call these boards `STAGE - GROUP - Planning` and to configure them to filter
 to all issues with your group label and with each milestone as a column (here's [an example](https://gitlab.com/groups/gitlab-org/-/boards/4873470?label_name[]=group%3A%3Aproduct%20planning)).
 

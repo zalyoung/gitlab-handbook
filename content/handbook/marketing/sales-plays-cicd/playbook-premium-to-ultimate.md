@@ -151,7 +151,7 @@ Advantages of a single application for DevOps and Security together include unpa
    * Especially important to regulated industries like government and Financial Services
    * Most scanners require punching out of the secured network for the latest security rules/updates. We can containerize these for running in a disconnected environment.
 1. Vulnerability management (vs point solutions)
-   * Traditional app sec vendors (Veracode, Fortify, Synopsis) sell a Security Center to manage vulnerabilities found from each of their scanners (all sold separately!). GitLab not only comes with vulnerability management, but it's in the same tool that the developers use so nothing is lost in translation. In addition, you can easily pull in third party scan results into the CI pipeline (MR) to compare findings, somewhat similar to [ThreadFix](https://threadfix.it/). Is your customer paying for this or other tools to do this?
+   * Traditional app sec vendors (Veracode, Fortify, Synopsis) sell a Security Center to manage vulnerabilities found from each of their scanners (all sold separately!). GitLab not only comes with vulnerability management, but it's in the same tool that the developers use so nothing is lost in translation. In addition, you can easily pull in third party scan results into the CI pipeline (MR) to compare findings, somewhat similar to [ThreadFix](https://coalfire.com/services/security). Is your customer paying for this or other tools to do this?
 
 *see provided link for additional details including value and videos*
 
@@ -177,7 +177,7 @@ Other objections and responses can be found in the [FAQ deck](https://docs.googl
 
 GitLab (or a GitLab partner) offers the below services to help accelerate time to value and mitigate risk:
 
-* [Security Essentials Training](/services/education/security-essentials/) that will enable students to take the [security specialist certification](/services/education/gitlab-security-specialist/).
+* [Security Essentials Training](https://about.gitlab.com/services/education/security-essentials/) that will enable students to take the [security specialist certification](https://about.gitlab.com/services/education/gitlab-security-specialist/).
 * [Secure Advisory Services](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/consulting/secure-advisory) can help provide guidance to a customer who wants to rebuild their security processes to shift left and/or secure their SDLC Supply Chain. The target audience for these services are a central secuirty or SDLC Governance/Compliance team. Pricing varies on this offering. Talk with @em in the [professional services slack channel](/handbook/customer-success/professional-services-engineering/working-with/#slack) to learn more.
 
 ## Sales Play Tactics {#sales-play-tactics}

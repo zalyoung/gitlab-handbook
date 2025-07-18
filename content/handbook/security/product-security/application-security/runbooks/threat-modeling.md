@@ -17,14 +17,14 @@ counterpart will apply the `~threat model::needed` label to the epic or issue. T
 will also create a dedicated threat modeling issue in the
 [`threat-models`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model)(internal link) project.
 Within the issue the development and the application security team should collaborate on the creation
-of a threat model. The development team must provide technical documentation in the issue before the process starts. The issue template contains detailed steps to guide through the process. 
+of a threat model. The development team must provide technical documentation in the issue before the process starts. The issue template contains detailed steps to guide through the process.
 
 If you're new to threat modeling: for a beginner friendly start please have a look at our
 [threat modeling how to page](/handbook/security/product-security/application-security/threat-modeling/howto/).
 
 ## Creating the threat model
 
-The scope definition and priortization is a very first step towards
+The scope definition and prioritization is a very first step towards
 building a proper [threat model](/handbook/security/product-security/application-security/threat-modeling/)
 for the to-be-reviewed item. If time allows and the complexity of
 to-be-reviewed feature justifies it, a more in-depth threat model
@@ -35,7 +35,7 @@ for various threat modeling cases throughout GitLab.
 
 - In the AppSec review we should start with the [Stage III - Application Decomposition](/handbook/security/product-security/application-security/threat-modeling/#stage-iii---application-decomposition)
   as soon as we have a clear scope definition for the review. This stage
-  of application decomposition is an extension of the priortization step
+  of application decomposition is an extension of the prioritization step
   where much more details should be considered.
 - The threat analysis [Stage IV - Threat Analysis](/handbook/security/product-security/application-security/threat-modeling/#stage-iv---threat-analysis)
   should be used to create a detailed test plan for the review.
@@ -86,7 +86,7 @@ graph TB
 
 Considering this diagram we can already spot a trust boundary between the
 `agentk` and the `GitLab` components. The flow of data is also depicted
-in a usable way for threat modeling and the involved components wich consume
+in a usable way for threat modeling and the involved components which consume
 or provide data are visible. Such a diagram can now be used and complemented
 with actual threat and security context to form an actual threat model.
 

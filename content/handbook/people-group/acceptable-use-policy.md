@@ -38,7 +38,7 @@ Linux users must install [SentinelOne](https://internal.gitlab.com/handbook/it/e
 
 ### Security and Proprietary Information
 
-All GitLab data is categorized and must be handled in accordance with the [Data Classification Standard](/handbook/security/data-classification-standard/). All computing assets that connect to any part of the GitLab network, or 3rd party services that are used by GitLab, must comply with the applicable standards.
+All GitLab data is categorized and must be handled in accordance with the [Data Classification Standard](/handbook/security/standards/data-classification-standard/). All computing assets that connect to any part of the GitLab network, or 3rd party services that are used by GitLab, must comply with the applicable standards.
 
 ### Open source libraries
 
@@ -50,7 +50,7 @@ Individual Use Software (freeware, add-ons and plugins) is permitted, with the e
 
 Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
-To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
+To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) request process.
 
 {{% alert title="Note" %}}
 In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
@@ -80,14 +80,14 @@ Prohibited system and network activities include, but are not limited to, the fo
 - Attempting to uninstall security controls without prior approval from a Security manager
 - Circumventing user authentication or security of any computer host, network, or account used by GitLab.
 - Tunneling between network segments or security zones (e.g., `gprd`, `gstg`, `ops`, `ci`, `ngrok`), except when troubleshooting issues for the benefit of GitLab.
-- Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](/handbook/security/access-management-policy/), and handled according to our [Data Classification Standard](/handbook/security/data-classification-standard/). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
+- Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](/handbook/security/security-and-technology-policies/access-management-policy/), and handled according to our [Data Classification Standard](/handbook/security/standards/data-classification-standard/). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
 - The use of high risk remote administration tools, such as TeamViewer and AnyDesk, which are [commonly used by attackers](https://attack.mitre.org/techniques/T1219/) to gain and remotely control systems.
 - Tools that emulate another operating system or create compatibility layers such as [WINE](https://www.winehq.org/)
 - The use of torrent or other P2P software on GitLab computing assets.
 
 #### Unacceptable Email and Communications Activities
 
-Forwarding of confidential business emails or documents to personal external email addresses is prohibited.
+Forwarding of confidential business emails or documents to personal external email addresses is prohibited. Automated forwarding of emails from a team member account is also prohibited.
 
 > Note: GitLab may retrieve messages from archives and servers without prior notice if GitLab has sufficient reason to do so. If deemed necessary, this investigation will be conducted with the knowledge and approval of the Security, People Business Partners, and Legal Departments.
 
@@ -95,11 +95,11 @@ In addition to following the [Team Member Social Media Policy](/handbook/marketi
 
 ### Return of GitLab-Owned Assets
 
-All GitLab-owned computing resources must be [returned]({{< ref "offboarding#returning-property-to-gitlab" >}}) upon separation from the company.  Notwithstanding anything contrary in the [Laptop Buy Back Policy](/handbook/it/end-user-services/onboarding-access-requests/#laptop-buy-back-policy) or the [Offboarding Tasks]({{< ref "offboarding#managing-the-offboarding-tasks" >}}), Team Members must return any GitLab-Owned Assets -- irrespective of their valuation -- if they are specifically requested to do so either during their tenure with GitLab or upon offboarding. In cases of investigation, misconduct, termination for cause or any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), a team member has no right to retain GitLab-owned computing equipment.
+All GitLab-owned computing resources must be [returned](/handbook/people-group/offboarding/#returning-property-to-gitlab) upon separation from the company.  Notwithstanding anything contrary in the [Laptop Buy Back Policy](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks) or the [Offboarding Tasks](/handbook/people-group/offboarding/#managing-the-offboarding-tasks), Team Members must return any GitLab-Owned Assets -- irrespective of their valuation -- if they are specifically requested to do so either during their tenure with GitLab or upon offboarding. In cases of investigation, misconduct, termination for cause or any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), a team member has no right to retain GitLab-owned computing equipment.
 
 ### Bring-Your-Own-Device (BYOD)
 
-As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/data-classification-standard/), is still prohibited.
+As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/standards/data-classification-standard/), is still prohibited.
 
 The exceptions are as follows:
 
@@ -109,27 +109,27 @@ All personal mobile computing devices used to access GitLab-managed data, includ
 
 #### Unable to Use Company Laptop
 
-For new employees who have not received a company laptop, there are [exception processes](/handbook/it/end-user-services/onboarding-access-requests/#exception-processes) for using non-company devices.
+For new employees who have not received a company laptop, there are [exception processes](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#exception-processes) for using non-company devices.
 
-The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures](/handbook/security#reporting-an-incident) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration), and a Microsoft Windows system is still not allowed access under any circumstances.
+The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures](/handbook/security#reporting-an-incident) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/security/corporate/end-user-services/laptop-management/laptop-security), and a Microsoft Windows system is still not allowed access under any circumstances.
 
 Do not sign in to any GitLab related accounts using public computers, such as library or hotel kiosks.
 
 ### Mobile Messaging
 
-All GitLab-related conversations need to take place in Slack. It is strongly recommended that the official Slack application, or Slack web application, are used for mobile messaging. Downloads are available for [iOS](https://itunes.apple.com/app/slack-app/id618783545?ls=1&mt=8) and [Android](https://play.google.com/store/apps/details?id=com.Slack). While it may be more convenient to use an integrated chat application that puts all of your conversations in one place, the use of these applications can unintentionally lead to work-related conversations crossing platforms, or being sent to external contacts. The use of Slack for all work communications assists with our security and compliance efforts. For example, in the case of an incident response issue, it may be necessary to review a conversation to understand the order in which events occurred, or to provide evidence that the chain of custody has been maintained for forensic evidence during a handoff.
+All GitLab-related conversations need to take place in Slack. It is strongly recommended that the official Slack application, or Slack web application, are used for mobile messaging. Downloads are available for [iOS](https://apps.apple.com/us/app/slack/id618783545) and [Android](https://play.google.com/store/apps/details?id=com.Slack). While it may be more convenient to use an integrated chat application that puts all of your conversations in one place, the use of these applications can unintentionally lead to work-related conversations crossing platforms, or being sent to external contacts. The use of Slack for all work communications assists with our security and compliance efforts. For example, in the case of an incident response issue, it may be necessary to review a conversation to understand the order in which events occurred, or to provide evidence that the chain of custody has been maintained for forensic evidence during a handoff.
 
 For [video calls](/handbook/communication/#video-calls), and as a back-up to Slack, we prefer Zoom. Zoom chats are an acceptable alternative to Slack when in a video call. If the conversation is interesting to others or may be needed for a retrospective, consider recording the call.
 
 ### Use of External Media on Company Assets
 
-The use of removable and external storage devices such as USB flash drives and external backup drives on company-managed devices is not officially sanctioned. If there is a business need for the use of an external storage device, such as a flash drive or an external hard drive on company devices, please contact the Security Team to determine the most suitable encryption-enabled device. All external and removable storage devices must be encrypted and protected by a passcode.
+The use of removable and external storage devices such as USB flash drives and external backup drives on company-managed devices is not allowed and is blocked by default. An exception request may be opened [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=usb_exception) if there is a business need for the use of an external storage device. Corporate Security will coordinate with requestors to determine the most suitable encryption-enabled device and configure encryption and password protection.
 
-As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/) for further details.
+As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) for further details.
 
 ### Use of file sharing services other than GitLab's Google Drive
 
-Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
+Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
 
 When creating an account with and using a file sharing service other that Google Drive, Team Members must:
 
@@ -158,11 +158,10 @@ To consult with the Security Team create an issue in the [Security Compliance tr
 Exceptions to this policy must be approved by Security, Legal and PeopleOps Departments.
 
 - [Onboarding Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
-- [Asset return procedure]({{< ref "offboarding#returning-property-to-gitlab" >}})
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)
+- [Asset return procedure](/handbook/people-group/offboarding/#returning-property-to-gitlab)
 - [Lost or stolen asset procedure](/handbook/security#reporting-an-incident)
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security)
 - GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to all members of the GitLab community

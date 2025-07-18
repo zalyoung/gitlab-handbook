@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -96,7 +96,7 @@ The
 should be used to automate creation of mundane merge requests.
 
 Using this tool reflects our
-[bias for action](../../../../values/#bias-for-action)
+[bias for action](../../../../values/#operate-with-a-bias-for-action)
 subvalue. As such, developers should preference contributing a new
 [keep](https://gitlab.com/gitlab-org/gitlab/-/tree/master/keeps) over the following:
 

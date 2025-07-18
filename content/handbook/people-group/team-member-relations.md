@@ -19,7 +19,7 @@ Team member relation issues can range from simple coaching questions to serious 
 
 **Tier 2**
 
-- [Job abandonment]({{< ref "people-policies#job-abandonment" >}})
+- [Job abandonment](/handbook/people-policies/#job-abandonment)
 - Manager/team member conflict resolution
 - Team member/team member conflict resolution
 
@@ -92,8 +92,8 @@ To support our team members, GitLab has established a [Team member relations gro
 The team member relations function provides all GitLab team members an avenue to express workplace concerns and to resolve conflicts in a safe and unbiased forum.
 
 - Team members can express themselves openly and freely without fear of retaliation.
-- Professional behavior and conduct is expected from all team members.  As a reminder use judgement in your conversations with other team members.  We encourage all team members to [provide direct feedback]({{< ref "leadership#sts=Giving%20Feedback" >}}) to each other. The team member relations group is here to listen to team members concerns in an unbiased, open and professional manner.
-- Team members can discuss [reasonable accommodations]({{< ref "inc-usa#reasonable-accommodation" >}}) or any related questions.
+- Professional behavior and conduct is expected from all team members.  As a reminder use judgement in your conversations with other team members.  We encourage all team members to [provide direct feedback](/handbook/leadership/#giving-feedback) to each other. The team member relations group is here to listen to team members concerns in an unbiased, open and professional manner.
+- Team members can discuss [reasonable accommodations](/handbook/people-policies/inc-usa/#reasonable-accommodation) or any related questions.
 
 ### For Managers
 
@@ -143,4 +143,4 @@ For Tier 2 level concerns, the Manager should reach out and discuss with the tea
 
 Since situations differ, managers should immediately reach out to a team member relations specialist for guidance before taking any action.  If unable to contact the team member relations specialist directly, please follow the [escalation path listed in the handbook](/handbook/people-group)
 
-Please review the [underperformance]({{< ref "underperformance" >}}) page in the handbook for further information regarding managing team member performance.
+Please review the [underperformance](/handbook/leadership/underperformance/) page in the handbook for further information regarding managing team member performance.

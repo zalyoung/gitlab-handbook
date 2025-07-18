@@ -43,7 +43,7 @@ The Associate Solutions Architect is a [grade 5](/handbook/total-rewards/compens
 #### Associate Solutions Architect Requirements
 
 - Technical presentation and communication skills
-- Experience in or familiarity with (for the [early-in-career program](/handbook/solutions-architects/career-development/#associate-solution-architecture-program) candidates) the field of information technology or technical pre-sales
+- Experience in or familiarity with (for the [early-in-career program](/handbook/solutions-architects/sa-career-development/#associate-solution-architecture-program) candidates) the field of information technology or technical pre-sales
 - Understanding of the end-to-end software development lifecycle
 - Understanding of continuous integration and continuous deployment
 - Ability to use GitLab
@@ -61,7 +61,7 @@ The Solutions Architect is a [grade 6](/handbook/total-rewards/compensation/comp
 
 - Technical expertise: Engage with customers, both onsite and remotely, by providing technical expertise during the pre-sales process. The additional responsibility implies adopting a more mature consultancy and advisor role during the pre-sales process while providing technical assistance and solution guidance.
 - Sales strategy: Collaborate with the sales team to go beyond support to formulate and execute a sales strategy to exceed revenue targets through the adoption of GitLab.
-- Technical guidance: Be the Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) on [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) and technical evaluations via POC/POV ownership, technical part of tender/audit support, and workshop design.
+- Technical guidance: Be the Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) on [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) and technical evaluations via POC/POV ownership, technical part of tender/audit support, and workshop design.
 - Customer relationships: Build deep relationships with people within customer environments to enable them to be GitLab advocates.
 - Customer feedbacks: Serve as the customer advocate to other GitLab teams, including Product Development, Sales, and Marketing.
 - Market knowledge: Maintain specialty competency in one or more technologies related to GitLab's market focus through activities such as training, certification and creation of working examples for reuse internally and by customers and partners.
@@ -88,21 +88,21 @@ The Senior Solutions Architect is a [grade 7](/handbook/total-rewards/compensati
 
 - Extends the Solutions Architect responsibilities.
 - Solve technical customer issues of broad scope and high complexity.
+- Serve as the technical CTO for assigned accounts, owning end-to-end technical strategy development while leading high-value engagement approaches (e.g., value stream workshops, business value justifications, etc.)
+- Lead competitive analysis and positioning for complex opportunities within regional territory
+- Develop and execute technical strategies that address multi-team, multi-year transformation initiatives
 - Provide mentorship for Solution Architecture team members and remain a current contributor to team-learning initiatives and activities.
 - Work cross-departmentally to find solutions to complex scenarios and integration issues.
 - Propose improvements and innovation for customer calls and product demonstrations based on current market trends.
 - Maintain in-depth knowledge of the entire GitLab application.
-- Represent GitLab as a speaker at field events or as an author in GitLab-focused publications and blogs.
 - Provide opportunity strategy leveraging market and industry knowledge and trends.
-- Drive [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) without guidance.
 - Collaborate with the product team while representing customer requirements and feedback.
-- Create Customer Success Plans with customers
-- Contribution to Account and Territory Planning Sessions of their region/sub-region
+- Create [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) without guidance
+- Contribute strategic technical insights to regional account and territory planning sessions
 - Regularly enhances GitLab documentation for clarity and accuracy as well as adding new explanations, examples and sections.
 - Share subject matter expertise through Slack posts, documentation updates, communities of practice, issue and MR participation and other common GitLab collaboration mechanisms.
 - Coach sales team-members on deal qualification when necessary.
-- Assists with specific objectives and key result associated tasks
-- Leading Value Stream Assessments with your accounts or another team member's, while the team member shadows
+- Contributes to SA organizational initiatives that drive postivie impact towards our vision and goals
 
 #### Senior Solutions Architect Requirements
 
@@ -122,40 +122,38 @@ The Staff Solutions Architect is a [grade 9](/handbook/total-rewards/compensatio
 
 - Extends the Senior Solutions Architect responsibilities with a company-wide scope
 
-##### Technical Guidance and Mentorship
+### Strategic Deal Leadership and Competitive Strategy
 
-- Build and deliver high-value and reusable enablement content that measurably improves the team's effectiveness and execution on a regular basis.
-- Sustain mentorship for specific members of the Solutions Architecture team to improve our technical win rate, increase NetARR, fostering a culture of continuous learning and improvement.
-- Guide Solution Architect team members through complex customer opportunities and activity.
-- Advise Solution Architect team members on [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) and [Customer Success Planning](/handbook/solutions-architects/sa-practices/customer-success-plan/) strategies and patterns leading to shorter sales cycles and faster product adoption.
-- Run high-value SA activity enablement sessions with team members, both new (training) and existing (best practices) (e.g., Value Stream Workshops, Day in the Life, Duo Workshops, etc.)
+- Orchestrate large, complex deal strategies involving multiple stakeholders and decision makers
+- Develop and execute competitive strategies for high-value opportunities (>$500K ARR)
+- Lead technical strategy for multi-year, enterprise-wide transformation initiatives
+- Engineer complex engagements that span multiple business units and geographies within the assigned geo
 
-##### Cross-Functional Collaboration and driving innovation
+### Partnership and Ecosystem Orchestration  
 
-- Consolidate Field Feedback to drive product roadmap discussions (outside-in) and be informed of the product roadmap for at least one product area, and inform team members of changes to come in the near term.
-- Be the DRI for a Subject Matter Expert Group in a region.
-- Architect innovative solutions leveraging 3rd party and GitLab technologies that lead to new use cases and revenue opportunities.
-- Build connections/relationships with key regional/geo partners, alongside the Ecosystem SA team.
+- Build and maintain strategic relationships with key partners (resellers, SIs, hyperscalers) within assigned geographical region
+- Collaborate with Channel and Ecosystem SA teams to deliver solutions through partner organizations
+- Navigate complex partner dynamics to drive deal closure and customer success
+- Develop partner-specific technical strategies and enablement approaches
 
-##### Customer Engagement and Solution Ownership
+### People, Process, and Technology at Scale
 
-- Serve as the primary technical point of contact for high-value customers, ensuring high customer satisfaction, solution adoption and success rate of renewals or upsells.
-- Lead efforts to identify potential risks in architectural design and ensure compliance with industry standards and regulations
+- **People:** Advise customers on organizing development teams, platform engineering, SRE, and DevSecOps teams at scale (100+ developers)
+- **Process:** Design and implement repeatable DevSecOps processes that work across multiple teams and business units
+- **Technology:** Architect solutions that scale beyond individual use cases to enterprise-wide implementations
 
-##### Thought Leadership and Evangelism
+### Cross-Functional Impact and Thought Leadership
 
-- Maintain a positive personal brand through GitLab-relevant participation in channels such as conferences, blogging, social media, or volunteering for external technical committees or communities of practice.
-- Develop and drive the strategic technical vision for large-scale, complex projects, ensuring alignment with GitLab's overall business objectives
+- **Geographic Impact:** Drive initiatives that measurably impact GitLab business across assigned geographical region (AMER/EMEA/APAC) beyond a single segment (ENT/MM/PUBSEC/FINSERV)
+- **External Authority:** Build recognized expertise in specific industry verticals or technology domains outside of GitLab
+- Maintain thought leadership through speaking, writing, or community participation in industry forums
+- Serve as DRI for SME groups within geographical region
 
-#### Staff Solutions Architect Requirements
+### Technical Excellence and Innovation
 
-- Extends the Senior Solutions Architect requirements
-- Has experience with the additional responsibilities of a Staff Solutions Architect
-- Technical proficiency with deep understanding of cloud architectures (AWS, Azure, GCP), containerization, DevOps practices and modern software development frameworks and languages
-- Ability to define clear outcomes and expectations that align with high-level organizational goals.
-- Experience leading and mentoring technical and cross-functional teams
-- Proven ability to collaborate and communicate effectively with senior stakeholders, including executives and business leaders (internal and external)
-- Ability to emphasize thought leadership and strategic decision-making in order to lead initiatives
+- Create reusable technical assets and methodologies that can be leveraged across the geographical region regardless of segment (ENT/MM/PUBSEC/FINSERV)
+- Speak about technology and processes in industry-standard terms, not just GitLab-specific language
+- Drive innovation in customer engagement models and technical delivery approaches
 
 ### Principal Solutions Architect
 
@@ -165,20 +163,35 @@ The Principal Solutions Architect reports to the Manager, Solutions Architect.
 
 The Principal Solutions Architect is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#customer-success)
 
-#### Principal Solutions Architect Responsibilities
+## Principal Solutions Architect Responsibilities
 
-- Extends the Staff Solutions Architect responsibilities.
-- Create and maintain relationships with customer executives that contribute to large Net ARR deals and customer success.
-- Facilitate customer and partner strategy formulation that takes into account the customer or partner's market, business processes, technology portfolio, culture and appetite for change.
-- Identify and surface business generation motions within areas of personal subject matter expertise that intersect with GitLab targeted technology sectors.
-- Build and maintain select subject matter expertise related to GitLab targeted technology sectors through industry monitoring and participation in external working groups, committees and development projects.
-- Keep up to date on GitLab-relevant emerging methodologies and technologies and leverage that knowledge to drive solution strategy and influence product strategy.
-- Collaborate with product marketing, engineering, and management on market strategy that results in an improved win rate.
-- Creates reusable notional architectures to leverage in [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/).
-- Use technical and market knowledge to create solutions and influence product to expand GitLabs revenue base - especially Total Addressable Market (TAM) and Launch Addressable Market (LAM).
-- Exert influence on the overall objectives, key results, and other long-range measurable goals and strategies of the team.
-- Create reference implementations for 3rd party integrations and effectively communicate the design and it's value to customers, partners and GitLab team members.
-- Service assistance requests by GitLab team members and/or Partners as a pre-sales and technical solutions authority for the top ARR clients and top Net ARR opportunities.
+Extends the Staff Solutions Architect responsibilities with global impact and recognized external authority.
+
+### Global Technical Leadership
+
+- Drive technical strategy and thought leadership that impacts GitLab's **global** business
+- Influence product roadmap and go-to-market strategy based on field insights and market analysis
+- Lead **global** initiatives that span multiple geographical regions and business segments
+
+### External Industry Authority
+
+- **Requirement:** Maintain recognized authority in specific industry verticals or technology domains external to GitLab
+- Participate in industry standards bodies, advisory boards, or technical committees
+- Generate original thought leadership content that positions GitLab and establishes personal credibility
+- Build relationships with industry analysts, technology vendors, and ecosystem partners at executive level
+
+### Strategic Business Impact
+
+- **Global Business Impact:** Drive initiatives that measurably contribute to GitLab's global revenue and market position
+- **Alternative Path:** Demonstrate exceptional geographical impact plus recognized external industry authority
+- Influence GitLab's Total Addressable Market (TAM) and Landed Addressable Market (LAM) through technical innovation
+- Serve as executive technical advisor for GitLab's most strategic accounts and partnerships
+
+### Advanced Capabilities
+
+- Facilitate customer and partner strategy formulation that accounts for market positioning, technology portfolio, and cultural change management
+- Create reference architectures and technical frameworks that become industry standards
+- Mentor and develop Staff SAs across multiple geographical regions
 
 #### Principal Solutions Architect Requirements
 
@@ -460,7 +473,7 @@ Candidates can expect the hiring process to follow the order below. Please keep 
 
 ### Individual Contributor Hiring Process
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters.
 - Next, candidates will be invited to schedule a first interview with the SA team Manager.
 - Candidates may be invited to schedule an interview with a Solutions Architect peer or other SA team Manager.
 - Then, candidates will be required to deliver a demo of GitLab to a panel of Customer Success attendees using the [Demo Guide](https://gitlab-com.gitlab.io/customer-success/solutions-architecture/sa-candidate-experience/panel_instructions/).
@@ -469,7 +482,7 @@ Candidates can expect the hiring process to follow the order below. Please keep 
 
 ### Management Hiring Process
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters.
 - Next, candidates will be invited to schedule a first interview with a Customer Success VP or Director.
 - Candidate will then schedule an interview with an SA management peer.
 - Then, candidates will present a business plan to include 30/60/90 day approach, outcomes, and metrics.

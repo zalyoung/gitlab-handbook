@@ -9,7 +9,7 @@ This page includes information about UX Resources to help you do your job. It is
 
 - [Product Designer workflows](/handbook/product/ux/product-designer/)
 - [UX Researcher workflows](/handbook/product/ux/ux-research/)
-- [Technical Writing workflows](/handbook/product/ux/technical-writing/workflow/)
+- [Technical Writing workflows](https://docs.gitlab.com/development/documentation/workflow/)
 
 ## UX Department Google Calendar
 
@@ -57,7 +57,7 @@ The GitLab Design System, [Pajamas](https://design.gitlab.com), was developed to
 
 Our SVG repository manages all GitLab SVG assets by creating an SVG sprite out of icons and optimizing SVG-based illustrations.
 
-- [SVG Previewer](http://gitlab-org.gitlab.io/gitlab-svgs/)
+- [SVG Previewer](https://gitlab-org.gitlab.io/gitlab-svgs/)
 - [View the project](https://gitlab.com/gitlab-org/gitlab-svgs)
 
 ### Jobs to be Done (JTBD)
@@ -65,12 +65,17 @@ Our SVG repository manages all GitLab SVG assets by creating an SVG sprite out o
 We use the JTBD framework for viewing products and solutions in terms of the jobs customers are trying to achieve. It's about understanding the goals that people want to accomplish. JTBD is used throughout the design process to determine scope, validate direction, evaluate existing experiences with [UX Scorecards](/handbook/product/ux/ux-scorecards/), and assess our [Category Maturity](https://about.gitlab.com/direction/#maturity) with [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/).
 
 - [JTBD Overview](/handbook/product/ux/jobs-to-be-done/)
-- [JTBD Deep Dive](/handbook/product/ux/jobs-to-be-done/deep-dive/)
-- [Mapping JTBD](/handbook/product/ux/jobs-to-be-done/mapping-jobs-to-be-done/)
+- [JTBD Deep Dive](/handbook/product/ux/jobs-to-be-done/)
+- [Mapping JTBD](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/)
 
 ### Design Reviews
 
-View how we collect [synchronous and asyncrhonous design feedback](/handbook/product/ux/product-designer/#design-reviews).
+View how we collect [synchronous and asynchronous design feedback](/handbook/product/ux/product-designer/#design-reviews).
+
+### Design Studios
+
+[Design Studios](/handbook/product/ux/product-design/design-studios/) are regular meetings for product designers to connect and work together.
+They provide casual time for socializing, sharing work, getting feedback, and more.
 
 ### Tools
 
@@ -90,6 +95,10 @@ Figma admins and their role scope are defined as:
 Everyone in the UX department and all Product Managers can get a Figma account with the ability to create new Figjam boards. If you want to share your Figjam board to get feedback from members of your team who do not have a Figma account, you can send an anonymous link via the Share dialog.
 
 **Dovetail** We use [Dovetail](https://dovetailapp.com/) to manage and analyze research findings. If you need access, please submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues).
+
+**Gong** is a conversation intelligence tool to record sales facing conversations and provide analytics and insights into those conversations. It can help UX team members identify customers to speak with, or search calls for topics of interest. It is available to UX team members upon request. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) if you would like to use it. You can request the "Collaborator" role.
+
+**Highspot** contains information about Go-to-market including sales enablement and competitor research. Highspot can be accessed through SSO and is available upon request. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) if you would like to use it. For more information, see the [Highspot handbook page](/handbook/sales/field-communications/gitlab-highspot/)
 
 ### Tutorials
 
@@ -138,4 +147,4 @@ Not only do our team members create great work for the wider GitLab community, b
 - [Building Design Systems: Unify User Experiences through a Shared Design Language](https://www.amazon.com/Building-Design-Systems-Experiences-Language/dp/148424513X), by Taurie Davis and Sarrah Vesselov
 - [Craft Awesome Web Typography](https://betterwebtype.com/web-typography-book/), by Matej Latin
 - [Hemingway - Figma plugin](https://www.figma.com/community/plugin/760035865558407437/Hemingway), by Michael Le
-- [GitLab-ipsum](https://ipsum.reali.sh/), by Patrick Deuley and Jeremy Elder
+- [GitLab-ipsum](https://gitlab-com.gitlab.io/gitlab-ux/ux-foundations/gitlabipsum/), by Patrick Deuley and Jeremy Elder

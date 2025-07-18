@@ -30,7 +30,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#mr-buddies`                        | For any questions regarding merge requests.                                                                                                                                                                                          |
 | `#new_team_members`                  | For new GitLab team members to introduce themselves to the company and for existing team members to share updates with new hires.                                                                                                    |
 | `#new-vacancies`                  | For all GitLab team members to be aware of internal opportunities, as well as all job openings as they are listed. Please review the [referral process](/handbook/hiring/referral-process/) page to find out more about referring someone for a role.                                                                                                   |
-| `#payroll`                           | For questions pertaining to [payroll](/handbook/finance/payroll/) and [contractor invoices](/handbook/finance/payroll/#non-us) (e.g. ADP, etc.).                                                                                     |
+| `#payroll`                           | For questions pertaining to [payroll](/handbook/finance/payroll/) and [contractor invoices](https://internal.gitlab.com/handbook/finance/payroll/#non-us) (e.g. ADP, etc.).                                                                                     |
 | `#safe`                            | SAFE                                                                                  |
 | `#security`                            | Security                                                                                  |
 | `#talent-acquisition`                | For questions about [referrals](/handbook/hiring/referral-process/), the [hiring process](/handbook/hiring/), and/or candidate status.                                                                                               |
@@ -69,11 +69,8 @@ To get in touch with the [e-group](/handbook/company/team/?department=executive)
 
 To raise an issue with a specific team, please use below most commonly used channels;
 
-- **`#people-connect`**: For general People Operations tasks such us onboarding, offboarding, letter of employment, Team calender events management etc
 - **`#it_help`**: For IT related queries, Okta, issues with hardware, software, system access requests and user permissions etc
-- **`#payroll`**: For Navan Expense issues, delayed reimbursements and salaries, payslips, etc
 - **`#talent-acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
-- **`#total-rewards`**: For general questions on [Total Rewards](/handbook/total-rewards/) including compensation, benefits, and equity
 
 ### Channel Categories
 
@@ -81,7 +78,7 @@ To raise an issue with a specific team, please use below most commonly used chan
 
 These channels (prefixed with a `a_`) are for team members to collaborate and communicate regarding the account for a customer organization. Depending on the customer, they are sometimes internal, marked as private or we shared with the customer by connecting to customer's own Slack workspace. In order to clearly differentiate between these shared and internal channels, we recommend using `a_XYZ-internal` and `a_XYZ-external` naming conventions to be explicitly clear (as the shared symbol can be easily missed in Slack).
 
-To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
+To request a new channel or to make changes to existing channels, please use the [Slack Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Slack_Request) form.
 
 Commercial (Mid-Market and SMB) accounts have specific guidelines around having Slack channels with customers.
 
@@ -112,13 +109,13 @@ These channels are for teams and GitLab team-members interested in a specific fe
 
 #### Group Channels (g_)
 
-Group channels (prefixed with a `g_`) correspond to a [DevOps Stage group](/handbook/product/categories/#hierarchy) and other [engineering departments and teams](/handbook/engineering/#engineering-departments--teams).
+Group channels (prefixed with a `g_`) correspond to a [DevOps Stage group](/handbook/product/categories/#hierarchy) and other [engineering departments and teams](/handbook/engineering/#engineering-departments).
 
 **Example**
 
 - **[`#g_create`](https://gitlab.slack.com/archives/g_create)**: Channel for the [Create](/handbook/product/categories/#create-stage) development group.
 - **[`#g_create_source-code`](https://gitlab.slack.com/archives/g_create_source-code)**: Channel for the [Source Code](/handbook/product/categories/#source-code-group) development group.
-- **[`#g_geo`](https://gitlab.slack.com/archives/g_geo)**: Dedicated to the [Geo group](/handbook/engineering/development/enablement/systems/geo/).
+- **[`#g_geo`](https://gitlab.slack.com/archives/g_geo)**: Dedicated to the [Geo group](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/).
 
 #### Location Channels (loc_)
 
@@ -135,23 +132,26 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_amsterdam`](https://app.slack.com/client/T02592416/CPV03CGTV) | Amsterdam location-specific channel |
 | [`#loc_annapolis`](https://app.slack.com/client/T02592416/CPZG77JA2) |  |
 | [`#loc_arizona`](https://app.slack.com/client/T02592416/CTALWU0GK) | Discussion / Intro / Meetup for people in Arizona, USA |
+| [`#loc_avl`](https://app.slack.com/client/T02592416/C0477ERH8CF) | Asheville, North Carolina 🍂🏔️🍂 |
 | [`#loc_atl`](https://app.slack.com/client/T02592416/CBNQ29E90) | House channel for greater Atlanta area |
 | [`#loc_atx`](https://app.slack.com/client/T02592416/CLHPXPX5W) | Austin, Texas! |
 | [`#loc_australia`](https://app.slack.com/client/T02592416/CHHFS9DR7) | Australia Specific Chat |
 | [`#loc_austria`](https://app.slack.com/client/T02592416/CH49EGEHM) | A channel around the beautiful city of Vienna, come and visit us! |
-| [`#loc_avl`](https://app.slack.com/client/T02592416/C0477ERH8CF) | Asheville, North Carolina 🍂🏔️🍂 |
 | [`#loc_bali`](https://app.slack.com/client/T02592416/CQL1DF5FX) | Channel for those traveling to Bali in 2022. |
 | [`#loc_bayarea`](https://app.slack.com/client/T02592416/C03ATS0N2) | House channel for Mountain View. |
-| [`#loc_bc`](https://app.slack.com/client/T02592416/C011GM1LDDW) |  |
+| [`#loc_bc`](https://app.slack.com/client/T02592416/C011GM1LDDW) | British Columbia, Canada |
 | [`#loc_belgium`](https://app.slack.com/client/T02592416/CR2T6HHCP) | 🇧🇪🍺🍫🍟     |
 | [`#loc_berlin`](https://app.slack.com/client/T02592416/C3SB0FKD4) | All things going on in Berlin, Germany. We are regularly meeting up on the 3rd Thursday of the Month. |
-| [`#loc_bochum`](https://app.slack.com/client/T02592416/CFV9XLA67) | For all folks from Bochum, Germany. ⛏ https://www.youtube.com/watch?v=Gtd9Bg9S85U |
+| [`#loc_boston`](https://app.slack.com/client/E03N1RJJX7C/C4N4UC62V) | For folks living in or around the Greater Boston metro area; monthly coworking in downtown Boston second Wednesday of each month. |
 | [`#loc_brisbane`](https://app.slack.com/client/T02592416/CH436GSNM) | Discuss all the Brisbane things |
+| [`#loc-budapest`](https://app.slack.com/client/T02592416/CQ4SX28GH) | For those who love, live and work in Budapest |
 | [`#loc_canada`](https://app.slack.com/client/T02592416/CERJB2EBY) | All things Canada 🇨🇦  |
 | [`#loc_cencoastca`](https://app.slack.com/client/T02592416/CLQPEBG8Y) | Connecting those living or passing through the Central Coast of California |
 | [`#loc_chennai`](https://app.slack.com/client/T02592416/C029M048TFX) |  |
+| [`#loc-chicagoland`](https://app.slack.com/client/T02592416/CC285QEDU) | To connect folks in the Chicagoland area of the U.S. |
 | [`#loc_cincy`](https://app.slack.com/client/T02592416/CG2RC06L8) |  |
 | [`#loc_clt`](https://app.slack.com/client/T02592416/CSPPH6JJK) | For those who live in/near (or visit) the Charlotte, NC, USA area! |
+| [`#loc-costa-rica`](https://app.slack.com/client/T02592416/C01TG4VLFDK) |  |
 | [`#loc_czech`](https://app.slack.com/client/T02592416/CHTCRDV2N) | 🇨🇿 living in or visiting Czech Republic?  |
 | [`#loc_dallas`](https://app.slack.com/client/T02592416/CSARGT3ME) |  |
 | [`#loc_delaware`](https://app.slack.com/client/T02592416/CRG5B7E59) | delaWHERE? |
@@ -161,6 +161,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_digital-nomad`](https://app.slack.com/client/T02592416/CDHFXPNQM) | Anyone else living the digital nomad life? Maybe let's find spots to travel together! Share your travel plans if you'd like and make connections abroad 🙂 |
 | [`#loc_dmv`](https://app.slack.com/client/T02592416/C7UJ658ET) | for people in and around DC, Maryland, Virginia |
 | [`#loc_dontmesswithtexas`](https://app.slack.com/client/T02592416/C52UG8XL5) |  |
+| [`#loc-dublin`](https://app.slack.com/client/T02592416/CBK3B7EGM) | Connection with the Dublin team |
 | [`#loc_egypt`](https://app.slack.com/client/T02592416/C02KC9Y9TMF) | 🇪🇬 Masr Heya Ommy 🇪🇬    |
 | [`#loc_hamburg`](https://app.slack.com/client/T02592416/CFE1STZEH) | Local channel for Hamburg, Germany |
 | [`#loc_hawaii`](https://app.slack.com/client/T02592416/CJRG60YG6) | For people traveling to, or living in Hawaii |
@@ -177,6 +178,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_kerala`](https://app.slack.com/client/T02592416/CU2RGRWR0) | Anything about Kerala |
 | [`#loc_korea`](https://app.slack.com/client/T02592416/C02KTP5QVJS) |  |
 | [`#loc_ky`](https://app.slack.com/client/T02592416/C03EWKE264A) | Location: Kentucky - Georgetown, Lexington, and Versailles |
+| [`#loc-latam`](https://app.slack.com/client/T02592416/CTA13962D) | For all team members from Latam , rest of the world welcome as well |
 | [`#loc_leipzig`](https://app.slack.com/client/T02592416/CS81KREG3) | NY Times list of places to visit in 2020: https://www.nytimes.com/interactive/2020/travel/places-to-visit.html?place=leipzig |
 | [`#loc_lille`](https://app.slack.com/client/T02592416/CTZ3U5AS1) |  |
 | [`#loc_london-uk`](https://app.slack.com/client/T02592416/C3CEJ4DEZ) | London meetups! |
@@ -185,19 +187,24 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_melbourne`](https://app.slack.com/client/T02592416/CBE1S2HMH) |  |
 | [`#loc_mexico`](https://app.slack.com/client/T02592416/CEPQ1GBRC) | For people living/visiting Mexico 🇲🇽  |
 | [`#loc_michigan`](https://app.slack.com/client/T02592416/CN2NUGTP0) | All Things "Great Lakes State" |
+| [`#loc-midwest-u-s`](https://app.slack.com/client/T02592416/CC0BVGJTT) | To connect with GitLab team members in the Midwest region of the U.S. |
 | [`#loc_minnesota`](https://app.slack.com/client/T02592416/C62D93RRU) |  |
 | [`#loc_montreal`](https://app.slack.com/client/T02592416/CT83NVCA3) |  |
 | [`#loc_moscow`](https://app.slack.com/client/T02592416/CK9LK96LE) |  |
 | [`#loc_mt`](https://app.slack.com/client/T02592416/C01J5BAPPU4) | Montana GitLab Team Members |
-| [`#loc_munich`](https://app.slack.com/client/T02592416/CM25953MH) | As of today none of us seems to be living in Munich. But there are Meetups and Events and maybe also occasions to meet in Munich for some co-working. Here we can team up. |
+| [`#loc_munich`](https://app.slack.com/client/T02592416/CM25953MH) | 🎡 A lot of people from Germany live in and around Munich. Additionally, there is a bi-weekly calendar series for co-working sessions. |
 | [`#loc_n-ireland`](https://gitlab.slack.com/archives/C03V4FEEQE7) | N.Ireland slack channel, so it is |
 | [`#loc_nashville`](https://gitlab.slack.com/archives/loc_nashville) | Nashvillians Unite! |
+| [`#loc_netherlands`](https://app.slack.com/client/T02592416/C0FGWFRMX) | For anyone living or visiting The Netherlands |
 | [`#loc_newengland`](https://app.slack.com/client/T02592416/CJV0FMCH4) | Channel for those located in New England |
+| [`#locnewyork`](https://app.slack.com/client/T02592416/CPLALPZ1Q) | |
 | [`#loc_nigeria`](https://app.slack.com/client/T02592416/CDB11DSRH) |  |
 | [`#loc_noco_aka_loconoco`](https://app.slack.com/client/T02592416/CJPLQ4LEM) | Connect GitLab team members who are in Boulder, Larimer and Weld Counties of Northern Colorado |
+| [`#loc_nrw`](https://app.slack.com/client/T02592416/C087YMW71R8) | For all folks from North Rheine-Westphalia(NRW), Germany. 🐴 https://www.youtube.com/watch?v=ReIJAtyslyE |
 | [`#loc_nuremberg`](https://gitlab.enterprise.slack.com/archives/C06R3T513E1) | Franconia, Germany - gingerbread, sausages, and more |
 | [`#loc_nyc`](https://app.slack.com/client/T02592416/C0XBJTC00) | Coordinate NYC-area coworking days and other events. Let us know if you're coming to town, and see our visitors doc! 🇺🇸 🗽 <https://docs.google.com/document/d/1aTW4P0V44S9hBppStCOVl3bfLq6qW6hoJFW_Er6HOdA/>   |
 | [`#loc_nz`](https://app.slack.com/client/T02592416/CF8MAMD39) | 🇳🇿 For those visiting, living in or interested in Aotearoa New Zealand. Also half of `#loc_australia` is in here too. https://docs.google.com/document/d/1VijZowFu8WpyV17MtRtrvz1GUqw9Y5Bcf-OkUOEU774/edit |
+| [`#loc_ohio`](https://gitlab.slack.com/archives/loc_ohio) | For GitLab team members in the Buckeye State |
 | [`#loc_ottawa`](https://app.slack.com/client/T02592416/C01KH7P3KBR) |  |
 | [`#loc_pdx`](https://app.slack.com/client/T02592416/CS7N7UFGR) | For GitLab team members in/around Portland Oregon |
 | [`#loc_perth`](https://app.slack.com/client/T02592416/CQ6LTSP4L) | Join us (me) for enthralling (adequate) Perth, Australia conversation |
@@ -205,6 +212,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_philippines`](https://app.slack.com/client/T02592416/CL95ZB8V7) |  |
 | [`#loc_pittsburgh`](https://app.slack.com/client/T02592416/C02E5TJVDN2) | A city of bridges, 3 rivers and fries on top of salads |
 | [`#loc_pnw`](https://app.slack.com/client/T02592416/CBFBYUCAH) | For GitLab team members living in or visiting the Pacific Northwest (Cascadia): Washington, Oregon, and BC (Canada), includes Seattle and Portland. |
+| [`#loc_poland`](https://gitlab.enterprise.slack.com/archives/C54KWETEX) | For anyone living or visiting Poland 🇵🇱 |
 | [`#loc_portugal`](https://app.slack.com/client/T02592416/C1X1KLMNH) | For anyone living or visiting Portugal 🇵🇹  |
 | [`#loc_qld`](https://app.slack.com/client/T02592416/C02RGGJFY03) | Queeeeeeeenslander! |
 | [`#loc_quebec`](https://app.slack.com/client/T02592416/CQV5PLEUR) | All things Quebec ⚜️ |
@@ -233,20 +241,15 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_turkey`](https://app.slack.com/client/T02592416/CSCVC7Q4E) | This is a slack channel for Turkey |
 | [`#loc_uk`](https://gitlab.slack.com/archives/C0SQZ6D5Y) | For folks living, visiting, or interested in the United Kingdom |
 | [`#loc_us_mid-atlantic`](https://app.slack.com/client/T02592416/C03QETSKEKY) | [US Mid-Atlantic states](https://en.wikipedia.org/wiki/Mid-Atlantic_(United_States)) |
+| [`#loc_usa`](https://gitlab.slack.com/archives/C045SQKUX6X) | General channel for USA |
+| [`#loc-utah`](https://app.slack.com/client/T02592416/C1F6XRA77) |  |
 | [`#loc_vegas`](https://app.slack.com/client/T02592416/CLKCQFKC3) | Are you visiting Vegas soon for fun or a conference? Connect with Vegas locals here for coffee meet-ups or recommendations! |
 | [`#loc_vermont`](https://app.slack.com/client/T02592416/C03D8PUMHRS) | For our sole Vermonter ❤️ |
 | [`#loc_wales`](https://app.slack.com/client/T02592416/CPX1QPTAR) | 🏴󠁧󠁢󠁷󠁬󠁳󠁿 - Come to discuss dragons, Brains 🍺 and rain 🌧               |
-| [`#loc_yugoslavia`](https://app.slack.com/client/T02592416/CLQLDQ141) | whatever you wish |
-| [`#loc-budapest`](https://app.slack.com/client/T02592416/CQ4SX28GH) | For those who love, live and work in Budapest |
-| [`#loc-chicagoland`](https://app.slack.com/client/T02592416/CC285QEDU) | To connect folks in the Chicagoland area of the U.S. |
-| [`#loc-costa-rica`](https://app.slack.com/client/T02592416/C01TG4VLFDK) |  |
-| [`#loc-dublin`](https://app.slack.com/client/T02592416/CBK3B7EGM) | Connection with the Dublin team |
-| [`#loc-latam`](https://app.slack.com/client/T02592416/CTA13962D) | For all team members from Latam , rest of the world welcome as well |
-| [`#loc-midwest-u-s`](https://app.slack.com/client/T02592416/CC0BVGJTT) | To connect with GitLab team members in the Midwest region of the U.S. |
-| [`#loc-utah`](https://app.slack.com/client/T02592416/C1F6XRA77) |  |
+| [`#loc_warsaw`](https://gitlab.enterprise.slack.com/archives/C065U6CQV17) | Connection to Warsaw team |
 | [`#loc-west-lafayette`](https://app.slack.com/client/T02592416/CQ8HG9NNA) | West Lafayette, IN GitLab team members |
-| [`#locnewyork`](https://app.slack.com/client/T02592416/CPLALPZ1Q) |  |
-| [`#loc_usa`](https://gitlab.slack.com/archives/C045SQKUX6X) | General channel for USA |
+| [`#loc_wny`](https://gitlab.enterprise.slack.com/archives/C04D4JJ6JBU) | Western New York GitLab team members |
+| [`#loc_yugoslavia`](https://app.slack.com/client/T02592416/CLQLDQ141) | whatever you wish |
 
 #### Project Channels (proj_)
 
@@ -264,14 +267,6 @@ Stage channels (prefixed with `s_`) correspond to stages within sub-departments.
 
 - **[`#s_enablement`](https://gitlab.slack.com/archives/s_enablement)**: For the [Enablement stage](/handbook/product/categories/#enablement-stage).
 - **[`#s_create`](https://gitlab.slack.com/archives/s_create)**: For the [Create stage](/handbook/product/categories/#create-stage).
-
-#### Sub-Department Channels (sd_)
-
-Sub-department channels (prefixed with `sd_`) correspond to sub-departments within departments.
-
-**Example**
-
-- **[`#sd_dev_engineering`](https://gitlab.slack.com/archives/sd_dev_engineering)**: For the [Engineering Dev sub-department](/handbook/engineering/development/dev/).
 
 #### Social Groups
 

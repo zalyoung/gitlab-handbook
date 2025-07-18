@@ -1,0 +1,33 @@
+{{- $categories := dict }}
+{{- range $k, $v := site.Data.public.categories }}
+  {{- $categories = merge $categories (dict $k $v) }}
+{{ end }}
+{{ $stages := site.Data.public.stages.stages }}
+
+<table>
+    <thead>
+        <tr>
+        <th>Category</th>
+        <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $k, $v := $categories }}
+        <tr>
+        <td><code>{{$k}}</code></td>
+        <td>{{- $cat := $k }}
+            {{- range $key, $data := $stages }}
+            {{- range $k, $v := $data.groups }}
+                {{- if in .categories $cat }}
+                    Group: <a href='/handbook/product/categories/#{{ replace $k "_" "-" }}-group'>{{ $data.display_name }}: {{ $v.name }}</a><br/>
+                    Slack: <a href='https://gitlab.slack.com/channels/{{ $v.slack.channel }}'>#{{ $v.slack.channel }}</a><br/>
+                    Engineering Manager: {{ or $v.em $v.backend_engineering_manager }}<br/>
+                    Product Manager: {{ $v.pm }}<br/>
+                {{- end }}
+            {{- end }}
+            {{- end }}
+        </td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>

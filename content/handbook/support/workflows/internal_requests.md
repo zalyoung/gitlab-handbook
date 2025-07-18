@@ -52,7 +52,7 @@ graph TD;
 
 ## Activate Trial Runners
 
-For sales assisted trials, only we can override the credit card validation requirement for a namespace. See [Internal Requests > SaaS Trial Related > Change an existing SaaS trial plan]({{< ref "internal-support#internal-requests" >}}) for instructions on how to perform this task.
+For sales assisted trials, only we can override the credit card validation requirement for a namespace. See [Internal Requests > SaaS Trial Related > Change an existing SaaS trial plan](/handbook/support/internal-support/#internal-requests) for instructions on how to perform this task.
 
 ## GitLab.com Trial Change Request
 
@@ -60,7 +60,7 @@ Sales team members will typically open this on behalf of their prospects in orde
 
 ## Ask for Support as a Solution Architect
 
-Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
+Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). This form is an internal request, which means the work takes place between the SA and the engineer. Customers can not collaborate on these tickets. In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
 
 ## Inactive Namespace Request
 
@@ -78,17 +78,26 @@ See the [Sending notices workflow](/handbook/support/workflows/sending_notices) 
 
 ## Repo Size Limit Increases
 
-At times, users require an increase to the size limit of their repository as a workaround for a bug issue. In these cases:
+At times, users require an increase to the size limit of their repository as a workaround for a bug issue or due to having inadvertently reached the limit.  There are two different limits in place, 10GiB for free and 500GiB for paid namespaces.  In both cases, we should work with the users to reduce their usage as soon as possible.  Free users should be encouraged to purchase additional storage packs, while paid customers should be directed to speak with their account managers for next steps.
+
+In both cases, the limit can be temporarily increased:
 
 1. Open an issue in the **[internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues)** issue tracker using the `Repo Size Limit` issue template.
     - If you do not have GitLab.com admin access, add the `Admin escalation` label. If needed, post in the `#support_gitlab-com` Slack channel for attention on it.
-1. If a request is a workaround to a bug issue:
+1. If a request is for a free user namespace or to work around a bug issue:
+    - Set the expectation for free users that this is very time limited, just enough to allow them to reduce usage or purchase additional storage packs
+      - Set a due date for reverting: 1-2 days for free users
+      - up to 1 week from the current date for bug encounters
+    - If a longer exception time is required, add the `Manager Approval::Required`, and post in the `#support_leadership` channel to request approval.
     - Use current size + small buffer (2-5 GB) for the exception size.
-    - Set a due date for reverting, up to 1 week from current date.
-    - If a longer exception time is required, add the `Manager Approval::Required` label, and post in the `#support_leadership` channel to request approval.
     - Make sure to comment on (or create) a bug issue to help future users and prevent further tickets.
+1. If a request is for a paid namespace:
+    - For system stability reasons, we should encourage them to reduce usage as soon as possible
+      - At this time, it is not possible to purchase additional storage beyond the [fixed project limit](https://docs.gitlab.com/user/storage_usage_quotas/#fixed-project-limit)
+    - Inform their account management team if they aren’t already involved, and reach out to  `#support_licensing-subscription` if you need any assistance in locating or communicating with the account managers
+    - Set a due date for reverting, up to 1 week from current date, but loop in `#support_leadership` if longer will be necessary
 1. Apply the `Status::On Hold` label and set the due date to when it should be reverted.
-1. Using your GitLab.com admin account navigate to the project in question while appending **/edit** to the URL. For example, if the project in question is located at **<https://gitlab.com/group/subgroup/project/>** you would navigate to **<https://gitlab.com/group/subgroup/project/edit>**.
+1. Using your GitLab.com admin account navigate to the project in question while appending **/edit** to the URL. For example, if the project in question is located at `https://gitlab.com/group/subgroup/project/` you would navigate to `https://gitlab.com/group/subgroup/project/edit`.
 1. Enter a new value in the **Repository size limit (MB)** field.
 1. Click **Save changes**.
 1. On the specified due date, revert the size limit back to the default by removing the value.
@@ -99,7 +108,10 @@ See [internal wiki page](https://gitlab.com/gitlab-com/support/internal-requests
 
 ## GitLab.com Console Escalation
 
-There is a [generic template](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=GitLab.com%20Console%20Escalation) used to request an engineer with GitLab.com console access to take action.
+Templates available for requesting an engineer with GitLab.com console access to take action:
+
+1. [Console Export Request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Export%20Request) for creating a project export with the console.
+1. [Console Escalation](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Escalation) for running commands in the rails console.
 
 Before submitting a console escalation request, ensure that you perform [Account Ownership Verification](/handbook/support/workflows/account_verification) workflow for the following types of customer request:
 
@@ -114,11 +126,11 @@ Common issues include the following when the UI and API methods are not working:
 - User account confirmation retrigger
 - [Project export](https://gitlab.com/gitlab-com/support/internal-requests/-/blob/master/.gitlab/issue_templates/GitLab.com%20Console%20Export%20Request.md)
 
-Rarely, console escalations will also be used to workaround lack of a feature where Support can complete actions that would be unavailable or onerously time-consuming to customers.
+Rarely, console escalations will also be used to workaround lack of a feature where Support can complete actions that would be unavailable or onerously time-consuming to customers. When actions cannot be done via the UI or API, engineers should ensure that a feature request exists to have it in the product. Consider tagging the appropriate Product Manager for prioritization.
 
 Console escalation requests can also serve a purpose when further information (unavailable through the UI or API) is needed to understand the root cause of a problem. For example, searching for unverified secondary email until [gitlab#367823](https://gitlab.com/gitlab-org/gitlab/-/issues/367823) is resolved. This may be because we are not sufficiently logging in Kibana/Sentry, we're unable to replicate an issue, or the creation of an issue may not be the appropriate action needed to resolve a customer problem. Collaborate with console enabled engineers and product teams to solve these types of problems.
 
-Any request requiring disk access or a big data pull request similar to this [example](https://gitlab.zendesk.com/agent/tickets/336085), which cannot be done via rails console, requires an [infra issue](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/issues). Please note that infra does not have an SLO on these requests and may, in the customer's view, take an unreasonable amount of time to action on.
+Any request requiring assistance from infrastructure teams, please see the [SaaS Platforms Request for Help](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help) issue tracker and [SaaS Platforms Getting Assistance](../../engineering/infrastructure/getting-assistance/) page.
 
 ### Response time and escalating the request
 
@@ -134,13 +146,13 @@ Engineers with console access should search for similar previous requests, look 
 You can filter requests by "Read::Only" or "Read::Write" labels.
 Common or custom functions can be found in the [support runbooks](https://gitlab.com/gitlab-com/support/runbooks/).
 
-For update, create, and delete actions, it's essential to carefully review the request and think about the impact of these actions. Remember, update and delete actions can be risky. When writing custom commands or scripts, it's crucial to calibrate them based on the potential risks and the situation's specifics. Unless the situation is urgent, get another set of eyes in your code to confirm what you want to achieve.
+For update, create, and delete actions, it's essential to carefully review the request and think about the impact of these actions. Remember, update and delete actions can be risky. When writing custom commands or scripts, it's crucial to calibrate them based on the potential risks and the situation's specifics. You should always get another set of eyes on your code to confirm what you want to achieve. Customer data loss is not an acceptable tradeoff for expediency.
 
-If you're not completely sure about the specifics of the script or commands, test them out in your test instance first. And if needed, get feedback from developers who know that area of codebase before using them in the production console. This approach helps reduce risks when doing console tasks in production.
+If you're not completely sure about the specifics of the script or commands, test them out in your test instance first. And if needed, get feedback from developers who know that area of codebase before using them in the production console. This approach helps reduce risks when doing console tasks in production. For any scripts that are originating from the support team and are not already in a runbook or approved by development teams, please reach out to a manager or staff support engineer for review and approval.
 
 ## CI Catalog Badge requests
 
-[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/ee/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
+[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
 
 1. Open [GraphiQL](https://gitlab.com/-/graphql-explorer) with your GitLab.com administrator account
 1. In the following query, replace `root-level-group` with the namespace and verification level (`GITLAB_PARTNER_MAINTAINED`, `VERIFIED_CREATOR_MAINTAINED`) provided in the internal request:

@@ -12,7 +12,7 @@ The GDCMOC rotation currently uses the GitLab.com CMOC rotation to determine who
 
 ## Engaging the GDCMOC
 
-The GDCMOC can be paged via Slack or directly via PagerDuty. 
+The GDCMOC can be paged via Slack or directly via PagerDuty.
 
 - **Slack**: Using the `/pd trigger` command in Slack, select `Incident Management - GDCMOC` in the **Impacted Service** modal. Fill in the **Title** and click **Create**.
 - **PagerDuty**: From the [Incident Management - GDCMOC](https://gitlab.pagerduty.com/service-directory/P8WVAI0) page, click **New Incident**. Fill in the **Title** and click **Create**.
@@ -23,28 +23,28 @@ There is additional information about engaging the GDCMOC in the [on-call runboo
 
 ## Acknowledging a GitLab Dedicated Contact Request
 
-If an urgent contact request is needed, you will be paged via PagerDuty. Start by marking the PagerDuty alert as **acknowledged**. This can be done through the mobile app, web interface or PagerDuty App in the #spt_pod_dedicated Slack channel.
+If an urgent contact request is needed, you will be paged via PagerDuty. Start by marking the PagerDuty alert as **acknowledged**. This can be done through the mobile app, web interface or PagerDuty App in the #support_gitlab-dedicated Slack channel.
 
 The description in the PagerDuty alert should contain details about an issue, or a slack thread you need to follow. Follow any communication threads, and let the Dedicated Incident team know you are available to assist. You should be provided with the details of the request. If you're unsure, check [the GitLab Dedicated incidents issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?label_name%5B%5D=Incident%3A%3AActive) or ask in the `#g_dedicated-team` slack channel.
 
-Once an outreach ticket has been sent to the customer, mark the PagerDuty alert as **resolved**.
-
 ## Creating a new outreach ticket
 
-Follow these steps to create a new ticket to start communications with a customer.
+Follow these steps to create a new Outbound Contact Request ticket for the customer.
 
 1. Find the `Switchboard (production)` tile in Okta and login to Switchboard.
 1. You should see the `Tenants` page when logged in. Find the relevant tenant and click `Manage`.
 1. Expand the `Cloud Account Config` section, and look for the `Primary Region`. This should tell us which region the customer is based in. See the [AWS docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions) if you're unsure of the AWS region code. Make a note of the region.
 1. Search for the `Customer Communications` section, and expand it. You should see values for `Operational email addresses` and `Customer CSM`. You will need these values when creating the ticket.
-1. Follow the instructions [here](/handbook/support/workflows/sending_notices/#manually-create-a-zendesk-ticket) to create a new Zendesk ticket.
+1. Follow the instructions [here](/handbook/support/workflows/sending_notices/#manually-create-a-zendesk-ticket) to create a Zendesk ticket for the outbound request.
     1. For the **subject** of the ticket, use the following template: `GitLab Dedicated Notice: <description>`.
+    1. Apply the macro General::Outbound Contact Request
     1. For the ticket **requestor**, use the first operational email address listed.
     1. **CC** the other operational email addresses and the Customer CSM.
     1. Set the **Preferred Region for Support** to the region similar to where the tenants' `Primary Region` is located.
     1. Add a `dedicated_contacted_request` **tag** to the ticket.
+    1. Set the "Support Resolution Codes" to **Incident**.
 1. Assign the ticket to yourself.
-1. Once the ticket has been created, change the Zendesk Form over to `GitLab Dedicated`.
+1. After sending the initial outreach message to the customer, mark the PagerDuty alert as **resolved**. The alert's purpose is specifically to engage the GDCMOC to start communication.
 
 ## Keep the customer informed
 
@@ -63,6 +63,16 @@ Follow these steps to create a new ticket to start communications with a custome
 | Security-related out-of-band maintenance | SIRT                   | SIRT                  |
 | Incident communication                   | SRE / Incident manager | Optional              |
 | Other urgent communication               | It depends             | Optional              |
+
+## Closing the Outreach Ticket
+
+The outreach ticket's scope is specifically for customer communication about a particular incident or maintenance. Once the communication about the incident/maintenance is complete (For example, maintenance is finished or the incident is resolved), you should:
+
+1. Send a final update to the customer confirming the completion.
+1. Close the outreach ticket.
+1. Add a brief internal note summarizing the communication timeline (optional).
+
+Note: If the customer responds with follow-up questions after closure, create a new ticket to handle those inquiries separately from the original outreach communication.
 
 ## Guidelines
 

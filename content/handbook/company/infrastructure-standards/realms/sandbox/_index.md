@@ -11,21 +11,21 @@ description: "This handbook section defines the latest iteration of infrastructu
 
 #### Documentation
 
-- [Global infrastructure standards](/handbook/infrastructure-standards/)
+- [Global infrastructure standards](/handbook/company/infrastructure-standards/)
 - [Global labels and tags](/handbook/company/infrastructure-standards/labels-tags/)
-- [Infrastructure policies](/handbook/infrastructure-standards/policies/)
+- [Infrastructure policies](/handbook/company/infrastructure-standards/policies/)
 
 #### Issue Tracking and Collaboration
 
-- [HackyStack issue tracking](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/issues) (open source code feature development)
-- [IT Infrastructure issue tracking](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues) (GitLab-specific topics and requests)
+- [HackyStack issue tracking](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/issues) (open source code feature development)
+- [CorpSec Infra issue tracking](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues) (GitLab-specific topics and requests)
 - `#sandbox-cloud-questions` Slack channel to ask questions and get help.
 
 #### Code and Examples
 
-- [HackyStack README](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/blob/main/README.md)
-- [HackyStack source code](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel)
-- [HackyStack screenshots](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/tree/main/docs/screenshots/)
+- [HackyStack README](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/blob/main/README.md)
+- [HackyStack source code](https://gitlab.com/gitlab-com/infra-standards/hackystack)
+- [HackyStack screenshots](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/tree/main/docs/screenshots/)
 
 #### Infrastructure-as-Code
 
@@ -43,7 +43,7 @@ This platform is powered by [HackyStack](https://gitlab.com/gitlab-com/infra-sta
 
 You can learn more in the [HackyStack High-Level Intro](https://docs.google.com/presentation/d/1kbaub1-ztxGCV7wAzhNWXsH5beIu_HAVGSBjr8-0qTw/edit#slide=id.gdfc093c5c0_0_11) presentation.
 
-The Sandbox Cloud is managed by the [IT Engineering](/handbook/business-technology/it/engineering) team. Please tag `Jeff Martin` in Slack with any questions.
+The Sandbox Cloud is managed by the [IT Engineering](/handbook/security/corporate/) team. Please tag `Jeff Martin` in Slack with any questions.
 
 ### How to Get Started
 
@@ -62,9 +62,9 @@ Any team member can use the self service instructions below to provision an AWS 
 1. Please refresh your browser window every ~60 seconds until you see that your user account has changed from `Provisioning` to `Active`.
 1. See the instructions below for [Accessing your AWS Account](#accessing-your-aws-account) or [Accessing your GCP Project](#accessing-your-gcp-project).
 
-> You can sign-in with Okta, however please don't create a Cloud Account unless you intend to provision AWS resources. You can see the [screenshots](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/tree/main/docs/screenshots/) of everything that a user sees.
+> You can sign-in with Okta, however please don't create a Cloud Account unless you intend to provision AWS resources. You can see the [screenshots](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/tree/main/docs/screenshots/) of everything that a user sees.
 
-**Is your current AWS account experience problems?** Please ask for help in `#sandbox-cloud-questions`. If your problems are validated and approved for getting a new AWS account, please use the [New AWS Individual Account Rebuild Request](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_individual_account_rebuild_request) issue template.
+**Is your current AWS account experience problems?** Please ask for help in `#sandbox-cloud-questions`. If your problems are validated and approved for getting a new AWS account, please use the [New AWS Individual Account Rebuild Request](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/new?issuable_template=aws_individual_account_rebuild_request) issue template.
 
 #### Automated Shutdown Policy
 
@@ -84,24 +84,24 @@ Any team member can request a new AWS account or GCP project for a specific proj
 
 **No RED data is allowed in these accounts/projects.** Any RED data must be hosted in production AWS accounts or GCP projects managed by the appropriate Infrastructure Realm administrators (ex. `eng-infra-saas`, `it-infra`, etc.).
 
-Self-service creation and IAM management is not available yet for end users in HackyStack (will be available through API integration with [GitLab Access Manager](/handbook/business-technology/engineering/#access-manager-engineering) in the future and tracked in [hackystack#38](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/issues/38)). In the meantime, we use access request style issue templates as our boring solution for security compliance reasons and the HackyStack administrators provision accounts and users using the Admin CLI.
+Self-service creation and IAM management is not available yet for end users in HackyStack. In the meantime, we use access request style issue templates as our boring solution for security compliance reasons and the HackyStack administrators provision accounts and users using the Admin CLI.
 
-- [Issue Template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_create_request): New AWS Group (Multi-user) Account Request ([Provisioner Runbook](https://gitlab.com/gitlab-com/business-technology/engineering/runbooks/-/blob/main/gitlab-sandbox-cloud/add-group-account-for-aws.md))
-- [Issue Template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_iam_update_request): Add/Remove IAM Users from AWS Group Account ([Provisioner Runbook](https://gitlab.com/gitlab-com/business-technology/engineering/runbooks/-/blob/main/gitlab-sandbox-cloud/add-iam-user-to-aws-group-account.md))
-- [Issue Template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request): New GCP Group (Multi-user) Project Request ([Provisioner Runbook](https://gitlab.com/gitlab-com/business-technology/engineering/runbooks/-/blob/main/gitlab-sandbox-cloud/add-group-project-for-gcp.md))
-- [Issue Template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_iam_update_request): Add/Remove IAM Users from GCP Group Project ([Provisioner Runbook](https://gitlab.com/gitlab-com/business-technology/engineering/runbooks/-/blob/main/gitlab-sandbox-cloud/add-iam-user-to-gcp-group-project.md))
+- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=aws_services_account_create): New AWS Group Workload (Multi-user) Account Request
+- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=aws_services_account_iam_update): Add/Remove IAM Users from AWS Group Workload Account
+- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_services_project_create): New GCP Group (Multi-user) Project Request ([Provisioner Runbook](https://gitlab.com/gitlab-com/gl-security/corp/infra/runbooks/-/blob/main/gitlab-sandbox-cloud/add-group-project-for-gcp.md))
+- [Issue Template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_services_project_iam_update): Add/Remove IAM Users from GCP Group Project
 
 #### Production Environments
 
 ##### Product Related
 
-For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/data-classification-standard.html#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](/handbook/engineering/infrastructure/team/reliability/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
+For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/standards/data-classification-standard/#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](/handbook/engineering/infrastructure/team/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
 
 Most environments are typically created in the [config-mgmt project](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) using the [Create a new environment](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/#creating-a-new-environment) instructions.
 
 You can learn more about GitLab.com SaaS on the [Production Architecture](/handbook/engineering/infrastructure/production/architecture/) handbook page.
 
-Any projects with [yellow or green](/handbook/security/data-classification-standard.html#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](/handbook/infrastructure-standards) guidelines.
+Any projects with [yellow or green](/handbook/security/standards/data-classification-standard/#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](/handbook/infrastructure-standards) guidelines.
 
 ##### Business Related
 
@@ -109,7 +109,7 @@ For any infrastructure services related to business operations and our tech stac
 
 New SaaS applications should go through the [Procurement Process](/handbook/finance/procurement/) and are managed by the respective department's [system owners](/handbook/business-technology/#cross-department-system-owners).
 
-Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/product-security/architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
+Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with CorpSec Infrastructure, [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/). Please tag `@vlad` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [CorpSec Infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues).
 
 #### Accessing your AWS Account
 
@@ -121,7 +121,7 @@ Self-hosted application infrastructure is determined on a case-by-case basis and
 1. You can click on the link to open the AWS console, or you can close the modal window and click the `Open AWS Web Console` button on the `Cloud Account` details page.
 1. Use the provided **URL**, **Username**, and **Password** to sign in to your new AWS account. *Be careful that your browser doesn't autofill saved credentials for a different account.*
 1. After you sign in, you should navigate to IAM and add a Virtual MFA device for your user account and add a One-Time Password (OTP) to your 1Password record.
-1. Your IAM user account has `AdministratorAccess` to be able to perform any action inside of your AWS account. We do not provide team members access to the `root` user account since we only use this for break glass security incidents or related administrative activity by the [Infrastructure Realm Owners](/handbook/infrastructure-standards/#realm-owners).
+1. Your IAM user account has `AdministratorAccess` to be able to perform any action inside of your AWS account. We do not provide team members access to the `root` user account since we only use this for break glass security incidents or related administrative activity by the [Infrastructure Realm Owners](/handbook/company/infrastructure-standards/#realm-owners).
 
 #### Accessing your GCP Project
 
@@ -137,7 +137,7 @@ See the [Domain Names and DNS Records](https://internal.gitlab.com/handbook/it/i
 
 ## Terraform Environments
 
-In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/blob/main/changelog/1.11.md), we introduced Terraform environment generation for GCP projects and a lot of underlying automation for GitOps with alpha stability. AWS will be supported in a future iteration.
+In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/blob/main/changelog/1.11.md), we introduced Terraform environment generation for GCP projects and a lot of underlying automation for GitOps with alpha stability. AWS will be supported in a future iteration.
 
 - [LucidChart Architecture Diagram Edit Source](https://lucid.app/lucidchart/b07c1d5a-17f4-40d9-abf4-5f773b597460/edit)
 - [LucidChart Architecture Diagram View Source](https://lucid.app/documents/view/b07c1d5a-17f4-40d9-abf4-5f773b597460) (password `WAUBVZA3bneq4oWx`)
@@ -166,25 +166,25 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
 
 1. Sign into [https://gitops.gitlabsandbox.cloud](https://gitops.gitlabsandbox.cloud) using your generated credentials on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud). Keep in mind that this is `{firstInitial}{lastName}-{hash}` and not your normal GitLab username.
 1. Navigate to the project for the Terraform environment that you just created. You can quickly access the project from the link on the Cloud Account page on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud).
-1. On your local computer navigate to your .ssh folder and generate a ssh key
+1. On your local computer navigate to your `~/.ssh` folder and generate an SSH key
 
- ```shell
-ssh-keygen -t rsa -b 4096 -C <name_of_project>
- ```
+    ```shell
+    ssh-keygen -t rsa -b 4096 -C <name_of_project>
+     ```
 
 1. Navigate to terraform/main.tf on this project and copy and paste your public key. See the example below
 
- ```shell
-# -----------------------------------------------------------------------------
-# Add your Terraform modules and/or resources below this line
-# -----------------------------------------------------------------------------
+    ```shell
+    #     -------------------------------------------------------------------------    ----
+    # Add your Terraform modules and/or resources below this line
+    #     -----------------------------------------------------------------------------
 
-locals {
-  ssh_key               = "<RSA public key here>"
-  normalized_env_prefix = "sr-${var.env_prefix}"
-  tags                  = ["sr-firewall-rule", "${local.normalized_env_prefix}-firewall-rule"]
-}
-```
+    locals {
+      ssh_key               = "<RSA public key here>"
+      normalized_env_prefix = "sr-${var.env_prefix}"
+     tags                  = ["sr-firewall-rule", "${local.normalized_env_prefix}-firewall-rule"]
+    }
+    ```
 
 1. Run a new CI pipeline. After the `Plan` job completes, trigger the `Deploy` job. (Notice how you haven't had to do any configuration).
 1. Watch the `terraform apply` outputs as your new environment is spun up with a sample Ubuntu virtual machine for testing with. You can add additional Terraform resources as you see fit (see below).
@@ -211,7 +211,7 @@ Over the years, our non-production infrastructure resources have grown organical
 
 ### Recent iterations
 
-[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/infrastructure-standards/) which solved the "naming things is hard" problem with [labels, tags, and naming conventions](/handbook/company/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we've created a [sandbox realm](/handbook/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/company/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/company/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
+[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/company/infrastructure-standards/) which solved the "naming things is hard" problem with [labels, tags, and naming conventions](/handbook/company/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/company/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we've created a [sandbox realm](/handbook/company/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/company/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/company/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
 
 ### Current iteration
 
@@ -259,16 +259,16 @@ For those who are not familiar with Laravel, it is the PHP equivalent of [Ruby o
 
 See the issue trackers for the latest up-to-date information.
 
-- [HackyStack issue tracking](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/issues) (open source code feature development)
-- [IT Infrastructure issue tracking](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues) (strategic or GitLab-specific issues)
+- [HackyStack issue tracking](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/issues) (open source code feature development)
+- [CorpSec] Infrastructure issue tracking](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues) (strategic or GitLab-specific issues)
 
 #### Current Projects
 
-1. [Released in v0.3](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/blob/main/changelog/0.3.0.md)Add GCP project provisioning
-1. [Released in v1.11](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/blob/main/changelog/1.11.md) Create GitOps project per Cloud Account
-1. [Released in v1.11](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/blob/main/changelog/1.11.md) Add Terraform module library for users
-1. [it-infra#86 Project Playground](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/86): Deprecate shared AWS accounts and GCP projects with legacy configurations including `dev-resources` and `support-resources`.
-1. [Released in v0.2](https://gitlab.com/gitlab-com/infra-standards/hackystack-laravel/-/blob/main/changelog/0.2.0.md) Create new group accounts with Admin CLI provisioning
+1. [Released in v0.3](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/blob/main/changelog/0.3.0.md)Add GCP project provisioning
+1. [Released in v1.11](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/blob/main/changelog/1.11.md) Create GitOps project per Cloud Account
+1. [Released in v1.11](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/blob/main/changelog/1.11.md) Add Terraform module library for users
+1. [it-infra#86 Project Playground](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/86): Deprecate shared AWS accounts and GCP projects with legacy configurations including `dev-resources` and `support-resources`.
+1. [Released in v0.2](https://gitlab.com/gitlab-com/infra-standards/hackystack/-/blob/main/changelog/0.2.0.md) Create new group accounts with Admin CLI provisioning
 1. Add self-service provisioning and member management for group accounts
 1. Add automated access request audit reporting with IT ops issue tracker
 1. Add cost and usage reports for AWS and GCP
@@ -279,7 +279,7 @@ See the issue trackers for the latest up-to-date information.
 
 **Phase 4** - Automated provisioning of AWS accounts and GCP projects for each user and team with streamlined/automated access requests (aka "Automate the manufacturing of everyone's green LEGO board"). This is being achieved with the HackyStack open source project that Jeff is building.
 
-**Phase 4.5** - Migrate everyone's resources in shared accounts into respective isolated accounts and apply labels/tags for cost management and reporting. See [it-infra#86 Project Playground](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/86) for details.
+**Phase 4.5** - Migrate everyone's resources in shared accounts into respective isolated accounts and apply labels/tags for cost management and reporting. See [it-infra#86 Project Playground](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/86) for details.
 
 **Phase 5** - Curate centralized library of Terraform modules, Ansible roles, Packer images, Docker images, and other scripts that have best practice security standards are used for deploying common infrastructure (aka "Provide everyone a box of LEGO bricks and the tools to deploy them"). Integrate GitLab Environment Toolkit for deploying GitLab in decentralized test environments (user sandboxes, community member environments, etc). This will be open source with the community so partners and customer POCs can take advantage of what we have. This will solve Sid's request to ensuring we're all on the same page and using the same library for the millions of GitLab users.
 

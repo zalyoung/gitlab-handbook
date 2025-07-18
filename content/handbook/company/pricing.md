@@ -3,11 +3,12 @@ title: Pricing model
 description: "Most GitLab functionality is and will be available for free in our Free tier. Paid tiers include features targeted for managers, directors, and executives."
 ---
 
-GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
+GitLab's pricing strategy is set by the CEO. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
 
 Contributions are part of the day-to-day jobs of the following people:
 
 - Principal Pricing Manager (Sean Hall)
+- Senior Pricing Manager (Sarah DeVries)
 - VP, Product Management (Justin Farris)
 
 ## Pricing Strategy
@@ -103,11 +104,15 @@ in what plan based on [the paid tiers](#three-tiers).
 
 The following table describes how large cross-functional pricing decisions should be made.  This decision making method differs from our normal [RADCIE](/handbook/people-group/directly-responsible-individuals/) method due to the extremely cross-functional nature and business risk of large pricing decisions.
 
-| Responsible | Sr. Director, Pricing | Responsible for analysis and recommendation |
-| Agree | Chief Product Officer, CRO | Should ideally agree with the recommendation |
-| Perform | Pricing, Fulfillment, Sales Ops, Product Marketing, and Website teams | Executes the recommendation |
-| Input |  CMO, CFO | Should be consulted and allowed to provide input prior to decision |
-| Decide | CEO | Final decision maker |
+| **Responsibility** | **Role** | **Description** |
+| --- | --- | --- |
+| **Responsible** | Group Manager, Pricing | Responsible for analysis and recommendation |
+| **Agree** | VP Monetization, Chief Product Officer, CRO | Should ideally agree with the recommendation |
+| **Perform** | Pricing, Fulfillment, Sales Ops, Product Marketing, and Website teams | Executes the recommendation |
+| **Input** |  CMO, CFO | Should be consulted and allowed to provide input prior to decision |
+| **Decide** | CEO | Final decision maker |
+
+To ensure alignment across stakeholders, a monthly Pricing Steering Committee is held to align on upcoming monetization decisions, discuss historical insights/trends, and prioritize areas of opportunity.
 
 ## Three Tiers
 
@@ -165,13 +170,13 @@ Below we list product categories and the current and proposed features which res
 While our [tiers](#three-tiers) are based on who leads the purchasing decision there are occasions where driving increased usage takes precedence over the natural buyer-based tiering, always in favor of moving features to lower tiers. Here's why:
 As GitLab develops new categories that are likely to be in paid tiers, it is still reasonable (and in many cases advisable) to get the early MVC versions to land in the free or lower paid-tier to spur adoption, encourage contributions and gain feedback from the wider user base. Over time, the team can then add more features on top of the MVC functionality that will be placed in the paid-tiers. However, Product Managers should not move features down in violation of the buyer-based model unless there is a concrete high confidence plan to follow up with meaningful additions to the base feature that can be added to and monetized with the right paid tier
 
-1. Our [dual flywheels](/handbook/company/strategy/#dual-flywheels) work because of increased users.  Having capabilities in open-source - even for those oriented towards teams encourages more usage - increased users. Those users are essential to creating contributors, an improved product and future tiered features.
+1. Our dual flywheels work because of increased users.  Having capabilities in open-source - even for those oriented towards teams encourages more usage - increased users. Those users are essential to creating contributors, an improved product and future tiered features.
 
 When considering tiering, if the feature is geared to be used (not purchased) by individuals and the answer to the question of `who cares most about this feature?` is `today - very few people` we should consider open-sourcing it to get more usage and contributors. Regardless of the reasoning behind the down-tiering of a feature, the [process](/handbook/company/pricing/#changing-tiers-and-pricing-changes) should still be followed.
 
 ### Prevent the ability to circumvent tiering
 
-If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/pull) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
+If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/pull/) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
 
 ### Partner integration considerations
 
@@ -197,7 +202,7 @@ graph TD;
 
 The following are our current set of capabilities:
 
-{{% pricing-themes "Premium" "Ultimate" %}}
+{{% product/pricing-themes "Premium" "Ultimate" %}}
 
 #### What happens when themes don't match our Buyer Based Tiering Decisions?
 
@@ -229,7 +234,7 @@ There are multiple reasons why our lower tiers have more relative value:
 1. Any pricing model will have to be compatible with our open source tier. The open source tier should be the top alternative to our priced tiers. That tier has zero cost, zero discounting, a zero price charged for value generated, and infinite value per dollar. Our lowest tier should be the tier that is closest to that to make it possible for people to go from free to paid. As soon as they are paid we can help them to generate more value with GitLab, for example by using more stages. If they realize more value we can move them up in tiers.
 1. The lower tiers (including open source) are a pipeline of future customers for the higher tiers.
 1. We can easily increase revenue in the next 3 years by raising prices and/or making lower tiers less attractive (of course [never by moving features up](#default-to-move-features-down)). But we are optimizing the Net Present Value ([NPV](https://www.investopedia.com/terms/n/npv.asp)) of the company with a 10% a year discount rate. This means we have to look beyond 3 years.
-1. Raising prices on our lower tiers might cause more revenue in the short term, both directly and by compelling most organizations to move to higher tiers. But the minority of organizations that switch to a competition will cause them to be much harder for us to reach in the future and will allow competitors a [flywheel effect](/handbook/company/strategy/#dual-flywheels) of their own. This tradeoff has to be calculated explicitly when raising prices.
+1. Raising prices on our lower tiers might cause more revenue in the short term, both directly and by compelling most organizations to move to higher tiers. But the minority of organizations that switch to a competition will cause them to be much harder for us to reach in the future and will allow competitors a flywheel effect of their own. This tradeoff has to be calculated explicitly when raising prices.
 1. That our lower tiers are popular is not a pricing problem but a communication problem. Higher priced tiers have less value per dollar as a percentage but generate more net value in absolute terms. It is up to us to explain that value in the product, with marketing, and in our sales interactions.
 1. Open core projects capture (ratio of value created vs. captured) less value than proprietary projects. Because the pricing tiers are low relative to the value created the difference between the tiers can be much higher than with proprietary software. If you capture 1% you can easily introduce a new tier at 5x, if you capture 50% even doubling your price will take away all benefit for the customer.
 1. We see customers on Premium but not users on Free. If we focus only on the visible customers that are on Premium we miss the largest opportunity. Premium is priced too if the conversion from Premium to Ultimate is lower than organizations becoming customers after using free. Currently this is not the case because it is much harder reaching out to free users since they aren't customers and we don't have a point of contact to discuss the value of higher tiers.
@@ -277,7 +282,7 @@ The value is in making people more effective, saving time on integrating tools, 
 This should more than pay for the increased price of a tier.
 An analogy would be Apple's iPhone: it is twice as expensive as an average Android phone, and while it doesn't deliver twice as much value, the extra value is worth the extra cost.
 
-As [Stripe documented](https://stripe.com/atlas/guides/business-of-saas#hybrid-sales-approaches): hybrid is hard, because "The most common result of attempting both models simultaneously is that only one of the models receives any traction, and (because these models weave themselves into all operations of the company) it typically strangles the other."
+As [Stripe documented](https://stripe.com/en-ca/guides/atlas/business-of-saas#hybrid-sales-approaches): hybrid is hard, because "The most common result of attempting both models simultaneously is that only one of the models receives any traction, and (because these models weave themselves into all operations of the company) it typically strangles the other."
 
 This hybrid models is how we [bridge the chasm](https://www.worklife.vc/blog/crossing-the-chasm) between self-service and enterprise.
 
@@ -295,7 +300,7 @@ The advantages are:
 
 The disadvantages are:
 
-1. It is [suboptimal for both the buyer and GitLab Inc.](http://cdixon.org/2012/07/08/how-bundling-benefits-sellers-and-buyers/).
+1. It is [suboptimal for both the buyer and GitLab Inc.](https://cdixon.org/2012/07/08/how-bundling-benefits-sellers-and-buyers/).
 1. It is hard for the buyer to estimate how much of each feature they will need.
 1. The complexity can lengthen the sales process when buyers have to make separate tiering decisions for each group.
 1. For users, it is unclear what features they can use.
@@ -424,7 +429,7 @@ This is the title of a [great article](https://www.codingvc.com/p/when-is-a-doll
 
 Annual, up-front pricing is currently our only offering.
 All internal systems should show only annual pricing to keep comparisons simple.
-We do [show monthly pricing externally](#why-show-monthly-pricing-on-the-website).
+We do show monthly pricing externally.
 
 Arguments supporting annual up-front pricing:
 
@@ -448,7 +453,7 @@ Arguments supporting also offering monthly pricing:
 
 ## Why show monthly pricing on the website
 
-Almost all SaaS products show monthly pricing on their pricing pages. GitLab shows [monthly pricing on our website](https://about.gitlab.com/pricing/) and notes clearly that it is billed annually. This is also a standard practice followed by companies like [Salesforce](https://www.salesforce.com/products/sales-pricing/). We previously have tried showing annual pricing on the website, but repeatedly heard from customers that they were confused by it. They often thought our product was priced significantly higher than it actually was because they expected the pricing to be displayed in monthly units and read the annual price as though it were per month.
+Almost all SaaS products show monthly pricing on their pricing pages. GitLab shows [monthly pricing on our website](https://about.gitlab.com/pricing/) and notes clearly that it is billed annually. This is also a standard practice followed by companies like [Salesforce](https://www.salesforce.com/sales/pricing/). We previously have tried showing annual pricing on the website, but repeatedly heard from customers that they were confused by it. They often thought our product was priced significantly higher than it actually was because they expected the pricing to be displayed in monthly units and read the annual price as though it were per month.
 
 ## Only sell a suite
 
@@ -474,7 +479,7 @@ Companies evolve to selling only a suite for the following reasons, after the =>
 
 1. Makes it easier for organizations to adopt the other products. => This is essential; organizations have official solutions and GitLab grows with organic adoption from developers.
 1. Show customers the benefit of a [single application](/handbook/product/categories/gitlab-the-product/single-application/). => This is essential, since people are skeptical (showing beats telling).
-1. More usage of all the products. => This is essential for us, due to our [seed then nurture](/handbook/company/strategy/) product strategy.
+1. More usage of all the products. => This is essential for us, due to our seed then nurture product strategy.
 1. Harder to displace the suite, once it is in place. => This will help if competitors offer a service based on our open source code.
 
 We're going even further than selling a suite by integrating everything in a single application. We do that because of the advantages mentioned on our [handbook page about us being single application](/handbook/product/categories/gitlab-the-product/single-application/). A secondary effect is that the user doesn't have to make a buying, or even an adoption, decision.

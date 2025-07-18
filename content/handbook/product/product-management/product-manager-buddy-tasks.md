@@ -8,22 +8,22 @@ draft: true
 1. [ ] - Suggest handbook pages they may find useful
     - Pages from the onboarding buddy handbook page
     - Product Specific Pages
-        - [Validation Track](/handbook/product-development-flow/#validation-track)
+        - [Validation Track](/handbook/product-development/how-we-work/product-development-flow/#validation-track)
         - [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
-        - [Getting Access to Data as a PM](/handbook/enterprise-data/programs/data-for-product-managers/)
+        - [Getting Access to Data as a PM](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
         - [Managing your Product Direction](/handbook/product/product-processes/#managing-your-product-direction)
         - [How to work as a PM](/handbook/product/product-processes/#how-to-work-as-a-pm)
     - Pricing / tier related
-        - https://about.gitlab.com/company/pricing/#three-tiers
+        - <https://handbook.gitlab.com/handbook/company/pricing/#three-tiers>
         - [Buyer Personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
     - [Product Categories page](/handbook/product/categories/) to find who is the DRI for a category
     - [Features by tier and group](/handbook/product/categories/features/)
-    - [Analytics Direction Page](https://about.gitlab.com/direction/analytics/)
+    - [Analytics Direction Page](https://about.gitlab.com/direction/monitor/)
     - Helpful for research
         - [How/When to start a research project](/handbook/product/ux/ux-research/#conducting-ux-research-at-gitlab)
         - [How to recruit for a UX Project](/handbook/product/ux/ux-research/recruiting-participants/)
         - Dovetail
-            - [Getting access to Dovetail](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
+            - [Getting access to Dovetail](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
             - [GitLab Dovetail projects](https://gitlab.dovetailapp.com/projects)
             - [Documenting insights in Dovetail](/handbook/product/ux/dovetail/)
 1. [ ] - Remind them to introduce themselves
@@ -54,7 +54,6 @@ draft: true
         - Each milestone there is a kickoff issue created and assigned to PMs. Link your planning issue in that and once recorded your kickoff call.
     - Kickoff call
         - Hold a call with your Designer talking about the issues the team will work on that milestone with preference to issues that are `~direction` AND `~Deliverable`.
-        - [Company wide call](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#kickoff-meetings)
     - During the milestone
         - Keep an eye on your TODOs if you use them for pings/questions from your development team or customers/users asking about progress on issues to keep them moving.
     - [Release posts](/handbook/product/product-processes/#writing-release-blog-posts)

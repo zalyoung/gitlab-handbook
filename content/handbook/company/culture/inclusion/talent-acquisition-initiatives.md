@@ -8,37 +8,17 @@ The GitLab Talent Acquisition team partners closely with our [Diversity, Inclusi
 
 ## Talent Brand Initiatives
 
-### Spotlighting GitLab team members
-
-Our goal is to tell the story of what it's like to work at GitLab through our people. We'll do this through blogs, videos, social media, and other platforms.
-By sharing these stories, we're able to highlight the diversity of our team in an authentic way.
-
-- Blog posts from team members
-- Recorded videos and panels
-  - [What Diversity, Inclusion and Belonging means to the Sales team](https://www.youtube.com/watch?v=paPXSdfl_To&feature=youtu.be)
-  - [Get to know the Support team at GitLab](https://youtu.be/fLTs1oiKabI)
-  - [Women at GitLab fireside chat](https://youtu.be/qS0kebPUhTo) from Virtual Contribute 2020
-  - [Tips for working remotely + parenting](https://youtu.be/TYdPXSYpBcg)
-
-### Employer and Diversity, Inclusion & Belonging awards
+### Employer Awards
 
 One of the ways we raise awareness about life at GitLab is by applying for employer awards. These award programs are typically run by third-party organizations or media outlets.
-A number of the awards we've applied for (or will apply for in the future) are specifically focused on recognizing companies that are diverse and inclusive employers.
 
 - [Awards we've won](/handbook/people-group/employment-branding#employer-awards-and-recognition)
-
-### Initiatives we're exploring
-
-- Strategic partnerships with gender diversity platforms
-- Recorded podcasts
-- Virtual events: Culture Open House
-- Updating the look and feel across digital channels to ensure the diversity of our team is reflected
 
 ## Hiring Initiatives
 
 ### Inclusive interviewing
 
-We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes [how you can request an adjustment to your interview process](/handbook/hiring/interviewing#adjustments-to-our-interview-process).
+We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes how you can request an adjustment to your interview process.
 
 - To aid in our inclusive hiring practices, we've implemented [Greenhouse Inclusion](/handbook/hiring/greenhouse#greenhouse-inclusion).
 
@@ -50,11 +30,11 @@ We want all prospective candidates, including those from underrepresented groups
 
 ### Speaking with TMRG members in the hiring process
 
-During our hiring process, there's an **optional** step where candidates can request to meet with a team member from one of our [Team Member Resource Groups (TMRGs)]({{< ref "erg-guide#how-to-join-current-tmrgs-and-their-slack-channels" >}}). Candidates can request this at any time throughout the process, and we will also proactively offer this to a candidate when they reach the reference check stage. Whether or not the candidate decides to take us up on this offer will have no impact on our overall hiring decision.
+During our hiring process, there's an **optional** step where candidates can request to meet with a team member from one of our [Team Member Resource Groups (TMRGs)](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels). Candidates can request this at any time throughout the process, and we will also proactively offer this to a candidate when they reach the reference check stage. Whether or not the candidate decides to take us up on this offer will have no impact on our overall hiring decision.
 
 When a candidate requests to meet with an TMRG team member, their Recruiter or Candidate Experience Specialist will share a message in the dedicated #candidate_tmrg-call Slack channel. To aide with scheduling, the message will include the name of the TMRG the candidate would like to speak with, the candidate's location, which role they are interviewing for and a request for a volunteer who would be willing to speak with this candidate for a 25-minute Zoom call. Once a volunteer has been found the Recruiter or Candidate Experience Specialist will share the TMRG members' Calendly link, LinkedIn page (optional), and request the candidate book in a 25-minute call with the GitLab team member.
 
-If a volunteer has not been found within 24 hours the CES team member will reach out in the TMRG's dedicated group slack channel. If a volunteer has not been found within 48 hours, the CES team member will reach out to the [TMRG lead(s)]({{< ref "erg-guide" >}}) and request assistance with scheduling. If a volunteer has not been found within 3 business days of the request, the CES will ask the TMRG lead to take part in the conversation.
+If a volunteer has not been found within 24 hours the CES team member will reach out in the TMRG's dedicated group slack channel. If a volunteer has not been found within 48 hours, the CES team member will reach out to the [TMRG lead(s)](/handbook/company/culture/inclusion/erg-guide/) and request assistance with scheduling. If a volunteer has not been found within 3 business days of the request, the CES will ask the TMRG lead to take part in the conversation.
 
 On the call, we advise you to start with a short introduction to you and your role here at GitLab. From here, we advise you to let the candidate lead the conversation as the goal is for you to answer their questions and offer insight into how we work.
 

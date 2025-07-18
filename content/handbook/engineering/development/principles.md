@@ -108,7 +108,7 @@ we will need to put more work into building a simple solution.
 
 **Availability/Reliability**, **Quality**, **Security**, and **Performance** are the pillars for building reliable software. Reliability is our contract with our customers that say you can count on us to deliver an available and dependable product. Everyone in the organization has a role to play.
 
-Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana/), [Sentry](/handbook/support/workflows/sentry/), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure/core-platform/data_stores/database/) and [Quality](/handbook/engineering/quality/#mission) teams are the Subject Matter Experts supporting product development teams.
+Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana/), [Sentry](/handbook/support/workflows/sentry/), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) and [Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience) teams are the Subject Matter Experts supporting product development teams.
 
 ## Velocity
 
@@ -143,7 +143,7 @@ between Speed and Velocity. Direction matters for Velocity, therefore we need
 to [iterate efficiently](#efficiency) on the right things at the right time.
 
 For some tips on how to iterate you can check
-[Sid's a blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
+[the blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
 
 ### Reduce review time
 
@@ -235,7 +235,7 @@ Despite the high priority of velocity to our project and our company, there is o
 
 Our hundreds of Engineers collectively make thousands of independent decisions each day that can impact GitLab.com and our users and customers there. They all need to keep availability and security in mind as we endeavor to be the most productive engineering organization in the world. We can only move as fast as GitLab.com is available and secured. Availability of self-managed GitLab instances is also extremely important to our success, and this needs to happen in partnership with our customers' admins (whereas we are the admins for GitLab.com).
 
-For security, we prioritize it more highly by having strict SLAs around priorities labels with [security issues](/handbook/security/#severity-and-priority-labels-on-security-issues). This shows a security first mindset as these issues take precedence in a given timeframe.
+For security, we prioritize it more highly by having strict SLAs around priorities labels with [security issues](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues). This shows a security first mindset as these issues take precedence in a given timeframe.
 
 ### Leverage Established Processes
 
@@ -246,7 +246,7 @@ For example, the following processes exist to reduce the risk and improve code q
 - [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
 - [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
 
-We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/development/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis.html), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
+We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/devops/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis/), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
 
 Everyone can contribute by proposing new processes and improving upon existing processes.
 
@@ -274,7 +274,7 @@ Only the last two outcomes are acceptable as a general rule. Missing a 'due date
 
 For these reasons, and others, we intentionally [do not define a specific date](/handbook/engineering/releases/#timelines) for code to be merged in order to reach a self-managed monthly release. The earlier it is merged, the better. This also means that:
 
-1. We don't want merge request authors to [work extra hours](/handbook/values/#measure-results-not-hours) or otherwise rush to meet a due date.
+1. We don't want merge request authors to [work extra hours](/handbook/values/#measure-impact-not-activity) or otherwise rush to meet a due date.
 1. We don't want [reviewers and maintainers](/handbook/engineering/workflow/code-review/) to be put under pressure to do anything other than meet the [regular SLOs](/handbook/engineering/workflow/code-review/#review-response-slo).
 
 If it is essential that a merge request make it in a particular release, this must be communicated well in advance to the engineer and any reviewers, to ensure they're able to make that commitment. If a severe bug needs to be fixed with short notice, it is better to revert the change that introduced it than to rush, or even to delay the release until the fix is ready.
@@ -283,7 +283,7 @@ In general, there is no need to change any behavior close to the self-managed re
 
 ### Dogfooding
 
-We [dogfood everything](/handbook/product/product-processes/#dogfood-everything). Based on our [product principles](/handbook/product/#product-principles), it is the Engineering division's responsibility to dogfood features or do the required discovery work to provide feedback to Product. It is Product's responsibility to prioritize improvements or rebuild functionality in GitLab.
+We [dogfood everything](/handbook/product/product-processes/dogfooding-for-r-d/). Based on our [product principles](/handbook/product/#product-principles), it is the Engineering division's responsibility to dogfood features or do the required discovery work to provide feedback to Product. It is Product's responsibility to prioritize improvements or rebuild functionality in GitLab.
 
 #### Dogfooding Antipatterns
 
@@ -293,7 +293,7 @@ product offers. Dogfooding is not:
 1. Building a bot outside of GitLab.
 1. Writing scripts that leverage the GitLab API (if the functionality is on our
 roadmap and could be shipped within the GitLab Project).
-1. Using a component of GitLab that is part of our [components](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) or [managed apps](https://docs.gitlab.com/ee/user/clusters/management_project_template.html).
+1. Using a component of GitLab that is not part of our [components](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) or [managed apps](https://docs.gitlab.com/ee/user/clusters/management_project_template.html).
 1. Using templates or repos that are not part of the default UI (having to type or copy-paste to add them).
 1. Not deprecating the non-GitLab product or part as you introduce the functionality in GitLab, we need to eat the dogfood, not just serve it.
 1. Using it for something that isn't crucial or essential.
@@ -310,7 +310,7 @@ Follow the [dogfooding process described in the Product Handbook](/handbook/prod
 
 We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/ee/development/) in general, and the ones that relates to your group in particular:
 
-- [UX Guides](https://docs.gitlab.com/ee/development/ux)
+- [UX Guides](https://docs.gitlab.com/ee/development/ux/)
 - [Backend Guides](https://docs.gitlab.com/ee/development/#backend-guides)
 - [Frontend Guides](https://docs.gitlab.com/ee/development/fe_guide/index.html)
 - [Database Guides](https://docs.gitlab.com/ee/development/#database-guides)

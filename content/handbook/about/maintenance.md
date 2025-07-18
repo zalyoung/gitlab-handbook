@@ -8,9 +8,9 @@ This area has traditionally been referred to as *"the handbook"*, but over time 
 
 Therefore, we are using the term "content websites" here to avoid ambiguity and properly frame discussions around this scope of responsibility.
 
-See our [direction page](direction) for more.
+See our [direction page](direction.md) for more.
 
-If you need help, please see the [editing handbook section](../editing-handbook/#need-help), or [escalation information](../about/on-call) if it's urgent.
+If you need help, please see the [editing handbook section](editing-handbook/_index.md#need-help), or [escalation information](../about/escalation.md) if it's urgent.
 
 ## Team Structure
 
@@ -18,25 +18,21 @@ The maintainer of this page (as indicated in the sidebar) is considered the [DRI
 
 | Role | Owner | Current Individual(s) | Responsibilities |
 | ------ | ------ | ------ | ------ |
-| Issue triager | Office of the CEO | Cynthia (Arty) Ng | Triage and prioritize issues, Schedule work in consultation with Technical DRI |
-| Technical DRI | Incubation Engineering | Darby Frey | Development work (as needed), Code reviews/approvals |
-| Content DRI | Office of the CEO | Cynthia (Arty) Ng | Make decisions on handbook operations, Coordinate any major changes |
-| Keep pipeline green | Group of volunteers  | See [Escalation page](on-call/#keep-main-green-group) | Help fix the pipeline if jobs are failing (as needed) |
-| Code Maintainer[^1] | Group of volunteers | Technical DRI, plus [`@gitlab-com/content-sites/handbook-tools`](https://gitlab.com/groups/gitlab-com/content-sites/handbook-tools/-/group_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
+| Handbook DRI | Learning & Development | Tre Ely, Jamie Allen | Prioritize work, make decisions on content sites, coordinate major changes |
+| Keep pipeline green | Group of volunteers  | [`@gitlab-com/content-sites/keep-main-green`](https://gitlab.com/groups/gitlab-com/content-sites/keep-main-green/-/group_members?with_inherited_permissions=exclude) | Help fix the pipeline if jobs are failing (as needed) |
+| Code Maintainer | Group of volunteers | DRI, plus [`@gitlab-com/content-sites/handbook-tools`](https://gitlab.com/groups/gitlab-com/content-sites/handbook-tools/-/group_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
 
-[^1]: Note: Team members are added to the `handbook-tools` group as Maintainer or Owner. The group has Maintainer access to the handbook projects, and the Docsy theme project.
-
-This page further documents the scope and responsibilities of the DRI and their engineering reports.
+Note: Both volunteer groups have owner role to the `content-sites` group in order to resolve any escalations.
 
 ## What are the content websites?
 
 1. The public [`handbook.gitlab.com`](/) website:
-    1. While often referred to as "the handbook", this website also serves a wide variety of other content including the [job families](/job-families), and the [teamops](/teamops) pages.
-    1. `handbook.gitlab.com` is primarily backed by the [`gitlab-com/content-sites/handbook`](https://gitlab.com/gitlab-com/content-sites/handbook/)  project and repo.
-    1. Data (yml) files currently resides in the [`gitlab-com/www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) repository.
+   1. While often referred to as "the handbook", this website also serves a wide variety of other content including the [job families](/job-families), and the [TeamOps](/teamops) pages.
+   1. `handbook.gitlab.com` is primarily backed by the [`gitlab-com/content-sites/handbook`](https://gitlab.com/gitlab-com/content-sites/handbook/)  project and repo.
+   1. Data (YML) files currently resides in the [`gitlab-com/www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) repository.
 1. The ["Internal Handbook" at `internal.gitlab.com`](https://internal.gitlab.com/):
-    1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](/handbook/about/handbook-usage/#the-internal-handbook)
-    1. The Internal Handbook is backed by the [`gitlab-com/content-sites/internal-handbook`](https://gitlab.com/gitlab-com/content-sites/internal-handbook) project and repo.
+   1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](/handbook/about/handbook-usage/#the-internal-handbook)
+   1. The Internal Handbook is backed by the [`gitlab-com/content-sites/internal-handbook`](https://gitlab.com/gitlab-com/content-sites/internal-handbook) project and repo.
 1. The theme for the handbook sites is in the [`gitlab-com/content-sites/docsy-gitlab`](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab) project.
 
 ### What are NOT content websites?
@@ -48,12 +44,12 @@ This page further documents the scope and responsibilities of the DRI and their 
 
 ## Issue triage
 
-The following guidelines are used for triaging issues in [content websites projects](https://gitlab.com/gitlab-com/content-sites/)
+The following guidelines are used for triaging issues in [content sites projects](https://gitlab.com/gitlab-com/content-sites/)
 that are [in-scope](#what-are-the-content-websites).
 
-The triage guidelines use the [product issue triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+The triage guidelines use the [product issue triage](/handbook/product-development/how-we-work/issue-triage/#priority)
 information as a basis. However, as the group structure and resources differ for the content
-websites, so do the guidelines.
+sites, so do the guidelines.
 
 A [triage bot](https://gitlab.com/gitlab-com/content-sites/handbook-tools/triage-bot) exists to help triage issues.
 
@@ -81,12 +77,12 @@ Match the priority to the severity if uncertain.
 
 | Priority | Importance | Intention |
 | -------- | ---------- | --------- |
-| `~"hb-priority::1"` | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30-60 days. |
-| `~"hb-priority::2"` | High   | We will address this soon and will provide capacity from our team for it. Our target resolution time is 60-120 days. |
+| `~"hb-priority::1"` | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30 days. |
+| `~"hb-priority::2"` | High   | We will address this soon and will provide capacity from our team for it. Our target resolution time is 30-90 days. |
 | `~"hb-priority::3"` | Medium | We want to address this but don't have visibility when this will be addressed. No timeline designated. |
 | `~"hb-priority::4"` | Low    | We don't have visibility when this will be addressed. No timeline designated. |
 
-We encourage contributions for all issues, especially priority 3 and 4 issues, to be addressed sooner.
+We encourage contributions for all issues, especially priority 3 and 4 issues, in order to be addressed sooner.
 
 ### Severity
 
@@ -95,7 +91,7 @@ Severity labels help us determine urgency and clearly communicate the impact of 
 The severity should be determined based the various factors in the table below.
 When an issue falls under multiple categories, use your best judgment.
 
-Once you've determined a severity for an issue add a note that explains in summary why you selected the severity you did. This will help future team members understand your rationale so they will know how to proceed with acting upon the issue.
+Once you've determined a severity for an issue, add a note that explains in summary why you selected the severity you did. This will help future team members understand your rationale so they will know how to proceed with acting upon the issue.
 
 | `~"Handbook::Operations" ~"type::bug"` | `~"hb-severity::1"`: Blocker | `~"hb-severity::2"`: High | `~"hb-severity::3"`: Medium  | `~"hb-severity::4"`: Low |
 |----------------|--------------------------|---------------------------|-------------------------|----------------------|

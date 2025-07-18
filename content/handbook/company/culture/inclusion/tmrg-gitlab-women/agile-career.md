@@ -3,7 +3,7 @@ title: "Activate your Agile Career"
 description: "An overview of our remote TMRG GitLab Women"
 ---
 
-![text image announcing activate your agile career program.](program-header.png)
+![text image announcing activate your agile career program.](/images/company/culture/inclusion/tmrg-gitlab-women/program-header.png)
 {style="max-width: 50%;"}
 
 **Calling all Women TMRG Members!**
@@ -30,7 +30,7 @@ As a participant in this program, GitLab team members will:
 1. Contribute to, and benefit from, a support and accountability network.
 1. Gain clarity on how resources at GitLab can support their career goal achievement in the next 6-12 months.
 
-![text image outlining 5 benefits for participants.](program-benefits.png)
+![text image outlining 5 benefits for participants.](/images/company/culture/inclusion/tmrg-gitlab-women/program-benefits.png)
 {style="max-width: 50%;"}
 
 ## Eligibility
@@ -50,7 +50,7 @@ Participants interested in `Activate your Agile Career` should expect and commit
     - 2022-11-09 @ 4pm UTC - 90 minutes
     - 2023-01-11  @ 4pm UTC - 90 minutes
 1. Complete post-session self paced homework and reflections (total of 7-10 hours)
-1. Read or listen to [Activate Your Agile Career: How Responding to Change Will Inspire Your Life's Work](https://www.amazon.com/Activate-Your-Agile-Career-Responding/dp/0998953121). You can [expense work related books](/handbook/finance/expenses/#-expense-policy-summary).
+1. Read or listen to [Activate Your Agile Career: How Responding to Change Will Inspire Your Life's Work](https://www.amazon.com/Activate-Your-Agile-Career-Responding/dp/0998953121). You can [expense work related books](/handbook/finance/expenses/#books-audioe-books-included).
 1. Attend monthly cohort accountability sync sessions (5 total) along with participants with similar career goals - 25 minutes each
 1. Complete a personal IGP and have a career development conversation with their manager
 
@@ -78,16 +78,15 @@ Yes! All 3 live sessions will be recorded. Cohorts will be organized across time
 
 Below, use the infographic and list to understand what resources are available to you as a GitLab team member and how they fit into the Agile Career Framework.
 
-![infographic connecting career agility framework with GitLab resources.](agility-at-gitlab.jpg)
+![infographic connecting career agility framework with GitLab resources.](/images/company/culture/inclusion/tmrg-gitlab-women/agility-at-gitlab.jpg)
 {style="max-width: 50%;"}
 
 | Resource | Details | Integrate It |
 | ---------- | ------------ | ------------ |
-| [Individual Growth Plan (IGP)]({{< ref "career-development#individual-growth-plan" >}}) | Organize career goals in one place. | **Idea Zone** and **Respond to Change** |
+| [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) | Organize career goals in one place. | **Idea Zone** and **Respond to Change** |
 | [Growth and Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/) | Complete academic study, professional certification, and more. | **Respond to Change** |
-| Coaching with [Modern Health]({{< ref "modern-health" >}}) or [Coaching Right Now (job grade 8+)](/handbook/people-group/learning-and-development/growth-and-development/#professional-coaching)**| Coaching (and therapy) sessions available. | **Activate your Feedback Squad |
-| [CEO Shadow](/handbook/ceo/shadow) (and other shadow programs) | Did you know of all the others shadow programs at GitLab: [Security]({{< ref "security-shadow" >}}), [Engineering Fellow](/handbook/engineering/fellow/shadow/), [CFO]({{< ref "cfo-shadow-program" >}}), [CMO](/handbook/marketing/cmo-shadow/). | **Work as a Set of Projects** |
-| [Internship for Learning]({{< ref "internship-for-learning" >}}) | Spend time during your work week on a new team, exploring and contributing to a new project. | **A/B test your Career** |
-| Self-Paced Learning | Use free licenses from resources like [O'Reilly Learning]({{< ref "self-paced-learning#oreilly-learning" >}}), and [the Linux Foundation]({{< ref "self-paced-learning#linux-foundation-courses" >}})  | **Respond to Change** |
-| [Attend Group Conversations]({{< ref "group-conversations" >}}) | Check the GitLab Team Meetings calendar for schedule. | **Idea Zone** |
-| [Join a TMRG]({{< ref "erg-guide" >}}) | Review the handbook for active groups | **Activate your Feedback Squad** |
+| Coaching with [Modern Health](/handbook/total-rewards/benefits/modern-health/) or [Coaching Right Now (job grade 8+)](/handbook/people-group/learning-and-development/growth-and-development/#coaching-right-now)**| Coaching (and therapy) sessions available. | **Activate your Feedback Squad |
+| [CEO Shadow](/handbook/ceo/shadow) (and other shadow programs) | Did you know of all the others shadow programs at GitLab: [Security](/handbook/security/security-shadow/), [CFO](/handbook/finance/growth-and-development/cfo-shadow-program/), [CMO](/handbook/marketing/cmo-shadow/). | **Work as a Set of Projects** |
+| [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/) | Spend time during your work week on a new team, exploring and contributing to a new project. | **A/B test your Career** |
+| Self-Paced Learning | Use free licenses from resources like [O'Reilly Learning](/handbook/people-group/learning-and-development/self-paced-learning/#oreilly-learning), and [the Linux Foundation](/handbook/people-group/learning-and-development/self-paced-learning/#linux-foundation-courses)  | **Respond to Change** |
+| [Join a TMRG](/handbook/company/culture/inclusion/erg-guide/) | Review the handbook for active groups | **Activate your Feedback Squad** |

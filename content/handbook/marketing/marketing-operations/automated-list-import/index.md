@@ -27,7 +27,7 @@ At time of upload, a program should already exist in `Marketo` . Campaigns are t
 
 Make sure that the campaign's `tokens` are filled in, which are found under the `My Tokens` tab in the main campaign. `Tokens` are used via `Smart Campaigns` to apply `Last Interesting Moments` to all leads whom appear in the campaign. The minimum `tokens` that should be used relate to the campaign's `Event Name`, `Event Date` and `Landing Page URL`. Without these filled out, `Last Interesting Moments` will fill in permanently `blank`. This does not mean your upload will fail or not complete. It just means in the LIM field you will see blank datapoints, for example: `Attended {{my.event name}}, which starts on {{my.event date}}. Location: {{my.event location}}` instead of `Attended Developer Conference, which starts on May 29, 2022, Location: San Francisco`.
 
-Please note, the `Last Interesting Moments` and the `My Tokens` associated with them are separate from `Last Event Notes`. Tokens do not communicate with `Last Event Notes` and uploads from other columns in the list upload sheet. To ensure these are loaded correctly please make sure the SFDC campaign and the last event notes are filled out on your import sheet, Columns N and O. This will be explained more in the data cleaning steps below. Again, if this information is left blank it does not mean your import will fail, it will just be missing that infmoration in the leads record.
+Please note, the `Last Interesting Moments` and the `My Tokens` associated with them are separate from `Last Event Notes`. Tokens do not communicate with `Last Event Notes` and uploads from other columns in the list upload sheet. To ensure these are loaded correctly please make sure the SFDC campaign and the last event notes are filled out on your import sheet, Columns N and O. This will be explained more in the data cleaning steps below. Again, if this information is left blank it does not mean your import will fail, it will just be missing that information in the leads record.
 
 ### Step 2 - Add your lead data to the spreadsheet
 
@@ -36,7 +36,7 @@ Go to the import template [Google Sheet](https://docs.google.com/spreadsheets/d/
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![ALT](/handbook/marketing/marketing-operations/automated-list-import/images/make-a-copy.png)
+![ALT](/images/marketing/marketing-operations/automated-list-import/make-a-copy.png)
 
 </details>
 
@@ -47,7 +47,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 <details>
   <summary markdown="span">Click  to expand screenshot</summary>
 
-![Download CSV](/handbook/marketing/marketing-operations/automated-list-import/images/download-csv.png)
+![Download CSV](/images/marketing/marketing-operations/automated-list-import/download-csv.png)
 
 </details>
 
@@ -70,7 +70,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Slack alert](/handbook/marketing/marketing-operations/automated-list-import/images/slack-alert-import.png)
+![Slack alert](/images/marketing/marketing-operations/automated-list-import/slack-alert-import.png)
 
 </details>
 
@@ -87,7 +87,7 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
 
-![Report status column](/handbook/marketing/marketing-operations/automated-list-import/images/report-status.png)
+![Report status column](/images/marketing/marketing-operations/automated-list-import/report-status.png)
 
 </details>
 
@@ -101,7 +101,9 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 ## Data Cleaning Instructions
 
 {{% panel header="**Caution**" header-bg="danger" %}}
-DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE
+DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE. 
+
+The list upload spreadsheet includes a protected range on the header. Changes to the header may break the bot. All spreadsheet changes need to be through Marketing Ops, with the following individuals having edit access: Nikki, Bryce, Amy, Jameson, Mihai, Rob and Jenny
 {{% /panel %}}
 
 <details>
@@ -164,7 +166,7 @@ The following data cleanup is required for any list prior to sending it to the M
 
 1. Member Statuses must match exactly to the program type and member status [listed](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status). If you are updating the member status for an event where we collected registrations through a form, you must include both `No Show` and `Attended` records.
 
-1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://docs.marketo.com/display/public/DOCS/Import+a+Non-Latin+Characters+List). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/articleView?id=faq_import_dataloader_specialchars.htm&type=5).
+1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-programs/managing-people-in-email-programs/import-a-non-latin-characters-list). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/s/articleView?id=sf.faq_import_dataloader_specialchars.htm&type=5).
 
 1. If there are notes added to the `Last Event Notes` column, add the `SFDC campaign name` to the column titled `Last Event SFDC Campaign Name` for each lead that has notes. If there are no notes for that lead, do not add anything to either column. This column is used to automatically move notes to the `Qualification Notes` field found on lead and contact pages in Salesforce. That field is not overridden like the `Last Event Notes` field and it's where we can keep the notes for much longer.
 
@@ -174,7 +176,7 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - Record ownership will be assigned using established lead routing, which is [controlled by Traction Complete](/handbook/marketing/marketing-operations/traction-lead-complete/)
 
-- In order to mark leads as `Opt-in = TRUE`, a record of the terms and conditions the leads agreed to upon having their data collected must be recorded. Check the `terms of service` wording has been recorded in the upload issue **before** opting in leads to receive marketing communications. No ToS, no `Opt-in`. Period. To find the appropriate language, refer to [Marketing Rules and Consent Language](/handbook/legal/marketing-collaboration/#marketing-rules-and-consent-language)
+- In order to mark leads as `Opt-in = TRUE`, a record of the terms and conditions the leads agreed to upon having their data collected must be recorded. Check the `terms of service` wording has been recorded in the upload issue **before** opting in leads to receive marketing communications. No ToS, no `Opt-in`. Period. To find the appropriate language, refer to [Marketing Rules and Consent Language](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language/)
 
 - If there are any records who have opted out of contact for any reason, define that on the spreadsheet by selecting `Opt-in = FALSE`
 
@@ -195,8 +197,9 @@ The following data cleanup is required for any list prior to sending it to the M
 | Country                | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Campaign Member Status | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | This will determine the status in the Marketo Program                                                                                                                                                                                                                   |
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
-| CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) |
+| CRM Partner ID         | No                                        | You can find setup instructions [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find setup instructions [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) |
 | Preferred Language | No | Must be written exactly: French, German, Japanese, Italian, Korean, Spanish, Portuguese. Other languages available [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8945). | Leave blank if value is English or unknown |
+| High Priority Reason? | No | High Priority Campaign <br> White Glove  | Only used if leads [need to appear in front of SDRs quickly due to some high propensity to purchase reason](/handbook/marketing/sales-development/#sdr-lead-views). Familiarize yourself with the [white glove](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows) process to determine if that dropdown should be used|
 
 ## Reference values for picklists
 
@@ -218,7 +221,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Argentina                                    | Prince Edward Island                 | Registered              |
 | Armenia                                      | Quebec                               | Attended                |
 | Aruba                                        | Saskatchewan                         | Attended On-Demand      |
-| Australia                                    | Yukon Territories                    | No Action               |
+| Australia                                    | Yukon                                | No Action               |
 | Austria                                      | Armed Forces Americas                | Downloaded              |
 | Azerbaijan                                   | Armed Forces Europe                  | Shipped                 |
 | Bahamas                                      | Alaska                               | Delivered               |

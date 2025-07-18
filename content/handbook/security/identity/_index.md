@@ -6,7 +6,7 @@ description: "The Security Identity team is leading the technical strategy and a
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 {{% alert title="Not Live Yet" color="warning" %}}
-You are viewing a preview of documentation for the future state of GitLab Identity v3 (mid 2024). See the <a href="https://handbook.gitlab.com/handbook/security/access-management-policy">Access Management Policy</a> for the GitLab Identity v2 current state with baseline entitlements and access requests. See the roadmap in the <a href="https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&group_path=gitlab-com/gl-security/identity/eng&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true">epics gantt chart</a>.
+You are viewing a preview of documentation for the future state of GitLab Identity v3 (mid 2024). See the <a href="/handbook/security/security-and-technology-policies/access-management-policy/">Access Management Policy</a> for the GitLab Identity v2 current state with baseline entitlements and access requests. See the roadmap in the <a href="https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&group_path=gitlab-com/gl-security/identity/eng&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true">epics gantt chart</a>.
 {{% /alert %}}
 
 {{% alert title="Quick Reference User Guides" color="info" %}}
@@ -69,7 +69,7 @@ GitLab Identity v1 was managed using Tech Ops practices by the Infrastructure an
 
 ### GitLab Identity v2
 
-GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/access-management-policy/) to learn more.
+GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/security/corporate/end-user-services/access-requests/access-requests/). See the [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/) to learn more.
 
 The processes that we do today meets audit and compliance requirements, however the processes are mostly manual that results in internal inefficiency. It takes a lot of labor hours to manage onboarding, access requests, access reviews, and offboarding processes.
 
@@ -201,7 +201,7 @@ Learn more on the [Identity Boundaries](/handbook/security/identity/boundaries) 
 
 We consider Workday to be the source of truth for [team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab). All users and their attributes are synced with Okta every hour with built-in vendor integrations.
 
-The [Temporary Service Provider](/handbook/it/end-user-services/onboarding-access-requests/temporary-service-providers/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
+The [Temporary Service Provider](/handbook/finance/procurement/contingent-worker-policy/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
 
 Workday has department, job title, and manager metadata, but does not have sufficient sub-department/team/role metadata that is needed for RBAC (that are being evaluated). Workday also does not have any of our temporary service provider contractors. In our current iteration, we consider Workday to be focused on People Group related use cases.
 
@@ -366,7 +366,7 @@ In the interim, the Identity Platform Engineering and Identity Infrastructure te
 
 The GitLab Identity Security team has CI/CD script and fullstack development skills to build our own open source policy and provisioning automation for our IAM and RBAC needs to supplement our vendors and provide last mile automation "plumbing".
 
-You may already use [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox) that is powered by HackyStack. We are refactoring HackyStack to become a component of the Identity Platform.
+You may already use [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox) that is powered by HackyStack. We are refactoring HackyStack to become a component of the Identity Platform.
 
 We are in the early incubation stage of building the [Identity Platform](/handbook/security/identity/platform) that is powered by [accessctl](https://gitlab.com/gitlab-identity/accessctl), a new open source project. As our Identity Platform matures throughout 2024, we will add documentation for the community to adopt our platform and best practices.
 

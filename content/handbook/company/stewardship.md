@@ -1,6 +1,6 @@
 ---
 title: Our stewardship of GitLab
-description: "GitLab have an open core business model and generate almost all our revenue with subscriptions to paid tiers. Learn more!"
+description: "GitLab has an open core business model and generate almost all our revenue with subscriptions to paid tiers. Learn more!"
 canonical_path: "/company/stewardship/"
 ---
 
@@ -48,7 +48,7 @@ just that we think that other buyers are relatively more likely to care about it
 The more of GitLab that you use the more likely it is that you benefit from a higher tier.
 Even a single person using GitLab might be best off using our highest tier.
 
-It is hard to get [the tier](/handbook/marketing/strategic-marketing/tiers/) right, and if we put something in a tier that is too high we won't hesitate to [open-source](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347) or move it to a lower tier. We listen to our community in order to find what we feel is the right balance, and we iterate and make changes based on their feedback. At the same time, the premium product needs to hold value, and we believe we provide that.
+It is hard to get [the tier](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/pricing-tiers/) right, and if we put something in a tier that is too high we won't hesitate to [open-source](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347) or move it to a lower tier. We listen to our community in order to find what we feel is the right balance, and we iterate and make changes based on their feedback. At the same time, the premium product needs to hold value, and we believe we provide that.
 
 All stages of the [DevOps lifecycle](https://about.gitlab.com/direction/#scope) have at least some features available in GitLab Core. There are companies using GitLab Core with more than 10,000 users.
 
@@ -60,7 +60,7 @@ If the wider community contributes a feature that is currently source-available 
 ## Why Release Simultaneously In Both
 
 Sometimes people suggest having features in EE for a limited time.
-An example of a limited time release strategy is the [Business Source License](https://mariadb.com/bsl) that keeps features proprietary for 3 years.
+An example of a limited time release strategy is the [Business Source License](https://mariadb.com/bsl11/) that keeps features proprietary for 3 years.
 
 At GitLab we want to give everyone access to most of the features (and all the essential ones) at the date they are announced.
 We want to give people the option to both run and contribute to an open source edition that is maintained and that includes the most recent security fixes.
@@ -70,7 +70,7 @@ We do this when we realize we made a mistake applying our criteria, for example
 when we learned that a branded homepage was an [essential feature](https://news.ycombinator.com/item?id=10931347) or
 when we [brought GitLab Pages to the Community Edition](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/).
 
-Our plan is to become the most popular tool for people's own git hosting service; we've managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we've reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc. More info on this is on our [strategy page](/handbook/company/strategy/).
+Our plan is to become the most popular tool for people's own git hosting service; we've managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we've reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc.
 
 ## How Open Source Benefits From Open Core
 
@@ -97,7 +97,7 @@ Also, [we do not say no by-default to having existing paid features contributed 
 
 **Vendor Lock-In.**
 Premium features make it more difficult to switch workflows. -
-GitLab the product [plays well with others](/handbook/product/gitlab-the-product/#plays-well-with-others). As we outline,
+GitLab the product [plays well with others](/handbook/product/categories/gitlab-the-product/#plays-well-with-others). As we outline,
 > Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](https://about.gitlab.com/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/).
 > GitLab [welcomes and supports new integrations](https://about.gitlab.com/partners/technology-partners/integrate/) to be created to extend collaborations with other products. GitLab plays well with others by providing APIs for nearly anything you can do within GitLab. GitLab can be a [provider of authentication](https://docs.gitlab.com/ee/integration/oauth_provider.html) for external applications. **GitLab is open source so people are very welcome to add anything that they are missing.**
 
@@ -110,7 +110,7 @@ and [wider community contributions per release](/handbook/marketing/developer-re
 **Deployment Constrained.**
 Customers are afraid of confusing or unsanctioned licenses entering a business environment. -
  We don't use a limiting license such as SSPL. As we highlight [in our docs](https://docs.gitlab.com/ee/development/licensing.html),
-[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initiative](https://opensource.org/licenses/alphabetical).
+[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initiative](https://opensource.org/license).
 
 ## Existing Contributed Open Source Features Will Not Become Source-Available
 
@@ -136,7 +136,7 @@ When someone contributes an *existing* feature to open-source it, we weigh a num
 1. What is the quality of the submitted code?
 1. Is it a complete replacement of the source-available functionality?
 1. Does it meet the [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria)?
-1. Is it [more relevant for mid-market organizations or larger](/handbook/product/gitlab-the-product/#paid-tiers)?
+1. Is it [more relevant for mid-market organizations or larger](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)?
 1. Is the person or organization submitting this using GitLab in an [SMB](/handbook/sales/#market-segmentation)?
 1. Did the person or organization submitting this contribute to GitLab before?
 1. Is it something that many of our existing customers chose our paid tiers for?
@@ -168,7 +168,7 @@ Instead of optimizing locally across many different projects, we are able to cre
 GitLab is open core built entirely with open source. We rely on [thousands of dependencies](https://gitlab.com/gitlab-org/gitlab/dependencies) and always try to contribute our improvements upstream.
 
 **Build More Open Source As Part Of GitLab.**
-Shipping as much open source as possible is critical to our [business model](#business-model) because it increases the velocity of our [flywheels](/handbook/company/strategy/#dual-flywheels). The faster they spin, the more we can contribute back.
+Shipping as much open source as possible is critical to our [business model](#business-model) because it increases the velocity of our flywheels. The faster they spin, the more we can contribute back.
 
 **Contribute At Scale.**
 GitLab is a single application for the entire DevOps lifecycle. By [freely providing](https://about.gitlab.com/solutions/open-source/join/) the top tier of GitLab to [open source projects](https://about.gitlab.com/solutions/open-source/), we are enabling them to be more efficient, secure, and productive.

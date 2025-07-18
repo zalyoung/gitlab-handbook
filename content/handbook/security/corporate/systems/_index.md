@@ -8,7 +8,6 @@ description: The Corporate Security department provides configuration management
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("System Owners") that handle day-to-day management of the tech stack applications that are specific to that department or functional group, within the framework of organization-wide compliance, infrastructure, and security best practices. Each [tech stack application](/handbook/business-technology/tech-stack-applications/) at GitLab has a System Owner that is the DRI for handling the implementation and day-to-day operational support for the team members that utilize that application (in their department or functional group). This has an added benefit of preventing the traditional IT department from being a bottleneck and allows each department to self-service as part of GitLab's [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group) subvalue.
 
 - [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
-- [Customer Support Operations](/handbook/support/readiness/operations/)
 - [(Business Intelligence) Data Team](/handbook/enterprise-data/)
 - [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
@@ -20,7 +19,7 @@ As GitLab has grown organically, several departments and functional groups have 
 
 ## CorpSec Systems Directory
 
-The Corporate Security department provides configuration management [engineering](/handbook/security/corporate/services/engineering) and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
+The Corporate Security department provides configuration management engineering and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
 
 <table>
 <thead>
@@ -334,7 +333,7 @@ The Corporate Security department provides configuration management [engineering
 <!-- Drive Strike -->
 <tr>
 <td>
-<a href="/handbook/security/corporate/systems/drivestrike">DriveStrike</a></td>
+<a href="https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/">DriveStrike</a></td>
 <td><i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=drivestrike_default">Engineering Issue</a></td>
 <td>
 <a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?label_name%5B%5D=corpsys-drivestrike">Issues</a>
@@ -378,7 +377,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/gitlab-com">@gitlab-com/corpsys/gitlab-com</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-gitlab-com</code><br>
 <i class="fa-brands fa-slack mr-2"></i><code>#it_help</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#g_production_engineering</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#s_production_engineering</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #eab308; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER 1PASS/SSO</span>
 <span style="background-color: #d97706; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">ADMIN 1PASS/SSO</span>
@@ -403,7 +402,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/gitlab-ops">@gitlab-com/corpsys/gitlab-ops</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-gitlab-ops</code><br>
 <i class="fa-brands fa-slack mr-2"></i><code>#infrastructure_lounge</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#g_production_engineering</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#s_production_engineering</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #eab308; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER 1PASS/SSO</span>
 <span style="background-color: #d97706; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">ADMIN 1PASS/SSO</span>
@@ -428,7 +427,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/gitlab-dev">@gitlab-com/corpsys/gitlab-dev</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-gitlab-dev</code><br>
 <i class="fa-brands fa-slack mr-2"></i><code>#it_help</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#g_production_engineering</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#s_production_engineering</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #eab308; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER 1PASS/SSO</span>
 <span style="background-color: #d97706; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">ADMIN 1PASS/SSO</span>
@@ -453,7 +452,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/gitlab-stg">@gitlab-com/corpsys/gitlab-stg</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-gitlab-stg</code><br>
 <i class="fa-brands fa-slack mr-2"></i><code>#it_help</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#g_production_engineering</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#s_production_engineering</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #eab308; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER 1PASS/SSO</span>
 <span style="background-color: #d97706; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">ADMIN 1PASS/SSO</span>
@@ -516,8 +515,8 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/com">Google Cloud Platform (com)<br><code>gitlab.com</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/com/projects">Create Project for Service/Workload</a><br>
-<i class="fas fa-users mr-2"></i><a href="/handbook/security/corporate/systems/gcp/com/users">User and Role Management</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/com/projects">Create Project for Service/Workload</a><br>
+<i class="fas fa-users mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/com/users">User and Role Management</a><br>
 <i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=gcp_com_default">Open an Access Request</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_com_default">Engineering Issue</a>
 </td>
@@ -531,7 +530,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/gcp-com">@gitlab-com/corpsys/gcp-com</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-gcp-com</code><br>
 <i class="fa-brands fa-slack mr-2"></i><code>#infrastructure_lounge</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#g_production_engineering</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#s_production_engineering</code><br>
 <i class="fa-brands fa-slack mr-2"></i><code>#security-corpsec-infra</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #0284c7; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER SSO</span>
@@ -545,7 +544,7 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/sandbox">Google Cloud Platform (sandbox)<br><code>gitlabsandbox.cloud</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/sandbox/projects">Create My GCP Project</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/sandbox/projects">Create My GCP Project</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_sandbox_default">Engineering Issue</a>
 </td>
 <td>
@@ -605,7 +604,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fas fa-tag mr-2"></i><code>corpsys-gcp-cells-dev</code><br>
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/gcp-cells-dev">@gitlab-com/corpsys/gcp-cells-dev</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-gcp-cells-dev</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#g_production_engineering</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#s_production_engineering</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #0284c7; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER SSO</span>
 <span style="background-color: #16a34a; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER APP ROLE</span>
@@ -630,7 +629,7 @@ The Corporate Security department provides configuration management [engineering
 <i class="fas fa-tag mr-2"></i><code>corpsys-gcp-cells-prd</code><br>
 <i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/gcp-cells-prd">@gitlab-com/corpsys/gcp-cells-prd</a><br>
 <i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-gcp-cells-prd</code><br>
-<i class="fa-brands fa-slack mr-2"></i><code>#g_production_engineering</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#s_production_engineering</code><br>
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #0284c7; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER SSO</span>
 <span style="background-color: #16a34a; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER APP ROLE</span>
@@ -643,7 +642,7 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/dedicated-dev">Google Cloud Platform (dedicated-dev)<br><code>gitlab-private.org</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/dedicated-dev/projects">Create My GCP Project</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/dedicated-dev/projects">Create My GCP Project</a><br>
 <i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=gcp_dedicated_dev_default">Open an Access Request</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_dedicated_dev_default">Engineering Issue</a>
 </td>
@@ -864,29 +863,29 @@ The Corporate Security department provides configuration management [engineering
 </td>
 <td>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=macos_default">Engineering Issue</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/onboarding">Onboarding Hardware Ordering Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/refresh">Refresh/Replace Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/">Onboarding Hardware Ordering Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes">Refresh/Replace Guide</a><br>
 <i class="fas fa-book mr-2"></i><a href="handbook/security/corporate/services/laptops">Repair Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/wipe">Wipe (Factory Reset) Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/">Wipe (Factory Reset) Guide</a><br>
 <br>
 <i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/systems/macos/setup">Apple macOS Setup Guide</a><br>
 <i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/support/onboarding">Onboarding Software Setup Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security">Security Configuration Standards</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security">Security Configuration Standards</a><br>
 <ul>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/appleid">Apple ID for Work</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/backups">Backups</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/encryption">Disk Encryption</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/firewall">Firewall</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/names">Hostnames and Usernames</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/icloud">iCloud Drive</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/unattended">Locking When Unattended</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/passwords">Password Management</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/personal">Personal Use</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/management">Remote Management (MDM and EDR)</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/updates">Software Updates</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/touchid">Touch ID (Biometric Passwords and 2FA)</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/browsers)">Web Browsers</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/networks)">Wireless Networks and VPN</a><br>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/appleid">Apple ID for Work</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/backups">Backups</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption">Disk Encryption</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/firewall">Firewall</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="https://internal.gitlab.com/handbook/security/corporate/tooling/jamf/endpoint_naming_convention/">Hostnames and Usernames (Internal)</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/icloud">iCloud Drive</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/unattended">Locking When Unattended</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/passwords">Password Management</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/personal/">Personal Use</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/management">Remote Management (MDM and EDR)</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/updates/">Software Updates</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/touchid/">Touch ID (Biometric Passwords and 2FA)</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/browsers/)">Web Browsers</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/networks)">Wireless Networks and VPN</a><br>
 </ul>
 </td>
 <td>
@@ -1174,6 +1173,30 @@ The Corporate Security department provides configuration management [engineering
 <i class="fas fa-shield-halved mr-2"></i>
 <span style="background-color: #0284c7; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER SSO</span>
 <span style="background-color: #71717a; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER APP ADMIN ROLE</span>
+</td>
+</tr>
+<!-- Teleport -->
+<tr>
+<td>
+<a href="/handbook/security/corporate/systems/teleport">Teleport</a><br>
+</td>
+<td>
+<i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">Open an Access Request</a><br>
+<i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=teleport-troubleshooting#">Troubleshooting Issue</a>
+</td>
+<td>
+<a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?label_name%5B%5D=corpsys-teleport">ARs</a>
+&nbsp;/&nbsp;<a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?label_name%5B%5D=corpsys-teleport">Issues</a>
+&nbsp;/&nbsp;<a href="https://gitlab.com/groups/gitlab-com/gl-security/corp/-/epics?label_name[]=corpsys-teleport">Epics</a>
+<br>
+<i class="fas fa-book mr-2"></i><a href="https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/teleport_admin.md">Administration Runbooks</a><br>
+<i class="fas fa-tag mr-2"></i><code>corpsys-teleport</code><br>
+<i class="fa-brands fa-gitlab mr-2"></i><a href="https://gitlab.com/groups/gitlab-com/corpsys/teleport">@gitlab-com/corpsys/teleport</a><br>
+<i class="fa-brands fa-slack mr-2"></i><code>@corpsysadmins-teleport</code><br>
+<i class="fa-brands fa-slack mr-2"></i><code>#security-corpsec</code><br>
+<i class="fas fa-shield-halved mr-2"></i>
+<span style="background-color: #0284c7; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">USER SSO</span>
+<span style="background-color: #b91c1c; color: #ffffff; font-weight: normal; padding: 2px 4px; border-radius: 0.25rem; letter-spacing: 0.05em; font-size: 10px;">ADMIN SSO</span>
 </td>
 </tr>
 <!-- YubiKey -->

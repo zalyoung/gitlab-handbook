@@ -58,6 +58,12 @@ Starting on 2023-07-27, Australian team members will be able to review their pla
 - Once you "select and proceed" your preferred coverage, click "join now"
 - You'll then need to complete BUPA's application process to complete your enrollment: Contact & Medicare details, Rebate application, Payment details, Current health cover information.
 
+#### Leavers
+
+For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member’s health insurance remains in place, with the full cost of cover being their responsibility. BUPA’s customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they’re enrolled on.
+
+The Total Rewards team will inform BUPA of leaves on a monthly basis.
+
 #### Contact & Support for Enrollment, Plan Questions
 
 If you have any questions on the plan, help enrolling on BUPA's portal, have any other questions comparing your current plan with BUPA's offerings - you can reach out to BUPA for direct plan support at *1300-662-074* or utilize their virtual chat support on the portal for basic questions.
@@ -67,7 +73,7 @@ Please email *paul.dervan@wtwco.com* and cc' *total-rewards@gitlab.com*
 
 ### Superannuation
 
-GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate. Effective 2024, the superannuation rate is set at 11.5% of the team member's total salary, with a quarterly cap of $7,483.05 AUD. Super is on top of the salary listed in the compensation calculator/contract.
+GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate. Effective 1 July 2025, the superannuation rate is set at 12% of the team member's total salary, with a quarterly cap of $7,500 AUD. Super is on top of the salary listed in the compensation calculator/contract.
 
 #### Superannuation payments due dates
 
@@ -77,7 +83,7 @@ The Australian Taxation Office (ATO) states the following:
 
 > You pay super for eligible employees calculated from the day they start with you. You must make the payments at least four times a year, by the quarterly due dates.
 
-Payments due dates can be found on the [ATO website](https://www.ato.gov.au/business/super-for-employers/paying-super-contributions/when-to-pay-super/).
+Payments due dates can be found on the [ATO website](https://www.ato.gov.au/businesses-and-organisations/super-for-employers/paying-super-contributions/super-payment-due-dates).
 
 #### Superannuation Salary Sacrifice
 
@@ -132,13 +138,13 @@ Engineers based in Australia who are part of the Development and Infrastructure 
 - 8-hour shift = 1 day time in lieu
 - 24-hour shift = 3 days time in lieu
 
-For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [flexible PTO policy]({{< ref "paid-time-off#paid-time-off" >}}) to complement time in lieu.
+For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [flexible PTO policy](/handbook/people-group/paid-time-off/#paid-time-off) to complement time in lieu.
 
 *Note: The full shift (state of readiness) is compensated by time in lieu - rather than only the "actual time worked"*
 
 #### What should I do when I want to take more time off after an on-call shift?
 
-If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Flexible [PTO policy as described here]({{< ref "paid-time-off#paid-time-off" >}}).
+If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Flexible [PTO policy as described here](/handbook/people-group/paid-time-off/#paid-time-off).
 
 #### When can time in lieu be taken?
 
@@ -241,7 +247,7 @@ Unpaid carer's leave can be taken:
 #### Long Service Leave
 
 - Team members may be eligible for long service leave in accordance with state/territory based legislation as varied from time to time.
-- This leave runs concurrently with GitLab PTO. Team members should select `AUS Long Service` in Workday to ensure that leave entitlements are properly tracked. 
+- This leave runs concurrently with GitLab PTO. Team members should select `AUS Long Service` in Workday to ensure that leave entitlements are properly tracked.
 
 #### Other Types of Leave
 
@@ -254,9 +260,9 @@ Unpaid carer's leave can be taken:
 - For more information on Family and Domestic Violence Leave, please visit the [Fair Work Ombudsman Website](https://www.fairwork.gov.au/leave/family-and-domestic-violence-leave).
 - Resources:
   - [1800RESPECT](https://www.1800respect.org.au/)
-  - [Safe Steps](https://www.safesteps.org.au/)
-  - [Victims Services](https://www.victimsservices.justice.nsw.gov.au/)
-  - [Domestic Violence Resource Centre Victoria](https://www.dvrcv.org.au/help-advice)
+  - [Safe Steps](https://safesteps.org.au/)
+  - [Victims Services](https://victimsservices.justice.nsw.gov.au/)
+  - [Domestic Violence Resource Centre Victoria](https://safeandequal.org.au/)
   - [JobWatch](https://jobwatch.org.au/)
   - [MensLine Australia](https://mensline.org.au/)
   - [Men's Referral Service](https://ntv.org.au/)
@@ -395,12 +401,12 @@ In considering whether contact is unreasonable, think about:
 - the extent to which the team member is being compensated (eg with time off after an on-call rotation):
   - to remain available to perform work during the period in which contact is made; or
   - for working additional hours outside of their ordinary hours of work;
-- the nature of the team member’s role and their level of responsibility; and 
+- the nature of the team member’s role and their level of responsibility; and
 - the team member’s personal circumstances.
 
-In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).
+In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 
-The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/agreements-awards/awards/find-award).
+The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/work-conditions/awards/find-award).
 
 ## GitLab PTY New Zealand Specific Benefits
 
@@ -483,7 +489,7 @@ If it's impossible to find a replacement and the team member ends up taking the 
 
 - Team members in New Zealand are entitled to 10 days' of statutory sick leave after six months of current continuous employment with GitLab. For each 12 months after meeting the above criteria, each team member gets at least ten days sick leave.
 - If in any year the team member doesn't meet the criteria, then they don't get any new sick leave entitlement, but can use their sick leave balance which may have carried over. An employee may re-qualify for sick leave as soon as they meet the criteria.  The maximum amount of sick leave that can be accumulated under the Holidays Act 2003 is 20 days.
-- Sick Leave runs concurrently with GitLab's [Sick Time Policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}).
+- Sick Leave runs concurrently with GitLab's [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
 *How to Apply:*
 
@@ -500,7 +506,7 @@ If it's impossible to find a replacement and the team member ends up taking the 
 
 - Team members must notify the Absence Management team (leaves@gitlab.com) as soon as possible when they will need to go out on injured leave.
 - Team members must designate time off for injury as `Out Sick` or `Vacation` in Workday if they wish to use sick leave or annual leave for the first week of an injury.
-- If the leave will last longer than five days and is [covered by the Accident Compensation Corporation (ACC) scheme](https://www.acc.co.nz/im-injured/what-we-cover/), GitLab will top up the ACC payment from 80 to 100% for the first 25 days.
+- If the leave will last longer than five days and is [covered by the Accident Compensation Corporation (ACC) scheme](https://www.acc.co.nz/im-injured/what-we-cover), GitLab will top up the ACC payment from 80 to 100% for the first 25 days.
 
 ## GitLab PTY New Zealand Parental Leave
 
@@ -536,10 +542,10 @@ Partner Leave
 ### Applying for Parental Leave in New Zealand
 
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-  - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
-- To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/apply).
+  - Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
+- To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/applications).
   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
 ### Other Types of Leave
 
@@ -557,7 +563,7 @@ Partner Leave
 - Team members must email the Absence Management team `leaves@gitlab.com` as soon as possible to notify them of the first date of leave and, if possible, the end date of their leave.
 - Team members must select `Military Leave` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/defence-force-volunteers/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/defence-force-volunteers)
 
 </details>
 
@@ -565,7 +571,7 @@ For more information related to this policy, please reivew the [Employment New Z
 
 <summary>Election Voting Leave</summary>
 
-- Team members are entitled to 2 hours of paid time off to vote in general (parliamentary) elections on polling day if they are registered as an elector of the district and have not had a reasonable opportunity to vote before starting work. GitLab encourages you to [take time off to vote]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) or volunteer at the polls.
+- Team members are entitled to 2 hours of paid time off to vote in general (parliamentary) elections on polling day if they are registered as an elector of the district and have not had a reasonable opportunity to vote before starting work. GitLab encourages you to [take time off to vote](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) or volunteer at the polls.
 - This leave runs concurrently with GitLab PTO. Team members must select `Paid Time Off` in Workday to ensure that statutory entitlements are properly tracked.
 
 For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/time-off-to-vote)
@@ -579,7 +585,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - All team members who have been called for jury service are entitled to unpaid leave for the duration of the service. Team members who attend jury service receive an attendance fee from the Ministry of Justice.
 - Jury Service Leave runs concurrently with GitLab PTO. Team members must select `Jury Duty` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/jury-service/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/jury-service)
 
 </details>
 
@@ -592,7 +598,7 @@ All team members who have been employed for six months are entitled to three day
 - This leave runs concurrently with GitLab PTO. Team members must designate this time off as `Bereavement Leave` in Workday to ensure that statutory entitlements are properly tracked.
 - All team members who have been employed for six months are entitled to three days paid leave if a pregnancy ended by way of a miscarriage or still-birth in circumstances that give rise to an entitlement to bereavement leave under the Holidays Act 2003.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/bereavement-leave/).
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/bereavement-leave).
 
 </details>
 
@@ -608,7 +614,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - This leave runs concurrently with GitLab PTO. Team members should notify the Absence Management team (leaves@gitlab.com) if they need to make use of this leave.
 - Team members must designate this time off as `Out Sick` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information regarding this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/).
+For more information regarding this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave).
 
 </details>
 
@@ -634,7 +640,7 @@ Leave without pay is when GitLab allows an team member time off work when they w
 
 - Team members must designate this time off as `Out Sick` in Workday.
 
-For more information regarding Leave without Pay, please review the [Employment New Zealand's website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/leave-without-pay/).
+For more information regarding Leave without Pay, please review the [Employment New Zealand's website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/leave-without-pay).
 
 </details>
 

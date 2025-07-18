@@ -4,7 +4,7 @@ category: Support Team
 description: Information about setting up technical interview instances
 ---
 
-## Setup technical interview instance through Sandbox
+## Set up technical interview instance through Sandbox
 
 ### Initial setup in Sandbox
 
@@ -29,7 +29,7 @@ description: Information about setting up technical interview instances
 ### Run your first pipeline
 
 1. Wait a moment until "Dry Run" has finished successfully.
-1. Manually run "Everything" and wait till it's finished.
+1. Manually run "🚀 Everything" and wait till it's finished.
     - Get something to drink, the job can take up to 15 minutes to finish.
 
 ### Finally Finished
@@ -37,5 +37,5 @@ description: Information about setting up technical interview instances
 You now have successfully created your interview instance with the Sandbox.
 You can connect to your instance through 2 different methods.
 
-1. gcloud compute ssh --zone "<your_zone>" "<instance_name>"  --project "<your_name>-<ID>"
-1. ssh root@<IP_given_in_the_job>
+1. `gcloud compute ssh --zone "<your_zone>" "<instance_name>"  --project "<your_name>-<ID>"`
+1. `ssh root@<IP_given_in_the_job>`

@@ -11,7 +11,7 @@ The Zapier subscription runs on the [Team plan](https://zapier.com/app/billing/p
 ### Zapier access
 
 - URL: [https://zapier.com](https://zapier.com)
-- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) if you cannot access that vault.
+- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) if you cannot access that vault.
 
 Once logged in, you can access, edit and create Zaps in the [Developer Relations](https://zapier.com/app/zaps/folder/275996) folder
 
@@ -55,7 +55,7 @@ The Zaps are organized in the [Developer Advocacy folder](https://zapier.com/app
 | Zap | Description | Involved Tools |
 | --- | --- | --- |
 | [Hackernews: Slack notifications for front page mentions: GitLab](https://zapier.com/app/editor/58944326) | Hackernews: `GitLab` front page stories to `#dev-advocacy-team` Slack channel. Adds [Hacker News response workflow URL](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#response-workflow). | HackerNews, Slack |
-| [Hackernews: Slack notifications for front page mentions: Open Core](https://zapier.com/webintent/edit-zap/159764533) | Hackernews: `Open Core` front page stories to `#dev-advocacy-team` Slack channel. Adds [Hacker News response workflow URL](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#response-workflow). | HackerNews, Slack |
+| [Hackernews: Slack notifications for front page mentions: Open Core](https://zapier.com/app/editor/159764533) | Hackernews: `Open Core` front page stories to `#dev-advocacy-team` Slack channel. Adds [Hacker News response workflow URL](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#response-workflow). | HackerNews, Slack |
 | [Hackernews: Slack Notifications for mentions: GitLab](https://zapier.com/app/editor/52810208) | Hackernews: `GitLab` mentions to `#hn-mentions` Slack channel |  HackerNews, Slack |
 | [Hackernews: Slack Notifications for mentions: DevOps Platform](https://zapier.com/app/editor/131452972) | Hackernews: `DevOps Platform` mentions to `#hn-mentions` Slack channel |  HackerNews, Slack |
 
@@ -69,7 +69,7 @@ Searching for a string with whitespaces requires to [use quotes](https://www.alg
 More API URL examples:
 
 - Front page: https://hn.algolia.com/api/v1/search?&query=gitlab&tags=front_page
-- Mentions: http://hn.algolia.com/api/v1/search_by_date?query="devops+platform"
+- Mentions: https://hn.algolia.com/api/v1/search_by_date?query="devops+platform"
 
 #### gitlab-blog Forum Bot
 

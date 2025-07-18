@@ -5,11 +5,11 @@ description: "On this page, you'll find an overview as well as links to helpful 
 
 On this page, you'll find an overview as well as links to helpful resources for working as a product manager at GitLab. To better understand how we evaluate a product manager's work at GitLab, please visit [Product Management CDF and Competencies](/handbook/product/product-management/product-cdf-competencies/)
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Product Organizational Structure
 
-The GitLab Product team includes team members at various levels of [Product Management job titles](/job-families/product/product-manager/) and [Product Management - Leadership job titles](/job-families/product/product-management-leadership/). They map across our [organizational levels](/handbook/company/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy) outlined in the table below.
+The GitLab Product team includes team members at various levels of [Product Management job titles](/job-families/product/product-manager/) and [Product Management - Leadership job titles](/job-families/product/product-management-leadership/). They map across our [organizational levels](/handbook/company/structure/#layers) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy) outlined in the table below.
 
 * The product org abides by [GitLab's layer structure](/handbook/company/structure/#layers). Sometimes, there can be instances where peers across layers don't have the same title.
 
@@ -27,7 +27,7 @@ The GitLab Product team includes team members at various levels of [Product Mana
 
 ### Responsibilities
 
-Your job as a PM is outlined in [Product Manager Responsibilities](/handbook/product/product-manager-responsibilities/)
+Your job as a PM is outlined in [Product Manager Responsibilities](/handbook/product/product-management/product-cdf-competencies/)
 
 ### Getting started as a PM at GitLab
 
@@ -35,9 +35,9 @@ The first thing to do is to familiarize yourself with the following handbook pag
 
 * [Product Principles](/handbook/product/product-principles/)
 * [Product Processes](/handbook/product/product-processes/)
-* [Product Manager Responsibilities](/handbook/product/product-manager-responsibilities/)
+* [Product Manager Responsibilities](/handbook/product/product-management/product-cdf-competencies/)
 * [Product Manager Career Development Framework](/handbook/product/product-management/product-cdf-competencies/)
-* [Product Development Flow](/handbook/product-development-flow/)
+* [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/)
 * [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
 * [Product Management Learning & Development](/handbook/product/product-management/learning-and-development/)
 * [GitLab Values](/handbook/values/)
@@ -84,7 +84,7 @@ As product managers progress in their product career, we encourage our product m
 The progression of responsibilities allocation between tactical, operational and strategic in product roles
 is well illustrated by this chart.
 
-![GitLab PM Responsibility Allocation Chart](/handbook/product/pm-allocation.png)
+![GitLab PM Responsibility Allocation Chart](/images/product/pm-allocation.png)
 
 _[Source File](https://docs.google.com/spreadsheets/d/19gAgPJVdXfBpXiFOlT1WqZLJB_eFU7W7slmAzodEuDM/edit#gid=1012729771). Note - Thanks to [Melissa Perri](https://twitter.com/lissijean/) for the inspiration_
 
@@ -117,7 +117,7 @@ projects:
 * customers.gitlab.com
 * version.gitlab.com
 
-This includes the entire stack and all its facets. The product team needs to weigh and prioritize not only bugs, features, regressions, and performance, but also architectural changes and other aspects required for ensuring GitLab's excellence. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) are considered as [each has a different DRI](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs).
+This includes the entire stack and all its facets. The product team needs to weigh and prioritize not only bugs, features, regressions, and performance, but also architectural changes and other aspects required for ensuring GitLab's excellence. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) are considered as [each has a different DRI](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs).
 
 ## Learning and Development for Product Management
 
@@ -141,7 +141,7 @@ Onboarding issues can be tracked in the [Product Onboarding Issue Board](https:/
 
 ### Product Manager Onboarding Buddy
 
-As part of onboarding a new hire will be given an [Onboarding Buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). As a Product Manager onboarding buddy there are many processes and resources to share with the new hire. A list of tasks and resources specific to Product Managers can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/product/product-manager-role/product-manager-buddy-tasks.md)
+As part of onboarding a new hire will be given an [Onboarding Buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). As a Product Manager onboarding buddy there are many processes and resources to share with the new hire. A list of tasks and resources specific to Product Managers can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/product/product-management/product-manager-role/product-manager-buddy-tasks.md)
 
 ## Interviewing Product Management Candidates
 

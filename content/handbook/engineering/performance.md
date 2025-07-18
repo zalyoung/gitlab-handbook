@@ -47,6 +47,7 @@ Performance Indicators:
 - [Application Architecture Documentation](https://docs.gitlab.com/ee/development/architecture.html)
 - [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
 - [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html)
+- [Performance Testing Tools](/handbook/engineering/testing/performance-tools.md)
 
 **Meta issue** to track various issues listed here is at on the [infrastructure tracker](https://gitlab.com/gitlab-com/infrastructure/issues/2373).
 
@@ -56,18 +57,18 @@ Performance Indicators:
 
 ### Target
 
-Performance of GitLab and GitLab.com is ultimately about the user experience. As also described in the [product management handbook](/handbook/product/gitlab-the-product/#performance), "faster applications are better applications".
+Performance of GitLab and GitLab.com is ultimately about the user experience. As also described in the [product management handbook](/handbook/product/categories/gitlab-the-product/#performance), "faster applications are better applications".
 
 Our current focus at the moment are two indicators:
 
-- **[Largest Contentful Paint](https://web.dev/lcp/)** (LCP) to measure the complete loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
-- **[Time to first Byte](https://web.dev/time-to-first-byte/)** (TTFB) so we have an understanding how long the backend takes to send the base page. Our target for a good backend rendering is below 500ms
+- **[Largest Contentful Paint](https://web.dev/articles/lcp)** (LCP) to measure the complete loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
+- **[Time to first Byte](https://developer.chrome.com/docs/lighthouse/performance/server-response-time)** (TTFB) so we have an understanding how long the backend takes to send the base page. Our target for a good backend rendering is below 500ms
 
-On a mid term we target to focus on all of the [Web Vitals](https://web.dev/vitals/) with introducing also a bigger focus on **[First Input delay](https://web.dev/fid/)** (FID) and **[Cumulative Layout Shift](https://web.dev/cls/)** (CLS). So if routes are already performing well with our main indicators please extend optimisations on those.
+On a mid term we target to focus on all of the [Web Vitals](https://web.dev/articles/vitals) with introducing also a bigger focus on **[First Input delay](https://web.dev/articles/fid)** (FID) and **[Cumulative Layout Shift](https://web.dev/articles/cls)** (CLS). So if routes are already performing well with our main indicators please extend optimisations on those.
 
 There are many other performance metrics that can be useful in analyzing and prioritizing work, some of those are discussed in the sections below. But the user experienced LCP is the target for the site as a whole, and should be what everything ties back to in the end.
 
-Groups should monitor closely the user experience in regards of performance to also improve the [perceived performance](https://developer.mozilla.org/en-US/docs/Learn/Performance/perceived_performance) also outside those measured performance indicators. For example if any action after loading is very slow and takes a lot of time.
+Groups should monitor closely the user experience in regards of performance to also improve the [perceived performance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/Perceived_performance) also outside those measured performance indicators. For example if any action after loading is very slow and takes a lot of time.
 
 ### What we measure
 
@@ -177,7 +178,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
        - There are usually _multiple_ SQL calls (or file, or cache, etc.) calls for a given
       controller request. These add to the overall timing, especially since they are
       sequential. For example, in
-      this scenario, there are [29 SQL calls (search for `Load`)](http://profiler.gitlap.com/20170524/901687e2-9fa1-4256-8414-c4835dc31dbc.txt.gz)
+      this scenario, there are [29 SQL calls (search for `Load`)](https://profiler.gitlap.com/20170524/901687e2-9fa1-4256-8414-c4835dc31dbc.txt.gz)
       when this _particular user_ hits `gitlab.com/dashboard/issues`. The number of SQL calls
       will depend on how many projects the person has, how much may already be in cache, etc.
        - Rails tackles the steps within a controller request sequentially.
@@ -202,8 +203,8 @@ Consider the scenario of a user opening their browser, and surfing to their dash
         action, that is, itself, generally included within a layout template.
         Partials can include other partials. This is done for good code
         organization and reuse. As an example, when the _particular user_  from the
-        example above loads `gitlab.com/dashboard/issues`, there are [56 nested / partial views rendered (search for `View::`)](http://profiler.gitlap.com/20170524/901687e2-9fa1-4256-8414-c4835dc31dbc.html.gz)
-         - Partial views may be cached via various [Rails techniques](http://guides.rubyonrails.org/caching_with_rails.html), such as Fragment Caching. In addition,
+        example above loads `gitlab.com/dashboard/issues`, there are [56 nested / partial views rendered (search for `View::`)](https://profiler.gitlap.com/20170524/901687e2-9fa1-4256-8414-c4835dc31dbc.html.gz)
+         - Partial views may be cached via various [Rails techniques](https://guides.rubyonrails.org/caching_with_rails.html), such as Fragment Caching. In addition,
          GitLab has a Markdown cache stored in the database that is used to
          speed up the conversion of Markdown to HTML.
          - Perceived performance in the way of First Paint can be affected by
@@ -232,9 +233,9 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       representing an estimate of _internal_ First Byte. Past performance on
       first byte is recorded [elsewhere on this page](#external).
       - For any page, you can use your browser's "inspect" tool to look at "TTFB" (time to first byte).
-      - [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)
+      - [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/)
       `First Byte - External` is measured for a hand selected number of URLs using [SiteSpeed](https://www.sitespeed.io/)
-    1. <a name="reaching-speed-index"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [**Speed Index**](#tb-reaching-speed-index)
+    1. <a name="reaching-speed-index"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/) [**Speed Index**](#tb-reaching-speed-index)
       - Browser parses the HTML blob and sends out further requests
       to GitLab.com to fetch assets such as javascript bundles, CSS, images, and
       webfonts.
@@ -260,7 +261,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       loaded with `defer="true"`, so they are parsed and executed in the same
       order as they are called but only after html + css has been rendered.
       - Enough meaningful content is rendered on screen to calculated the "Speed Index".
-    1. <a name="reaching-fullyloaded"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [Fully Loaded](#tb-reaching-fullyloaded)
+    1. <a name="reaching-fullyloaded"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/) [Fully Loaded](#tb-reaching-fullyloaded)
       - When the scripts are loaded, Javascript compiles and evaluates them within the page.
       - On some pages, we use AJAX to allow for async loading. The AJAX call can
       be triggered by all kinds of things; for example a frontend element (button)
@@ -346,8 +347,8 @@ Guide to this table:
 |<a name="tb-azlb2browser"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Azure LB to Browser_](#azlb2browser)               |      1        |~20| ? |~20|                        |
 |<a name="tb-renderpage"></a>[**RENDER PAGE**](#renderpage) |  |         |         |              |                        |
 |<a name="tb-browser-firstbyte"></a> [**FIRST BYTE**](#browser-firstbyte) (see [note 1][^1])]  |   | **1080 - 6347** |   [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status)      | **1000**  |                        |
-|<a name="tb-reaching-speed-index"></a>[**SPEED INDEX**](#reaching-speed-index) (see [note 2][^2]) |  | **3230 - 14454** | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |   **2000**     | [Remove inline scripts](https://gitlab.com/gitlab-org/gitlab-ce/issues/34903), [Defer script loading when possible](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/12759), [Lazy load images](https://gitlab.com/gitlab-org/gitlab-ce/issues/34361), [Set up a CDN for faster asset loading](https://gitlab.com/gitlab-com/infrastructure/issues/2092), [Use image resizing in CDN](https://gitlab.com/gitlab-org/gitlab-ce/issues/34364) |
-|<a name="tb-reaching-fullyloaded"></a>[Fully Loaded](#reaching-fullyloaded) (see [note][^3]) |  |   6093 - 14003   |  [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |  not specified  |   [Enable webpack code splitting](https://gitlab.com/gitlab-org/gitlab-ce/issues/33391) |
+|<a name="tb-reaching-speed-index"></a>[**SPEED INDEX**](#reaching-speed-index) (see [note 2][^2]) |  | **3230 - 14454** | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |   **2000**     | [Remove inline scripts](https://gitlab.com/gitlab-org/gitlab-ce/issues/34903), [Defer script loading when possible](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/12759), [Lazy load images](https://gitlab.com/gitlab-org/gitlab-ce/issues/34361), [Set up a CDN for faster asset loading](https://gitlab.com/gitlab-com/infrastructure/issues/2092), [Use image resizing in CDN](https://gitlab.com/gitlab-org/gitlab-ce/issues/34364) |
+|<a name="tb-reaching-fullyloaded"></a>[Fully Loaded](#reaching-fullyloaded) (see [note][^3]) |  |   6093 - 14003   |  [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |  not specified  |   [Enable webpack code splitting](https://gitlab.com/gitlab-org/gitlab-ce/issues/33391) |
 |---------------------------------------------------------|---------------|---------|---------|--------------|------------------------|
 
 **Notes:**
@@ -376,10 +377,10 @@ Timing history for First Byte are listed in the table below (click on the tachom
 
 | Type |  End of Q4-17 | Now |
 |------|--------------:|-------------:|-------------:|-----|
-| Issue: [GitLab CE #4058](https://gitlab.com/gitlab-org/gitlab-ce/issues/4058) | [857](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
-| Merge request: [GitLab CE !9546](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546) | [18673](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
-| Pipeline: [GitLab CE pipeline 9360254] | [1529](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
-| Repo: [GitLab CE repo](https://gitlab.com/gitlab-org/gitlab-ce/tree/master) | [1076](http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Issue: [GitLab CE #4058](https://gitlab.com/gitlab-org/gitlab-ce/issues/4058) | [857](https://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Merge request: [GitLab CE !9546](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546) | [18673](https://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Pipeline: [GitLab CE pipeline 9360254] | [1529](https://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
+| Repo: [GitLab CE repo](https://gitlab.com/gitlab-org/gitlab-ce/tree/master) | [1076](https://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html) | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://207.154.197.115/gl/sitespeed-result/gitlab.com/) |
 
 ### Internal {#first-byte-internal}
 
@@ -390,7 +391,7 @@ To go a little deeper and measure performance of the application & infrastructur
 
 ### Availability
 
-This section has been moved to [Availability severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#availability).
+This section has been moved to [Availability severity](/handbook/product-development/how-we-work/issue-triage#availability).
 
 ### Performance
 

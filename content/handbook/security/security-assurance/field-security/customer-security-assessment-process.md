@@ -23,6 +23,17 @@ We will start all CAA requests (with the exception of Contract Reviews) by **sha
 
 **Please do not assign the issue. Field Security will assign the issue to the appropriate team member. Thank you!**
 
+### Accessing the Trust Center
+
+To access GitLab's Trust Center:
+
+- Navigate to trust.gitlab.com
+- Click "Get Access" in the top right corner
+- Enter your email address, and click "Continue"
+- **Do not click "Log into GitLab's workspace.** That is for the admin portal.
+
+The process is exactly the same for customers. If customers do not want to sign the click-wrap NDA, and they already have a fully-executed NDA in SFDC or an active GitLab subscription, we can bypass the click-wrap NDA on our end. Please note, **this should be a last resort**, as it will further delay their access to the trust center. The fastest way to drive customers towards success is to encourage them to leverage the self-service nature of the trust center to its fullest extent. If you have any questions, please reach out in the #sec-fieldsecurity Slack channel.
+
 ### For Questionnaires
 
 The process will be handled in SafeBase. Customers/prospects who have access to the [Trust Center](https://trust.gitlab.com) can directly upload questionnaires by clicking the *Submit a Questionnaire* link at the top of the Trust Center.
@@ -40,7 +51,7 @@ Please use the `Customer Call Request` or `General Request` buttons above and fo
 
 ### For RFP completion
 
-Please follow the directions above for submission, and for more information about our RFP process please view our [RFP page here]({{< ref "Field-Security-RFP" >}}).
+Please follow the directions above for submission, and for more information about our RFP process please view our [RFP page here](/handbook/security/security-assurance/field-security/field-security-rfp).
 
 ### For Contract Reviews
 
@@ -57,13 +68,13 @@ The Field Security Team also maintains the following resources for **GitLab Team
 
 ### Knowledge Base
 
-For information on how Field Security uses SafeBase and how it can support your workflows, please visit our [Knowledge Base]({{< ref "knowledge_base" >}}) page.
+For information on how Field Security uses SafeBase and how it can support your workflows, please visit our [Knowledge Base](/handbook/security/security-assurance/field-security/knowledge_base/) page.
 
 ### Feedback from Field Security
 
-The Field Security Team has the unique privilege of conversing with and receiving feedback from both customers and fellow GitLab team members. To ensure we always support our customers, Field Security follows GitLab's [observation creation procedure]({{< ref "observation-management-procedure" >}}) to relay customers' requirements or concerns internally to the appropriate teams. To proactively request feedback from Field Security, use the [Internal Feedback]({{< ref "customer-security-assessment-process#collaborate-with-field-security" >}}) button to open a request.
+The Field Security Team has the unique privilege of conversing with and receiving feedback from both customers and fellow GitLab team members. To ensure we always support our customers, Field Security follows GitLab's [observation creation procedure](/handbook/security/security-assurance/observation-management-procedure/) to relay customers' requirements or concerns internally to the appropriate teams. To proactively request feedback from Field Security, use the [Internal Feedback](/handbook/security/security-assurance/field-security/customer-security-assessment-process/#collaborate-with-field-security) button to open a request.
 
-**Note:** Field Security's observations must follow the [Field Security Observation and OFI Quality Guide]({{< ref "field_security_observation_and_ofi_quality_guide" >}})
+**Note:** Field Security's observations must follow the [Field Security Observation and OFI Quality Guide](/handbook/security/security-assurance/field-security/field_security_observation_and_ofi_quality_guide/)
 
 ---
 

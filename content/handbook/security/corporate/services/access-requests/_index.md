@@ -7,8 +7,8 @@ Access Requests are owned by the Corporate Security Helpdesk team. All onboardin
 If you have any access requests related questions, please reach out to `#it_help` in Slack or the tool provisioner in Slack.
 
 - [FAQs](/handbook/security/corporate/services/ar/faq)
-- [Baseline Entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
-- [Temporary service providers access requests and onboarding](https://internal.gitlab.com/handbook/it/end-user-services/access-request/temporary-service-providers/)
+- [Baseline Entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/)
+- [Temporary service providers access requests and onboarding](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/temporary-service-providers/)
 
 ## Issue Trackers
 
@@ -18,55 +18,9 @@ If you have any access requests related questions, please reach out to `#it_help
 - **Employment Career Mobility:** [Employment Issue Tracker](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues/?sort=created_date&state=opened&label_name%5B%5D=career-mobility&first_page_size=20)
 - **Employment Offboarding:** [Employment Issue Tracker](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues/?sort=created_date&state=opened&label_name%5B%5D=offboarding&first_page_size=20)
 
-### Team Member Issue Templates
+## Team Member Issue Templates
 
-- Specific Application Requests (use [Individual or Bulk Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) if not listed)
-  - [Slack, Google Group, 1Password Groups or Vaults](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault)
-  - [PagerDuty](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=PagerDuty_Access_Request)
-  - [Tableau](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Tableau_Request)
-  - [ZenDesk Federal Customer Creation](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Federal_Customer_Creation)
-- Standard Access Requests
-  - **(Use this by default)** [Individual or Bulk Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request): One or multiple people requesting access to systems
-    - Create one issue for **one or multiple people** to get access to the **same** system
-    - Create one issue for **one person** to get access to **multiple systems** (checklist)
-    - Create **multiple issues** (one per system) to grant **multiple people** to the **each (same)** system
-    - When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level (ex. Director, Vice President, Division E-Group Leader). Comment approval by cross-functional managers is sufficient since only one manager can apply the approved label.
-  - [Access Change Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Access_Change_Request): Remove or change the level of access to an application/system/distro (non-urgent change).
-  - [Access Reviews](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Access_Review)
-- Infrastructure
-  - [New AWS Account (Individual)](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
-  - [New AWS Account (Group/Team/Service)](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_create_request)
-  - [Add IAM Users to AWS Account](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_iam_update_request)
-  - [New GCP Project (Individual)](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
-  - [New GCP Project (Group/Team/Service)](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request)
-  - [Add IAM Users to GCP Project](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_iam_update_request)
-- Sysadmin (BLACK) Account Requests
-  - [Admin BLACK Account Creation](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Admin_Black_Account_Creation)
-  - [Admin BLACK Account Role - 1Password](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Admin_Black_Account_Role_1Password)
-  - [Admin BLACK Account Role - AWS](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Admin_Black_Account_Role_AWS)
-  - [Admin BLACK Account Role - Google Workspace](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Admin_Black_Account_Role_GoogleWorkspace)
-  - [Admin BLACK Account Role - Okta](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Admin_Black_Account_Role_Okta)
-- Special Use Case Access Requests
-  - [Name Change Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Name_change_request)
-  - [Shared Account Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Shared_account_access_request)
-  - [External access to Greenhouse through Okta](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Okta_Access_Greenhouse_External)
-- Demo Accounts and Licenses
-  - [Shared Omnibus Instance](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) - powered by Demo Systems
-  - [GitLab SaaS Ultimate License for User Account](https://docs.google.com/forms/d/e/1FAIpQLSddexI8VZTCiyxme1_7QtbQZ6WoIJRlHdaI2Gi6PD8Eti-DLQ/viewform)
-  - [GitLab SaaS Ultimate License for (Demo/Test) Group](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request)
-  - [GitLab Self Managed License](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request)
-- Service Accounts
-  - [GitLab.com SaaS Service Account Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=GitLabCom_Service_Account_Request) - Admin only, not needed for group/project tokens
-  - [GCP or Google Workspace API/Service Account Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=GCP_Google_Service_Account_Request)
-  - [Okta Admin Service Account Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Okta_Admin_Service_Account) for apps, groups, and users
-  - [Other Service Account (App to App)](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=New_Service_Account_Request)
-  - [Other API Token Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=API_Token_Request)
-- Tech Stack
-  - [Okta new application setup](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request)
-  - [Add application to tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack)
-  - [Update tech stack metadata](/handbook/business-technology/tech-stack-applications/#update-tech-stack-information)
-  - [Update tech stack provisioner](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Update_Tech_Stack_Provisioner)
-  - [Remove application from tech stack](https://gitlab.com/gitlab-com/business-technology/business-technology/-/issues/new?issuable_template=offboarding_tech_stack)
+Please submit a team member access request by selecting the appropriate application-specific form [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests). If there isn't a specific application request form for your needs (like Adobe, Slack, or Zoom), you can use the Individual or Bulk Person Access request.
 
 ## Role Based Entitlements
 
@@ -76,7 +30,7 @@ If you have any access requests related questions, please reach out to `#it_help
 
 - These templates cannot be edited to remove or add extra permissions once created, unless those changes are approved by a manager (or higher) of the team the role belongs to. Note that an approval is still required even if a change comes from a manager or higher on a baseline entitlement template to mitigate the risk of a permission change being pushed through by a single team member.
 
-- We have decided to remove all SOX applications from the Role-Based Entitlements templates.  Therefore, any access that is requested for our SOX-in-scope systems should follow the standard A/R process outlined here in our [handbook](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).  The impact to you is for any access going forward that was granted automatically via a role based entitlement will now need to be requested via a standard A/R so we can ensure approvals are properly captured.
+- We have decided to remove all SOX applications from the Role-Based Entitlements templates.  Therefore, any access that is requested for our SOX-in-scope systems should follow the standard A/R process outlined here in our [handbook](/handbook/security/corporate/end-user-services/access-requests/access-requests/#how-do-i-choose-which-template-to-use).  The impact to you is for any access going forward that was granted automatically via a role based entitlement will now need to be requested via a standard A/R so we can ensure approvals are properly captured.
 
 - Please note when editing an existing template or creating a new one do not include access of any kind to a rolebased access template.  Full listing of SOX applications can be found [here](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
 

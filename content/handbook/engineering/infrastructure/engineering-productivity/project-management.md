@@ -12,11 +12,11 @@ The Engineering Productivity team has diverse responsibilities and reactive work
 - We focus on OKRs, corrective actions and preventative work.
 - We adhere to the general release milestones like %x.y.
 - We are ambitious with our targeted planned work per milestone. These targets are not reflective of a commitment. Reactive work load will ebb and flow and we do not expect to accomplish everything planned for the current milestone.
-- [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) are used to indicate relative priority for a milestone.
+- [Priority labels](/handbook/product-development/how-we-work/issue-triage/#priority) are used to indicate relative priority for a milestone.
 
 ## Weighting
 
-We follow the [department weighting guidelines](/handbook/engineering/infrastructure/test-platform/#weights) to relatively weight issues over time to understand a milestone velocity and increase predictability.
+We follow the [department weighting guidelines](/handbook/engineering/infrastructure-platforms/developer-experience/#weights) to relatively weight issues over time to understand a milestone velocity and increase predictability.
 
 When weighting, think about knowns and complexity related to recently completed work. The goal with weighting is to allow for some estimation ambiguity that allows for a consistent predictable flow of work each milestone.
 
@@ -72,7 +72,7 @@ Our team's [Quality: Engineering Productivity board](https://gitlab.com/groups/g
 
 Communicating progress is important but status doesn't belong in one on ones as it can be more appropriately communicated with a broader audience using other methods. The "standup" model used by a lot of organizations practicing scrum assumes a certain time of day for those to happen. In the context of a timezone distributed team, there is no "9am" that the team shares. Additionally, the act of losing and gaining context after completing work for the day only to gain it again to share a status update is context switching. The intended audience of the standup model assumes that it's just the team but in GitLab's model, that means folks need to be aware of where this is being communicated (slack, issues, other). Since this information isn't available to the intended audience, the information needs to be duplicated which at worst means there's no single source of truth and at a minimum means copy pasting information.
 
-The proposal is to trial using an Asynchronous Issue Update model, similar to [what the Package Group uses](/handbook/engineering/development/ops/package/#async-issue-updates). This process would replace the existing daily standup update we post in Slack with `Geekbot`. The time period for the trial would be a milestone or two, depending on feedback cycles.
+The proposal is to trial using an Asynchronous Issue Update model, similar to [what the Package Group uses](/handbook/engineering/devops/ops/package/#async-issue-updates). This process would replace the existing daily standup update we post in Slack with `Geekbot`. The time period for the trial would be a milestone or two, depending on feedback cycles.
 
 The async daily update communicates the progress and confidence using an issue comment and the milestone health status using the Health Status field in the issue. A daily update may be skipped if there was no progress. Merge requests that do not have a related issue should be updated directly. It's preferable to update the issue rather than the related merge requests, as those do not provide a view of the overall progress. Where there are blockers or you need support, Slack is the preferred space to ask for that. Being blocked or needing support are more urgent than email notifications allow.
 

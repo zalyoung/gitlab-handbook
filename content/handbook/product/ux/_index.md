@@ -20,12 +20,12 @@ Our goal is to make our product easy to use, supportive of contributions from th
 
 - **We support all users from beginners to experts.** We believe that GitLab software should be unintimidating and accessible for a beginner, without oversimplifying important features for advanced users. We stay with users every step of the way to help them learn fast as a beginner and then become an expert over time.
 - **We're building one product, together.** We're highly focused on ensuring that no matter how big our product gets, the entire experience stays cohesive, consistent, and interconnected.
-- **We're humble facilitators of user experience design.** Everyone is a designer; [everyone can contribute](https://docs.gitlab.com/ee/development/ux/). We are not egotistical, moody experts who alone hold the keys to user delight. We encourage Product Managers, Engineers, and the wider GitLab community to contribute to creating an exceptional user experience.
+- **We're humble facilitators of user experience design.** Everyone is a designer; [everyone can contribute](https://docs.gitlab.com/development/ux/). We are not egotistical, moody experts who alone hold the keys to user delight. We encourage Product Managers, Engineers, and the wider GitLab community to contribute to creating an exceptional user experience.
 - **We look for small changes and big impacts.** Sometimes the simplest, most boring solution is what is needed to make users successful. We want our UI to stay out of the user's way. We work iteratively to make modest but valuable changes that make users more productive, faster, and better at accomplishing their tasks.
 - **We're informed by empathy.** We're human, and we design for humans, so we strive for understanding, self-awareness, and connection. We are quirky, and we introduce our quirks into designs when appropriate.
 - **When we find problems that are simple to fix, we are empowered to make those changes ourselves.** If a change will take you less than 15 minutes to make (for example, a minor change to our website or microcopy in the product), then start with an MR instead of an issue. By making the change yourself, you are taking immediate action to improve our product, and you might learn a new skill, too! If it seems simple, but you have questions, remember that there are people who can help you with code changes both in the UX department and across the company.
 
-We work closely with the community, and our stable counterparts Product Managers (PM), Frontend engineers (FE), Backend engineers (BE), Quality engineers, and the Brand team. We follow GitLab's shared process referred to as the [Product Development Flow](/handbook/product-development-flow/).
+We work closely with the community, and our stable counterparts Product Managers (PM), Frontend engineers (FE), Backend engineers (BE), Quality engineers, and the Brand team. We follow GitLab's shared process referred to as the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) and [R&D Interlock](/handbook/product-development/how-we-work/r-and-d-interlock).
 
 - PMs define the "what" and "why" to lead the product direction. These are the benefits we provide to users. It's informed by gathering customer and user feedback in partnership with UX Research.
 - Product Designers define "how" the direction is experienced. It's how users interact with the product to gain the benefits.
@@ -34,10 +34,10 @@ We work closely with the community, and our stable counterparts Product Managers
 ### Workflows
 
 - [UX Researcher](/handbook/product/ux/ux-research/)
-- [Technical Writing](/handbook/product/ux/technical-writing/workflow/)
+- [Technical Writing](https://docs.gitlab.com/development/documentation/workflow/)
 - [Product Designer](/handbook/product/ux/product-designer/)
 - [Product Design Manager](/handbook/product/ux/product-design/product-design-manager)
-- [Cross-functional Prioritization](/handbook/product/cross-functional-prioritization/)
+- [Cross-functional Prioritization](/handbook/product/product-processes/cross-functional-prioritization/)
 
 ### Headcount planning
 
@@ -63,9 +63,9 @@ In the spirit of having stable counterparts, we plan headcount as follows:
 GitLab uses labels to categorize, prioritize, and track work. The following is a breakdown of the labels most directly related to the UX workflow. An overview of all the label types and uses can be found in the [contributing doc](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/doc/development/contributing/issue_workflow.md).
 
 - [**UX** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX): Indicates that UX work is required on this issue. These issues can be new features, ideas for improvement or anything else where UX should contribute their expertise.
-- [**Inclusion** label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=✓&subscribed=&search=Inclusion): A change to GitLab that promotes inclusion as it relates to our [diversity](/handbook/values/#diversity) value.
+- [**Inclusion** label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=✓&subscribed=&search=Inclusion): A change to GitLab that promotes inclusion as it relates to our [diversity](/handbook/values/#diversity-inclusion) value.
 - [**Inclusive design** label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=✓&subscribed=&search=Inclusive+design): Considering, exploring, and evaluating the different ways someone would access, interact with, or contribute to content that results in a more accessible experience.
-- **Accessibility and scoped accessibility labels** are used to identify issues with accessibility impact. The scoped labels should be added after an accessibility audit has validated the impact and used in combination with [priority](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) and [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) labels to [triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) an issue.
+- **Accessibility and scoped accessibility labels** are used to identify issues with accessibility impact. The scoped labels should be added after an accessibility audit has validated the impact and used in combination with [priority](/handbook/product-development/how-we-work/issue-triage/#priority) and [severity](/handbook/product-development/how-we-work/issue-triage/#severity) labels to [triage](/handbook/product-development/how-we-work/issue-triage/) an issue.
   - [**Accessibility** label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=✓&subscribed=&search=%22Accessibility%22): Issues that contain actionable items that help create an accessible product experience.
   - [**Accessibility-audit** label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=%22Accessibility-audit%22): Issues related to auditing exisiting experiences in order to understand possible accessibility-related improvements.
   - [**Accessibility-ops** label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=%22Accessibility-ops%22): Issues related to building accessibility into our internal workflows.
@@ -74,7 +74,7 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
   - `accessibility::medium`: Prevents some users from performing non-critical tasks, or where the user experience is seriously degraded for users with certain assistive technologies.
   - `accessibility::low`: The user experience is degraded for users with certain disabilities or using certain assistive technologies, but users can still accomplish tasks.
 - [**learnability** label](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=learnability): Issues that address learnability problems by helping users quickly become familiar with GitLab features.
-- **Scoped workflow labels** from the [Product Development Flow](/handbook/product-development-flow/#validation-phase-1-validation-backlog) should be used to indicate where an issue is in the development lifecycle. Issues can move between workflow labels as many times as necessary, and not all labels will be applicable to every issue. Issues that require UX would use one of these labels as defined in the Product Development Flow:
+- **Scoped workflow labels** from the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-1-validation-backlog) should be used to indicate where an issue is in the development lifecycle. Issues can move between workflow labels as many times as necessary, and not all labels will be applicable to every issue. Issues that require UX would use one of these labels as defined in the Product Development Flow:
   - `workflow::validation backlog`
   - `workflow::problem validation`
   - `workflow::design`
@@ -107,7 +107,7 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 - [Actionable Insights](/handbook/engineering/ux/ux-research/research-insights/#how-to-document-actionable-insights) document learnings from research that need to be acted on.
   - [Actionable Insight::Exploration needed](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AExploration%20needed): A research insight derived from a UX research study that requires further exploration.
   - [Actionable Insight::Product change](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AProduct%20change): A research insight derived from a UX research study and requires a change to the product experience.
-- [Type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification): Used to track feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types. See also who are the [DRIs for prioritization](/handbook/product/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs).
+- [Type labels](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification): Used to track feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types. See also who are the [DRIs for prioritization](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs).
 - **Theme labels** can be created to group issues that solve a similar user experience problem but don't have a category. This can be especially useful for a user experience that spans the product. These issues still require a UX label.
 - [**UX: Feature Discovery Improvement**](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX%3A++Feature+Discoverability+Improvement): Indicates issue may improve feature discoverability.
 - [**UX: Onboarding Improvement**](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=UX%3A%20Onboarding%20Improvement): Indicates issue is a potential onboarding improvement.
@@ -116,21 +116,35 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 
 The [UX Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_9psh26fha3e4mvhlrefusb619k%40group.calendar.google.com) (*internal only*) is the SSOT for our team meetings. You can find the details for UX calls, UX Forum, and other team meetings here. These meetings are open to everyone in GitLab. Anyone in the UX department can add events to the Google Calendar. Managers and above can make changes and manage sharing, while ICs can make changes to events. Please reach out in the `#ux_leadership` Slack channel with any questions or requests.
 
-### Retrospectives
+### UX All Hands
 
-After each release, we have a company retrospective call in which we discuss what went well, what went wrong, and what we can improve for the next release.
+The UX All Hands meeting takes place every six weeks, with two sessions to accommodate both EMEA/AMER and APAC/AMER-friendly time zones.
+
+The purpose is to share company updates, stay connected, and receive feedback.
+
+The entire UX department is invited, though anyone at GitLab is welcome to attend and contribute to the [All Hands agenda](https://docs.google.com/document/d/1ad5WstBx-rXgK-MtiTnmsI85_HoeQBhgmWuRIxMg60o) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
+
+### Retrospectives
 
 To understand the specific challenges faced by the UX Department, we hold an async UX retrospective after every milestone. This retro is carried out through a new Issue created for the recent release in the [ux-retrospectives](https://gitlab.com/gl-retrospectives/ux-retrospectives/issues) project. The goal is to evaluate what went well, what didn't go well, and how we can improve.
 
 ### UX Forum
 
-{{% ux-forum %}}
+{{% product/ux-forum %}}
+
+## UX Week in Review
+
+The [UX Week in Review](https://docs.google.com/document/d/1YCpTr_jXxIe8O8ULBDAJRC3kWD5SzVDdAHptiOYkQEM/edit?tab=t.0#heading=h.9qwiojcv4wzk) is an asynchronous document that includes important updates for everyone in the UX department. This doc is editable by anyone at GitLab and everyone can contribute.
+
+Reminders are sent out weekly in the [#ux](https://gitlab.enterprise.slack.com/archives/C03MSG8B7) Slack channel to add and read updates. UX Managers will receive a monthly reminder in the [#ux_leadership](https://gitlab.enterprise.slack.com/archives/CPQT50BFG) Slack channel to add project updates from across their team.
 
 ## UX Talent Assessment
 
 In UX, we utilize [performance factor worksheets](https://drive.google.com/drive/folders/1KgmIt7Umm0XH2-74jMBpOl67Yko1t2uK) (**🔒 internal only**) as a way to facilitate talent assessment and growth conversations between manager and their direct reports. These worksheets are available in Google Sheets format and the spreadsheets include tabs for a mid-year and year-end review, as well as a tab to list Achievement, Strengths, and Opportunities throughout the year.
 
 It is strongly encouraged for each team member to have their own worksheet created at the start of the fiscal year so that it can be used as a tool throughout the entire year.
+
+Performance factor worksheets can be utilized to help efficiently complete the year-end company [talent assessment program within Workday](/handbook/people-group/talent-assessment/).
 
 ## Meet some of our team members
 

@@ -13,6 +13,8 @@ For UK-based team members, GitLab provides 100% paid membership of medical insur
 Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please reach out via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
+AXA hosted a webinar for GitLab Team Members on 2025-03-19. Team Members can watch the recording [here](https://drive.google.com/file/d/1UMZJoDxEfKQ96KYfTpn3GYxpKeWb7Luj/view?usp=sharing)
+
 ### Enrollment
 
 Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com`  Include the following details:
@@ -24,6 +26,8 @@ Please let the Total Rewards team know if you would like to join the scheme via 
  1. Dependent Details if you'd like to add them to the plan (Full Name, DOB, and address).
 
 Team members who join the plan prior to the 24th of the month will have the BIK and deductions reported in full for that month, team members who join after the 24th of the will see deductions and BIK reporting begin the following month.
+
+If you wish to add/remove dependents after you have joined the AXA plan, please reach out to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com` confirming your dependent details (Full Name, DOB, and address).
 
 Please note that it can take 7 - 10 working days to receive a reply and confirmation from AXA PPP.
 
@@ -54,23 +58,23 @@ Please also note that this is a taxable benefit. Team members enrolled will stil
 
 ### Medical Premiums and Benefit In Kind Reporting
 
-Please see the Annual 2024 Rates effective 2024-03-01:
+Please see the Annual 2025 Rates effective 2025-03-01:
 
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
-| Team Member Only         | £904  | £904   | £0   |
-| Team Member + Spouse     | £1,808 | £1500.64 | £307.36 |
-| Team Member + Child.     | £1537  | £1321.78 | £215.22 |
-| Family                   | £2,441  | £1918.42 | £522.58 |
+| Team Member Only         | £958.00 | £958.00  | £0   |
+| Team Member + Spouse     | £1,916.00 | £1,590.28 | £325.72 |
+| Team Member + Child.     | £1,629.00 | £1,400.86 | £228.14 |
+| Family                   | £2,587.00  | £2,033.14 | £553.86 |
 
-Please see the Monthly 2024 Rates effective 2024-03-01:
+Please see the Monthly 2025 Rates effective 2025-03-01:
 
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
-| Team Member Only         | £75.34  | £75.34   | £0   |
-| Team Member + Spouse     | £150.67 | £125.05 | £25.62 |
-| Team Member + Child.     | £128.08 | £110.14 | £17.94 |
-| Family                   | £203.41  | £159.87 | £43.55 |
+| Team Member Only         | £79.83 | £79.83  | £0   |
+| Team Member + Spouse     | £159.67 | £132.52 | £27.14 |
+| Team Member + Child.     | £135.75 | £116.74 | £19.01 |
+| Family                   | £215.58 | £169.43 | £46.16 |
 
 The Team Member cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit. An audit and reconciliation of Benefit in Kind reporting and Deductions will occur annually around February.
 
@@ -92,7 +96,9 @@ Life Insurance provides peace of mind for you and your loved ones with a tax-fre
 
 Team Members are automatically enrolled in to the pension benefit of **4x basic annual salary** up to the Free Cover Limit. Team Members with a base salary of £375,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover. Please see the [Life Insurance Policy User Guide](https://drive.google.com/file/d/1D7QXKKvVtafQFbBFD4mPuKqbi1mqBsLh/view?usp=sharing)
 
-To designate a beneficiary for this benefit, please complete the [Expression of Wish Form](https://docs.google.com/document/d/1L5PFNeeZPmC5CArxrm7YX8W4BwKzdLFo/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) and send the completed form to the Total Rewards Team.
+To designate a beneficiary for this benefit, please complete the [Expression of Wishes Form](https://docs.google.com/forms/d/e/1FAIpQLSdWOCht3imjJpcUhgyWuYmVMMlyf0COShqOal9xs74V_g-BqQ/viewform?usp=preview). The completed version will be sent to you via email, please ensure to sign and date it. Once fully completed, please [upload](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?tab=t.0) the form to your Workday profile `Document Category: Benefit Documents and Forms`.
+
+Unum Life Insurance policyholders have access to a range of support services including Cancer Assist — in-the-moment, personalised guidance from cancer experts Reframe. For more information see [Unum’s Life Wellbeing Checklist](https://drive.google.com/file/d/1TGOquhebJ8A37aBNkaiPch0r8-s7sMp_/view?usp=sharing)
 
 See additional details on the [Life Insurance Policy](https://drive.google.com/file/d/1wS3XP7C9N64iistpsYPUiD709nTkutvt/view?usp=sharing).
 
@@ -118,11 +124,13 @@ Income Protection provides financial support if you're unable to work due to ill
 
 All team members (between age 16 and State Pension Age) are automatically enrolled in Income Protection of **66% of base salary up to the Free Cover Limit payable after you've been absent for 13 weeks** effective as of the date of hire. Employees with a base salary of £226,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover.
 
+Group Income Protection (GIP) from Unum provides a unique combination of expert wellbeing, absence management and in-house vocational rehabilitation services. Please see [GIP Wellbeing](https://drive.google.com/file/d/1OQrgdm-q57-lHiowX6tdww8SbF_sx9gV/view?usp=sharing). Checklist detailing Unum’s holistic suite of support services.
+
 Please reach out to Total Rewards for information on how to use your Income Protection benefit with Unum. Payments are made exactly like your salary, and tax and National Insurance contributions are deducted in the usual way. If you are absent due to illness or injury on the day your cover or an increase in cover is due to begin, you may not be eligible until you return to active work in your usual role.
 
 ## Pension Introduction
 
-GitLab provides and contributes into an Auto-Enrollment personal pension scheme with [Scottish Widows](http://www.scottishwidows.co.uk/retirement/retirement-explained/basics/auto-enrolment/)
+GitLab provides and contributes into an Auto-Enrollment personal pension scheme with [Scottish Widows](https://www.scottishwidows.co.uk/retirement/retirement-explained/basics/auto-enrolment/)
 
 Willis Towers Watson act as employee benefit advisers to the GitLab GPPP and although cannot provide you with financial advice are available to explain the details of the GitLab GPPP and answer any questions you may have.
 
@@ -133,11 +141,11 @@ Nick Allen, Associate Director
 Direct Line: 07920 213595
 E-mail: nick.allen@wtwco.com
 
-Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1BEADGm7sUbroEkxzGvB-DBIhMIbbLG46/view?usp=sharing) for additional information on the plan. Please note that all eligible team members will be auto-enrolled in the scheme. Please also watch the [2022 UK Pension Webinar](https://drive.google.com/file/d/1JggpHxQvtWZK1P6NdE9-77LFPE6Q5DZY/view?usp=sharing) for an overview of UK Pension System.
+Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1BEADGm7sUbroEkxzGvB-DBIhMIbbLG46/view?usp=sharing) for additional information on the plan. Please note that all eligible team members will be auto-enrolled in the scheme. Please also watch the [2025 UK Pension Webinar](https://drive.google.com/file/d/1ZUXJLK3v_m96yUUOpsNkX2Skh7ScdKuI/view?usp=sharing) and review the [presentation](https://drive.google.com/file/d/1qXAIOTTMavV0pxbj6Hxm0y2k39MoJ6Rz/view?usp=sharing)  for an overview of UK Pension System.
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing total-rewards@gitlab.com and nonuspayroll@gitlab.com. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). The Total Rewards team will review the request to approve, and send it to the Non-US Payroll team to process. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
@@ -150,7 +158,7 @@ Team Members who have signed a UK Employment contract after 13 December 2022 wil
 - Is it possible to start from any month?
   - Yes it is; it would be processed on the next available payroll.
 - How do I opt in or out or make changes to my salary sacrifice amount?
-  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
+  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). The Total Rewards team will review the request to approve, and send it to the Non-US Payroll team to process.
 
 ### Auto-Enrollment
 
@@ -183,7 +191,7 @@ The following process is followed by GitLab People Operations to join the Scheme
 When an employee joins the scheme they will be sent a welcome pack in the post stating that they are now a scheme member, it will also have their login details. Employees can login to access their own personal fund and can make adjustments as they see fit.
 
 If the team member hasn't received their Scottish Widows package in the mail within their first 2 months of their joining date, they can log on to their
-[Scottish Widows Portal](http://www.scottishwidows.co.uk/personal). Select "Register Now', and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
+[Scottish Widows Portal](https://www.scottishwidows.co.uk/personal). Select "Register Now', and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
 
 </details>
 
@@ -207,11 +215,11 @@ The certification level that has been chosen is **basic salary** only and will n
   - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
-- You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
+- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2025/2026 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
-These contribution percentages are in line with [The Pension Regulator's Auto-enrollment legislation](http://www.thepensionsregulator.gov.uk/doc-library/automatic-enrolment-detailed-guidance.aspx).
+These contribution percentages are in line with [The Pension Regulator's Auto-enrollment legislation](https://www.thepensionsregulator.gov.uk/en/document-library/automatic-enrolment-detailed-guidance).
 Should the government's minimum contribution standards change further GitLab will contact you to advise the new levels to comply with legislation.
 
 </details>
@@ -235,7 +243,7 @@ If you decide to opt out of the scheme you can do this within one month of the e
 
 <summary>Re-joining</summary>
 
-If you decide to re-join the scheme you can do so by emailing or sending a signed letter to People Operations. If you send an email, it should be from your personal email address, please ensure it contains the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
+If you decide to re-join the scheme you can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). You will be asked to write a letter or send an email from your personal email address. The letter will need to include the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
 
 </details>
 
@@ -248,7 +256,7 @@ Scottish Widows:
 - [www.scottishwidows.co.uk/gppae](https://www.scottishwidows.co.uk/gppae)
 - (t) 0345 755 6557
 
-You can also reach out to Willis Tower Watson to explain the details of the GitLab GPPP and answer any questions you may have.
+You can also reach out to Willis Towers Watson to explain the details of the GitLab GPPP and answer any questions you may have.
 
 3 Temple Quay, Temple Back East, Bristol, BS1 6DZ
 Nick Allen, Associate Director
@@ -340,7 +348,7 @@ Team members are entitled to at least 28 vacation days which consist of 20 days 
 
 This section details the statutory maternity, paternity, parental, and adoption leave as offered by the UK Government. For more information, please review the government's [webpage](https://www.gov.uk/browse/childcare-parenting).
 
-**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit]({{< ref "general-and-entity-benefits#parental-leave" >}}) where, if eligible, statutory pay is supplemented up to 100% regular salary.
+**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) where, if eligible, statutory pay is supplemented up to 100% regular salary.
 
 **Statutory Maternity Leave:** Team members can take up to 52 weeks of Maternity Leave.
 
@@ -385,7 +393,7 @@ Team members can receive Statutory Maternity Pay for up to 39 weeks:
 To apply for Maternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/maternity-certificate-form-mat-b1-guidance-on-completion) no later than 21 days before your leave start date.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/ee03eb40-34b3-4930-8715-9cab858421ef) no later than 21 days before your leave start date.
 - The Absence Management team will then complete a [Risk Assessment Form](https://docs.google.com/document/d/1qHdbaeFSnqdwkQDTEurHD5QMbLPLuZGBQO_CBnRkpiE/edit) within 1-3 days of receiving notification of your leave. The purpose of the assessment is to make the team member aware of any hazards or "risks" to her in the workplace/home office to reduce potential injury to her or her baby.
 - The Absence Management team will notify payroll and email Vistra a copy of the MATB1, start date of leave, and outline what pay the team member is eligible for (statutory, supplemental, etc). Payroll will then automatically calculate the SMP due each pay period based on this information. The recovery of 90% will be outlined on the monthly payroll spreadsheet so that the finance team has indication of the amounts being offset each month.
 - Payroll will continue to be the same while on parental leave but Vistra will file for reimbursement of any statutory funds once the proper paperwork has been sent.
@@ -403,7 +411,7 @@ Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 w
 To apply for Paternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://www.tax.service.gov.uk/print-and-post/form/PersonalTax_iForms/1.0/SC3/sc3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
 - The Absence Management team will notify payroll and email Vistra a copy of the form, dates of leave and outline what pay the team member is eligible for (statutory, supplemental, etc).
 
 #### Adoption Leave Payment
@@ -427,6 +435,30 @@ To apply for Adoption Leave:
   - The entitlement is per child up to the age of 18, regardless of the person's employer.
   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
+
+#### Statutory Neonatal Care Leave and Pay (SNCL&P)
+
+New right to neonatal care leave and pay beginning April 6, 2025.
+
+**Neonatal Care Leave (NCL)** will apply to parents of babies who are admitted into neonatal care up to 28 days old and who have a continuous stay in hospital of 7 full days or longer. These measures will allow eligible parents to take up to 12 weeks of leave (and, if eligible, pay) on top of any other leave they may be entitled to, including maternity and paternity leave. The leave must be taken within 68 weeks of your baby's birth. Neonatal Care Leave is a day-one right.
+ 
+There are two tiers of Neonatal Care Leave:
+**Tier 1:** Available when the child is in neo-natal care, and the first week after their release. The leave must be taken in 7 continuous day blocks. Overlap with a pre-booked parental leave, the SNCL can be paused to allow the other parental leave to be taken. Team members must provide notice to their employer as soon as reasonably practicable.
+
+**Tier 2:** Available from the second week following their release, up to 68 weeks following the child’s birth. Taken as a single block, as this leave is taken when the child is out of neo-natal care and can be planned. Team members wanting to take one week SNCL&P will need to give two weeks and one days' notice in advance.
+
+**Neonatal Care Pay (NCP)** is available to eligible employed parents who will be able to claim up to 12 weeks of NCP.
+To be eligible, team members must:
+
+- Have at least 26 weeks of continuous service with their employer and, 
+- Meet the minimum earnings threshold  (Your average gross weekly earnings must be at least equal to the lower earnings limit, for April 2024-25, this is £123 per week.)
+
+Eligible team members will receive the lower of:
+
+- Standard rate £187.18
+- Or 90% of their average weekly earnings
+
+[GitLab’s Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy will run concurrently with NCL and NCP topping up the statutory pay to 100% regular salary.
 
 ### Other Job-Protected Leave
 
@@ -452,13 +484,7 @@ You can view the `Certificate of Employers' Liability Insurance` [here](https://
 
 ### Adding/Removing Team Members from Help@Hand
 
-1. Pull a the UK Help@Hand Report from Workday
-1. Log on to the Employer Help@Hand Platform
-1. To add joiners, select "Add Employees" > "Import Employees" > Include new hire emails in CSV file and upload to the portal.
-1. To remove leavers select "De-register Employees" > "Import Employees", include leaver's emails in CSV file and upload to portal
-1. To remind Team Members of Help@Hand benefit, select "Export Employees", copy emails of "Unregistered" team members and send a reminder email to register
-
-Additional details can be found on the [Adding/Removing Team Members Help@hand Guide](https://docs.google.com/document/d/1jrSe8lyPuDkgQyx_HeDQTcC8lO1xZKk5/edit).
+Details can be found on the [Adding/Removing Team Members Help@hand Guide](https://docs.google.com/document/d/1jrSe8lyPuDkgQyx_HeDQTcC8lO1xZKk5/edit).
 
 ### Applying for Income Protection when Team Members go on Leave for Illness/Injury
 

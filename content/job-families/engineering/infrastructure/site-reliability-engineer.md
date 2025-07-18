@@ -94,7 +94,7 @@ The Associate Site Reliability Engineer is a [grade 5](/handbook/total-rewards/c
    1. Terraform basic syntax and GitLab CI/CD configuration, pipelines, jobs
    1. Cloud resources provisioning and configuration through CLI/API
    1. Kubernetes basic understanding, CLI, service re-provisioning
-   1. Provisiong and setup metric in Prometheus, Thanos, and Grafana, alerts and silences
+   1. Provisiong and setup metric in Prometheus, Mimir, and Grafana, alerts and silences
    1. Understanding of how to do basic queries in logs tools for general questions
    1. Operating system (Linux) configuration, package management, startup and troubleshooting
    1. Block and object storage configuration
@@ -129,7 +129,7 @@ The Site Reliability Engineer is a [grade 6](/handbook/total-rewards/compensatio
    1. Terraform basic syntax and GitLab CI/CD configuration, pipelines, jobs
    1. Cloud resources provisioning and configuration through CLI/API
    1. Kubernetes basic understanding, CLI, service re-provisioning
-   1. Provisiong and setup metric in Prometheus, Thanos, and Grafana, alerts and silences
+   1. Provisiong and setup metric in Prometheus, Mimir, and Grafana, alerts and silences
    1. Provision and setup logs and queries for general questions
    1. Operating system (Linux) configuration, package management, startup and troubleshooting
    1. Block and object storage configuration
@@ -172,7 +172,7 @@ Are Site Reliability Engineers who meet the following criteria:
    1. Advanced Terraform syntax and GitLab CI/CD configuration, pipelines, jobs
    1. Advanced knowledge of cloud services
    1. Kubernetes: cluster provisioning and new services
-   1. Prometheus, Thanos, and Grafana: service catalog metrics and recording rules for alerts
+   1. Prometheus, Mimir, and Grafana: service catalog metrics and recording rules for alerts
    1. Log shipping pipelines and incident debugging visualizations
    1. Operating system (Linux) configuration, package management, startup and troubleshooting
    1. Block and object storage configuration and debugging
@@ -192,7 +192,7 @@ Are Site Reliability Engineers who meet the following criteria:
 ##### Collaboration and Communication
 
 1. Leads initiatives and problem definition and scoping, design, and planning through epics and blueprints.
-1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](/handbook/engineering/infrastructure/incident-review/).
+1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](/handbook/engineering/infrastructure-platforms/incident-review/).
 1. Perform and run blameless RCAs on incidents and outages aggressively looking for answers that will prevent the incident from ever happening again.
 1. For stable counterpart assignments, maintain awareness and actively influence stage group plans and priorities through participation in stage group meetings and async discussions. Act as a champion for reliability.
 
@@ -280,7 +280,7 @@ In each of these responsibilities, we focus on the long-term mindset required to
 
 ### Gitaly
 
-SREs in [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/) work alongside [Backend Engineers](/job-families/engineering/development/backend/#gitaly) with a focus primarily on improving the availability, reliability and scalability  of the Gitaly fleet on GitLab.com. While the backend engineers approach their responsibilities from a software developer point of view, the SREs approach the same problems from the operational perspective and collaborate closely on finding an optimal solution, in addition to ensuring that new Gitaly features can run at scale and deployed to production safely.
+SREs in [Gitaly](/handbook/engineering/infrastructure-platforms/data-access/gitaly/) work alongside [Backend Engineers](/job-families/engineering/development/backend/#gitaly) with a focus primarily on improving the availability, reliability and scalability  of the Gitaly fleet on GitLab.com. While the backend engineers approach their responsibilities from a software developer point of view, the SREs approach the same problems from the operational perspective and collaborate closely on finding an optimal solution, in addition to ensuring that new Gitaly features can run at scale and deployed to production safely.
 
 #### Responsibilities
 
@@ -330,6 +330,19 @@ SRE's with Cloud Efficiency Engineering specialization primarily focus on improv
 1. Understand and instrument discounting mechanisms in collaboration with our cloud infrastructure providers.
 1. Implement tools, practies, and process to enable other teams to contribute to efficiency in their areas.
 1. Plan and implement needed changes in our cloud environments to drive better observability of usage and improved efficiency.
+
+### FinOps
+
+The FinOps SRE specialization focuses on optimizing cloud infrastructure costs by developing tools and processes that offer valuable insights into infrastructure spending. Acting as subject matter experts, they collaborate with compliance assessors on regulatory certifications (e.g. FedRAMP, SOC2, ISO) and support Finance in understanding how system changes impact financial forecasts. Additionally, they work closely with engineering teams to ensure operational readiness across GitLab's infrastructure.
+
+**Note:** The nature of this role means there is limited exposure to the day-to-day operations of GitLab's SaaS Platforms, therefore there is no requirement to be part of the Incident Management [EOC process](/handbook/engineering/infrastructure/incident-management/#engineer-on-call-eoc-responsibilities). However, FinOps SREs are expected to maintain appropriate SLAs of the systems and processes they support.
+
+#### Responsibilities
+
+1. Drive the adoption of FinOps principles across the organization by staying informed on industry best practices (e.g. [FOCUS](https://focus.finops.org/)) and fostering a culture of cost awareness, encouraging all teams to consider financial efficiency in their decision-making processes.
+1. Work with partners in Finance and Enterprise Data to help them understand how changes in existing and new systems at GitLab, as well as changes in usage patterns for our product, will affect our data structures and financial reporting.
+1. Act as a compliance and infrastructure cost expert, working with internal and external auditors on certifications (e.g., FedRAMP, SOC2, ISO) and collaborating with Finance teams to evaluate the financial impact of changes in systems, infrastructure usage patterns, and forecasts.
+1. Identify cost optimization opportunities using existing tools and data, promoting discussions between Engineering and other stakeholders to ensure cost-efficient operations.
 
 ## Career Ladder
 

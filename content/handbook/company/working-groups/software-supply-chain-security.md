@@ -9,14 +9,14 @@ status: active
 | Property     | Value                                                                                                                                                                            |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Date Created | 2023-03-23                                                                                                                                                                       |
-| End Date     | TBD                                                                                                                                                                              |
+| End Date     | 2025-01-31                                                                                                                                                                              |
 | Slack        | `#wg_software_supply_chain_security` (only accessible from within the company)                                                                                                   |
 | Google Doc   | [Software Supply Chain Security Working Group Agenda](https://docs.google.com/document/d/1MEMPo1zxRrVr7yliOq1HMRJuaOZEgYvmFSIPBIXpu3A) (only accessible from within the company) |
 | Issue Label  | `WorkingGroup::SSCS`                                                                                                                                                             |
 
 ## Overview and goals
 
-Software Supply Chain Security (SSCS) is a key area where GitLab needs to excel, not only for the benefit of the company but for the benefit and security of our users. SSCS features and capabilities span across nearly all of the stages and groups in GitLab. The primary focus of this working group will be to work on building signing and verification into GitLab and will involve contributions in areas the following groups maintain: `Create::Source Code`, `Verify::Pipeline Execution`, `Verify::Runner`, `Package::Package Registry`, and `Package::Container Registry`. There may be some minor code contributions into other team areas as well. The other SSCS feature work at GitLab that is unrelated to signing and verification is outside the scope of this Working Group (but is still being considered or worked on in other areas in GitLab). This [direction page](https://about.gitlab.com/direction/supply-chain) describes the broad, long-term future vision for SSCS across the entire SDLC.
+Software Supply Chain Security (SSCS) is a key area where GitLab needs to excel, not only for the benefit of the company but for the benefit and security of our users. SSCS features and capabilities span across nearly all of the stages and groups in GitLab. The primary focus of this working group will be to work on building signing and verification into GitLab and will involve contributions in areas the following groups maintain: `Create::Source Code`, `Verify::Pipeline Execution`, `Verify::Runner`, `Package::Package Registry`, and `Package::Container Registry`. There may be some minor code contributions into other team areas as well. The other SSCS feature work at GitLab that is unrelated to signing and verification is outside the scope of this Working Group (but is still being considered or worked on in other areas in GitLab). This [direction page](https://about.gitlab.com/direction/supply-chain/) describes the broad, long-term future vision for SSCS across the entire SDLC.
 
 Signing and verification are traditionally difficult tasks. To securely sign a build artifact, container image, or package, users need to first securely store a private signing key. This key needs to be regularly rotated, and the signing tool needs a way to securely access the signing key. The combination of all of these requirements result in a high barrier to entry for users to sign their builds. As a result, many private projects and small open source projects do not publish signed build artifacts.
 
@@ -26,7 +26,7 @@ At a high level, this working group plans on making it possible for signing to h
 
 Some of these links may provide useful background for the working group:
 
-- [SLSA framework requirements](https://slsa.dev/spec/v0.1/requirements)
+- [SLSA framework requirements](https://slsa.dev/spec/v1.0/requirements)
 - [OpenSSF's SLSA verifier](https://github.com/slsa-framework/slsa-verifier)
 - [Sigstore Cosign project](https://github.com/sigstore/cosign)
 - [Sigstore Fulcio project](https://github.com/sigstore/fulcio)
@@ -69,11 +69,22 @@ The exit criteria for this working group is the completion of the following four
 
 Epics to track the above work are still being created, along with the necessary requirements and designs. Please consider the items that do have links as a work-in-progress. Epics to track items that do not have links will be created and added in the future.
 
+### Closing Summary
+
+With the [Sec section realignment](https://gitlab.com/gitlab-com/sec-sub-department/meta/-/issues/1) the Govern stage was renamed to the Software Supply Chain Security Stage. With this change we are closing this working group and distributing the work to individual groups to own.
+
+What we acheived:
+
+1. Added [GitLab.com as an OIDC provider for Cosign](https://gitlab.com/groups/gitlab-org/-/epics/10254)
+1. Released a [User Experience for Signed Container Registry Images](https://gitlab.com/groups/gitlab-org/-/epics/7856)
+1. Added dcouemntation on how to [Use Sigstore for keyless signing and verification](https://docs.gitlab.com/ee/ci/yaml/signing_examples.html)
+1. Released [storing a `source` value for Jobs including policies](https://gitlab.com/groups/gitlab-org/-/epics/11796)
+
 ## Priorities and progress
 
 A prioritized list of work will be tracked here after an engineering DRI has been identified.
 
-{{< product-priorities/software-supply-chain-security-wg >}}
+{{< product/product-priorities software-supply-chain-security-wg >}}
 
 This list is a WIP and we are still working to add a list of prioritized Epics to deliver on the rest of the exit criteria for the group.
 

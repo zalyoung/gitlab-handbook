@@ -7,7 +7,7 @@ title: "Coaching"
 At GitLab, we use coaching to:
 
 1. Provide opportunity for self reflection, communication and feedback
-1. Equip team members with skills they need to [deliver results for customers]({{< ref "https://handbook.gitlab.com/handbook/values/#results" >}})
+1. Equip team members with skills they need to [deliver results for customers](/handbook/values/#results)
 1. Create space to practice strategies for achieving [high performance](https://internal.gitlab.com/handbook/company/high-performing-teams/)
 
 Coaching conversations are fluid, dynamic acts of co-creation where the coach and the coachee are equal partners. People leaders and individual contributions alike use coaching at GitLab during our [360 review process](/handbook/people-group/360-feedback/), giving and receiving [feedback](/handbook/people-group/guidance-on-feedback/), throughout stages of [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1), and more.
@@ -41,7 +41,7 @@ graph TD
 
 | Coaching Type | Description |
 | ----- | --------------- |
-| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/people-group/learning-and-development/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
+| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/people-group/learning-and-development/growth-and-development/#coaching-right-now) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
 | [Modern Health](/handbook/total-rewards/benefits/modern-health/) | Using our Modern Health Employee Assistance Program provides professional coaching to all team members. Coaches on Modern Health specialize in professional/career, mental health, and financial coaching. |
 | Manager Coaching | Your manager can be a coach that steers you towards future goals. Ensure that your Manager can take you on in a coaching capacity. However, coaching can also be a type of interaction you have with your Manager during 1:1 discussions. |
 | Internal Coach | Consider a senior to you in your larger team or someone outside of your team that has inspired you on the specific areas you are working and developing on. Consider searching on [this list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor). |
@@ -152,7 +152,7 @@ Focus on the other person without judgment. Give your coachee your undivided att
 
 ### Different hats for different conversations
 
-Coaching is just one mode of conversation you might use as a [leader]({{< ref "_index.md" >}}). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](/handbook/engineering/careers/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
+Coaching is just one mode of conversation you might use as a [leader](_index.md). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](/handbook/engineering/careers/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
 
 You may wear multiple hats in any given day:
 
@@ -220,7 +220,7 @@ Compared with people at low-trust companies, people at high trust companies repo
 
 #### Additional resources on trust building
 
-1. [How to build and rebuilt trust - Ted Talk](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust/)
+1. [How to build and rebuilt trust - Ted Talk](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust?subtitle=en)
 1. [New to the Team? Here's How to Build Trust (Remotely) - Harvard Business Review](https://hbr.org/2021/03/new-to-the-team-heres-how-to-build-trust-remotely)
 
 ### Will and skill
@@ -315,7 +315,7 @@ The coach might also want to end the conversation with a few statements about wh
 - Championing
 - Challenging
 - Identifying underlying limiting beliefs, assumptions, and mindset
-- [Tips for managing conflict]({{< ref "managing-conflict#8-tips-for-managing-conflict" >}})
+- [Tips for managing conflict](/handbook/leadership/managing-conflict/#8-tips-for-managing-conflict)
 
 ## Team member relations
 
@@ -330,7 +330,7 @@ There are times when a Team Member's behavior becomes so egregious that it is mo
 
 ## Live Learning Session
 
-During Week 2 of our Manager Challenge Pilot, we had a course covering [Building Trust]({{< ref "building-trust" >}}) and [Coaching]({{< ref "." >}}). The [slide deck](https://docs.google.com/presentation/d/1PT8x7lUR0-X-M_H7n_tvYKsC1HRtKTiMy0BtmtPcO4Q/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1eHhOfgqllzAiGOf6gI98wegaxm5-8eLnZ8Qpq7KOLaY/edit?usp=sharing) follow along with the session.
+During Week 2 of our Manager Challenge Pilot, we had a course covering [Building Trust](/handbook/leadership/building-trust/) and Coaching. The [slide deck](https://docs.google.com/presentation/d/1PT8x7lUR0-X-M_H7n_tvYKsC1HRtKTiMy0BtmtPcO4Q/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1eHhOfgqllzAiGOf6gI98wegaxm5-8eLnZ8Qpq7KOLaY/edit?usp=sharing) follow along with the session.
 
 A recording of the first of two sessions can be found here:
 
@@ -340,7 +340,7 @@ A recording of the first of two sessions can be found here:
 
 {{< youtube "9qUlp8LrduM" >}}
 
-We held 50 minute Introduction to Coaching [Live Learning](/handbook/people-group/learning-and-development/#live-learning) sessions on 2020-12-03. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/1jOAZQkIJq9iU7ho6a09AOANKJs7W7IwnbVYBIlX9kmk/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1UIyIeyCcWCtNcOR2Wz5jvbSdKHI2OanLoM-WR7Gtknw/edit?usp=sharing).
+We held 50 minute Introduction to Coaching [Live Learning](/handbook/people-group/learning-and-development/#learning-delivery-methods---definitions) sessions on 2020-12-03. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/1jOAZQkIJq9iU7ho6a09AOANKJs7W7IwnbVYBIlX9kmk/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1UIyIeyCcWCtNcOR2Wz5jvbSdKHI2OanLoM-WR7Gtknw/edit?usp=sharing).
 
 ## Coaching Manager Competency
 
@@ -353,7 +353,7 @@ In an all-remote organization, coaching is a critical skill for managers to deve
 - Conducts development and career planning dialogues with team members continuously
 - Reflects on their leadership style and impact on the team and team situation
 - Seeks new coaching approaches and techniques and exemplifies what it means to continuously develop their skills
-- Delivers effective strategies for dealing with cases of [underperformance]({{< ref "underperformance" >}}) and instills that in other leaders across the organization
+- Delivers effective strategies for dealing with cases of [underperformance](/handbook/leadership/underperformance/) and instills that in other leaders across the organization
 
 ### Additional coaching resources
 

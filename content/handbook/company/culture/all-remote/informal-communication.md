@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-On this page, we're detailing how informal communication occurs at GitLab, how it complements [in-person interactions](in-person/), and why it matters in an all-remote [culture]({{< ref "culture#culture-at-gitlab" >}}). There are over 20 different ways to foster informal communication below, and we are constantly discovering and adding new methods.
+On this page, we're detailing how informal communication occurs at GitLab, how it complements [in-person interactions](in-person/), and why it matters in an all-remote [culture](/handbook/company/culture/#culture-at-gitlab). There are over 20 different ways to foster informal communication below, and we are constantly discovering and adding new methods.
 
 ## What do we mean by **informal communication**?
 
@@ -19,37 +19,35 @@ Talking about the weather; sharing photos of pets, favorite foods or holidays; s
 
 ## What is the difference between formal and informal communication in the workplace?
 
-Since GitLab is an all-remote organization that [works asynchronously](asynchronous/), nearly all work communication is [documented](/handbook/product/ux/technical-writing/documentation/), making all work-related communications "formal" communications. This helps support our value of [transparency](/handbook/values/#transparency).
+Since GitLab is an all-remote organization that [works asynchronously](asynchronous/), nearly all work communication is [documented](/handbook/product/ux/technical-writing/#documentation), making all work-related communications "formal" communications. This helps support our value of [transparency](/handbook/values/#transparency).
 
 We are big on relationship-buiding. We highly value intentionally creating time to build relationships via informal communications.
 
 ## Why is informal communication so important in a remote work setting?
 
-Informal communication builds an [informal substructure of trust]({{< ref "building-trust" >}}). This trust helps people accept decisions. That acceptance makes successful execution of decision more likely.
+Informal communication builds an [informal substructure of trust](/handbook/leadership/building-trust/). This trust helps people accept decisions. That acceptance makes successful execution of decision more likely.
 
-All-remote workers who are all-work all the time risk [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/). One of the best ways to combat loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
+All-remote workers who are all-work all the time risk [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/). One of the best ways to combat loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
 
 ## Informal communication advantages and disadvantages
 
-While some people thrive on spending time to get to know others, others are annoyed by non-work-related texts and messages. Informal communication among diverse team members requires a high level of [empathy]({{< ref "being-a-great-remote-manager#empathy" >}}).
+While some people thrive on spending time to get to know others, others are annoyed by non-work-related texts and messages. Informal communication among diverse team members requires a high level of [empathy](being-a-great-remote-manager/#empathy).
 
 It's helpful to be transparent about your communication preferences so managers and teammates can know and respect your boundaries.
 
 ## Formally design informal communications
 
-<!-- TODO: Replace with screenshots. -->
-
 > Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1270721630537277442)
 >
-> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://about.gitlab.com/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
+> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://handbook.gitlab.cominformal-communication/ which I'll summarize in this thread.
 
 ### Organize informal communication
 
-Informal team member communications, such as a chat about life outside of work, are necessary for building trust. Trust is essential for great business results and is a [foundational element of culture]({{< ref "culture#culture-at-gitlab" >}}). Many businesses invest heavily in offices and facilities, because they believe offices are necessary for informal communication.
+Informal team member communications, such as a chat about life outside of work, are necessary for building trust. Trust is essential for great business results and is a [foundational element of culture](/handbook/company/culture/#culture-at-gitlab). Many businesses invest heavily in offices and facilities, because they believe offices are necessary for informal communication.
 
-> During the pandemic, many businesses that were forced to work remotely discovered that productivity [increased](https://bfi.uchicago.edu/working-paper/why-working-from-home-will-stick). Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. GitLab solves this by allowing people to [rent and expense work space](/handbook/finance/expenses#-coworking-or-external-office--space). Another reason given is that people miss working from a central office with co-workers. I don't think that people miss the commute or the office furniture. They miss informal communication. Central offices are an expensive, inconvenient, and indirect way to facilitate informal communication. It is more efficient to directly organize informal communication.
+> During the pandemic, many businesses that were forced to work remotely discovered that productivity [increased](https://bfi.uchicago.edu/working-paper/why-working-from-home-will-stick). Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. GitLab solves this by allowing people to [rent and expense work space](/handbook/finance/expenses/#co-working-space). Another reason given is that people miss working from a central office with co-workers. I don't think that people miss the commute or the office furniture. They miss informal communication. Central offices are an expensive, inconvenient, and indirect way to facilitate informal communication. It is more efficient to directly organize informal communication.
 >
-> For example, every person who joins GitLab has to schedule at least 5 coffee chats during their onboarding. We also have Ask Me Anything meetings with senior leaders, Group calls organized by different groups/departments, and over 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in a physical office. You can connect with team members throughout the world and across departments through a coffee chat. You may not meet people outside of your own floor in an office setting. - *GitLab co-founder and CEO Sid Sijbrandij*
+> For example, every person who joins GitLab has to schedule at least 5 coffee chats during their onboarding. We also have Ask Me Anything meetings with senior leaders, Group calls organized by different groups/departments, and over 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in a physical office. You can connect with team members throughout the world and across departments through a coffee chat. You may not meet people outside of your own floor in an office setting. - *GitLab co-founder, Sid Sijbrandij*
 
 {{% cardpane %}}
 {{% card footer="Group social calls are a great way for remote teams to connect and bond" %}}
@@ -63,7 +61,7 @@ Informal communication is important, as it enables friendships to form at work r
 
 For all-remote companies, leaders should not expect informal communication to happen naturally. There are no hallways for team members to cross paths in, no carpools to the office, etc.
 
-> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - *GitLab co-founder and CEO Sid Sijbrandij*
+> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - *GitLab co-founder, Sid Sijbrandij*
 
 In an all-remote environment, informal communication should be formally addressed. Leaders should organize informal communication, and to whatever degree possible, design an atmosphere where team members all over the globe feel comfortable reaching out to anyone to converse about topics unrelated to work.
 
@@ -89,7 +87,7 @@ In colocated settings, unplanned encounters can lead to interesting ideas or hyp
 
 ### Remote retrospectives
 
-Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.us/hc/en-us/articles/206476093-Enabling-breakout-rooms), which may be useful in catalyzing such conversation.
+Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives/) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061583), which may be useful in catalyzing such conversation.
 
 ### Innovation communities
 
@@ -121,16 +119,15 @@ If you've spent any length of time in a corporate setting, you've probably seen 
 
 For colocated companies, the occasional team offsite — to take in a sporting event, to enjoy a shared lunch, etc. — may be enough to supplement naturally occurring informal communication in the office.
 
-Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#culture-at-gitlab" >}}), created to foster informal communication. We welcome other all-remote companies to iterate on these and implement as desired.
+Below are a number of intentional facets of [GitLab's culture](/handbook/company/culture/#culture-at-gitlab), created to foster informal communication. We welcome other all-remote companies to iterate on these and implement as desired.
 
 1. [Contribute Unconference](/handbook/company/culture/summit/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
-1. [Group conversations](/handbook/company/group-conversations/): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Coffee chats: More details below.
 1. Coworking calls: More details below.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
 1. Local meetups: Co-located team members are encouraged to organize their own meetups, whether it's a coworking space or getting dinner together.
 1. [Slack](/handbook/communication/#slack): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.
-1. [Zoom calls]({{< ref "tools-and-tips#zoom" >}}): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
+1. [Zoom calls](/handbook/tools-and-tips/#zoom): Not only do we get to know our coworkers better by seeing them in real time during video calls, we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
 1. Gaming: GitLab has a `#gaming` Slack channel where fans of video games and digital board games can connect. Coordinating shared gaming sessions is a great way to informally connect with team members and collaborate toward goals outside of work.
 1. Music making: GitLab's `#music_making` Slack channel is a place where artists can come together and collaborate synchronously or asynchronously to make music together. Several GitLab team members came together to create [All I Want This Quarter Is You (GitLab)](https://youtu.be/9kTwqsW8I68), a musical masterpiece on the GitLab Unfiltered YouTube channel.
 
@@ -207,7 +204,7 @@ Examples:
 
 {{< youtube "CH-NHoBOeho?start=496" >}}
 
-In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder and CEO Sid Sijbrandij shares how remote teams can stay connected with Frederic Lardinois of [TechCrunch](https://techcrunch.com).
+In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder, Sid Sijbrandij shares how remote teams can stay connected with Frederic Lardinois of [TechCrunch](https://techcrunch.com).
 
 We understand that working remotely leads to mostly work-related conversations with fellow team members, so everyone at GitLab is encouraged to dedicate **a few hours a week** to having social calls/coffee chats with anyone in the company.
 
@@ -241,7 +238,7 @@ You can use the [GitLab org chart](https://comp-calculator.gitlab.net/org_chart)
 
 At the CEOs request, as of 2021-03-01 we are launching an effort `Leadership Coffee Chats with URG Team Members` aimed at driving more conversations and increasing understanding between leadership and Underrepresented Groups (URGs). Our goal is to leverage every opportunity to increase allyship and engage with all URGs at GitLab. The first iteration will start with our Black team members. Future iterations will include Coffee Chats with LatinX, Asian, LGBTQ, Women, etc. Anything discussed will remain confidential.
 
-This format is similar to our regular Coffee Chats, and in this first iteration, the [E-Group]({{< ref "structure#e-group" >}}) and the [All-Directs]({{< ref "structure#all-directs" >}}) layer of leadership will connect with Black team members for coffee chats. To start, we will keep these within the same function as much as possible (i.e. Black team member in Marketing invited for a Coffee Chat with the CMO and an All-Direct Leader in Marketing)
+This format is similar to our regular Coffee Chats, and in this first iteration, the [E-Group](/handbook/company/structure/#e-group) and the [All-Directs](/handbook/company/structure/#directs-group) layer of leadership will connect with Black team members for coffee chats. To start, we will keep these within the same function as much as possible (i.e. Black team member in Marketing invited for a Coffee Chat with the CMO and an All-Direct Leader in Marketing)
 
 The coffee chats are optional for our Black team members and participation is opt-in. Leaders and EBA's will drive this engagement by scheduling coffee chats with each of you who have opted in. You will opt-in via the spreadsheet titled Leadership Coffee Chat with URG (Black) which is searchable in Google Drive and clicking the checkbox in column C. URG team members should feel no pressure opt-in as this is optional. If you are unable to participate and you'd like to join a future coffee chat, please ping the Staff EBA to the CEO in slack in #eba-team to be added to the spreadsheet.
 
@@ -285,7 +282,7 @@ You can also directly reach out to your fellow GitLab team members to schedule a
 
 ### GitLab Team Member Mixer Calls
 
-Similar to a coffee chat, a "[GitLab Team Member]({{< ref "top-misused-terms" >}}) Mixer" call aims to help team members meet more folks from other groups or functions that they might not otherwise get to spend a lot of time working or interfacing with.
+Similar to a coffee chat, a "[GitLab Team Member](/handbook/communication/top-misused-terms/) Mixer" call aims to help team members meet more folks from other groups or functions that they might not otherwise get to spend a lot of time working or interfacing with.
 
 To set up a GitLab Team Member Mixer, two team members set up a single Zoom line.  Using the single Zoom line, each of those team members invites someone else to join - making a total of four team members on the call.  This way, you'll get to meet someone new - or find connections between team members you didn't know existed.  Each "host" brings a topic to discuss in case the conversation needs help getting started.
 
@@ -308,10 +305,10 @@ You can take a look at the [internal time zones and interests document](https://
 {{% /cardpane %}}
 
 Some teams at GitLab organize informal social calls on a regular basis in order to build camaraderie.
-The [data team](/handbook/business-technology/data-team) has them every Tuesday.
+The [data team](/handbook/enterprise-data/) has them every Tuesday.
 Team members and managers are encouraged to create these calls as a medium for informal, agenda-free interaction between team members.
 
-[Team days]({{< ref "building-trust#host-a-team-day" >}}) are another opportunity to intermix work and rapport building, and can be structured to work synchronously or asynchronously.
+[Team days](/handbook/leadership/building-trust/#host-a-team-day) are another opportunity to intermix work and rapport building, and can be structured to work synchronously or asynchronously.
 
 ## Show and Tell
 
@@ -329,7 +326,7 @@ Show and Tell sessions are excellent ways to humanize the work experience, and t
 {{% /card %}}
 {{% /cardpane %}}
 
-[Zoom]({{< ref "tools-and-tips#zoom" >}}) added a unique feature within its `Share Screen` function, enabling a remote team to share audio from their computer with all who are in the Zoom meeting. This is useful for getting an entire team together in a shared virtual space without everyone feeling compelled to speak and socialize. A shared DJ Room is ideal for scenarios where team members need to be mostly heads-down on work, but appreciate the closeness of the team and the shared musical experience.
+[Zoom](/handbook/tools-and-tips/#zoom) added a unique feature within its `Share Screen` function, enabling a remote team to share audio from their computer with all who are in the Zoom meeting. This is useful for getting an entire team together in a shared virtual space without everyone feeling compelled to speak and socialize. A shared DJ Room is ideal for scenarios where team members need to be mostly heads-down on work, but appreciate the closeness of the team and the shared musical experience.
 
 To create additional interaction, hand off the proverbial DJ duties every 2-3 songs, enabling an array of team members to share their favorite tunes. This can trigger fun conversation on preferred music genres and artists
 
@@ -344,14 +341,14 @@ More instructions on this can be found at [this support page](https://support.bo
 
 ## Create a company songbook
 
-If the Team DJ Zoom Room strikes a proverbial chord with your team, consider creating a company songbook. Get inspired by visiting the [GitLab Songbook]({{< ref "songbook" >}}).
+If the Team DJ Zoom Room strikes a proverbial chord with your team, consider creating a company songbook. Get inspired by visiting the [GitLab Songbook](/handbook/company/culture/songbook/).
 
 ## AMA (Ask Me Anything)
 
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-Hosting an [AMA](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) is a great way for people to learn about others. While questions *can* be about work, these serve as an opportunity to ask funny and far-fetched questions that enable a more personal connection. It's particularly important to consider ongoing AMAs with executives. AMAs humanize leaders and remind teams that we are [all more alike than we are unalike](https://allpoetry.com/Human-Family).
+Hosting an [AMA](learning-and-development/#ask-me-anything-ama-and-key-reviews) is a great way for people to learn about others. While questions *can* be about work, these serve as an opportunity to ask funny and far-fetched questions that enable a more personal connection. It's particularly important to consider ongoing AMAs with executives. AMAs humanize leaders and remind teams that we are [all more alike than we are unalike](https://allpoetry.com/Human-Family).
 
 ## Celebrations and holidays
 
@@ -365,14 +362,14 @@ A team that is distributed across the globe creates opportunity for many celebra
 
 ### Global pizza parties/meals
 
-Teams can also arrange shared meals around the world. [Global pizza parties](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party), for example, are possible to document and enjoy in a shared setting (Zoom or Slack), though one may wish to consider a breakfast pizza depending on time zone.
+Teams can also arrange shared meals around the world. [Global pizza parties](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party/), for example, are possible to document and enjoy in a shared setting (Zoom or Slack), though one may wish to consider a breakfast pizza depending on time zone.
 
 ## Social games
 
 ![GitLab team in Luna Park live game show](/images/all-remote/luna_park_game_show_gitlab.jpg)
 {style="max-width: 50%;"}
 
-You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
+You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://lunapark.com/). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
 
 ## Virtual lunch table
 
@@ -396,13 +393,13 @@ Sharing a meal is a powerful way to connect as humans, particularly when you ope
 {{% /card %}}
 {{% /cardpane %}}
 
-GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt](https://gitlab.com/gitlab-com/customer-success/tam/issues/212) using GitLab (the product), which is [detailed on the GitLab Unfiltered blog](https://about.gitlab.com/blog/2020/04/06/cs-scavenger-hunt) and is easily replicated.
+GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt](https://gitlab.com/gitlab-com/customer-success/tam/issues/212) using GitLab (the product), which is [detailed on the GitLab Unfiltered blog](https://about.gitlab.com/blog/2020/04/06/cs-scavenger-hunt/) and is easily replicated.
 
 ## Virtual trivia
 
 GitLab's global [marketing team](/handbook/marketing) plays pub-style trivia every other week. You can compete as individuals or as teams, with a suggested time of 1 hour. For those within the GitLab organization, email `events@gitlab.com` if you want to arrange a game for your team.
 
-GitLab utilizes [MysteryTrip](http://games.mysterytrip.co), which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
+GitLab utilizes MysteryTrip, which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
 
 ## Co-working calls
 
@@ -423,7 +420,7 @@ In this section, we'll spotlight tips and advice from other experts and companie
 [Bretton Putter](https://twitter.com/BrettonPutter), founder at [CultureGene](https://twitter.com/culturegenehq), shares the below [examples](https://twitter.com/BrettonPutter/status/1263834004341563393/photo/1).
 
 1. Book, TV, and movie clubs
-1. Movie nights leveraging [Netflix Party](https://www.netflixparty.com)
+1. Movie nights leveraging [Netflix Party](https://www.teleparty.com/)
 1. Group game/dance/music nights via a streaming service like [Twitch](https://www.twitch.tv)
 1. Lunch and Learn webinars (ideally learning about something not directly work related, such as playing an instrument)
 1. Group fitness, yoga, and meditation sessions
@@ -436,7 +433,7 @@ In this section, we'll spotlight tips and advice from other experts and companie
 
 ### Tools for building empathy and connection
 
-1. Build empathy, rapport, and cohesion on remote teams with [Kona by Sike Insights](https://sikeinsights.com)
+1. Build empathy, rapport, and cohesion on remote teams with [Kona by Sike Insights](https://www.heykona.com/)
 1. Asynchronous voice messaging for teams via [Yac](https://www.yac.com)
 1. Asynchronous video messaging for teams via [Loom](https://www.loom.com)
 
@@ -446,4 +443,4 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

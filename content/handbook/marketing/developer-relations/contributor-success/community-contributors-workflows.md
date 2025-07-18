@@ -11,13 +11,20 @@ A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) f
 
 ## Issues
 
+### Contributor links
+
+To make it clear and easy for everyone to contribute, a [triage-ops processor](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/issue_summary.rb)
+adds contributor links to issues to enable customers/community members to label, close and assign themselves.
+
+GitLab team members can suppress these links by adding the `suppress-contributor-links` label.
+
 ### Labeling issues for community contributors
 
 See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).
 
 ### Community issues workflow manual process
 
-See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
+See the [partial issue triage checklist](/handbook/product-development/how-we-work/issue-triage/#partial-triage-checklist).
 
 ## Merge Requests
 
@@ -66,7 +73,9 @@ More information on merge request coaches (including how to become a merge reque
 
 ## Contributing to the GitLab Enterprise Edition (EE)
 
-For community contributors to contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), they will need a license for EE. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
+### For community contributors
+
+To contribute to any of the paid features in [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), community contributors will need to add a license to their GDK. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
 
 Renewal of this license:
 
@@ -75,7 +84,42 @@ Renewal of this license:
 
 Contributors will need to create an request in this project to request their license: [Wider Community Contributor License Request](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/new?issuable_template=contributor_ee_license_request).
 
-(Internal link for GitLab team members) Upon evaluation of the contributor's request, a license request can be made using [this form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Make sure to follow the Zendesk Global Light Agent steps if you haven't already). The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license).
+### Processing Enterprise Edition (EE) License Requests
+
+To be completed by a GitLab team member:
+
+#### Prerequisites
+
+- Access to Zendesk support portal, requested via [Zendesk Global Light Agent form](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account).
+
+#### Process
+
+- Access the GitLab support [form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). (Internal link for team members only)
+- Select "GitLab L&R request for global customers" as the initial option
+- Choose "Wider community license" from the subsequent dropdown
+- Fill out the required fields provided in the request issue.
+  - Contact information: Use the requesting contributor's information
+- Other required fields:
+  - True-up: 0
+  - Priority of request: Low
+  - License type: Ultimate (unless otherwise specified)
+  - Expiration date:
+    - 90 days for new contributors
+    - 1 year for renewals
+  - Use Nick's email as approving manager if it is a 1 year renewal
+- In "What is the reason for the license being issued?" specify `Wider community contributor EE license request` and add a link to the license request issue.
+- Add a public comment to the request issue indicating the request has been submitted
+- The support form, when submitted, gives the user a link to the pipeline that "creates" the request in Zendesk. Save the link to this pipeline in an internal comment in case there are any issues that need investigating later.
+
+The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license) within 24 hours.
+
+#### Close
+
+After license is provisioned:
+
+- Add a public comment on the issue with confirmation that the license request has been provisioned
+- Add a confidential comment with a screenshot of the "Private Note" included in the email sent to you by support
+- Close the issue
 
 ## DCO and CLA Guidance
 
@@ -136,9 +180,9 @@ row at the bottom with the same structure.
 
 Caution: If an organization reaches the threshold it will be auto-enrolled in the program for receiving the review-time SLO.
 
-## GitLab MVP Selection Process
+## GitLab Notable Contributor Selection Process
 
-See [GitLab MVP Selection Process](/handbook/marketing/developer-relations/contributor-success/mvp-process).
+See [GitLab Notable Contributor Selection Process](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process).
 
 ## Contributor Thanks messages
 
@@ -231,7 +275,7 @@ GitLab teams are encouraged to use the following [Hackathon issue template](http
 
 ### Virtual hackathons/hackathon-in-a-box
 
-We also encourage wider community members to organize events to encourage and support new contributors to GitLab. This could be done as a part of in-person or virtual [GitLab meetups](/handbook/marketing/developer-relations/evangelist-program/#meetups).
+We also encourage wider community members to organize events to encourage and support new contributors to GitLab. This could be done as a part of in-person or virtual GitLab meetups.
 
 If wider community members are interested in including a hackathon as a part of a meetup, ask them to include this information when they open a [meetup issue](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=meetup-organizer). Contributor Success team members will get in touch with the organizer and provide the necessary resources to support the event.
 
@@ -288,7 +332,7 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Do it yourself](/handbook/values/#do-it-yourself)
 1. [Short toes](/handbook/values/#short-toes)
 1. [Collaboration is not consensus](/handbook/values/#collaboration-is-not-consensus)
-1. [Bias for action](/handbook/values/#bias-for-action)
+1. [Bias for action](/handbook/values/#operate-with-a-bias-for-action)
 1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)
@@ -309,15 +353,30 @@ GitLab team members seeking help can reach out to the wider community for contri
 
 GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
 
-- The issue description must include an implementation plan as a second-level heading with guidance
+- The issue description must include an implementation plan as a second or third level heading with guidance
 to help contributors get started.
-For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
+For example `## Implementation`, `### Implementation`, `## Implementation plan` and `### Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
 - The issue must be assigned a weight between 0-3.
 Issue weights should approximate the complexity and effort required.
 Do not relate weight to time estimates.
 - Consider including a GitLab team member or experienced community contributor as a contact person
 for contributors to ask questions or get mentorship.
+
+### Criteria for `quick win::first-time contributor` issues
+
+During the onboarding process, new contributors are linked to `quick win::first-time contributor` issues. These issues are intended to help new contributors learn the process of contributing by using our easiest and most straight forward issues.
+
+`quick win::first-time contributor` issues follow the same `quick win` criteria as above, with modified weight requirements. It is also recommended to add a support contact.
+
+- The issue must be assigned a weight between 0-1.
+Issue weights should approximate the complexity and effort required.
+Do not relate weight to time estimates.
+- The issue description must include an implementation plan as a second or third level heading with guidance
+to help contributors get started.
+For example `## Implementation`, `### Implementation`, `## Implementation plan` and `### Implementation guide` are all acceptable.
+This section can be very brief or offer possible actions to resolve the issue.
+- It's recommended to include at least 1 GitLab team member or experienced community contributor (e.g., "Support contact: @username") tagged in the `Implementation plan` section
 
 ### First-time contributors
 
@@ -331,17 +390,28 @@ Contributor Success team members can use the [outreach email/message template](/
 
 More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
 
-### Granting GitLab Duo licenses
+### GitLab Duo for Contributors
 
-To support our mission to enable everyone to contribute, we offer GitLab Duo Enterprise licenses to the contributors in our wider community.
-[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis and more AI-powered features to help boost efficiency
-and effectiveness by reducing the time required to write and understand code.
-Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
-about the benefits of GitLab Duo.
+To support our mission to enable everyone to contribute, we offer complimentary GitLab Duo Enterprise
+licenses across the GitLab community forks for all our wider community contributors.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis
+and more AI-powered features to help boost efficiency and effectiveness by reducing the time required
+to write and understand code and pipelines.
+Community contributors receive GitLab Duo once approved for [requesting access to the community forks](https://gitlab.com/groups/gitlab-community/community-members/-/group_members/request_access).
+
+### Highlighting high-value contributions with product bonuses
+
+This is an experiment that we run in FY25Q4 (November 2024 - January 2025).
+
+To highlight high-value contribution directions, the contributor success team might set up a dedicated budget that product managers (PM) can give out to contributors in their area in a given timeframe. The overall budget is shared equally across user-facing product stages where PMs can apply labels (`community-bonus::100`. `community-bonus::300`. `community-bonus::500`) to show how much value they give to the specific issue/epic. The bonus is accounted for when the issue is closed or in case of an epic, the contributor success team can give out part of the bonus for specific issues as discussed by the respective PM. PMs are expected to stay within their budgets when selecting issues.
+
+Bonuses can be granted after the contribution too.
+
+A bonus in this context is not a monetary grant. These bonus points can only be used to make purchases in the [contributor store](https://gitlab-contributor.brilliantmade.com/).
 
 ### For contributors who don't own a credit card
 
-For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes.html#manual-credit-card-validation-for-community-contributors) to complete the request.
+For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes/#manual-credit-card-validation-for-community-contributors) to complete the request.
 
 ### For contributors who run out of compute minutes or other CI/CD resources
 
@@ -525,7 +595,7 @@ You can also directly query data from `Merge Requests` pages for projects (e.g. 
 
 ### Number of Contributors
 
-In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/http://contributors.gitlab.com/) page.
+In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/https://contributors.gitlab.com/) page.
 
 If you include other GitLab projects, the total number of contributors is much larger.
 

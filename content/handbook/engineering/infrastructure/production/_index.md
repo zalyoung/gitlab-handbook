@@ -8,7 +8,7 @@ If you're a GitLab team member and are looking to alert Reliability Engineering 
 {{% /alert %}}
 
 {{% alert color="warning" %}}
-If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call.html) section.
+If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) section.
 {{% /alert %}}
 
 ## The Production Environment
@@ -18,7 +18,7 @@ For a complete list of production services see the [service catalog](https://git
 
 ## How to Get Help
 
-See [how to get assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance).
+See [how to get assistance](/handbook/engineering/infrastructure/team/).
 
 ## Why `infrastructure` and `production` queues?
 
@@ -40,7 +40,7 @@ Functional queues track team workloads (`infrastructure`, `security`, etc) and a
 
 The `production` queue tracks events in production, namely:
 
-- [changes](/handbook/engineering/infrastructure/change-management/)
+- [changes](/handbook/engineering/infrastructure-platforms/change-management/)
 - [incidents](/handbook/engineering/infrastructure/incident-management/)
 - deltas (exceptions) -- still need to do handbook write up
 
@@ -59,7 +59,7 @@ For the on-call SRE, every event that pages (where an event may be a group of re
 All direct or indirect changes to authentication and authorization mechanisms used by GitLab Inc. by customers or employees require additional review and approval by a member of at least one of following teams:
 
 - [production team](/handbook/engineering/infrastructure/production/) member
-- [security team](/security/)  member
+- [security team](https://about.gitlab.com/security/)  member
 - developer from a different team that is staff level or higher
 
 This process is enforced for the following repositories where the approval is mandatory using
@@ -87,7 +87,7 @@ Type labels are very important. They define what kind of issue this is. Every is
 
 |       Label        | Description                                                                                                             |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------|
-|      `~Change`     | Represents a Change on infrastructure please check details on : [Change](/handbook/engineering/infrastructure/change-management/)                             |
+|      `~Change`     | Represents a Change on infrastructure please check details on : [Change](/handbook/engineering/infrastructure-platforms/change-management/)                             |
 |     `~Incident`    | Represents a Incident on infrastructure please check details on : [Incident](/handbook/engineering/infrastructure/incident-management/)                           |
 |     `~Database`    | Label for problems related to database                                                                                  |
 |     `~Security`    | Label for problems related to security                                                                                  |
@@ -127,46 +127,11 @@ Events are recorded separately for the staging and production environment.
 For some incidents, we may figure out that the usage patterns that led to the issues were abuse.  There is a process for how we define and handle abuse.
 
 1. The definition of abuse can be found on the [security abuse operations section of the handbook](/handbook/security/)
-1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call.html) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
+1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call/) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
 
-## Backups
+## Backup and Restore
 
-### Purpose
-
-This section is part of [controlled document](/handbook/security/controlled-document-procedure.html) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
-
-### Scope
-
-Production database backups
-
-### Roles & Responsibilities
-
-| Role  | Responsibility |
-|-----------|-----------|
-| Infrastructure Team | Responsible for configuration and management |
-| Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
-
-### Procedure
-
-Backups of our production databases are taken every 24 hours with continuous incremental data (at 60 sec intervals), streamed into [GCS](https://cloud.google.com/storage). These backups are encrypted, and follow the lifecycle:
-
-- Initial 7 days in [Multi-regional](https://cloud.google.com/storage/docs/storage-classes#standard) storage class.
-- After 7 days migrated to [Coldline](https://cloud.google.com/storage/docs/storage-classes#coldline) storage class.
-- After 90 days, backups are deleted.
-- Snapshots of non Patroni-managed database (e.g. PostgreSQL DR replicas) and non-database (e.g. Gitaly, Redis, Prometheus) data filesystems are taken every hour and kept for at least 7 days.
-- Snapshots of Patroni-managed databases (a designated replica, in fact) are taken every 6 hours and kept for 7 days.
-
-Data stored in Object Storage (GCS) such as artifacts, the container registry, and others have no additional backups, relying on the [99.999999999% annual durability](https://cloud.google.com/storage/docs/storage-classes#descriptions) and multi-region buckets.
-
-For details see the runbooks, particularly for [GCP snapshots](https://gitlab.com/gitlab-com/runbooks/blob/master/docs/uncategorized/gcp-snapshots.md) and [Database backups using WAL-E/WAL-G (encrypted)](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/postgresql-backups-wale-walg.md)
-
-### Exceptions
-
-Exceptions to this backup policy will be tracked in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/compliance/-/issues/).
-
-### References
-
-- Parent Policy: [Information Security Policy](/handbook/security/)
+See policies for [Backup and Restore](/handbook/engineering/gitlab-com/policies/backup).
 
 ## Patching
 
@@ -182,13 +147,13 @@ to `/var/log/unattended-upgrades/*.log`.
 
 Unattended upgrades is configured to automatically patch all security upgrades for packages with the exception of the GitLab omnibus package.
 
-The critical change process is described in the [emergency change process](/handbook/engineering/infrastructure/emergency-change-processes) overview.
+The critical change process is described in the [emergency change process](/handbook/engineering/infrastructure-platforms/emergency-change-processes) overview.
 
 ### Patching Validation
 
 Patch validation can be performed in 3 ways.
 
-- Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://wiz.io).
+- Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://www.wiz.io/).
 - Reviewing vulnerability & tracking issue raised into GitLab by [Vulnerability Management teams automation] (/handbook/security/product-security/vulnerability-management/automation/)
 - Reach out to Vulnerability Management in slack `#g_vulnerability_management`
 

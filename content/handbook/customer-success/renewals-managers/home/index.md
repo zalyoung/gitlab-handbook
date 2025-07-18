@@ -2,7 +2,7 @@
 title: Renewals Managers
 ---
 
-![Global Renewals Organiztion](images/GitLab_GR_BLK.gif)
+![Global Renewals Organiztion](/images/customer-success/renewals-managers/home/GitLab_GR_BLK.gif)
 
 Global Renewals Organization
 
@@ -74,27 +74,6 @@ Our strategy defines how we win in the market we have chosen to compete. It is n
 3. A better customer renewal experience driven by a culture of small, incremental continuous improvements
 4. An empowering team culture
 
-### Capabilities and managmeent systems necessary
-
-*Capabilities*
-
-- Renewals enabling SFDC configuration
-- Renewal outreach automation and tracking
-- Risk tagging and forecasting integration
-- Risk mitigation system
-- Late renewal identification
-- Trustworthy SFDC KPIs
-
-*Systems*
-
-- Management dashboards
-- Temp key tracking
-- Churn budgeting and forecasting
-- Balanced renewals scorecard
-- Risk identification / mitigation process
-- Renewal forecasting
-- Real time renewals performance tracking
-
 ### RM New Team Member Onboarding
 
-As a [Renewals Manager (RM), your onboarding](/handbook/customer-success/renewals-managers/rm-onboarding) experience will be a blended learning experience that includes virtual synchronous meetings, a self-paced role-based learning path on GitLab University, and a hands-on virtual workshop called Sales Quick Start (SQS). Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1kc5tVFZxQLT5EcworXmeMzVYsXp-6hg6dthFQI8wNcM/edit#heading=h.5sepq0d8u5az). Please make a copy of this document and check off items as you complete them.
+As a [Renewals Manager (RM), your onboarding](/handbook/customer-success/renewals-managers/rm-onboarding) experience will be a blended learning experience that includes virtual synchronous meetings, a self-paced role-based learning path on GitLab University, and a hands-on virtual workshop called Sales Quick Start (SQS). Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1zAKuWnUUyy4oB741hX2jBL5OZM2Dk5pqA8EwEe0TYLI/edit?usp=sharing). Please make a copy of this document and check off items as you complete them.

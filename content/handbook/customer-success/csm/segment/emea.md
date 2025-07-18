@@ -18,6 +18,7 @@ CSM EMEA is further divided into different regions. There are four different tea
 * CSM DACH - aligned with customers in Germany, Austria and Switzerland
 * CSM NORTH - responsible for customers in northern Europe, for example in the UK and the Scandinavian countries
 * CSM META - manages customers in the Middle East, Turkey and Africa
+* CSA EMEA - responsible for Customer Success Architecture across the region
 
 ## Team Contacts and Responsibilities
 
@@ -44,7 +45,7 @@ There are several meetings for all EMEA CSMs:
 
 ### Meeting Recordings and Summary
 
-Zoom meetings can be [recorded](/handbook/tools-and-tips/zoom/#recording-in-zoom) or [summarized](/handbook/tools-and-tips/zoom/#zoom-ai-companion) using the AI Companion feature provided by Zoom. Meeting Summaries allow the people who could not attend a call to quickly catch up on discussions, decisions and action items. This makes it easier for everyone to stay informed and enhances productivity and efficiency. The feature is turned off by default and can be enabled by the meeting host. The meeting host should always ask all attendees if it is alright to record or summarize the call. Additionally, all attendees will see a notification banner when Zoom call recording or Zoom AI Companion get enabled. This is especially important for customer meetings. If the customer does not want Zoom call recording or Zoom AI Companion to be used, the host should turn it off. We also have a section about call recordings in our [Privacy Statement](https://about.gitlab.com/privacy/). 
+Zoom meetings can be [recorded](/handbook/tools-and-tips/zoom/#recording-in-zoom) or [summarized](/handbook/tools-and-tips/zoom/#zoom-ai-companion) using the AI Companion feature provided by Zoom. Meeting Summaries allow the people who could not attend a call to quickly catch up on discussions, decisions and action items. This makes it easier for everyone to stay informed and enhances productivity and efficiency. The feature is turned off by default and can be enabled by the meeting host. The meeting host should always ask all attendees if it is alright to record or summarize the call. Additionally, all attendees will see a notification banner when Zoom call recording or Zoom AI Companion get enabled. This is especially important for customer meetings. If the customer does not want Zoom call recording or Zoom AI Companion to be used, the host should turn it off. We also have a section about call recordings in our [Privacy Statement](https://about.gitlab.com/privacy/).
 
 ## Slack Channels
 

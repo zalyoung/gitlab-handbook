@@ -6,7 +6,7 @@ status: rejected
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 _This blueprint was surpassed by the [infrastructure blueprint](../infrastructure/index.md)_
 
@@ -15,7 +15,7 @@ of GitLab.com and contrasts it with the expected Cells architecture.
 
 ## 1. Before Cells - Monolithic architecture
 
-![Deployment before cells](diagrams/deployment-before-cells.drawio.png)
+![Deployment before cells](/images/engineering/architecture/design-documents/cells/rejected/diagrams/deployment-before-cells.drawio.png)
 
 The diagram represents simplified GitLab.com deployment components before the introduction of a Cells architecture.
 This diagram intentionally omits some services that are not relevant for the architecture overview (Cloudflare, Consul, PgBouncers, ...).
@@ -42,7 +42,7 @@ The dependent services:
 
 ## 2. Development Cells - Adapting application to Cellular architecture
 
-![Deployment Development Cells](diagrams/deployment-development-cells.drawio.png)
+![Deployment Development Cells](/images/engineering/architecture/design-documents/cells/rejected/diagrams/deployment-development-cells.drawio.png)
 
 The purpose of **Development Cells** is to model a production-like architecture to test and validate the changes introduced.
 This could be achieved with testing Cells on top of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/index.html).
@@ -58,7 +58,7 @@ The differences compared to [Before Cells](#1-before-cells---monolithic-architec
 
 ## 3. Initial Cells deployment - Transforming monolithic architecture to Cells architecture
 
-![Deployment initial Cells](diagrams/deployment-initial-cells.drawio.png)
+![Deployment initial Cells](/images/engineering/architecture/design-documents/cells/rejected/diagrams/deployment-initial-cells.drawio.png)
 
 The differences compared to [Development Cells](#2-development-cells---adapting-application-to-cellular-architecture) are:
 
@@ -84,7 +84,7 @@ The differences compared to [Development Cells](#2-development-cells---adapting-
 
 ## 4. Hybrid Cells deployment - Initial complete Cells architecture
 
-![Deployment hybrid Cells](diagrams/deployment-hybrid-cells.drawio.png)
+![Deployment hybrid Cells](/images/engineering/architecture/design-documents/cells/rejected/diagrams/deployment-hybrid-cells.drawio.png)
 
 The differences compared to [Initial Cells deployment](#3-initial-cells-deployment---transforming-monolithic-architecture-to-cells-architecture) are:
 
@@ -96,7 +96,7 @@ The differences compared to [Initial Cells deployment](#3-initial-cells-deployme
 
 ## 5. Target Cells - Fully isolated Cells architecture
 
-![Deployment target Cells](diagrams/deployment-target-cells.drawio.png)
+![Deployment target Cells](/images/engineering/architecture/design-documents/cells/rejected/diagrams/deployment-target-cells.drawio.png)
 
 The differences compared to [Hybrid Cells deployment](#4-hybrid-cells-deployment---initial-complete-cells-architecture) are:
 

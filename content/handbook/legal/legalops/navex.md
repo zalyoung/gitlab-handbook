@@ -1,51 +1,46 @@
 ---
-title: "NAVEX Compliance Courses"
-description: "Information about NAVEX compliance training, including processes, course info, and FAQ"
+title: "Ethics and Compliance Courses"
+description: "Compliance training processes, course info, and FAQ"
 ---
 
 ## Access
 
-Navex is GitLab's online ethics and compliance training solution. All new team members have a task during their onboarding to set up their NAVEX account and complete the assigned courses within 30 days of starting. NAVEX accounts are provisioned automatically on a new hire's start date via a Workday integration and can only be accessed through Okta.
+We are transitioning GitLab's learning and compliance training to LevelUp, our central portal for talent enblement and on-demand learning. During this transition period, annual refresher training will be delivered through LevelUp with the exception of new hire training. New hire training will be delivered through NAVEX until we have completed our transition to LevelUp. 
+
+All team members will receive automatic access to their assigned compliance training courses. New team members have a task in their onboarding issue to complete assigned compliance courses within 30 days of starting. 
 
 ## Courses
 
-Team members are enrolled in the following courses on their start date:
+New hires are enrolled in the following courses on their start date:
 
-- Code of Conduct
+- Ethics and Code of Conduct
 - Insider Trading
 - Global Data Privacy
-- Anti-Bribery and Corruption (note, this course is currently only assigned to team members on the Finance, Legal, Sales, and Marketing teams)
-- Government Contracting: Gifts, Gratuities, and Bribery (note, this course is currently only assigned to team members who are employed by or work with our public sector entity).
+- Team members in Finance, Legal & Corporate Affairs, Marketing, and Sales: Anti-Bribery and Corruption
+- Team members employed by or working with our public sector entity: Government Contracting: Gifts, Gratuities, and Bribery
 
 Each of these courses should take around 30 minutes or less to complete.
 
-Additionally, team members will also be enrolled in the following anti-harassment-related course(s):
+### Anti-Harassment
 
-- Individual Contributors located outside the US will be enrolled in the *Global Workplace Harassment* course, which will take approximately 30 minutes to complete.
-- Individual Contributors located in the US will be enrolled in a *Workplace Harassment 10* course, which has various editions designed to meet the requirements of various local requirements. This course will take approximately 60 minutes to complete; however, the exact length will vary depending on each team member's location.
-- Managers located outside the US (with the exception of any having direct reports located in Cook County, Illinois) will be enrolled in the *Global Workplace Harassment for Managers* course, which should take approximately 30-60 minutes to complete.
-- Managers located within the US and managers outside the US but having direct reports located in Cook County, Illinois will be enrolled in the *Workplace Harassment 10 for Managers* course, which is designed to meet the heightened training requirements that apply to GitLab due to its business operations in various states and the City of Chicago, Illinois. This course should take approximately 2 hours to complete. If you complete the course in under 2 hours, you will be prompted to spend the remaining time reviewing the course material to meet the state-specific jurisdictional requirements.
-- All team members located in Cook County, Illinois and/or having direct reports located in Cook County, Illinois will be enrolled in a Bystander Intervention course, which should take approximately 1 hour to complete. If you complete the course in under an hour, you will be prompted to spend the remaining time reviewing the course material to meet the state-specific jurisdictional requirements.
+Team members are also enrolled in the following anti-harassment-related course(s) based on their role and location.
+
+| **Role** | **Location** | **NAVEX Course** | **Approximate Duration** |
+|----------|--------------|------------|--------------------------|
+| Individual Contributor | Outside the US | Global Workplace Harassment | 30 minutes |
+| Individual Contributor | US | The Workplace Harassment 10 course that meets your specific jurisdictional requirements | 60 minutes (exact length will vary depending location) |
+| Manager | Outside the US (unless any direct reports are located in Cook County, Illinois) | Global Workplace Harassment for Managers | 30-60 minutes |
+| Manager | US (and any having direct reports located in Cook County, Illinois) | Workplace Harassment 10 for Managers, designed to meet the heightened training requirements that apply to GitLab due to its business operations in various states and the City of Chicago, Illinois | 120 minutes* |
+| All | Cook County, Illinois and/or having direct reports in Cook County, Illinois | Bystander Intervention | 60 minutes* |
+
+*If you complete the course under the time required for your jurisdiction, you will be prompted to spend the remaining time reviewing the course material in order to meet location-specific requirements.
 
 ### Refresher Training and Recertification
 
-Team members will be enrolled in refresher training on a regular basis and will, for certain courses, including the Code of Conduct course, will be asked to complete a certification.
+Team members will be enrolled in refresher training on a regular basis and asked to complete a certification for certain courses (including Ethics and Code of Conduct).
 
-## Best Practices for Using Navex
+## Best Practices for Using NAVEX
 
-For the best user experience, we recommend using Google Chrome and disabling your pop-up blocker, as Navex courses will launch in a separate window. If your course freezes or becomes stuck, follow these best practices:
+For the best LevelUp user experience, be aware of any special browser plug-ins, add-ons, or settings that may interfere with pop-ups. If you see a 0% progress bar during a course, note that some courses only report completion status, not ongoing progress. Use "My Learning" and/or Transcript features to verify completion and monitor your assignments. We have a dedicated Slack channel for platform technical issues - #fy26-levelup-support. Include details about any errors or issues you're experiencing. For questions about course content (not technical issues), use #compliance-training.
 
-- Save and close the course.
-- Expand the course player to the full screen size.
-- Toggle the zoom, making sure it is set to no greater than 100%.
-- Clear your cache.
-- Make sure you have logged into Navex in only one tab/window.
-- Restart your computer. 
-
-If you are experiencing course completion issues, follow these best practices:
-
-- Ensure your internet connection is stable.
-- Don't leave the course unattended without input (i.e., running in the background).
-- Close out of the course prior to changing networks, docking/undocking computers, locking your computer, stepping away from your computer, or completing other work (use the internal course 'x' as opposed to the main window 'x').
-
-If you continue to experience difficulties or have questions, ask for help in the`#compliance-training` Slack channel.
+If you continue to experience difficulties or have questions, contact #compliance-training.

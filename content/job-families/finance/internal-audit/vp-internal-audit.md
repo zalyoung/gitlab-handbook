@@ -54,23 +54,11 @@ Other duties, as directed by the Audit Committee and/or the Chief Financial Offi
 - Have a mix of public and software industry experience.
 - CPA and previous experience as an executive.
 
-### Performance Indicators
-
-- Development of comprehensive audit plans
-- ERM experience
-- Completing tasks and audits timely and efficiently
-- Utilizing Best Practices related to audit findings and recommendations.
-- Approval ratings based on surveys above 80% in the first year, moving to 90% in subsequent years}
-
-### Career Ladder
-
-The next step in the Vice President Internal Audit job family is to move to a higher level role which is not yet defined at GitLab.
-
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with our PAO
 - Next, candidates will be invited to schedule a 45 minute interview with our CFO.
 - Next, candidates will be invited to schedule a 45 minute interview with our CLO.

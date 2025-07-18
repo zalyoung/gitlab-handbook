@@ -154,7 +154,7 @@ The next steps for the Sales Systems Leadership Job Family has not been defined 
 
 ## Hiring Process
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to a first interview with the Hiring Manager
 - Second round interviews will be the Interview team that consists of 2-4 interviews
 - An optional final interview with a C level Executive may occur

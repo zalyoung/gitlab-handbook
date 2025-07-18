@@ -7,10 +7,9 @@ controlled_document: true
 
 ## Purpose
 
-The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
-/security
+The [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) and use the Slack `/security` command by writing a new message to either yourself, or a public/private channel (this command does not work inside Slack threads).
 
-Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
+Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/).
 
 ## Scope
 
@@ -39,10 +38,10 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy event or risk that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may be the result of a misconfiguration, or an innocent error
     - One of our Security detection controls identifies event(s) outside of the established security baseline
-    - A security issue is [escalated into an incident](/handbook/security/#reporting-vulnerabilities-and-security-issues ) out of an abudance of caution and to validate any assumptions
+    - A security issue is escalated into an incident out of an abudance of caution and to validate any assumptions
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
-    - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
+    - SIRT determines the incident severity and priority based on the following [incident classification](/handbook/security/security-operations/sirt/severity-matrix/) methodology
 1. Containment
     - Prevent the spread of unauthorized or malicious use of the affected system or data
     - Mitigates and eventualy fully remediates the root cause of the incident to prevent further damage or exposure
@@ -68,13 +67,13 @@ When secrets are confirmed to be leaked, it is important to minimize the exposur
 
 Security incidents may (and usually do) involve sensitive information related to GitLab, GitLab's customers or employees, or users who (in one way or another) have engaged with GitLab. GitLab, while codifying the [Transparency](/handbook/values/#transparency) value, also strongly believes in and strives to maintain the privacy and confidentiality of the data its employees, customers, and users have entrusted us with.
 
-A **confidential** issue means any data within the issue and any discussions about the issue or investigation are to be kept to a need to know basis. This will involve specific **GitLab employees only** unless permission is explicitly granted by GitLab Legal, a GitLab Security Director, the VP of Security, or the GitLab Executive Team.
+A **confidential** issue means any data within the issue and any discussions about the issue or investigation are to be kept to a need to know basis. This will involve specific **GitLab employees only** unless permission is explicitly granted by GitLab Legal, a GitLab Security Director, a VP of Security, or scoped incident labels GitLab Executive Team.
 
 Which team members have access to a specific incident is defined on a case to case basis by SIRT according to our [limited access policy](/handbook/security/security-operations/sirt/#limited-access). Whenever a team member needs access to the incident, this should be requested in the corresponding incident channel or in `#security-operations`. Bypassing security controls to access the incident issue will result in Security Operations being notified.
 
 ### Incident Tracking
 
-Security incident investigations are opened in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project will be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/operations/-/blob/main/.gitlab/issue_templates/incident_slack_reported.md?ref_type=heads). To create the incident, the `/security` command in Slack has to be used over manual creation. Please refer to the [Engaging the Security Engineer On-Call page]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}) for further detail.
+Security incident investigations are opened in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project will be created using [the Incident Response project template](https://gitlab.com/gitlab-sirt/project-templates/incident) and the [incident issue template](https://gitlab.com/gitlab-sirt/operations/-/blob/main/.gitlab/issue_templates/incident_baseline.md?ref_type=heads). To create the incident, the `/security` command in Slack has to be used over manual creation. Please refer to the [Engaging the Security Engineer On-Call page](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) for further detail.
 
 All artifacts from an investigation must be handled per the [Artifact Handling and Sharing](https://internal.gitlab.com/handbook/security/security_operations/sirt/operations/artifacts_handling_sharing/) internal handbook page.
 
@@ -84,20 +83,20 @@ All artifacts from an investigation must be handled per the [Artifact Handling a
 
 Assigning severity to an incident isn't an exact science and it takes some rational concepts mixed with past experiences and gut feelings to decide how bad a situation may be. When considering severity, look at:
 
-- The type of data involved and how it's classified using the [Data Classification Policy]({{< ref "data-classification-standard" >}})
+- The type of data involved and how it's classified using the [Data Classification Policy](/handbook/security/standards/data-classification-standard/)
   - Was this data leaked or disclosed to parties who should not have visibility to it?
   - Has the data been modified in our records? (either confirmed or believed to be)
 - Was a user or service account taken over?
   - What level of access did this account have and to what services or hosts?
   - What actions were taken by the compromised account?
-- If a vulnerability is present on a host or service, consider the impact it might have on GitLab and the likelihood of it being exploited by using the [Risk Factors and Risk Scoring]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}) documentation.
+- If a vulnerability is present on a host or service, consider the impact it might have on GitLab and the likelihood of it being exploited by using the [Risk Factors and Risk Scoring](/handbook/security/security-assurance/security-risk/storm-program/#risk-factors-and-risk-scoring) documentation.
   - Was the vulnerability exploited? If so, how was it used and how frequently?
 - What is the scope of the incident?
   - How many GitLab.com users were/may have been impacted?
   - How many hosts or services?
 - Has this incident resulted in any hosts or services being unavailable?
 
-To help place the correct severity rating on the incident you are about to submit, please refer to the [Incident Classification]({{< ref "severity-matrix" >}}) page.
+To help place the correct severity rating on the incident you are about to submit, please refer to the [Incident Classification](/handbook/security/security-operations/sirt/severity-matrix/) page.
 
 ### Internal Engagement & Escalation for High-Severity Incidents
 
@@ -117,7 +116,9 @@ Characteristics of an incident requiring escalation include but are not limited 
 - Incidents involving criminal activity or that may require the involvement of law enforcement
 - Incidents involving key personnel such as executive leadership
 
-If applicable, coordinate the incident response with [business contingency activities](/handbook/business-technology/gitlab-business-continuity-plan/).
+Often a security incident may revolve around a particular GitLab feature where coordination with the respective engineering team is required to gather in-depth understanding of implementation or mitigation. The EM/PM for those teams should be looped in and depending on the severity of the issue (Severity 1 or Severity 2) consider setting up follow the sun coverage from the engineering counterparts. This will allow for quick remediation or engineering assistance as situation may evolve on security incident.
+
+If applicable, coordinate the incident response with [business contingency activities](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/).
 
 ### Containment
 
@@ -145,15 +146,15 @@ The incident response process will move on to a retrospective and lessons learne
 
 ### Internal & External Communication
 
-Our [security incident communication plan]({{< ref "security-incident-communication-plan" >}}) defines the who, what, when, and how of GitLab in notifying internal stakeholders and external customers of security incidents.
+Our [security incident communication plan](/handbook/security/security-operations/sirt/security-incident-communication-plan/) defines the who, what, when, and how of GitLab in notifying internal stakeholders and external customers of security incidents.
 
 ### Engaging Law Enforcement
 
 If during the course of investigating a security event the incident itself, materials involved in the incident (stored data, traffic/connections, etc), or actions surrounding the incident are deemed illegal in the United States, it may be necessary (and advisable) to engage U.S. law enforcement.
 
-1. The Security Engineer On-Call will immediately escalate to the Director of Security Operations to raise awareness of the legal concern.
-1. Following review, the Engineer and Director will engage the VP of Security and VP of Legal for validation of next steps.
-1. The Director of Security Operations will then contact the appropriate local law enforcement agencies, state agencies or US (federal) government agencies.
+1. The Security Engineer On-Call will immediately escalate to the Security Operations Manager On-Call and the VP of Security Operations to raise awareness of the legal concern.
+1. Following review, the VP of Security Operations will engage the CISO of Security and VP of Legal for validation of next steps.
+1. The VP of Security Operations will then contact the appropriate local law enforcement agencies, state agencies or US (federal) government agencies.
 
 ### When You Join an Incident Channel or Call
 
@@ -166,7 +167,7 @@ In the event of a perceived major security incident (which may prove to not be o
 
 ### Incident Labels
 
-Use proper labels. The correct use of dedicated [scoped incident labels](#incident-labels) is critical to the accuracy of the data in the incident tracker and the subsequent metrics calculated from it. A list of all labels can be found in the [GitLab SIRT group](https://internal.gitlab.com/handbook/security/security_operations/sirt/team/groups_projects/gitlab_sirt/#labels) internal handbook page.
+Use proper labels. The correct use of dedicated scoped incident labels is critical to the accuracy of the data in the incident tracker and the subsequent metrics calculated from it. A list of all labels can be found in the [GitLab SIRT group](https://internal.gitlab.com/handbook/security/security_operations/sirt/team/groups_projects/gitlab_sirt/#labels) internal handbook page.
 
 ## Exceptions
 
@@ -174,9 +175,6 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
-- [Incident Communications Plan]({{< ref "security-incident-communication-plan" >}})
+- [Incident Communications Plan](/handbook/security/security-operations/sirt/security-incident-communication-plan/)
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)
-- [Time-sensitive blog post process](/handbook/marketing/blog/#time-sensitive-posts--instructions)
-- [Marketing rapid response process](/handbook/marketing/#marketing-rapid-response-process)

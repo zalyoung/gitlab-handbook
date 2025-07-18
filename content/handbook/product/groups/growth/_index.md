@@ -9,7 +9,7 @@ a customer to the flow across multiple GitLab features - and even reactivation o
 
 - Activation, Conversion, Expansion, and Adoption connect users to the existing value that GitLab already delivers by
 rapid experimentation.
-- [Analytics Instrumentation](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) builds the backbone of data that other groups need to be successful, enabling a data-informed product
+- [Analytics Instrumentation](https://about.gitlab.com/direction/monitor/analytics-instrumentation/) builds the backbone of data that other groups need to be successful, enabling a data-informed product
 culture at GitLab.
 
 Growth's ultimate goal is to connect GitLab's value as a Single DevOps Platform with our customers. In order to do that, we take a zoom in and zoom out approach. We break down the entire GitLab growth model, and identify the highest ROI lever at this moment to focus on. In the [Growth direction page](/handbook/marketing/growth/) we outline the Growth section's long term direction and near term focus areas.
@@ -17,7 +17,7 @@ Growth's ultimate goal is to connect GitLab's value as a Single DevOps Platform 
 ## How the Growth section works
 
 [All the Growth team members are listed here](/handbook/product/categories/#growth-section)
-We follow the [Product Development Flow](/handbook/product-development-flow/).
+We follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 ### Growth ideation and prioritization
 
@@ -95,7 +95,7 @@ Since the Growth section is among the first groups to launch product experiments
 
 - [Experiment guide for Product managers](https://gitlab.com/gitlab-org/growth/experimentation/-/issues/14)
 - [Experiment ideation Process](https://gitlab.com/gitlab-org/growth/experiment-design-repo/-/issues/1)
-- [Engineering guide for how to run experiment](https://docs.gitlab.com/ee/development/experiment_guide/)
+- [Engineering guide for how to run experiment](https://docs.gitlab.com/development/experiment_guide/)
 - [Growth Engieering Handbook page on running experiments](/handbook/engineering/development/growth/experimentation/)
 - [A way for GitLab team members to view currently active experiments on GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/262725)
 
@@ -143,7 +143,7 @@ We follow the [Product Designer workflows](/handbook/product/ux/product-designer
 - we will label experiments with `UX problem validation` and `UX solution validation` according to the [UX Research Workflow](/handbook/product/ux/#ux-labels) definitions to indicate the type of learning the experiment achieves. The purpose of these labels is to track [this UX KPI](/handbook/product/ux/performance-indicators/#ux-research-velocity) related to research velocity.
 - we use the [workflow labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=workflow%3A%3A) for regular issues and [experiment workflow labels](/handbook/engineering/development/growth/#experiment-workflow-labels) for experiment issues.
 - we use **milestones** to aid in planning and prioritizing the four growth groups of Acquisition, Conversion, Expansion and Retention.
-  - PMs provide an [ICE score for experiments](https://docs.google.com/spreadsheets/d/1yvLW0qM0FpvcBzvtnyFrH6O5kAlV1TEFn0TB8KM-Y1s/edit#gid=0) and by using [priority labels](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) for other issues.
+  - PMs provide an [ICE score for experiments](https://docs.google.com/spreadsheets/d/1yvLW0qM0FpvcBzvtnyFrH6O5kAlV1TEFn0TB8KM-Y1s/edit#gid=0) and by using [priority labels](https://docs.gitlab.com/development/labels/#priority-labels) for other issues.
   - The Product Designer applies the milestone in which they plan to deliver the work (1-2 milestones in advance, or backlog for items that are several months out. For example, if an issue is not doable for a designer in the current milestone, they can add the next milestone to the issue, which will communicate to the PM when the work will be delivered.
   - If the PM has any concern about the planned milestone, they will discuss trade-offs with the Product Designer and other Growth PMs.
 - we use [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights) in order to better estimate capacity, realistically break down our work, and give PMs a little insight into how much work we can take on in a milestone.
@@ -156,7 +156,7 @@ We follow the [Product Designer workflows](/handbook/product/ux/product-designer
 
 Together with the Product Manager, the Product Designer applies the DoD to epics in order to better break down design work and give counterparts better insight into which steps in the design workflow need to be completed before the MVC can move to the development phase.
 
-In addition to the [Validation Phase Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) listed in the Product Development Flow, we also make sure that:
+In addition to the [Validation Phase Outcomes](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes) listed in the Product Development Flow, we also make sure that:
 
 - For an experiment, experiment issues have been created with a hypothesis and experiment plan, and experiment labels have been applied
 - Cross-team dependencies have been identified and those teams notified and their feedback received
@@ -173,7 +173,7 @@ In addition to the [Validation Phase Outcomes](/handbook/product-development-flo
 
 The engineering team applies the `UX` label to any MR that introduces a visual, interaction or flow change. These MRs can be related to new issues, bugs, followups, or any type of MR. If the engineer isn't sure whether the MR needs UX, they should consult the designer who worked on the related issue, and/or the designer assigned to that stage group, or the Product Design Manager.
 
-Visual reviews are required for any MR with the `UX` label. When the MR is in `workflow::In review`, the engineer assigns the MR to the designer for a visual review using the [reviewer functionality](https://docs.gitlab.com/ee/development/code_review.html#getting-your-merge-request-reviewed-approved-and-merged) in the sidebar. This can happen in parallel with the maintainer review, but designers should prioritize these reviews to complete them as quickly as possible.
+Visual reviews are required for any MR with the `UX` label. When the MR is in `workflow::In review`, the engineer assigns the MR to the designer for a visual review using the [reviewer functionality](https://docs.gitlab.com/development/code_review/#getting-your-merge-request-reviewed-approved-and-merged) in the sidebar. This can happen in parallel with the maintainer review, but designers should prioritize these reviews to complete them as quickly as possible.
 
 There are times when it isn't possible or practical for a designer to complete their visual review via Review Apps or GDK. At these times the designer and engineer could coordinate a demo or the engineer could record a video of themselves going through the new functionality and add it to the MR. Creating a video is a way to speed up the review process, however it is optional and not always an appropriate stand in for a full review.
 
@@ -241,6 +241,6 @@ In alignment with GitLab's [RADCIE](/handbook/people-group/directly-responsible-
 | Post-Experiment Analysis | Data Team |
 | Post-Experiment Decision | Growth Product/Stage Product/Engineering |
 | Maintenance | Stage Product/Engineering |
-| Alert creation | Growth Product/Engineering : [How to create a Sisense SQL alert](/handbook/engineering/development/growth/sisense_alert.html) |
+| Alert creation | Growth Product/Engineering : [How to create a Sisense SQL alert](/handbook/engineering/development/growth/sisense_alert/) |
 
 It is in the Growth teams purview to run any experiment in any area of the application. Growth's ability to experiment in this manner is designed to further learning potential for the larger GitLab team and support business priorities. When an experiment impacts the area of another product owner/team, Growth informs them following the collaboration model above. Product owners/teams are encouraged to raise concerns and provide further context. Ultimately, Growth determines whether the experiment is deemed a success using data and input from relevant teams. The product owner/team is made aware of the result and next steps.

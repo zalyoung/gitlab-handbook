@@ -40,9 +40,9 @@ Good workflows have:
 1. a reasonable length.
     - If you think a workflow page is too long, then it might be. Consider if it can be broken up, or if it needs to be reorganized.
 1. visual aids, such as flowcharts, whenever helpful.
-    - Consider adding a [mermaid chart](https://docs.gitlab.com/ee/user/markdown.html#mermaid) or image to help visual learners.
+    - Consider adding a [mermaid chart](https://docs.gitlab.com/user/markdown/#mermaid) or image to help visual learners.
 
-For general writing practices including inclusive language and use of markdown, consider following the [GitLab documentation guidelines](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+For general writing practices including inclusive language and use of markdown, consider following the [GitLab documentation guidelines](https://docs.gitlab.com/development/documentation/styleguide/).
 
 ### Example from okay to better
 
@@ -97,7 +97,7 @@ When creating a new workflow, please keep the [above guidelines](#basic-guidelin
 There is no specific template for a workflow (except the metadata noted below). Some possible places to start:
 
 1. Use another workflow as a template.
-1. Use the [GitLab documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
+1. Use the [GitLab documentation structure and template](https://docs.gitlab.com/development/documentation/site_architecture/folder_structure/).
 
 #### Metadata
 

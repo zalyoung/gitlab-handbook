@@ -11,8 +11,8 @@ description: "Slack usage and tips at GitLab"
 
 Fill in your Slack profile, as we use Slack profiles as our Team Directory to stay in touch with other team members. Important fields include:
 
-- Photo
-- Title (should be your GitLab job title)
+- Photo (unobscured photo of your face rather than an artificial avatar, for better human connection and easier recognition)
+- Title (should be your GitLab job title, including your department and team name)
 - GitLab.com profile (set the Display text to your @gitlabusername so that people don't need to click the link to identify your username)
 - Time zone (useful for other GitLab team members to see when you're available)
 - Working hours (can help others to identify the times you are generally available)
@@ -73,15 +73,19 @@ E.g. `@jenny` as it can create a message that distracts others.
 
 ### Change Group DMs to Private Channels
 
-If you are in a group direct message with multiple people, you can [change it to a private channel](https://slack.com/intl/en-gb/help/articles/217555437-Convert-a-group-direct-message-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.  In Slack Enterprise Grid, if you start a group DM and then it is converted to a channel, the channel ends up in "all workspaces". "All workspace" channels have [no retention limit](https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues/66), which contradicts our policy of [90 day retention](/handbook/communication/#slack). To remediate this, we have a script that will daily move the channels into our main GitLab workspace. If you are in an affected channel, you will receive a message from Slackbot that states:
+If you are in a group direct message with multiple people, you can [change it to a private channel](https://slack.com/intl/en-gb/help/articles/217555437-Convert-a-group-direct-message-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.  
+
+In Slack Enterprise Grid, if you start a group DM and then it is converted to a channel, the channel ends up in "all workspaces". "All workspace" channels have [no retention limit](https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues/66), which contradicts our policy of [90 day retention](/handbook/communication/#slack). To remediate this, we have a script that will daily move the channels into our main GitLab workspace. If you are in an affected channel, you will receive a message from Slackbot that states:
 
 `"Slack Owner has removed #<channel> from all other "GitLab" workspaces using the channel management tool. Only people from "GitLab" can access the channel now. Learn more."`
+
+Do not convert group DMs to private channels within the "GitLab - Finance" workspace or any secondary workspace as they will be converted and end up in our main "GitLab" workspace. Instead, start a new private channel and add the participants to it.
 
 ### Change private channels to public channels
 
 Only Slack administrators can change a private channel to a public channel.
 
-To request that an existing private channel be made public, submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+To request that an existing private channel be made public, submit an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 ## Managing noise and creating focus in Slack
 
@@ -134,9 +138,9 @@ For details, see [Manage animated images and emoji](https://slack.com/intl/en-gb
 
 ## Slack Status
 
-Slack allows you to set your [status](https://slackhq.com/set-your-status-in-slack) for your fellow GitLab team members by using your choice of standard messages such as "Away" and "Lunch" or a custom message and your choice of emoji.
+Slack allows you to set your [status](https://slack.com/blog/productivity/set-your-status-in-slack) for your fellow GitLab team members by using your choice of standard messages such as "Away" and "Lunch" or a custom message and your choice of emoji.
 
-If you're off work for a holiday or vacation you can update your status by using [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}).
+If you're off work for a holiday or vacation you can update your status by using [Time Off by Deel](/handbook/people-group/paid-time-off/#communicating-your-time-off).
 This is a great way to let your team know whether you are available.
 
 To have your Slack status automatically set to "In a meeting" based on your Google Calendar, add the [Google Calendar app](https://gitlab.slack.com/apps/ADZ494LHY-google-calendar?next_id=0) to your Slack account.
@@ -163,7 +167,7 @@ This will post a preview of the link alongside the message.
 You can remove the unfurled preview of the link by hitting the "x" in the top-left of the preview.
 This will then prompt you to confirm removing the attachment, which you can hit "Yes, remove".
 
-![Unfurl attachment removal](/handbook/tools-and-tips/images/unfurl-remove.png)
+![Unfurl attachment removal](/images/tools-and-tips/unfurl-remove.png)
 
 In the confirmation prompt you may also see a checkbox to *"Disable future attachments from this website"*.
 As a workspace admin if you select the disable option **this will denylist the link/domain across the workspace and will impact every user**.
@@ -200,7 +204,7 @@ GitLab has chosen to restrict the ability to install apps, and we have a process
 1. Add a custom message with more context about your request and also link the vendor approval issue.
 1. Click Submit. You'll receive a direct message from Slackbot when your request has been reviewed by the team.
 
-**Please note that this is only required for new apps that have not been reviewed or approved.** If your request is to add a new process or update an existing process for how an application works in slack, please refer to our [Business Technology Change Management](/handbook/business-technology/change-management/) process.
+**Please note that this is only required for new apps that have not been reviewed or approved.** If your request is to add a new process or update an existing process for how an application works in slack, please refer to our [Business Technology Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/) process.
 
 ## Slackbots
 
@@ -215,4 +219,10 @@ As a GitLab Team Member, you can view the active slackbots that we use in Slack,
 
 ## Security
 
-Every 90 days, all users will be logged out of Slack and will need to re-authenticate on each of their devices via Okta. This is to ensure that all BYOD devices are registered with a current Okta Verify client and are visible in the Okta Administration dashboard. It will also ensure that there are no indefinite sessions on devices temporarily exempted from [Okta Verify Device Trust](/handbook/security/corporate/systems/okta/verify/). 
+### Sign-in requirements
+
+Every 90 days, all users will be logged out of Slack and will need to re-authenticate on each of their devices via Okta. This is to ensure that all BYOD devices are registered with a current Okta Verify client and are visible in the Okta Administration dashboard. It will also ensure that there are no indefinite sessions on devices temporarily exempted from [Okta Verify Device Trust](/handbook/security/corporate/systems/okta/verify/).
+
+### Profile deletion
+
+Beginning in December 2024, and going forward in June and December of each year, CorpSec will request from Slack support to delete profiles that have been deactivated for more than five years. For former team members who have left GitLab less than 5 years ago, we will use the API to remove all fields except for Name, GitLab Email, Title and GitLab.com username, which will remain for current team members to find historical context on earlier epics, merge requests and issues.

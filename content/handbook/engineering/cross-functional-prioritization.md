@@ -1,7 +1,7 @@
 ---
 title: Cross Functional Prioritization
-canonical_path: "/handbook/product/cross-functional-prioritization/"
+canonical_path: "/handbook/product/product-processes/cross-functional-prioritization/"
 noindex: true
 ---
 
-{{% include "includes/cross-functional-prioritization.md" %}}
+{{% include "includes/product/cross-functional-prioritization.md" %}}

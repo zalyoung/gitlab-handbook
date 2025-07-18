@@ -453,6 +453,37 @@ There are several phases to fully deploy the HTTP Routing service to GitLab.com.
          accessible via the HTTP Router.
       1. A secure, encrypted connection between the HTTP Router and the cell.
 
+### Rolling Out Rule Sets
+
+HTTP Router rule sets define the logic how HTTP requests are routed within the Cells environment.
+Modifying these rule sets can potentially impact the availability of the entire site or the SLO of any specific service.
+Therefore, it is crucial to exercise extreme caution when rolling out changes to the rule sets.
+To implement these changes with minimal user impact and zero downtime, we will use the [Gradual deployments](https://developers.cloudflare.com/workers/configuration/versions-and-deployments/gradual-deployments/) functionality provided by Cloudflare. This approach allows us to limit the impact of any faulty changes to a small subset of total requests.
+The Rule Set that is being used, is configured in the [HTTP Router configuration file](https://gitlab.com/gitlab-org/cells/http-router/-/blob/main/wrangler.toml?ref_type=heads#L69), where `GITLAB_RULES_CONFIG` environment variable defines the name of the rule set file relative to [src/rules](https://gitlab.com/gitlab-org/cells/http-router/-/tree/main/src/rules?ref_type=heads) directory.
+We will use the existing [deployment mechanism](https://gitlab.com/gitlab-org/cells/http-router/-/blob/a9d4dc69385d59bbe1d93211c156fc39b75b5ce9/docs/deployment.md). We will gradually increase the rollout percentage, proceeding only when we are confident in the quality and expected outcomes of the rule set changes. The following sequence of rollout percentages is recommended: 5% → 25% → 50% → 75% → 100%.
+
+#### Prerequisites
+
+- Before processing with rollout steps, make sure you clearly defined the
+timeline.
+- Schedule the change
+- Add a new Change Lock entry to the [configuration](https://gitlab.com/gitlab-com/gl-infra/change-lock/-/blob/f1c2a4e197fc5c0c1ca4aae18e7480a904212f80/config/changelock.yml) file. Use the `http-router` Change Lock tag for this entry.
+
+Note: It is important for this rollout strategy to follow the timeline. You will need to merge MRs with a certain interval. Therefore, it's recommended to work in pairs.
+
+#### Rollout steps
+
+1. Create MR to modify CI configuration of HTTP Router Deployer [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml). In the global variables section, set both `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` environment variables to `true` linking to a change management issue.
+1. In the same MR, change `ROLLOUT_PERCENTAGES` environment variable in
+   [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script. Set the value to `5`. Example: `ROLLOUT_PERCENTAGES="5"`
+1. Merge MR.
+1. Create and merge MR to update the `GITLAB_RULES_CONFIG` setting inside of [`wrangler.toml`](https://gitlab.com/gitlab-org/cells/http-router/-/blob/main/wrangler.toml) to the new rule set.
+1. Do any validation for the new rule set and validate that no SLO was effected.
+1. Before increasing the `ROLLOUT_PERCENTAGES` have some baking time, which can change depending on the environment.
+1. If no anomalies found and there is not impact on SLO's repeat step 1 for
+   `25`, `50`, `75`, `100` percents. Keep `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` set to `true` through entire rollout cycle.
+1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`. Remove the `OVERRIDE_LAST_PERCENTAGE` and `CHANGE_LOCK_OVERRIDE` environment variables in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml).
+
 ## Request flows
 
 1. There are two Cells.
@@ -617,6 +648,71 @@ is done in a single go in a form of pre-flight check `/api/v4/internal/cells/lea
 - This makes the whole routes learning dynamic, and dependent on availability of the Cells.
 - This proposal does not provide an easy way to handle mixed deployment of Cells, where Cells might be running different versions.
 - This proposal likely requires caching significantly more information, since it is based on requests, rather than on decoded classification keys.
+
+## Single Domain
+
+To maintain a single domain for all cells, the webserver needs to respond as the public host when performing redirects. The
+BYOD feature for dedicated serves this purpose by allowing the cell to behave as thought it's serving on the public domain.
+
+Example byod config snippet. Note - Only the instance is configured, not kas or registry domain
+
+```json
+  "byod": {
+    "instance": "gitlab.com",
+  }
+```
+
+### Domain Setup
+
+- Production cells configured using [BYOD](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/architecture/blueprints/bring-your-own-domain.md#scope) public domain (eg., gitlab.com) 
+- Each Cell also responds to their configured [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186)
+- Nginx ingress handles both domains
+
+### SSL/TLS Configuration
+
+- The configured BYOD domain should have the certificate managed already, and it's not something instrumentor is managing.
+- The [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186) is handled using [cert-manager](https://cert-manager.io/) DNS solver as the default http solver won't work behind a proxy particularly whem the cells will not be publically routable
+
+### Nginx-ingress Configuration
+
+- Listens on both the primary domain and the [`managed_domain`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/e7897e7240a3ddfb95ab4dd8f4735a332aff81fc/content/handbook/engineering/architecture/design-documents/cells/http_routing_service.md#L186) domains
+- Processes the `X-Forwarded-Host` header for proper routing, the host header [can't be used](https://community.cloudflare.com/t/not-possible-to-override-the-host-header-on-workers-requests/13077) so nginx uses `X-Forwarded-Host` which is passed by the router
+
+### Cell infrastructure routing
+
+[Uses the session_prefix rule described here](#routing-rules)
+
+```mermaid
+sequenceDiagram
+    participant User as User (Browser)
+    participant HTTPRouter as HTTP Router (Cloudflare)
+    participant TopologyService as Topolgoy Service
+    box Cell
+    participant CellIngress as Cell Ingress (nginx-ingress)
+    participant CellWebservice as Webserivce Container(workhorse/puma)
+    end
+    participant LegacyCell as Legacy Celll
+
+    Note over User,CellWebservice: Cell-based routing path
+    User->>HTTPRouter: Cookie: _gitlab_session=cell-$ID-xxx
+    HTTPRouter->>+TopologyService: Query Cell ID extract from _gitlab_session
+    TopologyService-->>-HTTPRouter: Return managed_domain for Cell
+    HTTPRouter->>HTTPRouter: Set X-Forwarded-Host: gitlab.com
+    HTTPRouter->>CellIngress: Proxy to managed_domain
+    CellIngress->>CellIngress: Use Host header matching X-Forwarded-Host
+    CellIngress->>+CellWebservice: Proxy with Host: gitlab.com
+ 
+
+    CellWebservice-->>-CellIngress: Response
+    CellIngress-->>HTTPRouter: Response
+    HTTPRouter-->>User: Response
+
+    Note over User,LegacyCell: Default routing (no cell prefix in _gitlab_session)
+    User->>HTTPRouter: Cookie: _gitlab_sesion=xxxx
+    HTTPRouter->>LegacyCell: Proxy to GitLab.com
+    LegacyCell-->>HTTPRouter: Response
+    HTTPRouter-->>User: Response
+```
 
 ## FAQ
 

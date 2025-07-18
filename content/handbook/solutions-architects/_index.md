@@ -46,7 +46,7 @@ Here's how the SA organization fosters value creation through the lens of a lear
    - This emphasis on teamwork and knowledge sharing reflects the core DevOps values of collaboration and transparency.
 
 6. Building and leveraging continuous feedback loops
-   - The SA organization thrives on feedback, both between team members and through instrumentation of our practices.  By leveraging feedback and data, the SA organization makes data driven decisions wherever possible.  
+   - The SA organization thrives on feedback, both between team members and through instrumentation of our practices.  By leveraging feedback and data, the SA organization makes data driven decisions wherever possible.
    - A culture of feedback reflects the DevOps philosophy of continuous improvement and adapting to evolving technology landscapes.
 
 Conclusion:
@@ -63,6 +63,10 @@ In addition, SA's identify and propose comprehensive solutions to complex busine
 
 Our Field SA's also engage proactively with existing GitLab customer to provide thought-leadership, engage in innovative solutions, collaborate around evangalism activities around unique customer requirements (i.e. meetups and presentations) and continously seek market feedback to improve the GitLab platform.
 
+### Center of Excellence
+
+The Solutions Architecture [Center of Excellence](/handbook/solutions-architects/center-of-excellence/) is team comprised of Subject Matter Experts, [Demo Architects](./center-of-excellence/demo-architecture/), and Business Value Managers focused on accelerating GitLab's market leadership and revenue growth by delivering specialized expertise at scale.
+
 ### Strategic Field Organization
 
 The [Strategic Field Organization](/handbook/solutions-architects/strategic-field-org/) is a team of [Principal Solutions Architects](/job-families/sales/solutions-architect/#principal-solutions-architect-responsibilities) that support global strategic sales opportunities and customers. This team collaborates with the regional account teams to work together on large engagements that require a higher degree of strategic planning, consulting, executive-level technical leadership, and internal GitLab cross-departmental collaboration.
@@ -71,15 +75,9 @@ The [Strategic Field Organization](/handbook/solutions-architects/strategic-fiel
 
 [Ecosystem Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our strategic alliances partners, professional services partners, and channel resellers. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
 
-In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Partner and Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence. 
+In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Partner and Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence.
 
 See the [Solutions Architect role description](/job-families/sales/solutions-architect/) for additional details, and [Engaging an Ecosystem SA](/handbook/solutions-architects/processes/ecosystem/) when you need help with a partner cooperative opportunity.
-
-### Demo Architects
-
-- [Demo Architect Offerings](/handbook/solutions-architects/demo-architect/)
-
-Demo Architects are tasks with maintaining public facing demo content (Workshops/Hands on Labs/ Pre-baked demos) as well as running the systems these events run on. There main goal is to create processes & new tools to help assist & enable Solution Architects when selling to customers.
 
 ### SA Managers
 
@@ -96,8 +94,6 @@ Being a Trusted Advisor is referencing a role/skill that a person takes on when 
 >
 > --<cite> [Solution Focus Field Competency](/handbook/sales/training/field-functional-competencies/#solution-focus)
 
-For more information and development see the "Trusted Advisor Skill Development", [Community of Practice](/handbook/customer-success/initiatives/communities-of-practice.html#active-communities-of-practice)
-
 ### Key Attributes for Positioning Value
 
 As the DRIs helping position, prepare, and guide a customer's technical evaluation the SA team ensure that GitLab can surface the right points of value to the customer's key stakeholders post technical evaluation.  The following embody GitLab's technical evaluation philosophy and help guide successful technical evaluations.
@@ -109,8 +105,7 @@ These offerings are delivered each within a specific context of a particular cus
 - **Demonstrations**: Built around the work done within the technical discovery. Demonstrations aim to address at least 3 specific pain points identified during discovery while selling the vision of GitLab's DevSecOps platform approach.
 - **Guided Trials**: Three goals in 30 days through the usage of a GitLab Trial. This can oftentimes be used to replace the need for the more formal Proof of Value.
 - **Proofs of Value**: Technical evaluation with more complexities than a Guided Trial. May last up to 8 weeks.
-- **Technical Close Plans**: An internal strategy used to secure a technical win for a given opportunity. It leverages the Command Plan and also details the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks.
 
 ## Changing the Solutions Architects Handbook Content
 
-This is the Solution Architect handbook. If you see any typos, copywriting improvements or content clarifications you'd like to contribute, please create a merge request and ask your managers to merge. Please add the label "SA-HANDBOOK" to your merge request, and post a link to the [solutions-architects](https://gitlab.slack.com/archives/C01788YAY58) slack channel, mentioning @sa_leaders, as a heads up and so we can thank you! Since we have a [bias for action](/handbook/values/#bias-for-action), we trust your judgement.
+This is the Solution Architect handbook. If you see any typos, copywriting improvements or content clarifications you'd like to contribute, please create a merge request and ask your managers to merge. Please add the label "SA-HANDBOOK" to your merge request, and post a link to the [solutions-architects](https://gitlab.slack.com/archives/C01788YAY58) slack channel, mentioning @sa_leaders, as a heads up and so we can thank you! Since we have a bias for action, we trust your judgement.

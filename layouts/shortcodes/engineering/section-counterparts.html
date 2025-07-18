@@ -1,0 +1,19 @@
+{{- /* To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/sections.yml */}}
+  <table>
+    <thead>
+      <tr>
+          <th>Section</th>
+          <th>Support Counterpart</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{- range site.Data.public.sections }}
+      {{- if .sm }}
+      <tr>
+          <td>{{ .name }}</td>
+          <td>{{ partial "member-by-name" .sm }}</td>
+      </tr>
+      {{- end }}
+    {{- end }}
+    </tbody>
+</table>

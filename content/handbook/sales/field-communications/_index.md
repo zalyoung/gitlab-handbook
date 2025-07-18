@@ -36,9 +36,9 @@ The Field Communications team will evaluate each request at the given point in t
 1. **Relevancy:** The announcement directly affects Field team members ability to perform selling-related job duties.
 1. **Urgency:** The announcement and/or action required is time-bound and/or aligned to a company/CRO OKR.
 
-![Field Comms Tiers](field-comms-tiers-2023.png)
+![Field Comms Tiers](/images/sales/field-communications/field-comms-tiers-2023.png)
 
-![Field Comms Formula](field-comms-formula-2023.png)
+![Field Comms Formula](/images/sales/field-communications/field-comms-formula-2023.png)
 
 **For T1 and T2 announcements, Field Communications enacts a Manager Cascade motion to ensure Field people leaders are properly informed and enabled on major initiatives ahead of their team members.**
 
@@ -132,18 +132,18 @@ Once you've reviewed the playbook above and would like to request Field Communic
 
 ### Field Comms Quiet Periods
 
-Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field's immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY25 are as follows:
+Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field's immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY26 are as follows:
 
-- Q1-FY25: 2024-04-16 - 2024-04-30
-- Q2-FY25: 2024-07-17 - 2024-07-31
-- Q3-FY25: 2024-10-17 - 2024-10-31
-- Q4-FY25: 2024-01-16 - 2025-01-30
+- Q1-FY26: 2025-04-18 - 2025-04-30
+- Q2-FY26: 2025-07-18 - 2025-07-31
+- Q3-FY26: 2025-10-17 - 2025-10-31
+- Q4-FY26: 2026-01-16 - 2026-01-31
 
 #### Announcements to External Channel/Alliances Partners
 
 If you have an internal announcement that is also relevant to GitLab's external Channel/Alliances Partner audience, please use the Field Announcement Request process outlined above and add the appropriate details in the `Enablement Scope` section of the issue. Also select the `GitLab Partners (external)` audience in addition to the relevant internal audiences. By selecting this audience, the Field Communications team will engage the appropriate team members in Partner Communications to disseminate the announcement to partners.
 
-If you have an announcement that is relevant *only* for the external partner audience, please open a [Channel Partner Communication Request issue](https://gitlab.com/gitlab-com/channel/channels/-/issues/new?issue%5Bmilestone_id%5D=) so the [Partner Communication team](/handbook/sales/channel/channel-programs-ops/#partner-communications) can assist you.
+If you have an announcement that is relevant *only* for the external partner audience, please open a [Channel Partner Communication Request issue](https://gitlab.com/gitlab-com/partners/partner-programs/partner-programs-general/-/issues/new?issue%5Bmilestone_id%5D=) so the [Ecosystems Operations team](/handbook/sales/field-operations/channel-operations/) can assist you.
 
 ## Sharing Feedback
 

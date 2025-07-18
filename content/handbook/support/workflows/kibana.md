@@ -12,7 +12,7 @@ This document provides information on what Kibana is, how to search it, interpre
 
 [Kibana](https://log.gprd.gitlab.net/) is an [open source data visualization plugin](https://www.elastic.co/kibana) for [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch). It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Support Engineering uses Kibana to both search for error events on GitLab.com and to detect when specific changes were made to various aspects of it by a user.
 
->**Note:** Kibana does not retain logs older than 7 days and defaults to the UTC time zone.
+>**Note:** Kibana defaults to the UTC time zone. It does not retain logs older than 7 days. If you're working on a ticket where access to older logs would have been helpful, please flag it via the `Support::SaaS::Log retention period reached` macro (This is an internal macro for tracking purposes only).
 
 ### Parameters
 
@@ -20,7 +20,7 @@ Knowing *where* to search in Kibana is paramount to getting the proper results. 
 
 ![Changing search index](/images/support/kibana_index-selection.jpg)
 
-Indexes closely correlate for the most part with our [log structure](https://docs.gitlab.com/ee/administration/logs/) in general. Some other frequently used indexes are:
+Indexes closely correlate for the most part with our [log structure](https://docs.gitlab.com/administration/logs/) in general. Some other frequently used indexes are:
 
 - `pubsub-gitaly-inf-gprd-*`
 - `pubsub-pages-inf-gprd-*`
@@ -60,7 +60,7 @@ The majority of results as entries that returned `200`, which aren't in the scop
 
 ### Identify cause of IP Blocks
 
-There are some useful tips [here]({{< ref "ip-blocks" >}}) about searching kibana for errors related to IP blocks.
+There are some useful tips [here](/handbook/support/workflows/ip-blocks/) about searching kibana for errors related to IP blocks.
 
 ### Log Identification
 
@@ -70,7 +70,7 @@ Support Engineers looking to configure a Self-Managed instance should review our
 
 ### Sharing logs
 
-To share the current state of your log search, be sure to use  `Share > Get Links > Copy Link`. Copying the URL directly will fail to load your search when other users attempt to use it. Since it is encoded, your search parameters will not be included in the URL.
+To share the current state of your log search, follow Elastic's [log sharing](https://www.elastic.co/docs/explore-analyze/report-and-share#share-a-direct-link) documentation. Copying the URL directly will fail to load your search when other users attempt to use it. Since it is encoded, your search parameters will not be included in the URL.
 
 ### Dashboards
 
@@ -120,6 +120,19 @@ We can determine if the GitLab Runner registration token was reset for a group o
 1. Add a positive filter on `json.action` for `reset_registration_token`.
 1. Observe the results. If there were any they will contain the username of the user that triggered the reset in the `json.username` field of the result.
 
+### Access Token activity
+
+We can determine the kind of activities an Access Token (Group, Project, Personal) is performing. To find the log entry:
+
+1. Find the `id` of the Access Token you are interested in using the [API](https://docs.gitlab.com/api/personal_access_tokens/) or UI.
+1. In `pubsub-rails-inf-gprd-*`, set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
+1. Add a positive filter on `json.token_id` for the `id` in step 1.
+1. Add other filters that you might be interested in:
+    - `json.username`
+    - `json.path`
+    - `json.method`
+    - `json.token_type`
+
 ### Deleted Group/Subgroup/Project
 
 - Example group: [gitlab-silver](https://gitlab.com/gitlab-silver/)
@@ -131,7 +144,7 @@ Kibana can be used to determine who triggered the deletion of a group, subgroup,
 1. Add a positive filter on `json.path` for the path of the project, including the group and subgroup, if applicable. This is `gitlab-silver/test-project-to-delete` in this example.
 1. Add a positive filter on `json.method` for `DELETE`.
 1. Observe the results. If there were any they will contain the username of the user that triggered the deletion in the `json.username` field of the result.
-When a project or a group is first going to pending deletion the log entry will have `json.params.key: [_method, authenticity_token, namespace_id, id]`, compare to when a user is [forcing the deletion](https://docs.gitlab.com/ee/user/project/settings/index.html#delete-a-project-immediately) then the log entry looks like `json.params.key: [_method, authenticity_token, permanently_delete, namespace_id, id]` for project or looks like `json.params.key: [_method, authenticity_token, permanently_remove, id]` for group.
+When a project or a group is first going to pending deletion the log entry will have `json.params.key: [_method, authenticity_token, namespace_id, id]`, compare to when a user is [forcing the deletion](https://docs.gitlab.com/user/project/settings/#delete-a-project-immediately) then the log entry looks like `json.params.key: [_method, authenticity_token, permanently_delete, namespace_id, id]` for project or looks like `json.params.key: [_method, authenticity_token, permanently_remove, id]` for group.
 
 To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 
@@ -140,7 +153,7 @@ To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 
 ### Viewed CI/CD Variables
 
-While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_events.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
+While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/administration/audit_event_reports/#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
 1. Set a filter for `json.path` `is` and then enter the full path of the associated project in question, followed by `/-/variables`. For example, if I had a project named `tanuki-rules`, I would enter `tanuki-rules/-/variables`.
 1. Set the date in Kibana to the range in which you believe a change was made.
@@ -174,7 +187,7 @@ If an account was deleted by an admin, try searching with these filters:
 
 Observe the results. There should be only one result if the account that was filtered for was deleted within the specified timeframe.
 
-If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/ee/user/gitlab_com/#email-confirmation), try searching with these filters:
+If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/user/gitlab_com/#confirmation-settings), try searching with these filters:
 
 1. Change to the `pubsub-sidekiq-inf-gprd*` index.
 1. Add a positive filter on `json.meta.user` for the username of the user. (Alternatively, you can use `json.args.keyword` and use the User ID of the user if you have that).
@@ -223,7 +236,7 @@ To investigate SAML login problems:
 In the `pubsub-rails-inf-gprd-*` log:
 
 1. Set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
-1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html#searching-rails-log-for-a-saml-response).
+1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#search-rails-logs-for-a-saml-sign-in).
 
 After decoding the SAML response, and observing the results corresponding to your chosen filters, you can see if there are any missing or misconfigured attributes.
 
@@ -251,6 +264,27 @@ In cases where the SCIM provisioned account is deleted:
 
 To investigate if the user was deleted due to an unconfirmed email, follow the [Deleted User](#deleted-user) procedure.
 
+### Searching for Remove User from group or subgroup
+
+If it happened within the retention period (7 days), Kibana can be used to determine if, when and by whom a user was removed from a group or subgroup
+
+To find the log entry in `pubsub-rails-inf-gprd-*` with the following data points:
+
+#### Confirm the Remove User (DELETE)
+
+1. Add a positive filter on `json.meta.caller_id` for `Groups::GroupMembersController#destroy`
+1. Add a positive filter on `json.meta.user_id` for user id of person that performed the remove user action in the UI
+1. Add a positive filter on `json.method` for `DELETE`
+
+#### Retrieve further details about the Remove User request
+
+The following filters can help identify users that were removed and what group or subgroups they have been removed from
+
+1. Add a positive filter on `json.custom_message` for `Membership destroyed`
+1. Add a positive filter on `json.meta.caller_id` for `Groups::GroupMembersController#destroy`
+1. Add a filter for user id `json.meta.user_id` or username `json.meta.user` of the user that performed the Remove User action
+1. Add a filter for target user id `json.details.target_id`
+
 ### Searching for Deleted Container Registry tags
 
 Kibana can be used to determine whether a container registry tag was deleted, when, and who triggered it, if the deletion happened in the last 7 days.
@@ -275,7 +309,7 @@ Kibana is not typically used to locate `5XX` errors, but there are times where t
 1. Choose relevant fields from the sidebar. For a `500` error, you want to filter for `json.status` and choose `is`, then enter `500`.
 1. Continue to use relevant fields from the list on the sidebar to narrow down the search.
 
-See the [500 errors workflow]({{< ref "500_errors" >}}) for more information on searching and finding errors on GitLab.com
+See the [500 errors workflow](/handbook/support/workflows/500_errors/) for more information on searching and finding errors on GitLab.com
 
 ### Filter by IP Range
 
@@ -304,7 +338,7 @@ Note that depending on the range, this operation may be expensive so it is best 
 
 Most timeout related imports end up with a partial import with very few or zero issues or merge requests. Where there is a relatively smaller difference (10% or less), then there are most likely errors with those specific issues or merge requests.
 
-Anytime there is an error, ensure that the export originated from a [compatible version of GitLab](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history).
+Anytime there is an error, ensure that the export originated from a [compatible version of GitLab](https://docs.gitlab.com/user/project/settings/import_export/#version-history).
 
 Here are some tips for searching for import errors in Kibana:
 
@@ -324,7 +358,7 @@ If no error is found and the import is partial, most likely it is a timeout issu
 
 ### Export Errors
 
-Export errors can occur when a user attempts to export via the UI or [this API endpoint](https://docs.gitlab.com/ee/api/project_import_export.html#schedule-an-export). A parameter in the API allows for exporting to an external URL such as a pre-signed AWS S3 URL. Typically, the export process consists of:
+Export errors can occur when a user attempts to export via the UI or [this API endpoint](https://docs.gitlab.com/api/project_import_export/#schedule-an-export). A parameter in the API allows for exporting to an external URL such as a pre-signed AWS S3 URL. Typically, the export process consists of:
 
 - Returning an initial `202` response to the client confirming the export has started
 - Taking from a few seconds to a few minutes to process the export, depending on the project size
@@ -386,7 +420,7 @@ Kibana can be used to search for specific errors related to a purchase attempt. 
 
 #### GitLab.com purchase errors
 
-**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [GitLab User Lookup Zendesk App](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app).
+**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the User Lookup in the GitLab Super App.
 
 1. Navigate to [Kibana](https://log.gprd.gitlab.net/)
 1. Ensure the `pubsub-rails-inf-gprd-*` index pattern (GitLab.com logs) is selected.
@@ -431,7 +465,7 @@ You can use the links in the lists above and fill in the `json.path` or `json.gl
 
 ### Webhook related events
 
-[Webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
+[Webhook events](https://docs.gitlab.com/user/project/integrations/webhooks/) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/user/gitlab_com/#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
 
 Here are some suggestions:
 
@@ -442,4 +476,3 @@ Here are some suggestions:
 #### Searching for Service Desk emails
 
   When searching through Kibana for the `json.to_address`, make sure this is the address that appears on the `to:` line in the email, even if this is aliased to the GitLab project email address. If you search for the project email address and the Service Desk mail was sent to an alias of that (`support@domain.ext` for example), it won't show up in the searches.
-  

@@ -9,7 +9,7 @@ Team members in Japan have the following statutory state benefits available: med
 
 GitLab does not plan on offering additional private medical or pension benefits at this time due to the government cover.
 
-GitLab will continue to review responses from the [Global Benefits Survey]({{< ref "benefits-survey#global-benefits-survey" >}}) as well as budgetary availability with respect to adding supplementary benefits in Japan.
+GitLab will continue to review budgetary availability with respect to adding supplementary benefits in Japan.
 
 ### Medical
 
@@ -29,14 +29,14 @@ Team members registered to the Social Insurance are also registered with the Emp
 
 - Members covered by the Social general insurance system "Kyokai Kenpo" are entitled to a benefit of an annual health check up in any of the hospitals designated under "Kyokai Kenpo". The Japanese team members can also have a checkup in a non-designated institution.
 - In both the cases the team members can expense up to 15000 JPY against the actual bills via Navan Expense.
-  - The invoice must be uploaded to Navan Expense to validate the total remiburseable amount. Please do not upload any personal medican data, only the invoice with the total amount due. If you have any questions or concerns please reach out to Total Rewards.
+  - The invoice must be uploaded to Navan Expense to validate the total reimbursable amount. Please do not upload any personal medican data, only the invoice with the total amount due. If you have any questions or concerns please reach out to Total Rewards.
 
 ### GitLab GK Leave Policy
 
 #### Sick Leave
 
-- When a person is unable to work because of injury or sickness and GitLab provides no pay, the Health Insurance Scheme provides 60% of the standard monthly remuneration (determined on the basis of the insured person's basic monthly salary/wage) as a sickness or injury benefit from the fourth day, for up to 18 months.
-- Team members must designate any time off for illness as `Out Sick` in Workday to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave]({{< ref "paid-time-off#communicating-illness-related-leave" >}}).
+- When a person is unable to work because of injury or sickness and GitLab provides no pay, team members are allowed to use their statutorily accrued vacation but are not required to. They are also eligible for Japan's government Health Insurance Scheme which provides 60% of the standard monthly remuneration (determined on the basis of the insured person's basic monthly salary/wage) as a sickness or injury benefit from the fourth day, for up to 18 months. Team members will need to apply for this [here](https://www.ibmjapankenpo.jp/eng/member/application/rest_b.html). Per GitLab's work rules, team members with less than 5 years of service are entitled to 3 months of job protected leave.
+- Team members must designate any time off for illness as `Out Sick` in Workday to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave](/handbook/people-group/paid-time-off/#communicating-illness-related-leave).
 
 #### Annual/Vacation Leave
 
@@ -60,13 +60,13 @@ The statutory entitlement for maternity leave is 14 weeks. The leave must start 
 
 - Team members may be eligible for maternity leave allowance equal to 2/3 of the team member's base salary for the duration of maternity leave. The allowance also covers the delay period if the actual date of birth is later than the expected due date.
   - If the team member is a dependent under their spouse's health insurance, they will not be eligible for maternity leave allowance.
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), the team member may choose to take GitLab Parental Leave for the first 16 weeks of maternity leave. During this time, the team member will not be eligible for maternity leave allowance from the government. GitLab parental leave and government maternity leave allowance *do not* run concurrently.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), the team member may choose to take GitLab Parental Leave for the first 16 weeks of maternity leave. During this time, the team member will not be eligible for maternity leave allowance from the government. GitLab parental leave and government maternity leave allowance *do not* run concurrently.
 
 #### Childcare Leave Payment
 
 - Team members must have been enrolled in social insurance for at least one year in the past 2 years prior to applying for childcare leave in order to be eligible for childcare leave allowance.
 - Social insurance will pay the team member 67% of their base salary for the first 6 months of Child Care Leave and 50% of their salary for the remainder of leave.
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), the team member may choose to take GitLab Parental Leave for the first 16 weeks. During this time, the team member will not be eligible for child care leave allowance from the government. GitLab Parental Leave and government child care leave allowance *do not* run concurrently.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), the team member may choose to take GitLab Parental Leave for the first 16 weeks. During this time, the team member will not be eligible for child care leave allowance from the government. GitLab Parental Leave and government child care leave allowance *do not* run concurrently.
 
 #### Other Job-Protected Leave
 

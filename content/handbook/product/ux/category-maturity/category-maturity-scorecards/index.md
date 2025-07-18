@@ -32,7 +32,7 @@ It is important to note that there are specifc requirements that should be met b
 
 The below table outlines the requirements for each maturity level:
 
-| Category level | Conducted with?                   | [Usability status](/handbook/product/ux/ux-scorecards/#overall-experience)                                                                                          | [GitLab Design Standards](https://docs.gitlab.com/ee/development/contributing/design.html) criteria              | [Competitive add-on](/handbook/product/ux/category-maturity/competitor-comparison/)                    |
+| Category level | Conducted with?                   | [Usability status](/handbook/product/ux/ux-scorecards/#overall-experience)                                                                                          | [GitLab Design Standards](https://docs.gitlab.com/development/contributing/design/) criteria              | [Competitive add-on](/handbook/product/ux/category-maturity/competitor-comparison/)                    |
 |----------------|-----------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------------------|---------------------------------------|
 | Complete       | External users on the JTBDs       | **A** (High quality/Exceeds expectations). This is the same grading system as the UX Scorecard grading rubric. / The path for all JTBDs are well established, intentional in design, and clear in the outcomes they enable users to reach. | Meets 100% of GitLab design standards         | GitLab scores: **Best in class**          |
 | Competitive    | External users on the JTBDs       | **B** (Meets expectations). This is the same grading system as the UX Scorecard grading rubric. / The path for the primary and related JTBDs are well established, intentional in design, and clear in the outcomes they enable users to reach.               | Meets 100% of GitLab design standards         | GitLab scores: **Equal** or **Best in class** |
@@ -216,15 +216,15 @@ Tip: Use this [Google Sheet](https://docs.google.com/spreadsheets/d/1agz9uCVRrE9
 
 Note: Do not enter in ratings for participants who experienced task failure, as those ratings are not accounted for when calculating the CM Scorecard score.
 
-[Step one](cms_step1.png)
+![Step one](/images/product/ux/category-maturity/category-maturity-scorecards/cms_step1.png)
 
 **Step two:** The overall score of each question and the task success rate will be averaged to provide a scenario score.
 
-[Step two](cms_step2_updated.png)
+![Step two](/images/product/ux/category-maturity/category-maturity-scorecards/cms_step2_updated.png)
 
 **Step three:** Once all of the scenario scores are calculated you will be provided an overall score and the maturity level. Check the note on the **Maturity level** cell (J40) for further details.
 
-[Step three](cms_step3.png)
+![Step three](/images/product/ux/category-maturity/category-maturity-scorecards/cms_step3.png)
 
 For example:
 

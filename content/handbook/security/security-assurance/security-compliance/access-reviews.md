@@ -44,27 +44,27 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 | IT Operations | * Execution of access removal(s)|
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
-## What is Authomize and why do I have an Okta tile for it?
+## What is Lumos and why do I have an Okta tile for it?
 
-[Authomize]({{< ref "security-assurance#core-tools-and-systems-1" >}}) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Authomize upon onboarding. To access Authomize, team members can select the Authomize tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
+[Lumos](../../corporate/systems/lumos/access_reviews/_index.md) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Lumos upon onboarding. To access Lumos, team members can select the Lumos tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
 
 ## Access Review Procedure
 
 **Terminated Users**
 
-- The current access listings of systems is correlated against a list of active team members derived from Workday (GitLab's source of truth for employment status) using GitLab's User Access Review tool [Authomize]({{< ref "security-assurance" >}}). If any users are found to have active system access that are not current GitLab team members, open access removal issues to start the access de-provisioning process.
+- The current access listings of systems is correlated against a list of active team members derived from Workday (GitLab's source of truth for employment status) using GitLab's User Access Review tool [Lumos](/handbook/security/security-assurance/). If any users are found to have active system access that are not current GitLab team members, open access removal issues to start the access de-provisioning process.
 
 **Entitlement/Privilaged Access**
 
-- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Authomize. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via authomize see the [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md).
+- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Lumos. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via Lumos see the [Lumos review handbook page here](../../corporate/systems/lumos/access_reviews/_index.md).
 
 ### Access Review runbook
 
-The [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md) provides the outline to complete these access reviews, including how to confirm [least privilege]({{< ref "access-management-policy#least-privilege-reviews-for-access-requests" >}}).
+The [Lumos review handbook page here](../../corporate/systems/lumos/access_reviews/_index.md) provides the outline to complete these access reviews, including how to confirm [least privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests).
 
 In the event access is identified to no longer be required, open an [Access Removal](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) issue for each account that no longer requires access and relate it to the system access review issue.
 
-If you have any questions or require assistance with completing an access review, please [contact the GitLab Security Compliance team]({{< ref "../security-compliance" >}}).
+If you have any questions or require assistance with completing an access review, please [contact the GitLab Security Compliance team](../security-compliance/).
 
 ### Access Review Cadence
 
@@ -76,12 +76,15 @@ If you have any questions or require assistance with completing an access review
   - 2 or 3 year review cycle - system specific based on origin/criticality/risk impact
 - [SOX In-Scope Appplications](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
   - Quarterly Entitlement Reviews for all users
+- PCI In-scope Applications (included in "In-scope" section above)
+  - Entitlements (human and service account) reviewed at least every 6 months (bi-annually)
+  - Accounts reviewed for inactivity quarterly
 
 All components of a user access review must be completed within the time period under audit. For example, if a user access review is scheduled for Q2, all components of the review including any required actions for modification/removal and lookbacks must be completed by the end of the quarter. It would not be sufficient to have outstanding requests for modification/removal at the quarter end, regardless of the users being identified for modification/removal prior to quarter end.
 
 ### Access Removals
 
-If appropriateness of access cannot be verified as part of the review or a system owner/reviewer flags a user for removal, a validation will take place with the team member's manager prior to access removal as per the [Observation Management Procedure]({{< ref "observation-management-procedure" >}}). This validation must take place within **7 calendar days** and if access is determined to not be required **OR** no agreement can be reached within that SLA between the Manager and system owner/reviewer, access will be removed. If the risk associated with unvalidated access is too high, access will be revoked immediately and impacted users will be directed towards the new access request process for re-provisioning. While we want to avoid disruption in access whenever possible, we need to balance the impact of that disruption with the risk of continued and unvalidated access to GitLab systems. The Security Compliance team is not responsible nor has the ability to remove access. Security Compliaces role and responsiblity is limited to opening access removal issues and assigning those issues out to the appropriate System Owner(s) and/or the IT Operations team. System Owners and/or IT Operations is responsible for execution of access removal or adjustment. Communication of the access removal or adjustment for affected team members is at the discretion of the system owner/reviewer.
+If appropriateness of access cannot be verified as part of the review or a system owner/reviewer flags a user for removal, a validation will take place with the team member's manager prior to access removal as per the [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/). This validation must take place within **7 calendar days** and if access is determined to not be required **OR** no agreement can be reached within that SLA between the Manager and system owner/reviewer, access will be removed. If the risk associated with unvalidated access is too high, access will be revoked immediately and impacted users will be directed towards the new access request process for re-provisioning. While we want to avoid disruption in access whenever possible, we need to balance the impact of that disruption with the risk of continued and unvalidated access to GitLab systems. The Security Compliance team is not responsible nor has the ability to remove access. Security Compliaces role and responsiblity is limited to opening access removal issues and assigning those issues out to the appropriate System Owner(s) and/or the IT Operations team. System Owners and/or IT Operations is responsible for execution of access removal or adjustment. Communication of the access removal or adjustment for affected team members is at the discretion of the system owner/reviewer.
 
 ## Additional Guidance
 
@@ -119,13 +122,13 @@ For any accounts that are requested for modification or removal, validation they
 
 ### Access Review Notification Reminders
 
-Security Compliance managed access reviews required for audit evidence have a deadline of 10 business days from the launch of the review in Authomize.  Automated reminders will be used based on number of days out from the due date:
+Security Compliance managed access reviews required for audit evidence have a deadline of 10 business days from the launch of the review in Lumos.  Automated reminders will be used based on number of days out from the due date:
 
 |  Days until Due Date | Notification | Who is Notified |
 | :---: | :---: | :---: |
-|  5 | Authomize "nudge" | Reviewer |
+|  5 | Lumos "nudge" | Reviewer |
 |  3 | Slack ping | Reviewer |
-|  2 | Authomize "nudge" & <br/>Slack ping the Reviewer | Reviewer, Reviewer's Manager, and Security Compliance Manager |
+|  2 | Lumos "nudge" & <br/>Slack ping the Reviewer | Reviewer, Reviewer's Manager, and Security Compliance Manager |
 |  0 | Escalated to CISO | CISO |
 
 {-If an access review is not completed within 10 days, identified access will be removed.-}
@@ -166,8 +169,8 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
-- [Identification & Authentication Security Controls]({{< ref "sec-controls" >}})
-- [Access Requests handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
-- [Access Management Policy]({{< ref "access-management-policy" >}})
+- [Identification & Authentication Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
+- [Access Requests handbook page](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
+- [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
 
-<a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>

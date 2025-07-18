@@ -12,7 +12,7 @@ If you need any help with onboarding that isn't answered in the handbook or you'
 - Team Members (Employees)
   - [Access Requests](/handbook/security/corporate/services/access-requests)
   - [Career Mobility (Role Changes)](/handbook/security/corporate/services/role-changes)
-  - [Laptops](/handbook/security/corporate/services/laptops)
+  - [Laptops](/handbook/security/corporate/end-user-services/laptop-management)
   - [Offboarding](/handbook/security/corporate/services/offboarding)
 - Temporary Service Providers (Contractors)
   - [Contractors (Temporary Service Providers)](/handbook/security/corporate/services/temporary-users)
@@ -80,5 +80,5 @@ Corporate Security also supports the onboarding of both types of contractors, ho
 
 ## Policies and Processes
 
-- [Access Management Policy](/handbook/security/access-management-policy/)
-- [Baseline Entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
+- [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
+- [Baseline Entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/)

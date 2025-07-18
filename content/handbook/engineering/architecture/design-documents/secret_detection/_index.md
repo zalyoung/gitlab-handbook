@@ -1,27 +1,23 @@
 ---
 title: Secret Detection as a platform-wide experience
 status: ongoing
-creation-date: "2022-11-25"
+creation-date: "2024-12-10"
 authors: [ "@theoretick", "@vbhat161", "@ahmed.hemdan" ]
 coach: [ "@theoretick" ]
-approvers: [ "@connorgilbert", "@amarpatel" ]
-owning-stage: "~devops::secure"
+approvers: [ "@abellucci", "@amarpatel" ]
+owning-stage: "~devops::application security testing"
 participating-stages: [ "~devops::systems" ]
 toc_hide: true
 ---
 
 <!-- vale gitlab.FutureTense = NO -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
-Today's secret detection feature is built around containerized scans of repositories
-within a pipeline context. This feature is quite limited compared to where leaks
-or compromised tokens may appear and should be expanded to include a much wider scope.
+Today secret detection focuses on scanning repositories in a pipeline. We aim to broaden the scope of Secret Detection to cover more areas where leaks or compromised tokens might surface.
 
-Secret detection as a platform-wide experience encompasses detection across
-platform features with high risk of secret leakage, including repository contents,
-job logs, and project management features such as issues, epics, and MRs.
+Evolving secret detection into a comprehensive, platform-wide experience, will extend coverage to high-risk areas.  We will expand the secret detection feature set to detect secrets before they are pushed, in job logs, and in issues, epics, and merge requests.
 
 ## Motivation
 
@@ -67,20 +63,19 @@ Target object types refer to the scanning targets prioritized for detection of l
 
 In order of priority this includes:
 
-1. non-binary Git blobs under 1 megabyte
-1. job logs
-1. issuable creation (issues, MRs, epics)
-1. issuable updates (issues, MRs, epics)
-1. issuable comments (issues, MRs, epics)
+1. Non-binary Git blobs under 1 megabyte
+1. Job logs
+1. Container images
+1. Creating and updating issues, epics and MRs
+1. Comments on issues, epics and MRs
 
-Targets out of scope for the initial phases include:
+Targets out of scope for now include:
 
-- non-binary Git blobs over 1 megabyte
-- binary Git blobs
+- Non-binary Git blobs over 1 megabyte
+- Binary Git blobs
 - Media types (JPEG, PDF, ...)
 - Snippets
 - Wikis
-- Container images
 - External media (Youtube platform videos)
 
 ### Token types
@@ -156,6 +151,9 @@ as self-managed instances.
 - [003: Run scan within subprocess](decisions/003_run_scan_within_subprocess)
 - [004: Standalone Secret Detection Service](decisions/004_secret_detection_scanner_service)
 - [005: Use Runway for service deployment](decisions/005_use_runway_for_deployment)
+- [006: Unified SD Support for all GitLab Environments](decisions/006_support_for_all_environments)
+- [007: Switch to Vectorscan-based Go scan engine](decisions/007_switch_to_go_scan_engine)
+- [008: Unified SD Scan Engine](decisions/008_unified_scan_engine)
 
 ## Challenges
 
@@ -192,7 +190,9 @@ for past discussion around scaling approaches.
 
 ### Detection engine
 
-Our current secret detection offering uses [Gitleaks](https://github.com/zricethezav/gitleaks/)
+#### Initial Decision
+
+Our current secret detection offering uses [Gitleaks](https://github.com/gitleaks/gitleaks/)
 for all secret scanning in pipeline contexts. By using its `--no-git` configuration
 we can scan arbitrary text blobs outside of a repository context and continue to
 use it for non-pipeline scanning.
@@ -206,6 +206,10 @@ for pre-filtering and `re2` for regex detections. See [spike issue](https://gitl
 
 Notable alternatives include high-performance regex engines such as [Hyperscan](https://github.com/intel/hyperscan) or it's portable fork [Vectorscan](https://github.com/VectorCamp/vectorscan).
 These systems may be worth exploring in the future if our performance characteristics show a need to grow beyond the existing stack, however the team's velocity in building an independently scalable and generic scanning engine was prioritized, see [ADR 001](decisions/001_use_ruby_push_check_approach_within_monolith) for more on the implementation language considerations.
+
+#### Recent Consideration
+
+We will use [Vectorscan](https://github.com/VectorCamp/vectorscan) regex engine ported in Go language for the scan engine. See [ADR 007](decisions/007_switch_to_go_scan_engine.md) for the reasoning behind the language and engine considerations.
 
 ### Organization-level Controls
 
@@ -359,6 +363,24 @@ _More details on Phase 2.1 will be added once there are updates on the developme
 
 ### Phase 3 - Expansion beyond Push Protection service
 
+The standalone Secret Detection service is currently supported for GitLab.com environment. We will continue using a hybrid approach of SD Service (GitLab.com) and Embedded Secret Detection module(Self-Managed/Dedicated). An embedded Secret Detection module is a locally hosted Secret Detection application in the form of a Ruby gem or an executable binary installed on the host GitLab Rails machine.
+
+Secret Push Protection requires scans to run on git diffs (target type) in a blocking manner to provide scan results instantenously. This approach isn't technically scalable for other scan target types (particularly larger sized ones like Job Artifacts or Job Logs). As a result, we decided to support non-blocking scans via Sidekiq.
+
+Read more about the above decisions [here](./decisions/006_support_for_all_environments.md).
+
+![High-level Secret Detection Design supporting Sync/Async scans](/images/engineering/architecture/design-documents/secret_detection/006_support_all_envs.png "High level design supporting sync and async scans")
+
+#### High-level for Unified SD Scan Engine
+
+A single scanning engine for all scan target types and with the help of target type-specific Adapters, the overall design of Secret Detection for various scan target types looks like the following illustration:
+
+![High-level Design for unified scan engine](/images/engineering/architecture/design-documents/secret_detection/008_high_level_design.png "High-level Design for unified scan engine")
+
+Read more details about unified scan engine [here](decisions/008_unified_scan_engine.md).
+
+#### High-level SD detection flow for Work Items
+
 The detection flow for arbitrary text blobs, such as issue comments, relies on
 subscribing to `Notes::PostProcessService` (or equivalent service) to enqueue
 Sidekiq requests to the `SecretScanningService` to process the text blob by object type
@@ -366,15 +388,12 @@ and primary key of domain object. The `SecretScanningService` service fetches th
 relevant text blob, scans the contents, and notifies the Rails application when a secret
 is detected.
 
+#### High-level SD detection flow for Job Logs
+
 The detection flow for job logs requires processing the log during archive to object
 storage. See discussion [in this issue](https://gitlab.com/groups/gitlab-org/-/epics/8847#note_1116647883)
 around scanning during streaming and the added complexity in buffering lookbacks
 for arbitrary trace chunks.
-
-In the case of a push detection, the commit is rejected and error returned to the end user.
-In any other case of detection, the Rails application manually creates a vulnerability
-using the `Vulnerabilities::ManuallyCreateService` to surface the finding in the
-existing Vulnerability Management UI.
 
 #### Configuration
 

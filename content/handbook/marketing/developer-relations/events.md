@@ -16,7 +16,7 @@ The Developer Relations team regularly attends the following event types:
 ### Community events
 
 GitLab's Developer Relations team regularly organizes virtual events including [GitLab Hackathons](https://about.gitlab.com/community/hackathon/)
-and [community office hours](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#community-office-hours).
+and [community office hours](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#community-office-hours).
 We also support in-person contributor days and [community-organized meetups](https://about.gitlab.com/community/meetups/). Many of these activities
 are organized through the [GitLab network](https://www.meetup.com/pro/gitlab/) page on Meetup.
 
@@ -61,6 +61,16 @@ in-person events using the following criteria:
 
 **Note**: For virtual events, we will assess the opportunities on a case-by-case basis given
 they require less time and travel from the team.
+
+### Evaluation criteria for partner and community events
+
+For events that are organized by partners and members of the wider GitLab community, we require that organizers provide the following for GitLab team members to ensure their participation:
+
+1. Registration page, which must be live and shared with the speaker 4 weeks in advance of the event
+1. An update on registrations one week before the event
+1. An enforced, public Code of Conduct to ensure it is a safe environment for all contributing. If needed, event organizers are welcome to use GitLab’s [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
+
+These steps will help us ensure that the events will have a sufficient audience to justify the time and cost spent preparing for and attending the events.
 
 ## Event Content Generation
 
@@ -159,19 +169,18 @@ their README. The projects are meant to be cloned and used within your own space
 
 #### Click-through Demos
 
-Click-through demos are demos that can be run offline as well as be used as self-guided training.
-They are linear and primarily used to showcase a particular feature, and are a great asset for those
-with less experience in delivering demos and in environments where there is limited internet connectivity.
-The available click-through demos are as follows:
+Click-through demos, also known as product tours, are self-guided walkthroughs designed to showcase key features and workflows. The full list of available product tours can be found in the [Developer Advocacy content library](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours). We also provide shorter versions for booth demonstrations.
 
-- [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-- [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
-- [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
-- [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+##### Demo Features
 
-**Note**: To enhance performance and reduce reliance on the event's Wi-Fi network for events,
-it is recommended that you download the click-through demos locally onto the booth laptops.
-You can obtain the HTML files for this purpose directly from [here](https://gitlab.com/tech-marketing/static-demos/-/tree/master/public).
+- Navigate using the arrow keys (→/←)
+- Use `Ctrl + P` to toggle dialogs, which benefits the demonstration flow without popups.
+
+##### Available short versions
+
+- [Advanced SAST](https://gitlab.navattic.com/advanced-sast-short)
+- [Compliance Frameworks](https://gitlab.navattic.com/compliance-short)
+- [Vulnerability Explanation/Resolution](https://gitlab.navattic.com/ve-vr-short)
 
 ## Event Booth Training
 
@@ -241,10 +250,8 @@ for team members across GitLab through issue boards.
 ### Speaker Enablement
 
 The Developer Advocacy team provides support to new and experienced speakers where necessary. These can range from presentation reviews,
-CFP ideation, or dry-run sessions. You can [learn more](/handbook/marketing/developer-relations/developer-advocacy/speaker-enablement/) about
+CFP ideation, or dry-run sessions. You can [learn more](/handbook/marketing/developer-relations/developer-advocacy/cfps/) about
 the different resources and activities you can benefit from.
-
-**Note**: People who regularly speak about GitLab may be interested in joining the [GitLab Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/).
 
 ## Code Challenges
 
@@ -258,13 +265,17 @@ the application.
 
 Please use the [Code challenge checklist template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=codechallenge-checklist) to
 create a new Code challenge issue for the event. Review the requirements and use them as a guide to ensure every component is in place.
-Add the new code challenge issue into the event epic in the [event roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
+Add the new code challenge issue into the event epic.
 
 ## Sponsorship
 
 GitLab's Developer Relations team does not hold or allocate a budget for event sponsorships.
 All events sponsorship requests should be directed to [Corporate Events](/handbook/marketing/integrated-marketing/corporate-events/) or
 [Field Marketing](/handbook/marketing/field-marketing/). Please follow the [decision path for suggesting an event for sponsoring](/handbook/marketing/events/#suggesting-an-event).
+
+### Student-run hackathons
+
+Student hackathons are the events most frequently submitting requests for support from GitLab. Hackathon organizers who wish to leverage GitLab's DevOps platform for their events are encouraged to use free trials for their events. This can be done by directing hackathon participants to apply for a [free trial of GitLab](https://about.gitlab.com/free-trial/) for use during the hackathon which will allow them to use all of GitLab's features. In some cases, if your event meets [the criteria](/handbook/marketing/developer-relations/workflows-tools/team-budgets/#community-event-sponsorship) above at a score of 9 or higher, we may also send stickers for participants or swags as prizes. Given the volume of requests we receive, providing financial support for these events is not feasible.
 
 ## Diversity, inclusion, and belonging
 
@@ -289,4 +300,4 @@ and GitLab teams should keep in mind as they plan events and activities.
 ## Additional Resources
 
  Additional information about events can be found on the [Events](/handbook/marketing/events) page of the
- GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events) page of our website.
+ GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events/) page of our website.

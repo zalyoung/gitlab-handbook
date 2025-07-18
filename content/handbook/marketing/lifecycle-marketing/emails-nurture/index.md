@@ -23,7 +23,7 @@ Please visit our other pages for more information on [email best practices](/han
   * [see this documentation for Marketo segmentations](/handbook/marketing/marketing-operations/marketo/#segmentations)
 * A prescriptive persona-based buyer's journey (Persona nurture)
   * this is an ongoing effort led by Lifecycle in collaboration with Campaigns, Content Marketing, and Product Marketing
-  * [see this section of the handbook page for more info](handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture)
+  * [see this section of the handbook page for more info](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture)
   * [see the epic for more information](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
 * User nurtures and programs
   * this is an ongoing effort led by Lifecycle, and specifically spearheaded by our Manager, Lifecycle Marketing  [@Aklatzkin](https://gitlab.com/Aklatzkin).
@@ -33,9 +33,8 @@ Please visit our other pages for more information on [email best practices](/han
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * [Combine nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3979)
-* [FY25 Persona Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4798)
-* [FY25 Ultimate + Duo Enterprise Trial Nurture](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5243)
-* [FY25 Trial Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4797)
+* [FY26 Persona Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4798)
+* [FY26 Trial Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5533)
 * [All nurtures: CTA & UTM documentation](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit#gid=711539408)
 
 ## Email Nurture Programs
@@ -44,32 +43,20 @@ Please visit our other pages for more information on [email best practices](/han
 
 *The [Persona Nurture](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture) (formerly the Intelligent Nurture after relaunch on 2023-11-06) aims at progressing leads from RAW > INQ > MQL > SAO, and leverages segment/region data to provide the *right offer* to the *right person* at the *right time* - based on their region and persona.*
 
+We shifted to the persona model in November of 2023 to scale our programs more easily and enable team members to optimize the programs more regularly. The next iteration for FY25 Q4 will be to launch action streams, which are personalized interest based email streams based on the content the lead came in on.
+
 #### Quick Links
 
-* [Overview Deck](https://docs.google.com/presentation/d/1N_VM8xHGiQ95PXt09xyuQAa9px0VGEGyJd0KtGdXjzg/edit#slide=id.g106e2c5ac6b_0_0)
+* [FY26 Persona Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5535)
 * [Combine nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3979)
-* [Intelligent Marketo Email Nurture Epic - FY24](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3557)
 * [Figjam of Persona Marketo Email Nurture](https://www.figma.com/file/Vh7k6ktDSsRVBTorRH034X/Persona-Email-Nurture-Engine_2023-08-22_10-19-49?type=whiteboard&t=AJ2Wv6vrripWJd4y-1)
 * [Marketo Program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF8561A1)
 * [CTA & UTM documentation of existing nurture](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit#gid=711539408)
 
-#### Labels for Persona Nurture Progress
-
-We created several GitLab labels for a better organization of each asset that we are adding to the intelligent nurture.
-
-Below we explain the labels created and what each one is for:
-
-* [intel-nurture](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture&first_page_size=20): This label is global and will help us identify that the issue we are working on is directly for the intelligent nurture. All "add to intelligent nurture" issues must have this label, and it is included in the issue template.
-* [intel-nurture::write-copy](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Awrite-copy&first_page_size=20): This label helps us know that the issue is in the process of email copy development. We cannot move on to the next step (email-build) until the copy is final.
-* [intel-nurture::email-build](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-build&first_page_size=20): This label helps us to know that the email is in production. Verticurl is responsible for building the emails.
-* [intel-nurture::email-test](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-test&first_page_size=20): This label tells us that the email has already been built and that the Verticurl team has sent tests to both the requesters AND the lifecycle marketing team for review. In this step we check that the links work correctly, that the content of the email is correct and that the correct utm values are used for appropriate tracking of the links. Once the email is approved, we proceed to the last step.
-* [intel-nurture::add-to-streams](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aadd-to-streams&first_page_size=20): This label helps us to identify that the issue is in its final stage where we proceed to add the email to the relevant nurture streams.
-  * **PLEASE NOTE: the requester indicates the desired streams in the description of the issue, but the Lifecycle Marketing team makes the final decision on which streams are relevant. Please reference [the stream alignment rules](/handbook/marketing/lifecycle-marketing/email-processes-requests/#nurture-stream-offer-alignment) for what content type is relevant for each stream.**
-
 ### Persona Email Nurture Stream Schedule
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-The following shows the day of the week and cadence of the different streams in the Intelligent Nurture:
+The following shows the day of the week and cadence of the different streams in the Persona Nurture:
 
 * AMER:  Thursday, 8:30 AM PT
 * EMEA: Thursday, 1:00 AM PT
@@ -78,15 +65,11 @@ The following shows the day of the week and cadence of the different streams in 
 * Localized
   * Spanish: Inactive - leads rerouted to English nurtures
   * French: Thursday, 1:00AM PT
-  * German: Inactive - relaunching end of Jan 2024
+  * German: Inactive
   * Japanese: Wednesday (Thursday JP time), 5:00PM PT
   * Korean: Wednesday (Thursday JP time), 5:00PM PT
   * Portuguese: Inactive - leads rerouted to English nurtures
-* PubSec Default: Thursday, 7:00AM PT
-
-### Persona Nurture Processes
-
-Our Nurture processes have moved to our [email processes handbook page](/handbook/marketing/lifecycle-marketing/emails-processes-requests#intelligent-nurture-processes).
+* PubSec User/Buyer: Thursday, 7:00AM PT
 
 #### Persona Nurture Reporting Process
 
@@ -100,7 +83,7 @@ Which are formed as follows:
 [APAC](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4550A1LA1)
 [EMEA](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4552A1LA1)
 [LATAM](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR4553A1LA1)
-[PubSec general nurture](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR3876A1LA1)
+[AMER PubSec](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP8588A1)
 
 **LOCALIZED NURTURE:**
 
@@ -116,12 +99,54 @@ Which are formed as follows:
 
 [LOC-SPANISH](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/AR3050A1LA1)
 
+### Action streams
+
+In FY26 Q1, we  began evolving our person-based nurture strategy by launching our first intent-based nurture program, where we tailor our messaging based on our lead's interest.
+
+These send weekly at the same time as our Persona nurture.
+
+Example of how this works:
+
+* Lead comes in on security asset and we send security content.
+* Lead comes in on an industry asset or is segmented into an industry, then they would go into the industry action stream
+
+What happens after they finish the action stream?
+
+* Go back into the persona nurture
+* Once we have other nurtures, can go into recycled or whatever level makes sense
+
+*Flow (New):*
+
+* New person created, add to action stream based on program token
+  * If preferred language one that we have a nurture stream for, bypass action stream and put in localized nurture
+  * If customer, do not put in action stream, put in regional nurture
+  * If they come in from a trial, they will go through trial nurture. If they qualify for an action stream before trial nurture completes, do not move to action stream. After trial, move to regional nurture.
+* After they exhaust content on action stream, move to regional nurture
+* If emailable status changes, pause nurture
+ 
+*Requested Flow (Existing)*
+
+* If existing person has not exhausted content on regional nurture, do not move to action stream
+* If content is exhausted or they aren't in regional nurture, move to action stream
+  * If customer (or segment changes to customer), move/keep in regional nurture
+* If they take a trial, pause Action Stream, move to trial nurture. Restart action stream when trial nurture completes
+* After action stream content is exhausted, move to regional nurture
+* If preferred language changes (from EN or other language we send EN nurture to), move to localized nurture
+* If emailable status changes, pause nurture
+
+#### Links
+
+1. [FY26 action stream](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5536)'
+2. [Action stream routing](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5441)
+3. [FY25 action streams](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4950)
+4. [Action stream email documentation](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit?gid=438046626#gid=438046626)
+
 ### User nurtures (GitLab product users)
 
 #### Trial nurtures
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-* **Goal:** Educate trialers about key features to use during 60 day period and give them materials to consider upgrading or purchasing an add-on. 
+* **Goal:** Educate trialers about key features to use during 60 day period and give them materials to consider upgrading or purchasing an add-on.
 * **Delivery System:** Iterable (GitLab.com) & Marketo (SM)
 
 * [Figma file - with all trial experiences](https://www.figma.com/file/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-updates-2023_2023-08-22_10-19-25?type=whiteboard&t=hPlLyXaGRSF8sgoP-0)
@@ -131,7 +156,7 @@ Which are formed as follows:
 
 ### Trial Nurture Variations
 
-Following the launch of Duo Enterprise trials, we have several different trial nurtures running in either Iterable or Marketo.  These nurtures send to the Owner role who starts the trial. The goal of these programs is to drive usage for Ultimate + Duo Enterprise and in turn influence conversion: 
+Following the launch of Duo Enterprise trials, we have several different trial nurtures running in either Iterable or Marketo.  These nurtures send to the Owner role who starts the trial. The goal of these programs is to drive usage for Ultimate + Duo Enterprise and in turn influence conversion:
 
 * Existing/New Free GitLab.com users – GitLab Ultimate + Duo Enterprise
   * [Copy](https://docs.google.com/document/d/1M51p0y3gy7su0pmGzxSyCvpGyX2MMX6EvrWR6i0pnz8/edit?tab=t.0#heading=h.6vgpxnyb4dh1)
@@ -221,7 +246,7 @@ All of the HTML email files are in [Iterable](https://app.iterable.com/campaigns
 
 For a more in-depth look at how these emails work, please review the [Figma journey](https://www.figma.com/file/FdF9bhLOtPKah7IxarPNjO/Aug-2023-Iterable-Free-User-Email-Journey?type=whiteboard&node-id=0%3A1&t=CsoAGTyGQ4j5rLR1-1).
 
-### Invited users 
+### Invited users
 
 Please note we are limited in what we can send to this audience.
 

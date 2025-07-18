@@ -23,10 +23,11 @@ If you choose to, you can learn even more about the infrastructure department an
 [Infrastructure at GitLab](/handbook/engineering/infrastructure/)
 
 - [SaaS Platforms](/handbook/engineering/infrastructure/team/platforms/)
-  - [Delivery Group](/handbook/engineering/infrastructure/team/delivery/)
+  - [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/)
   - [Scalability Group](/handbook/engineering/infrastructure/team/scalability/)
   - [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
-  - Production Engineering group with [Ops](/handbook/engineering/infrastructure/team/ops/) and [Foundations](/handbook/engineering/infrastructure/team/foundations/)
+  - Production Engineering group with [Ops](/handbook/engineering/infrastructure-platforms/production-engineering/ops/) and
+  - [Foundations](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/)
 
 A well-written resume or a detailed LinkedIn profile will increase your chances to be selected for this role. Read the requirements carefully and make sure that some of those specific areas are outlined in your resume/LinkedIn profile. In Infrastructure Engineering, we especially pay attention to your experience/knowledge of:
 
@@ -47,7 +48,6 @@ Now it's time to get excited! Here are some links that might help you understand
 - [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 - [Coding at Scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
-- [Infrastructure careers and internships](/handbook/engineering/infrastructure/career/)
 
 ### **2. 30-Minute Screening call with a Recruiter**
 
@@ -67,7 +67,7 @@ The technical interview will require a GitLab account, if you are not yet famili
 While not necessary for the interview, the following links will help you to understand a bit more about the responsibilities of the Infrastructure team:
 
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
-- [Change Management](/handbook/engineering/infrastructure/change-management/)
+- [Change Management](/handbook/engineering/infrastructure-platforms/change-management/)
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Infrastructure Runbooks](https://gitlab.com/gitlab-com/runbooks)
 - [Production Readiness](/handbook/engineering/infrastructure/production/readiness/)
@@ -117,4 +117,4 @@ After you provide us with your references, now it's time to relax! The hiring ma
 
 Successful candidates will subsequently be made an offer. Once the offer is ready, the Recruiter will reach out to you to schedule a Zoom call to discuss its details.
 
-Questions? Check out our [Jobs at GitLab - Frequently Asked Questions]({{< ref "candidate-faq" >}})
+Questions? Check out our [Jobs at GitLab - Frequently Asked Questions](/handbook/hiring/candidate-faq/)

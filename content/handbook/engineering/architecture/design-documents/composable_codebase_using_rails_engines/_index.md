@@ -10,10 +10,10 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 NOTE:
-This architecture design document has been superseded by [GitLab Modular Monolith](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/). 
+This architecture design document has been superseded by [GitLab Modular Monolith](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/).
 <!-- TODO: change to new design doc URL -->
 
 The one of the major risks of a single codebase is an infinite growth of the whole
@@ -464,14 +464,14 @@ More details can be found in the [issue](https://gitlab.com/gitlab-org/gitlab/-/
 
 Estimating the results for the scale of running GitLab.com, today we use:
 
-- Individual GC cycle takes around [130 ms for Web](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.max_source_resolution=0s&g0.expr=avg(rate(ruby_gc_duration_seconds_sum%7Bstage%3D%22main%22%2Ctype%3D%22web%22%7D%5B5m%5D)%2Frate(ruby_gc_duration_seconds_count%5B5m%5D))&g0.tab=0)
-  and [200 ms for Sidekiq](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.max_source_resolution=0s&g0.expr=avg(rate(ruby_gc_duration_seconds_sum%7Bstage%3D%22main%22%2Ctype%3D%22sidekiq%22%7D%5B5m%5D)%2Frate(ruby_gc_duration_seconds_count%5B5m%5D))&g0.tab=0) on GitLab.com
-- On average we do around [2 GC cycles per-second](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.end_input=2021-02-17%2017%3A56&g0.max_source_resolution=0s&g0.expr=avg(rate(ruby_gc_duration_seconds_count%7Bstage%3D%22main%22%2Ctype%3D%22web%22%7D%5B5m%5D))&g0.tab=0)
-  or [0.12 cycles per second for Sidekiq](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.end_input=2021-02-17%2017%3A56&g0.max_source_resolution=0s&g0.expr=avg(rate(ruby_gc_duration_seconds_count%7Bstage%3D%22main%22%2Ctype%3D%22sidekiq%22%7D%5B5m%5D))&g0.tab=0)
-- This translates to using [around 9.5 vCPUs per-second for Web](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.max_source_resolution=0s&g0.expr=sum(rate(ruby_gc_duration_seconds_sum%7Bstage%3D%22main%22%2Ctype%3D%22web%22%7D%5B5m%5D))&g0.tab=0)
-  and [around 8 vCPUs per-second for Sidekiq](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.max_source_resolution=0s&g0.expr=sum(rate(ruby_gc_duration_seconds_sum%7Bstage%3D%22main%22%2Ctype%3D%22sidekiq%22%7D%5B5m%5D))&g0.tab=0) of spend on GC alone
-- Sidekiq [uses 2.1 GB on average](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.max_source_resolution=0s&g0.expr=max(ruby_process_unique_memory_bytes%7Btype%3D%22sidekiq%22%7D)%2F1024%2F1024%2F1024&g0.tab=1)
-  or [550 GB in total](https://thanos-query.ops.gitlab.net/graph?g0.range_input=1h&g0.max_source_resolution=0s&g0.expr=sum(ruby_process_unique_memory_bytes%7Btype%3D%22sidekiq%22%7D)%2F1024%2F1024%2F1024&g0.tab=0) of memory on GitLab.com
+- Individual GC cycle takes around [130 ms for Web](https://dashboards.gitlab.net/goto/oSdFY_-NR?orgId=1)
+  and [200 ms for Sidekiq](https://dashboards.gitlab.net/goto/6a2dY_aHg?orgId=1) on GitLab.com
+- On average we do around [2 GC cycles per-second](https://dashboards.gitlab.net/goto/CRMcY_aNR?orgId=1)
+  or [0.12 cycles per second for Sidekiq](https://dashboards.gitlab.net/goto/nUe5L_aHR?orgId=1)
+- This translates to using [around 9.5 vCPUs per-second for Web](https://dashboards.gitlab.net/goto/ZXQpYlaHR?orgId=1)
+  and [around 8 vCPUs per-second for Sidekiq](https://dashboards.gitlab.net/goto/neKhLlaHR?orgId=1) of spend on GC alone
+- Sidekiq [uses 2.1 GB on average](https://dashboards.gitlab.net/goto/UFWTLlaHR?orgId=1)
+  or [550 GB in total](https://dashboards.gitlab.net/goto/l1b0Y_aNg?orgId=1) of memory on GitLab.com
 
 We estimate the possible maximum savings for introducing `web_engine`:
 

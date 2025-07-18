@@ -2,11 +2,11 @@
 title: "Epics project management guidelines"
 ---
 
-{{< include "includes/wip-notice.md" >}}
+{{< include "includes/marketing/wip-notice.md" >}}
 
 ## Background
 
-[Epics](https://docs.gitlab.com/ee/user/group/epics) provide a way to organize and manage a set of issues and sub-epics that share a strategic theme. In addition to logical grouping, epics enable project managers to perform higher level planning and build a roadmap with visual status tracking.
+[Epics](https://docs.gitlab.com/ee/user/group/epics/) provide a way to organize and manage a set of issues and sub-epics that share a strategic theme. In addition to logical grouping, epics enable project managers to perform higher level planning and build a roadmap with visual status tracking.
 
 ### Key things to know
 

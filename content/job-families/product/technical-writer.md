@@ -18,6 +18,7 @@ At GitLab, our [team of technical writers](/handbook/product/ux/technical-writin
   - Experience planning, researching, writing, and editing software documentation.
   - Excellent skills in grammar, minimalist documentation design, and effective information architecture.
   - Experience using the Linux shell and command-line Git.
+  - Experience using AI tools in technical writing workflows.
   - General familiarity with one or more coding languages.
   - Experience with some of the following:
     - DevOps tools and open-source software.
@@ -99,11 +100,11 @@ These next level opportunities are not guaranteed to be available and should not
 - **Reviews**: Model review practices that improve the quality of contributions over time. Support and guide team members to improve reviews in their groups and stages.
 - **Product knowledge**: Understand the technology and features of both the development stages to which you're assigned and the end-to-end GitLab product to help improve the documentation, information architecture, and docs site.
 - **Process**: Actively contribute documentation workflow changes that help the team evolve the culture and best practices.
-- **Cross-stage collaboration**: Drive collaboration across stages by helping technical writers and managers identify dependencies and areas for cross-departmental work.
 - **Communication**: Communicate effectively and professionally in all areas, and be a model for effective collaboration.
 - **Leadership**: Identify and lead cross-stage projects that improve the deliverables or processes of the Technical Writing team. Model professionalism in all areas. Be an effective thought partner with management to help make technical or project decisions for the team. Be a team leader in a particular segment of responsibility that the team requires: AI, technology, process, content, UX writing, statistics and metrics, and others.
 - **Recruiting**: Be available to interview potential technical writing candidates.
 - **Mentoring**: Mentor other technical writers and team members around suggesting and balancing priorities, industry best practices, and other process knowledge.
+- **Cross-stage collaboration**: Drive collaboration across stages by helping technical writers and managers identify dependencies and areas for cross-departmental work.
 
 ### Principal Technical Writer
 
@@ -132,7 +133,7 @@ Extends the Staff Technical Writer responsibilities in complexity and scope.
 
 ## Performance Indicators
 
-- [Technical Writing team member MR rate](/handbook/product/ux/performance-indicators/#technical-writing-team-member-mr-rate)
+- [Technical Writing team member MR rate](/handbook/product/ux/performance-indicators/#technical-writer-mr-rate)
 - [Technical Writing collaboration on UI text](/handbook/product/ux/performance-indicators/#technical-writing-collaboration-on-ui-text)
 
 ## Hiring Process
@@ -140,7 +141,7 @@ Extends the Staff Technical Writer responsibilities in complexity and scope.
 Candidates for this position can expect the hiring process to generally follow these steps. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
 1. Candidates who demonstrate interest in the role will be asked to share work samples and respond to questions related to technical writing.
-1. Qualified candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters. In this call, we will discuss your experience, understand what you are looking for in a Technical Writing role, talk about your work and approach to technical writing, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
+1. Qualified candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters. In this call, we will discuss your experience, understand what you are looking for in a Technical Writing role, talk about your work and approach to technical writing, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
 1. If you successfully pass the screening call, you will be invited to schedule a 50-minute interview with our Technical Writing Manager. In this interview, we will want you to talk through the approach you took in the examples of work you shared as part of your application, your experience up to now, understand what you're looking for in a technical writing position, and answer any questions you have.
 1. The next interview is 50-minutes long and with one of our Technical Writers. We'll discuss your experience, why you're looking to join GitLab, your domain experience, and what it's like to be a technical writer at GitLab. We'll assess your alignment with our [values](/handbook/values/#credit), and answer any questions you have.
 1. Next, you'll meet with a cross-functional partner from our Product, Engineering, or Customer Support team for a 50-minute interview. We'll discuss your experience and why you're looking to join GitLab. We'll assess your alignment with our [values](/handbook/values/#credit), and answer any questions you have.

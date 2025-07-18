@@ -5,7 +5,7 @@ description: "How to handle Support Engineer promotions"
 
 ### Support Engineer Promotion Process for Support Managers - Quick Guide
 
-The companywide People Group process should be followed [For Managers: Requesting a Promotion or Compensation Change](/handbook/people-group/promotions-transfers/#process-for-managers-requesting-a-promotion). The steps below are an addendum for notification and review for Support Engineering managers, taking into account the Customer Support Department's organisational structure, and is not meant as a replacement for any steps in the companywide people group process.
+The company-wide People Group process should be followed [For Managers: Requesting a Promotion or Compensation Change](/handbook/people-group/promotions-transfers/#process-for-managers-requesting-a-promotion). The steps below are an addendum for notification and review for Support Engineering managers, taking into account the Customer Support Department's organisational structure, and is not meant as a replacement for any steps in the company-wide people group process.
 
 #### Planning
 
@@ -17,7 +17,7 @@ Regularly:
    promotion target.
 1. Review each of your candidates' progress toward promotion.
 
-If you have any questions, please ask your manager or our [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+If you have any questions, please ask your manager or our [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 #### Calibration
 

@@ -1,7 +1,7 @@
 ---
 title: "Marc Di Sabatino's README"
 description: "Personal README page for Marc Di Sabatino"
-job: "Senior, Business Systems Analyst - Enterprise Applications"
+job: "Manager, Enterprise Applications Services"
 ---
 
 This page's intention is to give a little information about who I am and what it's like to work with me.
@@ -10,29 +10,32 @@ This page's intention is to give a little information about who I am and what it
 
 ### Intro
 
-Hey! I'm Marc and I'm a [Senior, Business Systems Analyst](/job-families/finance/business-system-analyst/#senior-business-systems-analyst) for the [IT Enterprise Applications](/handbook/business-technology/) division.
+Hey! I'm Marc and I'm a Manager of Enterprise Applications Services for the [IT Enterprise Applications](/handbook/business-technology/) division.
 
 ### About me
 
-I grew up and currently live in Newark, [Delaware](https://simple.wikipedia.org/wiki/Delaware) (the first state). I live with my fiance and four cats aka my fur children. I have been working in IT roles and in tech for ten years now. I enjoy the challenges and problem solving opportunities this field provides but what I love most is the opportunity to help people while playing with the latest and greatest tech.
+I grew up and currently live in Newark, [Delaware](https://simple.wikipedia.org/wiki/Delaware) (the first state). I live with my wife and four cats aka my fur children. I have been working in IT roles and in tech for ten years now. I enjoy the challenges and problem solving opportunities this field provides but what I love most is the opportunity to help people while playing with the latest and greatest tech.
 
 ### My GitLab Story
 
 I have worked for GitLab for over five years now, in my time here I....
 
-- Was the first IT Analyst ever hired at GitLab back in 2019
+- Was the first IT Analyst ever hired at GitLab back in 2019.
 - Onboarded over a thousand employees between 2019-2022.
-- Maintained two separate roles and was promoted to Senior for both those roles.
+- Performed a hybrid role during our hyper growth period above. 'IT Help, Ops, Sec and anything else needed'
+- Created weekly IT knowledge and onboarding assistance calls and was the primary for hosting said sessions.
+- Maintained three roles and was promoted to Senior for two of those roles.
 - Reported directly to one Manager and three Directors in my tenure.
 - Onboarded and became technical owner of a large portion of our current [Tech Stack](/handbook/business-technology/tech-stack/).
 - Later on became CODEOWNER of the same tech stack and I work to maintain its accuracy.
 - Assisted our compliance teams with achieving and maintain SOC and ISO certifications.
 - Provided Technical support for all first year company earnings calls.
-- Lead the largest bulk refresh and distrubtion of laptops of my entire career...all while battling covid delays. (over 400 laptops to 30 countries)
-- Technical contact and support for our Slack migration from Pro to Enterprise.
+- Spearheaded the largest bulk refresh and distrubtion of laptops of my entire career...all while battling covid delays. (over 400 laptops to 30 countries)
 - Assisted with the groundwork for our current laptop End Point Management stack. (ABM, JAMF, etc)
 - Parterned with an engineering colleague to design the #IT-Help Slack Tool.
+- Established a large number of our original IT vendors and providers.
 - Attended one summit and three offsites.
+- Worked on and helped design and develop a number of automations that improved our IT Service delivery.
 - and made so many friends and connections along the way...
 
 ### What its like working with me

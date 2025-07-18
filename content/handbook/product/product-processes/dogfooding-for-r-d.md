@@ -21,7 +21,7 @@ helps you understand what can be improved and what features GitLab is missing.
 
 #### When do we dogfood?
 
-The Dogfooding process should begin [during the validation phase](/handbook/product-development-flow/#validation-phase-1-validation-backlog) of the Product Development flow. PMs should set up conversations with [internal customers](#internal-customer-dris) to gather their feedback on the problem and possible solutions. This helps the group by providing feedback from teams deeply familiar with GitLab, and allows internal customer requirements to be considered from the beginning. We've seen that features that have been dogfooded internally are more successful than those that have not gone through this process, and internal usage is [required to achieve Viable maturity](https://about.gitlab.com/direction/#maturity).
+The Dogfooding process should begin [during the validation phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-1-validation-backlog) of the Product Development flow. PMs should set up conversations with [internal customers](#internal-customer-dris) to gather their feedback on the problem and possible solutions. This helps the group by providing feedback from teams deeply familiar with GitLab, and allows internal customer requirements to be considered from the beginning. We've seen that features that have been dogfooded internally are more successful than those that have not gone through this process, and internal usage is [required to achieve Viable maturity](https://about.gitlab.com/direction/#maturity).
 
 When a feature is <b>_minimal_</b> and moving toward <b>_viable_</b>, designated
 GitLab team members (and anyone else interested!) should be using the feature
@@ -56,7 +56,7 @@ relevant teams using your feature in their daily work. This can be done by
 recording a demo of the new functionality and sharing it with the team,
 running through examples of usage on Product calls, or identifying current
 workflows or processes the feature could help improve.
-1. Including top internal user issues in the relevant [category epics](/handbook/product/product-processes/#category-direction) 
+1. Including top internal user issues in the relevant [category epics](/handbook/product/product-processes/#category-direction)
 when they align with our strategy.
 1. Maintaining a set of [internal customer DRIs](#internal-customer-dris) who represent GitLab team members
 who use GitLab for the purposes of developing and operating GitLab and GitLab.com.
@@ -86,7 +86,7 @@ Below are the responsibilities of an Internal Customer DRI:
 
 ##### Best practices
 
-It's recommended to 
+It's recommended to
 
 - Identify Internal Customer DRIs early in the discovery/delivery of a new direction, and follow the processes described there.
 - Reach out to the wider team around the Internal Customer DRIs regularly to best internalize all their insights.

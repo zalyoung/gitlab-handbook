@@ -3,6 +3,8 @@ title: The Compensation Calculator
 description: "On this page, we explain the different factors that make up our Compensation Calculator and its alignment to GitLab's values and Compensation Principles."
 ---
 
+<span style="color:red">_**Notice: The below information is subject to change in accordance with the Job Architecture Project. For more information, please read the [Job Architecture Project](/handbook/total-rewards/compensation/#job-architecture-project-update) handbook section.**_</span>
+
 ## Introduction
 
 On this page, we explain the different factors that make up our Compensation Calculator and its alignment to GitLab's values and Compensation Principles.
@@ -26,7 +28,7 @@ For any questions relating to the compensation calculator, reach out to [Total R
 
 ## The Compensation Calculator
 
-As a natural extension of the [Compensation Principles]({{< ref "compensation#gitlabs-compensation-principles" >}}) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values](/handbook/values/)) we developed a Compensation Calculator.
+As a natural extension of the [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values](/handbook/values/)) we developed a Compensation Calculator.
 The compensation of executives and anyone on a quota is not set with the calculator. We use a Compensation Calculator because it helps us align compensation to our values:
 
 1. **Transparency** - The calculator is open to GitLab team members and candidates in the pipeline. This means that at the time of hiring, candidates don't have to blindly negotiate compensation. They simply need to enter the individual inputs on the Compensation Calculator and it comes up with a band consistent with the individual's circumstance - where they live, level, currency, etc. When team members move across levels, departments and locations during their time at GitLab, they'll also be able to see the appropriate band for the change.
@@ -43,18 +45,18 @@ The goals of the calculator are:
 1. Calculate compensation for 200+ regions all over the world.
 1. Based on a simple formula.
 1. People with the same attributes should earn the same.
-1. The adjustment for [paying local rates]({{< ref "compensation#paying-local-rates" >}}) should be the same if you are in the same location.
+1. The adjustment for [paying local rates](/handbook/total-rewards/compensation/#paying-local-rates) should be the same if you are in the same location.
 1. You should be able to calculate your compensation in case you know or made an assumption about your level.
-1. That it is as close to a [competitive rate]({{< ref "compensation#competitive-rate" >}}) as possible given the other constraints.
+1. That it is as close to a [competitive rate](/handbook/total-rewards/compensation/#competitive-rate) as possible given the other constraints.
 1. Be able to calculate compensation for most of our offers without involving a compensation specialist.
 
 ### The Compensation Calculator Formula
 
-Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-factor) x [Level Factor](#level-factor) x [Exchange Rate]({{< ref "compensation#exchange-rates" >}})
+Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-factor) x [Level Factor](#level-factor) x [Exchange Rate](/handbook/total-rewards/compensation/#exchange-rates)
 
 The calculator will output the amount as `base + variable = total target cash (TTC)`
 
-Your options can be found on [stock options](/handbook/total-rewards/stock-options/) and benefits can be found on relevant [entity specific benefits pages]({{< ref "general-and-entity-benefits" >}}).
+Your options can be found on [stock options](/handbook/total-rewards/stock-options/) and benefits can be found on relevant [entity specific benefits pages](/handbook/total-rewards/benefits/general-and-entity-benefits/).
 
 The compensation calculator is updated in December and June with the proper exchange rate, keeping compensation levels in line with local purchasing power.
 
@@ -68,16 +70,16 @@ As with all things at GitLab, the compensation calculator is a constant work in 
 
 **If you are an internal GitLab team member or external to GitLab:**
 
-- Create an issue utilizing the issue templates.
-  - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
-  - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
-  - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
-- Email total-rewards@domain for more personal inquiries.
+* Create an issue utilizing the issue templates.
+  * [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
+  * [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
+  * [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
+* Email total-rewards@domain for more personal inquiries.
 
 **If you prefer to remain anonymous:**
 
-- You can use the [Reporting a Compensation Discrepancy Form](https://forms.gle/tEmiwzYxCJqZhivF8).
-  - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
+* You can use the [Reporting a Compensation Discrepancy Form](https://forms.gle/tEmiwzYxCJqZhivF8).
+  * Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
 
 ### Rounding Best Practice
 
@@ -96,22 +98,22 @@ Previously, our compensation calculator and processes (percentage changes from c
 Benchmarks are determined based on the following types: Individual Contributor (IC), Manager, Director, Senior Director. The Total Rewards team will add an entry for each type listed within the job family. For example:
 
 ```yml
-  ic_ttc:
-    compensation: 100000
-    percentage_variable: 0
-    from_base: true
-  manager_ttc:
-    compensation: 140000
-    percentage_variable: 0
-    from_base: true
-  director_ttc:
-    compensation: 180000
-    percentage_variable: 0.15
-    from_base: true
-  senior_director_ttc:
-    compensation: 220000
-    percentage_variable: 0.15
-    from_base: true
+ ic_ttc:
+   compensation: 100000
+   percentage_variable: 0
+   from_base: true
+ manager_ttc:
+   compensation: 140000
+   percentage_variable: 0
+   from_base: true
+ director_ttc:
+   compensation: 180000
+   percentage_variable: 0.15
+   from_base: true
+ senior_director_ttc:
+   compensation: 220000
+   percentage_variable: 0.15
+   from_base: true
 ```
 
 Note: Where there is no variable component offered (ICs and Managers) GitLab runs the benchmark evaluation off of base salary only. Where there is a variable component offered, GitLab runs the benchmark evaluation off of Total Target Case (TTC).
@@ -139,23 +141,21 @@ Compensation Benchmarking is the process of using internal job descriptions to m
 
 Each new job family will be assigned a [job code](#job-codes) and evaluated through the same process as [for existing role](#benchmark-evaluation-for-existing-roles).
 
-To review the Compensation Benchmark process please refer to the [New Roles Creation](/handbook/hiring/job-families/#new-job-family-creation-or-additional-levelrole-within-a-current-job-family).
-
 #### Benchmark Adjustment
 
-As stated in [competitive rate]({{< ref "compensation#competitive-rate" >}}) we want to recruit and retain people who meet our requirements.
+As stated in [competitive rate](/handbook/total-rewards/compensation/#competitive-rate) we want to recruit and retain people who meet our requirements.
 If any one, or a combination of, the following statistics is met, a benchmark review can be requested to address any concerns around the benchmark:
 
-- An open role is open for longer than 100 days
-- A minimum of 4 **qualified** candidates reject an offer extended by GitLab, or withdraw from the hiring process, due to a reason of compensation for an open requisition
-  - Non qualified candidates who do not move forward in the hiring process, would not count towards this minimum as this would not be a reason of compensation, but more about competency or other qualifying reasons. We would still want to collect this data as an input for a compensation analysis on candidate expectations.
-- The Recruitment Declines and Withdrawals template is compiled with at least 10 rows of significant/qualified candidate data, including equity information.
-  - It is important to ensure when we discuss compensation we have an idea of the candidate's expectations of total rewards which is inclusive of cash and equity for compensation.
-- A voluntary departure rate of 12% or more by current GitLab team members in any given department due to the reason of compensation.
-- Evidence of leading indicators of increased compensation, for example:
-  - Increased recruiter reachouts to a specific department or role.
-  - Government policy announcements related to a specific business sector.
-  - Engagement Survey Results.
+* An open role is open for longer than 100 days
+* A minimum of 4 **qualified** candidates reject an offer extended by GitLab, or withdraw from the hiring process, due to a reason of compensation for an open requisition
+  * Non qualified candidates who do not move forward in the hiring process, would not count towards this minimum as this would not be a reason of compensation, but more about competency or other qualifying reasons. We would still want to collect this data as an input for a compensation analysis on candidate expectations.
+* The Recruitment Declines and Withdrawals template is compiled with at least 10 rows of significant/qualified candidate data, including equity information.
+  * It is important to ensure when we discuss compensation we have an idea of the candidate's expectations of _total rewards_ which is inclusive of cash and equity for compensation.
+* A voluntary departure rate of 12% or more by current GitLab team members in any given department due to the reason of compensation.
+* Evidence of leading indicators of increased compensation, for example:
+  * Increased recruiter reachouts to a specific department or role.
+  * Government policy announcements related to a specific business sector.
+  * Engagement Survey Results.
 
 **Timing of requests for benchmark adjustments:**
 
@@ -165,8 +165,8 @@ Requests to review a benchmark adjustment can be requested between Feb 1 and Oct
 
 Once data has been collected, the Total Rewards team will review the compensation expectations. During this review, we will look at survey data and candidate expectations (specifically declines due to compensation) to recommend an adjustment to our SF benchmark and target percentile for the role. Total Rewards will coordinate with FP&A and the department leader to draft a business case to be presented to the e-group leader. The business case would include:
 
-- A google sheet with market data, candidate expectations, and impact to the current team.
-- A google doc outlining the problem statement, what the department has already tried, and an overall proposal which clarifies the budgetary impact.
+* A google sheet with market data, candidate expectations, and impact to the current team.
+* A google doc outlining the problem statement, what the department has already tried, and an overall proposal which clarifies the budgetary impact.
 
 **Please see the following for a full summary of the benchmark review process:**
 
@@ -187,9 +187,9 @@ Once data has been collected, the Total Rewards team will review the compensatio
 
 To automate the process of pulling survey data from Comptryx and Radford to review benchmarks, GitLab has mapped each job title with a corresponding job code. As a first iteration GitLab will use the job codes Radford has outlined. Each job family and level must have a unique job code. The following structure is used:
 
-- Radford Code to be used as job code.
-- If there is a duplicate Radford code, the job code in Workday will have a letter behind to differentiate (A, B, C, etc).
-- If there is no job code, GitLab will generate a four digit unique job code starting with "N".
+* Radford Code to be used as job code.
+* If there is a duplicate Radford code, the job code in Workday will have a letter behind to differentiate (A, B, C, etc).
+* If there is no job code, GitLab will generate a four digit unique job code starting with "N".
 
 For example:
 Backend Engineer = 5163
@@ -203,43 +203,51 @@ All current job codes can be found by the Total Rewards team in the "Job Codes" 
 
 ### Introduction
 
-Location Factor is [calculated](#calculating-location-factors) using multiple data sources to conduct a market analysis of compensation rates globally: Economic Research Institute (ERI), Comptryx, Radford. This is *not* a cost of living analysis, but instead a **cost of labor market** evaluation compared to San Francisco. The Total Rewards team will use their best judgement in determining the input per location based on our [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
+Location Factor is [calculated](#calculating-location-factors) using multiple data sources to conduct a market analysis of compensation rates globally: Economic Research Institute (ERI), Comptryx, Radford. This is _not_ a cost of living analysis, but instead a **cost of labor market** evaluation compared to San Francisco. The Total Rewards team will use their best judgement in determining the input per location based on our [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
+
+#### In Workday
+
+In Workday the Location Factor is embedded into the Grade Profile as the second field. For example in a Grade Profile of "210.070.EUR", the second field "070" is referring to the Location Factor. As per Amsterdam's Location Factor in the Compensation Calculator, this is 0.70.
+
+The Grade Profile can be found under the Compensation tab, and is only viewable to managers.
+
+[Related issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/1139)
 
 ### Geographical Areas
 
 The location factor depends on your geographical area. To determine geographical areas as it relates to compensation, we looked at what the [United Nations](https://unstats.un.org/unsd/methodology/m49/) outlines globally:
 
-- Americas/LATAM:
-  - US: Central
-  - US: Mid Atlantic
-  - US: South Atlantic
-  - US: Mountain
-  - US: New England
-  - US: Pacific
-  - Canada
-  - Central America
-  - South America
-  - Caribbean
-- EMEA:
-  - Eastern Europe
-  - United Kingdom
-  - Northern Europe
-  - Southern Europe
-  - Western Europe
-  - Middle Africa
-  - Northern Africa
-  - Eastern Africa
-  - Southern Africa
-  - Western Africa
-- APAC:
-  - Central Asia
-  - Eastern Asia
-  - Northwestern Asia
-  - South-eastern Asia
-  - Southern Asia
-  - Southwestern Asia
-  - New Zealand
-  - Australia
+* Americas/LATAM:
+  * US: Central
+  * US: Mid Atlantic
+  * US: South Atlantic
+  * US: Mountain
+  * US: New England
+  * US: Pacific
+  * Canada
+  * Central America
+  * South America
+  * Caribbean
+* EMEA:
+  * Eastern Europe
+  * United Kingdom
+  * Northern Europe
+  * Southern Europe
+  * Western Europe
+  * Middle Africa
+  * Northern Africa
+  * Eastern Africa
+  * Southern Africa
+  * Western Africa
+* APAC:
+  * Central Asia
+  * Eastern Asia
+  * Northwestern Asia
+  * South-eastern Asia
+  * Southern Asia
+  * Southwestern Asia
+  * New Zealand
+  * Australia
 
 To determine your area:
 
@@ -247,9 +255,13 @@ To determine your area:
 1. Select your Province or State (if applicable).
 1. Select your Metro Area if you live within a commutable one hour and forty-five minutes of a city listed.
 
-    If you are within a commutable one hour and forty-five minutes of more than one city, use the city with the shortest commute as your location. If not, select "Not Applicable."
+   The commute time of one hour and forty-five minutes is calculated using standard transportation methods such as car or public transit (e.g., train, bus). We use Google Maps to estimate the travel time from the city center to your address, specifically during normal business commuting hours to account for typical traffic patterns (i.e. arriving to the city by 8 AM and departing to your address at 5 PM). If the estimated travel time falls within one hour and forty-five minutes radius during these peak commuting hours, you are considered within the commutable range for that Metro Area.
 
-    If there are no additional boxes for State/Province and/or Metro Area for the country you select, this country has the same location factor regardless of the city you live in. Similarly, if there is no additional box for Metro Area after selecting a State/Province, this state or province has the same location factor regardless of the city you live in.
+   If you are within a commutable one hour and forty-five minutes of more than one city, use the city with the shortest commute as your location. If not, select "Not Applicable."
+
+   **Note, in some unique cases the Metro Area within a one hour and forty-five minute radius may be in a different state (United States) or Province (Canada).**
+
+   If there are no additional boxes for State/Province and/or Metro Area for the country you select, this country has the same location factor regardless of the city you live in. Similarly, if there is no additional box for Metro Area after selecting a State/Province, this state or province has the same location factor regardless of the city you live in.
 1. If your country is not listed, reach out to total-rewards@domain to gather relevant data.
 1. When you move, you have to inform People Ops and Total Rewards, per the [Relocation process](/handbook/people-group/relocation/) and your compensation may be adjusted up or down. Refer to Total Rewards team or the Compensation Calculator to see what the likely impact will be.
 
@@ -260,34 +272,34 @@ If the location of a metropolitan area is higher than the regional minimum, the 
 GitLab will gather and analyze the data for each location factor annually as part of annual compensation review. We will also iterate on location factors as needed throughout the year.
 
 1. Data Gathering
-    - ERI: Review the Cost of Labor Market Analysis of each Geo Area to San Francisco at the 100,000, 150,000, and 200,000 salary rate. Take the average of all three data points.
-    - Comptryx: Pull a report from Comptryx with all job families in SF as well as each location available in Comptryx to evaluate the differential.
-    - Radford: Pull a report from Radford with all job families in SF as well as each location available in Radford to evaluate the differential.
-    - In reviewing the data set, determine if a new geo area needs to be added to the list.
+   * ERI: Review the Cost of Labor Market Analysis of each Geo Area to San Francisco at the 100,000, 150,000, and 200,000 salary rate. Take the average of all three data points.
+   * Comptryx: Pull a report from Comptryx with all job families in SF as well as each location available in Comptryx to evaluate the differential.
+   * Radford: Pull a report from Radford with all job families in SF as well as each location available in Radford to evaluate the differential.
+   * In reviewing the data set, determine if a new geo area needs to be added to the list.
 1. Data Analysis
-    - For geographical areas:
-        - Take the average of all non-metro data to determine the location factor for the geographical area. If insufficient non-metro data is available, use all available data and deflate for metros.
-    - For metro areas, take the maximum of:
-        - the average of all data sources rounded up to the nearest 0.05 OR
-        - the current location factor or geographic area (so as to not reduce location factors).
-        - If the location factor for the metro area is higher than for the geographical area, pull this out as its own location factor.
-        - Analyze the output based on geo areas to adjust location factors where needed. Add a comment with the rationale for the adjustment.
-    - Reasons why the formula may be adjusted:
-        - Not enough number of data points for the output to be statistically relevant
-        - Adjusted to align with other metros in geo
-    - When analyzing: Focus on where we are having troubles talent acquisition, retaining, or have a smaller population of team members as these can be indicators of a misalignment in the region.
+   * For geographical areas:
+       * Take the average of all non-metro data to determine the location factor for the geographical area. If insufficient non-metro data is available, use all available data and deflate for metros.
+   * For metro areas, take the maximum of:
+       * the average of all data sources rounded up to the nearest 0.05 OR
+       * the current location factor or geographic area (so as to not reduce location factors).
+       * If the location factor for the metro area is higher than for the geographical area, pull this out as its own location factor.
+       * Analyze the output based on geo areas to adjust location factors where needed. Add a comment with the rationale for the adjustment.
+   * Reasons why the formula may be adjusted:
+       * Not enough number of data points for the output to be statistically relevant
+       * Adjusted to align with other metros in geo
+   * When analyzing: Focus on where we are having troubles talent acquisition, retaining, or have a smaller population of team members as these can be indicators of a misalignment in the region.
 
 ## Level Factor
 
 Level Factor is currently defined as:
 
-- Junior: 0.8 x ic_ttc
-- Intermediate: 1.0 x ic_ttc
-- Senior: 1.2 x ic_ttc
-- Staff/Manager: 1.0 x manager_ttc
-- Senior Manager: 1.2 x manager_ttc
-- Director: 1.0 x director_ttc
-- Senior Director: 1.0 x seniordirector_ttc
+* Junior: 0.8 x ic_ttc
+* Intermediate: 1.0 x ic_ttc
+* Senior: 1.2 x ic_ttc
+* Staff/Manager: 1.0 x manager_ttc
+* Senior Manager: 1.2 x manager_ttc
+* Director: 1.0 x director_ttc
+* Senior Director: 1.0 x seniordirector_ttc
 
 The nomenclature can be adjusted for each job family to ensure the appropriate level to select is clear.
 
@@ -297,7 +309,7 @@ GitLab job grades aid in mapping a role for internal equity with respect to cash
 
 #### Job Grades
 
-*Note: This table excludes Enterprise Sales, Commercial Sales, Channel Sales, and Sales Development. Grading can be seen in the table below.*
+_Note: This table excludes Enterprise Sales, Commercial Sales, Channel Sales, and Sales Development. Grading can be seen in the table below._
 
 | Grade    | Management       | Individual Contributor    |
 |-------|------------------|---------------------------|

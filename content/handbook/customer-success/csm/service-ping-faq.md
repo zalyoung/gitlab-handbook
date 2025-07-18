@@ -54,28 +54,42 @@ Yes, you are able to extract this information manually and review prior to sendi
 1. A JSON formatted output of the data that is sent from GitLab instances to gitlab.com when allowed will be displayed in a pop-up.
 Copy and paste this information into a text file, encrypt and send to GitLab or upload over SSH/HTTPS to the customer collaboration for your organization that's securely hosted on gitlab.com
 
-## 4. Can customers visualize the data?
+### 4. Can customers visualize the data?
 
-At this time, you can access the data through [a REST API connection](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). We are starting to explore the possibilities to enable customer visualization and/or analysis.
+Yes. GitLab provides multiple ways to access and visualize Service Ping data:
 
-## 5. How do we ensure that you don't change what's in the payload?
+- **Manual access via REST API**:  
+  You can export the Service Ping data manually through [GitLab’s REST API](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). This enables direct inspection of the raw payload.
+
+- **GitLab Service Ping Dashboard**:  
+  GitLab Customer Success has developed a dedicated [Service Ping Dashboard](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/service-ping-dashboard) that allows you to track and visualize historical Service Ping metrics via a GitLab Pages site. The dashboard:
+  - Fetches Service Ping data via the API.
+  - Stores historical data over time.
+  - Generates interactive graphs.
+  - Updates weekly via GitLab CI/CD.
+  - Categorizes metrics and includes search/autocomplete for easy exploration.
+  - Automatically displays metric descriptions, trends and metadata.
+  
+  This tool helps customers gain deeper insights into adoption trends, monitor key DevOps metrics over time, and prepare visual reports for stakeholders.
+
+### 5. How do we ensure that you don't change what's in the payload?
 
 Our documentation shows all usage statistics and content that is sent back to GitLab. When we change / update product analytics you can view the exact JSON payload in the administration panel. To view the payload: Navigate to the Admin Area > Settings > Metrics and profiling. Expand the Usage statistics section. Click the Preview payload button.
 
-## 6. Our security team will have to sign off first
+### 6. Our security team will have to sign off first
 
 You can inspect the data and have your security team review it. They can continue to monitor (via ELK stack) that GitLab is not breaking security policy with new releases. We invite you to ship this data to an internal ELK stack, and sanitize it before sending to your GitLab Customer Success Manager. If we can get your security team to review and approve, we can fully automate this process so you don't have to go to the trouble.
 
-## 7. We have network isolation and there is no way for usage to get out of their network
+### 7. We have network isolation and there is no way for usage to get out of their network
 
 We respect your organizations' network security policies and restrictions and understand there are situations where it is not feasible or technically possible to submit service ping over the Internet. If Service Ping is blocked by a firewall, load balancer, or proxy, you might consider [modifying](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#network-configuration) your network configuration to un-block the Service Ping payload from being sent to GitLab.
 
 If you see value in sharing Service Ping data and it's not technically possible for you to do so directly, GitLab can provide you instructions to share the data manually, including allowing you to sanitize certain data as preferred.
 
-## 8. How do I disable service ping?
+### 8. How do I disable service ping?
 
 **Free Self-Managed instances (CE and EE edition): If you want to deactivate this feature, go to the Settings page of your administration panel and uncheck the Service Ping checkbox.
-**Paid Self-Managed instances (EE edition)**:  You may partially deactivate Service Ping by unchecking the Service Ping checkbox of your administration panel.  However, certain Service Ping metrics related to subscriptions and customer success services can only be deactivated via support or through a sales representative. Details can be found in our [Customer Product Usage Information](handbook/legal/privacy/customer-product-usage-information/#service-ping-formerly-known-as-usage-ping).
+**Paid Self-Managed instances (EE edition)**:  You may partially deactivate Service Ping by unchecking the Service Ping checkbox of your administration panel.  However, certain Service Ping metrics related to subscriptions and customer success services can only be deactivated via support or through a sales representative. Details can be found in our [Customer Product Usage Information](/handbook/legal/privacy/customer-product-usage-information/#service-ping-formerly-known-as-usage-ping).
 
 You can view the payload at "/admin/application_settings/metrics_and_profiling" in the Usage Statistics section and press the "View Payload" button.
 

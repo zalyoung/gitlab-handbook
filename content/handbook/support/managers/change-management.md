@@ -104,7 +104,7 @@ helping to speed the process along.
 This issue is used for presenting the problem that you are working to solve, for hosting
 a discussion around that topic, and for documenting the testing phase.
 
-As soon as possible, create the MR(s) to present the actual proposed changes.
+As soon as possible, create the documentation MR(s) and/or [companion issues for Customer Support Operations](/handbook/support/workflows/working_with_support_ops) to present the actual proposed changes.
 
 Include at least the following in the MRs:
 

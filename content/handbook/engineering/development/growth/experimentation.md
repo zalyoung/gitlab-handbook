@@ -13,7 +13,7 @@ This page covers the Growth engineering process for running experiments. See als
 
 ## Running Experiments
 
-We follow a four step process for running experiments as outlined by [Andrew Chen's How to build a growth team.](https://andrewchen.co/how-to-build-a-growth-team/)
+We follow a four step process for running experiments as outlined by [Andrew Chen's How to build a growth team.](https://andrewchen.com/how-to-build-a-growth-team/)
 
 1. **Form Hypotheses:** Define ideas our team wants to test.
 2. **Prioritize Ideas:** Decide which ideas to test first.
@@ -38,7 +38,7 @@ The duration of each experiment will vary depending on how long it takes for exp
     * experiments that meet our [Experiment Definition Standards](#experiment-definition-standards) and are deemed relevant are initially prioritized by adding the appropriate milestone list (`%Awaiting further demand`, `%Backlog`, `%Next 1-3 releases`, or a specific milestone)
     * experiments that do not meet our [Experiment Definition Standards](#experiment-definition-standards) or are deemed no longer relevant are closed
 1. PM follows the process outlined in [Experiment Setup](#experiment-setup) to create an epic and related issues
-1. PM, UX, and Engineering follow the [product development flow](/handbook/product-development-flow/) and create `workflow::` issues linked to the epic to track the work required to complete the experiment
+1. PM, UX, and Engineering follow the [product development flow](/handbook/product-development/how-we-work/product-development-flow/) and create `workflow::` issues linked to the epic to track the work required to complete the experiment
 1. Additionally, the PM works with the Data Team to define what data will be needed in order to fulfill the defined success metric
     * **Note:** In order for the Data Team to begin ingesting data from new tables or columns, those tables or columns must first exist in the production database.
 1. Engineering teams deliver changes in line with our product development flow, being mindful of changes affecting other GitLab teams.

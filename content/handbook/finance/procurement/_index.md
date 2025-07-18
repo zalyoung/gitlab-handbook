@@ -6,7 +6,7 @@ title: The GitLab Procurement Team
 
 The Procurement team manages GitLab's [Supplier Lifecycle](#vendor-lifecycle-management) through the process of strategically vetting and selecting vendors, negotiating commercial terms, the purchasing of goods and services, and managing the renewal or vendor offboarding process.
 
-<a href="https://docs.google.com/presentation/d/1p4TVSjwa79zbVs-7iDZ3_YrR8WQgB7jC7ZC_iKyUq3Y/edit#slide=id.g127b84edaab_0_0"><img src="process2.png" alt="Procurement process"></a>
+<a href="https://docs.google.com/presentation/d/1p4TVSjwa79zbVs-7iDZ3_YrR8WQgB7jC7ZC_iKyUq3Y/edit#slide=id.g127b84edaab_0_0"><img src="/images/finance/procurement/process2.png" alt="Procurement process"></a>
 
 ### Procurement Team Alignment
 
@@ -46,27 +46,27 @@ All new spend, changing of vendors for existing services, and market reviews eve
 - Follow the RFP process outlined in the [internal handbook](https://internal.gitlab.com/handbook/finance/procurement/). You will find resources and templates for RFP events at any level, whether it is a quick bid or a full procurement-led RFP with 5+ vendors. Always reach out to your Procurement Cateogry Manager to notify them that an RFP is being conducted- they can assist in the process and can answer any questions.
   - As part of this process, create an issue with the [RFP Intake template](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new#) and tag your [Category Manager](#procurement-team-alignment).
 
-Before sharing details and/or confidential information regarding GitLab business needs, obtain a [Mutual Non-Disclosure Agreement](/handbook/legal/NDA/#) from the potential vendor(s). Refer to the [Signature Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for signing authority.
+Before sharing details and/or confidential information regarding GitLab business needs, obtain a [Mutual Non-Disclosure Agreement](/handbook/legal/nda/#) from the potential vendor(s). Refer to the [Signature Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for signing authority.
 
 All vendors must adhere to the [GitLab Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/). It is mandatory all vendors contractually adhere to this if they would like to do business with us. (Note these are typically not required in event related agreements unless the vendor is providing services).
 
-#### 2. Negotiation, Privacy and Security Review
+#### 2. Negotiation, Privacy, Security, and Compliance Review
 
 Depending on the amount of spend, Procurement will assist or lead in negotiating the pricing and commercial terms of the contract.
 
-Depending on the types of data shared with the vendor, Privacy and Security will need to complete a review of the vendor
+Depending on the types of data shared with the vendor, Privacy and Security will need to complete a review of the vendor. Depending on nature of vendor's services and/or whether the vendor has been recommended to us, the Ethics and Compliance team will need to complete an anticorruption/antibribery review and, potentially, recommend additional measures to mitigate that risk.
 
 For more information on these requirements and steps, see the [Review Steps, Timeline, and Considerations section](#review-steps-timeline-and-considerations)
 
 #### 3. Contracting
 
-All work that is done with a vendor must have a completed contract to be compliant and work may not be started until a contract is in place. Contracts include [NDAs](/handbook/legal/NDA/#), Master Service Agreements and Statements of Works. Our legal team assists with this step in the process. Please see the [legal review process](#3a-legal-review-3-to-21-days) for more details.
+All work that is done with a vendor must have a completed contract to be compliant and work may not be started until a contract is in place. Contracts include [NDAs](/handbook/legal/nda/#), Master Service Agreements and Statements of Works. Our legal team assists with this step in the process. Please see the [legal review process](#4a-legal-review-3-to-21-days) for more details.
 
 Additionally, please note that a small number of team members can sign agreements on behalf of GitLab - please see the [Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for more details.
 
 #### 4. Vendor Onboarding
 
-In order for vendors to be paid, they need to complete their onboarding in our systems. Please see the [New Vendor Onboarding](#1b-new-supplier-onboarding-2-3-days-if-required) section for more details.
+In order for vendors to be paid, they need to complete their onboarding in our systems. Please see the [New Vendor Onboarding](#2b-new-supplier-onboarding-2-3-days-if-required) section for more details.
 
 #### 5. Recurring Vendor Reviews and Management
 
@@ -87,6 +87,8 @@ If holding a business review with a vendor, the following topics should be discu
 On a quarterly basis, the Procurement team will meet with business stakeholders in each department to review a rolling 12 month list of renewals, focusing on the upcoming 2 quarters. This list is pulled from Zip and Coupa. The list should be reviewed and prioritized with the business owners. The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms and decide:
 
 - Are there any additional security requirements for the vendor?
+- Has our sanctions screening tool, Risk Rate, detected any potential matches since the vendor was originally onboarded?
+- Has the anticorruption risk profile changed?
 - Has the vendor had an RFP for pricing in last 3 years?
 - Do we want to terminate or reduce spend and need to proactively notify per the contract?
 - Do we want to change any terms of our contract?
@@ -133,13 +135,19 @@ Depending on a few factors of your purchase, there are different ways to engage 
    1. [Change Requests to existing POs](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change)
    1. [$0 contract reviews including demos and trials](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-signature-on-a-poc-agreement)
    1. Partner Revenue Payments
-   1. [Individual Use Software](/handbook/finance/procurement/personal-use-software/)
+   1. [Individual Use Software](/handbook/finance/procurement/individual-use-software/)
    1. [Providing Termination or Non-Renewal Notice](/handbook/finance/procurement/#6-cancellation)
 1. For new spend, changing vendors for existing services, or after 3 years of renewing a service, follow the [RFP Process](https://internal.gitlab.com/handbook/finance/procurement/)
    1. Over $250K: Procurement led RFP, typically 5+ vendor bids
    1. $100K - $250K: Business led RFP, 2-3 vendor bids required
    1. $25K - $100K: Business led quick-bid, 2 vendor bids required
    1. Under $25K: no bid required
+
+### Hiring a Contingent Worker?
+
+If you're hiring a contingent worker, please read GitLab's [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/), which provides comprehensive guidelines on engaging with different types of contingent workers. The policy outlines three main categories: Staff Augmentation Workers (agency-provided temporary resources), Consultancy Services (third-party professional services), and Independent Contractors (used by exception only). You'll find detailed information about each worker type's characteristics, duration limits, country hiring guidelines, contractor extension processes, and background screening requirements. This policy is designed to help team members understand when and how to properly engage contingent workers while mitigating classification risks.
+
+Note: For subcontractors for the Professional Services team, please use the process for Revenue Partner Payments.
 
 ### Review Steps, Timeline, and Considerations
 
@@ -153,52 +161,59 @@ Requests can take 5 days to 3+ weeks for processing depending on a number of fac
 
 Each review's targeted approval time is outlined below, but as mentioned above, this is dependent on many factors and the accuracy and completeness of information provided by the requester. If your request meets any of the additional approval criterias outlined below, please plan accordingly and submit your Zip request allowing each cross-functional team enough time to complete their review. Please follow the [steps outlined for urgent requests](#what-if-i-have-an-urgent-request) that cannot meet the below timeline and have specific and quantifiable impact to the business.
 
-#### 1.A. Buyer Review (Procurement): 2 days
+#### 1. Sanctions Screening (Ethics & Compliance): 30 minutes - 3+ Days, if required
 
-- Ensure you have the approprate contract documents uploaded when you submit your request
+- Use the vendor’s complete name in your Zip request, as this will be the basis for sanctions screening which automatically happens in our sanctions screening tool, Risk Rate. Incomplete names (e.g., "EY Germany" rather than "Ernst and Young GmbH") may result in false positives and unnecessary delay.
+- If Risk Rate detects no matches between the vendor and applicable sanctions lists AND the vendor is not located in a high-risk country, the vendor will be auto-approved. If Risk Rate detects a potential match or is located in a high risk country, the vendor may require escalation to and manual review by GitLab's Trade Compliance Counsel.
+- Include the vendor’s website or LinkedIn page in the relevant Zip field, in advance, to help counsel evaluate the match more quickly.
+
+#### 2.A. Buyer Review (Procurement): 2 days
+
+- Ensure you have the appropriate contract documents uploaded when you submit your request
 - The $ amount of the req matches the contract value and the correct billing codes are selected
 
-#### 1.B. New Supplier Onboarding: 2-3+ Days, if required
+#### 2.B. New Supplier Onboarding: 2-3+ Days, if required
 
 - This is entirely dependent upon the suppliers response time.
 - Once supplier information has been submitted in Zip and the Procurement team sets the vendor up in Coupa, the supplier receives an email from Coupa requesting banking and tax information to facilitate payment.
 - The Procurement team cannot complete this on the supplier's behalf since we do not know this information. If we did, it would be a violation of SOX Compliance guidelines.
 - If your supplier isn't onboarded after 2 days, contact your supplier directly requesting they do so ASAP since their contract cannot be reviewed or approved until this is completed. Carbon copy procurement@gitlab.com
 
-#### 2.A. FP&A Review: 2 days
+#### 3.A. FP&A Review: 2 days
 
 - FP&A is included as an initial reviewer to ensure the requested spend is within budget and that the Billing Code entered in Zip is correct so it can be pushed to Coupa when ready for final approvals.
 
-#### 2.B. IT Review: 2 days if purchasing new software or for contractors
+#### 3.B. IT Review: 2 days if purchasing new software or for contractors
 
 - Requester should have vendor complete the [IT New Software Questionnaire](https://docs.google.com/spreadsheets/d/1SgyzxDDiTbig0VtZ5RPgX92U_VlQu1mq/edit?usp=sharing&ouid=115328509315203543998&rtpof=true&sd=true) and submit with the purchase request so IT can complete their review
 
-#### 3.A. Legal Review: 3 to 21 days
+#### 4.A. Legal Review: 3 to 21 days
 
-**Note:** The amount of time for review, and to reach execution, is based on the details below. Use these SLA's as guidelines, noting that each contract review process is unique and if additional terms, requirements, and/or risks are identified the timeline for completion may be extended. The ability for GitLab to process and work efficiently through an agreement negotiation relies on the vendor, and vendor counsel, to respond promptly to GitLab red-lines and comments.
+The amount of time for review and reaching execution is based on the details below. Use these SLAs as guidelines, noting that each contract review is unique. If additional terms, requirements, and/or risks are identified, the timeline may be extended. The ability for GitLab to work efficiently through an agreement negotiation relies on the vendor and their counsel responding promptly to GitLab redlines and comments. Delays from the supplier will delay approval.
 
 **Types of Vendors and Review Times**
 
-- **Existing Vendors for renewals or upsells: 3-5 Days**
-  - These generally require much less time as existing terms are in place which will underline the products and/or services being offered.
-  - That being said, in the event GitLab is adding a new product and/or service (from an existing Vendor) additional cycles may be required in order to create amendment(s) to the existing agreement.
-  - Any delays from the supplier, will delay final approvals.
-- **New Vendors: 1-3+ weeks**
-  - These require the most amount of time as GitLab will be establishing (for the first time) terms and conditions which will govern the use of the products and/or services being procured.
+- **Existing vendors for renewals or upsells: 3-5 days**
+  - Existing vendors generally require much less time as existing terms are in place which will underline the products and/or services being offered. That said, in the event GitLab is adding a new product and/or service, additional cycles may be required in order to amend the existing agreement.
+  - :warning: You must either upload all complete contract terms (including attachments and amendments) or provide a direct link to an existing agreement. Indicate which sections cover your current request. For example, "See existing Master Service Agreement with Vendor XYZ (Zip req #67890), Amendment #3 covers the new software modules we're requesting". Do **not** provide general references like "covered under existing agreement with vendor" or assume legal can locate terms without guidance.
+
+- **New vendors: 1-3+ weeks**
+  - New vendors require the most amount of time as GitLab will be establishing terms and conditions for the first time, which will govern the use of the products and/or services being procured.
+  - **All contract documents must be provided in Word (.docx) format in English.** PDF versions are not acceptable for legal review as they cannot be efficiently redlined. Contact the vendor to request the Word version before submitting your request.
   - Negotiations can vary from 1 week to multiple months based on the level of detail and modifications required to reach executable terms.
-  - If vendor doesn't readily accept the GitLab standard terms, additional rounds of red-lines and negotiations may be required, extending this SLA.
-  - Whenever possible, the legal team hopes to achieve red-lines--to be provided back to the vendor no later than five (5) business days after being assigned.
+  - If vendor doesn't readily accept the [GitLab standard terms](/handbook/finance/procurement/vendor-guidelines/vendor-agreement/), additional rounds of redlines and negotiations may be required, extending this SLA.
+  - Whenever possible, the legal team hopes to achieve redlines provided back to the vendor no less than five (5) business days after being assigned.
 
 **Types of Agreements**
 
-- **Software (SaaS & On-Prem):** Requires the most rigorous review to ensure the rights and obligations placed upon GitLab are, (i) reasonable given the Software being provided, and (ii) align with GitLab contracting and industry standards.
-- **Professional Services / Training:** Requires detailed review to ensure intellectual property ownership aligns with our intentions, as well as, reasonable obligations being placed upon GitLab.
-- **Marketing / Events:** Generally, requires the least amount of time to review as the obligations are standardized given the event in question and program provided. Details regarding events may include negotiations with regards to Force Majeure, cancellation (including penalty), and ensuring the terms of the Agreement align with those of the requesting GitLab Team Members.
-- **Data Processing Agreement (DPA)/Standard Contractual Clauses (SCCs):** Required when personal data is shared with, accesssed, or collectd by the supplier on behalf of GitLab. DPA/SCCs are generally affixed to an agreement but may be required as a separate agreement upon the determination of Privacy.
+- **Software (SaaS & On-Prem):** Requires the most rigorous review to ensure the rights and obligations placed upon GitLab are, (i) reasonable given the software being provided, and (ii) align with GitLab contracting and industry standards.
+- **Professional Services / Training:** Requires detailed review to ensure intellectual property ownership aligns with our intentions, and reasonable obligations being placed upon GitLab.
+- **Marketing / Events:** Generally, requires the least amount of time to review as the obligations are standardized given the event in question and program provided. Details regarding events may include negotiations with regards to Force Majeure, cancellation (including penalty), and ensuring the terms align with those of the requesting GitLab team members.
+- **Data Processing Agreement (DPA)/Standard Contractual Clauses (SCCs):** Required when personal data is shared with, accesssed, or collected by the supplier on behalf of GitLab. DPA/SCCs are generally affixed to an agreement but may be required as a separate agreement upon the determination of Privacy (see the Privacy review process below).
 
 *Negotiation, Security, Privacy, and PeopleOps reviews are only required if the purchase request meets certain criteria, as described below. In the event two or more of these activities are required, they will happen in parallel to one another and Legal's review.*
 
-#### 3.B. Negotiation: 12 days
+#### 4.B. Negotiation: 12 days
 
 - The Procurement team negotiates SaaS contracts >$25k and one-time contracts >$100K
   - **If this step is not taken, purchase orders will not be approved until Procurement is able to negotiate**
@@ -207,23 +222,29 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
   - If the contract value is >$100k or Procurement is already actively negotiating or communicating with the vendor, Procurement will take responsibility for sending any legal redlines to the vendor. Procurement will comment in the req if/when they have sent redlines to the vendor for visibility. Otherwise the Stakeholder/Requester will be responsible.
   - [Review here for more details on when and who is responsible](/handbook/business-technology/enterprise-applications/guides/zip-guide/#legal-approval--redlines)
 
-#### 3.C. Security Review: 4-14 Days
+#### 4.C. Security Review: 4-14 Days
 
 - [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/) reviews are required for vendors that collect, process, or store Orange / Red Data, software providers (SaaS and On-premise), and independent contractors / consultants. (Excluding field marketing events)
 - This activity cannot begin until **after** the supplier completes the security questionnaire and supplies their security documentation. Oftentimes, it can take 1-2 weeks for the supplier to respond and complete the requested materials. The security review SLA begins once that is completed. Time before this activity can begin is entirely dependent upon the supplier's response time and maturity of security protocols.
 - **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from GitLab's Security Risk Team for completion ASAP.
 - For any inquiries and questions, please tag @securityrisk in the #procurement slack channel.
 
-#### 3.D. PeopleOps Review: 1-4 Days
+#### 4.D. Compliance Review: 4-14 Days
+
+- The first page of the Zip request includes anticorruption gating question (e.g., will the vendor interact with government agencies on our behalf, was this vendor recommended by a government official, etc.). If the answer to any of these questions is “yes,” the Ethics & Compliance team must consider whether the vendor presents unacceptably high compliance risk.
+- To do this, the Ethics & Compliance team will conduct additional due diligence, which may, in part, consist of sending a questionnaire directly to the vendor. This questionnaire asks about the vendor’s ownership and history with applicable regulatory agencies, to better understand the risk, and asks whether the vendor has an anticorruption program in place, to understand whether the vendor has already taken measures to mitigate that risk. Turnaround time largely depends on the vendor's responsiveness.
+- When risk is present, the Ethics & Compliance team will consider whether anything can be done to mitigate that risk. Risk mitigation could, for example, consist of additional provisions in the vendor agreement.
+
+#### 4.E. PeopleOps Review: 1-4 Days
 
 - PeopleOps serve as reviewers on all professional services requisitions to determine if a background screening is necessary.
-- Per GitLab's [People Policies](/handbook/people-policies/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
+- Per GitLab's [People Policies](/handbook/people-group/contracts-probation-periods/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
 - A background screening can be requested by opening an issue in the [Lifecycle Management](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) project by using the `background_check_request` template.
 - Approval will occur once proof of a completed or an initiated background screening has been shared or once the contractor has submitted their background screening for processing.
 - The Sr. Background Check Specialist will only follow up if a result of concern returns on the background screening.
 - Questions and/or proof regarding background screenings on professional service requisitions in Zip can be sent to [backgroundchecks@gitlab.com](mailto:backgroundchecks@gitlab.com).
 
-#### 3.E. Privacy Review: 4-14 Days
+#### 4.F. Privacy Review: 4-14 Days
 
 - A Privacy Review is required for all SaaS purchases and other purchase types where the supplier will receive from GitLab or collect on GitLab's behalf red/orange data. For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle
 - This activity begins **after** the supplier completes a Privacy and Trade Compliance Assessment form and a Transfer Impact Assessment Form (where personal data is transferred from the EU to the U.S.) Oftentimes, it can take a week for the supplier to respond and complete the requested forms. The SLA begins once that is completed.
@@ -231,11 +252,11 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 - A DPA/SCCs are often made part of the agreement with the supplier. Generally, Privacy would prefer to use our DPA/SCCs but if the supplier provides their DPA/SCCs as an exhibit to the main agreement, Legal and Privacy may use the supplier's version to arrive at a final agreed upon version. Procurement will obtain executed versions of DPA/SCCs in the Final Buyer Review stage.
 - **TIP:** To increase speed of approval, add a link to the suppliers privacy notice; upload the suppliers Transfer Impact Assessment Guide; and upload a word version of their DPA/SCCs if the supplier requuests us to use their version.
 
-#### 4. Final Buyer Review and Coupa Req Creation: 2 days
+#### 5. Final Buyer Review and Coupa Req Creation: 2 days
 
 - Procurement completes a final check that all information is accurate and agreement(s) have been stamped before creating the req in Coupa for final approvals.
 
-#### 5. Coupa Approvals and Execute Contract: 4 days
+#### 6. Coupa Approvals and Execute Contract: 4 days
 
 - At this point, the req has been created in Coupa for final FP&A, Functional, and Executive approvals (as applicable).
 - Once these approvals are received, Procurement will route the contract for GitLab and vendor signatures and will comment in the Coupa req when it is routing. After both parties have signed the Agreement(s), Procurement will attach a copy of the executed agreement in Coupa, approve the Purchase Req, and release the PO.
@@ -243,7 +264,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 - To see how to check approval status in Coupa, visit the [Zip End Users Guide](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-check-status-of-a-new-request).
   - Note: the completion of this step is dependent on how quickly the required approvers approve in Coupa and the contract is signed
 
-#### 6. Finalize Request Details
+#### 7. Finalize Request Details
 
 - Your purchase req has been approved! The supplier will receive a copy of the PO and a communication from Coupa indicating how to submit invoices, one of two ways:
   - Directly in their Coupa portal (preffered)
@@ -354,12 +375,12 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 #### Documentation
 
-- [Non-Disclosure Agreement (NDA) Process](/handbook/legal/NDA/)
+- [Non-Disclosure Agreement (NDA) Process](/handbook/legal/nda/)
 - [Certificate of Insurance Request Process](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#requesting-a-certificate-of-insurance)
 - [Uploading Third Party Contracts to ContractWorks](/handbook/legal/vendor-contract-filing-process/)
 - [Company Information](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) - general information about each legal entity of the company
 - [Trademark](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines) - information regarding the usage of GitLab's trademark
-- [Authorization Matrix]({{< ref "authorization-matrix" >}}) - the authority matrix for spending and binding the company and the process for signing legal documents
+- [Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) - the authority matrix for spending and binding the company and the process for signing legal documents
 
 #### Other Services
 
@@ -367,7 +388,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 - [Individual Use Software](individual-use-software/)
 - [RFP and Vendor Selection Process](https://internal.gitlab.com/handbook/finance/procurement/)
 - [Vendor Terms and Conditions](vendor-guidelines/)
-- [Non-Disclosure Agreement (NDA)](/handbook/legal/NDA/#)
+- [Non-Disclosure Agreement (NDA)](/handbook/legal/nda/#)
 - [Charitable Contributions](charitable-contributions/)
 - [Non-Cost Related Agreements (Including Trials/Demos)](trial-agreement/)
 <!-- markdownlint-enable MD051 -->

@@ -3,13 +3,13 @@ title: New Product Introduction (NPI) Process
 description: How to launch a product or service at GitLab.
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Context
 
 Launching a product or service at GitLab involves coordination across a wide range of teams. Launching products smoothly is a critical part of delivering value to the customer, ensuring a positive customer experience, and positioning us to meet our financial targets. Our ability to efficiently manage the New Product Introduction (NPI) process will become increasingly important as we bring new products to market more frequently. To ensure that we launch new product offerings, service offerings, or SKUs effectively; we require a set of steps that happen in phases.
 
-To launch features into our existing product set and tiers, use [this process](/handbook/product/tiering-guidance-for-features/) instead.
+You do not need to follow the NPI process to launch features into our existing product set and tiers. A feature that will fit into our existing monetization options (free, premium, ultimate) follows our normal operating procedure of launching into a release milestone.
 
 ### Summary of phases
 
@@ -58,7 +58,7 @@ The DRI should create a business plan based on an NPI Planning Info Sheet (templ
 
 Ideally at this point you will already know the pricing structure, but if not, a conversation with the Pricing Committee is needed:
 
-1. Contact Justin Farris's [EBA](/handbook/eba/#:~:text=Jennifer%20Garcia%0AEBA-,Justin%20Farris) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
+1. Contact Justin Farris's [EBA](/handbook/eba/#executive-business-administrator-team) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
 1. Pricing will review the product or services brief and follow up within a week for any clarifying questions, and suggest the right level of research needed to arrive at a recommendation.
 1. Pricing team will conduct required research following our process, and pricing principles. Depending on the complexity of the offer, and potential market size this research could take a couple of weeks, up to a few months to complete.
 1. Pricing team will make a recommendation of what business model the product/service should have (e.g. fixed fee, subscription, consumptive, add-on, new tier), and recommend a price point or range to consider for the offering
@@ -123,7 +123,7 @@ Teams should also follow up post-launch with input on customer perspective/feedb
 
 **Context**
 
-Launching features into our current product set is a well understood [process](/handbook/product/tiering-guidance-for-features/). To launch new product offerings, service offerings or SKUs requires a set of steps that need to be sequenced in a way to ensure product launch is done efficiently and effectively.
+Launching features into our current product set is a well understood [process](/handbook/product/product-processes/tiering-guidance-for-features/). To launch new product offerings, service offerings or SKUs requires a set of steps that need to be sequenced in a way to ensure product launch is done efficiently and effectively.
 
 **Summary of the steps.**
 

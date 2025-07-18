@@ -15,7 +15,7 @@ A standard response is available in ZenDesk as a macro [`Support::SaaS::Gitlab.c
 
 If required, you can escalate the ticket/issue by following our [escalation process](/handbook/support/internal-support/support-ticket-attention-requests).
 
-You can consider using the [kibana workflow]({{< ref "kibana" >}}) page for tips on retrieving logs for requests within the last 7 days. Log requests beyond a summary (similar to the examples below) or where logs are not readily available on Kibana should be handled according to the process outlined in the handbook page dedicated to [providing assistance to GitLab.com customers during customer-based security incidents](/handbook/security/customer-requests/).
+You can consider using the [kibana workflow](/handbook/support/workflows/kibana/) page for tips on retrieving logs for requests within the last 7 days. Log requests beyond a summary (similar to the examples below) or where logs are not readily available on Kibana should be handled according to the process outlined in the handbook page dedicated to [providing assistance to GitLab.com customers during customer-based security incidents](/handbook/security/customer-requests/). GitLab's Security Incident Response Team handles complex, extensive requests according to an internal [runbook](https://internal.gitlab.com/handbook/security/cross_functional_runbooks/customer_security_incidents/) for customer response operations.
 
 ### Who can make a request
 
@@ -23,19 +23,19 @@ You can consider using the [kibana workflow]({{< ref "kibana" >}}) page for tips
 
 Requester must be a Group Owner of a pre-existing paid namespace.
 
-- Must [verify](/handbook/support/workflows/account_verification/) that this is who is making the request and should be in alignment with support for [Enterprise Users]({{< ref "gitlab-com_overview.md#enterprise-users" >}})
+- Must [verify](/handbook/support/workflows/account_verification/) that this is who is making the request and should be in alignment with support for [Enterprise Users](/handbook/support/workflows/gitlab-com_overview#enterprise-users)
 
 > NOTE: A user cannot upgrade to a paid subscription to gain access to logging requests.
 
 #### Free Users
 
-Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
+Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
 
 ### What we can provide
 
 We can provide the following information:
 
-- Information found in the [Audit Events Features](https://docs.gitlab.com/ee/administration/audit_events.html)
+- Information found in the [Audit Events Features](https://docs.gitlab.com/administration/audit_event_reports/)
 - Information about who has accessed the account/projects that the customers owns.  This can include:
   - number of users
   - number of times accessed
@@ -49,16 +49,18 @@ We can provide the following information:
 We cannot provide the following information:
 
 - Information about accounts or projects that the requester does not own.
-- Any information considered [Personal Data]({{< ref "personal_data_access_account_deletion" >}}) that is not specifically about the individual requester. Also consider [the data covered under GDPR](/handbook/legal/privacy/privacy-laws#what-is-covered-by-the-gdpr).
+- Any information considered [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) that is not specifically about the individual requester. 
 - Any information that would disclose GitLab confidential information or processes.
 
 ### Sending logs and other Personal Data
 
-Any [Personal Data]({{< ref "personal_data_access_account_deletion" >}}) information that is pulled by the Security Incident Response Team (SIRT),
+Any [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) information that is pulled by the Security Incident Response Team (SIRT),
 such as a log request, needs to be delivered compressed and password protected to the requestor with the following guidelines:
 
 - The password should be a random string of at least 10+ characters including numbers, lower and upper case letters.
 - The password protected file should be attached to the ZenDesk ticket, and the password needs to be sent separately through your email account directly to the customer's email address.
+  - Use the command `zip -er [TicketNumber].zip filename` or other encryption tool to encrypt the file.
+  - Use 1Password to generate the random secure password for the encryption.
 - Once the customer had successfully received and opened the files you should delete the pulled data from your computer and the email from your mailbox.
 
 If the log files are too large to attach to the ticket in ZenDesk, refer to the [Provide large files to GitLab support](https://about.gitlab.com/support/providing-large-files/) page.

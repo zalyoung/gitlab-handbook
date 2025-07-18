@@ -9,11 +9,11 @@ This section outlines our approach to handling issues. It's crucial to communica
 
 ### Triaging UX issues
 
-Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
+Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/product-development/how-we-work/issue-triage/#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/product-development/how-we-work/issue-triage/#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
 
 ### Scheduling issues in a milestone
 
-All issues labeled [`Deliverable`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=UX&label_name%5B%5D=Deliverable) that require UX will be assigned to a Product Designer by the kickoff. Issues labeled [`Stretch`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Stretch&label_name%5B%5D=UX) may or may not be assigned by the kickoff. Learn more about how we use Workflow labels in the [GitLab Docs](https://docs.gitlab.com/ee/development/labels/index.html#release-scoping-labels).
+All issues labeled [`Deliverable`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=UX&label_name%5B%5D=Deliverable) that require UX will be assigned to a Product Designer by the kickoff. Issues labeled [`Stretch`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Stretch&label_name%5B%5D=UX) may or may not be assigned by the kickoff. Learn more about how we use Workflow labels in the [GitLab Docs](https://docs.gitlab.com/development/labels/#release-scoping-labels).
 
 #### Communicating scheduled UX issues to the stage group
 
@@ -33,7 +33,7 @@ Key benefits of making `User Experience` an official part of group's milestone p
 
 ### Define the opportunity
 
-- Collaborate with your PM to [validate](/handbook/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
+- Collaborate with your PM to [validate](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
 - Help your PM articulate the who/what/why as a user story. For example, "As a (who), I want (what), so I can (why/value)." If you’re asked to implement a non-evidence-based how, encourage the PM to refocus on the who/what/why to collaboratively determine the best how.
 - Assist your PM to defining [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) success criteria, prioritizing MVC “must-haves” and non-MVC “should-haves” and “could-haves.” Note that these criteria may change based on new insights from the iterative design process and customer feedback.
 
@@ -58,8 +58,8 @@ For access instructions to Dovetail, Zendesk and Chorus.ai, refer to the relevan
 #### Understand the space
 
 - **Review existing research**: Investigate the [UX Research Archive](https://gitlab.com/gitlab-org/uxr_insights), [Dovetail](https://dovetailapp.com/), or other data sources to inform your decisions and measure results. If no relevant UX research exists, contact your [UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/) to conduct or guide you and your PM in conducting research.
-- **Conduct competitive analysis**: Analyze competitors to understand terminology, functionality, and UX conventions. Adhere to industry standards unless there is a strategic reason for deviation, such as leveraging [disruptive innovation](https://www.economist.com/the-economist-explains/2015/01/25/what-disruptive-innovation-means) opportunities. Familiar conventions can ease user migration from other tools to ours.
-- **Create user flows and journey maps**: Develop user flows or journey maps to ensure comprehensive understand of the workflow and to effectively communicate this to your team.
+- **Conduct competitive analysis**: Analyze competitors to understand terminology, functionality, and UX conventions. Adhere to industry standards unless there is a strategic reason for deviation, such as leveraging [disruptive innovation](https://hbr.org/2015/12/what-is-disruptive-innovation) opportunities. Familiar conventions can ease user migration from other tools to ours.
+- **Create user flows and journey maps**: Develop user flows or journey maps to ensure a comprehensive understanding of the workflow, and effectively communicate this to your team.
 
 #### Investigate possible dependencies
 
@@ -71,30 +71,30 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 ### Designing with AI
 
-When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives.
+When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives. Follow this guide to support your work: [Designing with AI: A Guide for Product Designers](/handbook/product/ux/product-designer/ai-design.md)
 
-Here are some resources to help you contribute to the design of AI-assisted features across the platform:
+### Designing with modes
 
-- [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction): Documentation on best practices for AI-human interaction.
-- [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
-- [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
-- [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/experiment-beta-support.html): Guidelines on the different stages of feature availability.
-- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space/): Documentation on conducting UX research in the AI domain.
-- [Epic: UX of AI Integration](https://gitlab.com/groups/gitlab-org/-/epics/10269): A GitLab epic tracking the UX of AI integration.
-- [AI prototypes in Figma](https://www.figma.com/file/s4TP1i2Akd1VTh4jhbg234/AI-prioritized-prototypes?type=design&node-id=1%3A79&t=SNUCGun6HHxi9LaY-1): Access AI prototypes in Figma.
-- [AI Project Proposal issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=AI%20Project%20Proposal): Use this template to propose new AI projects.
+Design must work in all generally available modes, which currently includes light and dark mode. Keep these considerations in mind as you design:
 
-These resources will guide you through the process and best practices for designing and integrating AI features within the platform.
+- Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests (point 5)](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test).
+- The design system provides design tokens and components that work in supported modes.
+- Take extra care when mode is a primary factor in customer outcomes.
+- Dark mode design must align with the dark mode principles:
+  - **Forward elements are lighter, receding ones are darker.** This mimics natural light behavior: brighter elements come forward, while darker ones recede. In dark mode, brighter elements create depth, ensuring important content stands out without relying heavily on borders or shadows.
+  - **Reduced color saturation.** In a dark UI, color naturally stands out more, and the amount of color use is reduced. Instead of flooding backgrounds with color, use color more selectively to draw attention where it’s needed.
+  - **Dimmed, not inverted.** Dark mode should feel like dimming the lights rather than completely inverting the interface. Carefully decide which elements to darken and which to brighten to maintain content clarity while allowing backgrounds to recede appropriately.
+- Use analytics data to determine which mode should be your primary design focus.
 
 ### Aiming towards "sophisticated simplicity"
 
-The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity,  Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
+The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity, Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
 
 1. **Structure** - Organize and arrange content and concepts into meaningful groups and patterns.
 1. **Discovery** - Ensure users can interact and explore in ways that promote learning and proficiency while minimizing mistakes.
 1. **Capability** - Provide features and functions that enable users to complete tasks and automate processes.
 
-[Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](sophisticated-simplicity-venn.svg)
+![Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](/images/product/ux/product-designer/sophisticated-simplicity-venn.svg)
 
 Balancing these principles is crucial for an optimal user experience:
 
@@ -115,11 +115,10 @@ Consider these questions when designing:
 - Is this feature or capability needed or used, or what would happen if it were removed?
 - Is everything "in reach," or are users left wandering?
 
-#### Beautifying and "unboxing" the UI
+#### "Unboxing" the UI
 
-Two ongoing design efforts align with sophisticated simplicity:
+Ongoing design efforts align with sophisticated simplicity:
 
-1. **Beautifying the UI**: Enhance the UI by cleaning up components or entire pages to create more consistency, organization, and aesthetic appeal. Learn more in the [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui) section of the handbook.
 1. **Unboxing the UI**: Reduce the overuse of boxes for conveying hierarchy, organizing content, and dividing pages into section. Explore better alternatives in this video on ["Unboxing" the UI](https://youtu.be/MxpZuWQH-kk).
 
 ### Ideate and iterate
@@ -135,7 +134,7 @@ When applying iterative design, consider the longer-term strategy and collaborat
 - **Collaborate with Technical Writers**: For substantial UI text changes, work closely with your group's Technical Writer. For smaller changes, involve them in the review process.
 - **Involve your Product Design Manager**: For significant UX changes, include your Product Design Manager in feedback sessions for broader insights and alignment with other initiatives.
 - **Validate with users**: If high-risk or uncertain directions, validate solutions with users through [UX research](/handbook/product/ux/ux-research/solution-validation-and-methods/). For lower-risk directions, gather feedback from users after releasing the minimal valuable change (MVC).
-- **Use the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)**:  Refer to the design and UI changes checklist to ensure your design's readability, appearance, and functionality.
+- **Use the [design and UI changes checklist](https://docs.gitlab.com/development/contributing/design/#checklist)**:  Refer to the design and UI changes checklist to ensure your design's readability, appearance, and functionality.
 
 #### GitLab Design Talks: Iteration
 
@@ -185,22 +184,80 @@ Deteermining who to include in a design review can be challenging. Here are some
 
 If unsure who to include, consult your Product Design Manager for guidance.
 
+### Design critiques
+
+Design critiques are dedicated sessions where Product Designers exchange rigorous, constructive feedback to elevate work quality; challenging assumptions and examining the underlying rationales for design decisions beyond standard [design reviews](#design-reviews). Benefits include:
+
+- Pushing designs to excellence through specific, actionable feedback that increases overall quality and value for customers
+- Building a culture where constructive challenge is valued and expected
+- Accelerating professional growth and design craft through deeper discussions
+- Addressing issues and inconsistency earlier in the design process
+- Alignment with the design system, other product areas, and UX paradigms
+- Ensuring user-centered thinking remains at the forefront
+
+We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) and cares personally, but challenges directly. Here's how to conduct an effective critique:
+
+1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work.
+1. **Structure the critique session**:
+   1. Provide thorough context: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged. (5 minutes)
+   1. Begin by presenting work without excessive explanation. (10 minutes)
+   1. Allow participants to ask clarifying questions and provide critique. (bulk of the sessions time)
+   1. Summarize key takeaways and next steps. (5-10 minutes)
+1. **Participate effectively**:
+   1. Be curious by asking questions like "have you…," "how does this…," and "why is this…" to help you understand the design decisions and solutions.
+   1. Provide specific and detailed comments that help encourage, challenge, and unblock the presenter.
+   1. Connect feedback to user needs and business goals instead of personal preference.
+1. **Receive critique productively**:
+   1. Listen openly before responding.
+   1. Take detailed notes and ask clarifying questions when needed.
+   1. Thank participants for specific, challenging feedback.
+1. **Document and follow up**:
+   1. Capture key critique points in the relevant issue or epic.
+   1. Share how the critique influenced your design decisions in subsequent iterations.
+   1. Acknowledge team members whose critique led to meaningful improvements.
+
+### Setting the right mindset
+
+To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to reference the code of conduct and verbalize the mantra before beginning.
+
+#### Code of conduct
+
+During our critique sessions, we commit to:
+
+1. Focus on the design work, not the designer.
+1. Communicate with respect and avoid offensive language or behavior.
+1. Challenge directly while showing we care personally.
+1. Provide specific, actionable feedback and reasoning rather than vague comments.
+1. Practice genuine curiosity to understand design decisions before critiquing them.
+1. Remain open to different perspectives and approaches.
+1. Receive critique openly and be willing to let go of unsuccessful elements.
+1. Engage in candid conversation and spirited debate with passion for our craft.
+
+#### Mantra
+
+Critique the work, not the person.<br>
+Care personally, challenge directly.<br>
+Speak candidly, listen openly.<br>
+Embrace curiosity, let go of attachment.
+
+**Note:** Reading the mantra verbatim before each session might initially feel awkward or repetitive, however, consistently expressing these shared expectations creates the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
+
 ### Partnering with Technical Writers
 
-When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development-flow/#validation-phase-3-design).
+When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design).
 
 UI text includes button or menu labels, error messages, log files, user-assistance microcopy, notification emails, and any other text visible in the UI. Changes to UI text can significantly impact documentation steps.
 
 To ensure a smooth process:
 
 - **Label the issue and MR**: Apply the [UI text](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name%5B%5D=UI+text) and`documentation` labels.
-- **Request a review**: Message the [Technical Writer for the group](/handbook/product/ux/technical-writing/#designated-technical-writers) in the design issue to request a review. Specify files or lines to review and how to preview or understand the context from the user's perspective.
+- **Request a review**: Message the [Technical Writer for the group](/handbook/product/ux/technical-writing/#assignments) in the design issue to request a review. Specify files or lines to review and how to preview or understand the context from the user's perspective.
 - **Collaborate on finalizing text**: Work closely with the Technical Writer to finalize the UI text, ensuring it's usable and accurate.
 - **Incorporate feedback from other departments**: When other departments (e.g., Product Management, Marketing, Legal) provide input on UI copy, ask for goals rather than specific text to avoid extensive revisions and design-by-committee.
 
 #### Collaborating on in-product reference information
 
-Sometimes the designer, PM, and technical writer agree to display additional [in-product reference information](https://design.gitlab.com/usability/contextual-help) in a [drawer component](https://design.gitlab.com/components/drawer/). The reference information should align with the existing documentation for the feature.
+Sometimes the designer, PM, and technical writer agree to display additional [in-product reference information](https://design.gitlab.com/usability/contextual-help/) in a [drawer component](https://design.gitlab.com/components/drawer/). The reference information should align with the existing documentation for the feature.
 
 1. **Draft copy**: The designer drafts the content for the drawer, identifying necessary information for user foals. This draft should be as close as possible to the final version.
 1. **Mark draft status**: Indicate that the drawer content is not final, using a text watermark like "waiting on documentation," "draft," or "placeholder," or a pin in the Figma file.
@@ -213,7 +270,7 @@ Sometimes the designer, PM, and technical writer agree to display additional [in
 
 UX Researchers collaborate with Product Managers and Product Designers to ensure research projects are targeted and provide valuable insights.
 
-- **Request research**: Follow the [process to request research](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-to-request-research), even if conducting the research yourself.
+<!-- - **Request research**: Follow the [process to request research](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-to-request-research), even if conducting the research yourself.-->
 - **Document findings**: Ensure research findings are documented according to established processes.
 
 ### Refine MVC
@@ -222,7 +279,7 @@ To maintain focus and avoid scope creep in UX issues:
 
 - **Prioritize must-haves**: Work with your PM and developers to identify "must-have" versus elements that can be deferred. Document non-MVC concepts and research in new issues, linking them to the original issue. Consult your Product Design Manager if you need help breaking down large issues.
 - **High confidence, low risk changes**: If developers need to start before designers are validated, focus on high confidence, low risk changes while the rest of the solution is validated.
-- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development-flow/#validation-track), ensuring the Build track always has well-validated product opportunities ready to start.
+- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development/how-we-work/product-development-flow/#validation-track), ensuring the Build track always has well-validated product opportunities ready to start.
 - **Manage large features**: Features should be buildable within 1-2 milestones. If too large, work with your PM and Engineering team to split the feature into smaller, manageable segments.
 
 For inspiration, watch our Product Designers discuss [iteration at GitLab](https://youtu.be/0lhjzU-QZ2w).
@@ -233,7 +290,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
   - Once you've validated your solution with users, propose a single solution. Suggesting multiple alternatives can undermine your expertise as a UX professional and lead to design-by-committee. If you must propose multiple solutions, clearly explain your reasoning.
 - **Share context and goals asynchronously**:
   - Provide all necessary context in your issue to ensure your audience understands your proposal and knows how to assist. Clarify who the solution is for, what it will enable them to do, and whether you need feedback, assistance, or approval. Highlight changes since the last review to facilitate understanding.
-  - Use [collapsed content sections](/handbook/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](/handbook/markdown-guide/#collapse).
+  - Use [collapsed content sections](https://handbook.gitlab.com/docs/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](https://handbook.gitlab.com/docs/markdown-guide/#collapse).
   - **Reguest feedback from your Product Design Manager**:
   - `@mention` your Product Design Manager for feedback. They can provide strategic alignment, ensure quality, and maintain functional consistency across the product.
 - **Focus on the customer and problem**:
@@ -247,7 +304,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
 - **Follow design file guidelines**:
   - Regularly commit your design files following the [GitLab Design project contribution guidelines](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md).
 - **Consider new UX paradigms carefully**:
-  - Evaluate if the new pattern will be inconsistent with other areas, if other areas need updating, and if the new pattern significantly improves the user experience. If changes are necessary, follow the [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
+  - Evaluate if the new pattern will be inconsistent with other areas, if other areas need updating, and if the new pattern significantly improves the user experience. If changes are necessary, follow the [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle/).
 
 ### Delivering your solution
 
@@ -256,7 +313,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
 - **Include your design**:
   - Add your design to the "Solution" section. For small designs, a mock-up may suffice. For more detailed changes, include a link to the Figma file.
 - **Use the design handbook checklist**:
-  - Follow the [design handoff checklist](https://docs.gitlab.com/ee/development/contributing/design.html#handoff) to make sure all design specifications are documented and engineers are set up for success.
+  - Follow the [design handoff checklist](https://docs.gitlab.com/development/contributing/design/#handoff) to make sure all design specifications are documented and engineers are set up for success.
 - **Leverage collaboration tools**:
   - Utilize both Figma's collaboration tools and [GitLab's design management features](https://about.gitlab.com/direction/plan/design_management/). Refer to the following table for common scenarios and recommended tools. Use your judgment to decide the best way to move the design forward.
 
@@ -290,7 +347,7 @@ Sharing design work sllows Product Designers to mentor, engage, and inspire peer
 
 - Slack: Share insights and updates.
 - Unfiltered YouTube: Provide updates and gather feedback.
-- [UX Forums](/handbook/product/ux/ux-forums/): Open pathways for collaboration with teams addressing similiar objectives and JTBDs.
+- [UX Forums](/handbook/product/ux/ux-forum/): Open pathways for collaboration with teams addressing similiar objectives and JTBDs.
 
 **External Socialization**:
 
@@ -319,7 +376,7 @@ Refer to the [MR reviews handbook page](/handbook/product/ux/product-designer/mr
 
 - When reviewing an MR, refer to the SSOT in the issue, which should include a mock-up or Figma link in the "Solutions" section of the issue description.
 
-### Follow-up after design is complete
+### Follow-up after a design proposal is finalised
 
 For changes that affect Pajamas (GitLab's design system):
 

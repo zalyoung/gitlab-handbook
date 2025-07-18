@@ -10,12 +10,13 @@ participating-stages: ["~devops::fulfillment", "~devops::ai-powered"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
-This design doc covers architectural decisions and proposed changes to
-[Cloud Connector's technical foundations](https://gitlab.com/groups/gitlab-org/-/epics/11417).
+The Cloud Connector team is now disbanded. These pages are kept for now to give historical context. 
+
+This design doc covers architectural decisions and proposed changes aligned with the team's technical vision.
 Refer to the [official architecture documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture.html)
 for an accurate description of the current status.
 
@@ -57,14 +58,19 @@ The major areas we are focused on are:
   The original architecture for Cloud Connector relied heavily on OIDC discovery to fetch JWT validation keys.
   OIDC discovery is prone to networking and caching problems and adds complexity to solve a problem we don't have.
   Our proposed alternative to OIDC discovery is to package the public keys used for token validation from our well-known token issuers with Cloud Connector backends directly instead of fetching them over the network.
-  - **Status:** planned. The decision was documented as [ADR-002](decisions/002_remove_oidc_key_discovery.md)
+  - **Status:** parked. We may publish a follow up ADR for an [alternative approach](https://gitlab.com/groups/gitlab-org/-/epics/14401). The decision was documented as [ADR-002](decisions/002_remove_oidc_key_discovery.md)
 - [**Rate-limiting features.**](https://gitlab.com/groups/gitlab-org/-/epics/12032)
   During periods of elevated traffic, backends integrated with Cloud Connector such as
   AI gateway or TanuKey may experience resource constraints. GitLab should apply a consistent strategy when deciding which instance
   should be prioritized over others. This strategy should be uniform across all Cloud Connector services.
-  - **Status:** planned.
+  - **Status:** In Progress.
+- [**Extract CloudConnector unit_primitive configuration and logic**](https://gitlab.com/groups/gitlab-org/-/epics/14310)
+  We will implement a new unit primitive-based configuration system by extracting it to an external library ([gitlab-cloud-connector](https://gitlab.com/gitlab-org/cloud-connector/gitlab-cloud-connector)) that will serve as the Single Source of Truth (SSoT).
+  This library will be available as both a Ruby gem and a Python package. The decision was documented as [ADR-003](decisions/003_unit_primitives.md)
+  - **Status:** In Progress.
 
 ## Decisions
 
 - [ADR-001: Use load balancer as single entry point](decisions/001_lb_entry_point.md)
 - [ADR-002: Remove OIDC key discovery](decisions/002_remove_oidc_key_discovery.md)
+- [ADR-003: Centralize Unit Primitives configuration](decisions/003_unit_primitives.md)

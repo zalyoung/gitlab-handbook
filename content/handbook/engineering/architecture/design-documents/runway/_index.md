@@ -10,7 +10,7 @@ toc_hide: true
 
 <!-- Blueprints often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -109,7 +109,7 @@ The design of Runway aims to decouple individual components in a way that allows
 
 ### Architecture
 
-![Runway Architecture](img/runway-architecture.png)
+![Runway Architecture](/images/engineering/architecture/design-documents/runway/runway-architecture.png)
 
 [Diagram Source](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/uploads/a6b6646efaa084937ef1f961ad902b59/runway-arch.key)
 
@@ -186,7 +186,7 @@ The following high level diagram shows the proposed setup of secrets within Vaul
 - The runway reconciler service accounts and GitLab team members will need read only access to `runway/env/$environment/service/$runway_service_id` in order to read secrets for deployment.
 - The runway reconciler will mirror secrets in Vault into Google Secrets Manager for consumption in Cloud Run via its native secrets integration.
 
-![Runway Vault Architecture](img/runway_vault_4_.drawio.png)
+![Runway Vault Architecture](/images/engineering/architecture/design-documents/runway/runway_vault_4_.drawio.png)
 
 Diagram Source: `https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/runway/img/runway_vault_4_.drawio`
 

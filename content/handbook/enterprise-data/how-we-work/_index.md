@@ -13,11 +13,11 @@ description: "GitLab Data Team Workflow"
 - [Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/)
 - [Triage](/handbook/enterprise-data/how-we-work/triage/)
 - [Data Team Onboarding](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
-- [Data Team Programs](/handbook/enterprise-data/programs/#data-programs)
+- [Data Team Programs](/handbook/enterprise-data/organization/programs)
 
 ## Practical guide to contributing to the Data Team Projects
 
-Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/practical-guide/web-ide/) designed for all team members.
+Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/how-we-work/practical-guide/) designed for all team members.
 
 This guide complements our existing resources, but with a more practical focus on the step-by-step process of contributing to the Data Team’s projects.
 
@@ -29,15 +29,17 @@ We're happy to help you achieve your goals with Data. As a central shared servic
 
 The Data Team strives to spend the majority of its time developing and operating the Enterprise Data Platform and related systems, keeping fresh data flowing through the system, regularly expanding the breadth of data available for analysis, and delivering high-impact strategic projects. We categorize our work using the framework outlined below.
 
-| Rank | Priority | Description| Target Allocation | Prioritization Method |
-| --- | --- | --- | --- | --- |
-| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/enterprise-data/platform/#data-sources). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed |
-| 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 50-65% | Prioritized through the monthly [Data Leadership Forum](/handbook/enterprise-data/how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
-| 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/enterprise-data/how-we-work/#quarterly-and-iteration-planning). Other work that has a weight of 8 issue points or higher and is important or urgent may necessitate discussion at the Data Leadership Forum for key result prioritization and scheduling. |
+| Work Category | Description| Prioritization Method |
+| --- | --- | --- | --- |
+| Production Maintenance | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/enterprise-data/platform/#data-sources). | Based on severity and impact |
+| Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | Prioritized through the Data Steering Committee and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
+| Business Operations | Data work and business engagement that is requested on an ad-hoc basis throughout the quarter. Includes foundational work to mature the Enterprise Data Ecosystem. | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/enterprise-data/how-we-work/#quarterly-and-iteration-planning). |
 
-We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track our issues across these priorities.
+The allocation of capacity across Production Maintenance, Data Team OKRs, and Business Operations will be determined by each pillar on a quarter-by-quarter basis in the planning file. The target allocation varies by data team pillar and needs of the business. The allocation will consider the amount of Production Maintenance support needed from the pillar, strategic initiatives that the pillar needs to support, and business operations projects that require support. Within each Work Category, issues are prioritized independently and can use the scoped Priority Label with priorities 1, 2, or 3 as options.
 
-In addition to the above priorities focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends 5 to 10% of our time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
+We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track and prioritize our issues across these work categories.
+
+In addition to the above work categories focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
 
 ### Project Intake
 
@@ -60,7 +62,7 @@ Here's the process to follow to create a new Data issue:
 
 ### Data Leadership Forum
 
-The monthly Data Leadership Forum includes representation from partner teams across GitLab (Marketing, Sales, Customer Success, Finance, IT, Support, Product, Engineering, People, Security, Legal) and is used to oversee and drive the strategic direction of GitLab data management and analytics initiatives, including project prioritization. The forum ensures that data is leveraged effectively to support business goals, improve decision-making processes, and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security.
+The Data Leadership Forum includes representation from partner teams across GitLab (Marketing, Sales, Customer Success, Finance, IT, Support, Product, Engineering, People, Security, Legal) and is used to oversee and drive the strategic direction of GitLab data management and analytics initiatives, including project prioritization. The forum ensures that data is leveraged effectively to support business goals, improve decision-making processes, and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security.
 
 In order for OKRs / projects to be prioritized through the Data Leadership Forum, an opportunity canvas is required. An opportunity canvas is a specific [issue template](https://gitlab.com/gitlab-data/analytics/-/issues) that contains detailed information about the work that is being requested, the expected business impact from that work, a rough estimate of the level of effort to accomplish the work, and known risks/dependencies. The opportunity canvas also includes a business value score based on our [Value Calculator](/handbook/enterprise-data/how-we-work/#data-team-value-calculator), which is one factor in prioritizing and ranking our backlog of work.
 
@@ -76,7 +78,7 @@ Requests to expedite responses, triage issues, or MR reviews are rare. Given the
 
 ### Deciding What And How To Build
 
-Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/enterprise-data/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development).
+Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/enterprise-data/how-we-work/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development).
 
 ### Design Spike
 
@@ -92,12 +94,38 @@ The below steps should be followed when performing a **Design Spike**:
 
 ### Documentation
 
-The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://documentation.divio.com/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
+The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://docs.divio.com/documentation-system/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
+
+#### Documentation guideline
+
+There are several types of documentation we use to capture the topics. Noted the criteria when to use which type of the documentation
+
+- [**(Public) Handbook**](/handbook) - Items related to the operational model we used in the company and in the team, all explanations about tools, technologies and processes and **why** we are doing. Data that is publicly shareable, and does not expose GitLab or its customers to any harm or material impact (Green data, as per Data classification).
+- [**Internal handbook**](https://internal.gitlab.com/) - Items which explain the same category as the public handbook, with the difference that the internal handbook contains [internal information](/handbook/communication/confidentiality-levels/#internal)
+- **Readme.md** file - Specific information related to the code where the README.md file resides, which explains **how** to use that code. If more explanation is needed, a good practice is to either use and/or link to a Handbook article.
+- [**Runbooks**](https://gitlab.com/gitlab-data/runbooks) - Context which explains **how** to solve the issue in production or **how** to sort out other problems. The vital thing is to understand that runbook is a guideline of problem-solving approach
+- [**WIKI**](https://gitlab.com/gitlab-data/analytics/-/wikis/GitLab-Data-Team-Wiki) - Items that require regular updates, similar to epics but they span for longer periods of time, e.g. overall Data Team engagement in the quote-to-cash projects.
+
+Matrix with the explanation when to use which documentation type:
+
+| Example | Appropriate documentation type|
+|---------|----------------------------------------------------------------|
+| GitLab Duo explanation                                                 | Handbook |
+| Python/dbt/Snowflake guideline                                         | Handbook |
+| Description of the package inventory                                   | Handbook |
+| Explanation about the new pipeline/project                             | Internal Handbook |
+| Data classification description                                        | Internal Handbook |
+| dbt Data lineage diagram                                               | Internal Handbook |
+| Technical explanation of how to run the project                        | README.md |
+| Basic context about the project from the technical perspective         | README.md |
+| Solution of how to fix the Triage issue                                | Runbooks |
+| Exploration article (ie. Design spike) of how to pseudonimize the data | Runbooks |
+| Review current progress or effort on QtC projects                      | WIKI |
 
 ### Data Team Value Calculator
 <!-- read through this and make adjustments -->
 
-The Value Calculator provides a uniform and transparent mechanism for ranking and enables all work to be evaluated on equal terms. The value calculator approach is similar to the [RICE Scoring Model](https://www.productplan.com/glossary/rice-scoring-model/) for Product Managers and the [Demand Metric Prioritization Model](https://blog.demandmetric.com/2009/02/06/prioritize-your-strategic-initiatives/) for Marketing.
+The Value Calculator provides a uniform and transparent mechanism for ranking and enables all work to be evaluated on equal terms. The value calculator approach is similar to the [RICE Scoring Model](https://www.productplan.com/glossary/rice-scoring-model/) for Product Managers and the [Demand Metric Prioritization Model](https://blog.demandmetric.com/2009/02/06/prioritize-your-strategic-initiatives) for Marketing.
 
 The calculator below is based on the following [Value Calculator](https://docs.google.com/spreadsheets/d/1FROB7j0YfNS_cQM6qQD0CPkE0Emuf77EJwTb96UduWs/edit?usp=sharing) spreadsheet. Please select the values below to define the value of new work.
 
@@ -118,7 +146,50 @@ Process:
     - Update the % complete field on the KR.
     - Update the Health Status field to indicate whether the KR is `On Track`, `Needs Attention`, or `At Risk`.
 
-##### Introducing a new data source
+### DataPulse
+
+DataPulse is a monthly rhythm for team members to provide status updates on Key Results and Business Operations initiatives.  The goal is for everyone to stay informed about project statuses, identify new opportunities, and maintain alignment across our various workstreams.
+
+Our process will have three key components:
+
+#### 1. Async written updates about the status of the Key Result and Business Operations
+
+Monthly updates, captured in the Key Result or Business Operations issues and epics (this part we are already doing and will not change):
+ 
+- Status of project work
+- Challenges and proposed solutions
+
+#### 2. Asynchronous Video Updates (Due 1 week before Monthly Q&A)
+
+**For Key Result and Business Operations DRIs**
+Each DRI (and team) will record a brief, maximum 5-minute, video update covering:
+ 
+- Intro/context about the business problem that we addressing in the Key Result or Business Operations
+- Status update
+- Challenges and proposed solutions
+- Business stakeholder feedback and engagement
+- New opportunities identified
+
+Within your KR and Business Operations teams, please develop a plan for these monthly updates. As the DRI, you're accountable for aligning on this approach with your project team. 
+
+**Recording Guidelines:**
+  
+- These videos don't need to be perfect - aim for a conversational tone.
+- Consider using time in an existing meeting with the KR team to create this recording. No slides / materials are required.
+- Include mentions of team members who are part of your work.
+- Upload your video to our Data Team YouTube playlist one week before our scheduled Q&A session. Include the month and year in the title of the recording and add a link to the video in the Key Result or Business Operations epic/issue.
+- This is your chance to share your work with team members who you don’t collaborate with on a regular basis - take advantage of it!
+
+#### 3. Monthly Q&A Session (6am PST / 2pm PST options)
+
+We'll meet for a focused Q&A session to discuss the updates shared in the videos. This allows us to:
+  
+- Dive deeper into specific areas of interest
+- Address questions that arise from the video updates
+- Collaborate on resolving challenges
+- Align on next steps
+
+#### Introducing a new data source
 <!-- Amie to check with Dennis on this -->
 Introducing a new data source requires a _heavy lift_ of understanding that new data source, mapping field names to logic, documenting those, and understanding what issues are being delivered.
 Usually introducing a new data source is coupled with replicating an existing dashboard from the other data source.
@@ -131,7 +202,7 @@ Incidents are times when a problem is discovered and some immediate action is re
 - Open an [Incident issue](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=incident&issue[issue_type]=incident) using the "Incident Report" template
 - Detail the relevant information with appropriate timestamps
 - Tag and assign people on the Data Team and any other teams that need to be informed
-- Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response.html) and take any necessary action
+- Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response/) and take any necessary action
 
 Data Team Incidents can be reviewed in [Incident Overview page](https://gitlab.com/gitlab-data/analytics/-/incidents) within the main project.
 
@@ -139,9 +210,9 @@ Data Team Incidents can be reviewed in [Incident Overview page](https://gitlab.c
 
 | Stage (Label)                     | Responsible        | An Item Is Added to This Stage When                  | Criteria to Progress to Next Stage                                                                                                   |
 | --------------------------------- | ------------------ | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `workflow::1 - triage`            | Data Triager       | A new request has been created                       | A clear problem statement & business value statement are included in the issue, and appropriate labels (Priority, Champion, and Team) have been applied. |
-| `workflow::2 - validation`        | Data               | Enough information is included to inform a Do / Won't Do Decision    | The business value is clear; the work warrants development and is expected to be refined & prioritized. If not, a description for why the work won't be done will be added and the issue will be closed. |
-| `workflow::3 - refinement`        | Data, Business DRI | The issue is actively being scoped & refined         | Technical solution & expected outcome are included in the issue, and the issue has a numerical weight applied. The technical solution should have enough detail and clarity that another developer (other than the one doing the validation) would be able to pick it up. |
+| `workflow::1 - triage & validation` | Data Triager       | A new request has been created                       | A clear problem statement & business value statement and expected outcome are included in the issue, and appropriate labels (Work Category, Champion, and Team) have been applied. The issue has a numerical weight applied by the Data Triager. If the work does not warrant development, a description for why the work won't be done will be added, and the issue will be closed. |
+| `workflow::2 - waiting for prioritization` | Data              | The issue is scoped, sized and warrants development. | Work is prioritized and implementation timelines are agreed upon. |
+| `workflow::3 - refinement`        | Data, Business DRI | The issue is actively being refined         | The technical solution have enough detail and clarity that (another) developer (other than the one doing the refinement) would be able to pick it up. |
 | `workflow::4 - ready to develop`  | Data               | The issue is fully scoped & refined                  | Work is picked up for development  |
 | `workflow::5 - development`       | Data               | Development work has started                         | Item is actively being worked on.  |
 | `workflow::6 - review` | Data, Business DRI | Development work is ready for, or currently, being reviewed | All work is completed. |
@@ -175,10 +246,15 @@ Think of each of these groups of labels as ways of bucketing the work done.
 
 All issues should get the following classes of labels assigned to them:
 
-- **Team:** The Data Team that will perform the work (i.e. Data Platform, Analytics Engineering, Data Science, BI, Data Governance)
-- **Champion:** The team who has requested the work (may be a functional partner team, or the Data Team itself)
-- **Workflow:** The status of the work
-- **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
+- **Team:** The Data Team responsible for performing the work. This could be one of the following: Data Platform, Analytics Engineering, Data Science, BI, or Data Governance.
+- **Champion:** The team requesting the work. This may be a functional partner team or the Data Team itself.  
+- **Workflow:** The current status of the work. All issues should start with the `workflow::1 - triage` label. The team performing the work is responsible for updating the workflow status as the work progresses.  
+- **Priority:** The priority level of the work, categorized as follows:  
+  - **P1**: Operational (highest urgency)  
+  - **P2**: OKR-related work (objective-driven)  
+  - **P3**: Other (lower priority or non-urgent tasks)  
+
+Effective in January 2025, we use a Bot on the Data Team project to check that the Team, Champion, Workflow, and Priority labels have been applied to issues after 14 days of being opened. The bot sends a reminder in the issue to add the missing labels. The first triage response for adding labels is the team member that opens the issue. The 2nd triage response for adding labels is the Data Analyst, Data Scientist, Analytics Engineer, and Data Engineer that are on triage. Issues that do not have Team, Champion, Workflow, and Priority labels applied after 30 days are automatically closed. If an issue is closed due to not having the required labels, team members have the option to reopen the closed issue and apply the labels to meet the issue refinement requirements.
 
 Optional labels that are useful to communicate state or other priority:
 
@@ -187,7 +263,15 @@ Optional labels that are useful to communicate state or other priority:
   - Tool: (Tableau, dbt, Stitch, Airflow, etc.)
   - Pod: [Data team pod](/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
-- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
+- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#work-categorization-and-prioritization).
+
+#### Epic Labeling
+
+Similar to issue labeling, epic labeling helps the Data team categorize, quantify, and prioritize the projects in our backlog.
+
+At a minimum, all epics should have a **Team:** label applied. This tags the epic for the Data Team that is primarily responsible for performing the work, and enables managers to review the backlog of projects for their respective teams. This is particularly helpful during quarterly planning.
+
+Because the epic list cannot easily be filtered to parent epics only (and epics may be nested under other epics as sub-epics), we use an additional label to distinguish between epics that are being considered for OKR-level commitments (these should have the `Opportunity Canvas` label applied) vs. those that are used to group related issues under a general theme (these should _not_ have the `Opportunity Canvas` label applied).
 
 ##### Merge Request Workflow
 
@@ -243,12 +327,10 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 
 ### SLO for Issues and Merge Requests
 
-- First-Response SLO for a new Issue or MR: 36 hours from the time of creation
-- Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/enterprise-data/how-we-work/#issue-pointing) assigned by the Data Team.
-  - Issue weight of 1-5 points: 4 weeks (2 iterations)
-  - Issue weight > 5 points: No SLO
-- MR Review SLO
-  - 4 weeks (2 iterations)
+- First-Response SLO for a new Issue: 2 business days from the time of issue creation
+- First-Response SLO for a new MR: 2 business days from the time of submission to the codeowner
+
+When opening an issue or submitting a MR for review, it is good to add a comment bringing the issue or MR to the attention of a DRI or codeowner. Please allow the SLO time period to expire before requesting additional updates or first responses on an Issue or MR. Issues and MRs within the SLO time period are not considered blocked. If the issue or MR is urgent or a break-fix scenario, it is good to follow-up with the team member in the Issue or MR within the SLO period as determined by the required urgency and importance.
 
 ### Removal and deletion process
 <!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->
@@ -370,5 +452,5 @@ We encourage everyone to record videos and post to GitLab Unfiltered. The [handb
 1. Ask your People BP to provide you a Requisition # for tracking purposes. If you have multiple openings to fill, communicate with your People BP using this Req# because juggling multiple openings gets confusing fast.
 1. Develop an Interview Plan, which will cover Responsibilities, Tips, Reminders, and custom Interview questions for each Interview Job Role type. For examples, see the [Data Scientist Interview Plan](https://docs.google.com/document/d/1slPL8qy6IW01DcNBP26YVC3mHtkwApHGmA29d6Y9nlg/edit#heading=h.6mqvxi38wull) and [Analytics Engineer Interview Plan](https://docs.google.com/document/d/1wspMpA6Z-UQXZsqYJ7vqhZ5pHNErv54lyF-kOilpkDw/edit).
 1. Each Data Job Role and Job Grade has a customized [Homework Assessment](https://drive.google.com/drive/folders/1cQeCKu_Nu2kBLa4oiAVrp7hu7LdnIB3C). Review and update the Homework Assessment as needed. If a Homework Assessment is not available for the Job Role, create one and save it in the [Homework Assessment Google Drive](https://drive.google.com/drive/folders/1cQeCKu_Nu2kBLa4oiAVrp7hu7LdnIB3C)
-1. Send a Homework Assessment to the People BP for inclusion in the Hiring process. The Hiring Process is included in each Data Job Family to help set candidate and interviewer expectations. An example is the [Data Engineer Hiring Process](/job-families/finance/data-engineer/#hiring-process).
+1. Send a Homework Assessment to the People BP for inclusion in the Hiring process. The Hiring Process is included in each Data Job Family to help set candidate and interviewer expectations. An example is the [Data Engineer Hiring Process](/job-families/marketing/enterprise-data/data-engineer/#hiring-process).
 1. Create a new slack channel, e.g. `bt-data-data-science-interview` to help coordinate with your interviewers. Share the Interview Plan with your interviewers through Slack.

@@ -5,7 +5,7 @@ description: "Problem Validation research for single-stage-group initiatives usu
 
 Single-stage-group research initiatives deal with specific behaviors that relate to only one stage group, such as "How do Release Managers do their job?".
 
-To get started, follow the [initial steps](/handbook/product-development-flow/#validation-phase-2-problem-validation) outlined in the Product handbook.
+To get started, follow the [initial steps](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-2-problem-validation) outlined in the Product handbook.
 
 ### For user interviews
 

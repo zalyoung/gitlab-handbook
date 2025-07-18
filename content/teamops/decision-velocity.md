@@ -1,6 +1,6 @@
 ---
 title: "Decision Velocity"
-summary: "Decisions are the fuel for high-performance teams. Conventional management philosophies often strive for consensus and avoid risk instead of developing a [bias for action](/handbook/values/#bias-for-action). This can result in slow decision-making. In TeamOps, success is correlated with **decision velocity**: the quantity of decisions made in a particular stretch of time (e.g. month, quarter) and the results that stem from faster progress."
+summary: "Decisions are the fuel for high-performance teams. Conventional management philosophies often strive for consensus and avoid risk instead of developing a [bias for action](/handbook/values/#operate-with-a-bias-for-action). This can result in slow decision-making. In TeamOps, success is correlated with **decision velocity**: the quantity of decisions made in a particular stretch of time (e.g. month, quarter) and the results that stem from faster progress."
 weight: 3
 canonical_path: "/teamops/decision-velocity/"
 images:
@@ -25,14 +25,14 @@ Action tenets of maximizing decision velocity, including real-world examples of 
 
 Building on the tenet of creating a [shared reality](/teamops/shared-reality/) with a [Single Source of Truth](/teamops/shared-reality/#single-source-of-truth-ssot), decision velocity is maximized when documentation is applied to operational processes and expectations. Establishing a common set of procedures and best practices for the workflows of your team ensures that each team member is equipped to fulfill the expectations of their assignments, while replacing the objectives of physical supervision – quality assurance and as-needed clarification of instructions.
 
-Having a shared guide in a team promotes [measurement clarity](/teamops/measurement-clarity/), [results standardization](/teamops/measurement-clarity/#measure-results-not-hours), [worker autonomy](/teamops/decision-velocity/#give-agency), efficient onboarding, continuous improvement, and operational scalability. By providing a common reference point, these documented workflows enhance efficiency and consistency, ultimately leading to improved team productivity and outcomes.
+Having a shared guide in a team promotes [measurement clarity](/teamops/measurement-clarity/), [results standardization](/teamops/measurement-clarity/#measure-impact-not-activity), [worker autonomy](/teamops/decision-velocity/#give-agency), efficient onboarding, continuous improvement, and operational scalability. By providing a common reference point, these documented workflows enhance efficiency and consistency, ultimately leading to improved team productivity and outcomes.
 
 {{% details summary="Examples and resources for documented workflows" %}}
 **Example:** [GitLab Support Workflow Library](/handbook/support/workflows/)
 
 To keep their globally-distributed team equipped with instructions for a variety of unexpected customer services scenarios, the GitLab Support team built a [workflow library](/handbook/support/workflows/). This always-accessible archive guides team members through the triaging process and subsequent protocols, and also helps them navigate to relevant policies, advice, and tools.
 
-**Resource:** [Documenting workflows to streamline business processes from Notion](https://www.notion.so/blog/documenting-workflows) (article)
+**Resource:** [Documenting workflows to streamline business processes from Notion](https://www.notion.com/blog/documenting-workflows) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for documented workflows" %}}
@@ -45,7 +45,7 @@ To keep their globally-distributed team equipped with instructions for a variety
 **Recommended TeamOps Partners:**
 
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
-- [Code Traveller HR](https://codetravellerhr.com) (consultant)
+- [Code Traveller HR](https://www.codetravellerhr.com/) (consultant)
 {{% /details %}}
 
 ## Give agency
@@ -78,11 +78,11 @@ Giving agency begins in the most typical of places. Video calls are a natural pa
 
 As many decisions as possible should be made by the person doing the work (the [DRI](/teamops/equal-contributions/#directly-responsible-individual-dri)), not by their manager or their manager's manager. Fostering this kind of ownership can:
 
-- enhance [agency](/teamops/equal-contributions/#give-agency) by empowering people to directly and immediately make necessary changes to their work,
+- enhance [agency](#give-agency) by empowering people to directly and immediately make necessary changes to their work,
 - increase efficiency by eliminating delays while waiting for approval, and
 - free senior leaders from the burden of making decisions that stunt their own productivity.
 
-In the spirit of [iteration](/teamops/measurement-clarity/#iteration), TeamOps encourages executing a sub-optimal decision with full conviction—then returning to it later to improve upon it based on [post-decision feedback](/teamops/equal-contributions/#disagree-commit-and-disagree)—rather than executing on a full decision with sub-optimal conviction. Each project's DRI knows a project's moving parts and the impacts of a particular choice more than anyone else does; that person should be trusted with full accountability over it.
+In the spirit of [iteration](/handbook/values/#iteration), TeamOps encourages executing a sub-optimal decision with full conviction—then returning to it later to improve upon it based on [post-decision feedback](/teamops/measurement-clarity/#transparent-feedback)—rather than executing on a full decision with sub-optimal conviction. Each project's DRI knows a project's moving parts and the impacts of a particular choice more than anyone else does; that person should be trusted with full accountability over it.
 
 {{% details summary="Examples and resources for push decisions to the lowest possible level" %}}
 **Example:** [Updating Developer Advocate mentoring guidelines](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/107903)
@@ -99,21 +99,21 @@ A Senior Developer Advocate at GitLab recognized that many coaching and mentorin
 - *Team:* When designing a project management plan, determine which decisions will be made by which team members. For decisions from anyone other than the DRI, document why the approval authority was moved to that level.
 - *Company:* Update your company's management training program to include training to prioritize delegation and employee empowerment.
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ## Bias for action
 
-A [bias for action](/handbook/values/#bias-for-action) accelerates ideation, collaboration, and execution better than alignment and consensus. This bias stems from the [agency](/teamops/equal-contributions/#give-agency) and [ownership](/teamops/decision-velocity/#push-decisions-to-the-lowest-possible-level) with which every individual is empowered in an organization practicing TeamOps. People can then use that autonomy to optimize their own proactivity, self-efficacy, and creativity. A team member operating in a conventional organizational context might feel compelled to ask "Should I?" A team member operating via TeamOps  can instead think "I will."
+A [bias for action](/handbook/values/#operate-with-a-bias-for-action) accelerates ideation, collaboration, and execution better than alignment and consensus. This bias stems from the [agency](#give-agency) and [ownership](/teamops/decision-velocity/#push-decisions-to-the-lowest-possible-level) with which every individual is empowered in an organization practicing TeamOps. People can then use that autonomy to optimize their own proactivity, self-efficacy, and creativity. A team member operating in a conventional organizational context might feel compelled to ask "Should I?" A team member operating via TeamOps  can instead think "I will."
 
-When facing decisions that may involve imperfect information or failures, having a bias for action ensures a more rapid pace of execution. This may require a greater organizational tolerance for mistakes and an appreciation for [two-way door decisions](/handbook/values/#make-two-way-door-decisions), which teams should discuss as part of their [shared reality](/teamops/shared-reality/#shared-reality) and their [collaboration guidelines](/teamops/decision-velocity/#collaboration-codification).
+When facing decisions that may involve imperfect information or failures, having a bias for action ensures a more rapid pace of execution. This may require a greater organizational tolerance for mistakes and an appreciation for [two-way door decisions](/handbook/values/#make-two-way-door-decisions), which teams should discuss as part of their [shared reality](/teamops/shared-reality/) and their [collaboration guidelines](/teamops/shared-reality/#collaboration-guidelines).
 
 {{% details summary="Examples and resources for bias for action" %}}
 **Example:** [Setting Internal Communication Guidelines for Standardized Tool Use](/handbook/communication/)
 
 To minimize miscommunications that can stem from cultural diversity, contextual interpretations, or various levels of software experience, GitLab maintains a handbook page about [internal communication guidelines](/handbook/communication/). These rules, instructions, and demonstrations ensure that our internationally distributed workforce is using the same tools in the same way, and handing off results to one another without the risk of important information getting "lost in translation."
 
-**Resource:** [What is a bias for action, and how do you build it?](https://www.fingerprintforsuccess.com/blog/bias-for-action) (article)
+**Resource:** [What is a bias for action, and how do you build it?](https://getmarlee.com/blog/bias-for-action) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for bias for action" %}}
@@ -152,7 +152,6 @@ The [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_request
 
 GitLab's Recruitment Privacy Policy was updated. Rather than updating the policy behind closed doors, the [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/107652)  outlines the *why*. It provides context into how the change enables cross-functional groups to work more efficiently. The explanation of *why* enables more thoughtful conversation around a potentially polarizing topic (privacy).
 
-**Resource:** [Almanac's Guide to Asynchronous Communication](https://almanac.io/docs/guide-asynchronous-communication-18e32134c835a467b8dcb13b06a0aef0#:~:text=Asynchronous%20communication%20is%20the%20art,time%20your%20communique%20is%20sent.) (playbook)
 {{% /details %}}
 
 {{% details summary="Change management support for low-context communication" %}}
@@ -198,7 +197,7 @@ By being transparent in your virtual work, your team can easily prove productivi
 
 **Recommended TeamOps Partners:**
 
-- [Lance Robbins](http://lancehrobbins.com/) (consultant)
+- [Lance Robbins](https://lancehrobbins.com/) (consultant)
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
 {{% /details %}}
 

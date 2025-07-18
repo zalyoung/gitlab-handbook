@@ -2,7 +2,7 @@
 title: "Marketing Project Management Guidelines"
 ---
 
-{{< include "includes/wip-notice.md" >}}
+{{< include "includes/marketing/wip-notice.md" >}}
 
 ### Sub Pages
 
@@ -111,7 +111,7 @@ Each Department within Marketing can have "additive" labels - meaning they are u
 
 - [Marketing Programs](/handbook/marketing/integrated-marketing/digital-strategy/)
 - [Operations](/handbook/marketing/marketing-operations/)
-- [Sales Development Organization](/handbook/marketing/revenue-marketing/sdr/)
+- [Sales Development Organization](/handbook/marketing/sales-development/)
 - [Field Marketing](/handbook/marketing/field-marketing/#field-marketing-labels-in-gitlab)
 - [Account Based Marketing](/handbook/marketing/account-based-marketing/)
 

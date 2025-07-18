@@ -11,7 +11,7 @@ UX research workshops are useful because they offer UX Researchers a way to coll
 
 ## Getting started
 
-This handbook page covers the main steps involved to conduct a UX research workshop. If you have any questions about this process, please contact your [UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned). They can assist with setting up and/or leading a UX research workshop for your team.
+This handbook page covers the main steps involved to conduct a UX research workshop. If you have any questions about this process, please contact your [UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-team-members-are-assigned). They can assist with setting up and/or leading a UX research workshop for your team.
 
 ## Step 1: Select a UX research workshop
 
@@ -86,11 +86,11 @@ At GitLab, we lean towards overcommunication to ensure that attendees are aware 
 
 ### Async workshop kickoff message example
 
-![asyncstartingworkshopmessage](asyncstartingworkshopmessage.png)
+![asyncstartingworkshopmessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/asyncstartingworkshopmessage.png)
 
 ### Sync workshop kickoff message example
 
-![syncstartingworkshopmessage](syncstartingworkshopmessage.png)
+![syncstartingworkshopmessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/syncstartingworkshopmessage.png)
 
 #### Make the FigJam board available to team members
 
@@ -112,8 +112,8 @@ Some types of workshop outcomes include:
 
 ### Async workshop outcome message example
 
-![asyncworkshopoutcomemessage](asyncworkshopoutcomemessage.png)
+![asyncworkshopoutcomemessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/asyncworkshopoutcomemessage.png)
 
 ### Sync workshop outcome message example
 
-![syncworkshopoutcomemessage](syncworkshopoutcomemessage.png)
+![syncworkshopoutcomemessage](/images/product/ux/ux-research/how-to-conduct-ux-research-workshops/syncworkshopoutcomemessage.png)

@@ -76,7 +76,7 @@ Various pieces of the Handbook can be used to justify a range of behaviors:
 
 At GitLab Support we use two operating principles to help us interpret the sometimes conflicting guidance:
 
-1. **[Customer Results](/handbook/values/#customer-results)**: *Our focus is to improve the results that customers achieve*
+1. **[Customer Results](/handbook/values/#results)**: *Our focus is to improve the results that customers achieve*
 1. **[Freedom and Responsibility over Rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity)**: *we give people the responsibility to make a decision and hold them accountable for that*
 
 Our customer-facing [Statement of Support section on video calls](https://about.gitlab.com/support/#phone-and-video-call-support) supports this:
@@ -169,8 +169,8 @@ graph TD
 ### Providing the call link
 
 Start by using the
-[`General::Invite customer call`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360013199280)
-macro in Zendesk. Be sure to change `PERSONAL_CALENDLY_LINK` to be your own personal
+[`Support::Customer Calls::Offer a call`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Customer%20Calls/Offer%20a%20call.md?ref_type=heads)
+macro in Zendesk. Be sure to change `ONETIME_PERSONAL_CALENDLY_LINK` to be your own personal
 Calendly link.
 
 When sending a customer a call link:
@@ -210,7 +210,7 @@ Remember: you don't have to solve everything while you're on the call. It is oka
 ### Pre-call email
 
 Please consider sending a pre-call email. This helps set expectations to the call regarding goals, duration, and
-the people required to be on the call for effective troubleshooting. You can use the [`Support::Self-Managed::Pre customer call`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360086318253) macro in Zendesk
+the people required to be on the call for effective troubleshooting. You can use the [`Support::Customer Calls::Call scheduled`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Customer%20Calls/Call%20scheduled.md?ref_type=heads) macro in Zendesk
 for that, please modify it as you see fit.
 
 ### Tips to keep calls within the scheduled time
@@ -241,7 +241,7 @@ Example:
 1. **Treat customers as technical peers**: Be courteous and professional, and be human and try to connect with the other humans on the call.
 1. **If you don't know, say you don't know (and what you'll do to find the answer)**: customers don't expect you to know the intimate details of every configuration of GitLab live. If you don't know, that's okay - it's better to be transparent and explain what the path forward is. You can:
    - look things up in the docs live on the call
-   - move async to [request help from development](/handbook/support/workflows/how-to-get-help#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) or a peer
+   - move async to [request help from development](/handbook/support/workflows/how-to-get-help#how-to-formally-request-help-from-the-gitlab-development-team) or a peer
    - try something in your own environment or (if it's safe) in the customer's environment
 1. **Adapt your tactics to the situation**: Large calls with many teams represented require a different level of formality and precision than a single engineer on a lower priority case.
 
@@ -291,7 +291,7 @@ action plan.
 
 **Immediately** following your call you should construct the call summary in
 the Zendesk ticket using the macro
-[`Support::Self-Managed::Post Customer Call`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360028010274).
+[`Support::Customer Calls::Call completed - Summary`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Customer%20Calls/Call%20completed%20-%20Summary.md?ref_type=heads).
 The macro provides a template to structure the summary and applies ticket tags
 used to track work involving customer calls.
 
@@ -351,4 +351,4 @@ See more tips on our [All Remote Workspace page](/handbook/company/culture/all-r
 
 #### Krisp.ai License for GitLab Support Team
 
-[Krisp.ai](https://krisp.ai/) will mute background noise when you're in a noisy environment so you can hear and be heard more easily on calls. You may consider installing this app for your calls. GitLab Support team has a [Teams Pro license](https://krisp.ai/pricing/). If you are interested in getting one, kindly leave a comment at [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4642). Currently, it is unavailable for Linux.
+[Krisp.ai](https://krisp.ai/) will mute background noise when you're in a noisy environment so you can hear and be heard more easily on calls. You may consider installing this app for your calls. If you are interested in getting a license, please open an [Individual Use Software request](/handbook/finance/procurement/individual-use-software/#i-need-individual-use-software--where-do-i-start) with Procurement. Currently, it is unavailable for Linux.

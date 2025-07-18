@@ -52,7 +52,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ## Working at GitLab
 
-GitLab Inc. is a company based on the GitLab open-source project. GitLab is a community project to which over 2,200 people worldwide have contributed. We are an active participant in this community, trying to serve its needs and lead by example. We have one [vision](https://about.gitlab.com/strategy): everyone can contribute to all digital content, and our mission is to change all creative work from read-only to read-write so that everyone can contribute.
+GitLab Inc. is a company based on the GitLab open-source project. GitLab is a community project to which over 2,200 people worldwide have contributed. We are an active participant in this community, trying to serve its needs and lead by example. We have one vision: everyone can contribute to all digital content, and our mission is to change all creative work from read-only to read-write so that everyone can contribute.
 
 We [value](/handbook/values/) results, transparency, sharing, freedom, efficiency, [self-learning](/handbook/company/culture/all-remote/self-service/#how-self-learning-leads-to-success-in-your-role), frugality, collaboration, directness, kindness, diversity, inclusion and belonging, boring solutions, and quirkiness. If these values match your personality, work ethic, and personal goals, we encourage you to visit our [primer](/handbook/company/) to learn more. Open source is our culture, our way of life, our story, and what makes us truly unique.
 
@@ -65,7 +65,7 @@ Work on open source software so you can interact with a large community and can 
 Work on a product you use every day: we drink our own wine.
 Work on a product used by lots of people that care about what you do.
 As a company we contribute more than we take, most of our work is released as the open source GitLab CE.
-Focused on results, not on long hours, so that you can have a life and don't burn out.
+Focused on impact, not on activity, so that you can have a life and don't burn out.
 Open internal processes: know what you're getting into and be assured we're thoughtful and effective.
 
 See [our culture page](/handbook/company/culture/) for more!

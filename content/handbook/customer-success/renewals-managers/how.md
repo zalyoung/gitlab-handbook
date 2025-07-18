@@ -7,7 +7,7 @@ View the Renewals Manager handbook pages:
 - [Home](/handbook/customer-success/renewals-managers/home) - Information about the organization.
 - [What we do](/handbook/customer-success/renewals-managers/what) - Information about what tasks and activities renewals managers perform.
 
-Renewals Managers --> visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/) and [Highspot](https://gitlab.highspot.com/items/65831c38686f413428300ccd?lfrm=isd.9) for more information. 
+Renewals Managers --> visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/) and [Highspot](https://gitlab.highspot.com/items/65831c38686f413428300ccd?lfrm=isd.9) for more information.
 
 ---
 
@@ -81,7 +81,23 @@ Our management philosophy regarding the expectations of booking renewals is simp
 - Threshold: Consider the amount of churn/contraction - small renewals in these scenarios should be balanced with the amount of effort to find/submit them (i.e. submitting a 200 dollar opp may take more time than it's worth)
 
 - Submission
-  - When submitting a churn exception, you must follow our most up to date [churn exception process found here](https://internal.gitlab.com/handbook/sales/sales-commission/#request-for-splits-additional-credits-new-logo-exception-lam-dev-count-override-or-churn-exception)
+  - Here are the steps to request a review of your churn exception: 
+  1. From the Opportunity you are seeking an exception, select the "Request Support" button and enter the following information: 
+  2. Team: Renewal Ops 
+  3. Request Type: Churn Exception Request 
+  4. Migrated Opportunity: The "new" opportunity where the ATR was transferred or that helps justify the exception request
+  5. Exception Request ARR: How much ARR are you requesting as exempt? 
+  6. Justification: Please provide any information on why you are seeking an exemption 
+  7. After you have entered the above information, select Submit Case.
+  8. Follow the link to your new case and using Chatter, mention your manager for approval. 
+
+-Checking the Approval Status
+  -Once you have submitted the Exception Request, Renewal Ops will put the status as "Work in Progress". 
+  -Exceptions will be reviewed on the first business day of the next month. For example, a churn exemption that was submitted in February and had a close date in February will be reviewed on March 1. 
+  -If the "new" opportunity where the justification was provided is not Closed Won, we will change the status to "In Progress: Blocked" 
+  -If your request is approved, the boxes "Leadership Approval" and "Compensation Approval" will be checked. 
+  -If your request is not approved, there will be notes in the Ops/Compensation Notes field. We typically also engage via Chatter on the Case. Chatter should not be used on the Opportunity. 
+  -Once all approvals are complete and Sales Comp has been notified, your case will move to Closed. 
 
 ## Metrics
 

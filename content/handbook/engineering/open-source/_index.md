@@ -40,9 +40,19 @@ If you're contributing to an open source project on behalf of GitLab, you may be
 If your GitHub account's primary email is not your @gitlab.com email, you can add it as an additional address. No need to create a separate account.
 
 1. Fork the repository you want to contribute to into your account
-2. Follow the usual [pull request flow](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+2. Follow the usual [pull request flow](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 In the future, we might have a single organization for forks. That will allow us to track various metrics about contributions made by GitLab employees.
+
+### If a project does not have a license
+
+GitLab allows contribution to open source licensed projects. If the project to you which you wish to contribute does not have a license:
+
+1. Hold off making any contributions to the project until a license is in place.
+1. Open an issue in the project (or contact the maintainers through other documented means).
+1. Request the project adds an appropriate license citing an inability to contribute to unlicensed code.
+1. Potentially refer to licenses used in other projects in the same group/organization as an easy reference for the maintainer.
+1. If an open source license is added, you may then contribute to the project.
 
 ## Using open source software
 

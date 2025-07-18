@@ -25,7 +25,7 @@ The quick format includes:
 
 ### Helpful Resources
 
-- [Pitching in Highspot](/handbook/sales/field-communications/gitlab-highspot/#pitching--effectively-engage-buyers)
+- [External Shares (Pitching and Digital Rooms) in Highspot](/handbook/sales/field-communications/gitlab-highspot/#key-functionality)
 - [Send an Email Pitch from Highspot](https://help.highspot.com/hc/en-us/articles/213580306-Send-an-Email-Pitch-from-Highspot)
 - [Highspot Pitching - Deep Dive Training](https://docs.google.com/document/d/1mu9itIGJPmT8onA19b36kzSTHEudUDAGQ5vSWt7ZRl0/edit#bookmark=id.oq1sf0leuadt)
 - [GitLab Releases Overview page](https://gitlab.highspot.com/items/624626054e2472aa8611b5bf?lfrm=srp.0)

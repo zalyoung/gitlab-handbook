@@ -56,7 +56,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Navan Description box: Expense items must have a description filled out. This box is showing as optional but we require this to be filled in. This helps to correctly record the transaction and assist any reporting purposes downstream.
   - When filling in the description box , we ask for you to enter details of the expense so anyone looking at the line on a report can tell immediately (without the need of looking at the receipt) what the expense relates to and why it is claimed.
   - Please fill in the description box with details like : Items Purchased/Claimed, Period service relates to, Trip Details this claim relates to, Reason for trip, Clients Name, etc. If left blank, the expense will be bounced back to the team member to complete this portion.
-- The maximum monthly limit to be reimbursed is $10K USD (or local currency equivalent). Once this limit has been reached, all expense items will need to be approved by the A/P team in Navan.  This limit may be increased for Team Members whose positions require more spend (eg. Field Marketing), but the increase request needs to be submitted via an issue for approval by the VP, Corporate Controller and CAO. Due to the nature of their roles, E-Group members have a maximum monthly limit to be reimbursed of $20K USD before additional approvals are required.
+- The maximum monthly limit to be reimbursed is $10K USD (or local currency equivalent). Once this limit has been reached, all expense items will need to be approved by the A/P team in Navan.  This limit may be increased for Team Members whose positions require more spend (eg. Field Marketing), but the increase request needs to be submitted via an issue for approval by the VP or higher in the Accounting Organization. Due to the nature of their roles, E-Group members have a maximum monthly limit to be reimbursed of $20K USD before additional approvals are required.
 - Expenditures related to client entertainment or marketing must be necessary, prudent, and job-related.
 - Expenses that span longer than a month must be submitted on a monthly basis (eg. Although you paid for a year upfront for the internet, you must divide the total by 12 months and submit the cost monthly), with the exception of VPN.
 - Gift cards are not accepted as a form of payment for business expenses.
@@ -73,7 +73,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - The AP team will reach out to the Team Member's manager if additional approval is needed.
 - If the claim is over the advised guidance, the claim will be rejected with a note for the Team Member. The Team Member should be able to rectify the claim and resubmit.
 - Where the Team Member has already received approval from the manager, that approval should be attached as a receipt on the claim transaction.
-- Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP, Corporate Controller or CAO.
+- Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP or higher in the Accounting Organization.
 - There will be occasions where if you have claimed an item and it needs to be reimbursed back to GitLab, you will need to follow the repayment process in Navan for submission of the funds.
 
 ### 3.2 Trip Purpose Guidance
@@ -87,7 +87,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 
 ### 3.3 Other
 
-- Out of Policy Transactions for all E-Group Members (excluding the CFO) needs to be approved by the CFO.
+- Out of Policy Transactions for all E-Group Members needs to be approved by VP or higher in the Accounting Organization.
 - Any exceptions to the policy must be documented via an issue or an email with proper approvals from their manager and Finance team.
 
 ## 4. PROCEDURES
@@ -234,6 +234,18 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 
 {{% panel header="**Coding**" header-bg="green" %}}
 **Expense Type / Navan Policy Category:** Traveling: meals for myself
+{{% /panel %}}
+
+### Traveling: Team Events and Meals
+
+- To be used for team activities and food/beverages.
+- Each Team Member must submit their own receipts for reimbursement, so ensure to separate billing when going to meals with groups of Team Members. If this is not practicable to do due to the group size, then the most senior Team Member present should pay the bill and submit for reimbursement.
+- $80 limit per person per meal.
+- Tips are acceptable up to 20% and should be detailed accordingly in the description box. This should be included in the final price to stay within the Policy limits. For US team members, cash tips under $50 do not need a receipt.
+- Please also add a description for the trip/reason for travel.
+
+{{% panel header="**Coding**" header-bg="green" %}}
+**Expense Type / Navan Policy Category:** Traveling: Team Events and meals
 {{% /panel %}}
 
 ### Mileage
@@ -406,7 +418,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Member Significant Life Events and Team Member Gifts
 
 - Cash or cash equivalents, such as gift cards, are not allowed; Qualified gifts are capped at $125 per transaction.
-- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a gift.
+- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a [gift](/handbook/people-group/celebrations/#new-parent-swag).
 - Any People Manager can send a gift or flowers to any Team Member at GitLab to let them know they are thinking about them. Examples include:
   - A new Team Member recently purchased a new home and shared their news with others. A People Manager sends a "Home Sweet Home" doormat as a congratulatory gift.
   - While working a People Manager noticed a Team Member's children in the background of a Zoom call and surprised the kids with a new game.
@@ -428,7 +440,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Monthly service charges for the internet are reimbursable, but GitLab will not reimburse for any initial setup, equipment, change fees, or monthly insurance charges.
 - Please expense internet costs monthly, reflecting current charges only (even if you pay by a different cadence).
 - For Team Members in the Netherlands:
-  - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign the Regeling Internet Thuis form and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
+  - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign the [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq) form and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
   - If your address changes or the amount changes, please send a new form to the HRSavvy team, along with the invoice/letter for processing.
 - This is a taxable expense for GitLab Ltd. United Kingdom Team Members assuming that the internet connection is used partially for personal use as well as business use.
 - Policy is set at $80, anything over that amount will still be considered for approval as we know there are exceptions, and will be checked and approved on an individual basis depending on the user's circumstances, i.e. location etc.
@@ -445,11 +457,11 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Laptops, insurance and repairs
 
 - All laptops are purchased through GitLab unless a Team Member is in a region where GitLab cannot deliver a laptop.
-- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/it/end-user-services/onboarding-access-requests/) for your reference.
+- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/security/corporate/end-user-services/access-requests/) for your reference.
 
 #### Repairs to company issued equipment
 
-- If you need to replace a battery or something small that does not affect the productivity or speed of the device, please go ahead and get that small item replaced and expensed.
+- If you need to replace a battery, laptop charger, or something small that does not affect the productivity or speed of the device, please go ahead and get that small item replaced and expensed.
 - The category to use in Navan is 'Office Supplies'.
 - Please get approval from your Manager if your equipment appears to be damaged, defective, or in need of repair
 - Business Operations can advise on next steps to ensure you have the proper equipment to work.
@@ -548,7 +560,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Building
 
 - To be used for team activities and food/beverages associated with special team events. Amount allowed is dependent on their department budget for the year.
--Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY25 Team Building Budget"
+- Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY25 Team Building Budget"
 - In FY25, each e-group member has been allocated a budget per quarter for FY25-Q2 to FY25-Q4 for team building events.
 - Each e-group member can use their discretion when using the budget.
 - The budget should be used within the quarter the funds are allocated and unused funds cannot be moved to a different quarter.
@@ -579,7 +591,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 ### VPN Subscription
 
-- Please read [Why We Don't Have A Corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
+- Please read [Why We Don't Have A Corporate VPN](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page regarding usage at GitLab.
 - Policy is set at $150 per year.
 - Yearly subscription can be submitted in one claim.
 - Monthly subscriptions to be submitted monthly.
@@ -625,9 +637,9 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
-**Global Upside, Remote.com and Papaya Global**
+**PEO Locations**
 
-- The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
+- The list of locations under a PEO can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 
@@ -664,7 +676,7 @@ These virtual cards within Navan are only utilized by the AP team, and they are 
 
 ### Setting up your Navan Account
 
-Below is some more information to help you get set up with your [Navan](https://tripactions.com/) account.
+Below is some more information to help you get set up with your [Navan](https://navan.com/) account.
 
 - Log into Okta and click the Navan tile.
 - Once you are in your dashboard, make sure to set up your info in your profile (see link from drop down menu under your name).

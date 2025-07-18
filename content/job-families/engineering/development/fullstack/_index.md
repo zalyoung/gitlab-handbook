@@ -66,18 +66,18 @@ The Staff Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensation
 - Extends the responsibilities and requirements of the Senior or Staff level [Fullstack Engineer](/job-families/engineering/development/fullstack/)
 - Reports into a team member of the [Strategy and Operations Team](/job-families/chief-executive-officer/strategy-and-operations/), an organization that rolls into the CEO
 - Perform enhancements to the look-and-feel of the published handbooks
-- Help facilitate the [support process](/handbook/content-websites-responsibility/#support-process-for-content-websites) for [Content Sites](/handbook/content-websites-responsibility/#what-are-the-content-websites) by answering team member questions and triaging/responding to issues
+- Help facilitate the [support process](/handbook/about/escalation/) for [Content Sites](/handbook/about/maintenance/#what-are-the-content-websites) by answering team member questions and triaging/responding to issues
 - Coordinate with various stakeholders regarding site content or structure changes, including helping mediate potential - ownership issues encountered when refactoring or splitting up existing shared code/content/infrastructure
 - Maintain and improve the CI/CD pipelines, build processes, and review environments
 - Improve content-authoring experience and tooling
 - Perform and/or coordinate/delegate resolution of any other content sites issues related to infrastructure, code, - architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc
-- Support [dogfooding of GitLab features](https://about.gitlab.com/direction/dogfooding/) on [Content Sites](/handbook/content-websites-responsibility/#what-are-the-content-websites) and related infrastructure
+- Support [dogfooding of GitLab features](https://about.gitlab.com/direction/dogfooding/) on [Content Sites](/handbook/about/maintenance/#what-are-the-content-websites) and related infrastructure
 
 ### Hiring Process for Handbook Specialty
 
 Candidates for this speciality can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 25 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Selected candidates will be invited to schedule a 25 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a 50 minute high-level technical and fit interview with the Hiring Manager on the [Strategy and Operations team](/job-families/chief-executive-officer/strategy-and-operations/)
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Fullstack Engineers or Engineering Managers
 - Next, candidates will be invited to schedule a 25 minute interview with one of our Engineering Managers
@@ -87,7 +87,7 @@ Candidates for this speciality can expect the hiring process to follow the order
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Frontend Engineers
 - Next, candidates will be invited to schedule one or more 45 minute interviews with an Engineering Hiring Manager

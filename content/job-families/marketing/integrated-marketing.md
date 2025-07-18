@@ -43,14 +43,14 @@ The next step in the Demand Generation job family is not yet defined at GitLab.
 
 ## Performance Indicators
 
-- [Net new business pipeline created ($'s) v plan > 1](/handbook/marketing/revenue-marketing/#revenue-marketing-kpi-definitions)
-- [Total number of  Marketo Qualified Leads by month](/handbook/marketing/revenue-marketing/#revenue-marketing-kpi-definitions)
+- Net new business pipeline created ($'s) v plan > 1
+- Total number of  Marketo Qualified Leads by month
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Candidates will then meet with the Senior Director of Revenue Marketing.
 - Candidates will then be asked to schedule an interview with the Manager of Field Marketing, Americas.
 - Candidates will then meet with the CMO.

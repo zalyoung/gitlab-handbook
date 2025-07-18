@@ -5,32 +5,20 @@ description: "These are core principles we believe world class product organizat
 
 
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Our Product Principles
 
-These are core principles we believe world class product organizations exhibit. The goal is to build a PM system that fosters and honors these principles, in a way that works for GitLab.
+These are core principles that we believe will deliver world-class products through customer-centric innovation. Our goal is to build a practice that fosters these principles with the customers’ voice at the core. Everything we do is for our customers, and we are only successful when they succeed in delivering secure software faster to their customers and internal users.
 
-1. **Hiring is Job One.** "A" players attract "A" players. Given the strategic importance of the PM role, a strong PM creates enormous leverage. We should strive to raise the average competency for the team with each new hire.
-    - Helpful resource: [Recruit Rockstars](https://www.amazon.com/Recruit-Rockstars-Playbook-Winners-Business/dp/1619618168/ref=sr_1_fkmrnull_3?keywords=recruit+rockstars&qid=1558392544&s=gateway&sr=8-3-fkmrnull)
-1. **Care personally & challenge directly**. Employees that feel safe plus managers that coach honestly is how people do their best work. We encourage timely and actionable feedback, as well as managers that take the time to get to know their people as humans with feelings and personal lives, not just resources.
-    - Helpful resource: [Radical Candor](https://www.amazon.com/Radical-Candor-KIM-SCOTT/dp/1509845380/ref=sr_1_3?keywords=radical+candor&qid=1558392325&s=gateway&sr=8-3)
-1. **Always be learning.** Continuously invest in skill development, and have a growth mindset as individuals and as a team.
-    - Helpful resource: [Peak](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/0544947223/ref=sr_1_3?keywords=peak&qid=1558392290&s=gateway&sr=8-3)
-1. **You're not the customer.** Talk to them. It is tempting to assume that we understand our customers, but we are often wrong. We validate our assumptions through qualitative and quantitative customer input.
-    - Helpful resources: [Inspired](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/ref=sr_1_3?keywords=marty+cagan&qid=1558392207&s=gateway&sr=8-3). [Competing Against Luck](https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/ref=sr_1_3?keywords=competing+against+luck&qid=1558392608&s=gateway&sr=8-3). [Get in the Van](https://firstround.com/review/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product/).
-1. **Start with the problem, not the solution.** It is tempting to dive right into solutioning, but we are often wrong about the underlying problem. A well formed problem statement is the key to a successful project.
-    - Helpful resources: [Love the Problem Not Your Solution](https://www.leanfoundry.com/articles/love-the-problem-not-your-solution). [Great PM's Don't Spend Their Time on Solutions](https://www.intercom.com/blog/great-product-managers-dont-spend-time-on-solutions/).
-1. **Prioritize relentlessly.** It is better to do a few things well than many things poorly. We should focus first on what we're best at and what our customers need most, with a preference for simplicity. Customers will tell us when we're missing something they need, but they're unlikely to tell us when we're overwhelming them with unwanted features.
-    - Helpful resources: [Essentialism](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_3?keywords=essentialism&qid=1558392393&s=gateway&sr=8-3). [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/).
-1. **Assume you are wrong.** Human intuition is often wrong. To fight this, have a hypothesis and try to invalidate it quickly.
-    - Helpful resource: [Thinking, Fast & Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_3?crid=CT91NU8162ED&keywords=thinking%2C+fast+and+slow&qid=1558392435&s=gateway&sprefix=thinking%2C+fas%2Caps%2C169&sr=8-3)
-1. **Iterate.** Leverage a fast-paced build-measure-learn feedback loop to iterate your way to a good solution, rather than trying to plan it all out up front.
-    - Helpful resource: [Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898/ref=sr_1_3?keywords=lean+startup&qid=1558392463&s=gateway&sr=8-3)
-1. **Be data driven.** Always have success metrics, track them, and try to move them in the right direction with our actions.
-    - Helpful resource: [How to Measure Anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business/dp/1118539273/ref=sr_1_3?crid=34TJSQF3Z49AR&keywords=how+to+measure+anything&qid=1558392490&s=gateway&sprefix=how+to+measure+an%2Caps%2C167&sr=8-3)
-1. **Product-led growth.** Strive to build a delightful product and user experience that seamlessly acquires, activates, and retains customers in partnership with Marketing, Growth, Pricing, Fulfillment, and Sales.
-    - [Product-Led growth](https://www.productled.org/foundations/what-is-product-led-growth) does not mean _product-management-led growth_. However, following this principle product becomes a central piece in driving growth and is used for many activities that were traditionally outside of the product to provide a scalable approach.
+1. **We are customer zero, therefore we use our own product:** Everything you put into the product should be a feature you or our Engineering team would use as part of our daily work. If the answer is no, then challenge your "why", as there might be a better solution that will have a bigger impact for our customers.
+1. **We are not our only customer:** Meet with customers as much as possible as everything we do is for them. It is tempting to assume that we understand our customers through our own usage and dogfooding, but that only gets you so far and we can be wrong. Validate assumptions through strategic user research, customer interviews, and feedback sessions.
+1. **We are design-led:** It does not matter what customer pain points you work with Engineering to resolve if what is provided to customers is hard (or almost impossible) to use. User experience is our top priority as we have a very technical product, however it should be easy enough for someone new to DevSecOps to get started quickly. This includes everything from onboarding to shipping secure software leveraging GitLab.
+1. **We value quality over velocity:** Delivering incomplete features and capabilities to ensure your team achieves a defined velocity is not acceptable. Everything we ship to customers must be user validated, bug free, not introduce security vulnerabilities, be able to achieve GitLab.com scale, include documentation, and be available on all customer deployment choices simultaneously. Accruing additional technical debt in favor of velocity is also not acceptable as this leads to future quality issues around availability, scalability, reliability, and security.
+1. **We value data over intuition and anecdotes:** Everything we build must have success metrics we can track to ensure we are providing value to our customers. We measure outcomes, not launches, and this is only possible with experimentation and proper instrumentation. All features must be instrumented so success metrics can be tracked and adjustments to plans can be made through product usage.
+1. **We fail fast and iterate with intention:** Define a hypothesis on how to address a customer use case or pain point and validate (or invalidate) it quickly through problem validation. Take the outcome of the problem validation cycle and build an iteration strategy to deliver it with a focus on usability and quality. Revalidate your hypothesis through solution validation with each iteration so you can adjust plans as needed. Problem and solution validation ensures the customer voice is key in making decisions.
+1. **We believe in product-led growth over unguided experiences:** Our product should be GitLab's best Sales team member, and its own biggest champion. Enable feature discovery moments to let customers know there is more value based on their usage, actions taken, or configuration choices. The more customers adopt our product’s capabilities, the more return on investment they experience, which builds more internal GitLab champions.
+1. **We like to win…and we only win as a team:** We win when our customers are able to successfully ship secure software faster with GitLab. This requires us to hold ourselves to the highest levels of execution and collaboration within Product across our Product Management, UX Research, Product Design, and Technical Writing teams. While teamwork within Product is necessary, it is also not sufficient. We require that same standard of execution and collaboration with our cross-functional team members across R&D and GTM. Together, as a global GitLab team, we can drive Results for Customers.
 
 ## How we follow our Principles
 
@@ -53,7 +41,7 @@ lifecycle can be done in many different ways. You can have a marketplace of
 proprietary apps from different suppliers or use a suite of products developed
 in isolation.
 
-As a single-application for the entire DevOps lifecycle GitLab strives to enable you to bring ideas to production rapidly. We will do so AND avoid demonstrating our capabilities with toy app demos and simple trivial examples. That's because we understand that [building a prototype is easy, but building a production line is hard](https://www.businessinsider.com/elon-musk-says-building-factory-100-times-harder-than-making-car-2019-3).
+As a single-application for the entire DevOps lifecycle, GitLab strives to enable you to bring ideas to production rapidly. We will do so AND avoid demonstrating our capabilities with toy app demos and simple trivial examples. That's because we understand that [building a prototype is easy, but building a production line is hard](https://www.businessinsider.com/elon-musk-says-building-factory-100-times-harder-than-making-car-2019-3).
 
 ### The Minimal Valuable Change (MVC)
 
@@ -63,12 +51,12 @@ Our approach requires four pillars:
 
 - Relentless customer focus and commitment to understanding their workflows, using research and validation
 - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes.
-- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)
+- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/policy/development_stages_support/)
 - Future vision to expand the MVC beyond the initial release
 
-When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
+When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle/) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle/#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
-MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
+MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/policy/development_stages_support/), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
 Examples:
 
@@ -77,11 +65,11 @@ Examples:
 
 There are scenarios when an MVC approach is not advised. These include:
 
-- When changing core parts of the experience - An example of a core experience is [comments](https://docs.gitlab.com/ee/user/discussions/#comments-and-threads). When building this out for work items, we waited to release the new feature to end users until we reached parity with comments in Issues and MRs.
+- When changing core parts of the experience - An example of a core experience is [comments](https://docs.gitlab.com/user/discussions/#comments-and-threads). When building this out for work items, we waited to release the new feature to end users until we reached parity with comments in Issues and MRs.
 
 ### Iteration
 
-An MVC approach is a byproduct of our spirit of iteration. That means we [break problems down](/handbook/product-development-flow/#build-phase-1-plan) as [small as possible](/handbook/values/#make-small-merge-requests), and focus on [reduced cycle time](/handbook/values/#reduce-cycle-time). Thinking iteratively is not always intuitive, and breaking certain topics or projects down can be challenging. Here's a helpful [video](https://www.youtube.com/watch?v=zwoFDSb__yM) from our CEO with guidance on how to think more iteratively.
+An MVC approach is a byproduct of our spirit of iteration. That means we [break problems down](/handbook/product-development/how-we-work/product-development-flow/#build-phase-1-plan) as [small as possible](/handbook/values/#make-small-merge-requests), and focus on [reduced cycle time](/handbook/values/#reduce-cycle-time). Thinking iteratively is not always intuitive, and breaking certain topics or projects down can be challenging. Here's a helpful [video](https://www.youtube.com/watch?v=zwoFDSb__yM) from our CEO with guidance on how to think more iteratively.
 
 Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illustrates how to build MVCs using Iteration. It shows Lego climbing obstacles. The first design fails. The second one can climb a book and so on. It also illustrates how modularity and good interfaces help with iteration as things get complex.
 
@@ -111,13 +99,12 @@ Humans tend to [favor solutions that add features than solutions that remove the
 
 #### SaaS First
 
-Our customers choose SaaS because it reduces their operating costs, helps them adopt the latest capabilities without performing upgrades, and provides them peace of mind of high availability. This implies we adhere to SaaS first principles. SaaS first implies the following:
+Our customers choose SaaS because it reduces their operating costs, helps them adopt the latest capabilities without performing upgrades, and provides them peace of mind of high availability. This principle implies the following:
 
-- Release features in SaaS alongside self-managed or earlier
-- Design features so that they can be implemented in SaaS without downtime. If each team does a rearchitecture once every 2 years that requires downtime, then, as of this writing, it would imply 20 downtimes a year.
-- Involve infrastructure team early in your design process to ensure that not only is there no downtime, but that the deployment to SaaS can be low toil.
+- Design features so that they can be released without downtime.
+- Release features in SaaS before self-managed or alongside it.
 
-SaaS First does not mean SaaS only. For more information on parity between SaaS and self-managed, see our parity principle: #parity-between-saas-and-self-managed-deployments
+This principle does not mean SaaS only. For more information on parity between SaaS and self-managed, see our [parity principle](#design-for-self-managed-for-feature-parity-between-deployments).
 
 #### Feedback issues
 
@@ -163,8 +150,8 @@ since they may have important user perspectives around your categories.
 
 We have achieved many successes following this approach:
 
-- [Code Quality](https://docs.gitlab.com/ee/ci/testing/code_quality.html) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
-- [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html) by using the [Unleash](https://github.com/Unleash/unleash) client library
+- [Code Quality](https://docs.gitlab.com/ci/testing/code_quality/) in CI/CD pipelines by embedding [CodeClimate](https://codeclimate.com/)
+- [Feature Flags](https://docs.gitlab.com/operations/feature_flags/) by using the [Unleash](https://github.com/Unleash/unleash) client library
 - [Mobile publishing](https://about.gitlab.com/blog/2019/03/06/ios-publishing-with-gitlab-and-fastlane/) by writing about how to utilize [FastLane](https://fastlane.tools/) with GitLab
 
 There are also many more examples throughout the company where this has been successful.
@@ -181,7 +168,7 @@ We understand that a natural inclination when using application development tool
 
 #### Inspiration
 
-We admire other "convention over configuration" tools—like [Ruby on Rails](http://rubyonrails.org/) (the doctrine of which perfectly describes the [value of integrated systems](http://rubyonrails.org/doctrine#integrated-systems)), [Ember](http://emberjs.com/), and
+We admire other "convention over configuration" tools—like [Ruby on Rails](https://rubyonrails.org/) (the doctrine of which perfectly describes the [value of integrated systems](https://rubyonrails.org/doctrine#integrated-systems)), [Ember](https://emberjs.com/), and
 [Heroku](https://www.heroku.com/)—and we strive to offer the same advantages for continuous delivery of software.
 
 Furthermore, Ruby on Rails has significantly and positively influenced the Ruby community, uplifting the tool and making it more powerful and useful than ever before. We want GitLab to be to Kubernetes what Rails is to Ruby.
@@ -193,7 +180,7 @@ You should prefer well-considered choices based on current best practices. Avoid
 When considering adding new configuration, we follow the following principles:
 
 - **Ensure a great experience by default** - GitLab should work perfectly right out of the box for most users. While it should be resisted, sometimes configuration is inevitable or preferable. Your configuration must not make that [experience worse](https://gitlab.com/gitlab-org/gitlab/issues/14432) and should always _get out of the way of the user_.
-  - **GitLab.com values should be the default** - the settings used on GitLab.com should be the defaults for self-managed. Not only does this provide a consistent experience for users, but we get the highest fidelity feedback via GitLab.com. If we find that the GitLab.com setting is wrong, it is usually wrong for self-managed too. If you believe you have a strong case for using custom (non-default) settings for GitLab.com, please document the justification in alignment with your Product Section Lead. Any custom (non-default) settings for GitLab.com need to be [tracked here](https://docs.gitlab.com/ee/user/gitlab_com/).
+  - **GitLab.com values should be the default** - the settings used on GitLab.com should be the defaults for self-managed. Not only does this provide a consistent experience for users, but we get the highest fidelity feedback via GitLab.com. If we find that the GitLab.com setting is wrong, it is usually wrong for self-managed too. If you believe you have a strong case for using custom (non-default) settings for GitLab.com, please document the justification in alignment with your Product Section Lead. Any custom (non-default) settings for GitLab.com need to be [tracked here](https://docs.gitlab.com/user/gitlab_com/).
 - **Encourage favorable behaviors by limiting configuration** - Convention also implies that we're encouraging our customers to do things
 in a certain way. A very concrete example of this is the ability to disable pipelines. We believe that our integrated solution will give a superior user experience and we're motivated to encourage this behavior. For this reason, adding a configuration to allow disabling this permanently (be that in a template or instance-wide), is something that should be avoided.
 - **Design for users not intermediaries** - GitLab should avoid falling into the [Blackboard trap](https://twitter.com/random_walker/status/1182637292869115904) of building a product that administrators of GitLab love because it is configurable, but developers and other users of GitLab hate because it is overly complex and confusing.
@@ -212,11 +199,17 @@ in a certain way. A very concrete example of this is the ability to disable pipe
 Sometimes fast deployments are needed to fix a service or application outage that can cost a business money and reputation, we understand time is of the essence in these situations. That's why we believe giving the team control over this is important in crucial moments of the development lifecycle. Controls that prevent changes from reaching Production are okay as safeguards, but they should be able to be quickly removed or disabled if necessary. When controls are changed in this way, logs or records should be created to support post-mortem analysis and allow for understanding why the control needed to be removed or disabled.
 <figure class="video_container"><iframe src="https://www.youtube.com/embed/03ODv1cEO6E"></iframe></figure>
 
-#### Parity between SaaS and Self-managed deployments
+#### Design for self-managed for feature parity between deployments
 
-We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/categories/gitlab-the-product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
+We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS, Dedicated or Self-managed). All GitLab SaaS environments leverage the same installation method available to self-managed users, with a different licensing structure. By designing and implementing features for self-managed, we achieve maximum parity between the various installations.
 
-In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience prior to recommending and supporting customers using it. All features will eventually be made available across SaaS and self-managed once those learnings have been applied.
+A few examples:
+
+- Design features to avoid downtime since it's not acceptable for SaaS nor self-managed users.
+- It is ok to release functionality to SaaS first, as long as the solution is applicable for self-managed too.
+- While a feature can be enabled first on SaaS via a [feature flag](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) or setting, the underlying implementation must also exist, although disabled, on self-managed.
+
+In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present on self-managed codebase but are disabled until General Availability.
 
 For functionality where implementation may be especially challenging without cloud services, for example with AI, self-managed functionality may be dependent on an underlying SaaS service. This allows us to provide end users the same capabilities regardless of deployment type, and not overly constrain our feature set or impose significant operational complexities on each deployment. Product managers need to be aware that this may impact the adoption of these features, as not all customers may be willing or able to leverage underlying SaaS services, such as air-gapped deployments.
 
@@ -224,7 +217,7 @@ For functionality where implementation may be especially challenging without clo
 
 **Exception to this product principle requires CEO approval. Work with VP, Product Management to add your request to the Product Scale agenda describing the situation and request for exception to gain CEO approval.**
 
-Our [simplicity](/handbook/product/product-principles/#simplicity) and [SaaS/Self-Managed Parity](/handbook/product/product-principles/#parity-between-saas-and-self-managed-deployments) principles require that we adhere to our established knowledge architecture. Our established architecture is [Organization](https://gitlab.com/groups/gitlab-org/-/epics/4257#proposal), [Group](https://docs.gitlab.com/ee/user/group/) and [Project](https://docs.gitlab.com/ee/user/project/).
+Our [simplicity](/handbook/product/product-principles/#simplicity) and [SaaS/Self-Managed Parity](/handbook/product/product-principles/#design-for-self-managed-for-feature-parity-between-deployments) principles require that we adhere to our established knowledge architecture. Our established architecture is [Organization](https://gitlab.com/groups/gitlab-org/-/epics/4257#proposal), [Group](https://docs.gitlab.com/user/group/) and [Project](https://docs.gitlab.com/user/project/).
 
 - When we need to add capabilities that an admin needs to apply across the entire organization, then we provide them at the organization level.
 - When we need to add capabilities that need to apply across all projects in a group, but not applicable to all groups in an organization, then we provide them at a group level.
@@ -238,7 +231,7 @@ Note: This implies that we will take pains to avoid instance-level features as w
 
 After making a tier decision on a new feature, we should strive to maximize the number of users who can use it.
 
-As part of this objective, we should avoid building instance-level features when possible. Building at the instance level (in the [admin area](https://docs.gitlab.com/ee/administration/)) leads to
+As part of this objective, we should avoid building instance-level features when possible. Building at the instance level (in the [admin area](https://docs.gitlab.com/administration/)) leads to
 [a separation between GitLab.com and self-managed](https://gitlab.com/gitlab-com/customer-success/tam/-/issues/324#note_394401193) and limits
 your audience to self-managed customers only:
 
@@ -285,16 +278,16 @@ This principle is important because unowned product features are unsupervised, a
 
 ### User Experience
 
-A highly usable interface with cohesive workflows and comprehensive documentation is a must to stay ahead of our best-in-class competitors. Work closely with the individuals in [UX](/handbook/product/ux/) to achieve our user experience goals. The UX team has a high level of expertise in Product Design, Technical Writing, and UX Research. They can help decipher or decide how to simplify or avoid complexity. While our Product Designers [review user interface changes in merge requests](https://docs.gitlab.com/ee/development/contributing/design.html), they are not limited to just the UI. Anything that impacts the user journey is relevant to them.
+A highly usable interface with cohesive workflows and comprehensive documentation is a must to stay ahead of our best-in-class competitors. Work closely with the individuals in [UX](/handbook/product/ux/) to achieve our user experience goals. The UX team has a high level of expertise in Product Design, Technical Writing, and UX Research. They can help decipher or decide how to simplify or avoid complexity. While our Product Designers [review user interface changes in merge requests](https://docs.gitlab.com/development/contributing/design/), they are not limited to just the UI. Anything that impacts the user journey is relevant to them.
 
 Keep in mind these general user experience principles.
 
 - **Strive for simplicity:** Using GitLab should be easy. Users should think about the applications they are building and the teams they are collaborating with, not how to make our app work. Here's a great read on ["Don't make users think!"](https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited?)
-- **Depth over breadth:** A world-class experience requires deep, powerful, useful features. To remain balanced, we must also identify capabilities that can be deprecated so we are adding depth while encouraging [subtractive thinking](handbook/product/product-principles/#subtractive-thinking).
+- **Depth over breadth:** A world-class experience requires deep, powerful, useful features. To remain balanced, we must also identify capabilities that can be deprecated so we are adding depth while encouraging [subtractive thinking](/handbook/product/product-principles/#subtractive-thinking).
 - **Better than before:** Our [MVC principle](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) pushes back against the notion that something must be better than nothing. Instead, we assess if the user experience is better than before by considering its value. Work with a Product Designer to evaluate tradeoffs and minimize [deferred UX](/handbook/engineering/workflow/#deferred-ux).
 - **Timeless design:** The user experience should be relevant both today and years from now, so each release should encapsulate the best experience possible. Ask yourself, "How would we build something if we knew this was the last time a team could touch it?"
 
-Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles).
+Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles/).
 
 ### Be Ambitious
 
@@ -328,7 +321,7 @@ Discovering new features can enhance the experience and unlock significant value
 
 However, excessive feature discovery efforts can become irritating for users. This erodes trust and reduces engagement with other UI elements in the future. Even worse, they might leave GitLab due to this deteriorating experience. Context plays a significant role in how users engage with new functionality. By presenting features in a way that resonates with a user's current situation and needs you increase the liklihood of them using this new functionality.
 
-Work with your product designer to improve the discoverability of your features. The Pajamas Design System has best practices and examples to support [feature discoverability](https://design.gitlab.com/usability/feature-discovery). We can also design new patterns. The Growth team can also help you with this, as they think about things like onboarding new users and promoting feature use within the app while supporting, not annoying, the user.
+Work with your product designer to improve the discoverability of your features. The Pajamas Design System has best practices and examples to support [feature discoverability](https://design.gitlab.com/usability/feature-discovery/). We can also design new patterns. The Growth team can also help you with this, as they think about things like onboarding new users and promoting feature use within the app while supporting, not annoying, the user.
 
 ### Product Qualified Leads (PQLs)
 
@@ -360,7 +353,7 @@ There are two frameworks we use to think about driving GitLab's product usage: w
 
 #### Single Feature usage: AARRR framework
 
-AARRR stands for _Acquisition_, _Activation_, _Retention_, _Revenue_, and _Referral_ which is often referred to as ["Pirate Metrics"](https://amplitude.com/blog/2016/02/25/actionable-pirate-metrics). These five words represent the customer journey and the various means a product manager may apply Product Performance Indicators to drive a desired behavior in the funnel.
+AARRR stands for _Acquisition_, _Activation_, _Retention_, _Revenue_, and _Referral_ which is often referred to as ["Pirate Metrics"](https://amplitude.com/blog/actionable-pirate-metrics). These five words represent the customer journey and the various means a product manager may apply Product Performance Indicators to drive a desired behavior in the funnel.
 
 While the AARRR framework is commonly used to drive overall active users, it is also a great way for PMs to think about how to drive feature usage.
 
@@ -409,7 +402,7 @@ graph TD;
     id3 --> id7(Package - 7%)
     id6 --> id9(Monitor - 8%)
     id6 --> id10(Configure - 2%)
-    id6 --> id11(Govern - 28%)
+    id6 --> id11(Software Supply Chain Security - 28%)
 ```
 
 - The percentage here is defined as % of monthly active paid ultimate-tier self-managed instances that adopted that stage. The data is captured directly in the Golden Journey Paths chart (which has been deprecated).
@@ -464,12 +457,12 @@ that would incur _no additional_ effort or cost had we chosen a larger number. T
 effort includes product, design, and engineering effort to create the feature in the first place,
 and to maintain it over time.
 
-For example, GitLab Core has the [issue board feature](https://docs.gitlab.com/ee/user/project/issue_board.html) in every project.
-In GitLab EE, each project supports [multiple boards](https://docs.gitlab.com/ee/user/project/issue_board.html#multiple-issue-boards).
+For example, GitLab Core has the [issue board feature](https://docs.gitlab.com/user/project/issue_board/) in every project.
+In GitLab EE, each project supports [multiple boards](https://docs.gitlab.com/user/project/issue_board/#multiple-issue-boards).
 This _does not_ mean that Core has an artificial limit of one board per project, because there is additional effort
 to manage multiple boards such as supporting the navigation interface, and all the associated engineering work.
 
-This principle does not apply to our SaaS offering as limits are occasionally introduced to limit our hosting costs and protect other users from potential abuse. As an example we have [shared runner](https://docs.gitlab.com/ee/user/gitlab_com/#shared-runners) minute quotas and implement [rate limiting](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits).
+This principle does not apply to our SaaS offering as limits are occasionally introduced to limit our hosting costs and protect other users from potential abuse. As an example we have [shared runner](https://docs.gitlab.com/user/gitlab_com/#shared-runners) minute quotas and implement [rate limiting](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom).
 
 ### Avoid enforced workflows but allow enterprise flexibility
 
@@ -520,7 +513,7 @@ When considering a customer need for enforcement or limitations:
 As an example, customers requested instance-wide enforcement through required CI jobs. Doing this would have been a mistake. Instead:
 
 - We understood their problem more deeply, and realized we could build capabilities to perform these checks in existing primitives (like [external rules](https://gitlab.com/groups/gitlab-org/-/epics/3869) in MR approvals).
-- We limited the scope of the problem, and avoided any limitations at the instance-level. Instead, we planned to keep the impact as small as possible by requiring customers to scope this feature to only projects with a particular [compliance framework](https://docs.gitlab.com/ee/user/project/settings/#compliance-framework).
+- We limited the scope of the problem, and avoided any limitations at the instance-level. Instead, we planned to keep the impact as small as possible by requiring customers to scope this feature to only projects with a particular [compliance framework](https://docs.gitlab.com/user/project/settings/#compliance-framework).
 - We intentionally planned for workarounds. A developer should be able to override these limitations inside merge requests, such as with [two-person approvals](https://gitlab.com/gitlab-org/gitlab/-/issues/219386). They should also be able to create subgroups that aren't subject to these controls.
 
 <figure class="video_container"><iframe src="https://www.youtube.com/embed/QCfOQs8S4OQ"></iframe></figure>While workflow enforcement should be avoided in most cases, there are organizations that rely on enforced workflows for a variety of reasons. These organizations have problems adapting existing workflows as they move to GitLab and as a result, we should consider allowing some enforcement at the group level in order to balance team efficiency and organizational policy. Page 79 of [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339) outlines "teams that reported no approval process or used peer review achieved higher software delivery performance." As we implement features to allow organizations to enforce workflows, we should do so at the group level and default them off. GitLab should be a product teams use to accelerate product development, but flexible enough to solve for requirements of all sizes of organizations.
@@ -530,8 +523,8 @@ As an example, customers requested instance-wide enforcement through required CI
 Small primitives are building blocks in GitLab. They are an abstraction _not_ at
 the technical level, but truly at the product level. Small primitives can be combined,
 built-upon further, and otherwise leveraged to create new functionality in GitLab.
-For example, the label lists in [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html)
-use the smaller primitive of [labels](https://docs.gitlab.com/ee/user/project/labels.html).
+For example, the label lists in [issue boards](https://docs.gitlab.com/user/project/issue_board/)
+use the smaller primitive of [labels](https://docs.gitlab.com/user/project/labels/).
 
 They are especially powerful because they usually take less effort _and_ provide
 higher leverage than you would get from a more "complete" but standalone feature.
@@ -587,7 +580,7 @@ With this in mind, below are some product guidelines to consider:
   - When an integration is driven by an organizational requirement (such as having all teams in the company use Jira), [Buyer Based Tiering](/handbook/company/pricing/#buyer-based-tiering-clarification) likely indicates that the integration is for _multiple team_ (Premium) or _strategic organizational_ (Ultimate) use.
   - When an integration is _extending GitLab capabilities_, the buyer is more likely to be the end-user, similar to how we'd think about pricing other GitLab functionality.
 - **Low level of shame still applies here**
-  - When we start to integrate with another product, it's almost like opening a whole new Category of work. With this in mind, a friendly reminder that [low level of shame](/handbook/values/#low-level-of-shame) applies, just like it would anywhere else. The integration may not be very valuable _today_, but it's just a starting place, and we should use our first iteration to validate what belongs in the next one.
+  - When we start to integrate with another product, it's almost like opening a whole new Category of work. With this in mind, a friendly reminder that [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) applies, just like it would anywhere else. The integration may not be very valuable _today_, but it's just a starting place, and we should use our first iteration to validate what belongs in the next one.
 - **Track the maturity of the integration**
   - Like any other category of work, we should track the maturity of the integration somewhere that's visible. Consider adding your integration to the Ecosystem Integrations direction page, which contains a table that tracks our high-priority integrations and their maturity levels.
 - **Respect security and permissions**
@@ -596,7 +589,7 @@ With this in mind, below are some product guidelines to consider:
   - Integrations should be as discoverable as any native GitLab feature, if they're enabled. In cases where the two features are mutually exclusive, we should allow the user to hide our native functionality to prevent confusion. For example, having two project management tools is a (generally) _bad_ idea. Collaborators may end up filing issues in the wrong tool, slowing down their velocity and worsening their overall experience. Reducing velocity is antithetical to the value GitLab provides.
   - When features _aren't_ mutually exclusive (there's nothing wrong with using _multiple_ security scanning services, for example), we should group navigation to those integrations near our own.
 - **Use empty states for feature discovery**
-  - Consider adding an [_empty state_](https://design.gitlab.com/regions/empty-states) that highlights the availability of this integration. If someone is not using the GitLab feature _and also not_ integrating their tool of choice, that's the worst possible experience. We should respect the choices of our users, and if they've decided to use a 3rd-party tool that we integrate with, we shouldn't hide that option in a dark corner.
+  - Consider adding an [_empty state_](https://design.gitlab.com/patterns/empty-states/) that highlights the availability of this integration. If someone is not using the GitLab feature _and also not_ integrating their tool of choice, that's the worst possible experience. We should respect the choices of our users, and if they've decided to use a 3rd-party tool that we integrate with, we shouldn't hide that option in a dark corner.
   - This is also a great opportunity to educate the user on what GitLab can offer relative to other products. It's the best of both worlds: promoting our own features while helping them improve their current experience, regardless of choice.
 - **Use our own design language**
   - Just because we're leveraging _functionality_ from a 3rd-party service doesn't mean we should allow that service's UI to dictate what ours looks like. GitLab has its own [design language](https://design.gitlab.com/), and by keeping it cohesive across the application, we create a significantly better experience for our users.
@@ -605,7 +598,7 @@ With this in mind, below are some product guidelines to consider:
 
 #### Avoid plugins and commercial marketplaces
 
-_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/ee/development/project_templates.html) and CI components in the [CI/CD Catalog](https://docs.gitlab.com/ee/ci/components/#cicd-catalog). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD components on the other hand, will offer an in product experience for consuming components for YAML configuration from a library of [GitLab maintained components](https://gitlab.com/components).
+_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/development/project_templates/) and CI components in the [CI/CD Catalog](https://docs.gitlab.com/ci/components/#cicd-catalog). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD components on the other hand, will offer an in product experience for consuming components for YAML configuration from a library of [GitLab maintained components](https://gitlab.com/components).
 
 Closed source software vendors commonly depend on plugins and commercial marketplaces because:
 
@@ -631,9 +624,9 @@ And for **developers of GitLab** including the third parties, this has significa
 
 Overall, we believe that this approach creates the best possible experience for both the users of and the contributors to GitLab, and to that end we encourage people to [contribute functionality to GitLab directly](https://about.gitlab.com/community/contribute/).
 
-If adding code directly to GitLab isn't an option, we encourage third-parties to integrate through our [APIs](https://docs.gitlab.com/ee/api/).
+If adding code directly to GitLab isn't an option, we encourage third-parties to integrate through our [APIs](https://docs.gitlab.com/api/).
 
-_Note: GitLab does support [plugins that respond to system hooks](https://docs.gitlab.com/ee/administration/file_hooks.html), which tie directly to application events and are primarily used for administrative purposes such as auditing, logging, and other administrative tasks._
+_Note: GitLab does support [plugins that respond to system hooks](https://docs.gitlab.com/administration/file_hooks/), which tie directly to application events and are primarily used for administrative purposes such as auditing, logging, and other administrative tasks._
 
 ### Product and feature naming guidelines
 
@@ -650,11 +643,11 @@ Exceptions to this principle are considered in limited circumstances - if a prod
 
 #### Use prepositions when referring to third-party products and services in names
 
-When naming a GitLab extension, plugin, app, or integration for a third-party product or service (a "tool"), either include the third-party service name with a preposition like `for`, or don't include it at all. A preposition is important as it indicates that the third party isn't officially affiliated with the tool. For example, our [integration with Jira Cloud](https://docs.gitlab.com/ee/integration/jira/connect-app.html) is called `GitLab.com for Jira Cloud`.
+When naming a GitLab extension, plugin, app, or integration for a third-party product or service (a "tool"), either include the third-party service name with a preposition like `for`, or don't include it at all. A preposition is important as it indicates that the third party isn't officially affiliated with the tool. For example, our [integration with Jira Cloud](https://docs.gitlab.com/integration/jira/connect-app/) is called `GitLab.com for Jira Cloud`.
 
 Provided we use the tool's full name in marketing materials and technical documentation, as exceptions to this general principle we can: (1) refer to the tool solely by the third-party service name in places where we list GitLab's tools in product; and (2) refer to the tool solely as "GitLab" in the third-party product's app directory. For example, we refer to the GitLab for Slack app as "Slack" in our lists of GitLab integrations, and as "GitLab" in the [Slack App Directory](https://gitlab.slack.com/apps/A676ADMV5-gitlab?tab=more_info).
 
-For more guidance on the feature naming process, see [naming features](/handbook/product/gitlab-the-product/#naming-features).
+For more guidance on the feature naming process, see [naming features](/handbook/product/categories/gitlab-the-product/#naming-features).
 
 ### Next Generation
 
@@ -694,7 +687,7 @@ use eventually, even if they're not ready to today.
 
 By focusing on next-generation development flows, personas, and use cases - we build features and experiences where our initial users are in the relatively small population of early adopters. While we might build experiences to support them today, we presume there will always be a much larger population of future users of these experiences. Therefore, we optimize GitLab to support the larger number of current and future adopters of next-generation principles - those who are beginning to operate in the workflow (modern), team setup (developer first), or application architectures (cloud native) we support. We focus our investment in the most modern workflows that will best support those current adopters. This will come at the cost of sustained investment in initial workflows for early adopters. When doing so we will ensure we clearly communicate with our users what the preferred path is.
 
-For example - We first provided the ability to attach Kubernetes Clusters via the Certificate method. After realizing this wasn't optimal for production use cases we added the GitLab Agent for Kubernetes method of cluster attachment. As soon as we were certain that the certificate method was no longer the preferred method we communicated via our docs and in the product that the Agent was the preferred path for current adopters. This should not mean an immediate [deprecation](https://docs.gitlab.com/ee/development/deprecation_guidelines/), but a clear signal that the legacy method will become deprecated once the alternative approach is able to substitute it.
+For example - We first provided the ability to attach Kubernetes Clusters via the Certificate method. After realizing this wasn't optimal for production use cases we added the GitLab Agent for Kubernetes method of cluster attachment. As soon as we were certain that the certificate method was no longer the preferred method we communicated via our docs and in the product that the Agent was the preferred path for current adopters. This should not mean an immediate [deprecation](https://docs.gitlab.com/development/deprecation_guidelines/), but a clear signal that the legacy method will become deprecated once the alternative approach is able to substitute it.
 
 #### Customer Support on all features {#support-all-features}
 

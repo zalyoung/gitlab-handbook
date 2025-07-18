@@ -23,14 +23,14 @@ If a customer reports a shared runner running slower than it normally does, it i
 
 Check the [CI Runners Overview](https://dashboards.gitlab.net/d/ci-runners-main/ci-runners-overview?orgId=1) graphs where you will find an increase in queue apdex and latency.
 
-Check on the [#feed_alerts](https://gitlab.slack.com/messages/C12RCNXK5), [#production](https://gitlab.slack.com/messages/C101F3796), and [#incident-management](https://gitlab.slack.com/messages/CB7P5CJS1) Slack channels to ensure this isn't an outage or infrastructure issue.
+Check on the [#feed_alerts](https://gitlab.slack.com/messages/C12RCNXK5), [#production](https://gitlab.slack.com/messages/C101F3796), and [#incidents](https://gitlab.slack.com/messages/C02HF90ME66) Slack channels to ensure this isn't an outage or infrastructure issue.
 
 ### If you notice slowness yourself on GitLab.com
 
 Before you post to #production or make an issue, here are some helpful ways to capture data that help to narrow down the issue(s):
 
-1. You can add `performance_bar=flamegraph` query parameter to generate a [CPU flamegraph](https://docs.gitlab.com/ee/development/profiling.html#speedscope-flamegraphs).
-1. Use the [performance bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) by typing `pb` in your browser window.  Reload the page and grab the information from the server side.
+1. You can add `performance_bar=flamegraph` query parameter to generate a [CPU flamegraph](https://docs.gitlab.com/development/profiling/#speedscope-flamegraphs).
+1. Use the [performance bar](https://docs.gitlab.com/administration/monitoring/performance/performance_bar/) by typing `pb` in your browser window.  Reload the page and grab the information from the server side.
 1. If using Chrome, open the Chrome developer tools (View > Developer > Developer Tools), reload the page, and look at the Network tab.  This will show all of the requests and times.
 1. If using Firefox, there is a similar network view under Tools > Web Developer > Network which will show requests and timing.
 
@@ -42,7 +42,7 @@ If our customer is reporting problems connecting to GitLab.com, we should ask fo
 
 ```shell
 traceroute gitlab.com
-curl http://gitlab.com/cdn-cgi/trace
+curl https://gitlab.com/cdn-cgi/trace
 curl https://gitlab.com/cdn-cgi/trace
 curl -svo /dev/null https://gitlab.com
 ```
@@ -69,11 +69,11 @@ The following workflows will guide you on how to search Kibana and/or Sentry for
 
 #### Searching Kibana
 
-See the [500-specific section in the Kibana]({{< ref "kibana#searching-kibana-for-500-level-errors" >}}) workflow.
+See the [500-specific section in the Kibana](/handbook/support/workflows/kibana#searching-kibana-for-500-level-errors) workflow.
 
 #### Searching Sentry
 
-See the [Sentry workflow]({{< ref sentry >}}).
+See the [Sentry workflow](/handbook/support/workflows/sentry).
 
 A video walkthrough of investigating 500 errors using Kibana and Sentry can be seen [here](https://youtu.be/o02t3V3vHMs) (GitLab Unfiltered).
 

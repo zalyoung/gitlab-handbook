@@ -71,9 +71,19 @@ Focusing on the goals and benefits listed above, the time required to complete a
 
 ### Prepare
 
+#### Account Team
+
+Prior to the pitch, the account team should:
+
+- Identify executive sponsor, stakeholders and participants
+- Identify business objectives
+- Identify an application/project for the Day In The Life demo. This is an important step as it focuses the discovery on a single flow where there is a clear beginning and end that has the potential to be measured for delays. The project should reflect a critical or typical development process, spanning idea to deployment, that the business is looking to improve.
+
+#### SA
+
 Usually, through discovery, there is some level of knowledge of customer goals and the current development process from a development perspective.  The goal of the Day In The Life is to understand the entire development process from idea to deployment to production, and to look for areas of improvement throughout.
 
-Prepare for the Day In The Life of a Developer, by organizing the information we already have about the customer and identifying areas we want to learn more about. This should include GitLab's goals for the meeting which should already exist in the Technical Close Plan. The Technical Close Plan should have input from the SA, AE, and CSM, with the SA as the DRI.
+Prepare for the Day In The Life of a Developer, by organizing the information we already have about the customer and identifying areas we want to learn more about. This should include GitLab's goals for the meeting, which should align with the Customer Success Plan.
 
 Prepare questions in advance for the list of things we want to learn. Questions can be drawn from the [GitLab Value Framework](https://gitlab.highspot.com/items/64da83a5f9fbeee46d8ad909#21).
 
@@ -85,14 +95,8 @@ The initial customer pitch, delivered by the SA, allows us to identify key stake
 
 - What is a Day In The Life of a Developer?
 - What does a Day In The Life of a Developer entail?
-- Who are the key participants involved in the Day In The Life of a Developer? 
+- Who are the key participants involved in the Day In The Life of a Developer?
 - What are some of the expected outcomes of a Day In The Life of a Developer for them?
-
-During the pitch, the account team should strive to:
-
-- Identify executive sponsor, stakeholders and participants
-- Identify business objectives
-- Identify an application/project for the Day In The Life demo. This is an important step as it focuses the discovery on a single flow where there is a clear beginning and end that has the potential to be measured for delays. The project should reflect a critical or typical development process, spanning idea to deployment, that the business is looking to improve. This must be completed prior to the start of the Day In The Life meeting
 
 Here are some resources that can be used as starting point for the pitch:
 Customer pitch deck
@@ -135,7 +139,7 @@ The process which we will go through, at a high level, is as follows:
 1. Current state
     1. Initial process "walk-through" for the prospect or customer to demonstrate - A best practice is to share a current state diagram based on our (possibly limited) understanding of the customer's environment to facilitate the Day in the Life discussion
         1. Capture people, processes and technology
-    1. Analyze and identify bottlenecks and improvement areas. 
+    1. Analyze and identify bottlenecks and improvement areas.
         1. Time is limited - Use the list of discovery questions selected during prep and focus/"double click" on the areas where GitLab can help - avoid delving deep into areas that GitLab cannot affect
 1. Design future state
     1. Review the expectations, to align the team on the target they are aiming to create
@@ -157,7 +161,7 @@ The process which we will go through, at a high level, is as follows:
 - Remote:
   - Zoom, MS Teams, or Google Meet
   - Diagramming tools
-  - [FigJam](handbook/solutions-architects/tools-and-resources/#diagramming-tools) or LucidChart for Current State and Future State visualization
+  - [FigJam](/handbook/solutions-architects/tools-and-resources/#diagramming-tools) or LucidChart for Current State and Future State visualization
     - FigJam is not yet connected to Okta. Login using your Google account. Make sure you have a `Full` FigJam license with read-write access. (if you're in read-only mode, you need to request a full license)
     - LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
     - If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. See [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341) Access Request Issue.
@@ -175,15 +179,15 @@ The process which we will go through, at a high level, is as follows:
 
 ##### Idea to Production
 
-![Idea to Production](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
+![Idea to Production](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
 
 ##### Response to Production Incident
 
-![Response to Production Incident](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
+![Response to Production Incident](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
 
 ##### Toolchain Upgrading and Maintenance
 
-![Toolchain Upgrading and Maintenance](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
+![Toolchain Upgrading and Maintenance](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
 
 ### Executive Briefing - Summarize the Findings
 
@@ -205,7 +209,7 @@ It is recommended to review the executive briefing with your champion, key stake
 
 1. What's in it for me - the customer?
    - Free, hands-on consultative analysis of their software delivery lifecycle, including their current state, future state, and areas of improvements.
-   - Competitive analysis of where they are compared to their peers in the industry. This report contains the most recent benchmark values for the four DORA metrics (widely regarded as good measures of DevOps performance) [State of DevOps Report 2021](https://services.google.com/fh/files/misc/state-of-devops-2021.pdf).
+   - Competitive analysis of where they are compared to their peers in the industry. This report contains the most recent benchmark values for the four DORA metrics (widely regarded as good measures of DevOps performance) [State of DevOps Report 2024](https://services.google.com/fh/files/misc/2024_final_dora_report.pdf).
    - Recommendations on how to overcome visible or invisible challenges with a strategic plan to help them reach their future state.
 
 1. What are typical outcomes for a customer?

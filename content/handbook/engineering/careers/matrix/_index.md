@@ -18,8 +18,7 @@ These are the expected competencies of team members at GitLab by Job Title.
 
 |   | Sub Departments Career Frameworks                                                                                                                                                                                                              |
 | ---- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[Development](/handbook/engineering/careers/matrix/development/)** | [Dev](/handbook/engineering/careers/matrix/development/dev/), [Core Platform](/handbook/engineering/careers/matrix/infrastructure/core-platform/), Growth, Ops, Package & Release, Secure & Govern, Verify |
-| **[Incubation Engineering](/handbook/engineering/careers/matrix/development/incubation/)** | Incubation Engineering |
+| **[Development](/handbook/engineering/careers/matrix/development/)** | [Dev](/handbook/engineering/careers/matrix/development/dev/), Growth, Ops, Package & Release, Secure & Govern, Verify |
 | **[Infrastructure](/handbook/engineering/careers/matrix/infrastructure/)** | Infrastructure, Delivery & Scalability, Reliability                                                                                                                                                                                            |
-| **[Quality](/handbook/engineering/careers/matrix/quality/)** | Dev, Ops, Secure, Core Platform, Engineering Productivity, Growth, Fulfillment, Govern                                                                                                                                                            |
+| **[Quality](/handbook/engineering/careers/matrix/quality/)** | Dev, Ops, Secure, Engineering Productivity, Growth, Fulfillment, Software Supply Chain Security |
 | **[Support](/handbook/engineering/careers/matrix/support/)** | [Support](/handbook/engineering/careers/matrix/support/)  |

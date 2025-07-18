@@ -30,7 +30,6 @@ quickly to meet customer needs.
 
 ### Support Management contacts
 
-- Overall DRI: Shaun McCann
 - Regional DRIs: Mike Dunninger, John Lyttle, Ket Slaats
 - Coordinating Mechanizer maintenance: Ronnie Alfaro
 
@@ -142,30 +141,28 @@ as part of their subscription, which refresh every month:
 - Ultimate: `50,000`
 
 Units **are not a 1-to-1 translation of minutes** and are subject to
-[cost factors](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#cost-factor),
-including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#additional-costs-on-gitlab-saas)
-in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#purchase-additional-cicd-minutes)
+[cost factors](https://docs.gitlab.com/ci/pipelines/compute_minutes/#cost-factor),
+including [the type of Runner being used](https://docs.gitlab.com/ci/pipelines/compute_minutes/#additional-costs-on-gitlab-saas)
+in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ci/pipelines/compute_minutes/#purchase-additional-cicd-minutes)
 at any time.
 
 #### Storage and Transfer
 
-On GitLab.com (SaaS), [project storage limits](https://docs.gitlab.com/ee/user/usage_quotas.html#project-storage-limit),
+On GitLab.com (SaaS), [project storage limits](https://docs.gitlab.com/user/usage_quotas/#project-storage-limit),
 are enforced. The default storage limit is 10 GB *per project*. Once a project reaches its storage limit, it is considered as
-having [excess storage usage](https://docs.gitlab.com/ee/user/usage_quotas.html#excess-storage-usage)
+having [excess storage usage](https://docs.gitlab.com/user/usage_quotas/#excess-storage-usage)
 and may enter into a read-only state until additional storage is purchased. Additional
-storage [can be purchased at any time](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#purchase-more-storage-and-transfer).
+storage [can be purchased at any time](https://docs.gitlab.com/subscriptions/gitlab_com/#purchase-more-storage-and-transfer).
 
 Changes to how storage and transfer limits are considered at a
-[namespace level](https://docs.gitlab.com/ee/user/usage_quotas.html#namespace-storage-limit) are
+[namespace level](https://docs.gitlab.com/user/usage_quotas/#namespace-storage-limit) are
 planned, but not currently enforced. See [the storage management improvements issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375296)
-and [Pricing FAQ](https://about.gitlab.com/pricing/faq-paid-storage-transfer/#q-what-is-changing-with-storage-and-transfer-limits)
+and [Pricing FAQ](https://docs.gitlab.com/user/storage_usage_quotas/)
 for further information.
 
 ### What you'll be working on
 
-- Tickets in the L&R queue (see
-  [Zendesk Global Views](/handbook/support/readiness/operations/)
-  for more information on locating these) in Zendesk. The queue will contain
+- Tickets in the L&R queue in Zendesk. The queue will contain
   tickets from customers as well as from GitLab Team Members (Sales, CSMs,
   etc.). The tickets from team members are called "internal requests," and
   information about those is available on the
@@ -177,6 +174,7 @@ for further information.
 - Identifying product issues that are important to customers, Support or both,
   and coordinating with the entire L&R Support Team and the Fulfillment Product
   Management Team to prioritize them for Engineering.
+- Some team members work closely with the Fulfillment engineers to review and collaborate on changes in the Customers Portal. If you would like to participate and be pinged on relevant MRs, add yourself as a direct member of the reviewers group: https://gitlab.com/groups/gitlab-com/support/licensing-subscription/reviewers.
 
 ### Systems you'll need access to
 
@@ -257,7 +255,7 @@ When creating an [individual/bulk access request](https://gitlab.com/gitlab-com/
 
 ### Workflows
 
-- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index/)
+- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/)
 
 ### Useful tools
 
@@ -311,7 +309,7 @@ The queue should not be used for the following:
 
 ### Product documentation
 
-- [GitLab subscription](https://docs.gitlab.com/ee/subscriptions/)
+- [GitLab subscription](https://docs.gitlab.com/subscriptions/)
 
 ### Marketing pages
 
@@ -320,10 +318,9 @@ The queue should not be used for the following:
 
 ### Handbook pages
 
-- [CustomersDot Admin Docs](/handbook/product/fulfillment-guide)
 - [Business Ops](/handbook/business-technology/)
   - [Business Systems: Enterprise Applications, Integrations, and Flow](/handbook/business-technology/enterprise-applications/integrations/)
-  - [Troubleshooting: True Ups, Licenses + EULAs](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/)
+  - [Troubleshooting: True Ups, Licenses + EULAs](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/)
 - [Sales](/handbook/sales/)
   - [Sales Segmentation](/handbook/sales/field-operations/gtm-resources/)
   - [Sales Territories](/handbook/sales/territories/)

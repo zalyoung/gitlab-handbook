@@ -10,7 +10,7 @@ title: "Scalability Group"
 | **GitLab.com** | `@gitlab-org/scalability` |
 | **Issue Trackers** | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) |
 | **Team Slack Channels** | [#g_scalability](https://gitlab.slack.com/archives/g_scalability) - Company facing channel <br/> [#g_scalability-observability](https://gitlab.slack.com/archives/g_scalability-observability) - Team channel <br/> [#g_scalability-practices](https://gitlab.slack.com/archives/g_scalability-practices) - Team channel<br/> [#scalability_social](https://gitlab.slack.com/archives/scalability-social) - Group social channel |
-| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
+| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incidents](https://gitlab.slack.com/archives/incidents) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
 
 ### Project Management Links
 
@@ -21,32 +21,6 @@ title: "Scalability Group"
 1. [Scalability Issues not in an Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5798009?label_name[]=group%3A%3Ascalability&epic_id=None)
 1. [Scalability Issues by Team](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5797977?label_name[]=group%3A%3Ascalability)
 1. [Scalability Issues by Team Member](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5798021?label_name[]=group%3A%3Ascalability)
-
-## Teams
-
-The Scalability group is currently formed of two teams:
-
-* [Scalability:Observability](observability/) and
-* [Scalability:Practices](practices/).
-
-{{< team-by-manager-slug "rachel-nienaber" >}}
-
-### Scalability:Observability
-
-The [Observability team](observability/) focuses on observability, forecasting & projection systems that enable development engineering to predict
-system growth for their areas of responsibility.
-
-The following people are members of the [Scalability:Observability team](observability/):
-
-{{< team-by-manager-slug "liam-m" >}}
-
-### Scalability:Practices
-
-The [Practices team](practices/) focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
-
-The following people are members of the [Scalability:Practices team](practices/):
-
-{{< team-by-manager-slug "kwanyangu" >}}
 
 ## Mission
 
@@ -73,7 +47,7 @@ for each of GitLab's services.
 
 ## Direction for FY24
 
-We've moved the direction to the direction section [here](https://about.gitlab.com/direction/saas-platforms/scalability/) so that it's in the same place as the rest of our product direction.
+We've moved the direction to the direction section [here](https://about.gitlab.com/direction/production_engineering/) so that it's in the same place as the rest of our product direction.
 
 ## Indicators
 
@@ -118,7 +92,7 @@ Scalability leadership can be reached via PagerDuty [Scalability Escalation](htt
 
 From <a href="https://gitlab.pagerduty.com/incidents">https://gitlab.pagerduty.com/incidents</a>, click on the "New Incident" button and complete the new incident form as shown below.
 
-![Scalability PD Incident](img/pd-scalability-incident.png)
+![Scalability PD Incident](/images/engineering/infrastructure/team/scalability/pd-scalability-incident.png)
 
 ### How do I engage with the Scalability Group?
 
@@ -250,10 +224,6 @@ When collaborating on the announcement text, consider using a threaded discussio
 Documentation or tutorial videos should also be added to the [README.md](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/README.md)
 in our team repository.
 
-### Project Management
-
-We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/team/scalability/project-management/) describes how we work on our roadmaps, backlogs, and active projects.
-
 ### Triage rotation
 
 We have automated triage policies defined in the [triage-ops project](https://gitlab.com/gitlab-com/gl-infra/triage-ops). These
@@ -272,7 +242,7 @@ We need to effectively triage these issues so that they can be handled appropria
 
 1. Critically assess the issue to understand the problem
 1. Determine if this impacts .com or Self-Managed instances.
-   1. If this primarily affects Self-Managed instances, the issue can usually be redirected to the [Application Performance group](/handbook/engineering/infrastructure/core-platform/data_stores/application_performance/).
+   1. If this primarily affects Self-Managed instances, the issue can usually be redirected to the [Application Performance group](/handbook/engineering/infrastructure/team/cloud-connector/).
 1. If this is a scaling issue, assign it into our backlog using workflow labels and place it on the planning board if necessary.
 1. If this is not a scaling issue, find the most appropriate owner in either Infrastructure or Development, or any other department.
 
@@ -354,7 +324,7 @@ Overlooking the [compatibility with multiple versions of the application running
 can induce a production incident.
 
 You can find more detailed information in the links below. If this is not enough, please reach out to the
-[delivery](/handbook/engineering/infrastructure/team/delivery/) or
+[delivery](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) or
 [scalability](/handbook/engineering/infrastructure/team/scalability/) team.
 
 1. [Expand and Contract pattern](https://docs.gitlab.com/ee/development/multi_version_compatibility.html)
@@ -367,7 +337,7 @@ You can find more detailed information in the links below. If this is not enough
 
 The Scalability team became a reality during [the fourth organizational iteration in the Infrastructure department](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/28542) on 2019-08-22, although it only became a reality once [the first team member joined the team](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/35882) on 2019-11-29.
 
-Even though it might not look like it at first glance, the Scalability team has its origin connected to [the Delivery team](/handbook/engineering/infrastructure/team/delivery). Namely, the first two [backend engineers with Infrastructure specialisation](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/18617) were a part of the Delivery team, a specialisation that previously did not fit into the organizational structure. They had a focus on reliability improvements for GitLab.com, often working [on features that had many scaling considerations](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/62214). A milestone, that will prove to be a case for the Scalability team, was [Continuous Delivery on GitLab.com](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/345).
+Even though it might not look like it at first glance, the Scalability team has its origin connected to [the Delivery team](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/). Namely, the first two [backend engineers with Infrastructure specialisation](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/18617) were a part of the Delivery team, a specialisation that previously did not fit into the organizational structure. They had a focus on reliability improvements for GitLab.com, often working [on features that had many scaling considerations](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/62214). A milestone, that will prove to be a case for the Scalability team, was [Continuous Delivery on GitLab.com](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/345).
 
 Throughout July, August and September 2019, GitLab.com experienced a higher than normal amount of customer facing events. [Mirroring delays](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/937), [slowdowns](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/936), [vertical node scaling issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/939) (to name a few) all contributed to general need to improve stability. This placed higher expectations on the Infrastructure department and with the organization at the time, this was harder to meet. To accelerate the timelines, ["infradev" and "rapid action"](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/25458/) processes were created, as a connection point between Infrastructure and Development departments to help Product prioritise higher impact issues. This approach was starting to yield results, but the process was there as a reaction to an (ongoing) event with the focus on resolving that specific need.
 

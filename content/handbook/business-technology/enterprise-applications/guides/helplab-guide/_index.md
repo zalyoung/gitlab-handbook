@@ -23,13 +23,19 @@ ServiceNow (aka HelpLab) is going to be live on 2024-04-25.
 
 The following teams are available through HelpLab:
 
-- [People Connect](/handbook/people-group/people-ops-tech-analytics/)
+- [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/)
+- [People Compliance](/handbook/people-group/people-compliance/)
+- [Background Checks](/handbook/people-group/contracts-probation-periods/#background-screenings)
+- [Global Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)
 - [People Technology and Analytics](/job-families/people-group/people-systems-and-analytics/)
 - [Team Member Relations](/handbook/people-group/team-member-relations/)
-- [Stock Admin](/job-families/finance/stock-administrator/)
-- [Expenses](/handbook/finance/accounts-payable/)
-- [Payroll (US & Non-US)](https://internal.gitlab.com/handbook/finance/payroll/)
-- [IT services](/handbook/business-technology/end-user-services/)
+- [Absence Management](/handbook/people-policies/leave-of-absence/) & [Paid Time Off](/handbook/people-group/paid-time-off/)
+- [Stock Admin](/handbook/total-rewards/stock-options/)
+- [Expenses](/handbook/finance/expenses/)
+- [Payroll (US & Non-US)](/handbook/finance/payroll/)
+- [Sales Commissions](https://internal.gitlab.com/handbook/sales/sales-commission/#fy23-sales-commission-policies)
+- [CorpSec End User Services](/handbook/security/corporate/end-user-services/)
+- [Enterprise Applications](/handbook/business-technology)
 
 ## How do I use HelpLab?
 
@@ -47,7 +53,7 @@ HelpLab is available via Okta. To access the platform:
 1. Log in to HelpLab via Okta. If you have a ServiceNow Fulfiller license, to open requests for other teams you will need to go to the [main dashboard](https://helplab.gitlab.systems/esc?id=ec_pro_dashboard), as by default you will see your team's requests only.
 1. Navigate to the main menu at the top and browse through the menu options to find the team you'd like to request assistance from.
 
-![helplab1](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab1.png)
+![helplab1](/images/business-technology/enterprise-applications/guides/helplab-guide/helplab1.png)
 
 1. Once you've identified the team you need assistance from, look for the topics or categories related to your question or issue.
    - If you're unsure which topic to select, or if your request doesn't fit into any specific category, consider opening a `General Request` available under each team. This option allows you to provide a brief description of your issue or question without selecting a specific topic.
@@ -59,19 +65,19 @@ HelpLab is available via Okta. To access the platform:
 
 After submitting your request, you have the option to add team members, such as your manager, to the `watch list`. Adding team members to the watch list ensures that they receive notifications and have visibility into the case. This feature is useful if there's anybody who needs to have visibility to the case's progress or if additional stakeholders should be informed about updates or resolutions.
 
-![helplab2](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab2.png)
+![helplab2](/images/business-technology/enterprise-applications/guides/helplab-guide/helplab2.png)
 
 ### Track & manage open requests
 
 Navigate to the "My Requests" section.
 
-![helplab3](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab3.png)
+![helplab3](/images/business-technology/enterprise-applications/guides/helplab-guide/helplab3.png)
 
 Here, you will see a list of all your open requests along with their current state and any updates. Click on a specific request to view more details, such as progress updates and comments.
 
 You can also filter by `Open` or `Closed` requests or search for specific requests using the seach bar to quickly locate the request you want to track. If you have submitted a request using the HelpLab app in Slack, you can track its progress here as well.
 
-![helplab4](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab4.png)
+![helplab4](/images/business-technology/enterprise-applications/guides/helplab-guide/helplab4.png)
 
 ## HelpLab Support
 

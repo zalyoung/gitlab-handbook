@@ -22,7 +22,7 @@ There are fewer examples of large remote teams working successfully, though that
 
 GitLab believes that all-remote is the future of work, and that it not only works well at scale, but works *better* at scale than antiquated colocated models.
 
-In [this GitLab Unfiltered video](https://youtu.be/Rt57pb8KElI), GitLab co-founder and CEO Sid Sijbrandij chats with Prof. Raj Choudhury of Harvard Business School on the topic of remote work.
+In [this GitLab Unfiltered video](https://youtu.be/Rt57pb8KElI), GitLab co-founder Sid Sijbrandij chats with Prof. Raj Choudhury of Harvard Business School on the topic of remote work.
 
 In response to a question on whether or not all-remote is infinitely scalable, or whether there is an inflection point beyond a certain organization size, Sijbrandij offers the following.
 
@@ -30,9 +30,9 @@ In response to a question on whether or not all-remote is infinitely scalable, o
 >
 > A team in one room works really well. A team on one floor probably works OK. A team on multiple floors, you start having some problems. A team across multiple offices, it gets even harder. A team in multiple cities, it gets even harder. A team on multiple continents, that gets super hard. That model breaks down.
 >
-> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes](/handbook/product/ux/technical-writing/documentation/), stimulating cross-company [informal communication](informal-communication/) — those get much more pronounced at scale.
+> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes](/handbook/product/ux/technical-writing/#documentation), stimulating cross-company [informal communication](informal-communication/) — those get much more pronounced at scale.
 >
-> It's not just that [all-remote] scales. It scales way better. - *GitLab co-founder and CEO Sid Sijbrandij*
+> It's not just that [all-remote] scales. It scales way better. - *GitLab co-founder Sid Sijbrandij*
 
 ## Colocation challenges at scale
 
@@ -75,7 +75,7 @@ With no company offices to maintain, all-remote organizations are able to recogn
 
 {{< youtube "EuGsen3FxXc?start=640" >}}
 
-In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO Sid Sijbrandij discusses all-remote scalability (amongst other topics) with researchers from [INSEAD](https://www.insead.edu/).
+In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder Sid Sijbrandij discusses all-remote scalability (amongst other topics) with researchers from [INSEAD](https://www.insead.edu/).
 
 > The more widespread an organization is, the less it benefits from being colocated. An all-remote organization will have to adopt the processes you'd use to control an organization at scale.
 >
@@ -83,7 +83,7 @@ In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRT
 >
 > For example, we have the best [onboarding process](learning-and-development/#how-do-you-onboard-new-team-members) of any company in the world. It's not perfect — I can see lots of room for improvement — but no other company has [250+ tasks](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) you need to complete when onboarding.
 >
-> That's more useful at scale. We just hired 600 people in 2019, and they were all able to benefit from that. — *GitLab co-founder and CEO Sid Sijbrandij*
+> That's more useful at scale. We just hired 600 people in 2019, and they were all able to benefit from that. — *GitLab co-founder Sid Sijbrandij*
 
 ### Team growth
 
@@ -113,8 +113,8 @@ In an all-remote setting, everyone is equidistant in practical terms. When your 
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

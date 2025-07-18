@@ -4,7 +4,7 @@ title: Okta Application Setup Guide
 
 ## Overview
 
-All SaaS and vendor software needs to go through the [procurement process](/handbook/finance/procurement/new-software/) and added to the tech stack before we can go live in Okta.
+All SaaS and vendor software needs to go through the [procurement process](/handbook/finance/procurement/individual-use-software/) and added to the tech stack before we can go live in Okta.
 
 As part of that procurement process, GitLab must verify that the application can be configured with Okta SSO using SAML or SCIM and has automatable user management for creation, updates, and deactivation.
 
