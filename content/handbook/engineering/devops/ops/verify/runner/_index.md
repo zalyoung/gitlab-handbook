@@ -258,7 +258,7 @@ At GitLab, our release post policy specifies that deprecation notices need to be
 ### Managing CVE vulnerability report issues
 
 Managing CVE vulnerability issues is part of GitLab's vulnerability management effort
-([1](https://internal.gitlab.com/handbook/security/threat_management/vulnerability_management/),
+([1](https://internal.gitlab.com/handbook/security/product_security/vulnerability_management/),
 [2](../../../../../security/product-security/vulnerability-management/)), and is an important part of maintaining the
 GitLab FedRAMP certification.
 
