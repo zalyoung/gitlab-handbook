@@ -29,7 +29,7 @@ You can use [this AR template](https://gitlab.com/gitlab-com/team-member-epics/a
 1. On the top-left of the screen, click on the `+ Create` button, followed by `Event`
     1. Alternatively you can also click directly on the time-slot where you'd like to schedule the event
 1. Customize the event by specifying a title, adding guests, and selecting which video conferencing option you'd like to use
-    1. Please see our [Google Calendar Zoom extension guide](/handbook/security/corporate/end-user-services/supported-apps/zoom/zoom-setup/#google-calendat) for more details
+    1. Please see our [Google Calendar Zoom extension guide](/handbook/security/corporate/end-user-services/supported-apps/zoom/zoom-setup/#google-calendar) for more details
 
 ## Create Out of Office Events
 

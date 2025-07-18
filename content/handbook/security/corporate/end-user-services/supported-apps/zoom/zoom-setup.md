@@ -39,7 +39,7 @@ If you are using a GitLab-provided MacBook Zoom should be installed automaticall
 ### Google Chrome
 
 1. The Zoom extension should be installed by default
-  1. If not, you an install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/zoom-chrome-extension/kgjfgplpablkjnlkjmjdecgdpfankdle)
+   1. If not, you an install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/zoom-chrome-extension/kgjfgplpablkjnlkjmjdecgdpfankdle)
 1. Click on the Zoom Chrome extension button next to the URL bar (You may need to click on the puzzle piece button first)
 1. Click on **Sign in to Zoom**
 1. On the subsequent screen, click on **SSO**
@@ -52,7 +52,7 @@ The Chrome extension will allow you to create Zoom meetings through Google Calen
 
 1. Open [Google Calendar](https://calendar.google.com/) in Chrome
 1. Click on the **Zoom** icon on the right-side of the screen
-  1. If the icon is not available, click on the `+` button on the right-side of the screen and install the `Zoom` extension from the `Google Workspace Marketplace`
+   1. If the icon is not available, click on the `+` button on the right-side of the screen and install the `Zoom` extension from the `Google Workspace Marketplace`
 1. Click the blue **Sign in** button
 1. Review the app permissions and click **Allow**
 1. On the `Confirm Connection Between Your Zoom and Google Workspace Accounts` screen, click **Confirm**

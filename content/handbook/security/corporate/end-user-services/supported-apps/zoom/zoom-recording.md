@@ -75,12 +75,12 @@ You can also configure Zoom to save to the cloud automatically.
 You can use one of the below methods to find this information after joining the meeting.
 
 1. Via participants sidebar
-  1. Navigate to the participants icon on the bottom of the window
-  1. You will be presented with the list of participants on the right panel of the window
-  1. The host will be listed in parentheses at the end of their name. (A resize of the participants window may be needed)
+   1. Navigate to the participants icon on the bottom of the window
+   1. You will be presented with the list of participants on the right panel of the window
+   1. The host will be listed in parentheses at the end of their name. (A resize of the participants window may be needed)
 1. Via meeting info pop-up
-  1. Navigate to the upper left corner, where you will be presented with an i icon
-  1. Select the icon to locate the meeting host who will have the ability to record the call
+   1. Navigate to the upper left corner, where you will be presented with an i icon
+   1. Select the icon to locate the meeting host who will have the ability to record the call
 
 ### How to allow recording when the host is not present
 
