@@ -27,7 +27,7 @@
 /content/handbook/about/ @gitlab-com/content-sites
 
 # The higher level job-families directory needs to be outside of a section and near the top of this CODEOWNERS file as job-families require additional approvals beyond what's listed in other sections below
-/content/job-families/ @cbednarz @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/ @cbednarz @glucchesi @carlierussell @bmcdonald5 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup @dweiskopf
 
 ##
 ## Add handbook sections below in alphabetical order, except Controlled Documents
@@ -442,18 +442,18 @@
 /content/handbook/product/groups/product-analysis/ @cbraza @justinfarris
 /content/handbook/product/groups/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 /content/job-families/product/ @david @vkarnes @mflouton @justinfarris @cbednarz @dparsonage @glucchesi @carlierussell @mwilkins
-/content/job-families/product/pricing.md @justinfarris @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-design-management.md @vkarnes @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-designer.md @vkarnes @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-management-leadership.md @david @mflouton @justinfarris @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-manager.md @david @justinfarris @mflouton @fzimmer @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/technical-writer.md @dianalogan @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
-/content/job-families/product/technical-writing-manager.md @dianalogan @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
-/content/job-families/product/ux-fullstack-engineer.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
-/content/job-families/product/ux-research-manager.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-research-operations-coordinator.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-researcher.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/pricing.md @justinfarris @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/product-design-management.md @vkarnes @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/product-designer.md @vkarnes @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/product-management-leadership.md @david @mflouton @justinfarris @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/product-manager.md @david @justinfarris @mflouton @fzimmer @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/technical-writer.md @dianalogan @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @david @dweiskopf
+/content/job-families/product/technical-writing-manager.md @dianalogan @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @david @dweiskopf
+/content/job-families/product/ux-fullstack-engineer.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @david @dweiskopf
+/content/job-families/product/ux-research-manager.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/ux-research-operations-coordinator.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
+/content/job-families/product/ux-researcher.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
 
 [product-ai]
 /content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites @david
@@ -550,8 +550,8 @@
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
 /content/handbook/security/security-operations/threat-intelligence/ @cmoberly
-/content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @cibericua
-/content/job-families/chief-information-security-officer/chief-information-security-officer.md @joshlemos @robin @brianwald @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @cibericua @dweiskopf
+/content/job-families/chief-information-security-officer/chief-information-security-officer.md @joshlemos @robin @brianwald @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @dweiskopf
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
@@ -668,9 +668,9 @@
 
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
-/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites
-/content/job-families/people-group/ @rallen3 @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
-/content/job-families/people-group/candidate-experience.md @rallen3 @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites @dweiskopf
+/content/job-families/people-group/ @rallen3 @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup @dweiskopf
+/content/job-families/people-group/candidate-experience.md @rallen3 @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup @dweiskopf
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technology Policies]
