@@ -8,6 +8,7 @@ adjacencies
 AEs
 Airbnb
 Airtable
+agentic
 Akismet
 Alertmanager
 Algolia
