@@ -49,8 +49,7 @@ The Verify:Pipeline Execution Group is focused on supporting the functionality w
 
 ## Performance Indicator
 
-We measure the value we contribute by using Performance Indicators (PI), which we define and use to track progress.
-The current [PI for the Pipeline Execution group](https://internal.gitlab.com/handbook/company/performance-indicators/product/#verify-ci-verify-runner-count-of-pipelines-triggered-by-unique-users) is the `number of unique users who trigger ci_pipelines`. For more details, please check out the [Product Team Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/#regular-performance-indicators). To view the latest Verify stage ci_pipeline data see our [Tableau Dashboard](https://10az.online.tableau.com/t/gitlab/views/VerifyPerformanceIndicatorDashboard/VerifyPerformanceIndicatorHub).
+We measure the value we contribute by using [Performance Indicators (PI)](https://10az.online.tableau.com/#/site/gitlab/views/VerifyPerformanceIndicatorDashboard_17435516599990/VerifyPerformanceIndicatorHub?:iid=1), which we define and use to track progress. GitLab Tableau access is required to view.
 
 ### Usage Funnel
 
@@ -121,9 +120,15 @@ Not included in the Pipeline Execution group's domain:
 
 ## Technical Roadmap
 
-### FY25
+We prioritize and schedule our most important efforts using the [R&D Interlock](https://handbook.gitlab.com/handbook/product-development/how-we-work/r-and-d-interlock/) process.
 
-These are our high-level engineering driven goals for the year. As with any of our goals, they are ambitious and subject to change.
+### FY26
+
+These are our high-level engineering driven goals for the year:
+
+- Q2: (link to interlocked issue search)
+- Q3: (link to interlocked issue search)
+- Q4: (link to interlocked issue search)
 
 #### Performance
 
@@ -193,16 +198,16 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 ---
 
-## Team Members
-
-{{< team-by-manager-role role="Fullstack Engineering Manager, Verify:Pipeline Execution" >}}
-
-### Additional Team Responsibilities
+## Additional Team Responsibilities
 
 These roles/responsibilities will be assigned to team members on a rotating basis to ensure we spread the load across
 the full team, and no individual has undue hardship by being the only "go-to" person for any of these tasks.
 
-#### Front-line Responder
+### Front-line Responder
+
+**Program paused while we implement a new Tier-2 Dev On-Call system**
+
+<details>
 
 This team member will have the following responsibilities for the milestone (in priority order) and will not have any assigned ~Deliverable items:
 
@@ -227,18 +232,19 @@ The milestone's Front-line Responder will be responsible for following up on suc
 They are not expected to be on-call 24/7 during the milestone.
 At the end of the milestone, any issues that are still ongoing, may be transitioned to the incoming First Responder. If it makes sense for the original team member to continue being the DRI, this can also be done.
 
-#### Community Coordinator
+</details>
+
+### Community Coordinator
+
+**Program paused while we implement the new R&D interlock scheduling process**
+
+<details>
 
 This team member will have the following responsibilities for the milestone in addition to their ~Deliverable task:
 
 1. Do a first pass over any new community contributions as identified in the weekly [`Verify Pipeline teams: Community contributions report`](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Community%20contribution&label_name%5B%5D=devops%3A%3Averify&first_page_size=20) to ensure they seem like they are on the right track.
 
-#### Rotation Schedule
-
-**Program Paused**
-
-| Milestone | Front-line Responder | Community Coordinator |
-| --------- | -------------------- | --------------------- |
+</details>
 
 ## Stable Counterparts
 
@@ -246,9 +252,9 @@ To find our stable counterparts, look at the Pipeline Execution [product categor
 
 ## Technologies
 
-Like most GitLab backend teams we spend a lot of time working in Rails on the main [GitLab CE app](https://gitlab.com/gitlab-org/gitlab-ce),
-but we also do a lot of work in Go which is the language that [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner)
-is written in. Familiarity with Docker and Kubernetes is also useful on our team.
+- Like most GitLab teams we spend a lot of time working in Rails and Vue on the main [GitLab app](https://gitlab.com/gitlab-org/gitlab),
+- Being a high-traffic part of the application, we work very closely with [CI Platform](https://handbook.gitlab.com/handbook/engineering/devops/ops/verify/ci-platform/) and the [Database Frameworks team](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/database-framework/) to maintain a performant PostgreSQL database.
+- Familiarity with Docker and Kubernetes is also useful on our team.
 
 ## Useful Links
 
@@ -256,10 +262,9 @@ is written in. Familiarity with Docker and Kubernetes is also useful on our team
 - [Slack channel: `#g_pipeline-execution`](https://gitlab.slack.com/archives/CPCJ8CCCX)
 - [GitLab unfiltered: Pipeline Execution group](https://www.youtube.com/playlist?list=PL05JrBw4t0KpsVi6PG4PvDaVM8lKmB6lV)
 - [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-pipeline_execution/stage-groups-group-dashboard-verify-pipeline-execution?orgId=1)
-- [Tableau dashboard (to be migrated)](https://gitlab.com/gitlab-data/tableau/-/issues/208)
 - [Next planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-execution/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20)
-- [Help Requests for pipeline execution](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/-/issues/?state=opened&label_name%5B%5D=Help%20group%3A%3Apipeline%20execution)
-- [Current milestome retro](https://gitlab.com/gl-retrospectives/verify-stage/pipeline-execution/-/issues?search=Pipeline+Execution+retrospective&sort=popularity&state=opened)
+- [Help Requests for Pipeline Execution](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?description_template=SupportRequestTemplate-PipelineExecution)
+- [Current milestone retro](https://gitlab.com/gl-retrospectives/verify-stage/pipeline-execution/-/issues?search=Pipeline+Execution+retrospective&sort=popularity&state=opened)
 - [Needs weight board](https://gitlab.com/groups/gitlab-org/-/boards/4178322)
 - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1372896)
 
@@ -274,17 +279,11 @@ For those new to the team, these links may be helpful in learning more about the
 - [CI Backend Architectural Walkthrough - May 2020](https://www.youtube.com/watch?v=ew4BwohS5OY)
 - [Frontend CI product / codebase overview - June 2020](https://www.youtube.com/watch?v=7CUd7aAUiWo)
 
-## Dashboards
-
-See [internal handbook page](https://internal.gitlab.com/handbook/engineering/core-development/ci/verify/pipeline-execution)
-
-### Cross-functional prioritisation
-
-The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on.
-
 ## How We Work
 
-The [Pipeline Execution Workflow board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) is the source of truth for current and upcoming work.
+### What are we doing right now?
+
+The [Pipeline Execution Workflow board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) is the source of truth for in-flight development work.
 
 ### Planning
 
