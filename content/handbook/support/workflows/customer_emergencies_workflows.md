@@ -448,7 +448,68 @@ To trigger a developer escalation, see [this process outline](/handbook/engineer
 
 ## Other forms of Emergencies
 
-### License Emergencies
+Customer Support provides 24/7 coverage for customers subscribed to GitLab’s Advanced and Signature Success Tiers. These premium tiers, which include access to a [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/), require continuous support and faster response times for Severity 2 issues (labeled as High Priority tickets in Zendesk).
+
+| Success Tier | Coverage                                   |
+| ------------ | ------------------------------------------ |
+| Advanced     | - 24/7 High Priority coverage              |
+| Signature    | - 24/7 High Priority coverage<br>- 2hr SLA |
+
+### Weekend Coverage
+
+Commencing August, shift engineers will start working on Saturday in all region and provide coverage. 
+`@CEOC`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets on days when the shift engineer is either not onboarded yet or on PTO. Current coverage by region: 
+
+|      | Saturday | Sunday  |
+| ---- | -------- | ------- |
+| APAC | :white_check_mark: Shift  | CEOC    |
+| EMEA | :white_check_mark: Shift  | :white_check_mark: Shift |
+| AMER | :white_check_mark: Shift  | CEOC    |
+
+This means we have coverage in all regions for Saturdays but not for Sundays. 
+This is Phase 2 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
+
+### PagerDuty Alerts
+
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The shift engineer or temporarily the [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
+
+### Ticket Assignment and Handling
+
+We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
+
+1. When you start your shift take over any emergencies or High priority tickets from the leaving shift engineer or CEOC that needs attention.
+1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority.
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming shift engineer or CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the shift engineer or CEOC leaving shift.
+
+#### Customers with an Assigned Support Engineer (ASE)
+
+In cases where:
+
+- An [assigned support engineer](/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/) has opted to automatically assign their customer's tickets to themselves; and
+- The customer creates a Sev 2 ticket on a weekend.
+
+This will:
+
+1. Generate a CEOC page for the ticket; and
+1. Assign the ASE to the ticket.
+
+Shift engineer or CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: *All Success Tier Customers' Unsolved Severity 2/High Tickets* on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
+
+Once the customer ticket has been de-ecalated and is no longer a Severity 2/High Priority issue, [reset the ticket priority](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority), and let the customer know we will continue working with them during standard operating hours.
+
+The Support Manager On-Call is always available to support you. Follow [these steps](/handbook/support/on-call/#engaging-the-on-call-manager) to engage the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) for assistance.
+
+### Rollout and Monitoring
+
+Estimated timeline for Phase 2: 2-3 months, depending on ticket volume, customer adoption and our onboarding.
+
+**Zendesk Explore Dashboard:** [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE)
+
+This is being closely monitored by Manager DRIs (@erikamiklos (EMEA), @ralfaro (AMER), @kslaats (APAC)) in the Zendesk Dashboard: [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE).
+
+## License Emergencies
+
+### During the week
 
 For license emergencies during the week, reach out to [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) and ask for an expert there to handle the case. Ping the current [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in your request so they can ensure it gets picked up. Once pinged, the Support Manager On-call is the DRI for ensuring the emergency gets handled.
 
