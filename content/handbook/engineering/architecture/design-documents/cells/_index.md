@@ -28,6 +28,12 @@ For more information about Cells, see also:
 - The [Cells 2.0](iterations/cells-2.0.md) target is to support a public and open source contribution
   model in a cellular architecture.
 
+## Feature Design
+
+It is essential to ensure that all newly introduced features are compatible with Cells architecture.
+The [Cells and Organizations: Feature Design Handbook](feature_design.md) provides some of the guidelines
+that make it possible to evaluate the compliance with Cells.
+
 ## Goals
 
 See [Goals, Glossary and Requirements](goals.md).
