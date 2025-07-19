@@ -161,6 +161,20 @@ The Senior Director, Renewals is a grade 11.
 - Is a value-led leader who can role model and nurture GitLab's values
 - Ability to use GitLab
 
+## Speciality 
+
+### Business Automation 
+
+- Lead the design and execution of our Auto-Renewals strategy, including systems enablement, legal alignment, and performance optimization.
+- Build and scale a Self-Service Renewals motion, empowering customers to renew on their terms while improving efficiency and retention.
+- Partner with AI/ML and Data teams to implement AI-powered automation across the renewals funnel, including intelligent outreach, predictive analytics, and automated workflows.
+- Translate business goals into system requirements and influence product roadmaps for internal and customer-facing tools.
+- Own operational dashboards and metrics for automated renewals, continuously identifying areas for efficiency and innovation.
+- Serve as a strategic thought partner to senior leadership in setting automation roadmaps, KPIs, and long-term business impact goals.
+- Identify and remove blockers to automation through process redesign, systems optimization, and stakeholder alignment.
+- Champion a customer-centric approach by integrating frontline feedback and usage data into automation strategy.
+
+
 ## Performance Indicators
 
 1. Gross renewal rate
