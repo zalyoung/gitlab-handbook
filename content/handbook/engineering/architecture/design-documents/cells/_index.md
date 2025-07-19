@@ -41,6 +41,7 @@ This section links all different technical proposals that are being evaluated.
   - [HTTP Routing Service](http_routing_service.md)
   - [SSH Routing Service](ssh_routing_service.md)
   - [Topology Service](topology_service.md)
+    - [Topology Service Transactional Behavior](topology_service_transactional_behavior.md)
   - Planned: Indexing Service
 - [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
