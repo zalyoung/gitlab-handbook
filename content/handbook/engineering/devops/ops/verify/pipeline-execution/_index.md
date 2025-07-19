@@ -49,8 +49,7 @@ The Verify:Pipeline Execution Group is focused on supporting the functionality w
 
 ## Performance Indicator
 
-We measure the value we contribute by using Performance Indicators (PI), which we define and use to track progress.
-The current [PI for the Pipeline Execution group](https://internal.gitlab.com/handbook/company/performance-indicators/product/#verify-ci-verify-runner-count-of-pipelines-triggered-by-unique-users) is the `number of unique users who trigger ci_pipelines`. For more details, please check out the [Product Team Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/#regular-performance-indicators). To view the latest Verify stage ci_pipeline data see our [Tableau Dashboard](https://10az.online.tableau.com/t/gitlab/views/VerifyPerformanceIndicatorDashboard/VerifyPerformanceIndicatorHub).
+We measure the value we contribute by using [Performance Indicators (PI)](https://10az.online.tableau.com/#/site/gitlab/views/VerifyPerformanceIndicatorDashboard_17435516599990/VerifyPerformanceIndicatorHub?:iid=1), which we define and use to track progress. GitLab Tableau access is required to view.
 
 ### Usage Funnel
 
