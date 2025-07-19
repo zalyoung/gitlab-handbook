@@ -4,6 +4,9 @@ title: "CSE Operating Rhythm"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM/CSE-related handbook pages.
 
+
+[[_TOC_]]
+
 ---
 
 ## CSE Team Customer Engagement Types
@@ -104,7 +107,7 @@ NOTE: Unless specified otherwise, CSEs will automatically reach out to the conta
   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
   - [CSE Highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
 
-#### CSE Catalog Offerings
+## CSE Catalog Offerings
 
 The CSE Catalog provides a structured framework of engagement offerings that support customer technical needs across different GitLab areas. When submitting an engagement request to the CSE team, Account Executives (AEs), Renewal Managers (RMs), and Solutions Architects (SAs) can select from these offerings to best match the customer's specific requirements. Each offering is designed to address distinct technical challenges and implementation scenarios, allowing for more focused and effective CSE engagements. Below are the detailed descriptions of each available offering:
 
@@ -220,6 +223,83 @@ If a customer has additional questions after receiving the follow-up email, the 
 - Please do not reopen requests from the previous quarter, even if it's related to the previous topic, it may result in uninteded consequences in regards to our metrics.
 
 If the customer comes back with additional questions to the AE or RM, please feel free to redirect them to the CSE who had the call previously with the customer.
+
+## Capturing and Recording CSE Engagement Outcomes
+
+Capturing clear and concise outcomes after each Customer Success Engineer (CSE) engagement is crucial. These outcomes help demonstrate the value provided to the customer, inform account teams, and provide valuable insights for product development and process improvement.
+
+Given the focused and often brief nature of CSE interactions, our primary goal is to document how our actions *enabled* the customer, what *potential* was unlocked, or the *intent* behind the guidance provided.
+
+**Core Format for Outcome Statements:**
+
+We aim to capture the essence of the engagement with the following structure:
+
+`[Your Specific Action] which equipped/guided/enabled the customer to [Achievable Customer Next Step/Capability] aiming for/to potentially achieve [Intended Benefit or Improvement].`
+
+**Quick Examples:**
+
+* **Problem Resolution & Technical Guidance:** "Resolved customer's Geo sync issue by providing troubleshooting steps and identifying a replication error, allowing them to restore Geo functionality and monitor performance."
+* **Enablement & Feature Adoption:** "Guided customer on Scan Execution Policies by demonstrating setup and best practices, equipping them to begin implementing automated security scans to potentially strengthen their DevSecOps posture."
+* **Strategic Advice & Resource Provision:** "Provided guidance on migration strategies from self-managed to SaaS and shared relevant documentation and planning considerations, enabling the customer to proceed with their migration planning with increased confidence."
+
+**Key Reminders for Recording Outcomes:**
+
+* **1-2 Sentences Max:** Keep it brief and impactful.
+* **Action Verb First:** Start with what *you* did (e.g., Guided, Resolved, Advised, Shared, Demonstrated).
+* **Focus on Enablement & Intent:**
+    * What did you *equip* the customer to do next?
+    * What was the *intended positive outcome* or potential benefit of your guidance? (Many outcomes show customers "will explore" or "plan to").
+* **Capture Qualitative Cues:** Note if the customer expressed understanding (e.g., "customer confirmed they were good for now"), satisfaction (e.g., "Customer happy with email and information"), or stated their next steps (e.g., "customer is off to create a workflow using MR dependencies" [cite: 199]). This provides valuable context.
+* **Be Specific:** "Advised on CI/CD" is okay, but "Advised on CI/CD pipeline efficiency using caching to reduce build times" is better.
+* **Acknowledge CSE's Role:** Your input is key. Focus on the value and potential you delivered, even if broader customer changes also depend on their internal factors (team readiness, processes, etc.).
+
+**Recording Engagements with No Direct Customer Outcome:**
+
+For situations where a direct customer outcome isn't achieved (e.g., referral, no engagement, out of scope), briefly note the action taken:
+
+* **Example (Referral):** "Referred to Support for advanced troubleshooting on [specific issue]."
+* **Example (No Engagement):** "Closed due to no customer engagement after 3 attempts and AE notification."
+* **Example (Out of Scope):** "Determined request out of scope for CSE; directed to SA for pre-sales assistance."
+
+Documenting these interactions accurately helps us understand customer needs comprehensively and refine our engagement strategies. The collective insights from these recorded outcomes are invaluable for cross-functional teams, including Product, Engineering, and Marketing, to better understand real-world customer experiences and challenges.
+
+**Shared Claude Project - CSE Customer Outcomes:**
+
+The following Claude project will automatically generate outcome suggestions using the framework within this handbook page along with other relevent context:
+
+- [Claude Project - CSE Customer Outcomes:](https://claude.ai/project/6340770d-e32d-4cc6-95c3-fd71d653b601)
+
+<b>How to use:</b> Provide a full <i>call transcript</i> or relevant <i>customer notes</i> at minimum for best results; 
+
+- When using more than one piece of context, provide a <b>label<b> to each additional context item added:
+
+  ```bash
+  Example:
+
+  Call transcript:
+  """
+  <snip from call transcript>
+  """
+
+  Last email from customer:
+  """
+  <snip from email>
+  """
+
+  Last reply from Product team:
+  """
+  <snip from Product reply>
+  """
+  ```
+
+> If the pasted data reaches a certain length threshold, Claude will automatically attach the pasted context as a separate object rather than pasting it in-line; this can make it difficult to properly label; in this case, it might be a good idea to label each piece of pasted context (add label manually at the top before copy/pasting):
+
+Alternatively you can refine the input data before copying contents to the Claude project for processing.
+
+These methods seem to provide the most consistent results; the main focus being on <i>labeling</i> the data to tighten context.
+
+> Source (context) reference: [FY26 Q2 OKR: Implement a standardized 'quality outcome' framework for On-Demand engagements](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/issues/743) 
+
 
 ## CSE Useful Link Signpost
 
