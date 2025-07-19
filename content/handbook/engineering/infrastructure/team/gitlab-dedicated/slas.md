@@ -48,7 +48,13 @@ Calculation of Service Level Availability does not include failures resulting fr
 
 ## Disaster Recovery Plan
 
-GitLab has developed a disaster recovery plan (the "Plan") to minimize the impact of a disaster or other emergency impacting a customer's access to and use of Dedicated
+GitLab has developed a disaster recovery plan (the "Plan") to minimize the impact of a disaster or other emergency impacting a customer's access to and use of Dedicated. The plan is reviewed and updated on an annual basis by [INSERT OWNER]
+
+## Roles and Responsibilities
+
+| Role | DRI | Alternate|
+| --- | --- | --- |
+| TBD | TBD | TBD | 
 
 ## DR Scope
 
