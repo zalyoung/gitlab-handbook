@@ -49,6 +49,14 @@ We are migrating tech stack applications to Lumos iteratively and not all apps a
 
     <img src="/images/security/corporate/systems/lumos/ar/lumos_appstore_slack_provision.png" alt="Confirm user provisioned in app" width="600"/><br>
 
+## What is the status of my Lumos Access Request?
+
+You can find the status of your Lumos Access Request in the *Messages* tab of the Lumos Slack app. All requests you have made will appear in the Messages tab, and they will be dynamically updated as their status changes.
+
+When the access request is complete, the request status will update to indicate access is granted.
+
+  <img src="/images/security/corporate/systems/lumos/ar/lumos_access_granted.png" alt="Message indicating successful app access request" width="600"/><br>
+
 ## Request an app is added to the Lumos App Store
 
 - Any app with an Okta login can be added to Lumos. The best candidates have role-based access permissions controlled by Okta groups. [Open an issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=lumos_appstore_add_app) to be scheduled for a future iteration.
