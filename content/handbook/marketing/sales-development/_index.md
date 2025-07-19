@@ -1117,6 +1117,15 @@ Above are some examples of how information can be stored to a pre-made project. 
 
 [LinkedIn Sales Navigator](https://www.linkedin.com/sales/login) is a prospecting tool & extended reach into LinkedIn Connections.
 
+LinkedIn Sales Navigator FAQ:
+
+1. How do I gain access to LISN?
+   1. To access LinkedIn Sales Navigator, please make a request by navigating to the Lumos app in your Okta dashboard. Select the appropriate permission (Sales Navigator Advanced Plus for prospecting roles such as AEs and Sales Development or TeamLink Extend for other sales roles where sharing your network can be beneficial to your team).
+1. I am out of InMail credits, can more be purchased?
+   1. Additional InMail credits cannot be purchased or renewed early. To understand more about InMail, please see [here](https://www.linkedin.com/help/sales-navigator/answer/a101030) and [here](https://www.linkedin.com/help/sales-navigator/answer/a554514).
+1. I cannot update leads/contact through LISN. Can this functionality be turned on?
+   1. The Marketing Operations and Sales Operations teams have evaluated this functionality and have determined that allowing lead/contact updates through LISN could negatively effect downstream data flows since LISN is not considered a SSoT data provider.
+
 #### LinkedIn Training Resources
 
 - LinkedIn Intro: [70 Minute Navigator Tutorial](https://www.linkedin.com/learning/learning-linkedin-sales-navigator-17282699)
@@ -1127,7 +1136,9 @@ Above are some examples of how information can be stored to a pre-made project. 
 
 ### 6Sense
 
-6Sense is a targeting and personalization platform that we use to reach our different audiences based on intent data and our ideal customer profiles. While the content beblow is more specific to our Sales Development team, please visit the [Marketing Operation's handbook page here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/) for a full breakdown of 6Sense's functionality.
+6Sense is a targeting and personalization platform that we use to reach our different audiences based on intent data and our ideal customer profiles. While the content below is more specific to our Sales Development team, please visit the [Marketing Operation's handbook page here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/) for a full breakdown of 6Sense's functionality.
+
+Should you require 6sense segments and alerts to be created, you can submit a [MktgOps request form](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259) with a `6sense Segment/Alert Request` request type.
 
 #### 6Sense Training Resources
 
