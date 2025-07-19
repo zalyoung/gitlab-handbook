@@ -16,6 +16,7 @@ For information regarding debugging test pipeline failures, check out [Debugging
 
 ## General guidelines
 
+- **Investigate or fix failing update path QA in [monthly](https://gitlab.com/gitlab-org/release-tools/-/blob/80d9e08d7ffd99546e810911a31fb46934097880/.gitlab/ci/monthly/update-paths-ci.yml#L43) and [patch](https://gitlab.com/gitlab-org/release-tools/-/blob/80d9e08d7ffd99546e810911a31fb46934097880/.gitlab/ci/security/update-paths-ci.yml#L43) release pipelines**, coordinate with [Release Managers](/handbook/engineering/deployments-and-releases/#release-managers) as needed on fixes.
 - **Fix tests failing in `master` before other development work**: [Failing tests on `master` are treated as the highest priority](/handbook/engineering/workflow/#broken-master) relative to other development work, e.g., new features. Note that for pipeline triage DRIs, [triage and reporting](#report-the-failure) takes priority over fixing tests.
 - **Follow the [pipeline triage guidelines](#how-to-triage-a-qa-test-pipeline-failure) for investigating, reporting, and resolving test failures**
 - **Flaky tests are quarantined until proven stable**: A flaky test is as bad as no tests or in some cases worse due to the effort required to fix or even re-write the test. As soon as it is detected, it is quarantined immediately to stabilize CI, fixed as soon as possible, and monitored until it is fixed.
