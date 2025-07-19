@@ -50,6 +50,15 @@ When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the 
 
 If a vulnerability requires using features listed above for successful exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
 
+### Disabling affected features
+
+In the event of a reported critical vulnerability and when in doubt, the Senior Director of Application Security, and as backup/alternate the VP of Product Security, has executive authority over the following decisions:
+
+1. Determining whether specific features need to be disabled due to the vulnerability.
+1. Deciding when it's safe to re-enable features that were previously disabled.
+1. Assessing the urgency of the fix and determining the release timeline, including whether the fix requires a critical release or if the fix can be included in a regular patch release.
+1. Making exceptions to the standard backports policy when necessary.
+
 ## Mitigate
 
 Mitigation of critical security issues has to strike a balance between securing GitLab and our users as fast as possible and doing it in a reliable way that will not require another patch shortly after.
