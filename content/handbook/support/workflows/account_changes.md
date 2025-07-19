@@ -117,8 +117,8 @@ Until [the issue 412966](https://gitlab.com/gitlab-org/gitlab/-/issues/412966) i
 >
 > [Important notice](https://docs.gitlab.com/user/enterprise_user/#remove-enterprise-management-features-from-an-account): Changing an enterprise user's primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
 
-1. Update the primary email address of the enterprise user(s).
-1. Add an Admin Note to the user's account(s).
+1. Update the primary email address of the enterprise user(s) using the UI and your admin account and add an Admin Note to the user's account(s).
+1. If the amount of users to modify is unpractical for manual modification, consider opening [a console escalation request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Escalation) and request [this snippet](https://gitlab.com/gitlab-com/support/runbooks/-/commit/5870a924c936bf33f7f5a74e49d398b9b87de217) to be used.
 
 ### Request from an enterprise user that may or may not be part of the group
 
