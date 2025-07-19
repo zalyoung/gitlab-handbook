@@ -551,3 +551,20 @@ We currently have published runbooks on the following services and features:
 - [Repository Mirroring](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/repository-mirroring)
 - [Workhorse](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/workhorse)
 - [Remove Blobs](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/remove-blobs.md)
+
+### Playbooks
+
+Playbooks are designed to support [Tier 2](https://internal.gitlab.com/handbook/engineering/tier2-oncall/)
+on call engineers. Playbooks require a higher level of technical and domain knowledge than runbooks,
+and provide in-depth technical guidance for troubleshooting complex issues that could not be resolved
+through the standard Tier 1 runbook procedures.
+
+We currently have published the following service-specific playbooks:
+
+- [Repository Mirroring](https://internal.gitlab.com/handbook/engineering/tier2-oncall/playbooks/create/repository-mirroring/)
+- [Workhorse](https://internal.gitlab.com/handbook/engineering/tier2-oncall/playbooks/create/workhorse/)
+
+We also maintain a general Source Code Management playbook that covers features and code owned by the team
+that don't currently belong to a service-specific playbook:
+
+- [Source Code Management](https://internal.gitlab.com/handbook/engineering/tier2-oncall/playbooks/create/source-code-management/)
