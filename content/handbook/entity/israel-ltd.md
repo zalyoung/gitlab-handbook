@@ -147,7 +147,7 @@ GitLab does not plan to offer Private Health Insurance at this time because all 
 
 ### Annual Leave
 
-Team members in Israel may make use of [GitLab's Flexible PTO Policy](/handbook/paid-time-off/), as may be amended from time to time, in addition to their statutory vacation entitlements, which will accrue in accordance with local laws. Team members should check their individual employment contracts for the minimum number of vacation days to which they are entitled and note that team members are required to take at least five consecutive vacation days each year.
+Team members in Israel may make use of [GitLab's Flexible PTO Policy](/handbook/people-group/paid-time-off/), as may be amended from time to time, in addition to their statutory vacation entitlements, which will accrue in accordance with local laws. Team members should check their individual employment contracts for the minimum number of vacation days to which they are entitled and note that team members are required to take at least five consecutive vacation days each year.
 
 The accrual and use period for statutory vacation days is the calendar year, from 1 January 1 to 31 December, and any unused statutory vacation leave will be forfeited if not used within the balance period.
 
