@@ -150,6 +150,63 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 - Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 - The issue should have a weight assigned see [Iteration Planning](#4-iteration-planning-meeting).
 
+### 📝 Deadline Guidelines
+
+Project management requires estimating something to figure out how long some piece of work is going to take, so that everybody can plan accordingly.
+More often than not, initial estimates are not accurate due to the nature and complexity of the technical work involved.
+Thus, estimates also indirectly serve another purpose to apply pressure, to force the "but you said it would only take 5 days" kind of conversation,
+which in turn pressures people to work faster or harder or longer so they can avoid those conversations in the future.
+Project management requires estimating something to figure out how long some piece of work is going to take, so that everybody can plan accordingly.
+
+Our group's [planning process](#-planning-process) is velocity-based. This means we embrace the fact that
+estimates in software are inherently inaccurate. Some estimates will be too high, and some will be too low.
+The important thing is that we are _disciplined_ about
+[investigating and breaking down large issues into small ones before estimation](#-investigations-and-breaking-down-large-issues),
+and are _consistent_ about [the weights which we use for issues](#-what-weights-to-use).
+
+Thus, the primary goal of our velocity-based process is to predict the _rate_ at which we can work through
+the list of prioritized, refined, and estimated issues in order to deliver value.
+
+The primary goal is _not_ to attempt to force specific issues to be delivered by a pre-determined deadline date, because
+this is virtually guaranteed to be inaccurate in most cases due to the complex and unknown nature of many
+of the tasks we work on and the complexity of the GitLab monolith itself.
+
+Nevertheless, there are always legitimate cases where an estimated completion date or "deadline date"
+for a deliverable must be determined, in order for management and stakeholders to plan and communicate accordingly.
+
+**Determining and meeting such deadlines is part of the responsibility of the team**,
+and in these cases, we should still follow our disciplined and consistent velocity-based estimation process
+to determine the estimates. And we must also have **the necessary proactive and ongoing conversations about where and how
+to cut scope if the requested deadline is _not achievable based on our estimates, or current (lack of) progress_**.
+
+However, **it is also the responsibility of management and stakeholders to**:
+
+1. Communicate the _TYPE_ of deadline which is being requested
+2. To follow our value of [transparency](../../../../../values/#transparency) in communicating _WHY_ the deadline must be met
+
+Thus, we use the following terminologies for "types" of deadlines (inspired by [this article](https://web.archive.org/web/20250505071143/https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html#rule-19-be-explicit-about-the-difference-between-hard-deadlines-soft-deadlines-internal-deadlines-and-expected-completion-dates)):
+
+- **Hard deadline**: Something seriously bad to the business will happen if the deadline is not met.
+- **Soft deadline**: Somebody will look bad if the deadline is not met.
+- **Internal deadline**: This is a target internal to the team that will not affect anybody outside of the team.
+- **Expected completion date**: This is when the team currently predicts that work will be completed.
+
+Any time a deadline is requested, the stakeholder or requester is also required to communicate:
+
+1. Which _type_ of deadline it is
+1. If one type of deadline is being changed to a different type
+1. _Why_ the deadline is needed and important, with as much [transparency](../../../../../values/#transparency) as possible while still keeping information [SAFE](../../../../../legal/safe-framework/).
+
+Of course, it is often the case that internal deadlines are required to be "on track" for hard deadlines,
+or there are other dependencies between different deadlines.
+
+But every engineer is empowered to call out when _internal deadlines_ are presented as _hard deadlines_,
+with no transparent justification of _WHY_ a hard deadline is needed.
+
+Thus, the goal is to avoid setting arbitrary deadlines with no transparent "_WHY_", which unnecessarily pressures people
+into [working too many hours](../../../../../values/#measure-impact-not-activity)
+and sets a team culture of unhealthy and [unsustainable pace](https://agilealliance.org/glossary/sustainable-pace/).
+
 ## 🤖 Planning Process
 
 <span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
