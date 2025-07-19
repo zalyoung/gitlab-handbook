@@ -68,7 +68,6 @@ There are several images we are using 🐍`Python`. Various versions are in use 
 | [mlfow-infra](https://gitlab.com/gitlab-data/mlflow-infra/-/blob/main/mlflow_image/Dockerfile?ref_type=heads)     | `3.8`          | `python:3.8`                                                       | `TBA`     | `Data Scientists`     |
 | [ci-streamlit-image](https://gitlab.com/gitlab-data/ci-streamlit-image)     | `3.12`          | `python:3.12-slim`                                                       | `@rbacovic`     | `Data Platform`     |
 
-
 <details><summary>Dependency graph (Click to expand)</summary>
 
 ```mermaid
