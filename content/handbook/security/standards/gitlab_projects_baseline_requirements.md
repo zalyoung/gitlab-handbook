@@ -79,6 +79,13 @@ Please note that projects that meet the criteria for requiring these baseline co
 
 The Security Compliance team has also implemented live monitoring using [detections/alerts in the Devo SIEM tool](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/devo/-/tree/main/detections/secassurance?ref_type=heads) and Slack for all MR Approval and Protected Branch settings outlined above. If MRs were merged without proper approval/SOD in place as a result of the changed settings an [observation](/handbook/security/security-assurance/observation-management-procedure/) issue will be opened to identify the root cause and perform remediation. Remediation will include steps such as gaining an understanding of why they were changed, revert the settings back to being in compliance, and reviewing any MRs that were merged without proper approval or segregation of duties (SOD) in place to ensure no malicious changes were included obtaining retroactive approvals if needed. Security Compliance will also loop in the individual(s) who made the change as well as the management of the team that owns/works on the project in order to help identify the root cause of the changes and to work towards implementing workflow changes so that the settings do not need to be changed in order for teams to complete development work.
 
+### Further Security Recommendations
+
+1. Do not store variables in plaintext or rely on Masked environment variables for comprehensive secret management. Instead setup an [external secret storage solution](/handbook/security/external-secret-storage)
+1. Strongly consider [creating a threat model](/handbook/security/product-security/application-security/threat-modeling/howto/) for the project.
+1. Consider requesting an [AppSec review](/handbook/security/product-security/application-security/appsec-reviews/) when the project is more established.
+1. Reach out to the AppSec team (`@gitlab-com/gl-security/appsec` and `#sec-appsec`) for any further questions.
+
 ## References
 
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/#creating-a-new-project) (for guidance on creating a new project)
