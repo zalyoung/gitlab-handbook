@@ -13,13 +13,11 @@ To collaborate on the content in this page, please either submit an MR (preferre
 
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. When in doubt, search DBT!
 
-- [Data guides to data subject areas](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) managed by the Data team.
+- [Data Guides](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization; managed by the Data team.
 
 - [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
 
 - [Table of data sources and refresh schedules](/handbook/enterprise-data/platform/#data-sources) to understand standard load times for each data source.
-
-- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization.
 
 ## Data Model Categories
 
@@ -142,7 +140,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 #### FAQs
 
-> Why doesn't the metric that my team implememented show up in the [metrics dictionary](https://metrics.gitlab.com/snowplow)?
+> Why doesn't the metric that my team implemented show up in the [metrics dictionary](https://metrics.gitlab.com/snowplow)?
 
 - In order to show up in the [metrics dictionary](https://metrics.gitlab.com/snowplow), every event needs a [.yml file](https://gitlab.com/gitlab-org/gitlab/-/tree/master/config/events). This will not happen automatically and should be created by the engineer that implements snowplow tracking.
 
@@ -191,7 +189,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- If you are wondering if Snowplow events are implemented in a certain area of the product, the [Snowplow Inspector](https://chrome.google.com/webstore/detail/snowplow-inspector/maplkdomeamdlngconidoefjpogkmljm?hl=en) is a good complimentary resource to the [Metrics Dicitonary](https://metrics.gitlab.com/) which is not exhaustive. The Snowplow Inspector will not show server side events.
+- If you are wondering if Snowplow events are implemented in a certain area of the product, the [Snowplow Inspector](https://chrome.google.com/webstore/detail/snowplow-inspector/maplkdomeamdlngconidoefjpogkmljm?hl=en) is a good complimentary resource to the [Metrics Dictionary](https://metrics.gitlab.com/) which is not exhaustive. The Snowplow Inspector will not show server side events.
 
 - We do not use snowplow on our self-managed instances, only on GitLab.com
 
@@ -207,7 +205,7 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 > What is a namespace?
 
-- Starting with the basics! GitLab has two categories of namespaces; groups and projects. In general, a namespace provides one place to organize your related projects. Read more [here](https://docs.gitlab.com/user/namespace/). Namespaces exist within GitLab SaaS and Self-Managed products, but to product the privacy of our Self-Managed users, we only collect identifiable namespace data for SaaS.
+- Starting with the basics! GitLab has two categories of namespaces; groups and projects. In general, a namespace provides one place to organize your related projects. Read more [here](https://docs.gitlab.com/user/namespace/). Namespaces exist within GitLab SaaS and Self-Managed products, but to protect the privacy of our Self-Managed users, we only collect identifiable namespace data for SaaS.
 
 > What types of namespaces do we normally analyze?
 
@@ -258,9 +256,9 @@ GitLab Duo is a suite of AI-powered features including Code Suggestions, Chat, a
 
 #### FAQs
 
-> When can we report total deduped users across all Duo features?
+> When can we report total de-duped users across all Duo features?
 
-- Complete deduped totals across all features and deployment types are only available starting August 3rd, 2024. Historical data availability varies by feature and deployment type.
+- Complete de-duped totals across all features and deployment types are only available starting August 3rd, 2024. Historical data availability varies by feature and deployment type.
 
 > How is Duo usage attributed to customers?
 

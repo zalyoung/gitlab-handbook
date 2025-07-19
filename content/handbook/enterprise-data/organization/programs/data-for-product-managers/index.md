@@ -12,7 +12,7 @@ The user-facing end of GitLab's data stack consists of our BI Tool, Tableau, whi
 
 Here are some useful links that we recommend for you to bookmark:
 
-- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/): Helpful guides on how to use our data
+- [Data Guides](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/): Helpful guides on how to use our data
 - [DBT documentation](https://dbt.gitlabdata.com/#!/overview): Data model documentation
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/): Service Ping metric definitions and metadata
 - [Service Ping documentation](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
@@ -111,15 +111,14 @@ If your analytics needs for your new or recently modified feature are met by the
      - Ensures consistency with GitLab's tracking standards
 
    Option B: Use Usage Data Instrumentation Issue Template to outline metric requirements
-   - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
-  
-   Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) to review metric properties
+   - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation) 
+   - Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) to review metric properties
 
 1. Implement Tracking
 
    **Owner: Engineer**
    - Create an Internal Events Tracking Merge Request (MR)
-   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
+   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue
 
 1. Test and Validate
 

@@ -3,7 +3,7 @@ title: "Data Governance"
 description: "Data Governance Processes and Workflows at GitLab"
 ---
 
-- [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog)
+- [Data Guides](/handbook/enterprise-data/data-governance/data-catalog)
 - [Data Quality](/handbook/enterprise-data/data-governance/data-quality)
 - [Data Management](/handbook/enterprise-data/data-governance/data-management)
 
