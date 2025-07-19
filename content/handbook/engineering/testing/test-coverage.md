@@ -75,6 +75,14 @@ Additionally, a [`Test::Omnibus::UpdateToNext`](https://gitlab.com/gitlab-org/gi
 1. `Test::Omnibus::UpdateToNext` scenario is run with:
    - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from pre-release packages built within the MR to stable releases.
 
+##### Test running in release pipelines
+
+1. `Test::Omnibus::UpdateFromPrevious` scenario is run with:
+   - [Monthly](https://gitlab.com/gitlab-org/release-tools/-/blob/8e91ba8c1a53e8f7cf3ec58b941c72b3258cd941/lib/tasks/monthly.rake#L254)
+     and
+     [Patch](https://gitlab.com/gitlab-org/release-tools/-/blob/4bb7fc754df6d32c372f3683dfada93525a31a29/lib/tasks/security.rake#L415)
+     release pipelines to test upgrades from the current latest released version to the upcoming version.
+
 #### Performance environments nightly upgrades
 
 Framework and Performance Enablement teams support test performance environments listed on [Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/#how-to-interpret-the-results) page.
