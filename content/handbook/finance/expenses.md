@@ -283,7 +283,7 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 
 - Parking, Tolls, Taxi, Uber pertaining to travel to/from GitLab events, clients, or conferences is acceptable. Team Members are not permitted to expense both fuel/EV charging fees and mileage.
 - Full Description of Trip should be stated in the Description box.
-- Ground Transportation (taxis, ubers) at $300 limit per round trip and $150 limit for single trip.
+- Ride-share/Taxis at $300 limit per round trip and $150 limit for single trip. [Uber for Business](https://drive.google.com/file/d/1tMDnAS6vsyN2nZJ9VbdRk4Mgb6OkWzNj/view?usp=sharing) is Gitlab's company preferred ride-share platform. Visit link for more information.
 - Parking and tolls  at $150 limit per day.
 - All items booked which are over the limits set will need to have manager approval attached to the claim.
 
