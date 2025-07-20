@@ -115,7 +115,6 @@ At this point, the backup is now stored in your object storage. Take note of the
     ```bash
     kubectl delete pods -lapp=sidekiq,release=gitlab
     kubectl delete pods -lapp=webservice,release=gitlab
-    kubectl delete pods -lapp=toolbox,release=gitlab
     ```
 
 1. To start the restore process, locate the name of your `toolbox` pod.
