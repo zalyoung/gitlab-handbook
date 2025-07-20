@@ -100,7 +100,7 @@ The expectation is that all team members are provided coaching and feedback prio
 
 ## Coaching
 
-[Coaching](/handbook/leadership/coaching/) is the preferred option to deal with underperformance and is the first step in addressing performance issues.
+Informal [coaching](/handbook/leadership/coaching/) is the preferred option to address team member performance issues, and should be a manager's main focus.
 
 Managers are expected to address performance concerns (skill-based or will-based) in a timely manner. Managers should address concerns verbally during one-on-one meetings or in impromptu private coaching sessions with their team members. These conversations must be documented by the manager and shared with the team member so that both have access  to the record of the discussion and are in alignment on where improvements need to be made and within a specified timeframe. Documentation should be brief (a few key bullet points or a paragraph), and will normally be sent via email to the team member following the verbal discussion. See the example coaching email below:
 
@@ -117,11 +117,11 @@ Thanks,
 
 ---
 
-Underperformance feedback should be included on your [1-1 agenda](/handbook/leadership/1-1/suggested-agenda-format/). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success.  Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more.  When discussing performance, it's important that the manager and team member are aligned on the expectations moving forward.  It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.be critical.
-
-There may be extenuating circumstances that need to be taken into consideration during the performance management process.  This is an area where the Team Member Relations Team can provide a sounding board or a needed perspective.
+Underperformance feedback should be included on your [1-1 agenda](/handbook/leadership/1-1/suggested-agenda-format/). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success. Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more. When discussing performance, it's important that the manager and team member are aligned on the expectations moving forward. It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.
 
 ## Written Performance Letters and Performance Improvement Plans
+
+There may be extenuating circumstances that need to be taken into consideration during the performance management process. This is an area where the Team Member Relations Team can provide a sounding board or a needed perspective.
 
 In some cases, a Written Performance Letter or Performance Improvement Plan may be considered as an option for performance remediation (and could be a requirement depending on local legislation).  Managers should work with Team Member Relations to understand the use of these tools and any statutory requirements based on the location.
 
