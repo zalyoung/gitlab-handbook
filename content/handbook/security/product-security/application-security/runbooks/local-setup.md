@@ -16,6 +16,57 @@ A typical workflow might be to find the `Controller` action which kicks off the 
 
 Watching logs can be helpful: `tail -f gitlab/log/development.log`.
 
+## Local setup for Duo (LSP and AI Gateway with VS Code)
+
+The following sequence illustrates how an IDE extension authenticates with the GitLab instance and later Duo Workflow Service.
+
+```mermaid
+sequenceDiagram
+    participant ext as Editor Extension
+    participant lsp as GitLab Language Server
+    participant sm as GitLab
+    participant aigw as AI Gateway (GitLab-hosted)
+    participant dws as Duo Workflow Service (GitLab-hosted)
+
+    ext-->>lsp: Send workspace configuration
+    par Fetch Personal Access Token info
+        lsp->>+sm: GET /api/v4/personal_access_tokens/self
+        sm->>-lsp: 200 OK {...}
+    and Fetch OAuth token info
+        lsp->>+sm: GET /oauth/token/info
+        sm->>-lsp: 200 OK {...}
+        Note right of lsp: Store OAuth access token until just before expiry
+    end
+
+    loop Every ~120 minutes
+        lsp->>+sm: GET /api/v4/ai/duo_workflows/direct_access
+        sm->>+dws: Send GenerateToken request (gRPC)
+        Note right of dws: duo_workflow_service/server.py generates a signed JWT through the Cloud Connector library code.
+        dws->>-sm: ServiceResponse.success
+        sm->>-lsp: 200 OK {...}
+        Note right of lsp:  Store direct access details for Duo Workflow Service for ~120 minutes
+    end
+```
+
+### GDK, AI Gateway and Duo Workflow setup
+1. Ensure you have a working [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit) instance.
+1. Ensure you have [gcloud CLI](https://cloud.google.com/sdk/docs/install) installed.
+1. Get a [Self-Managed Ultimate license](https://handbook.gitlab.com/handbook/support/internal-support/#gitlab-plan-or-license-for-team-members) and register the license in your GDK.
+1. Ensure you have Anthropic API access. You can verify this in Okta by searching for a tile titled "Anthropic Console - Corporate". If you do not have Anthropic API access, open an AR issue. Example [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/36898).
+1. Ensure you have a Fireworks API key. You can find this in the Security 1Password vault. Search for "Fireworks development key".
+1. Ensure you have access to GCP. Go to the Google Cloud console. Toward the left of the top navigation bar, select the project picker and then select ALL. You should see `ai-enablement-dev-69497ba7` in the list. If you do not have access, complete the [GCP access request](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/new?issuable_template=gcp_group_account_iam_update_request) template.
+1. Follow the [AI Gateway setup instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitlab_ai_gateway.md#set-up-the-ai-gateway).
+1. Confirm that the service is running with `gdk status gitlab-ai-gateway` / `gdk tail gitlab-ai-gateway`.
+1. Set up [Duo Workflow](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/duo_workflow.md?ref_type=heads#set-up-duo-workflow).
+
+### VS Code and LSP
+1. Install [VS Code](https://code.visualstudio.com/).
+1. Familiarize yourself with [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow), the official VS Code extension for GitLab.
+1. Setup up your [VS Code extension development environment](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/CONTRIBUTING.md?ref_type=heads#configuring-development-environment). This is where the code for GitLab Workflow lives.
+1. Clone the [gitlab-lsp project](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp) in the same path as your VS Code extension project.
+1. Follow the docs to [link the VS Code extension to the Language Server](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/docs/developer/language-server.md?ref_type=heads).
+
+
 ## Install a testing proxy
 
 Your role might not require you to do "penetration testing", but having access to a testing proxy that lets you intercept and manipulate requests can help with reproducing HackerOne issues.
