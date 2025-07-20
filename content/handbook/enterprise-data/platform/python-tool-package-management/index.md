@@ -66,6 +66,7 @@ There are several images we are using 🐍`Python`. Various versions are in use 
 | [dbt-image](https://gitlab.com/gitlab-data/dbt-image/-/blob/main/src/Dockerfile)             | `3.10.3`       | `python:3.10.3`                                                    | `TBA`     | `Data Platform`       |
 | [gitlab-data-meltano](https://gitlab.com/gitlab-data/gitlab-data-meltano/-/blob/main/Dockerfile?ref_type=heads)   | `3.8`          | `meltano/meltano:v2.16.1-python3.8`                                | `TBA`     | `Data Platform`       |
 | [mlfow-infra](https://gitlab.com/gitlab-data/mlflow-infra/-/blob/main/mlflow_image/Dockerfile?ref_type=heads)     | `3.8`          | `python:3.8`                                                       | `TBA`     | `Data Scientists`     |
+| [ci-streamlit-image](https://gitlab.com/gitlab-data/ci-streamlit-image)     | `3.12`          | `python:3.12-slim`                                                       | `@rbacovic`     | `Data Platform`     |
 
 <details><summary>Dependency graph (Click to expand)</summary>
 
@@ -77,6 +78,7 @@ flowchart LR
     P38  --> pip
     P388 --> pip
     P310 --> pip
+    P312 --> poetry
     pip --> airflow-image
     pip --> ci-python-image
     pip --> data-image
@@ -84,6 +86,7 @@ flowchart LR
     pip --> mlfow-infra
     pip --> gitlab-data-meltano
     pip --> permifrost
+    poetry --> ci-streamlit-image
 
     data-image      --Inherit--> gitlab-data-utils
     data-image      --Inherit--> analytics
@@ -94,10 +97,12 @@ flowchart LR
         P38[Python 3.8]
         P388[Python 3.8.8]
         P310[Python 3.10.3]
+        P312[Python 3.12]
     end
 
     subgraph Package manager
        pip[pip]
+       poetry[poetry]
     end
 
     subgraph Images
@@ -110,6 +115,7 @@ flowchart LR
         mlfow-infra
         gitlab-data-meltano
         permifrost
+        ci-streamlit-image
     end
 
     subgraph DEV [Development environment]
