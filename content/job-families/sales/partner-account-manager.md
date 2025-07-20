@@ -10,6 +10,8 @@ A strong partner ecosystem is crucial in the success and growth of  GitLab's bus
 | [Ecosystem Sales Manager](#ecosystem-sales-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Ecosystem Sales Manager](#senior-ecosystem-sales-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Staff Ecosystem Sales Manager](#staff-ecosystem-sales-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Team Lead, Ecosystem Sales](#team-lead-ecosystem-sales) | [Grade 7 or 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Manager, Ecosystem Sales](#manager-ecosystem-sales) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Ecosystem Sales](#senior-manager-ecosystem-sales) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Director, Ecosystem  Sales](#director-ecosystem-sales) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Director, Ecosystem Sales](#senior-director-ecosystem-sales) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
@@ -30,7 +32,7 @@ All individual contributors are referred to as “Ecosystem Sales Managers” or
 - Contribute to quarterly business reviews (QBRs) within your assigned territory.
 - Participate in annual planning within the Ecosystem organization.
 - Provide cloud-related weekly forecasts and/or progress reports.
-- Escalate critical business issues to Ecosystem team management.
+- Escalate critical business issues to Ecosystem team management.^
 - Prepare presentations, territory plans and reports as required.
 - Coordinate and collaborate with Finance, Partner Operations, Sales Operations, and Sales as needed.
 
@@ -155,9 +157,52 @@ All Ecosystem Sales leaders hare the same primary requirements, responsibilities
 - Ability to use GitLab
 - Ability to travel up to 50% and comply with the company's travel policy.
 
+### Team Lead, Ecosystem Sales
+
+The Team Lead, Ecosystem Sales typically reports to the Director, Ecosystem Sales.
+
+#### Job Grade
+
+The Team Lead, Ecosystesm Sales is a [grade 7 or 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}) and is typically aligned to the team member's grade level as an individual contributor.
+
+#### Team Lead Job Requirements
+
+- Extends that of the Senior ESM requirements
+- Reports on metrics (e.g. # of new logos sourced, # of Service Attach registration, # of Hyperscaler Co-sell engagements # of completed business plans)  to measure team performance; identify gaps and correct deficiencies where necessary
+- Ensures that the Partner Plan is aligned with and supports the corporate revenue goal
+- Drives, supervise and executes the business of the assigned ESM team under the leadership of the Director, Ecosystem Sales
+- Supervises a team of 2 - 3 Ecosystem Sales Managers, fosters a high impact,, collaborative and engaging positive team environment
+
+#### Team Lead Expectations
+
+- Oversees and supports a small group of Ecosystem Sales Managers (ESMs) in their day-to-day activities.
+- Acts as a coach and mentor for assigned ESMs, helping them to improve their performance, develop skills (e.g. Strategic skills for business planning or data analysis, relationship-building skills for negotiation or communication or operational skills like process optimization or project management) and achieve their objectives.
+- Facilitates alignment among internal stakeholders for the assigned (sub)region to ensure smooth operations and coordinated efforts.
+- Provides input to the manager / leader of the region regarding team dynamics, operational challenges and development opportunities.
+- Leads operational initiatives, such as tracking team KPIs, coordinating execution of regional strategies, and ensuring adherence to processes.
+- Does not handle final decisions around pay, promotions, or disciplinary actions, but provides feedback to inform these discussions, which are led by the Director.
+
+#### Team Lead vs. Manager
+
+- A team lead focuses on day-to-day operations and directly supervise a specific group of ESMs but the reporting line in Workday, including discussions around pay, promotions and other HR related tasks lay still with the Director, Ecosystem Sales (some of these conversations will happen together with the team lead)
+- Team lead is a coach for the assigned ESMs where the Director provides coaching for the Team lead
+- Team lead is responsible for aligning all internal stakeholders for the assigned (sub)region, Manager is responsible for the overall strategy and provide guidance and directions for the whole region
+
+### Manager, Ecosystem Sales
+
+The Manager, Ecosystem Sales typically reports to the Director, Ecosystem Sales.
+
+#### Job Grade
+
+The Manager, Ecosystesm Sales is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+#### Manager Expectations
+
+To be added at a later date
+
 ### Senior Manager, Ecosystem Sales
 
-The Senior Manager, Ecosystem   Sales typically reports to the Vice President, Ecosystem Sales.
+The Senior Manager, Ecosystem Sales typically reports to the Vice President, Ecosystem Sales.
 
 #### Job Grade
 
