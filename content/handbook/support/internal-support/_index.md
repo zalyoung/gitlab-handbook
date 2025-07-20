@@ -20,6 +20,7 @@ Please read the next sections on [GitLab Support's Purpose](#gitlab-supports-pur
 | Customer is asking about a ticket | Check the status of the ticket in Zendesk with your Light Agent account. Reach out to the assigned Support Engineer, or add an internal note with the customers ask. If there is a need, you can open a [Support Ticket Attention Requestion (STAR)](#i-want-to-escalate-a-ticket). If no ticket, [open one](#requesting-support-for-customers) .|
 | My customer has [an emergency](https://about.gitlab.com/support/definitions/#Definitions%20of%20Support%20Impact)! | The customer must send a **new** [email](https://internal.gitlab.com/handbook/support/workflows/raising-an-emergency) (internal) to [trigger an emergency](https://about.gitlab.com/support/#how-to-trigger-emergency-support). If not an emergency, you can [STAR it](#i-want-to-escalate-a-ticket). |
 | My customer has a subscription / license issue  | If a [ticket with the customer](#requesting-support-for-customers) is not possible, open [an internal request](#internal-requests).  |
+| I have a time-sensitive request that is not covered elsewhere | Ask in [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) or [engage](/handbook/support/on-call.md#engaging-the-on-call-manager) the [Support Manager On-Call](/handbook/support/workflows/support_manager-on-call.md). |
 
 This is not an exhaustive list. For anything else you believe the Support team covers, please check the table of contents or search this page.
 
