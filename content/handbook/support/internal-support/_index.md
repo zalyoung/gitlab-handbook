@@ -134,7 +134,7 @@ If for some reason self-provisioning is not working, team members should request
 If a GitLab team member would like an Ultimate license for GitLab.com, there are two options:
 
 1. Request an Ultimate group license for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request).
-1. [Request an Ultimate license for your personal namespace](/handbook/total-rewards/incentives/#gitlab-ultimate).
+1. [Request an Ultimate license for your personal namespace](/handbook/total-rewards/incentives/#gitlab-ultimate-with-duo-enterprise).
 
 ### Contacting users about GitLab incidents or changes
 
