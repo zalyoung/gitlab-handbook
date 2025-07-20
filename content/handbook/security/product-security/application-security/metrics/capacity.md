@@ -49,6 +49,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](/handbook/security/critical-projects/) |
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
+| AppSecWorkType::AppSecNotInvolved | Used by default on all MR templates to indicate AppSec wasn't involved |
 
 ### Work impacted by SIRT incidents
 
