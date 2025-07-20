@@ -315,6 +315,9 @@ Changes to the backup policy (including adding/removing members) can be made by 
 In the event that a concurrent emergency comes through while you are still working on the current emergency:
 
 1. **You**: **Escalate** the page, instead of acknowledging/resolving it. The Support Manager is responsible for finding an engineer to own the new emergency page.
+   1. Select `Escalate` from the More actions dropdown list, which will page `Support Managers`. The page will be reassigned to the Support Manager.
+   1. Add a note if needed, optional - the Support Manager is monitoring for your page.
+   1. Click Confirm to send.
 1. **Support Manager**: Assess the situation. It's possible to [initiate a page of the backup pool](/handbook/support/workflows/support_manager-on-call) to request assistance from backup engineers if the situation calls for it.
 1. **Backup Support Engineer**: Acknowledge and resolve the emergency page to indicate that you are assisting the customer with the case.
 

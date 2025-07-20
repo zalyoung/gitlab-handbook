@@ -47,19 +47,17 @@ See more examples of [situations that might be emergencies](/handbook/support/wo
 
 The APAC region has a pool of [**backup engineers**](/handbook/support/workflows/customer_emergencies_workflows) that are available to reach out to during the weekend on-call hours, in the event that a concurrent emergency occurs.
 
-If you are the Support Manager on-call and a concurrent emergency occurs, you will be paged by the Support Engineer On-call escalated via Pagerduty. You will then be responsible for checking the current situation and determining if the **backup engineers** need to be paged. If so, the Support Manager will then **manually page** the **backup engineers**. At this point, the backup engineers are all pinged. Only one backup engineer needs to acknowledge the page and lend assistance, and there is no expectation that **backup engineers** will be available to respond to a page.
+If you are the Support Manager on-call and a concurrent emergency occurs, you will be paged by the Support Engineer On-call escalated through Pagerduty. You will then be responsible for checking the current situation and determining if the **backup engineers** need to be paged. If so, the Support Manager will then **manually page** the **backup engineers**. At this point, the backup engineers are all pinged. Only one backup engineer needs to acknowledge the page and lend assistance, and there is no expectation that **backup engineers** will be available to respond to a page.
 
-To page the backup pool, you can:
+The Support Engineer On-call will [escalate the page directly to the Support Manager On-Call](/handbook/support/workflows/customer_emergencies_workflows/#escalate-to-initiate-page-to-backup-engineers).
 
-1. Use the `/pd trigger` command in any Slack channel to create a new incident to notify the current list of support engineers; or
-1. Create a `+ New Incident` directly in PagerDuty.
-
-When prompted, update:
-
-- **Impacted Service:** Customer Emergencies - APAC Backup Pool
-- **Title:** Duplicate emergency - ZD#123456
-- **Description:** Provide a brief summary of the emergency.
-- *Leave Assign To: and Priority: blank.*
+1. When an emergency is escalated, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
+1. `Acknowledge` the alert in PagerDuty or Slack. This means that you received the escalated page, and are currently determining if the situation qualifies as an emergency.
+1. If the situation qualifies, Reassign to the pool of [**backup engineers**](/handbook/support/workflows/customer_emergencies_workflows):
+   1. Select `Reassign` from the More actions dropdown list
+   1. Search for and select `Customer Emergencies - APAC Backup Pool` Escalation policy from the dropdown list
+   1. Don't modify any other options
+   1. Scroll down and click Reassign.
 
 *For further details, please refer to [STM#4583](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4583).*
 
