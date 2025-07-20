@@ -105,7 +105,7 @@ flowchart TD
     subgraph Phase4["Phase 4: Get private key from KMS"]
         ExternalKMS["External KMS"]
     end
-    
+
     %% Relationships between components with labeled edges
     Runner -->|"Request job payload<br>with proof of identity"| RailsBackend
     RailsBackend -->|"Return job payload"| Runner
@@ -113,17 +113,17 @@ flowchart TD
     BuildJob -->|"Upload"| Artifacts
     BuildJob -->|"Request Dependencies"| VirtualRegistry
     VirtualRegistry <-->|"Fetch/Track"| Dependencies
-    
+
     %% Phase 1 flow for early implementation
     VirtualRegistry -->|"Provide Dependency Data"| RailsBackend
     RailsBackend <-->|"Query job parameters"| DB
-    
+
     RailsBackend -->|"Send Provenance<br>Statement"| GlgoService
     GlgoService -.->|"Future Integration"| ExternalKMS
     GlgoService -->|"Return Signed<br>Attestation"| RailsBackend
     GlgoService -->|"Publish Attestation<br>Digest"| Rekor
     RailsBackend -->|"Upload"| PermanentAttestation
-    
+
     %% Apply styles
     class FutureWork phaseStyle
     class Phase4 phaseStyle
@@ -534,3 +534,4 @@ verify_provenance:
 - [001: Verification Component](decisions/001_verification_component.md) - Verify SLSA provenance attestations in a dedicated CI/CD component.
 - [002: Provenance Generation Location](decisions/002_provenance_generation_location.md) - Generate SLSA provenance statements in the GitLab Rails backend.
 - [003: Attestation Generation & Signing Location](decisions/003_attest_sign_location.md) - Generate and sign SLSA attestation in glgo.
+- [004: Change location of attestation generation to Sidekiq](decisions/004_attestation_in_sidekiq.md) - Bundle cosign with GitLab Rails, perform attestation in GitLab Rails backend.
