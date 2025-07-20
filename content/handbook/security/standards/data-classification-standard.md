@@ -61,6 +61,32 @@ Examples include:
 Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams.  Any Vendors that process Red Data must first undergo a factual and legal analysis that justifies their processing in accordance with our Customer agreements, as well as global privacy and data security laws. For any questions or concerns related to the transmission of Red data between systems, please reach out to @Security-Risk within the #Sec-Assurance channel.
 
 <!-- markdownlint-disable MD022 -->
+#### PURPLE
+{style="color: #800080"}
+<!-- markdownlint-enable MD022 -->
+
+Data related to unpatched high-risk vulnerabilities, actively exploited vulnerabilities, or sensitive security operations that require special handling. While requiring strong protection, this data has different operational needs than RED data, particularly regarding:
+
+- Access during incident response
+- Collaboration across R&D teams
+- Mobile device access for team members
+- Evolution to lower classification levels after remediation
+
+Examples include:
+
+- XSIRT incidents
+- Actively exploited vulnerabilities
+- High-risk unpatched vulnerabilities
+- Sensitive security operations details
+
+Access Requirements:
+
+- Restricted to authorized team members based on need-to-know
+- May require managed devices or specific security controls
+- Can be accessed via approved communication channels
+- Special provisions for incident response teams
+
+<!-- markdownlint-disable MD022 -->
 #### ORANGE
 {style="color: #fd7e14" #orange}
 <!-- markdownlint-enable MD022 -->
@@ -77,7 +103,6 @@ Examples include:
 - GitLab Intellectual property
 - Customer metadata
 - Audit logs
-- Open security incidents, vulnerabilities and risks
 
 {{% alert title="Personal Data Exception" %}}
 While Personal Data is classified as Orange, there is an exception for GitLab Team Member names, their work email addresses, and their GitLab usernames, which are classified as Yellow. These two Personal Data elements are not considered high-risk or sensitive types of Personal Data. Given GitLab's value of [transparency](/handbook/values/#transparency) and because GitLab is [public by default](/handbook/values/#public-by-default), most Team Member names are available [publicly](/handbook/company/team/#close-modal). As they are often processed in support of everyday corporate operations, the application of Orange-level controls for these lower risk data elements would disproportionately inhibit GitLab's business functions.
